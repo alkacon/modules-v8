@@ -97,30 +97,7 @@
 						
 			<div id="list_center_pages">
 				
-				<c:choose>
-				<c:when test="${!cms.requestContext.currentProject.onlineProject && (innerInfo.resultSize > innerInfo.pageSize)}">
-					<c:set var="pages" value="${innerInfo.resultSize / itemsperpage}" />
-					<c:if test="${(innerInfo.resultSize % itemsperpage) > 0}">
-						<c:set var="pages" value="${pages + 1}" />
-					</c:if>
-					<c:forEach begin="1" end="${pages}" varStatus="status">
-					<div id="list_center_page_${status.count}"<c:if test="${status.count > 1}"> style="display: none;"</c:if>>
-						<%-- Show the links in the given path --%>
-						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.v8.list/elements/center_singlepage.jsp:6693efd7-854a-11e0-8012-c96c1b6c43a9)">
-							<cms:param name="pageUri" value="${cms.requestContext.uri}" />
-							<cms:param name="__locale" value="${cms.locale}" />
-							<cms:param name="imgPos" value="${imgpos}" />
-							<cms:param name="imgWidth" value="${imgwidth}" />
-							<cms:param name="itemsPerPage" value="${itemsperpage}" />
-							<cms:param name="collectorParam" value="${list.parameter}" />
-							<cms:param name="pageIndex" value="${status.count}" />
-							<cms:param name="listConfig" value="${cms.element.sitePath}" />
-						</cms:include>
-					</div>
-					</c:forEach>
-				</c:when>
-				<c:otherwise>
-					<div id="list_center_page_1">
+				<div id="list_center_page_1">
 						<%-- Show the links in the given path --%>
 						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.v8.list/elements/center_singlepage.jsp:6693efd7-854a-11e0-8012-c96c1b6c43a9)">
 							<cms:param name="pageUri" value="${cms.requestContext.uri}" />
@@ -133,8 +110,7 @@
 							<cms:param name="listConfig" value="${cms.element.sitePath}" />
 						</cms:include>
 					</div>
-				</c:otherwise>
-				</c:choose>
+				
 			</div>
 			
 			<c:if test="${innerInfo.resultSize > innerInfo.pageSize}">

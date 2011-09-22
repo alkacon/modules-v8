@@ -24,7 +24,7 @@
 	String oldUri = cms.getRequestContext().getUri();
 	cms.getRequestContext().setUri(pageUri);
 %>
-
+<cms:editable provider="org.opencms.workplace.editors.directedit.CmsAdvancedDirectEditProvider" />
 <fmt:setLocale value="${cms.locale}" />
 
 	<cms:contentload collector="singleFile" param="%(param.listConfig)">
@@ -46,7 +46,7 @@
 		<c:if test="${param.pageIndex > 1}">
 			<c:set var="listeditable" value="false" />
 		</c:if>
-		<cms:contentload collector="${listbox.value['Collector']}" param="${list.parameter}" editable="${listeditable}" pageSize="%(param.itemsPerPage)" pageIndex="%(param.pageIndex)" pageNavLength="5" >
+		<cms:contentload collector="${listbox.value['Collector']}" param="${list.parameter}" editable="true" pageSize="%(param.itemsPerPage)" pageIndex="%(param.pageIndex)" pageNavLength="5" >
 						
 			<cms:contentaccess var="resource" />
 			<c:set var="entry" value="${list.mappedEntry[resource.rawContent]}" />
