@@ -116,7 +116,7 @@
 			<c:if test="${innerInfo.resultSize > innerInfo.pageSize}">
 				<c:choose>
 					<c:when test="${cms.edited}" >
-						<div class="boxbody_listentry"><fmt:message key="v8.list.pagination.reload" /></div>
+						<div class="boxbody_listentry" style="border: solid 1px red;"><fmt:message key="v8.list.pagination.reload" /></div>
 					</c:when>
 					<c:otherwise>
 						<div class="boxbody_listentry"><div id="pagination" class="pagination"></div></div>
