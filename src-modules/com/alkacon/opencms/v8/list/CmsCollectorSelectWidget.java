@@ -49,7 +49,7 @@ import java.util.List;
 public class CmsCollectorSelectWidget extends CmsSelectWidget {
 
     /**
-     * Creates a new instance of the feed select widget.<p>
+     * Creates a new instance of the collector select widget.<p>
      */
     public CmsCollectorSelectWidget() {
 
@@ -57,7 +57,7 @@ public class CmsCollectorSelectWidget extends CmsSelectWidget {
     }
 
     /**
-     * Creates a new instance of the feed select widget.<p>
+     * Creates a new instance of the collector select widget.<p>
      * 
      * @param configuration the widget configuration
      */
@@ -68,7 +68,7 @@ public class CmsCollectorSelectWidget extends CmsSelectWidget {
     }
 
     /**
-     * Creates a new instance of the feed select widget.<p>
+     * Creates a new instance of the collector select widget.<p>
      * 
      * @param configuration the widget configuration
      */
@@ -92,7 +92,7 @@ public class CmsCollectorSelectWidget extends CmsSelectWidget {
     @Override
     protected List<CmsSelectWidgetOption> getSelectOptions() {
 
-        // for the test case this method needs to be in the feed package
+        // for the test case this method needs to be in the list package
         return super.getSelectOptions();
     }
 
