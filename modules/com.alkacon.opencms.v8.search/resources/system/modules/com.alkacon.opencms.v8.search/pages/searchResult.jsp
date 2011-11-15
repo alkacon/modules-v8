@@ -82,7 +82,7 @@
 	
 	<!-- START: Pagination -->
 	<c:if test="${fn:length(search.pageLinks)>0}">
-		<div class="pagination">
+		<div class="search-result-pagination">
 			<c:choose>
 				<c:when test="${!empty search.previousUrl}">
 					<a href="<cms:link><c:out value='${fn:replace(search.previousUrl, "action=", "searchaction=")}'/></cms:link>"><fmt:message key="search.previous" /></a>
