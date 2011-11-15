@@ -928,6 +928,10 @@
 					<value><![CDATA[/system/modules/com.alkacon.opencms.v8.template3/resources/css/style_editor.css]]></value>
 				</property>
 				<property>
+					<name>container.info</name>
+					<value><![CDATA[functionDetail=centercontainer]]></value>
+				</property>
+				<property>
 					<name>template.image</name>
 					<value><![CDATA[/system/modules/com.alkacon.opencms.v8.template3/resources/images/template.png]]></value>
 				</property>

@@ -12,7 +12,7 @@
 			<div class="boxbody"><fmt:message key="search.configerror.message" /></div>
 		</c:when>
 		<c:otherwise>
-			<c:set var="formlink"><cms:link>${param.searchformlink}</cms:link></c:set>
+			<c:set var="formlink">${cms.functionDetail['searchresult']}</c:set>
 			<h4><fmt:message key="search.title" /></h4>
 			<div class="boxbody">
 			<form id="searchFormSide" name="searchForm" action="${formlink}" method="post">

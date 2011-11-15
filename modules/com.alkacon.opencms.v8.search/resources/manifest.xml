@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.0.0</opencms_version>
-		<createdate>Wed, 17 Aug 2011 11:50:23 GMT</createdate>
+		<opencms_version>8.0.3</opencms_version>
+		<createdate>Tue, 15 Nov 2011 11:33:17 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>OpenCms 8 types</group>
 		<class/>
 		<description><![CDATA[Provides a search configuration resource type that can be used in OpenCms 8 templates.]]></description>
-		<version>8.0.2</version>
+		<version>8.0.3</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -33,10 +33,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>fdb3ead8-c72c-11e0-a3d5-7b2444d59c19</uuidstructure>
-			<datelastmodified>Mon, 15 Aug 2011 10:54:47 GMT</datelastmodified>
+			<uuidstructure>37719bd1-0ac6-11e1-bf0a-1dbaf5c92a95</uuidstructure>
+			<datelastmodified>Wed, 09 Nov 2011 11:30:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 15 Aug 2011 10:54:47 GMT</datecreated>
+			<datecreated>Wed, 09 Nov 2011 11:30:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -55,10 +55,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>002c1704-c72d-11e0-a3d5-7b2444d59c19</uuidstructure>
-			<datelastmodified>Mon, 15 Aug 2011 10:54:51 GMT</datelastmodified>
+			<uuidstructure>3821ff4d-0ac6-11e1-bf0a-1dbaf5c92a95</uuidstructure>
+			<datelastmodified>Wed, 09 Nov 2011 11:30:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 15 Aug 2011 10:54:51 GMT</datecreated>
+			<datecreated>Wed, 09 Nov 2011 11:30:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -81,6 +81,30 @@
 			<datelastmodified>Wed, 27 Apr 2011 15:22:54 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 27 Apr 2011 15:22:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.v8.search/.config</source>
+			<destination>system/modules/com.alkacon.opencms.v8.search/.config</destination>
+			<type>module_config</type>
+			<uuidstructure>a11b76e2-0f74-11e1-a58d-1dbaf5c92a95</uuidstructure>
+			<uuidresource>a11b76e3-0f74-11e1-a58d-1dbaf5c92a95</uuidresource>
+			<datelastmodified>Tue, 15 Nov 2011 10:33:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 10:28:59 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -268,6 +292,43 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>system/modules/com.alkacon.opencms.v8.search/functions</destination>
+			<type>folder</type>
+			<uuidstructure>e12ea9b0-0f74-11e1-a58d-1dbaf5c92a95</uuidstructure>
+			<datelastmodified>Tue, 15 Nov 2011 10:30:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 10:30:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.v8.search/functions/searchresult.html</source>
+			<destination>system/modules/com.alkacon.opencms.v8.search/functions/searchresult.html</destination>
+			<type>function</type>
+			<uuidstructure>f598cc52-0f74-11e1-a58d-1dbaf5c92a95</uuidstructure>
+			<uuidresource>f598cc53-0f74-11e1-a58d-1dbaf5c92a95</uuidresource>
+			<datelastmodified>Tue, 15 Nov 2011 11:24:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 10:31:20 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Search result function]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search result]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.opencms.v8.search/pages</destination>
 			<type>folder</type>
 			<uuidstructure>3979fb31-70e2-11e0-bc96-5de1afb8a118</uuidstructure>
@@ -286,7 +347,7 @@
 			<type>jsp</type>
 			<uuidstructure>201fda44-719c-11e0-a47b-ed3609521ba5</uuidstructure>
 			<uuidresource>201fda45-719c-11e0-a47b-ed3609521ba5</uuidresource>
-			<datelastmodified>Thu, 28 Apr 2011 15:45:39 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 10:39:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Apr 2011 13:33:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
