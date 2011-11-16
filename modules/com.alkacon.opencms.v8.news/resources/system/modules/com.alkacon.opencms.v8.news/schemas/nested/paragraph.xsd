@@ -1,7 +1,6 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 	
 	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
-	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.v8.news/schemas/nested/image.xsd"/>
 
 	<xsd:element name="V8NewsParagraphs" type="OpenCmsV8NewsParagraphs"/>
 	
@@ -15,7 +14,7 @@
 		<xsd:sequence>
 			<xsd:element name="Headline" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Text" type="OpenCmsHtml" />			
-			<xsd:element name="Image" type="OpenCmsV8NewsImage" minOccurs="0" />
+			<xsd:element name="Image" type="OpenCmsVfsImage" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
 	</xsd:complexType>
@@ -25,6 +24,7 @@
 			<resourcebundle name="com.alkacon.opencms.v8.news.workplace"/>
 			<layouts>
 				<layout element="Text" widget="HtmlWidget" configuration="height:400px,link,anchor,source,downloadgallery"/>
+				<layout element="Image" widget="VfsImageWidget" configuration="{useformat:true, usedescription: true, formatnames:'left:%(key.v8.news.image.left)|right:%(key.v8.news.image.right)|top:%(key.v8.news.image.top)', formatvalues: ['200x?', '200x?', '450x?']}" />
 			</layouts>
 		</xsd:appinfo>
 	</xsd:annotation>  
