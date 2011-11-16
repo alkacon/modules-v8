@@ -14,7 +14,7 @@
 		<group>OpenCms 8 dev demo</group>
 		<class/>
 		<description><![CDATA[The Content for the Developer Demo Template in OpenCms 8]]></description>
-		<version>8.0.2</version>
+		<version>8.0.3</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[info@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -627,6 +627,143 @@
 					<value><![CDATA[Variables on a container page for Developer Demo Template]]></value>
 				</property>
 			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/dev-demo/dynamic-function-detail</destination>
+			<type>subsitemap</type>
+			<uuidstructure>c68e79fb-0fa2-11e1-b485-71bb13df40eb</uuidstructure>
+			<datelastmodified>Tue, 15 Nov 2011 16:02:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 15:59:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.2758789]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Dynamic function detail demo]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dynamic function detail demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/dynamic-function-detail/index.html</source>
+			<destination>sites/default/dev-demo/dynamic-function-detail/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>c6a18cd0-0fa2-11e1-b485-71bb13df40eb</uuidstructure>
+			<uuidresource>c6a18cd1-0fa2-11e1-b485-71bb13df40eb</uuidresource>
+			<datelastmodified>Wed, 16 Nov 2011 09:24:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 15:59:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dynamic function detail demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/dev-demo/dynamic-function-detail/.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>3cb36153-0fa3-11e1-b485-71bb13df40eb</uuidstructure>
+			<datelastmodified>Tue, 15 Nov 2011 16:02:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 16:02:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/dynamic-function-detail/.content/.config</source>
+			<destination>sites/default/dev-demo/dynamic-function-detail/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>3cb5ab45-0fa3-11e1-b485-71bb13df40eb</uuidstructure>
+			<uuidresource>3cb5ab46-0fa3-11e1-b485-71bb13df40eb</uuidresource>
+			<datelastmodified>Tue, 15 Nov 2011 16:03:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 16:02:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource type configuration]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/dev-demo/dynamic-function-detail/.content/ddarticle</destination>
+			<type>folder</type>
+			<uuidstructure>5b3f818d-0fa3-11e1-b485-71bb13df40eb</uuidstructure>
+			<datelastmodified>Tue, 15 Nov 2011 16:03:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 16:03:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/dynamic-function-detail/.content/ddarticle/ddarticle-00001.html</source>
+			<destination>sites/default/dev-demo/dynamic-function-detail/.content/ddarticle/ddarticle-00001.html</destination>
+			<type>ddarticle</type>
+			<uuidstructure>111ffe6d-0fa7-11e1-b485-71bb13df40eb</uuidstructure>
+			<uuidresource>111ffe6e-0fa7-11e1-b485-71bb13df40eb</uuidresource>
+			<datelastmodified>Wed, 16 Nov 2011 09:13:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 16:30:01 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dynamic Function detail page demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/dev-demo/dynamic-function-detail/.content/function</destination>
+			<type>folder</type>
+			<uuidstructure>7fea1a4f-0fa3-11e1-b485-71bb13df40eb</uuidstructure>
+			<datelastmodified>Tue, 15 Nov 2011 16:04:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 16:04:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DevDemoArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.dev.demo/schemas/article.xsd">
+  <DevDemoArticle language="en">
+    <Title><![CDATA[Dynamic Function detail page demo]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>The dynamic function resource type make it possible to integrade jsp functionality directly on the website. The function element points to the required&nbsp; jsp and can be directly dropped in to the container page.</p>
+<p>A typical use case is to collect data in a form and to send these data to another jsp for further avaluation, e.g. the integration of a search form on all containerpages of the site.</p>
+<p>The result of the avaluation should be displayed in the defined path on the website. Since OpenCms 8.0.3 you can use detail page to define such a result page.</p>
+<p>&nbsp;</p>
+<p>To use the detail page for the function elements follwing steps are required:</p>
+<ul>
+    <li>Definition of the function elements in the module.</li>
+    <li>Configuration of the detail page for the defined function element.</li>
+    <li>Adding the detail page for the function element on the website by using the sitemap editor.</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Configuration of the detail page for a function element</strong></p>
+<ol>
+    <li>Implement the form jsp to be used on all container pages of the website. Use the following value &quot;${cms.functionDetail[&quot;Name of the function detail&quot;]}&quot; as the &quot;action&quot; attribute of the html form.</li>
+    <li>Implement the second jsp, which avaluates the form data and generates the html output to be shown as detail page.</li>
+    <li>Create two function elements using New-Dialog inside of the module, one should point to the form jsp and another to the detail page jsp.</li>
+    <li>Adjust the module configuration to make the detail page known to the sitemap editor. Add a new field to the tab &quot;Function&quot; of the module configration. Set &quot;Name of the function detail&quot; in the field name. this should be the same value as used in the form jsp. Select the function element, which should be used as detail page in the field function.</li>
+    <li>Set the property &quot;continer.info&quot; on the template jsp to following value: functionDetail=centercolumn, where &quot;centercolumn&quot; is the name attribute of the container to show the detail page.</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>Using the detail page for the function element in the website</strong></p>
+<ol>
+    <li>Add the function element with the form using the add wizard somewhere on the website.</li>
+    <li>Open the sitemap editor and use the create page dialog.</li>
+    <li>Go to the tab &quot;Function Pages&quot; and drop the function detail page of your module to the sitemap.</li>
+</ol>
+<p><strong>Compare follwing resources for implementation details:</strong></p>
+<p>&nbsp;/system/modules/org.opencms.dev.demo/.config</p>
+<p>/system/modules/org.opencms.dev.demo/functions/</p>
+<p>/system/modules/org.opencms.dev.demo/pages/simple-calculator-form.jsp</p>
+<p>/system/modules/org.opencms.dev.demo/pages/simple-calculator-result.jsp</p>
+<p>/system/modules/org.opencms.dev.demo/templates/main.jsp</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></content>
+    </Text>
+    <Image/>
+  </DevDemoArticle>
+</DevDemoArticles>
