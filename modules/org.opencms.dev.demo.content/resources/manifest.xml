@@ -225,12 +225,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/.content/.new/default-with-groupcontainer.html</source>
-			<destination>sites/default/dev-demo/.content/.new/default-with-groupcontainer.html</destination>
+			<source>sites/default/dev-demo/.content/.new/default-with-elementgroup.html</source>
+			<destination>sites/default/dev-demo/.content/.new/default-with-elementgroup.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>7c3420b9-812c-11e0-8d0a-0ffe1353a061</uuidstructure>
 			<uuidresource>7c3420ba-812c-11e0-8d0a-0ffe1353a061</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:00 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 14:09:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 18 May 2011 08:54:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -238,7 +238,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Dev Demo Model Containerpage with Group Container]]></value>
+					<value><![CDATA[Dev Demo Model Containerpage with Element Group]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -283,7 +283,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>a4852c3e-812c-11e0-8d0a-0ffe1353a061</uuidstructure>
 			<uuidresource>a4852c3f-812c-11e0-8d0a-0ffe1353a061</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:00 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 13:28:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 18 May 2011 08:55:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -291,7 +291,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Article inside of a left group container.]]></value>
+					<value><![CDATA[Article inside of a left element group.]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -323,7 +323,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>1bfbb9d3-8130-11e0-8d0a-0ffe1353a061</uuidstructure>
 			<uuidresource>1bfbb9d4-8130-11e0-8d0a-0ffe1353a061</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:00 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 13:29:01 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 18 May 2011 09:20:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -331,7 +331,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Article inside of the right group container.]]></value>
+					<value><![CDATA[Article inside of the right element group.]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -358,12 +358,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/default/dev-demo/.content/group-container</destination>
+			<destination>sites/default/dev-demo/.content/element-group</destination>
 			<type>folder</type>
-			<uuidstructure>6d2d9b89-7f88-11e0-87dc-1df1339be1a9</uuidstructure>
-			<datelastmodified>Thu, 18 Aug 2011 14:18:00 GMT</datelastmodified>
+			<uuidstructure>0c3c530b-0f91-11e1-b485-71bb13df40eb</uuidstructure>
+			<datelastmodified>Tue, 15 Nov 2011 13:52:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 16 May 2011 06:47:54 GMT</datecreated>
+			<datecreated>Tue, 15 Nov 2011 13:52:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -371,12 +371,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/.content/group-container/gc-00001.html</source>
-			<destination>sites/default/dev-demo/.content/group-container/gc-00001.html</destination>
+			<source>sites/default/dev-demo/.content/element-group/elg-00001.html</source>
+			<destination>sites/default/dev-demo/.content/element-group/elg-00001.html</destination>
 			<type>groupcontainer</type>
 			<uuidstructure>e0e1b884-812f-11e0-8d0a-0ffe1353a061</uuidstructure>
 			<uuidresource>e0e1b885-812f-11e0-8d0a-0ffe1353a061</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:00 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 13:29:07 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 18 May 2011 09:19:05 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -384,23 +384,23 @@
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[This is a group container in the right column.]]></value>
+					<value><![CDATA[This is an element group in the right column.]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Right Group Container for Developer Demo Template]]></value>
+					<value><![CDATA[Right Element Group for Developer Demo Template]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/.content/group-container/gc-00002.html</source>
-			<destination>sites/default/dev-demo/.content/group-container/gc-00002.html</destination>
+			<source>sites/default/dev-demo/.content/element-group/elg-00002.html</source>
+			<destination>sites/default/dev-demo/.content/element-group/elg-00002.html</destination>
 			<type>groupcontainer</type>
 			<uuidstructure>f29609f8-812f-11e0-8d0a-0ffe1353a061</uuidstructure>
 			<uuidresource>f29609f9-812f-11e0-8d0a-0ffe1353a061</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:00 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 13:28:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 18 May 2011 09:19:35 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -408,11 +408,11 @@
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[This is a group container in the left column.]]></value>
+					<value><![CDATA[This is an element group in the left column.]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Left Group Container for Developer Demo Template]]></value>
+					<value><![CDATA[Left Element Group for Developer Demo Template]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1245,7 +1245,7 @@
 			<type>containerpage</type>
 			<uuidstructure>6a802116-8130-11e0-8d0a-0ffe1353a061</uuidstructure>
 			<uuidresource>6a802117-8130-11e0-8d0a-0ffe1353a061</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:02 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 14:11:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 18 May 2011 09:22:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1328,7 +1328,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>27415bac-8131-11e0-8d0a-0ffe1353a061</uuidstructure>
 			<uuidresource>27415bad-8131-11e0-8d0a-0ffe1353a061</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:02 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 13:14:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 18 May 2011 09:28:13 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1336,7 +1336,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Group Container Demo]]></value>
+					<value><![CDATA[Element Group Demo]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1348,7 +1348,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>4dcc5953-8abb-11e0-a3d4-eda89ab1c2d4</uuidstructure>
 			<uuidresource>4dcc5954-8abb-11e0-a3d4-eda89ab1c2d4</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:02 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 13:26:15 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 May 2011 12:49:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1356,7 +1356,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[How to use the group container]]></value>
+					<value><![CDATA[How to use the element group]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1510,7 +1510,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>782371b8-7f98-11e0-91cd-1df1339be1a9</uuidstructure>
 			<uuidresource>782371b9-7f98-11e0-91cd-1df1339be1a9</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:02 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 13:29:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 May 2011 08:42:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1530,7 +1530,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>7cf1a8ee-7f9d-11e0-91cd-1df1339be1a9</uuidstructure>
 			<uuidresource>7cf1a8ef-7f9d-11e0-91cd-1df1339be1a9</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:02 GMT</datelastmodified>
+			<datelastmodified>Tue, 15 Nov 2011 13:36:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 May 2011 09:18:40 GMT</datecreated>
 			<usercreated>Admin</usercreated>
