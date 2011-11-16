@@ -6,26 +6,39 @@
     <Paragraph>
       <Text name="Text0">
         <links>
-          <link name="link5" internal="true" type="A">
+          <link name="link8" internal="true" type="A">
             <target><![CDATA[]]></target>
-            <anchor><![CDATA[a4]]></anchor>
+            <anchor><![CDATA[a7]]></anchor>
+          </link>
+          <link name="link9" internal="false" type="A">
+            <target><![CDATA[http://www.oracle.com/technetwork/java/javase/downloads/index.html]]></target>
           </link>
           <link name="link6" internal="true" type="A">
             <target><![CDATA[]]></target>
             <anchor><![CDATA[a5]]></anchor>
           </link>
-          <link name="link0" internal="false" type="A">
-            <target><![CDATA[http://tomcat.apache.org]]></target>
+          <link name="link7" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[a6]]></anchor>
           </link>
           <link name="link4" internal="true" type="A">
             <target><![CDATA[]]></target>
             <anchor><![CDATA[a3]]></anchor>
           </link>
-          <link name="link9" internal="false" type="A">
-            <target><![CDATA[http://www.oracle.com/technetwork/java/javase/downloads/index.html]]></target>
+          <link name="link5" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[a4]]></anchor>
           </link>
-          <link name="link12" internal="false" type="A">
-            <target><![CDATA[http://www.mysql.com/downloads/index.html]]></target>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[a1]]></anchor>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[a2]]></anchor>
+          </link>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://tomcat.apache.org]]></target>
           </link>
           <link name="link1" internal="false" type="A">
             <target><![CDATA[http://www.mysql.com]]></target>
@@ -33,27 +46,14 @@
           <link name="link13" internal="false" type="A">
             <target><![CDATA[http://www.mysql.com/documentation/index.html]]></target>
           </link>
-          <link name="link3" internal="true" type="A">
-            <target><![CDATA[]]></target>
-            <anchor><![CDATA[a2]]></anchor>
-          </link>
-          <link name="link8" internal="true" type="A">
-            <target><![CDATA[]]></target>
-            <anchor><![CDATA[a7]]></anchor>
+          <link name="link10" internal="false" type="A">
+            <target><![CDATA[http://tomcat.apache.org]]></target>
           </link>
           <link name="link11" internal="false" type="A">
             <target><![CDATA[http://httpd.apache.org]]></target>
           </link>
-          <link name="link2" internal="true" type="A">
-            <target><![CDATA[]]></target>
-            <anchor><![CDATA[a1]]></anchor>
-          </link>
-          <link name="link7" internal="true" type="A">
-            <target><![CDATA[]]></target>
-            <anchor><![CDATA[a6]]></anchor>
-          </link>
-          <link name="link10" internal="false" type="A">
-            <target><![CDATA[http://tomcat.apache.org]]></target>
+          <link name="link12" internal="false" type="A">
+            <target><![CDATA[http://www.mysql.com/downloads/index.html]]></target>
           </link>
         </links>
         <content><![CDATA[<p>This page provides information on how to install OpenCms using  <a title="External link, opens in new window" target="_blank" href="%(link0)">Tomcat</a> and  <a title="External link, opens in new window" target="_blank" href="%(link1)">MySQL</a>. All installation parts are described as single steps. After completing each step you are strongly advised to verify the success of your work.</p>
@@ -68,9 +68,9 @@
 </ul>
 <h2><a name="a1" id="a1"></a>Install the Java 2 SDK, version 1.5 or newer</h2>
 <p>Install the Java JDK, version 5 or newer (from Oracle  <code> <a title="External link, opens in new window" target="_blank" href="%(link9)">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a></code>). For details on how to install these components on your operating system, see the documentation that comes with them. You must install the Java  <em>JDK</em> (Java Development Kit), not the  <em>JRE</em> (Java Runtime Environment) that is also available from Oracle. The JRE is  <em>not</em> sufficient to run OpenCms!</p>
-<p><strong>Important</strong>: OpenCms 8.0.2 was tested with Java 5 (1.5) and 6 (1.6).</p>
+<p><strong>Important</strong>: OpenCms 8.0.3 was tested with Java 5 (1.5) and 6 (1.6).</p>
 <h2><a name="a2" id="a2"></a>Install Tomcat</h2>
-<p>OpenCms 8.0.2 requires a Servlet 2.4 / JSP 2.0 standards compliant container.  This release was tested with Tomcat 5.5.x, Tomcat 6.0.x. and Tomcat 7.0.x.</p>
+<p>OpenCms 8.0.3 requires a Servlet 2.4 / JSP 2.0 standards compliant container.  This release was tested with Tomcat 5.5.x, Tomcat 6.0.x. and Tomcat 7.0.x.</p>
 <p>Install Tomcat from  <code> <a title="External link, opens in new window" target="_blank" href="%(link10)">http://tomcat.apache.org</a> </code> into a folder of your choice. This is the  <code>CATALINA_HOME</code> folder. Don't forget to set the environment variables  <code>CATALINA_HOME</code> and  <code>JAVA_HOME</code>.</p>
 <p>Test the installation by running Tomcat in standalone mode and check the examples. Note: Tomcat uses port 8080 in standalone mode. If you wish, you can combine the servlet-engine with a webserver like the Apache Web Server  <code> <a title="External link,
 opens in new window" target="_blank" href="%(link11)">http://httpd.apache.org</a></code>.  Please see the documentation available with the webserver on how to combine it with your servlet environment.</p>
