@@ -10,7 +10,7 @@
 	</info>
 	<module>
 		<name>com.alkacon.opencms.v8.subscription</name>
-		<nicename><![CDATA[OpenCms V8 Subscription]]></nicename>
+		<nicename><![CDATA[OpenCms 8 Subscription]]></nicename>
 		<group>OpenCms 8 types</group>
 		<class/>
 		<description><![CDATA[This module provides some basic functionality for subscribing to pages and displaying lists of subscribed pages.]]></description>
