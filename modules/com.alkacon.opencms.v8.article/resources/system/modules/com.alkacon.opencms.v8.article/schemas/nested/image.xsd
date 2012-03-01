@@ -15,6 +15,8 @@
 			<xsd:element name="Image" type="OpenCmsVfsFile" />
 			<xsd:element name="Align" type="OpenCmsString" />
 			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Enlarge" type="OpenCmsBoolean" minOccurs="0" />
+
 			
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>

@@ -32,14 +32,18 @@
 				</c:choose>
 			</c:if>
 			<c:if test="${showimg && (imgalign == 'lefthl' || imgalign == 'righthl' || imgalign == 'top')}">
+				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"><a href="<cms:link>${paragraph.value.Image.value.Image}</cms:link>" class="thickbox" title="${paragraph.value.Image.value.Title}"></c:if>
 				<cms:img src="${paragraph.value.Image.value.Image}" width="${imgwidth}" scaleColor="transparent" scaleType="0" cssclass="${imgclass}" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
+				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"></a></c:if>
 			</c:if>
 			<%-- Optional headline of the paragraph --%>
 			<c:if test="${paragraph.value.Headline.isSet}">
 				<h5>${paragraph.value.Headline}</h5>
 			</c:if>
 			<c:if test="${showimg && (imgalign == 'left' || imgalign == 'right')}">
+				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"><a href="<cms:link>${paragraph.value.Image.value.Image}</cms:link>" class="thickbox" title="${paragraph.value.Image.value.Title}"></c:if>
 				<cms:img src="${paragraph.value.Image.value.Image}" width="${imgwidth}" scaleColor="transparent" scaleType="0" cssclass="${imgclass}" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
+				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"></a></c:if>
 			</c:if>
 			<c:choose>
 				<c:when test="${cms.element.settings.keephtml == 'true'}">

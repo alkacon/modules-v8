@@ -42,6 +42,8 @@
 					<resource key="label.V8ArticleImage.Align.help">Select the alignment of the image.</resource>
 					<resource key="label.V8ArticleImage.Title">Title</resource>
 					<resource key="label.V8ArticleImage.Title.help">The image title is displayed when hovering the image.</resource>
+					<resource key="label.V8ArticleImage.Enlarge">Enable enlargement</resource>
+					<resource key="label.V8ArticleImage.Enlarge.help">If checked, the image can be enlarged by clicking on it using a color box effect.</resource>
 					<resource key="v8.article.image.top">Top</resource>
 					<resource key="v8.article.image.lefthl">Left of headline</resource>
 					<resource key="v8.article.image.righthl">Right of headline</resource>
@@ -71,6 +73,8 @@
 					<resource key="label.V8ArticleImage.Align.help">Wählen Sie die Anordnung des Bildes relativ zum Text.</resource>
 					<resource key="label.V8ArticleImage.Title">Titel</resource>
 					<resource key="label.V8ArticleImage.Title.help">Der Bildtitel wird beim Überfahren des Bildes mit der Maus gezeigt.</resource>
+					<resource key="label.V8ArticleImage.Enlarge">Vergrößerung aktivieren</resource>
+					<resource key="label.V8ArticleImage.Enlarge.help">Wenn angekreuzt, kann das Bild durch Anklicken vergrößert werden.</resource>
 					<resource key="v8.article.image.top">Oben</resource>
 					<resource key="v8.article.image.lefthl">Links der Überschrift</resource>
 					<resource key="v8.article.image.righthl">Rechts der Überschrift</resource>
@@ -110,6 +114,12 @@
 				<setting name="hidetitle" nice-name="%(key.v8.article.setting.hidetitle)" type="string" widget="checkbox" />
 				<setting name="keephtml" nice-name="%(key.v8.article.setting.keephtml)" type="string" widget="checkbox" />
 			</settings>
+			<headincludes>
+				<headinclude type="javascript" uri="/system/modules/org.opencms.jquery/resources/packed/jquery.js" />
+				<headinclude type="javascript" uri="/system/modules/com.alkacon.opencms.v8.commons/resources/js/jquery.colorbox.js" />
+				<headinclude type="javascript" uri="/system/modules/com.alkacon.opencms.v8.commons/resources/js/jquery.colorbox.init.js" />
+				<headinclude type="css" uri="/system/modules/com.alkacon.opencms.v8.commons/resources/css/jquery.colorbox.css" />
+			</headincludes>
 		</xsd:appinfo>
 
 	</xsd:annotation>  
