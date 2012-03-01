@@ -30,6 +30,7 @@
 			<dependency name="com.alkacon.opencms.v8.template3" version="8.0.0"/>
 			<dependency name="com.alkacon.opencms.v8.twitter" version="8.0.0"/>
 			<dependency name="com.alkacon.opencms.v8.infobox" version="8.0.0"/>
+			<dependency name="com.alkacon.opencms.v8.subscription" version="8.0.0"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
