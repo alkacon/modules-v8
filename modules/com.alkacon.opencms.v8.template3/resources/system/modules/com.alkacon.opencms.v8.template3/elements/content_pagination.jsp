@@ -1,4 +1,4 @@
-<%@page buffer="none" session="false" taglibs="c,cms" import="org.opencms.file.* ,org.opencms.jsp.* ,java.util.List " %>
+<%@page buffer="none" session="false" taglibs="c,cms,fmt" import="org.opencms.file.* ,org.opencms.jsp.* ,java.util.List " %>
 <%
 CmsJspActionElement  cms = new CmsJspActionElement(pageContext, request, response);
 String parentfolder = CmsResource.getParentFolder(cms.getRequestContext().getFolderUri());
@@ -24,25 +24,11 @@ pageContext.setAttribute("hasnext", hasnext);
 pageContext.setAttribute("hasback", hasback);
 
 %>
-<c:choose>
- <c:when test="${cms.locale == 'de'}">
-  <c:set var="forwards">Weiter</c:set>
-  <c:set var="back">Zurück</c:set>
-  <c:set var="overview">Übersicht</c:set>
- </c:when>
- <c:otherwise>
-  <c:set var="forwards">Forward</c:set>
-  <c:set var="back">Backward</c:set>
-  <c:set var="overview">Overview</c:set>
- </c:otherwise>
-</c:choose>
-
+<fmt:setLocale value="${cms.locale}" />
+<fmt:bundle basename="com.alkacon.opencms.v8.template3.workplace">
 <span style="text-align: center; display: block; margin: 10px 0px 0px 0px">
-<c:if test="${hasback}">
-<span><a href="<cms:link>${back_uri}</cms:link>"> &laquo; ${back}</a></span>
-</c:if>
-<span style="margin: 0px 25px;"><a href="<cms:link>${overview_uri}</cms:link>">${overview}</a></span>
-<c:if test="${hasnext}">
-<span><a href="<cms:link>${next_uri}</cms:link>">${forwards} &raquo;</a></span>
-</c:if>
+	<span <c:if test="${!hasback}">style="visibility: hidden;"</c:if>><a href="<cms:link>${back_uri}</cms:link>"> &laquo; <fmt:message key="page.previous" /></a></span>
+	<span style="margin: 0px 25px;"><a href="<cms:link>${overview_uri}</cms:link>"><fmt:message key="page.overview" /></a></span>
+	<span <c:if test="${!hasnext}">style="visibility: hidden;"</c:if>><a href="<cms:link>${next_uri}</cms:link>"><fmt:message key="page.next" /> &raquo;</a></span>
 </span>
+</fmt:bundle>
