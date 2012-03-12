@@ -282,6 +282,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.v8.template3/elements/content_pagination.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.v8.template3/elements/content_pagination.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>8077514a-638c-11e1-94f3-e7aa6134161f</uuidstructure>
+			<uuidresource>8077514b-638c-11e1-94f3-e7aa6134161f</uuidresource>
+			<datelastmodified>Fri, 02 Mar 2012 09:41:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 01 Mar 2012 10:51:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.opencms.v8.template3/elements/menu</destination>
 			<type>folder</type>
 			<uuidstructure>66b0db2b-6b35-11e0-bc98-e363b206b5de</uuidstructure>
