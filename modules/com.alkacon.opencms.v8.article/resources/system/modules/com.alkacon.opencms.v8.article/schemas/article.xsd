@@ -116,9 +116,9 @@
 			</settings>
 			<headincludes>
 				<headinclude type="javascript" uri="/system/modules/org.opencms.jquery/resources/packed/jquery.js" />
-				<headinclude type="javascript" uri="/system/modules/com.alkacon.opencms.v8.commons/resources/js/jquery.colorbox.js" />
-				<headinclude type="javascript" uri="/system/modules/com.alkacon.opencms.v8.commons/resources/js/jquery.colorbox.init.js" />
-				<headinclude type="css" uri="/system/modules/com.alkacon.opencms.v8.commons/resources/css/jquery.colorbox.css" />
+				<headinclude type="javascript" uri="/system/modules/com.alkacon.opencms.v8.article/resources/js/jquery.colorbox.js" />
+				<headinclude type="javascript" uri="/system/modules/com.alkacon.opencms.v8.article/resources/js/jquery.colorbox.init.js" />
+				<headinclude type="css" uri="/system/modules/com.alkacon.opencms.v8.article/resources/css/jquery.colorbox.css" />
 			</headincludes>
 		</xsd:appinfo>
 

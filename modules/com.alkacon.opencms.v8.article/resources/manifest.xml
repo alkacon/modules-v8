@@ -332,6 +332,110 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>system/modules/com.alkacon.opencms.v8.article/resources</destination>
+			<type>folder</type>
+			<uuidstructure>f7b7c982-6c61-11e1-9aae-b30422184c04</uuidstructure>
+			<datelastmodified>Mon, 12 Mar 2012 16:42:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 12 Mar 2012 16:39:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>export</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.v8.article/resources/css</destination>
+			<type>folder</type>
+			<uuidstructure>fd6fde34-6c61-11e1-9aae-b30422184c04</uuidstructure>
+			<datelastmodified>Mon, 12 Mar 2012 16:39:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 12 Mar 2012 16:39:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.v8.article/resources/css/jquery.colorbox.css</source>
+			<destination>system/modules/com.alkacon.opencms.v8.article/resources/css/jquery.colorbox.css</destination>
+			<type>plain</type>
+			<uuidstructure>2332c4d0-6c62-11e1-9aae-b30422184c04</uuidstructure>
+			<uuidresource>2332c4d1-6c62-11e1-9aae-b30422184c04</uuidresource>
+			<datelastmodified>Mon, 12 Mar 2012 16:40:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 12 Mar 2012 16:40:55 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[jquery.colorbox]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.v8.article/resources/js</destination>
+			<type>folder</type>
+			<uuidstructure>04376716-6c62-11e1-9aae-b30422184c04</uuidstructure>
+			<datelastmodified>Mon, 12 Mar 2012 16:40:03 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 12 Mar 2012 16:40:03 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.v8.article/resources/js/jquery.colorbox.init.js</source>
+			<destination>system/modules/com.alkacon.opencms.v8.article/resources/js/jquery.colorbox.init.js</destination>
+			<type>plain</type>
+			<uuidstructure>122ded39-6c62-11e1-9aae-b30422184c04</uuidstructure>
+			<uuidresource>122ded3a-6c62-11e1-9aae-b30422184c04</uuidresource>
+			<datelastmodified>Mon, 12 Mar 2012 16:40:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 12 Mar 2012 16:40:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[jquery.colorbox.init]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.v8.article/resources/js/jquery.colorbox.js</source>
+			<destination>system/modules/com.alkacon.opencms.v8.article/resources/js/jquery.colorbox.js</destination>
+			<type>plain</type>
+			<uuidstructure>1232cf3c-6c62-11e1-9aae-b30422184c04</uuidstructure>
+			<uuidresource>1232cf3d-6c62-11e1-9aae-b30422184c04</uuidresource>
+			<datelastmodified>Mon, 12 Mar 2012 16:40:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 12 Mar 2012 16:40:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[jquery.colorbox]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.opencms.v8.article/schemas</destination>
 			<type>folder</type>
 			<uuidstructure>27dd1e88-6b3b-11e0-9460-c3baf286301a</uuidstructure>
