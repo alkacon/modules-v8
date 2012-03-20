@@ -5854,8 +5854,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/.content/news/n_0001.html</source>
-			<destination>sites/default/.content/news/n_0001.html</destination>
+			<source>sites/default/.content/news/n_00007.html</source>
+			<destination>sites/default/.content/news/n_00007.html</destination>
 			<type>v8news</type>
 			<uuidstructure>0c6b77eb-8b7c-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>0c6b77ec-8b7c-11e0-9f3a-7b2444d59c19</uuidresource>
@@ -5878,8 +5878,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/.content/news/n_0002.html</source>
-			<destination>sites/default/.content/news/n_0002.html</destination>
+			<source>sites/default/.content/news/n_00008.html</source>
+			<destination>sites/default/.content/news/n_00008.html</destination>
 			<type>v8news</type>
 			<uuidstructure>cbbbfb08-8b7a-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>cbbbfb09-8b7a-11e0-9f3a-7b2444d59c19</uuidresource>
@@ -5902,8 +5902,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/.content/news/n_0003.html</source>
-			<destination>sites/default/.content/news/n_0003.html</destination>
+			<source>sites/default/.content/news/n_00009.html</source>
+			<destination>sites/default/.content/news/n_00009.html</destination>
 			<type>v8news</type>
 			<uuidstructure>cd574970-8b7c-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>cd577081-8b7c-11e0-9f3a-7b2444d59c19</uuidresource>
