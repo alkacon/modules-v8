@@ -26,9 +26,23 @@ pageContext.setAttribute("hasback", hasback);
 %>
 <fmt:setLocale value="${cms.locale}" />
 <fmt:bundle basename="com.alkacon.opencms.v8.template3.workplace">
-<span style="text-align: center; display: block; margin: 10px 0px 0px 0px">
-	<span <c:if test="${!hasback}">style="visibility: hidden;"</c:if>><a href="<cms:link>${back_uri}</cms:link>"> &laquo; <fmt:message key="page.previous" /></a></span>
+<span style="border-top: 1px solid #AAAAAA; display: block; margin-top: 20px; padding: 20px 0 0; text-align: center;">
+	<c:choose>
+		<c:when test="${hasback}">
+			<span><a href="<cms:link>${back_uri}</cms:link>">&laquo; <fmt:message key="page.previous" /></a></span>
+		</c:when>
+		<c:otherwise>
+			<span style="color: #AAAAAA;"> &laquo; <fmt:message key="page.previous" /></span>
+		</c:otherwise>
+	</c:choose>
 	<span style="margin: 0px 25px;"><a href="<cms:link>${overview_uri}</cms:link>"><fmt:message key="page.overview" /></a></span>
-	<span <c:if test="${!hasnext}">style="visibility: hidden;"</c:if>><a href="<cms:link>${next_uri}</cms:link>"><fmt:message key="page.next" /> &raquo;</a></span>
+	<c:choose>
+		<c:when test="${hasnext}">
+			<span><a href="<cms:link>${next_uri}</cms:link>"><fmt:message key="page.next" /> &raquo;</a></span>
+		</c:when>
+		<c:otherwise>
+			<span style="color: #AAAAAA;"><fmt:message key="page.next" /> &raquo;</span>
+		</c:otherwise>
+	</c:choose>
 </span>
 </fmt:bundle>
