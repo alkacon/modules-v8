@@ -55,9 +55,6 @@
 			<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"></a></c:if>
 		</c:if>
 		${paragraph.value.Text}
-		<c:if test="${paragraph.value.EmbedObject.isSet}">
-			<div>${paragraph.value.EmbedObject}</div>
-		</c:if>
 		<c:if test="${showimg}">
 			<div class="clear"></div>
 		</c:if>

@@ -16,7 +16,6 @@
 			<xsd:element name="Headline" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Text" type="OpenCmsHtml" />			
 			<xsd:element name="Image" type="OpenCmsV8ArticleImage" minOccurs="0" />
-			<xsd:element name="EmbedObject" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
 	</xsd:complexType>
@@ -26,7 +25,6 @@
 			<resourcebundle name="com.alkacon.opencms.v8.article.workplace"/>
 			<layouts>
 				<layout element="Text" widget="HtmlWidget" configuration="height:400px,link,anchor,source,downloadgallery"/>
-				<layout element="EmbedObject" widget="TextareaWidget" />
 			</layouts>
 		</xsd:appinfo>
 	</xsd:annotation>  
