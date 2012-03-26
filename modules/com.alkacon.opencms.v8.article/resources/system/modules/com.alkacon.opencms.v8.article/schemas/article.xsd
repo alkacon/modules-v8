@@ -36,6 +36,8 @@
 					<resource key="label.V8ArticleParagraph.Text">Text</resource>
 					<resource key="label.V8ArticleParagraph.Text.help">The paragraph text.</resource>
 					<resource key="label.V8ArticleParagraph.Image">Image</resource>
+					<resource key="label.V8ArticleParagraph.EmbedObject">HTML</resource>
+					<resource key="label.V8ArticleParagraph.EmbedObject.help">Free HTML field.</resource>
 					<resource key="label.V8ArticleImage.Image">Image URI</resource>
 					<resource key="label.V8ArticleImage.Image.help">The absolute path to the image to use.</resource>
 					<resource key="label.V8ArticleImage.Align">Align</resource>
@@ -67,6 +69,8 @@
 					<resource key="label.V8ArticleParagraph.Text">Text</resource>
 					<resource key="label.V8ArticleParagraph.Text.help">Der Absatztext.</resource>
 					<resource key="label.V8ArticleParagraph.Image">Bild</resource>
+					<resource key="label.V8ArticleParagraph.EmbedObject">HTML</resource>
+					<resource key="label.V8ArticleParagraph.EmbedObject.help">Freies HTML Feld.</resource>
 					<resource key="label.V8ArticleImage.Image">Bild URI</resource>
 					<resource key="label.V8ArticleImage.Image.help">Der absolute Pfad des anzuzeigenden Bildes.</resource>
 					<resource key="label.V8ArticleImage.Align">Anordnung</resource>
