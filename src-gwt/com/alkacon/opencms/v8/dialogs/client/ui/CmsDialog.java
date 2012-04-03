@@ -27,7 +27,6 @@
 
 package com.alkacon.opencms.v8.dialogs.client.ui;
 
-import com.google.gwt.user.client.rpc.SerializationException;
 
 /**
  * Provides the default dialog.<p>
@@ -38,11 +37,8 @@ public class CmsDialog extends A_CmsDialog {
 
     /**
      * Constructor.<p>
-     * 
-     * @throws SerializationException if deserialization fails
      */
-    public CmsDialog()
-    throws SerializationException {
+    public CmsDialog() {
 
         super();
     }

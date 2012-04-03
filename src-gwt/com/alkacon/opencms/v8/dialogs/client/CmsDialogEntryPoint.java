@@ -27,17 +27,15 @@
 
 package com.alkacon.opencms.v8.dialogs.client;
 
-import com.alkacon.opencms.v8.dialogs.client.ui.A_CmsDialog;
-import com.alkacon.opencms.v8.dialogs.client.ui.CmsDialog;
-
 import org.opencms.gwt.client.A_CmsEntryPoint;
-import org.opencms.gwt.client.ui.CmsErrorDialog;
+import org.opencms.gwt.client.ui.CmsFrameDialog;
+import org.opencms.gwt.client.ui.CmsPushButton;
+import org.opencms.gwt.client.ui.I_CmsButton.ButtonColor;
+import org.opencms.gwt.client.ui.I_CmsButton.ButtonStyle;
 
-import com.google.gwt.core.client.GWT;
-import com.google.gwt.event.logical.shared.CloseEvent;
-import com.google.gwt.event.logical.shared.CloseHandler;
-import com.google.gwt.user.client.Window;
-import com.google.gwt.user.client.ui.PopupPanel;
+import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.user.client.ui.Label;
 
 /**
  * Dialog entry class.<p>
@@ -46,46 +44,6 @@ import com.google.gwt.user.client.ui.PopupPanel;
  */
 public class CmsDialogEntryPoint extends A_CmsEntryPoint {
 
-    /** Name of exported dialog close function. */
-    private static final String FUNCTION_OPEN_DIALOG = "cms_ade_openDialog";
-
-    /**
-     * Exports the open dialog method.<p>
-     */
-    public static native void exportOpenDialog() /*-{
-
-		$wnd[@com.alkacon.opencms.v8.dialogs.client.CmsDialogEntryPoint::FUNCTION_OPEN_DIALOG] = function() {
-			@com.alkacon.opencms.v8.dialogs.client.CmsDialogEntryPoint::openDialog();
-		};
-
-    }-*/;
-
-    /**
-     * Opens an empty dialog.<p>
-     */
-    private static void openDialog() {
-
-        try {
-            A_CmsDialog dialog = GWT.create(CmsDialog.class);
-            dialog.addCloseHandler(new CloseHandler<PopupPanel>() {
-
-                /**
-                 * The on close action.<p>
-                 * 
-                 * @param event the event
-                 */
-                public void onClose(CloseEvent<PopupPanel> event) {
-
-                    Window.Location.reload();
-                }
-            });
-        } catch (Exception e) {
-            CmsErrorDialog.handleException(new Exception(
-                "Deserialization of dialog data failed. This may be caused by expired java-script resources, please clear your browser cache and try again.",
-                e));
-        }
-    }
-
     /**
      * @see org.opencms.gwt.client.A_CmsEntryPoint#onModuleLoad()
      */
@@ -93,39 +51,20 @@ public class CmsDialogEntryPoint extends A_CmsEntryPoint {
     public void onModuleLoad() {
 
         super.onModuleLoad();
-        if ((getDialogMode() != null) && getDialogMode().equals("button")) {
-            exportOpenDialog();
-        } else {
-            try {
-                A_CmsDialog dialog = GWT.create(CmsDialog.class);
-                dialog.center();
-            } catch (Exception e) {
-                CmsErrorDialog.handleException(new Exception(
-                    "Deserialization of dialog data failed. This may be caused by expired java-script resources, please clear your browser cache and try again.",
-                    e));
+        final CmsFrameDialog frame = new CmsFrameDialog();
+        frame.setContent(new Label("Hello World"));
+        CmsPushButton button = new CmsPushButton();
+        button.setText("Close");
+        button.setButtonStyle(ButtonStyle.TEXT, ButtonColor.GREEN);
+        button.addClickHandler(new ClickHandler() {
+
+            public void onClick(ClickEvent event) {
+
+                frame.hide();
+
             }
-        }
+        });
+        frame.addButton(button);
+        frame.show();
     }
-
-    /**
-     * Retrieves the close link global variable as a string.<p>
-     * 
-     * @return the close link
-     */
-    protected native String getCloseLink() /*-{
-
-		return $wnd[@com.alkacon.opencms.v8.dialogs.shared.I_CmsDialogConstants::ATTR_CLOSE_LINK];
-
-    }-*/;
-
-    /**
-     * Retrieves the dialog mode global variable as a string.<p>
-     * 
-     * @return the dialog mode
-     */
-    protected native String getDialogMode() /*-{
-
-		return $wnd[@com.alkacon.opencms.v8.dialogs.shared.I_CmsDialogConstants::ATTR_DIALOG_MODE];
-
-    }-*/;
 }
