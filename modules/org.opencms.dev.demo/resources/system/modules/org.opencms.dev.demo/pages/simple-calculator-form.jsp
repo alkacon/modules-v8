@@ -7,7 +7,7 @@
 	<div class="boxbody">
 		<%-- The text field of the article with image --%>		
 		<div class="paragraph">
-			<form name="searchForm" action="${cms.functionDetail['Function detail page']}" method="post">
+			<form name="searchForm" action="${cms.functionDetail['simplecalculator']}" method="post">
 				<input type="text" size="5" maxlength="6" name="operant1" />
 				<select name="operator">
 					<option>+</option>

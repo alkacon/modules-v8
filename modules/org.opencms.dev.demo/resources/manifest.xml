@@ -14,7 +14,7 @@
 		<group>OpenCms 8 dev demo</group>
 		<class/>
 		<description><![CDATA[Provides a collection of use cases for OpenCms 8.]]></description>
-		<version>8.0.3</version>
+		<version>8.0.4</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[info@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -734,15 +734,19 @@
 			<type>function</type>
 			<uuidstructure>849abca9-0fa1-11e1-b485-71bb13df40eb</uuidstructure>
 			<uuidresource>849abcaa-0fa1-11e1-b485-71bb13df40eb</uuidresource>
-			<datelastmodified>Wed, 16 Nov 2011 09:23:48 GMT</datelastmodified>
+			<datelastmodified>Tue, 10 Apr 2012 13:52:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 15 Nov 2011 15:50:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
+					<name>Description</name>
+					<value><![CDATA[A detail page to show the results of the simple calculator]]></value>
+				</property>
+				<property>
 					<name>Title</name>
-					<value><![CDATA[A simple calculator]]></value>
+					<value><![CDATA[A detail page to show the results of the simple calculator]]></value>
 				</property>
 			</properties>
 			<relations/>

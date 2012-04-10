@@ -27,7 +27,7 @@
 		<div class="view-article">
 		
 			<%-- Title of the article --%>
-			<h2>Calculatin result</h2>
+			<h2>Calculation result</h2>
 			
 			<%-- The text field of the article with image --%>
 			<div class="paragraph">
@@ -43,7 +43,7 @@
 			
 			<%-- The text field of the article with image --%>
 			<div class="paragraph">				
-				<p>Error occurs during the calcultation. Please check the input fields.</p>								
+				<p>Error occurs during the calculation. Please check the input fields.</p>								
 			</div>
 		</div>				
 	</c:if>

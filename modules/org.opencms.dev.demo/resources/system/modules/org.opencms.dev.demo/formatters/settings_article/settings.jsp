@@ -52,7 +52,7 @@
 		</div>		
 	</div>
 	
-	<h4>Setting values:</h4>
+	<h4>Settings values:</h4>
 	<div class="boxbody">
 		<p><b>Select box</b> "Box Color" = <cms:elementsetting name="boxschema" default="box_schema1" /></p>
 		<p><b>Text field</b> "Text" = <cms:elementsetting name="text" /></p>
