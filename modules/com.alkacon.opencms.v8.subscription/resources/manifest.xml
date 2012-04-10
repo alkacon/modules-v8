@@ -14,7 +14,7 @@
 		<group>OpenCms 8 types</group>
 		<class/>
 		<description><![CDATA[This module provides some basic functionality for subscribing to pages and displaying lists of subscribed pages.]]></description>
-		<version>8.0.2</version>
+		<version>8.0.4</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>

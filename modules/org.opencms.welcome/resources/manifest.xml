@@ -17,15 +17,13 @@
 <p>Install this module as a simple demonstration for the template capabilities of OpenCms 8.0.</p>
 <p><strong>Note:</strong> Deleting this module will remove the "/release" folder and all pages there.</p>
 <p><i>(c) 2011 by Alkacon Software GmbH (http://www.alkacon.com).</i></p>]]></description>
-		<version>8.0.3</version>
+		<version>8.0.4</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="org.opencms.ade.containerpage" version="8.0.0"/>
-			<dependency name="org.opencms.ade.sitemap" version="8.0.0"/>
 			<dependency name="com.alkacon.opencms.v8.template3" version="8.0.0"/>
 			<dependency name="com.alkacon.opencms.v8.article" version="8.0.0"/>
 		</dependencies>
@@ -627,6 +625,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Release Notes for OpenCms 8.0.3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/release/.content/article/a_00018.html</source>
+			<destination>sites/default/release/.content/article/a_00018.html</destination>
+			<type>v8article</type>
+			<uuidstructure>a562be8b-82ec-11e1-95b7-3f203d2fc255</uuidstructure>
+			<uuidresource>a562be8c-82ec-11e1-95b7-3f203d2fc255</uuidresource>
+			<datelastmodified>Tue, 10 Apr 2012 09:11:21 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 10 Apr 2012 09:07:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Release Notes for OpenCms 8.0.4]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1399,6 +1417,52 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[8.0.3 Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/release/8.0.4-release-notes</destination>
+			<type>folder</type>
+			<uuidstructure>987b1053-82ec-11e1-95b7-3f203d2fc255</uuidstructure>
+			<datelastmodified>Tue, 10 Apr 2012 09:09:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 10 Apr 2012 09:07:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.0620]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[8.0.4 Release Notes]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[8.0.4 Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/release/8.0.4-release-notes/index.html</source>
+			<destination>sites/default/release/8.0.4-release-notes/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>98823c48-82ec-11e1-95b7-3f203d2fc255</uuidstructure>
+			<uuidresource>98823c49-82ec-11e1-95b7-3f203d2fc255</uuidresource>
+			<datelastmodified>Tue, 10 Apr 2012 09:09:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 10 Apr 2012 09:07:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[8.0.4 Release Notes]]></value>
 				</property>
 			</properties>
 			<relations/>

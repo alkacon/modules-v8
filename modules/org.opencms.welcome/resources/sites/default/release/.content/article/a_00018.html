@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<V8Articles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.v8.article/schemas/article.xsd">
+  <V8Article language="en">
+    <Title><![CDATA[Release Notes for OpenCms 8.0.4]]></Title>
+    <Paragraph>
+      <Text name="Text0">
+        <links>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[http://bugzilla.opencms.org/]]></target>
+          </link>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/default/release/mailing-list/index.html]]></target>
+            <uuid>8fed4658-7722-11e0-bfd0-1797e684fbbe</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>April 12, 2012: This is the release of OpenCms 8.0.4, which is a minor update with several issues fixed that persisted in the 8.0.3 release.</p>
+<h2>Main new features in OpenCms 8.0.4</h2>
+<ul>
+<li>Added TinyMCE WYSIWYG editor with support for IE 9.</li>
+<li>Added Italian localization contributed by Antonio Cordeddu of coranto.it</li>
+<li>Added Russian localization contributed by Alexey Chirkov of itdt.ru</li>
+</ul>
+<h2>Other new features and improvements in OpenCms 8.0.4</h2>
+<ul>
+<li>Added configurable ADE context menu dialogs.</li>
+<li>Added scheduled job for search index optimization.</li>
+<li>Improved handling of deleted users in permissions dialog.</li>
+<li>Improved sitemap editor change handling.</li>
+<li>Improved synchronized lock behavior for offline indexing.</li>
+<li>Updated Lucene to version 3.5.</li>
+</ul>
+<h2>Fixed issues in OpenCms 8.0.4</h2>
+<ul>
+<li>Fixed issue with VFS image widget preview function.</li>
+<li>Fixed various image widget format and cropping issues.</li>
+<li>Fixed issue 1999 where VFS image gallery widget would not open if 'useformats' was set to 'false'.</li>
+<li>Fixed issue 2018 + 2024 typo in group permissions JSP resulting in a compile error.</li>
+<li>Fixed issue 2019 incorrect form height in "Preferences -&gt; Galleries" tab.</li>
+<li>Fixed issue 2021 method org.opencms.jsp.CmsJspActionElement#link(java.util.String target, java.util.String detailPage) was not using second parameter.</li>
+<li>Fixed issue 2026 CmsDefaultLinkSubstitutionHandle wrongly construct URL.</li>
+<li>Fixed issue 2027 CmsFileUtil misses a value assignment.</li>
+<li>Fixed issue 2028 CmsMirDirectPublish misses a return value.</li>
+<li>Fixed issue 2029 where workplace crashed on occasions when using the publish dialog from the administration view.</li>
+<li>Fixed issue 2032 where image gallery widget did not display images from /system/galleries/pics.</li>
+<li>Fixed issue 2037 where proportional image cropping was not possible for certain formats.</li>
+<li>Fixed issue 2039 with class cast exception in content tools dialogs.</li>
+<li>Fixed issue 2040 where source search replacement didn't consider the content encoding.</li>
+<li>Fixed issue 2041 where Static Export failed for files named 'index.html' with URL parameters.</li>
+<li>Fixed issue 2045 where the width of workplace dialog buttons was fixed and not sufficient for other translations.</li>
+</ul>
+<h2>General features of OpenCms 8</h2>
+<ul>
+<li>The "Advanced Direct Edit" (ADE) mode allows to create page content by drag &amp; drop.</li>
+<li>The sitemap editor allows to create new pages and re-arrange the navigation tree by drag &amp; drop.</li>
+<li>The "Content Subscription Engine" allows to inform users when subscribed documents have changed.</li>
+<li>Extended support for creation of content for mobile devices with the &lt;cms:mobile&gt; tag.</li>
+<li>Structured contents can be defined using a simple XML schema.</li>
+<li>Includes editors with WYSIWYG and syntax highlighting functionality.</li>
+<li>Easy to use "Online / Offline" workflow, changes must be approved before they become visible.</li>
+<li>Link management for all internal resources with broken link detection.</li>
+<li>Support for WebDAV access to all resources in the OpenCms repository.</li>
+<li>Integrated image scaling and cropping.</li>
+<li>Full featured internal user management that supports the concept of "Organizational Units" (OUs).</li>
+<li>Allows management of multiple websites within one installation.</li>
+<li>Contents can be served dynamically or exported to static HTML files.</li>
+<li>Extensions can be added through a flexible module system.</li>
+<li>Full text search for web pages, but also in PDF, MS Office documents etc.</li>
+<li>The "time warp" feature allows to view resources which are expired or not yet released.</li>
+<li>JSP integration for dynamic functionality in templates, dynamic forms etc.</li>
+<li>Distribution includes a complete demo website "Wonderful World of Flowers".</li>
+<li>... and many more</li>
+</ul>
+<h2>Backward compatibility</h2>
+<p>We recommend everyone who uses OpenCms to update to the 8.0.4 release.</p>
+<p>OpenCms 8.0.4 is fully backward compatible to all prior 7.x versions. Templates and other OpenCms developed code from version 7.0 or 7.5 should work "out of the box" with version 8.0.4.</p>
+<p><strong>Notice for users of Alkacon OCEE:</strong> OpenCms version 8.0.4 requires Alkacon OCEE version 3.0.4 or later. In case you want to update your OpenCms installation to 8.0.4, please make sure you update Alkacon OCEE to 3.0.4 or later first!</p>
+<h2>Compatibility with Java versions, Servlet containers and Databases</h2>
+<p>OpenCms 8.0.4 has been written and tested using Java 5 / 6. We have tested only with ORACLEs version of the JDK. However, OpenCms has no dependencies to sun.* packages so it should in theory run with all compliant JVMs.</p>
+<p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 6.0, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional. We appreciate any feedback regarding other servlet containers.</p>
+<p>On the database side, we have tested with MySQL 5.x, Oracle 9.x and Oracle 10.x, as well as PostgreSQL 8.2.x and 7.4.x, MS SQL Server 2000 / 2003, DB2 9.1 and HSQLDB 1.8.0. The automatic update wizard for OpenCms 8 supports MySQL, Oracle and PostgreSQL.</p>
+<h2>Regarding version numbers and build tags</h2>
+<p>In case you want to check out OpenCms from Git, please keep the following in mind: The tag numbers for all OpenCms 8.0 final releases are "build_8_0_x", so the 8.0.4 release is tagged "build_8_0_4".</p>
+<p>The main OpenCms Git repository is available on Github at <a href="%(link0)">github.com/alkacon/opencms-core</a>.</p>
+<h2>How you can help</h2>
+<p>Contributions to the OpenCms core development are most welcome. Please contact the core development team on the <a href="%(link1)">opencms-dev</a> mailing list in case you are interested in supporting the development of OpenCms.</p>
+<p>Please use our Bugzilla to report bugs in this release: <a href="%(link2)">http://bugzilla.opencms.org/</a></p>
+<p>&nbsp;</p>
+<p>Thank you for using OpenCms and have fun with OpenCms 8 :-)</p>]]></content>
+      </Text>
+    </Paragraph>
+  </V8Article>
+</V8Articles>
