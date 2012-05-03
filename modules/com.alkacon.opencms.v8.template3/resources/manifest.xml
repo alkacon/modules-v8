@@ -21,8 +21,7 @@
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="org.opencms.ade.containerpage" version="8.0.0"/>
-			<dependency name="org.opencms.ade.sitemap" version="8.0.0"/>
+			<dependency name="org.opencms.ade.config" version="8.0.4"/>
 		</dependencies>
 		<exportpoints>
 			<exportpoint uri="/system/modules/com.alkacon.opencms.v8.template3/lib/" destination="WEB-INF/lib/"/>
