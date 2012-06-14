@@ -851,6 +851,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/org.opencms.dev.demo/pages/solr-collector.jsp</source>
+			<destination>system/modules/org.opencms.dev.demo/pages/solr-collector.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>386b5c0a-b634-11e1-9cba-392ca3689aaf</uuidstructure>
+			<uuidresource>386b5c0b-b634-11e1-9cba-392ca3689aaf</uuidresource>
+			<datelastmodified>Thu, 14 Jun 2012 16:06:12 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 14 Jun 2012 15:18:39 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Collector Demo]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/org.opencms.dev.demo/resources</destination>
 			<type>folder</type>
 			<uuidstructure>c60b9b0d-673d-11e0-8b6f-0760e8fc984c</uuidstructure>

@@ -799,7 +799,7 @@
 			<type>containerpage</type>
 			<uuidstructure>49649b68-c73c-11e0-a174-e73d0dfd48ec</uuidstructure>
 			<uuidresource>49649b69-c73c-11e0-a174-e73d0dfd48ec</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:01 GMT</datelastmodified>
+			<datelastmodified>Thu, 14 Jun 2012 15:58:02 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 15 Aug 2011 12:44:16 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -919,6 +919,30 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Dynamic Function Demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/dynamic-function/.content/function/function-00002.html</source>
+			<destination>sites/default/dev-demo/dynamic-function/.content/function/function-00002.html</destination>
+			<type>function</type>
+			<uuidstructure>d0b4c2b3-b633-11e1-9cba-392ca3689aaf</uuidstructure>
+			<uuidresource>d0b4c2b4-b633-11e1-9cba-392ca3689aaf</uuidresource>
+			<datelastmodified>Thu, 14 Jun 2012 15:57:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 14 Jun 2012 15:15:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Collector]]></value>
+				</property>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Solr Collector Demo]]></value>
 				</property>
 			</properties>
 			<relations/>
