@@ -46,6 +46,7 @@ import com.google.gwt.event.logical.shared.CloseEvent;
 import com.google.gwt.event.logical.shared.CloseHandler;
 import com.google.gwt.event.shared.HandlerRegistration;
 import com.google.gwt.user.client.Command;
+import com.google.gwt.user.client.rpc.SerializationException;
 import com.google.gwt.user.client.rpc.ServiceDefTarget;
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.PopupPanel;
@@ -77,11 +78,15 @@ public abstract class A_CmsDialog extends CmsPopup {
 
     /**
      * Default constructor.<p>
+     * @throws SerializationException 
      */
-    public A_CmsDialog() {
+    public A_CmsDialog()
+    throws SerializationException {
 
         super(Messages.get().key(Messages.GUI_DIALOG_TITLE_0));
-        m_data = (CmsDialogData)CmsRpcPrefetcher.getSerializedObject(getDialogService(), CmsDialogData.DICT_NAME);
+        m_data = (CmsDialogData)CmsRpcPrefetcher.getSerializedObjectFromDictionary(
+            getDialogService(),
+            CmsDialogData.DICT_NAME);
         m_data.getProperty();
 
         setModal(true);
