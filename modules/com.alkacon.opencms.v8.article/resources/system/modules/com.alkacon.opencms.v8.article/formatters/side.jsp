@@ -5,7 +5,7 @@
 
 	<%-- Title of the article --%>
 	<c:if test="${cms.element.settings.hidetitle ne 'true'}">
-		<h4>${value.Title}</h4>
+		<h4 ${value.Title.rdfa}>${value.Title}</h4>
 	</c:if>	
 	
 	<div class="boxbody">
@@ -38,7 +38,7 @@
 			</c:if>
 			<%-- Optional headline of the paragraph --%>
 			<c:if test="${paragraph.value.Headline.isSet}">
-				<h5>${paragraph.value.Headline}</h5>
+				<h5 ${paragraph.value.Headline.rdfa}>${paragraph.value.Headline}</h5>
 			</c:if>
 			<c:if test="${showimg && (imgalign == 'left' || imgalign == 'right')}">
 				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"><a href="<cms:link>${paragraph.value.Image.value.Image}</cms:link>" class="thickbox" title="${paragraph.value.Image.value.Title}"></c:if>
@@ -47,9 +47,13 @@
 			</c:if>
 			<c:choose>
 				<c:when test="${cms.element.settings.keephtml == 'true'}">
+					<div ${paragraph.value.Text.rdfa}>
 					${paragraph.value.Text}
+					</div>
 				</c:when><c:otherwise>
+					<div>
 					${cms:trimToSize(cms:stripHtml(paragraph.value.Text), 300)}
+					</div>
 				</c:otherwise>
 			</c:choose>
 		</div>
