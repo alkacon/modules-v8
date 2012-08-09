@@ -4,19 +4,26 @@
   <DevDemoArticle language="en">
     <Title><![CDATA[Dynamic function demo]]></Title>
     <Text name="Text0">
-      <links/>
-      <content><![CDATA[<p>Since OpenCms 8.0.2&nbsp; a new resource "Dynamic Functionality" is introduced. The new resource type make it possible to drag and drop a dynamic content provided by a jsp directly into a container page of&nbsp; the web site. Typical use case is extending of the web site by a search or login functionality.</p>
-<p>In this demo example a simple date display is added in a box, which can be dropped in one of the side containers. The settings are used to set the format and the style of the date. The locale is provided by the request paremeter specified in the xmlcontent.</p>
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/dev-demo/settings/]]></target>
+          <uuid>dafb6670-788f-11e0-a908-e3fff2a64270</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Since OpenCms 8.0.2 a new resource "Dynamic Function" is introduced. The new resource type make it possible to drag and drop a dynamic content provided by a jsp directly into a containerpage of the website.</p>
+<p><strong>Use Case:</strong> A typical use case is extending of the website by a search or a login functionality.</p>
 <p>&nbsp;</p>
-<p><strong>How to use "Dynamic Functionality":</strong></p>
+<p><strong>Example:</strong> In this demo example a simple date display is added to a box, which can be dropped in one of the side containers. The <a title="Settings demo" href="%(link0)" target="_self">settings</a> are used to set the format of the date. The locale is provided by a request parameter defined for the dynamic function.</p>
+<p>&nbsp;</p>
+<p><strong>How to use "Dynamic Function":</strong></p>
 <ul>
-<li>Drop a new resource of type "Dynamic Funcionality" into the container page and configure it as xmlcontent from ADE.</li>
-<li>Set the title, which is used for this resource in the add wizard.</li>
-<li>Define the path to the jsp, which provides the required functionality in the xml field "Funtion&nbsp; provider".</li>
-<li>Some optional request parameters can be deifined in the xml field "Parameters".</li>
-<li>In the xml field "Formatter options" the type of the container as well as its min and max width can be defined to control the container, in which this resource can be dropped.</li>
-<li>Additionally define the setting in the second tab directly in the xmlContent editor. Use the same options as inside of the scheme definition for the resource type.</li>
+<li>Drop a new resource of type "Dynamic Function" into the containerpage and edit in xmlcontent editor from ADE.</li>
+<li>Set the title to indicate this dynamic function from another in the add wizard in ADE.</li>
+<li>Select the path to the jsp, which provides the required functionality, in the field "Function provider".</li>
+<li>Add optional request parameters if required in the field "Parameters".</li>
+<li>Optional formatter configuration for this dynamic function element can be set in the field "Formatter options". You can restrict the type of the container as well as its min or max width to control, in which template container this dynamic function resource can be dropped.</li>
 </ul>
+<p>Additionally define the settings in the second tab directly in the xmlcontent editor. Use the same options as inside of the schema definition for the resource type.</p>
 <p><strong>Important note: </strong>The html output provided by the used jsp should be surrounded by a &lt;div&gt; tag, similar to the formatter jsp.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>]]></content>
