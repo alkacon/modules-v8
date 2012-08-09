@@ -5,19 +5,22 @@
     <Title><![CDATA[Article using headinclude tag.]]></Title>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>In OpenCms 8 it is possibe to use additional javascript or css files to display a specific resource type. The paths to the additional files can be set inside of the resource type scheme. The referenced files are loaded dynamically, if the reource type is used on a container page.</p>
-<p>To include the javascript or css files follow the inscructions:</p>
+      <content><![CDATA[<p>In OpenCms 8 you can include additional javascript or css files required for the specific resource type. The paths to the additional files have to be set in its xsd. The referenced files are loaded dynamically, if an element of that resource type is dropped into the container page.</p>
+<p>To include the javascript or css files follow the instructions:</p>
 <ul>
-    <li>Reference the javascript or css files inside of the resource type scheme using &lt;headinclude&gt; node.</li>
+<li>Reference the javascript or css files inside of the resource type scheme using &lt;headinclude&gt; node.</li>
 </ul>
 <p>Please compare:</p>
 <p>/system/modules/org.opencms.dev.demo/schemas/article_with_headincludes.xsd</p>
 <ul>
-    <li>Use the javascript or css information inside of the formatter of the resource type.</li>
-    <li>Add following lines to the html &lt;head&gt; area of the template:</li>
+<li>Extend the template jsp by adding following lines:
+<ul>
+<li>&lt;cms:headincludes type="javascript" /&gt;</li>
+<li>&lt;cms:headincludes type="css" /&gt;</li>
 </ul>
-<p>&lt;cms:headincludes type=&quot;javascript&quot; /&gt;<br />
-&lt;cms:headincludes type=&quot;css&quot; /&gt;</p>]]></content>
+</li>
+<li>Now you can access the additional javascript and css inside of the formatter.</li>
+</ul>]]></content>
     </Text>
     <Image/>
   </DevDemoHeadincludeArticle>
