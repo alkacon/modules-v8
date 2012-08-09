@@ -67,7 +67,7 @@
 
   a {
   	color: #444444; 
-  	text-decoration: none;
+  	text-decoration: underline;
   }
   a:focus,
   a:hover,
@@ -151,6 +151,11 @@
     width: 470px;
     margin-left: 240px;
     margin-right: 240px;     
+  }
+  
+  #col2-wide {
+    width: 710px;
+    margin-left: 240px;  
   }
 
   #col2_content {
