@@ -5,7 +5,7 @@
 
 	<%-- Title of the article --%>
 	<c:if test="${cms.element.settings.hidetitle ne 'true'}">
-		<h2 ${value.Title.rdfa}>${value.Title}</h2>
+		<h2 ${value.Title.rdfaAttr}>${value.Title}</h2>
 	</c:if>	
 
 	
@@ -47,14 +47,14 @@
 		<%-- Optional headline of the paragraph --%>
 
 		<c:if test="${paragraph.value.Headline.isSet}">
-			<h3 ${paragraph.value.Headline.rdfa}>${paragraph.value.Headline}</h3>
+			<h3 ${paragraph.value.Headline.rdfaAttr}>${paragraph.value.Headline}</h3>
 		</c:if>
 		<c:if test="${showimg && (imgalign == 'left' || imgalign == 'right')}">
 			<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"><a href="<cms:link>${paragraph.value.Image.value.Image}</cms:link>" class="thickbox" title="${paragraph.value.Image.value.Title}"></c:if>
 			<cms:img src="${paragraph.value.Image.value.Image}" width="${imgwidth}" scaleColor="transparent" scaleType="0" cssclass="${imgclass}" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 			<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"></a></c:if>
 		</c:if>
-		<div ${paragraph.value.Text.rdfa}>
+		<div ${paragraph.value.Text.rdfaAttr}>
 		${paragraph.value.Text}
 		</div>
 		<c:if test="${showimg}">
