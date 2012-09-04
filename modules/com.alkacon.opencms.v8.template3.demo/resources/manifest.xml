@@ -3191,6 +3191,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>.content/function/function-00007.html</source>
+			<destination>.content/function/function-00007.html</destination>
+			<type>function</type>
+			<uuidstructure>53ad414a-f5e3-11e1-940a-058770d8fd70</uuidstructure>
+			<uuidresource>53ad414b-f5e3-11e1-940a-058770d8fd70</uuidresource>
+			<datelastmodified>Tue, 04 Sep 2012 14:11:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 03 Sep 2012 16:20:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Solr Search]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Search]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/default/.content/groupcontainer</destination>
 			<type>folder</type>
 			<uuidstructure>da89163a-77e8-11e0-be13-000c2972a6a4</uuidstructure>
