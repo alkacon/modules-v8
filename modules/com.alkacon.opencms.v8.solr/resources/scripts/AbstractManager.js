@@ -19,7 +19,7 @@ AjaxSolr.AbstractManager = AjaxSolr.Class.extend(
    * @type String
    * @default "http://localhost:8983/solr/"
    */
-  solrUrl: 'http://localhost:8080/opencms/opencms/',
+  solrUrl: opencmsServlet,
 
   /**
    * If we want to proxy queries through a script, rather than send queries
@@ -40,7 +40,7 @@ AjaxSolr.AbstractManager = AjaxSolr.Class.extend(
    * @type String
    * @default "select"
    */
-  servlet: 'handleSolrSelect',
+  servlet: solrRequestHandler,
 
   /**
    * The most recent response from Solr.

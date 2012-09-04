@@ -1,17 +1,12 @@
 // $Id$
 
 /**
- * Requires ajaxsolr.support.js.
- */
-
-/**
  * Appends the given items to the given list, optionally inserting a separator
  * between the items in the list.
  *
  * @param {String} list The list to append items to.
  * @param {Array} items The list of items to append to the list.
  * @param {String} [separator] A string to add between the items.
- * 
  * @todo Return HTML rather than modify the DOM directly.
  */
 AjaxSolr.theme.prototype.list_items = function (list, items, separator) {
@@ -35,6 +30,10 @@ AjaxSolr.theme.prototype.list_items = function (list, items, separator) {
     jQuery(list).append(li);
   }
 };
+
+/**
+ * Requires ajaxsolr.support.js.
+ */
 
 /**
  * Accepts a container and returns a string of option tags.

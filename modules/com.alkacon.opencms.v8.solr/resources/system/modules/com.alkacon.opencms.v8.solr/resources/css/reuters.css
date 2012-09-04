@@ -1,8 +1,10 @@
+/**
 * {
   padding: 0;
   margin: 0;
 } 
-
+**/
+/**
 body {
   background: #fff url(../images/header.gif) repeat-x;
   color: #333;
@@ -10,24 +12,29 @@ body {
   font-size: 12px;
   line-height: 18px;
 }
-img {
-  border: none;
-}
-a {
-  color: #6998f0;
-  text-decoration: none;
-}
-a:hover {
-  color: #000;
-  text-decoration: underline;
-}
-
-#wrap {
-  width: 970px;
+**/
+.wrap {
+  width: 930px;
   margin: 0px auto;
 }
 .clear {
   clear: both;
+}
+.wrap .ui-datepicker table {
+	background-color: white;
+	border: none;
+}
+
+.wrap img {
+  border: none;
+}
+.wrap a {
+  color: #6998f0;
+  text-decoration: none;
+}
+.wrap a:hover {
+  color: #000;
+  text-decoration: underline;
 }
 
 /* header */
@@ -49,14 +56,14 @@ a:hover {
 
 /* right */
 
-.right {
+.wrap .right {
   float: right;
-  width: 620px;
-  padding: 10px 20px 10px 40px;
+  width: 609px;
+  padding: 20px;
   border-left: 1px solid #aaa;
   text-align: justify;
 }
-.right h2 {
+.wrap .right h2 {
   padding: 15px 0 5px 0;
   color: #B4241B;
   font-size: 20px;
@@ -94,12 +101,12 @@ a:hover {
 }
 
 /* left */
-.left {
+.wrap .left {
   float: left;
   width: 270px;
   padding: 0 0 10px 10px;
 }
-.left h2 {
+.wrap .left h2 {
   clear: left;
   padding-top: 20px;
   color: #333;
@@ -116,51 +123,55 @@ a:hover {
 #search_help {
   font-size: 80%;
 }
-.tagcloud {
+.wrap .tagcloud {
   padding: 10px 15px 0;
 }
-.tagcloud_item {
+.wrap .tagcloud_item {
   float: left;
   display: block;
   margin-right: 4px;
   color: #6998f0;
 }
-.tagcloud_item:hover {
+.wrap .tagcloud_item:hover {
   color: #f00;
 }
 
 /* tagcloud */
 
-a.tagcloud_size_0 {
+.wrap a.tagcloud_size_0 {
 font-size: 80%;
 }
-a.tagcloud_size_1 {
+.wrap a.tagcloud_size_1 {
 font-size: 90%;
 }
-a.tagcloud_size_2 {
+.wrap a.tagcloud_size_2 {
 font-size: 100%;
-}Rst
-a.tagcloud_size_3 {
+}
+.wrap a.tagcloud_size_3 {
 font-size: 110%;
 }
-a.tagcloud_size_4 {
+.wrap a.tagcloud_size_4 {
 font-size: 120%;
 }
-a.tagcloud_size_5 {
+.wrap a.tagcloud_size_5 {
 font-size: 130%;
 }
-a.tagcloud_size_6 {
+.wrap a.tagcloud_size_6 {
 font-size: 140%;
 }
-a.tagcloud_size_7 {
+.wrap a.tagcloud_size_7 {
 font-size: 150%
 }
-a.tagcloud_size_8 {
+.wrap a.tagcloud_size_8 {
 font-size: 160%;
 }
-a.tagcloud_size_9 {
+.wrap a.tagcloud_size_9 {
 font-size: 170%;
 }
-a.tagcloud_size_10 {
+.wrap a.tagcloud_size_10 {
 font-size: 180%;
+}
+
+.wrap .links {
+ font-weight: bold;
 }
