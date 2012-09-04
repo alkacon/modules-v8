@@ -17,7 +17,7 @@ var Manager;
       nextLabel: '&gt;',
       innerWindow: 1,
       renderHeader: function (perPage, offset, total) {
-        $('#pager-header').html($('<span/>').text('displaying ' + Math.min(total, offset + 1) + ' to ' + Math.min(total, offset + perPage) + ' of ' + total));
+        $('#pager-header').html($('<span/>').text(Math.min(total, offset + 1) + ' - ' + Math.min(total, offset + perPage) + ' (' + total + ')'));
       }
     }));
     Manager.addWidget(new AjaxSolr.CurrentSearchWidget({

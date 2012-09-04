@@ -68,7 +68,7 @@ body {
   color: #B4241B;
   font-size: 20px;
   font-weight: 100;
-  letter-spacing: -2px;
+  font-style: italic;
 }
 #result a {
   margin-right: 5px;
