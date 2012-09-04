@@ -164,9 +164,11 @@
   }
 
   #col1 {
+  	<c:if test="${cols == 1}">
+        display:none;
+    </c:if>
     width: 240px;
     float: left;
-    
   }
 
   #col1_content {
@@ -176,7 +178,10 @@
   
   #col2 {
     <c:choose>
-    	<c:when test="${cols == '2'}">
+      <c:when test="${cols == 1}">
+    with: 950px;
+      </c:when>
+      <c:when test="${cols == 2}">
     width: 710px;
     margin-left: 240px;
     margin-right: 0;
@@ -200,7 +205,7 @@
   #col3 {
     width: 240px;
     float: right;
-    <c:if test="${cols == '2'}">display: none;</c:if>    
+    <c:if test="${cols == 2 || cols == 1}">display: none;</c:if>    
   }
 
   #col3_content {
