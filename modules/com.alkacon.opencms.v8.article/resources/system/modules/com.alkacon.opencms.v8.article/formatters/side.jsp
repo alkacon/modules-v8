@@ -1,11 +1,11 @@
 <%@page buffer="none" session="false" taglibs="c,cms" %>
-<cms:formatter var="content" val="value">
+<cms:formatter var="content" val="value" rdfa="rdfa">
 
 <div class="box ${cms.element.settings.boxschema}">
 
 	<%-- Title of the article --%>
-	<c:if test="${cms.element.settings.hidetitle ne 'true'}">
-		<h4 ${value.Title.rdfaAttr}>${value.Title}</h4>
+	<c:if test="${not cms.element.settings.hidetitle}">
+		<h4 ${rdfa.Title}>${value.Title}</h4>
 	</c:if>	
 	
 	<div class="boxbody">
@@ -32,22 +32,22 @@
 				</c:choose>
 			</c:if>
 			<c:if test="${showimg && (imgalign == 'lefthl' || imgalign == 'righthl' || imgalign == 'top')}">
-				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"><a href="<cms:link>${paragraph.value.Image.value.Image}</cms:link>" class="thickbox" title="${paragraph.value.Image.value.Title}"></c:if>
+				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"><a href="<cms:link>${paragraph.value.Image.value.Image.xmlText['link/target']}</cms:link>" class="thickbox" title="${paragraph.value.Image.value.Title}"></c:if>
 				<cms:img src="${paragraph.value.Image.value.Image}" width="${imgwidth}" scaleColor="transparent" scaleType="0" cssclass="${imgclass}" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"></a></c:if>
 			</c:if>
 			<%-- Optional headline of the paragraph --%>
 			<c:if test="${paragraph.value.Headline.isSet}">
-				<h5 ${paragraph.value.Headline.rdfaAttr}>${paragraph.value.Headline}</h5>
+				<h5 ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h5>
 			</c:if>
 			<c:if test="${showimg && (imgalign == 'left' || imgalign == 'right')}">
-				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"><a href="<cms:link>${paragraph.value.Image.value.Image}</cms:link>" class="thickbox" title="${paragraph.value.Image.value.Title}"></c:if>
+				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"><a href="<cms:link>${paragraph.value.Image.value.Image.xmlText['link/target']}</cms:link>" class="thickbox" title="${paragraph.value.Image.value.Title}"></c:if>
 				<cms:img src="${paragraph.value.Image.value.Image}" width="${imgwidth}" scaleColor="transparent" scaleType="0" cssclass="${imgclass}" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 				<c:if test="${paragraph.value.Image.value.Enlarge == 'true'}"></a></c:if>
 			</c:if>
 			<c:choose>
 				<c:when test="${cms.element.settings.keephtml == 'true'}">
-					<div ${paragraph.value.Text.rdfaAttr}>
+					<div ${paragraph.rdfa.Text}>
 					${paragraph.value.Text}
 					</div>
 				</c:when><c:otherwise>
