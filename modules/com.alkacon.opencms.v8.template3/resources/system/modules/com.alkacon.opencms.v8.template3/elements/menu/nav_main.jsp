@@ -2,7 +2,7 @@
 <c:set var="navStartLevel" ><cms:property name="NavStartLevel" file="search" default="0" /></c:set>
 <cms:navigation type="forFolder" startLevel="${navStartLevel}" var="nav"/>
 <div id="nav_main" class="gradient">
-<c:if test="${!empty nav.items}">
+<c:if test="${not empty nav.items}">
 	<ul>
 		<c:set var="oldLevel" value="" />
 		<c:forEach items="${nav.items}" var="elem">
@@ -13,7 +13,7 @@
 				<c:when test="${currentLevel > oldLevel}"><ul></c:when>
 				<c:when test="${currentLevel == oldLevel}"></li></c:when>
 				<c:when test="${oldLevel > currentLevel}">
-					<c:forEach begin="${currentLevel+1}" end="${oldLevel}"></li></ul></c:forEach>
+					<c:forEach begin="${currentLevel + 1}" end="${oldLevel}"></li></ul></c:forEach>
 				</c:when>
 			</c:choose>
 			
@@ -23,7 +23,7 @@
 			<c:set var="oldLevel" value="${currentLevel}" />
 		</c:forEach>
 		
-		<c:forEach begin="${navStartLevel+1}" end="${oldLevel}"></li></ul></c:forEach>
+		<c:forEach begin="${navStartLevel + 1}" end="${oldLevel}"></li></ul></c:forEach>
 	</ul>
 </c:if>
 </div>
