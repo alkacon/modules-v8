@@ -4,7 +4,7 @@
 	<title><cms:info property="opencms.title" /></title>
 	<meta name="description" content="<cms:property name="Description" file="search" default="" />">
 	<meta name="keywords" content="<cms:property name="Keywords" file="search" default="" />">
-	<meta http-equiv="Content-Type" content="text/html; charset=${cms:vfs(pageContext).requestContext.encoding}">
+	<meta http-equiv="Content-Type" content="text/html; charset=${cms.requestContext.encoding}">
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="7 days">
 	
@@ -50,6 +50,7 @@
 		<div id="main">
 			
 	  		<!-- begin: left column -->
+			<c:if test="${cols == '3' || cols == '2'}">
 		  	<div id="col1">
 				<div id="col1_content" class="clearfix">	
 			  	<!-- include the left navigation menu -->
@@ -59,8 +60,10 @@
 				</div>
 	  		</div>
 	  		<!-- end: left column -->
+			</c:if>
 
-	  		<!-- begin: right column -->
+	  		<c:if test="${cols == '3'}">
+			<!-- begin: right column -->
 	  		<div id="col3">
 	  			<div id="col3_content" class="clearfix">
 			          <!-- include the boxes on the right side -->
@@ -68,6 +71,7 @@
 		        	</div>
 	      		</div>
 	      		<!-- end: right column -->
+			</c:if>
 
 	  		<!-- begin: center column -->
 	  		<div id="col2">
