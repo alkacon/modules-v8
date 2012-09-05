@@ -1,14 +1,14 @@
 <%@page buffer="none" session="false" taglibs="c,cms" %>
-<cms:formatter var="content" val="value">
+<cms:formatter var="content" val="value" rdfa="rdfa">
 
 <div class="box ${cms.element.settings.boxschema}">
 
 	<%-- Title of the article --%>
-	<h4>${value.Title}</h4>
+	<h4 ${rdfa.Title}>${value.Title}</h4>
 	
 	<div class="boxbody">
 
-		<div class="paragraph">
+		<div class="paragraph" ${rdfa.Text}>
 			${value.Text}			
 		</div>
 		

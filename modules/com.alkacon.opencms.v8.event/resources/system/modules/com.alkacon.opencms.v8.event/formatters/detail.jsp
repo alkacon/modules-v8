@@ -1,10 +1,10 @@
 <%@page buffer="none" session="false" taglibs="c,cms,fmt" %>
 <fmt:setLocale value="${cms.locale}" />
-<cms:formatter var="content" val="value">
+<cms:formatter var="content" val="value" rdfa="rdfa">
 <div class="view-article">
 
 	<%-- Title of the article --%>
-	<h2>${value.Title}</h2>
+	<h2 ${rdfa.Title}>${value.Title}</h2>
 	
 	<%-- Event Dates --%>
 	<p><i>
@@ -30,13 +30,13 @@
 			<c:set var="endtime" value="${cms:convertDate(value.EventDates.value.EventEndDate)}" />
 			<c:if test="${currenttime > endtime.time}">
 				<br/>
-				${value.EventDates.value.ExpirationRemark}					
+				<span ${value.EventDates.rdfa.ExpirationRemark}>${value.EventDates.value.ExpirationRemark}</span>			
 			</c:if>
 							
 		</c:if>
 		<c:if test="${cms.element.settings.showlocation && value.EventDates.value.EventLocation.isSet}">
 			<br />				
-			${value.EventDates.value.EventLocation}							
+			<span ${value.EventDates.rdfa.EventLocation}>${value.EventDates.value.EventLocation}</span>
 		</c:if>			
 	</i></p>
 	
@@ -67,12 +67,14 @@
 		</c:if>
 		<%-- Optional headline of the paragraph --%>
 		<c:if test="${paragraph.value.Headline.isSet}">
-			<h3>${paragraph.value.Headline}</h3>
+			<h3 ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h3>
 		</c:if>
 		<c:if test="${showimg && (imgalign == 'left' || imgalign == 'right')}">
 			<cms:img src="${paragraph.value.Image.value.Image}" width="${imgwidth}" scaleColor="transparent" scaleType="0" cssclass="${imgclass}" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 		</c:if>
+		<div ${paragraph.rdfa.Text}>
 		${paragraph.value.Text}
+		</div>
 		<c:if test="${showimg}">
 			<div class="clear"></div>
 		</c:if>
