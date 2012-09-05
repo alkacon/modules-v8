@@ -1,12 +1,12 @@
 <%@page buffer="none" session="false" taglibs="c,cms,fmt" %>
 <fmt:setLocale value="${cms.locale}" />
 <fmt:bundle basename="com/alkacon/opencms/v8/news/messages">
-<cms:formatter var="content" val="value">
+<cms:formatter var="content" val="value" rdfa="rdfa">
 
 <div class="box ${cms.element.settings.boxschema}">
 
 	<%-- Title of the article --%>
-	<h4>${value.Title}</h4>
+	<h4 ${rdfa.Title}>${value.Title}</h4>
 	
 	
 	<div class="boxbody">
@@ -50,7 +50,7 @@
 			</c:if>
 			<%-- Optional headline of the paragraph --%>
 			<c:if test="${paragraph.value.Headline.isSet}">
-				<h5>${paragraph.value.Headline}</h5>
+				<h5 ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h5>
 			</c:if>
 			<c:if test="${showimg && (imgalign == 'left' || imgalign == 'right')}">
 				<cms:img src="${paragraph.value.Image}" width="${imgwidth}" scaleColor="transparent" scaleType="0" cssclass="${imgclass}" alt="${paragraph.value.Image.xmlText['description']}" title="${paragraph.value.Image.xmlText['description']}" />

@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.0.0</opencms_version>
-		<createdate>Tue, 28 Jun 2011 14:59:37 GMT</createdate>
+		<opencms_version>8.5.0</opencms_version>
+		<createdate>Wed, 05 Sep 2012 09:00:46 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>OpenCms 8 types</group>
 		<class/>
 		<description><![CDATA[Provides an resource type for twitte integration that can be used in OpenCms 8 templates.]]></description>
-		<version>8.0.3</version>
+		<version>8.5.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -48,10 +48,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>3f542e44-a172-11e0-9d54-8f2a539630cb</uuidstructure>
-			<datelastmodified>Tue, 28 Jun 2011 10:34:48 GMT</datelastmodified>
+			<uuidstructure>8aecd78a-f666-11e1-930b-2fc8aa430640</uuidstructure>
+			<datelastmodified>Tue, 04 Sep 2012 08:00:07 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 28 Jun 2011 10:34:48 GMT</datecreated>
+			<datecreated>Tue, 04 Sep 2012 08:00:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -70,10 +70,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>3fecc500-a172-11e0-9d54-8f2a539630cb</uuidstructure>
-			<datelastmodified>Tue, 28 Jun 2011 10:34:49 GMT</datelastmodified>
+			<uuidstructure>8bfa5026-f666-11e1-930b-2fc8aa430640</uuidstructure>
+			<datelastmodified>Tue, 04 Sep 2012 08:00:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 28 Jun 2011 10:34:49 GMT</datecreated>
+			<datecreated>Tue, 04 Sep 2012 08:00:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -235,6 +235,21 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/messages_ru.properties</source>
+			<destination>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/messages_ru.properties</destination>
+			<type>plain</type>
+			<uuidstructure>71ab4083-74d5-11e1-b6b5-6192c87e77fb</uuidstructure>
+			<uuidresource>71ab4084-74d5-11e1-b6b5-6192c87e77fb</uuidresource>
+			<datelastmodified>Fri, 23 Mar 2012 10:46:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 23 Mar 2012 10:46:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/workplace.properties</source>
 			<destination>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/workplace.properties</destination>
 			<type>plain</type>
@@ -284,6 +299,21 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/workplace_ru.properties</source>
+			<destination>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/workplace_ru.properties</destination>
+			<type>plain</type>
+			<uuidstructure>24f36695-74d6-11e1-b6b5-6192c87e77fb</uuidstructure>
+			<uuidresource>24f36696-74d6-11e1-b6b5-6192c87e77fb</uuidresource>
+			<datelastmodified>Fri, 23 Mar 2012 10:51:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 23 Mar 2012 10:51:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.opencms.v8.twitter/formatters</destination>
 			<type>folder</type>
 			<uuidstructure>431a6eb4-7176-11e0-9840-1f597a2c805d</uuidstructure>
@@ -302,7 +332,7 @@
 			<type>jsp</type>
 			<uuidstructure>2f8c3293-71ae-11e0-9e3c-1f597a2c805d</uuidstructure>
 			<uuidresource>2f8c3294-71ae-11e0-9e3c-1f597a2c805d</uuidresource>
-			<datelastmodified>Fri, 29 Apr 2011 15:18:21 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Sep 2012 08:57:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Apr 2011 15:42:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -310,7 +340,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Formatter for all news]]></value>
+					<value><![CDATA[Formatter for all columns]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -402,7 +432,7 @@
 		<file>
 			<destination>system/workplace</destination>
 			<type>folder</type>
-			<uuidstructure>6dbd9558-8db6-11e0-972f-8f51174189b7</uuidstructure>
+			<uuidstructure>825afce2-11b7-11db-91cd-fdbae480bac9</uuidstructure>
 			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
@@ -445,7 +475,7 @@
 		<file>
 			<destination>system/workplace/resources</destination>
 			<type>folder</type>
-			<uuidstructure>6dbfdf50-8db6-11e0-972f-8f51174189b7</uuidstructure>
+			<uuidstructure>82c16052-11b7-11db-91cd-fdbae480bac9</uuidstructure>
 			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
@@ -458,7 +488,7 @@
 		<file>
 			<destination>system/workplace/resources/filetypes</destination>
 			<type>folder</type>
-			<uuidstructure>6dc24f52-8db6-11e0-972f-8f51174189b7</uuidstructure>
+			<uuidstructure>83ca1dcc-11b7-11db-91cd-fdbae480bac9</uuidstructure>
 			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>

@@ -1,11 +1,11 @@
 <%@page buffer="none" session="false" taglibs="c,cms,fmt" %>
 <fmt:setLocale value="${cms.locale}" />
-<cms:formatter var="content" val="value">
+<cms:formatter var="content" val="value" rdfa="rdfa">
 
 <div class="view-article">
 
 	<%-- Title of the news --%>
-	<h2>${value.Title}</h2>
+	<h2 ${rdfa.Title}>${value.Title}</h2>
 	
 	<%-- Event Dates --%>			
 	<p><i>
@@ -46,12 +46,14 @@
 		</c:if>
 		<%-- Optional headline of the paragraph --%>
 		<c:if test="${paragraph.value.Headline.isSet}">
-			<h3>${paragraph.value.Headline}</h3>
+			<h3 ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h3>
 		</c:if>
 		<c:if test="${showimg && (imgalign == 'left' || imgalign == 'right')}">
 			<cms:img src="${paragraph.value.Image}" width="${imgwidth}" scaleColor="transparent" scaleType="0" cssclass="${imgclass}" alt="${paragraph.value.Image.xmlText['description']}" title="${paragraph.value.Image.xmlText['description']}" />
 		</c:if>
-		${paragraph.value.Text}
+		<div ${paragraph.rdfa.Text}>
+			${paragraph.value.Text}
+		</div>
 		<c:if test="${showimg}">
 			<div class="clear"></div>
 		</c:if>
