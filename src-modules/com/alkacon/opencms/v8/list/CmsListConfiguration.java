@@ -185,7 +185,7 @@ public class CmsListConfiguration extends CmsJspActionElement {
         String params = m_content.getStringValue(getCmsObject(), NODE_PARAMETER, locale);
         List<I_CmsXmlContentValue> links = m_content.getValues(NODE_LINKS, locale);
 
-        CmsMacroResolver macroResolver = CmsMacroResolver.newInstance();
+        CmsMacroResolver macroResolver = CmsMacroResolver.newInstance().setCmsObject(getCmsObject());
         macroResolver.setKeepEmptyMacros(true);
         for (int i = 0; i < links.size(); i++) {
             I_CmsXmlContentValue xmlValue = links.get(i);
@@ -247,9 +247,9 @@ public class CmsListConfiguration extends CmsJspActionElement {
                         cms,
                         CmsXmlUtils.concatXpath(basePath, "MaxLength"),
                         getRequestContext().getLocale());
-                    List<I_CmsXmlContentValue> xmlNodes = m_content.getValues(CmsXmlUtils.concatXpath(
-                        basePath,
-                        "XmlNode"), getRequestContext().getLocale());
+                    List<I_CmsXmlContentValue> xmlNodes = m_content.getValues(
+                        CmsXmlUtils.concatXpath(basePath, "XmlNode"),
+                        getRequestContext().getLocale());
                     List<String> nodes = new ArrayList<String>(xmlNodes.size());
                     for (int j = 0; j < xmlNodes.size(); j++) {
                         nodes.add(xmlNodes.get(j).getStringValue(cms));

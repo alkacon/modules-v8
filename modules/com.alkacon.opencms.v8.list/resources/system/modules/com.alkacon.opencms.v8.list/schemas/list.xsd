@@ -49,7 +49,7 @@
 				<layout element="Text" widget="HtmlWidget" configuration="height:100px,source,imagegallery,link"/>
 				<layout element="TextBottom" widget="HtmlWidget" configuration="height:100px,source,imagegallery,link"/>
 				<layout element="Collector" widget="com.alkacon.opencms.v8.list.CmsCollectorSelectWidget"/>
-				<layout element="Parameter" widget="VfsFileWidget"/>
+				<layout element="Links" widget="VfsFileWidget"/>
 				<layout element="ItemsPerPage" widget="ComboWidget" configuration="2|5|10*|15|20|25|50"/>
 				<layout element="PositionAuthor" widget="SelectorWidget" configuration="top:%(key.v8.list.position.top)|bottom:%(key.v8.list.position.bottom)"/>
 				<layout element="PositionDate" widget="SelectorWidget" configuration="top:%(key.v8.list.position.top)|bottom:%(key.v8.list.position.bottom)"/>
