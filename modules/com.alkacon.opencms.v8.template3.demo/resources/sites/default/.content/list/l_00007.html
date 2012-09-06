@@ -3,8 +3,8 @@
 <V8Lists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.v8.list/schemas/list.xsd">
   <V8List language="en">
     <Title><![CDATA[Orchidaceae Plants]]></Title>
-    <Collector><![CDATA[allKeyValuePairFiltered]]></Collector>
-    <Parameter><![CDATA[resource=%(link1)|resourceType=v8article|categoryTypes=flowerspecies/orchidaceae/|subTree=false|sortBy=date|sortAsc=true]]></Parameter>
+    <Collector><![CDATA[byContext]]></Collector>
+    <Parameter><![CDATA[fq=type:v8article&fq=parent-folders:%(request.siteroot)%(link1)&fq=category_exact:flowerspecies/orchidaceae/&sort=Title_prop asc&rows=50]]></Parameter>
     <Links>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.content/article/]]></target>
@@ -22,8 +22,8 @@
   </V8List>
   <V8List language="de">
     <Title><![CDATA[Orchideengewächse]]></Title>
-    <Collector><![CDATA[allKeyValuePairFiltered]]></Collector>
-    <Parameter><![CDATA[resource=%(link1)|resourceType=v8article|categoryTypes=flowerspecies/orchidaceae/|subTree=false|sortBy=date|sortAsc=true]]></Parameter>
+    <Collector><![CDATA[byContext]]></Collector>
+    <Parameter><![CDATA[fq=type:v8article&fq=parent-folders:%(request.siteroot)%(link1)&fq=category_exact:flowerspecies/orchidaceae/&sort=Title_prop asc&rows=50]]></Parameter>
     <Links>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.content/article/]]></target>
