@@ -3191,8 +3191,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>.content/function/function-00007.html</source>
-			<destination>.content/function/function-00007.html</destination>
+			<source>sites/default/.content/function/function-00007.html</source>
+			<destination>sites/default/.content/function/function-00007.html</destination>
 			<type>function</type>
 			<uuidstructure>53ad414a-f5e3-11e1-940a-058770d8fd70</uuidstructure>
 			<uuidresource>53ad414b-f5e3-11e1-940a-058770d8fd70</uuidresource>
