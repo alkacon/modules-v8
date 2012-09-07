@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.4.7</opencms_version>
-		<createdate>Wed, 05 Sep 2012 08:18:05 GMT</createdate>
+		<opencms_version>8.5.0</opencms_version>
+		<createdate>Fri, 07 Sep 2012 15:42:03 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -296,7 +296,7 @@
 			<type>jsp</type>
 			<uuidstructure>cf80815c-6b61-11e0-b1bb-c3baf286301a</uuidstructure>
 			<uuidresource>cf80815d-6b61-11e0-b1bb-c3baf286301a</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 10:13:51 GMT</datelastmodified>
+			<datelastmodified>Fri, 07 Sep 2012 14:39:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 20 Apr 2011 15:21:05 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -324,7 +324,7 @@
 			<type>jsp</type>
 			<uuidstructure>c2fc28d8-6b61-11e0-b1bb-c3baf286301a</uuidstructure>
 			<uuidresource>c2fc28d9-6b61-11e0-b1bb-c3baf286301a</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 10:20:04 GMT</datelastmodified>
+			<datelastmodified>Fri, 07 Sep 2012 15:00:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 20 Apr 2011 15:20:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -768,7 +768,7 @@
 			<type>plain</type>
 			<uuidstructure>324baae6-6b45-11e0-9460-c3baf286301a</uuidstructure>
 			<uuidresource>324baae7-6b45-11e0-9460-c3baf286301a</uuidresource>
-			<datelastmodified>Wed, 17 Aug 2011 09:44:47 GMT</datelastmodified>
+			<datelastmodified>Fri, 07 Sep 2012 14:20:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 20 Apr 2011 11:56:16 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -796,6 +796,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.v8.article/schemas/nested/attachment.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.v8.article/schemas/nested/attachment.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>1cf16203-f8f6-11e1-9353-2fc8aa430640</uuidstructure>
+			<uuidresource>1cf16204-f8f6-11e1-9353-2fc8aa430640</uuidresource>
+			<datelastmodified>Fri, 07 Sep 2012 14:14:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 07 Sep 2012 14:12:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for article attachment]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.v8.article/schemas/nested/image.xsd</source>
 			<destination>system/modules/com.alkacon.opencms.v8.article/schemas/nested/image.xsd</destination>
 			<type>plain</type>
@@ -816,12 +836,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.v8.article/schemas/nested/link.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.v8.article/schemas/nested/link.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>d33d28ab-f8e7-11e1-9353-2fc8aa430640</uuidstructure>
+			<uuidresource>d33d28ac-f8e7-11e1-9353-2fc8aa430640</uuidresource>
+			<datelastmodified>Fri, 07 Sep 2012 12:48:07 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 07 Sep 2012 12:30:36 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for article link]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.v8.article/schemas/nested/option.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.v8.article/schemas/nested/option.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>2ad19e88-f8e7-11e1-9353-2fc8aa430640</uuidstructure>
+			<uuidresource>2ad19e89-f8e7-11e1-9353-2fc8aa430640</uuidresource>
+			<datelastmodified>Fri, 07 Sep 2012 14:20:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 07 Sep 2012 12:25:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for article option]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.v8.article/schemas/nested/paragraph.xsd</source>
 			<destination>system/modules/com.alkacon.opencms.v8.article/schemas/nested/paragraph.xsd</destination>
 			<type>plain</type>
 			<uuidstructure>7038ee6b-6b5b-11e0-9460-c3baf286301a</uuidstructure>
 			<uuidresource>7038ee6c-6b5b-11e0-9460-c3baf286301a</uuidresource>
-			<datelastmodified>Wed, 20 Apr 2011 14:38:31 GMT</datelastmodified>
+			<datelastmodified>Fri, 07 Sep 2012 14:09:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 20 Apr 2011 14:35:29 GMT</datecreated>
 			<usercreated>Admin</usercreated>

@@ -2,6 +2,7 @@
 	
 	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
 	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.v8.article/schemas/nested/image.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.v8.article/schemas/nested/option.xsd"/>
 
 	<xsd:element name="V8ArticleParagraphs" type="OpenCmsV8ArticleParagraphs"/>
 	
@@ -14,8 +15,9 @@
 	<xsd:complexType name="OpenCmsV8ArticleParagraph">
 		<xsd:sequence>
 			<xsd:element name="Headline" type="OpenCmsString" minOccurs="0" />
-			<xsd:element name="Text" type="OpenCmsHtml" />			
+			<xsd:element name="Text" type="OpenCmsHtml" />
 			<xsd:element name="Image" type="OpenCmsV8ArticleImage" minOccurs="0" />
+			<xsd:element name="Option" type="OpenCmsV8ArticleOption" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
 	</xsd:complexType>

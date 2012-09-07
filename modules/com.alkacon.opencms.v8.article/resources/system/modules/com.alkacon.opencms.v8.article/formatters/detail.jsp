@@ -59,6 +59,30 @@
 		<c:if test="${showimg}">
 			<div class="clear"></div>
 		</c:if>
+		
+		<c:if test="${paragraph.value.Option.exists}">
+			<ul>
+			<c:forEach var="elem" items="${paragraph.subValueList['Option']}">
+			<c:choose>
+				<c:when test="${elem.name == 'Link'}">
+					<c:set var="linktext">${elem.value.Link}</c:set>
+					<c:if test="${not elem.value.Text.isEmptyOrWhitespaceOnly}">
+						<c:set var="linktext">${elem.value.Text}</c:set>
+					</c:if>
+					<li><a href="<cms:link>${elem.value.Link}</cms:link>">${linktext}</a></li>
+				</c:when>
+				<c:when test="${elem.name == 'Attachment'}">
+					<c:set var="linktext">${elem.value.Document}</c:set>
+					<c:if test="${not elem.value.Text.isEmptyOrWhitespaceOnly}">
+						<c:set var="linktext">${elem.value.Text}</c:set>
+					</c:if>
+					<li><a href="<cms:link>${elem.value.Document}</cms:link>">${linktext}</a></li>
+				</c:when>
+			</c:choose>
+			</c:forEach>
+			</ul>
+		</c:if>
+		
 	</div>
 	</c:forEach>
 </div>
