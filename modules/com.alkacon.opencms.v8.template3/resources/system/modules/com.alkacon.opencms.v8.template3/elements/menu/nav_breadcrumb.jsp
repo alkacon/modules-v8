@@ -9,7 +9,7 @@
 		<c:set var="navText">${elem.title}</c:set>
 	</c:if>
 	<c:if test="${!empty navText}">
-		<c:if test="${not first}">&nbsp;»&nbsp;</c:if>
+		<c:if test="${not first}">&nbsp;&raquo;&nbsp;</c:if>
 		<a href="<cms:link>${elem.resourceName}</cms:link>">${navText}</a>
 		<c:set var="first" value="false" />
 	</c:if>
@@ -22,7 +22,7 @@
 </c:if>
 <c:if test="${not empty navText and (navText ne navTextOnFolder)}">
 	<c:if test="${not first}">
-		&nbsp;»&nbsp;
+		&nbsp;&raquo;&nbsp;
 	</c:if>
 	<c:out value="${navText}" />
 </c:if>

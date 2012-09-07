@@ -26,12 +26,12 @@
 <div class="box ${cms.element.settings.boxschema}">
 
 
-	<cms:formatter var="listbox">
+	<cms:formatter var="listbox" rdfa="rdfa">
 
 		<%-- Set the image position --%>
 		<c:set var="imgpos"><cms:elementsetting name="imgalign" default="${listbox.value['PositionImage']}" /></c:set>
 		<%-- Title of the list box --%>
-		<h4><c:out value="${listbox.value['Title']}" escapeXml="false" /></h4>
+		<h4 ${rdfa.Title}><c:out value="${listbox.value['Title']}" escapeXml="false" /></h4>
 
 	</cms:formatter>
 	
@@ -39,13 +39,14 @@
 
 		<%-- Text of the list box --%>
 		<c:if test="${listbox.value['Text'].isSet}">
-			<div class="boxbody_listentry">
+			<div class="boxbody_listentry" ${rdfa.Text}>
 				<c:out value="${listbox.value['Text']}" escapeXml="false" /><br/>
 			</div>
 		</c:if>
 		
 		<%-- Entries of the list box --%>
 		<c:if test="${listbox.value['Parameter'].isSet && not cms.element.inMemoryOnly}">
+
 			<cms:contentload collector="${listbox.value['Collector']}" param="${list.parameter}" preload="true" >
 			
 				<cms:contentinfo var="info" />			
@@ -112,7 +113,7 @@
 
 		<%-- Bottom Text of the list box --%>
 		<c:if test="${listbox.value['TextBottom'].isSet}">
-			<div class="boxbody_listentry">
+			<div class="boxbody_listentry" ${rdfa.TextBottom}>
 				<c:out value="${listbox.value['TextBottom']}" escapeXml="false" /><br/>
 			</div>
 		</c:if>

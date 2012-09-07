@@ -25,7 +25,8 @@
 	cms.getRequestContext().setUri(pageUri);
 %>
 <cms:editable provider="org.opencms.workplace.editors.directedit.CmsAdvancedDirectEditProvider" />
-<fmt:setLocale value="${cms.locale}" />
+<c:set var="loc" value="${cms:vfs(pageContext).requestContext.locale}" />
+<fmt:setLocale value="${loc}" />
 
 	<cms:contentload collector="singleFile" param="%(param.listConfig)">
 		<cms:contentaccess var="listbox" />

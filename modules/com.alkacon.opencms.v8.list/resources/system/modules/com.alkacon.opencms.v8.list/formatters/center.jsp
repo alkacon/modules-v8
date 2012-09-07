@@ -41,7 +41,7 @@
 		var fmtPaginationNext = "<fmt:message key="v8.list.pagination.next" />";
 	</script>
 
-	<cms:formatter var="listbox">
+	<cms:formatter var="listbox" rdfa="rdfa">
 
 		<%-- Set the items per page --%>
 		<c:set var="itemsperpage" value="1000" />
@@ -57,7 +57,7 @@
 		</c:if>
 
 		<%-- Title of the list box --%>
-		<h4><c:out value="${listbox.value['Title']}" escapeXml="false" /></h4>
+		<h4 ${rdfa.Title}><c:out value="${listbox.value['Title']}" escapeXml="false" /></h4>
 
 	</cms:formatter>
 	
@@ -65,7 +65,7 @@
 
 		<%-- Text of the list box --%>
 		<c:if test="${listbox.value['Text'].isSet}">
-			<div class="boxbody_listentry">
+			<div class="boxbody_listentry" ${rdfa.Text}>
 				<c:out value="${listbox.value['Text']}" escapeXml="false" /><br/>
 			</div>
 		</c:if>
@@ -129,7 +129,7 @@
 
 		<%-- Bottom Text of the list box --%>
 		<c:if test="${listbox.value['TextBottom'].isSet}">
-			<div class="boxbody_listentry">
+			<div class="boxbody_listentry" ${rdfa.TextBottom}>
 				<c:out value="${listbox.value['TextBottom']}" escapeXml="false" /><br/>
 			</div>
 		</c:if>
