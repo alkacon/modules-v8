@@ -4247,11 +4247,11 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
-		<file>
-			<destination>sites/default/dev-demo/navigation-entry</destination>
+			<file>
+			<destination>sites/default/dev-demo/navigation-level</destination>
 			<type>subsitemap</type>
 			<uuidstructure>2c352967-ae25-11e1-be24-c524a635a326</uuidstructure>
-			<datelastmodified>Mon, 04 Jun 2012 09:46:09 GMT</datelastmodified>
+			<datelastmodified>Mon, 10 Sep 2012 10:31:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Jun 2012 09:10:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4263,23 +4263,23 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Navigation Entry Demo]]></value>
+					<value><![CDATA[Navigation Level Demo]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Navigation Entry Demo]]></value>
+					<value><![CDATA[Navigation Level Demo]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/index.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/index.html</destination>
+			<source>sites/default/dev-demo/navigation-level/index.html</source>
+			<destination>sites/default/dev-demo/navigation-level/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>2c41104c-ae25-11e1-be24-c524a635a326</uuidstructure>
 			<uuidresource>2c41104d-ae25-11e1-be24-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 14 Jun 2012 10:04:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 10 Sep 2012 10:31:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Jun 2012 09:10:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4287,7 +4287,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Navigation Entry Demo]]></value>
+					<value><![CDATA[Navigation Level Demo]]></value>
 				</property>
 				<property>
 					<name>template</name>
@@ -4298,7 +4298,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/default/dev-demo/navigation-entry/.content</destination>
+			<destination>sites/default/dev-demo/navigation-level/.content</destination>
 			<type>content_folder</type>
 			<uuidstructure>48b4b1af-ae25-11e1-be24-c524a635a326</uuidstructure>
 			<datelastmodified>Mon, 04 Jun 2012 09:11:35 GMT</datelastmodified>
@@ -4311,8 +4311,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/.content/.config</source>
-			<destination>sites/default/dev-demo/navigation-entry/.content/.config</destination>
+			<source>sites/default/dev-demo/navigation-level/.content/.config</source>
+			<destination>sites/default/dev-demo/navigation-level/.content/.config</destination>
 			<type>sitemap_config</type>
 			<uuidstructure>48c7c481-ae25-11e1-be24-c524a635a326</uuidstructure>
 			<uuidresource>48c7c482-ae25-11e1-be24-c524a635a326</uuidresource>
@@ -4343,7 +4343,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/default/dev-demo/navigation-entry/.content/article</destination>
+			<destination>sites/default/dev-demo/navigation-level/.content/article</destination>
 			<type>folder</type>
 			<uuidstructure>ca1285d3-ae25-11e1-be24-c524a635a326</uuidstructure>
 			<datelastmodified>Mon, 04 Jun 2012 09:15:12 GMT</datelastmodified>
@@ -4356,12 +4356,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/.content/article/a-00001.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/.content/article/a-00001.html</destination>
+			<source>sites/default/dev-demo/navigation-level/.content/article/a-00001.html</source>
+			<destination>sites/default/dev-demo/navigation-level/.content/article/a-00001.html</destination>
 			<type>ddarticle</type>
 			<uuidstructure>f71ecf8e-ae25-11e1-be24-c524a635a326</uuidstructure>
 			<uuidresource>f71ecf8f-ae25-11e1-be24-c524a635a326</uuidresource>
-			<datelastmodified>Tue, 12 Jun 2012 16:25:17 GMT</datelastmodified>
+			<datelastmodified>Mon, 10 Sep 2012 10:25:13 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Jun 2012 09:16:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4376,12 +4376,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/.content/article/a-00002.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/.content/article/a-00002.html</destination>
+			<source>sites/default/dev-demo/navigation-level/.content/article/a-00002.html</source>
+			<destination>sites/default/dev-demo/navigation-level/.content/article/a-00002.html</destination>
 			<type>ddarticle</type>
 			<uuidstructure>5a8a2dee-ae2a-11e1-be24-c524a635a326</uuidstructure>
 			<uuidresource>5a8a2def-ae2a-11e1-be24-c524a635a326</uuidresource>
-			<datelastmodified>Tue, 12 Jun 2012 14:41:54 GMT</datelastmodified>
+			<datelastmodified>Mon, 10 Sep 2012 10:26:05 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Jun 2012 09:47:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4389,15 +4389,15 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[How to use the function page "Navigation entry"]]></value>
+					<value><![CDATA[How to use the "Navigation Level"]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/.content/article/a-00003.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/.content/article/a-00003.html</destination>
+			<source>sites/default/dev-demo/navigation-level/.content/article/a-00003.html</source>
+			<destination>sites/default/dev-demo/navigation-level/.content/article/a-00003.html</destination>
 			<type>ddarticle</type>
 			<uuidstructure>516e8c41-ae33-11e1-a1e8-c524a635a326</uuidstructure>
 			<uuidresource>516e8c42-ae33-11e1-a1e8-c524a635a326</uuidresource>
@@ -4416,8 +4416,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/.content/article/a-00004.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/.content/article/a-00004.html</destination>
+			<source>sites/default/dev-demo/navigation-level/.content/article/a-00004.html</source>
+			<destination>sites/default/dev-demo/navigation-level/.content/article/a-00004.html</destination>
 			<type>ddarticle</type>
 			<uuidstructure>7a6d8b0b-ae33-11e1-a1e8-c524a635a326</uuidstructure>
 			<uuidresource>7a6d8b0c-ae33-11e1-a1e8-c524a635a326</uuidresource>
@@ -4436,8 +4436,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/.content/article/a-00005.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/.content/article/a-00005.html</destination>
+			<source>sites/default/dev-demo/navigation-level/.content/article/a-00005.html</source>
+			<destination>sites/default/dev-demo/navigation-level/.content/article/a-00005.html</destination>
 			<type>ddarticle</type>
 			<uuidstructure>8e69f7c5-ae33-11e1-a1e8-c524a635a326</uuidstructure>
 			<uuidresource>8e69f7c6-ae33-11e1-a1e8-c524a635a326</uuidresource>
@@ -4456,12 +4456,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/.content/article/a-00006.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/.content/article/a-00006.html</destination>
+			<source>sites/default/dev-demo/navigation-level/.content/article/a-00006.html</source>
+			<destination>sites/default/dev-demo/navigation-level/.content/article/a-00006.html</destination>
 			<type>ddarticle</type>
 			<uuidstructure>cf790c6d-b49c-11e1-b12d-c524a635a326</uuidstructure>
 			<uuidresource>cf790c6e-b49c-11e1-b12d-c524a635a326</uuidresource>
-			<datelastmodified>Fri, 29 Jun 2012 13:58:14 GMT</datelastmodified>
+			<datelastmodified>Mon, 10 Sep 2012 10:46:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 12 Jun 2012 14:42:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4476,12 +4476,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/.content/article/a-00007.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/.content/article/a-00007.html</destination>
+			<source>sites/default/dev-demo/navigation-level/.content/article/a-00007.html</source>
+			<destination>sites/default/dev-demo/navigation-level/.content/article/a-00007.html</destination>
 			<type>ddarticle</type>
 			<uuidstructure>81087364-b4aa-11e1-b12d-c524a635a326</uuidstructure>
 			<uuidresource>81087365-b4aa-11e1-b12d-c524a635a326</uuidresource>
-			<datelastmodified>Fri, 29 Jun 2012 14:00:26 GMT</datelastmodified>
+			<datelastmodified>Mon, 10 Sep 2012 10:47:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 12 Jun 2012 16:20:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4489,14 +4489,14 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Change the first entry in the navigation]]></value>
+					<value><![CDATA[Change the order in navigation]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/default/dev-demo/navigation-entry/.content/element-group</destination>
+			<destination>sites/default/dev-demo/navigation-level/.content/element-group</destination>
 			<type>folder</type>
 			<uuidstructure>ca20ddb7-ae25-11e1-be24-c524a635a326</uuidstructure>
 			<datelastmodified>Mon, 04 Jun 2012 09:15:12 GMT</datelastmodified>
@@ -4509,7 +4509,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/default/dev-demo/navigation-entry/.content/inheritance_group</destination>
+			<destination>sites/default/dev-demo/navigation-level/.content/inheritance_group</destination>
 			<type>folder</type>
 			<uuidstructure>ca2598a9-ae25-11e1-be24-c524a635a326</uuidstructure>
 			<datelastmodified>Mon, 04 Jun 2012 09:15:12 GMT</datelastmodified>
@@ -4522,7 +4522,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/default/dev-demo/navigation-entry/.content/settings-article</destination>
+			<destination>sites/default/dev-demo/navigation-level/.content/settings-article</destination>
 			<type>folder</type>
 			<uuidstructure>ca19b1c5-ae25-11e1-be24-c524a635a326</uuidstructure>
 			<datelastmodified>Mon, 04 Jun 2012 09:15:12 GMT</datelastmodified>
@@ -4535,7 +4535,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/default/dev-demo/navigation-entry/products</destination>
+			<destination>sites/default/dev-demo/navigation-level/products</destination>
 			<type>folder</type>
 			<uuidstructure>6ea33508-ae28-11e1-be24-c524a635a326</uuidstructure>
 			<datelastmodified>Mon, 04 Jun 2012 09:34:26 GMT</datelastmodified>
@@ -4565,8 +4565,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/products/index.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/products/index.html</destination>
+			<source>sites/default/dev-demo/navigation-level/products/index.html</source>
+			<destination>sites/default/dev-demo/navigation-level/products/index.html</destination>
 			<type>htmlredirect</type>
 			<uuidstructure>6eaf1bee-ae28-11e1-be24-c524a635a326</uuidstructure>
 			<uuidresource>6eaf1bef-ae28-11e1-be24-c524a635a326</uuidresource>
@@ -4589,7 +4589,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/default/dev-demo/navigation-entry/products/product-1</destination>
+			<destination>sites/default/dev-demo/navigation-level/products/product-1</destination>
 			<type>folder</type>
 			<uuidstructure>89e0ee84-ae28-11e1-be24-c524a635a326</uuidstructure>
 			<datelastmodified>Tue, 12 Jun 2012 16:23:05 GMT</datelastmodified>
@@ -4615,8 +4615,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/products/product-1/index.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/products/product-1/index.html</destination>
+			<source>sites/default/dev-demo/navigation-level/products/product-1/index.html</source>
+			<destination>sites/default/dev-demo/navigation-level/products/product-1/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>89f40159-ae28-11e1-be24-c524a635a326</uuidstructure>
 			<uuidresource>89f4015a-ae28-11e1-be24-c524a635a326</uuidresource>
@@ -4635,7 +4635,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/default/dev-demo/navigation-entry/products/product-2</destination>
+			<destination>sites/default/dev-demo/navigation-level/products/product-2</destination>
 			<type>folder</type>
 			<uuidstructure>9367e58e-ae28-11e1-be24-c524a635a326</uuidstructure>
 			<datelastmodified>Tue, 12 Jun 2012 16:22:50 GMT</datelastmodified>
@@ -4661,8 +4661,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/products/product-2/index.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/products/product-2/index.html</destination>
+			<source>sites/default/dev-demo/navigation-level/products/product-2/index.html</source>
+			<destination>sites/default/dev-demo/navigation-level/products/product-2/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>9378ae73-ae28-11e1-be24-c524a635a326</uuidstructure>
 			<uuidresource>9378ae74-ae28-11e1-be24-c524a635a326</uuidresource>
@@ -4681,7 +4681,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/default/dev-demo/navigation-entry/products/product-3</destination>
+			<destination>sites/default/dev-demo/navigation-level/products/product-3</destination>
 			<type>folder</type>
 			<uuidstructure>9bc29198-ae28-11e1-be24-c524a635a326</uuidstructure>
 			<datelastmodified>Mon, 04 Jun 2012 09:35:30 GMT</datelastmodified>
@@ -4707,8 +4707,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/default/dev-demo/navigation-entry/products/product-3/index.html</source>
-			<destination>sites/default/dev-demo/navigation-entry/products/product-3/index.html</destination>
+			<source>sites/default/dev-demo/navigation-level/products/product-3/index.html</source>
+			<destination>sites/default/dev-demo/navigation-level/products/product-3/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>9bd0e97d-ae28-11e1-be24-c524a635a326</uuidstructure>
 			<uuidresource>9bd0e97e-ae28-11e1-be24-c524a635a326</uuidresource>
