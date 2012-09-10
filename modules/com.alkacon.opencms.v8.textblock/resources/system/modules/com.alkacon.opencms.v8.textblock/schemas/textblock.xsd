@@ -1,0 +1,158 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.v8.textblock/schemas/nested/paragraph.xsd"/>
+		
+	<xsd:element name="V8Textblocks" type="OpenCmsV8Textblocks"/>
+	
+	<xsd:complexType name="OpenCmsV8Textblocks">
+		<xsd:sequence>
+			<xsd:element name="V8Textblock" type="OpenCmsV8Textblock" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsV8Textblock">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Paragraph" type="OpenCmsV8TextblockParagraph" maxOccurs="5" />
+			<xsd:element name="Category" type="OpenCmsVfsFile" minOccurs="0" maxOccurs="5" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundles>
+			<xmlbundle name="com.alkacon.opencms.v8.textblock.workplace.xml">
+			
+				<bundle locale="en">
+					<resource key="label.V8Textblock.Title">Title</resource>
+					<resource key="label.V8Textblock.Title.help">The title of the text block.</resource>
+					<resource key="label.V8Textblock.Paragraph">Paragraph</resource>
+					<resource key="label.V8Textblock.Paragraph.help">A paragraph for a text block, up to 5 paragraphs are possible.</resource>
+					<resource key="label.V8Textblock.Category">Category</resource>
+					<resource key="label.V8Textblock.Category.help">Assigns categories to the text block.</resource>
+					<resource key="label.V8TextblockParagraph.Headline">Headline</resource>
+					<resource key="label.V8TextblockParagraph.Headline.help">The optional headline of the paragraph.</resource>
+					<resource key="label.V8TextblockParagraph.Text">Text</resource>
+					<resource key="label.V8TextblockParagraph.Text.help">The paragraph text.</resource>
+					<resource key="label.V8TextblockParagraph.Option">Optional Element</resource>
+					<resource key="label.V8TextblockParagraph.Option.help">An optional element can be displayed for each paragraph.</resource>
+					<resource key="label.V8TextblockParagraph.Image">Image</resource>
+					<resource key="label.V8TextblockParagraph.Image.help">An image that can be aligned in different ways.</resource>
+					<resource key="label.V8TextblockOption.Attachment">Attachment</resource>
+					<resource key="label.V8TextblockOption.Attachment.help">A document that can be attached to the paragraph.</resource>
+					<resource key="label.V8TextblockOption.Link">Link</resource>
+					<resource key="label.V8TextblockOption.Link.help">A link pointing to further information, can also be an external link (starting with http://).</resource>
+					<resource key="label.V8TextblockImage.Image">Image URI</resource>
+					<resource key="label.V8TextblockImage.Image.help">The absolute path to the image to use.</resource>
+					<resource key="label.V8TextblockImage.Align">Align</resource>
+					<resource key="label.V8TextblockImage.Align.help">Select the alignment of the image.</resource>
+					<resource key="label.V8TextblockImage.Title">Title</resource>
+					<resource key="label.V8TextblockImage.Title.help">The image title is displayed when hovering the image.</resource>
+					<resource key="label.V8TextblockImage.Enlarge">Enable enlargement</resource>
+					<resource key="label.V8TextblockImage.Enlarge.help">If checked, the image can be enlarged by clicking on it using a color box effect.</resource>
+					<resource key="label.V8TextblockLink.Text">Text</resource>
+					<resource key="label.V8TextblockLink.Text.help">The text is displayed as link.</resource>
+					<resource key="label.V8TextblockLink.Link">Link</resource>
+					<resource key="label.V8TextblockLink.Link.help">The link target.</resource>
+					<resource key="label.V8TextblockAttachment.Text">Text</resource>
+					<resource key="label.V8TextblockAttachment.Text.help">The text is displayed as document link.</resource>
+					<resource key="label.V8TextblockAttachment.Document">Document</resource>
+					<resource key="label.V8TextblockAttachment.Document.help">The path to the attached document.</resource>
+					<resource key="v8.textblock.image.top">Top</resource>
+					<resource key="v8.textblock.image.lefthl">Left of headline</resource>
+					<resource key="v8.textblock.image.righthl">Right of headline</resource>
+					<resource key="v8.textblock.image.left">Left of text</resource>
+					<resource key="v8.textblock.image.right">Right of text</resource>
+					<resource key="v8.textblock.default.Title">New text block</resource>
+					<resource key="v8.textblock.default.Text">Please edit the text block text.</resource>
+					<resource key="v8.textblock.setting.boxschema">Color schema</resource>
+					<resource key="v8.textblock.setting.imgalign">Image alignment</resource>
+					<resource key="v8.textblock.setting.hidetitle">Hide title</resource>
+					<resource key="v8.textblock.setting.keephtml">Keep HTML in side column</resource>					
+				</bundle> 
+				<bundle locale="de">
+					<resource key="label.V8Textblock.Title">Titel</resource>
+					<resource key="label.V8Textblock.Title.help">Der Titel des Textbausteins.</resource>
+					<resource key="label.V8Textblock.Paragraph">Absatz</resource>
+					<resource key="label.V8Textblock.Paragraph.help">Ein Absatz für einen Textbaustein, es können bis zu 5 Absätze erzeugt werden.</resource>
+					<resource key="label.V8Textblock.Category">Kategorie</resource>
+					<resource key="label.V8Textblock.Category.help">Ordnet dem Textbaustein Kategorien zu.</resource>
+					<resource key="label.V8TextblockParagraph.Headline">Überschrift</resource>
+					<resource key="label.V8TextblockParagraph.Headline.help">Die optionale Überschrift des Absatzes.</resource>
+					<resource key="label.V8TextblockParagraph.Text">Text</resource>
+					<resource key="label.V8TextblockParagraph.Text.help">Der Absatztext.</resource>
+					<resource key="label.V8TextblockParagraph.Option">Optionales Element</resource>
+					<resource key="label.V8TextblockParagraph.Option.help">Für jeden Absatz kann ein optionales Element angezeigt werden.</resource>
+					<resource key="label.V8TextblockParagraph.Image">Bild</resource>
+					<resource key="label.V8TextblockParagraph.Image.help">Ein Bild, das auf unterschiedliche Weise ausgerichtet werden kann.</resource>
+					<resource key="label.V8TextblockOption.Attachment">Anhang</resource>
+					<resource key="label.V8TextblockOption.Attachment.help">Ein Dokument, das zum Absatz angefügt werden kann.</resource>
+					<resource key="label.V8TextblockOption.Link">Link</resource>
+					<resource key="label.V8TextblockOption.Link.help">Ein weiterführender Link.</resource>
+					<resource key="label.V8TextblockImage.Image">Bild URI</resource>
+					<resource key="label.V8TextblockImage.Image.help">Der absolute Pfad des anzuzeigenden Bildes.</resource>
+					<resource key="label.V8TextblockImage.Align">Anordnung</resource>
+					<resource key="label.V8TextblockImage.Align.help">Wählen Sie die Anordnung des Bildes relativ zum Text.</resource>
+					<resource key="label.V8TextblockImage.Title">Titel</resource>
+					<resource key="label.V8TextblockImage.Title.help">Der Bildtitel wird beim Überfahren des Bildes mit der Maus gezeigt.</resource>
+					<resource key="label.V8TextblockImage.Enlarge">Vergrößerung aktivieren</resource>
+					<resource key="label.V8TextblockImage.Enlarge.help">Wenn angekreuzt, kann das Bild durch Anklicken vergrößert werden.</resource>
+					<resource key="label.V8TextblockLink.Text">Text</resource>
+					<resource key="label.V8TextblockLink.Text.help">Der Text wird als Link angezeigt.</resource>
+					<resource key="label.V8TextblockLink.Link">Link</resource>
+					<resource key="label.V8TextblockLink.Link.help">Das Linkziel.</resource>
+					<resource key="label.V8TextblockAttachment.Text">Text</resource>
+					<resource key="label.V8TextblockAttachment.Text.help">Der Text wird als Dokumenten Link angezeigt.</resource>
+					<resource key="label.V8TextblockAttachment.Document">Dokument</resource>
+					<resource key="label.V8TextblockAttachment.Document.help">Der Pfad zum angehängten Dokument.</resource>
+					<resource key="v8.textblock.image.top">Oben</resource>
+					<resource key="v8.textblock.image.lefthl">Links der Überschrift</resource>
+					<resource key="v8.textblock.image.righthl">Rechts der Überschrift</resource>
+					<resource key="v8.textblock.image.left">Links vom Text</resource>
+					<resource key="v8.textblock.image.right">Rechts vom Text</resource>
+					<resource key="v8.textblock.default.Title">Neuer Textbaustein</resource>
+					<resource key="v8.textblock.default.Text">Bitte bearbeiten Sie den Textbaustein.</resource>
+					<resource key="v8.textblock.setting.boxschema">Farbschema</resource>
+					<resource key="v8.textblock.setting.imgalign">Bildausrichtung</resource>
+					<resource key="v8.textblock.setting.hidetitle">Titel verstecken</resource>
+					<resource key="v8.textblock.setting.keephtml">HTML in Seitenspalte erhalten</resource>
+				</bundle>						
+				</xmlbundle>
+			</resourcebundles>
+			<mappings>
+				<mapping element="Title" mapto="property:Title" />
+				<mapping element="Title" mapto="urlName" />
+			</mappings>
+			<defaults>
+				<default element="Title" value="%(key.v8.textblock.default.Title)" />
+				<default element="Paragraph/Text" value="%(key.v8.textblock.default.Text)" />
+			</defaults>
+			<layouts>
+				<layout element="Category" widget="CategoryWidget" configuration="onlyleafs=false" />
+			</layouts>
+			<validationrules/>
+			<relations>
+				<relation element="Paragraph/Image/Image" invalidate="parent" />
+			</relations>
+			<formatters>
+				<formatter minwidth="400" uri="/system/modules/com.alkacon.opencms.v8.textblock/formatters/detail.jsp" searchcontent="true" />
+				<formatter minwidth="150" maxwidth="250" uri="/system/modules/com.alkacon.opencms.v8.textblock/formatters/side.jsp" searchcontent="true" />
+			</formatters>
+			<settings>
+				<setting name="boxschema" nice-name="%(key.v8.textblock.setting.boxschema)" default="box_schema3" type="string" widget="select" widget-config="box_schema3:Schema White|box_schema1:Schema Blue|box_schema2:Schema Red" />
+				<setting name="imgalign" nice-name="%(key.v8.textblock.setting.imgalign)" type="string" widget="select" widget-config="left:%(key.v8.textblock.image.left)|right:%(key.v8.textblock.image.right)|top:%(key.v8.textblock.image.top)|lefthl:%(key.v8.textblock.image.lefthl)|righthl:%(key.v8.textblock.image.righthl)" />
+				<setting name="hidetitle" nice-name="%(key.v8.textblock.setting.hidetitle)" type="string" widget="checkbox" />
+				<setting name="keephtml" nice-name="%(key.v8.textblock.setting.keephtml)" type="string" widget="checkbox" />
+			</settings>
+			<headincludes>
+				<headinclude type="javascript" uri="/system/modules/org.opencms.jquery/resources/packed/jquery.js" />
+				<headinclude type="javascript" uri="/system/modules/com.alkacon.opencms.v8.textblock/resources/js/jquery.colorbox.js" />
+				<headinclude type="javascript" uri="/system/modules/com.alkacon.opencms.v8.textblock/resources/js/jquery.colorbox.init.js" />
+				<headinclude type="css" uri="/system/modules/com.alkacon.opencms.v8.textblock/resources/css/jquery.colorbox.css" />
+			</headincludes>
+		</xsd:appinfo>
+
+	</xsd:annotation>  
+</xsd:schema>

@@ -1,0 +1,26 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+		
+	<xsd:element name="V8TextblockLinks" type="OpenCmsV8TextblockLinks"/>
+	
+	<xsd:complexType name="OpenCmsV8TextblockLinks">
+		<xsd:sequence>
+			<xsd:element name="V8TextblockLink" type="OpenCmsV8TextblockLink" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsV8TextblockLink">
+		<xsd:sequence>
+			<xsd:element name="Text" type="OpenCmsString" />
+			<xsd:element name="Link" type="OpenCmsVarLink" />			
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.opencms.v8.textblock.workplace"/>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>
