@@ -54,6 +54,7 @@
   font-size: 20px;
   font-weight: 100;
   font-style: italic;
+  text-align: left;
 }
 #result a {
   margin-right: 5px;
