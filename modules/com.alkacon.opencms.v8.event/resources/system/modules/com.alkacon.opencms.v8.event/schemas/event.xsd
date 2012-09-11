@@ -66,6 +66,10 @@
 				<searchsetting element="Title" searchcontent="true">
 					<solrfield targetfield="Title" />
 				</searchsetting>
+				<searchsetting element="Title" searchcontent="true">
+					<solrfield targetfield="Title" />
+				</searchsetting>
+				<searchsetting element="Paragraph/Image/Align" searchcontent="false" />
 			</searchsettings>
 			<relations>
 				<relation element="Paragraph/Image/Image" invalidate="parent"/>
