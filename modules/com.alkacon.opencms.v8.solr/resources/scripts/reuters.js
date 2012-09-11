@@ -4,7 +4,7 @@ var Manager;
 
   $(function () {
     Manager = new AjaxSolr.Manager({
-      solrUrl: 'http://localhost:8080/opencms/opencms/'
+      solrUrl: opencmsServlet
     });
     Manager.addWidget(new AjaxSolr.ResultWidget({
       id: 'result',
@@ -67,7 +67,7 @@ var Manager;
       'f.topics.facet.limit': 50,
       'f.countryCodes.facet.limit': -1,
       'facet.date': 'lastmodified',
-      'facet.date.start': '2012-06-01T00:00:00.000Z/DAY',
+      'facet.date.start': '2012-05-01T00:00:00.000Z/DAY',
       'facet.date.end': '2020-01-01T00:00:00.000Z/DAY+1DAY',
       'facet.date.gap': '+1DAY',
       'json.nl': 'map'

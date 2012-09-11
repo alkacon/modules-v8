@@ -2440,7 +2440,7 @@ var Manager;
 
   $(function () {
     Manager = new AjaxSolr.Manager({
-      solrUrl: 'http://localhost:8080/opencms/opencms/'
+      solrUrl: opencmsServlet
     });
     Manager.addWidget(new AjaxSolr.ResultWidget({
       id: 'result',
@@ -2453,7 +2453,7 @@ var Manager;
       nextLabel: '&gt;',
       innerWindow: 1,
       renderHeader: function (perPage, offset, total) {
-        $('#pager-header').html($('<span/>').text('displaying ' + Math.min(total, offset + 1) + ' to ' + Math.min(total, offset + perPage) + ' of ' + total));
+        $('#pager-header').html($('<span/>').text(Math.min(total, offset + 1) + ' - ' + Math.min(total, offset + perPage) + ' (' + total + ')'));
       }
     }));
     Manager.addWidget(new AjaxSolr.CurrentSearchWidget({
@@ -2503,7 +2503,7 @@ var Manager;
       'f.topics.facet.limit': 50,
       'f.countryCodes.facet.limit': -1,
       'facet.date': 'lastmodified',
-      'facet.date.start': '2012-06-01T00:00:00.000Z/DAY',
+      'facet.date.start': '2012-05-01T00:00:00.000Z/DAY',
       'facet.date.end': '2020-01-01T00:00:00.000Z/DAY+1DAY',
       'facet.date.gap': '+1DAY',
       'json.nl': 'map'
@@ -3881,7 +3881,7 @@ AjaxSolr.CalendarWidget = AjaxSolr.AbstractFacetWidget.extend({
     var self = this;
     $(this.target).datepicker('destroy').datepicker({
       dateFormat: 'yy-mm-dd',
-      defaultDate: new Date(1987, 2, 1),
+      defaultDate: new Date(),
       maxDate: $.datepicker.parseDate('yy-mm-dd', this.manager.store.get('facet.date.end').val().substr(0, 10)),
       minDate: $.datepicker.parseDate('yy-mm-dd', this.manager.store.get('facet.date.start').val().substr(0, 10)),
       nextText: '&gt;',
