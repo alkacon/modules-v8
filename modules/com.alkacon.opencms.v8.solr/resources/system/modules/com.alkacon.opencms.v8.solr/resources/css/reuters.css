@@ -1,18 +1,3 @@
-/**
-* {
-  padding: 0;
-  margin: 0;
-} 
-**/
-/**
-body {
-  background: #fff url(../images/header.gif) repeat-x;
-  color: #333;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  line-height: 18px;
-}
-**/
 .wrap {
   width: 930px;
   margin: 0px auto;
@@ -119,9 +104,16 @@ body {
 }
 #calendar {
   width: 160px;
+  margin-top: 10px;
 }
 #search_help {
   font-size: 80%;
+}
+#docs li{
+  margin: 0;
+  list-style-type: none;
+  display: inline;
+  background: none !important;
 }
 .wrap .tagcloud {
   padding: 10px 15px 0;

@@ -2528,23 +2528,41 @@ var Manager;
 (function ($) {
 
 AjaxSolr.theme.prototype.result = function (doc, snippet) {
-  var output = '<div><h2>' + doc.Title_prop + '</h2>';
-  output += '<p id="links_' + doc.path + '" class="links">'+doc.path+'</p>';
+  var title = doc.Title_en;
+  if (opencmsLocale == 'de') {
+    var title = doc.Title_de;
+  }
+  if (!title || title == 'undefined' || title == null) {
+    title = doc.Title_prop;
+  }
+  var output = '<div><h2>' + title + '</h2>';
+  output += '<span><strong>' + GUI_TAGS_LABEL_0 + '&nbsp;</strong></span><span id="links_' + doc.id + '"></span>';
   output += '<p>' + snippet + '</p></div>';
+  output += '<p><a href="' + doc.link + '">' + GUI_READ_ALL_0 + '</a></p>';
   return output;
 };
 
 AjaxSolr.theme.prototype.snippet = function (doc) {
+  var content = doc.content_en;
+  if (opencmsLocale == 'de') {
+    var content = doc.content_de;
+  }
+  if (!content || content == 'undefined' || content == null) {
+	  content = doc.content;
+  }
   var output = '';
-  if (doc.content_en && doc.content_en.toString().length > 300) {
-    output = doc.content_en.toString();
+  if (content && content.toString().length > 300) {
+    output = content.toString();
     var rest = output.substring(300, output.length);
     output = output.substring(0, 300);
     output += '<span style="display:none;">' + rest;
-    output += '</span> <a href="#" class="more">more</a>';
+    output += '</span> <a href="#" class="more">' + GUI_MORE_0 + '</a>';
   }
   else {
-    output += doc.content_en;
+    output += content;
+  }
+  if (!output || output == 'undefined' || output == null) {
+	  output = GUI_NO_CONTENT_AVAILABLE_0;
   }
   return output;
 };
@@ -2571,7 +2589,7 @@ AjaxSolr.theme.prototype.facet_link = function (value, handler) {
 };
 
 AjaxSolr.theme.prototype.no_items_found = function () {
-  return 'no items found in current selection';
+  return GUI_NO_ITEMS_FOUND_0;
 };
 
 })(jQuery);
@@ -2727,7 +2745,7 @@ AjaxSolr.AbstractSpellcheckWidget = AjaxSolr.AbstractWidget.extend(
 
 AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
   beforeRequest: function () {
-    $(this.target).html($('<img/>').attr('src', 'system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ajax-loader.gif'));
+    $(this.target).html($('<img/>').attr('src', opencmsServlet + '/system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ajax-loader.gif'));
   },
 
   facetLinks: function (facet_field, facet_values) {
@@ -2760,13 +2778,11 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
     for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
       var doc = this.manager.response.response.docs[i];
       $(this.target).append(AjaxSolr.theme('result', doc, AjaxSolr.theme('snippet', doc)));
-
       var items = [];
       items = items.concat(this.facetLinks('category_exact', doc.category_exact));
-//      items = items.concat(this.facetLinks('search-title', doc.search-title));
       items = items.concat(this.facetLinks('res_locales', doc.res_locales));
-      items = items.concat(this.facetLinks('lastmodified', doc.lastmodified));
-      items = items.concat(this.facetLinks('type', doc.type));
+      var type = doc.type.toString();
+      items = items.concat(this.facetLinks('type', new Array(type)));
       AjaxSolr.theme('list_items', '#links_' + doc.id, items);
     }
   },
@@ -2775,11 +2791,11 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
     $('a.more').livequery(function () {
       $(this).toggle(function () {
         $(this).parent().find('span').show();
-        $(this).text('less');
+        $(this).text(GUI_LESS_0);
         return false;
       }, function () {
         $(this).parent().find('span').hide();
-        $(this).text('more');
+        $(this).text(GUI_MORE_0);
         return false;
       });
     });
@@ -3724,7 +3740,7 @@ AjaxSolr.CurrentSearchWidget = AjaxSolr.AbstractWidget.extend({
     }
 
     if (links.length > 1) {
-      links.unshift($('<a href="#"/>').text('remove all').click(function () {
+      links.unshift($('<a href="#"/>').text(GUI_REMOVE_ALL_FACETS_0).click(function () {
         self.manager.store.remove('fq');
         self.manager.doRequest(0);
         return false;
@@ -3735,7 +3751,7 @@ AjaxSolr.CurrentSearchWidget = AjaxSolr.AbstractWidget.extend({
       AjaxSolr.theme('list_items', this.target, links);
     }
     else {
-      $(this.target).html('<div>Viewing all documents!</div>');
+      $(this.target).html('<div>' + GUI_VIEWING_ALL_DOCS_0 + '</div>');
     }
   },
 
@@ -3886,10 +3902,11 @@ AjaxSolr.CalendarWidget = AjaxSolr.AbstractFacetWidget.extend({
       minDate: $.datepicker.parseDate('yy-mm-dd', this.manager.store.get('facet.date.start').val().substr(0, 10)),
       nextText: '&gt;',
       prevText: '&lt;',
+      region: opencmsLocale,
       beforeShowDay: function (date) {
         var value = $.datepicker.formatDate('yy-mm-dd', date) + 'T00:00:00Z';
         var count = self.manager.response.facet_counts.facet_dates[self.field][value];
-        return [ parseInt(count) > 0, '', count + ' documents found!' ];
+        return [ parseInt(count) > 0, '', count + ' ' + GUI_DOCUMENTS_FOUND_0 ];
       },
       onSelect: function (dateText, inst) {
         if (self.add('[' + dateText + 'T00:00:00Z TO ' + dateText + 'T23:59:59Z]')) {

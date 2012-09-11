@@ -18,7 +18,7 @@ AjaxSolr.CurrentSearchWidget = AjaxSolr.AbstractWidget.extend({
     }
 
     if (links.length > 1) {
-      links.unshift($('<a href="#"/>').text('remove all').click(function () {
+      links.unshift($('<a href="#"/>').text(GUI_REMOVE_ALL_FACETS_0).click(function () {
         self.manager.store.remove('fq');
         self.manager.doRequest(0);
         return false;
@@ -29,7 +29,7 @@ AjaxSolr.CurrentSearchWidget = AjaxSolr.AbstractWidget.extend({
       AjaxSolr.theme('list_items', this.target, links);
     }
     else {
-      $(this.target).html('<div>Viewing all documents!</div>');
+      $(this.target).html('<div>' + GUI_VIEWING_ALL_DOCS_0 + '</div>');
     }
   },
 

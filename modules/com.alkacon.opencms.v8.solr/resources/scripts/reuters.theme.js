@@ -1,23 +1,41 @@
 (function ($) {
 
 AjaxSolr.theme.prototype.result = function (doc, snippet) {
-  var output = '<div><h2>' + doc.Title_prop + '</h2>';
-  output += '<p id="links_' + doc.path + '" class="links">'+doc.path+'</p>';
+  var title = doc.Title_en;
+  if (opencmsLocale == 'de') {
+    var title = doc.Title_de;
+  }
+  if (!title || title == 'undefined' || title == null) {
+    title = doc.Title_prop;
+  }
+  var output = '<div><h2>' + title + '</h2>';
+  output += '<span><strong>' + GUI_TAGS_LABEL_0 + '&nbsp;</strong></span><span id="links_' + doc.id + '"></span>';
   output += '<p>' + snippet + '</p></div>';
+  output += '<p><a href="' + doc.link + '">' + GUI_READ_ALL_0 + '</a></p>';
   return output;
 };
 
 AjaxSolr.theme.prototype.snippet = function (doc) {
+  var content = doc.content_en;
+  if (opencmsLocale == 'de') {
+    var content = doc.content_de;
+  }
+  if (!content || content == 'undefined' || content == null) {
+	  content = doc.content;
+  }
   var output = '';
-  if (doc.content_en && doc.content_en.toString().length > 300) {
-    output = doc.content_en.toString();
+  if (content && content.toString().length > 300) {
+    output = content.toString();
     var rest = output.substring(300, output.length);
     output = output.substring(0, 300);
     output += '<span style="display:none;">' + rest;
-    output += '</span> <a href="#" class="more">more</a>';
+    output += '</span> <a href="#" class="more">' + GUI_MORE_0 + '</a>';
   }
   else {
-    output += doc.content_en;
+    output += content;
+  }
+  if (!output || output == 'undefined' || output == null) {
+	  output = GUI_NO_CONTENT_AVAILABLE_0;
   }
   return output;
 };
@@ -44,7 +62,7 @@ AjaxSolr.theme.prototype.facet_link = function (value, handler) {
 };
 
 AjaxSolr.theme.prototype.no_items_found = function () {
-  return 'no items found in current selection';
+  return GUI_NO_ITEMS_FOUND_0;
 };
 
 })(jQuery);

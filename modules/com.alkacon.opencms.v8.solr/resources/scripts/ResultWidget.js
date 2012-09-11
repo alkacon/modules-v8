@@ -2,7 +2,7 @@
 
 AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
   beforeRequest: function () {
-    $(this.target).html($('<img/>').attr('src', 'system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ajax-loader.gif'));
+    $(this.target).html($('<img/>').attr('src', opencmsServlet + '/system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ajax-loader.gif'));
   },
 
   facetLinks: function (facet_field, facet_values) {
@@ -35,13 +35,11 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
     for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
       var doc = this.manager.response.response.docs[i];
       $(this.target).append(AjaxSolr.theme('result', doc, AjaxSolr.theme('snippet', doc)));
-
       var items = [];
       items = items.concat(this.facetLinks('category_exact', doc.category_exact));
-//      items = items.concat(this.facetLinks('search-title', doc.search-title));
       items = items.concat(this.facetLinks('res_locales', doc.res_locales));
-      items = items.concat(this.facetLinks('lastmodified', doc.lastmodified));
-      items = items.concat(this.facetLinks('type', doc.type));
+      var type = doc.type.toString();
+      items = items.concat(this.facetLinks('type', new Array(type)));
       AjaxSolr.theme('list_items', '#links_' + doc.id, items);
     }
   },
@@ -50,11 +48,11 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
     $('a.more').livequery(function () {
       $(this).toggle(function () {
         $(this).parent().find('span').show();
-        $(this).text('less');
+        $(this).text(GUI_LESS_0);
         return false;
       }, function () {
         $(this).parent().find('span').hide();
-        $(this).text('more');
+        $(this).text(GUI_MORE_0);
         return false;
       });
     });

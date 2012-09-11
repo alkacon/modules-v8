@@ -3,6 +3,7 @@
   <script type="text/javascript">
   	var solrRequestHandler = "handleSolrSelect";
   	var opencmsServlet = "<%= OpenCms.getLinkManager().getOnlineLink(new CmsJspActionElement(pageContext, request, response).getCmsObject() , "/") %>";
+  	var opencmsLocale = "${cms.requestContext.locale}";
   </script>
   <fmt:setLocale value="${cms.locale}" />
   <fmt:bundle basename="com.alkacon.opencms.v8.solr.messages">
@@ -10,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/css/jquery.autocomplete.css)</cms:link>" media="screen"/>
   <link rel="stylesheet" type="text/css" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/css/reuters.css)</cms:link>" media="screen"/>
   <script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/com.alkacon.opencms.v8.solr.scripts.js)</cms:link>"></script>
+  <script type="text/javascript" src="<cms:link>/system/modules/com.alkacon.opencms.v8.solr/resources/messages_${cms.requestContext.locale}.js</cms:link>"></script>
   <div class="right">
     <div id="result">
       <div id="navigation">

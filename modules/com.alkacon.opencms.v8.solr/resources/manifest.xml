@@ -260,6 +260,36 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.v8.solr/resources/messages_de.js</source>
+			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/messages_de.js</destination>
+			<type>plain</type>
+			<uuidstructure>cf67be50-fc3e-11e1-b040-ff63d6ac16db</uuidstructure>
+			<uuidresource>cf67be51-fc3e-11e1-b040-ff63d6ac16db</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 18:30:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 18:30:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.v8.solr/resources/messages_en.js</source>
+			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/messages_en.js</destination>
+			<type>plain</type>
+			<uuidstructure>d553db52-fc3e-11e1-b040-ff63d6ac16db</uuidstructure>
+			<uuidresource>d553db53-fc3e-11e1-b040-ff63d6ac16db</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 18:30:59 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 18:30:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/com.alkacon.opencms.v8.solr.scripts.js</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/com.alkacon.opencms.v8.solr.scripts.js</destination>
 			<type>plain</type>
