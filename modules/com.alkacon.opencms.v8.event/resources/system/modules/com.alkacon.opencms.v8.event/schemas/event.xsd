@@ -62,6 +62,11 @@
 				<default element="Availability/Release" value="%(currenttime)"/>
 			</defaults>
 			<validationrules/>
+			<searchsettings>
+				<searchsetting element="Title" searchcontent="true">
+					<solrfield targetfield="Title" />
+				</searchsetting>
+			</searchsettings>
 			<relations>
 				<relation element="Paragraph/Image/Image" invalidate="parent"/>
 			</relations>

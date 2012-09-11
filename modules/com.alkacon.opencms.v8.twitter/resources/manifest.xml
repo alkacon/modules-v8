@@ -235,21 +235,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/messages_ru.properties</source>
-			<destination>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/messages_ru.properties</destination>
-			<type>plain</type>
-			<uuidstructure>71ab4083-74d5-11e1-b6b5-6192c87e77fb</uuidstructure>
-			<uuidresource>71ab4084-74d5-11e1-b6b5-6192c87e77fb</uuidresource>
-			<datelastmodified>Fri, 23 Mar 2012 10:46:32 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 23 Mar 2012 10:46:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/workplace.properties</source>
 			<destination>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/workplace.properties</destination>
 			<type>plain</type>
@@ -292,21 +277,6 @@
 			<datelastmodified>Mon, 02 May 2011 09:28:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 29 Apr 2011 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/workplace_ru.properties</source>
-			<destination>system/modules/com.alkacon.opencms.v8.twitter/classes/com/alkacon/opencms/v8/twitter/workplace_ru.properties</destination>
-			<type>plain</type>
-			<uuidstructure>24f36695-74d6-11e1-b6b5-6192c87e77fb</uuidstructure>
-			<uuidresource>24f36696-74d6-11e1-b6b5-6192c87e77fb</uuidresource>
-			<datelastmodified>Fri, 23 Mar 2012 10:51:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 23 Mar 2012 10:51:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

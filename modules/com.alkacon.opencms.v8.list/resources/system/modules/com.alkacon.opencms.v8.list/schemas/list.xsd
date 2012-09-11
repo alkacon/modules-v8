@@ -63,6 +63,11 @@
 				<tab element="Title" name="TabGeneral" collapse="false"/>
 				<tab element="PositionAuthor" name="TabMappings" collapse="false"/>
 			</tabs>
+			<searchsettings>
+				<searchsetting element="Title" searchcontent="true">
+					<solrfield targetfield="Title" />
+				</searchsetting>
+			</searchsettings>
 			<formatters>
 				<formatter minwidth="150" maxwidth="250" uri="/system/modules/com.alkacon.opencms.v8.list/formatters/side.jsp" searchcontent="false"/>
 				<formatter minwidth="400" uri="/system/modules/com.alkacon.opencms.v8.list/formatters/center.jsp" searchcontent="false"/>

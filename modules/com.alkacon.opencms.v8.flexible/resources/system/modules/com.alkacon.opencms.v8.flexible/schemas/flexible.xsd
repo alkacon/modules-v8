@@ -25,6 +25,11 @@
 			<mappings>
 				<mapping element="Title" mapto="property:Title" />
 			</mappings>
+			<searchsettings>
+				<searchsetting element="Title" searchcontent="true">
+					<solrfield targetfield="Title" />
+				</searchsetting>
+			</searchsettings>
 			<formatters>
 				<formatter type="*" uri="/system/modules/com.alkacon.opencms.v8.flexible/formatters/flexible.jsp" searchcontent="false" />
 			</formatters>

@@ -40,6 +40,11 @@
 				<default element="BackgroundColor" value="#003082"/>
 				<default element="LinksColor" value="#B31B34"/>
 			</defaults>
+			<searchsettings>
+				<searchsetting element="Title" searchcontent="true">
+					<solrfield targetfield="Title" />
+				</searchsetting>
+			</searchsettings>
 			<formatters>
 				<formatter minwidth="150" maxwidth="250" uri="/system/modules/com.alkacon.opencms.v8.twitter/formatters/all.jsp" searchcontent="false"/>
 			</formatters>

@@ -47,6 +47,11 @@
 				<default element="Title" value="%(key.v8.infobox.default.Title)"/>
 				<default element="Text" value="%(key.v8.infobox.default.Text)"/>
 			</defaults>
+			<searchsettings>
+				<searchsetting element="Title" searchcontent="true">
+					<solrfield targetfield="Title" />
+				</searchsetting>
+			</searchsettings>
 			<formatters>
 				<formatter minwidth="150" maxwidth="250" uri="/system/modules/com.alkacon.opencms.v8.infobox/formatters/side.jsp" searchcontent="true"/>
 			</formatters>
