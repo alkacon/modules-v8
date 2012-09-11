@@ -22,6 +22,7 @@
 		<dateinstalled/>
 		<dependencies>
 			<dependency name="com.alkacon.opencms.v8.event" version="8.0.0"/>
+			<dependency name="com.alkacon.opencms.v8.flower" version="8.5.0"/>
 			<dependency name="com.alkacon.opencms.v8.list" version="8.0.0"/>
 			<dependency name="com.alkacon.opencms.v8.login" version="8.0.0"/>
 			<dependency name="com.alkacon.opencms.v8.news" version="8.0.0"/>
