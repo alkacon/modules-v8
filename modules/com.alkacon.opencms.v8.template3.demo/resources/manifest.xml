@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.5.0</opencms_version>
-		<createdate>Mon, 10 Sep 2012 15:05:10 GMT</createdate>
+		<createdate>Tue, 11 Sep 2012 09:38:56 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -115,7 +115,7 @@
 			<type>sitemap_config</type>
 			<uuidstructure>bd081b3d-a19c-11e0-a8e7-4770e34e5651</uuidstructure>
 			<uuidresource>bd081b3e-a19c-11e0-a8e7-4770e34e5651</uuidresource>
-			<datelastmodified>Sat, 18 Aug 2012 11:45:46 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Sep 2012 09:06:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Jun 2012 15:38:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2981,7 +2981,7 @@
 			<type>function</type>
 			<uuidstructure>53ad414a-f5e3-11e1-940a-058770d8fd70</uuidstructure>
 			<uuidresource>53ad414b-f5e3-11e1-940a-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 14:11:47 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Sep 2012 09:10:05 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 03 Sep 2012 16:20:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6901,7 +6901,7 @@
 			<type>sitemap_config</type>
 			<uuidstructure>68195513-a19e-11e0-a8e7-4770e34e5651</uuidstructure>
 			<uuidresource>68195514-a19e-11e0-a8e7-4770e34e5651</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:26:04 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Sep 2012 09:27:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Jun 2012 15:50:54 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7267,6 +7267,60 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/default/flower-de/flower-search-result</destination>
+			<type>folder</type>
+			<uuidstructure>e4cdb7eb-fbf2-11e1-83dd-2fc8aa430640</uuidstructure>
+			<datelastmodified>Tue, 11 Sep 2012 09:28:27 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 09:27:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavInfo</name>
+					<value><![CDATA[ignoreInDefaultNav]]></value>
+				</property>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[40.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Blumen Suchergebnis]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blumen Suchergebnis]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/flower-de/flower-search-result/index.html</source>
+			<destination>sites/default/flower-de/flower-search-result/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>e4de59c0-fbf2-11e1-83dd-2fc8aa430640</uuidstructure>
+			<uuidresource>e4de59c1-fbf2-11e1-83dd-2fc8aa430640</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 09:27:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 09:27:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[3 column layout (left / center / right) with pre-configured elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blumen Suchergebnis]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/default/flower-de/flower-search</destination>
 			<type>folder</type>
 			<uuidstructure>f6b50271-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
@@ -7294,7 +7348,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f6b77375-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f6b77376-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:34:35 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Sep 2012 09:11:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7303,6 +7357,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Blumen Suche]]></value>
+				</property>
+				<property>
+					<name>style.columns</name>
+					<value><![CDATA[1]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -7549,7 +7607,7 @@
 			<type>sitemap_config</type>
 			<uuidstructure>2f6c88db-a220-11e0-a62b-4770e34e5651</uuidstructure>
 			<uuidresource>2f6c88dc-a220-11e0-a62b-4770e34e5651</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:26:06 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Sep 2012 09:26:04 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 29 Jun 2012 07:19:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7873,6 +7931,60 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/default/flower-en/flower-search-result</destination>
+			<type>folder</type>
+			<uuidstructure>7bfe0d9f-fbf2-11e1-83dd-2fc8aa430640</uuidstructure>
+			<datelastmodified>Tue, 11 Sep 2012 09:25:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 09:24:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavInfo</name>
+					<value><![CDATA[ignoreInDefaultNav]]></value>
+				</property>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[40.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Flower Search Result]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Flower Search Result]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/flower-en/flower-search-result/index.html</source>
+			<destination>sites/default/flower-en/flower-search-result/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>7c09f484-fbf2-11e1-83dd-2fc8aa430640</uuidstructure>
+			<uuidresource>7c09f485-fbf2-11e1-83dd-2fc8aa430640</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 09:25:16 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 09:24:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[3 column layout (left / center / right) with pre-configured elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Flower Search Result]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/default/flower-en/flower-search</destination>
 			<type>folder</type>
 			<uuidstructure>35dffd34-7885-11e0-be13-000c2972a6a4</uuidstructure>
@@ -7904,7 +8016,7 @@
 			<type>containerpage</type>
 			<uuidstructure>35fc85e8-7885-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>35fcacf9-7885-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:48:58 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Sep 2012 09:06:54 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 08:37:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7913,6 +8025,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Flower Search]]></value>
+				</property>
+				<property>
+					<name>style.columns</name>
+					<value><![CDATA[1]]></value>
 				</property>
 			</properties>
 			<relations/>
