@@ -732,6 +732,26 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
+			<file>
+			<source>sites/default/release/.content/textblock/t_00021.html</source>
+			<destination>sites/default/release/.content/textblock/t_00021.html</destination>
+			<type>v8textblock</type>
+			<uuidstructure>1a2947a6-fbe9-11e1-83dd-2fc8aa430640</uuidstructure>
+			<uuidresource>1a2947a7-fbe9-11e1-83dd-2fc8aa430640</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 08:26:09 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 08:17:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Release Notes for OpenCms 8.5.0]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
 		<file>
 			<destination>sites/default/release/7.0.0-release-notes</destination>
 			<type>folder</type>
@@ -1388,7 +1408,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[0.125]]></value>
+					<value><![CDATA[0.45]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -1434,7 +1454,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[0.0620]]></value>
+					<value><![CDATA[0.4]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -1463,6 +1483,52 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[8.0.4 Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/release/8.5.0-release-notes</destination>
+			<type>folder</type>
+			<uuidstructure>3b70edfe-fbe3-11e1-83dd-2fc8aa430640</uuidstructure>
+			<datelastmodified>Tue, 11 Sep 2012 07:36:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 07:35:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.35]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[8.5.0 Release Notes]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[8.5.0 Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/release/8.5.0-release-notes/index.html</source>
+			<destination>sites/default/release/8.5.0-release-notes/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>3b818fd3-fbe3-11e1-83dd-2fc8aa430640</uuidstructure>
+			<uuidresource>3b818fd4-fbe3-11e1-83dd-2fc8aa430640</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 08:17:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 07:35:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[8.5.0 Release Notes]]></value>
 				</property>
 			</properties>
 			<relations/>
