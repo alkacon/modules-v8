@@ -526,6 +526,190 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/default/dev-demo/collector-with-detail-page</destination>
+			<type>subsitemap</type>
+			<uuidstructure>62a46d2c-fc0e-11e1-8d62-07c78ffda53f</uuidstructure>
+			<datelastmodified>Tue, 11 Sep 2012 12:45:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 12:44:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[19.4375]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Collector with Detail Page]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Collector with Detail Page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/collector-with-detail-page/index.html</source>
+			<destination>sites/default/dev-demo/collector-with-detail-page/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>62ae0921-fc0e-11e1-8d62-07c78ffda53f</uuidstructure>
+			<uuidresource>62ae0922-fc0e-11e1-8d62-07c78ffda53f</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 16:11:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 12:44:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Collector with Detail Page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/dev-demo/collector-with-detail-page/.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>7d89f384-fc0e-11e1-8d62-07c78ffda53f</uuidstructure>
+			<datelastmodified>Tue, 11 Sep 2012 12:44:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 12:44:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/collector-with-detail-page/.content/.config</source>
+			<destination>sites/default/dev-demo/collector-with-detail-page/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>d3460a7e-fc0e-11e1-8d62-07c78ffda53f</uuidstructure>
+			<uuidresource>d3460a7f-fc0e-11e1-8d62-07c78ffda53f</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 12:37:05 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 12:47:20 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource type configuration]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/dev-demo/collector-with-detail-page/.content/article</destination>
+			<type>folder</type>
+			<uuidstructure>06aaa450-fc13-11e1-a547-07c78ffda53f</uuidstructure>
+			<datelastmodified>Tue, 11 Sep 2012 13:17:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 13:17:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/collector-with-detail-page/.content/article/a_00001.html</source>
+			<destination>sites/default/dev-demo/collector-with-detail-page/.content/article/a_00001.html</destination>
+			<type>ddarticle</type>
+			<uuidstructure>06b1d042-fc13-11e1-a547-07c78ffda53f</uuidstructure>
+			<uuidresource>06b1d043-fc13-11e1-a547-07c78ffda53f</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 15:13:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 13:17:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Simple collector with detail page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/collector-with-detail-page/.content/article/a_00002.html</source>
+			<destination>sites/default/dev-demo/collector-with-detail-page/.content/article/a_00002.html</destination>
+			<type>ddarticle</type>
+			<uuidstructure>18ecca09-fc2b-11e1-a9bc-07c78ffda53f</uuidstructure>
+			<uuidresource>18ecca0a-fc2b-11e1-a9bc-07c78ffda53f</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 16:11:35 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 16:09:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/collector-with-detail-page/.content/article/a_00003.html</source>
+			<destination>sites/default/dev-demo/collector-with-detail-page/.content/article/a_00003.html</destination>
+			<type>ddarticle</type>
+			<uuidstructure>18fafadc-fc2b-11e1-a9bc-07c78ffda53f</uuidstructure>
+			<uuidresource>18fafadd-fc2b-11e1-a9bc-07c78ffda53f</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 16:11:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 16:09:43 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article 3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/collector-with-detail-page/.content/article/a_00004.html</source>
+			<destination>sites/default/dev-demo/collector-with-detail-page/.content/article/a_00004.html</destination>
+			<type>ddarticle</type>
+			<uuidstructure>39724a2f-fc2b-11e1-a9bc-07c78ffda53f</uuidstructure>
+			<uuidresource>39724a30-fc2b-11e1-a9bc-07c78ffda53f</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 16:11:02 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 11 Sep 2012 16:10:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article 4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/default/dev-demo/container-vars</destination>
 			<type>subsitemap</type>
 			<uuidstructure>bf2dd0fa-78a6-11e0-88e3-e3fff2a64270</uuidstructure>
@@ -3665,6 +3849,216 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Use Case 3.2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/dev-demo/inline-editing-demo</destination>
+			<type>subsitemap</type>
+			<uuidstructure>0960c3fc-fb44-11e1-a884-a7fa5f486432</uuidstructure>
+			<datelastmodified>Mon, 10 Sep 2012 12:37:16 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 12:35:43 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[19.375]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Inline Editing Demo]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inline Editing Demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/inline-editing-demo/index.html</source>
+			<destination>sites/default/dev-demo/inline-editing-demo/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>097891c1-fb44-11e1-a884-a7fa5f486432</uuidstructure>
+			<uuidresource>097891c2-fb44-11e1-a884-a7fa5f486432</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 10:50:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 12:35:43 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inline Editing Demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/dev-demo/inline-editing-demo/.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>412ece94-fb44-11e1-a884-a7fa5f486432</uuidstructure>
+			<datelastmodified>Mon, 10 Sep 2012 12:37:16 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 12:37:16 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/inline-editing-demo/.content/.config</source>
+			<destination>sites/default/dev-demo/inline-editing-demo/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>5c5d1ebe-fb44-11e1-a884-a7fa5f486432</uuidstructure>
+			<uuidresource>5c5d1ebf-fb44-11e1-a884-a7fa5f486432</uuidresource>
+			<datelastmodified>Mon, 10 Sep 2012 14:47:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 12:38:02 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource type configuration]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/dev-demo/inline-editing-demo/.content/article</destination>
+			<type>folder</type>
+			<uuidstructure>a78f2694-fb44-11e1-a884-a7fa5f486432</uuidstructure>
+			<datelastmodified>Mon, 10 Sep 2012 12:40:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 12:40:08 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/inline-editing-demo/.content/article/a-00001.html</source>
+			<destination>sites/default/dev-demo/inline-editing-demo/.content/article/a-00001.html</destination>
+			<type>ddarticle</type>
+			<uuidstructure>a79fc866-fb44-11e1-a884-a7fa5f486432</uuidstructure>
+			<uuidresource>a79fc867-fb44-11e1-a884-a7fa5f486432</uuidresource>
+			<datelastmodified>Mon, 10 Sep 2012 14:48:25 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 12:40:08 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inline Editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/inline-editing-demo/.content/article/a-00002.html</source>
+			<destination>sites/default/dev-demo/inline-editing-demo/.content/article/a-00002.html</destination>
+			<type>ddarticle</type>
+			<uuidstructure>3a5fe326-fb55-11e1-a884-a7fa5f486432</uuidstructure>
+			<uuidresource>3a5fe327-fb55-11e1-a884-a7fa5f486432</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 10:52:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 14:38:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Please, edit me!]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/inline-editing-demo/.content/article/a-00003.html</source>
+			<destination>sites/default/dev-demo/inline-editing-demo/.content/article/a-00003.html</destination>
+			<type>ddarticle</type>
+			<uuidstructure>8c302f2c-fb57-11e1-a884-a7fa5f486432</uuidstructure>
+			<uuidresource>8c302f2d-fb57-11e1-a884-a7fa5f486432</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 11:01:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 14:55:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Click the title to inline edit it!]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/default/dev-demo/inline-editing-demo/inline-editing-1</destination>
+			<type>folder</type>
+			<uuidstructure>f1fa539b-fb52-11e1-a884-a7fa5f486432</uuidstructure>
+			<datelastmodified>Mon, 10 Sep 2012 14:22:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 14:22:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Inline Editing 1]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inline Editing 1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/dev-demo/inline-editing-demo/inline-editing-1/index.html</source>
+			<destination>sites/default/dev-demo/inline-editing-demo/inline-editing-1/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>f20af570-fb52-11e1-a884-a7fa5f486432</uuidstructure>
+			<uuidresource>f20af571-fb52-11e1-a884-a7fa5f486432</uuidresource>
+			<datelastmodified>Tue, 11 Sep 2012 10:54:07 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 14:22:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inline Editing 1]]></value>
 				</property>
 			</properties>
 			<relations/>
