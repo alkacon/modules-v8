@@ -3,8 +3,8 @@
 <V8Lists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.v8.list/schemas/list.xsd">
   <V8List language="en">
     <Title><![CDATA[Rosaceous Plants]]></Title>
-    <Collector><![CDATA[byContext]]></Collector>
-    <Parameter><![CDATA[fq=type:v8flower&fq=parent-folders:%(request.siteroot)%(link1)&fq=category_exact:flowerspecies/rosaceae/&sort=Title_prop asc&rows=50]]></Parameter>
+    <Collector><![CDATA[byQuery]]></Collector>
+    <Parameter><![CDATA[fq=type:v8flower&fq=parent-folders:(/shared%(link1) OR %(request.siteroot)%(link1))&fq=category_exact:flowerspecies/rosaceae/&sort=Title_prop asc&rows=50]]></Parameter>
     <Links>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.content/flower/]]></target>
@@ -22,8 +22,8 @@
   </V8List>
   <V8List language="de">
     <Title><![CDATA[Rosengewächse]]></Title>
-    <Collector><![CDATA[byContext]]></Collector>
-    <Parameter><![CDATA[fq=type:v8flower&fq=parent-folders:%(request.siteroot)%(link1)&fq=category_exact:flowerspecies/rosaceae/&sort=Title_prop asc&rows=50]]></Parameter>
+    <Collector><![CDATA[byQuery]]></Collector>
+    <Parameter><![CDATA[fq=type:v8flower&fq=parent-folders:(/shared%(link1) OR %(request.siteroot)%(link1))&fq=category_exact:flowerspecies/rosaceae/&sort=Title_prop asc&rows=50]]></Parameter>
     <Links>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.content/flower/]]></target>
