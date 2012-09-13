@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.5.0</opencms_version>
-		<createdate>Wed, 12 Sep 2012 09:20:36 GMT</createdate>
+		<createdate>Wed, 12 Sep 2012 14:13:38 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -43,6 +43,7 @@
 			<resource uri="/.content/event/e_00006.html"/>
 			<resource uri="/.content/event/e_00015.html"/>
 			<resource uri="/.content/groupcontainer/"/>
+			<resource uri="/.content/inheritance_group/"/>
 			<resource uri="/.content/list/"/>
 			<resource uri="/.content/news/n_00006.html"/>
 			<resource uri="/.content/news/n_00009.html"/>
@@ -122,7 +123,7 @@
 			<type>containerpage</type>
 			<uuidstructure>7e07ef80-6bfa-11e0-ad63-c3baf286301a</uuidstructure>
 			<uuidresource>7e07ef81-6bfa-11e0-ad63-c3baf286301a</uuidresource>
-			<datelastmodified>Sat, 18 Aug 2012 12:18:48 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:51:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 21 Jun 2012 09:34:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -191,30 +192,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>.content/groupcontainer/groupcontainer_00001.html</source>
-			<destination>.content/groupcontainer/groupcontainer_00001.html</destination>
-			<type>groupcontainer</type>
-			<uuidstructure>a66f654c-c8bc-11e0-ac0c-7b2444d59c19</uuidstructure>
-			<uuidresource>a66f654d-c8bc-11e0-ac0c-7b2444d59c19</uuidresource>
-			<datelastmodified>Sat, 18 Aug 2012 12:15:57 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 17 Aug 2012 10:35:39 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Description</name>
-					<value><![CDATA[Default element group for the left column]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Default Left Column]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>.content/groupcontainer/groupcontainer_00002.html</source>
 			<destination>.content/groupcontainer/groupcontainer_00002.html</destination>
 			<type>groupcontainer</type>
@@ -257,6 +234,47 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Default Side in Two Column Page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.content/inheritance_group</destination>
+			<type>folder</type>
+			<uuidstructure>3fa60060-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<datelastmodified>Wed, 12 Sep 2012 12:34:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:34:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/inheritance_group/inheritance_group_00001.html</source>
+			<destination>.content/inheritance_group/inheritance_group_00001.html</destination>
+			<type>inheritance_group</type>
+			<uuidstructure>3faf9d52-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>3faf9d53-fcd6-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 13:38:20 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:34:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Contains the inherited elements for the left column.]]></value>
+				</property>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[3fe41ad4-fcd6-11e1-a016-21eebf8c5c9b]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Left column inheritance group]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -583,6 +601,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>.content/textblock/t_00007.html</source>
+			<destination>.content/textblock/t_00007.html</destination>
+			<type>v8textblock</type>
+			<uuidstructure>6c74a81c-fcda-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>6c74a81d-fcda-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 13:07:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 13:04:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Flowers in the Extranet]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>.content/textblock/t_00008.html</source>
 			<destination>.content/textblock/t_00008.html</destination>
 			<type>v8textblock</type>
@@ -679,7 +717,7 @@
 			<type>v8textblock</type>
 			<uuidstructure>e91b1a4c-78c6-11e0-9b84-000c2972a6a4</uuidstructure>
 			<uuidresource>e91b1a4d-78c6-11e0-9b84-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:22:50 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:59:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 16:27:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -734,6 +772,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>.content/textblock/t_00015.html</source>
+			<destination>.content/textblock/t_00015.html</destination>
+			<type>v8textblock</type>
+			<uuidstructure>8d8fc6a1-fcdc-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>8d8fc6a2-fcdc-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 13:38:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 13:19:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inheritance group]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>flower-de</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f631ef8c-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
@@ -764,12 +822,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-de/.inherited</source>
+			<destination>flower-de/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>8f961018-fcd7-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>8f961019-fcd7-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 13:28:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:44:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-de/index.html</source>
 			<destination>flower-de/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>f71216b4-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f71216b5-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 15:00:44 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 13:22:53 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -905,12 +978,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-de/flower-dictionary/.inherited</source>
+			<destination>flower-de/flower-dictionary/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>cccadb0c-fcd7-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>cccadb0d-fcd7-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 12:45:58 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:45:58 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-de/flower-dictionary/index.html</source>
 			<destination>flower-de/flower-dictionary/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>f63b6575-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f63b6576-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:29:39 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:45:54 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -951,12 +1039,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-de/flower-extranet/.inherited</source>
+			<destination>flower-de/flower-extranet/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>53d73c0a-fcda-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>53d73c0b-fcda-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 13:06:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 13:04:03 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-de/flower-extranet/index.html</source>
 			<destination>flower-de/flower-extranet/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>f69ac3ab-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f69ac3ac-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:30:30 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 13:38:59 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -976,7 +1079,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f6a6d19e-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f6a6d19f-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:31:18 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 13:54:04 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1031,7 +1134,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f68edcc8-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f68edcc9-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:33:54 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:47:01 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1115,7 +1218,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f66fe30d-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f66fe30e-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:32:19 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:47:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1161,7 +1264,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f680abf5-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f680abf6-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:33:12 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:47:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1206,12 +1309,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-de/flower-search-result/.inherited</source>
+			<destination>flower-de/flower-search-result/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>dad96092-fcd8-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>dad96093-fcd8-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 12:53:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:53:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-de/flower-search-result/index.html</source>
 			<destination>flower-de/flower-search-result/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>e4de59c0-fbf2-11e1-83dd-2fc8aa430640</uuidstructure>
 			<uuidresource>e4de59c1-fbf2-11e1-83dd-2fc8aa430640</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 09:27:49 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:53:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 11 Sep 2012 09:27:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1298,12 +1416,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-de/flower-special/.inherited</source>
+			<destination>flower-de/flower-special/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>db24ddee-fcd7-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>db24ddef-fcd7-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 12:46:22 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:46:22 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-de/flower-special/index.html</source>
 			<destination>flower-de/flower-special/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>f6c8154c-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f6c8154d-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:35:18 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:46:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1340,12 +1473,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-de/flower-today/.inherited</source>
+			<destination>flower-de/flower-today/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>a4f0fb5a-fcd7-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>a4f0fb5b-fcd7-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 12:44:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:44:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-de/flower-today/index.html</source>
 			<destination>flower-de/flower-today/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>f703bed1-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f703bed2-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:42:17 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:44:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1387,7 +1535,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f6e00a27-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f6e00a28-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:42:47 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:45:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1429,7 +1577,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f6f0abfe-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f6f0abff-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:43:25 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:45:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1470,12 +1618,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-en/.inherited</source>
+			<destination>flower-en/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>779ca19a-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>779ca19b-fcd6-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 13:22:12 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:36:25 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-en/index.html</source>
 			<destination>flower-en/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>0f6944d8-77e8-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>0f6944d9-77e8-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:44:26 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 13:22:15 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 13:52:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1565,12 +1728,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-en/flower-dictionary/.inherited</source>
+			<destination>flower-en/flower-dictionary/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>e4f7c76e-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>e4f7c76f-fcd6-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 12:39:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:39:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-en/flower-dictionary/index.html</source>
 			<destination>flower-en/flower-dictionary/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>d3a2392f-77fd-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>d3a23930-77fd-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:44:53 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:38:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 16:28:08 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1615,12 +1793,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-en/flower-extranet/.inherited</source>
+			<destination>flower-en/flower-extranet/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>e42f4006-fcd9-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>e42f4007-fcd9-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 13:08:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 13:00:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-en/flower-extranet/index.html</source>
 			<destination>flower-en/flower-extranet/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>cc67abbf-77ef-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>cc67abc0-77ef-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:45:35 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 13:52:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:47:43 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1640,7 +1833,7 @@
 			<type>containerpage</type>
 			<uuidstructure>9fa1c2e5-78bf-11e0-a9a3-000c2972a6a4</uuidstructure>
 			<uuidresource>9fa1c2e6-78bf-11e0-a9a3-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:46:17 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 13:51:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 15:35:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1695,7 +1888,7 @@
 			<type>containerpage</type>
 			<uuidstructure>55ed73e4-78ba-11e0-8bb0-000c2972a6a4</uuidstructure>
 			<uuidresource>55ed73e5-78ba-11e0-8bb0-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:47:00 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:40:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 14:57:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1779,7 +1972,7 @@
 			<type>containerpage</type>
 			<uuidstructure>e94ca0c5-78bd-11e0-8bb0-000c2972a6a4</uuidstructure>
 			<uuidresource>e94ca0c6-78bd-11e0-8bb0-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:47:37 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:41:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 15:23:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1825,7 +2018,7 @@
 			<type>containerpage</type>
 			<uuidstructure>b8d31cc2-78bd-11e0-8bb0-000c2972a6a4</uuidstructure>
 			<uuidresource>b8d31cc3-78bd-11e0-8bb0-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:48:16 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:41:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 15:21:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1870,12 +2063,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-en/flower-search-result/.inherited</source>
+			<destination>flower-en/flower-search-result/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>008f00b4-fcd9-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>008f00b5-fcd9-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 12:54:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:54:34 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-en/flower-search-result/index.html</source>
 			<destination>flower-en/flower-search-result/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>7c09f484-fbf2-11e1-83dd-2fc8aa430640</uuidstructure>
 			<uuidresource>7c09f485-fbf2-11e1-83dd-2fc8aa430640</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 09:25:16 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:54:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 11 Sep 2012 09:24:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1970,12 +2178,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-en/flower-special/.inherited</source>
+			<destination>flower-en/flower-special/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>f90c01e0-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>f90c01e1-fcd6-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 12:40:03 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:40:02 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-en/flower-special/index.html</source>
 			<destination>flower-en/flower-special/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>03de4901-789e-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>03de4902-789e-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:49:49 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:39:56 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 11:34:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2066,12 +2289,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>flower-en/flower-today/.inherited</source>
+			<destination>flower-en/flower-today/.inherited</destination>
+			<type>inheritance_config</type>
+			<uuidstructure>ac23706c-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
+			<uuidresource>ac23706d-fcd6-11e1-a016-21eebf8c5c9b</uuidresource>
+			<datelastmodified>Wed, 12 Sep 2012 12:37:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Sep 2012 12:37:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>flower-en/flower-today/index.html</source>
 			<destination>flower-en/flower-today/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>b7e482d3-77ef-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b7e482d4-77ef-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:51:00 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:37:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:47:08 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2113,7 +2351,7 @@
 			<type>containerpage</type>
 			<uuidstructure>fac0e7cb-77ef-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>fac0e7cc-77ef-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:51:48 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:38:38 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:49:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2155,7 +2393,7 @@
 			<type>containerpage</type>
 			<uuidstructure>d4813015-77ef-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>d4813016-77ef-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:52:21 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:38:17 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:47:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2443,7 +2681,7 @@
 			<type>v8news</type>
 			<uuidstructure>cd574970-8b7c-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>cd577081-8b7c-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:28:56 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:24:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 31 Jul 2012 11:54:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2451,7 +2689,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[BUGA 2011 in Koblenz]]></value>
+					<value><![CDATA[BUGA 2012 in Koblenz]]></value>
 				</property>
 				<property>
 					<name>collector.date</name>

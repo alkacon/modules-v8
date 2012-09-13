@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconInheritConfigGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/inheritance_config.xsd">
+  <AlkaconInheritConfigGroup language="en">
+    <Configuration>
+      <Name><![CDATA[3fe41ad4-fcd6-11e1-a016-21eebf8c5c9b]]></Name>
+      <OrderKey><![CDATA[/flower-en/7797e6a9-fcd6-11e1-a016-21eebf8c5c9b]]></OrderKey>
+      <OrderKey><![CDATA[/flower-en/7797e6a8-fcd6-11e1-a016-21eebf8c5c9b]]></OrderKey>
+      <Hidden><![CDATA[/flower-en/7797e6a8-fcd6-11e1-a016-21eebf8c5c9b]]></Hidden>
+    </Configuration>
+  </AlkaconInheritConfigGroup>
+</AlkaconInheritConfigGroups>

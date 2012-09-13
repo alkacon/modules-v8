@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.4.7</opencms_version>
-		<createdate>Wed, 12 Sep 2012 09:20:45 GMT</createdate>
+		<opencms_version>8.5.0</opencms_version>
+		<createdate>Wed, 12 Sep 2012 14:14:06 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Template 3</group>
 		<class/>
 		<description><![CDATA[Contains shared demo contents for the OpenCms 8 template 3.]]></description>
-		<version>8.5.1</version>
+		<version>8.5.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -2177,7 +2177,7 @@
 			<type>function</type>
 			<uuidstructure>5fba7e2c-7655-11e0-a2c2-000c2972a6a4</uuidstructure>
 			<uuidresource>5fba7e2d-7655-11e0-a2c2-000c2972a6a4</uuidresource>
-			<datelastmodified>Sat, 18 Aug 2012 11:59:01 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 13:53:42 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 04 Jul 2012 13:49:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5828,7 +5828,7 @@
 			<type>v8news</type>
 			<uuidstructure>b958539e-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b958539f-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:31:25 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:26:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:40:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5900,7 +5900,7 @@
 			<type>v8news</type>
 			<uuidstructure>cbbbfb08-8b7a-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>cbbbfb09-8b7a-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:29:23 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 12:25:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 31 Jul 2012 11:40:34 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5908,7 +5908,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Flower of the year 2011]]></value>
+					<value><![CDATA[Flower of the year 2012]]></value>
 				</property>
 				<property>
 					<name>collector.date</name>
