@@ -817,6 +817,10 @@
 					<name>locale</name>
 					<value><![CDATA[de]]></value>
 				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.opencms.v8.template3/templates/main.jsp]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
@@ -1612,6 +1616,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[OpenCms 8 Template 3 Demo [en]]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.opencms.v8.template3/templates/main.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
