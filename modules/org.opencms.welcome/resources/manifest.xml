@@ -25,6 +25,7 @@
 		<dateinstalled/>
 		<dependencies>
 			<dependency name="com.alkacon.opencms.v8.template3" version="8.0.0"/>
+			<dependency name="com.alkacon.opencms.v8.template3.demo" version="8.5.0"/>
 			<dependency name="com.alkacon.opencms.v8.textblock" version="8.5.0"/>
 		</dependencies>
 		<exportpoints/>
