@@ -835,12 +835,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/org.opencms.dev.demo/functions/simple-collector.html</source>
-			<destination>system/modules/org.opencms.dev.demo/functions/simple-collector.html</destination>
+			<source>system/modules/org.opencms.dev.demo/functions/simple-collector-errorhandling.html</source>
+			<destination>system/modules/org.opencms.dev.demo/functions/simple-collector-errorhandling.html</destination>
 			<type>function</type>
 			<uuidstructure>67b3abd9-f8e6-11e1-b7b5-a7fa5f486432</uuidstructure>
 			<uuidresource>67b3abda-f8e6-11e1-b7b5-a7fa5f486432</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 15:36:21 GMT</datelastmodified>
+			<datelastmodified>Thu, 13 Sep 2012 09:07:01 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 07 Sep 2012 12:20:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -848,7 +848,31 @@
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[A dynamic function displaying a simple collector, if it is configured properly.]]></value>
+					<value><![CDATA[A dynamic function displaying a simple collector, if it is configured properly. Otherwise the user is asked to configure collector.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dev Demo simple collector with error handling]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/org.opencms.dev.demo/functions/simple-collector.html</source>
+			<destination>system/modules/org.opencms.dev.demo/functions/simple-collector.html</destination>
+			<type>function</type>
+			<uuidstructure>78dea0c0-fd81-11e1-a4b1-07c78ffda53f</uuidstructure>
+			<uuidresource>78dea0c1-fd81-11e1-a4b1-07c78ffda53f</uuidresource>
+			<datelastmodified>Thu, 13 Sep 2012 09:10:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 13 Sep 2012 09:00:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[A dynamic function displaying a simple collector.]]></value>
 				</property>
 				<property>
 					<name>Title</name>
@@ -857,7 +881,7 @@
 			</properties>
 			<relations/>
 			<accesscontrol/>
-		</file>
+		</file>		
 		<file>
 			<source>system/modules/org.opencms.dev.demo/functions/simple-search-form.html</source>
 			<destination>system/modules/org.opencms.dev.demo/functions/simple-search-form.html</destination>
@@ -932,13 +956,13 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
-		<file>
-			<source>system/modules/org.opencms.dev.demo/pages/collector.jsp</source>
-			<destination>system/modules/org.opencms.dev.demo/pages/collector.jsp</destination>
+			<file>
+			<source>system/modules/org.opencms.dev.demo/pages/collector-errorhandling.jsp</source>
+			<destination>system/modules/org.opencms.dev.demo/pages/collector-errorhandling.jsp</destination>
 			<type>jsp</type>
 			<uuidstructure>d98390ec-f8e6-11e1-b7b5-a7fa5f486432</uuidstructure>
 			<uuidresource>d98390ed-f8e6-11e1-b7b5-a7fa5f486432</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 16:08:36 GMT</datelastmodified>
+			<datelastmodified>Thu, 13 Sep 2012 09:03:36 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 07 Sep 2012 12:23:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -946,7 +970,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Simple collector]]></value>
+					<value><![CDATA[Simple collector with error handling]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -955,7 +979,7 @@
 			</properties>
 			<relations/>
 			<accesscontrol/>
-		</file>
+		</file>		
 		<file>
 			<source>system/modules/org.opencms.dev.demo/pages/containervars.jsp</source>
 			<destination>system/modules/org.opencms.dev.demo/pages/containervars.jsp</destination>
@@ -1019,6 +1043,30 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Simple calculator form for Dev Demo]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/org.opencms.dev.demo/pages/simple-collector.jsp</source>
+			<destination>system/modules/org.opencms.dev.demo/pages/simple-collector.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>46bc75dc-fd81-11e1-a4b1-07c78ffda53f</uuidstructure>
+			<uuidresource>46bc75dd-fd81-11e1-a4b1-07c78ffda53f</uuidresource>
+			<datelastmodified>Thu, 13 Sep 2012 08:59:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 13 Sep 2012 08:59:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Simple collector]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
