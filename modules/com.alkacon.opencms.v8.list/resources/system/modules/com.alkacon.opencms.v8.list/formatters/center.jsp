@@ -136,7 +136,7 @@
 
 		<%-- Additional Link --%>
 		<c:if test="${listbox.hasValue['AdditionalLink']}">
-			<a href="<cms:link><c:out value="${listbox.value['AdditionalLink'].value['Link']}" /></cms:link>"><c:out value="${listbox.value['AdditionalLink'].value['Text']}" /></a>
+			<a href="<cms:link><c:out value="${listbox.value['AdditionalLink'].value['Link']}" /></cms:link>"><c:out value="${listbox.value['AdditionalLink'].value['Text']}" escapeXml="false" /></a>
 		</c:if>
 
 	</div>

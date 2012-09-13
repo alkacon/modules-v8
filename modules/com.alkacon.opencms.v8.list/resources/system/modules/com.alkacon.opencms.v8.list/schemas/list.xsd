@@ -21,7 +21,7 @@
 			<xsd:element name="Collector" type="OpenCmsString"/>
 			<xsd:element name="Parameter" type="OpenCmsString"/>
 			<xsd:element name="Links" type="OpenCmsVfsFile" minOccurs="0" maxOccurs="10"/>
-			<xsd:element name="More" type="OpenCmsString"/>
+			<xsd:element name="More" type="OpenCmsString" minOccurs="0"/>
 			<xsd:element name="ItemsPerPage" type="OpenCmsString" minOccurs="0"/>
 			<xsd:element name="AdditionalLink" type="OpenCmsV8ListLink" minOccurs="0"/>
 			<xsd:element name="PositionAuthor" type="OpenCmsString"/>

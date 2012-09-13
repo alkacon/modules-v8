@@ -27,7 +27,7 @@
 			<resourcebundle name="com.alkacon.opencms.v8.textblock.workplace"/>
 			<layouts>
 				<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat:true}" />
-				<layout element="Align" widget="SelectorWidget" configuration="left:%(key.v8.article.image.left)|right:%(key.v8.article.image.right)|top:%(key.v8.article.image.top)|lefthl:%(key.v8.article.image.lefthl)|righthl:%(key.v8.article.image.righthl)" />
+				<layout element="Align" widget="SelectorWidget" configuration="left:%(key.v8.textblock.image.left)|right:%(key.v8.textblock.image.right)|top:%(key.v8.textblock.image.top)|lefthl:%(key.v8.textblock.image.lefthl)|righthl:%(key.v8.textblock.image.righthl)" />
 			</layouts>
 		</xsd:appinfo>
 	</xsd:annotation>  
