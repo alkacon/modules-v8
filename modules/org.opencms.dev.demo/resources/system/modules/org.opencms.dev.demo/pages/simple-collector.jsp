@@ -20,7 +20,7 @@
 
 	<ul>
 		<%-- Use <cms:contentload> with new collector--%>
-		<cms:contentload collector="myCollector" param="${folder}|${type}|${count}" editable="true">
+		<cms:contentload collector="myCollector" param="${folder}a_%(number).html|${type}|${count}" editable="true">
 			<%-- Access the content --%>  
 			<cms:contentaccess var="content" />
 			<%-- Set the link to the content in the list and do not forgat to use <cms:link> tag --%>
