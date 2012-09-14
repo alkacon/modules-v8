@@ -42,7 +42,14 @@
   }
 
   body {
-    padding: 10px 0;
+    <c:choose>
+		<c:when test="${editmode}">
+			padding: 0;
+		</c:when>
+		<c:otherwise>
+			padding: 10px 0;
+		</c:otherwise>
+	</c:choose>
     font-family: <c:choose><c:when test="${content.localeValue[loc]['font.family'].isSet}">${content.localeValue[loc]['font.family'].stringValue}</c:when><c:otherwise>'Lucida Grande','Trebuchet MS',Verdana,Helvetica,sans-serif</c:otherwise></c:choose>;
     font-size: 75.00%; 
     height: 1%;
