@@ -1622,10 +1622,16 @@ AjaxSolr.Manager = AjaxSolr.AbstractManager.extend(
   {
   executeRequest: function (servlet, string, handler) {
     var self = this;
+    var loc = "";
+    if (initLocale && initLocale != null) {
+        loc = "con_locales:" + initLocale;
+        this.store.addByValue('fq', loc);
+        initLocale = null;
+    }
     string = string || this.store.string();
     handler = handler || function (data) {
       self.handleResponse(data);
-      jQuery('#result').fadeIn('slow');
+      jQuery('#result').fadeIn('fast');
     };
     if (this.proxyUrl) {
       jQuery.post(this.proxyUrl, { query: string }, handler, 'json');
@@ -2466,20 +2472,31 @@ var Manager;
       target: '#search',
       fields: [ 'Title_prop', 'category_exact', 'type' ]
     }));
-    var fields = [ 'type', 'category_exact' ];
+    var fields = [ 'type' ];
     for (var i = 0, l = fields.length; i < l; i++) {
       Manager.addWidget(new AjaxSolr.MultiTagcloudWidget({
         id: fields[i],
         target: '#' + fields[i],
-        field: fields[i]
+        field: fields[i],
+        operator: 'OR',
+        count: 5
       }));
     }
-    var fields = [ 'res_locales' ];
+    var fields = [ 'category_exact' ];
+    for (var i = 0, l = fields.length; i < l; i++) {
+      Manager.addWidget(new AjaxSolr.SingleFacet({
+        id: fields[i],
+        target: '#' + fields[i],
+        field: fields[i],
+        count: 5
+      }));
+    }
+    var fields = [ 'con_locales' ];
     for (var i = 0, l = fields.length; i < l; i++) {
       Manager.addWidget(new AjaxSolr.TagcloudWidget({
         id: fields[i],
         target: '#' + fields[i],
-        field: fields[i]
+        field: fields[i],
       }));
     }
     Manager.addWidget(new AjaxSolr.CalendarWidget({
@@ -2492,11 +2509,10 @@ var Manager;
     var params = {
       facet: true,
 	  'rows': 10,
-      'facet.field': [ 'Title_prop', 'category_exact', 'res_locales', 'lastmodified' ],
-      'facet.limit': 20,
-      'facet.mincount': 1,
-      'f.topics.facet.limit': 50,
-      'f.countryCodes.facet.limit': -1,
+      'facet.field': [ 'Title_prop', 'category_exact', 'con_locales', 'lastmodified' ],
+      'facet.mincount': 5,
+      'facet.limit': 10,
+      'facet.sort': 'count',
       'facet.date': 'lastmodified',
       'facet.date.start': '2012-05-01T00:00:00.000Z/DAY',
       'facet.date.end': '2020-01-01T00:00:00.000Z/DAY+1DAY',
@@ -2783,7 +2799,7 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
       $(this.target).append(AjaxSolr.theme('result', doc, AjaxSolr.theme('snippet', doc)));
       var items = [];
       items = items.concat(this.facetLinks('category_exact', doc.category_exact));
-      items = items.concat(this.facetLinks('res_locales', doc.res_locales));
+      items = items.concat(this.facetLinks('con_locales', doc.con_locales));
       var type = doc.type.toString();
       items = items.concat(this.facetLinks('type', new Array(type)));
       AjaxSolr.theme('list_items', '#links_' + doc.id, items);
@@ -3209,6 +3225,7 @@ AjaxSolr.AbstractFacetWidget = AjaxSolr.AbstractWidget.extend(
       'facet.prefix',
       'facet.sort',
       'facet.limit',
+      'facet.sort',
       'facet.offset',
       'facet.mincount',
       'facet.missing',
@@ -3457,6 +3474,7 @@ AjaxSolr.AbstractFacetWidget = AjaxSolr.AbstractWidget.extend(
 (function ($) {
 
 AjaxSolr.TagcloudWidget = AjaxSolr.AbstractFacetWidget.extend({
+    
   afterRequest: function () {
     if (this.manager.response.facet_counts.facet_fields[this.field] === undefined) {
       $(this.target).html(AjaxSolr.theme('no_items_found'));
@@ -3493,6 +3511,8 @@ AjaxSolr.MultiTagcloudWidget = AjaxSolr.AbstractFacetWidget.extend({
 
 field: null,
 multivalue: false,
+operator: 'OR',
+count: 5,
   
 init: function () {
     this.manager.store.add('facet.field', new AjaxSolr.Parameter( { 
@@ -3505,9 +3525,9 @@ init: function () {
 
 set: function (value) {
     return this.changeSelection(function () {
-        var indices = this.manager.store.find('fq', new RegExp('^-?' + this.field + ':')); 
+        var indices = this.manager.store.find('fq', new RegExp('^-?' + this.field + ':'));
         if (indices) {
-            this.manager.store.params['fq'][indices[0]] = new AjaxSolr.Parameter({ name: 'fq', value: this.manager.store.params['fq'] [indices[0]].val() + ' OR ' + this.fq(value), locals: { tag: this.field } });
+            this.manager.store.params['fq'][indices[0]] = new AjaxSolr.Parameter({ name: 'fq', value: this.manager.store.params['fq'] [indices[0]].val() + " " + this.operator + " " + this.fq(value), locals: { tag: this.field } });
             return true; 
         } else {
             return this.manager.store.add('fq', new AjaxSolr.Parameter({ name: 'fq', value: this.fq(value), locals: { tag: this.field } }));
@@ -3519,7 +3539,7 @@ add: function (value) {
     return this.changeSelection(function () { 
         return this.manager.store.add('fq', new AjaxSolr.Parameter({ name: 'fq', value: this.fq(value), locals: { tag: this.field } })); 
     }); 
-}, 
+},
 
 afterRequest: function () {
     if (this.manager.response.facet_counts.facet_fields[this.field] === undefined) {
@@ -3536,16 +3556,26 @@ afterRequest: function () {
       }
       objectedItems.push({ facet: facet, count: count });
     }
-    objectedItems.sort(function (a, b) {
-      return a.facet < b.facet ? -1 : 1;
-    });
 
     $(this.target).empty();
+    var added = 0;
     for (var i = 0, l = objectedItems.length; i < l; i++) {
       var facet = objectedItems[i].facet;
-//      $(this.target).append(AjaxSolr.theme('tag', facet, parseInt(objectedItems[i].count / maxCount * 10), this.clickHandler(facet)));
-      $(this.target).append(AjaxSolr.theme('facet_link2', facet, objectedItems[i].count, this.clickHandler(facet)));
-      
+      var fq = this.manager.store.values('fq');
+      var show = true;
+      for (var j = 0; j < fq.length; j++) {
+        var field = fq[j].split(':');
+        for (var k = 1; k < field.length; k++) {
+            var fac = facet + " ";
+            if (field[k] == facet || field[k].slice(0, fac.length) == fac) {
+                show = false;
+            }
+        }
+      }
+      if (show && this.count > added) {
+          $(this.target).append(AjaxSolr.theme('facet_link2', facet, objectedItems[i].count, this.clickHandler(facet)));
+          added++;
+      }
     }
   }
 });
@@ -3564,6 +3594,30 @@ AjaxSolr.SpellCheckWidget = AjaxSolr.AbstractSpellcheckWidget.extend({
 
 (function ($) {
 
+    AjaxSolr.dateDatestampToLabel = function (solrDatestamp) {
+        console.log(solrDatestamp);
+        var startdate = $.datepicker.parseDate('yy-mm-dd', solrDatestamp.split('T')[0]);
+        // going in 10-year chunks so add 9 to starting year to get end year
+        var enddate = new Date(startdate.getFullYear() + 9, 11, 31, 23, 59, 59, 0);
+        return startdate.getFullYear() + " to " + enddate.getFullYear();
+      }
+
+      AjaxSolr.dateFqToLabel = function (fqValue) {
+        var fqValue = fqValue.replace(/[\[\]\s]/g, "");
+        var start = fqValue.split('TO')[0];
+        return AjaxSolr.dateDatestampToLabel(start);
+      }
+
+      AjaxSolr.dateLabelToFq = function (displayValue) {
+        var years = displayValue.toLowerCase().split(' to ');
+        var format = 'yy-mm-dd';
+        var start = new Date(years[0], 1, 1, 0, 0, 0, 0);
+        var start_str = $.datepicker.formatDate(format, start) + 'T00:00:00Z';
+        var end = new Date(years[1], 11, 31, 23, 59, 59, 0);
+        var end_str = $.datepicker.formatDate(format, end) + 'T00:00:00Z';
+        return '[' + start_str + ' TO ' + end_str + ']';
+      }
+      
 AjaxSolr.CurrentSearchWidget = AjaxSolr.AbstractWidget.extend({
   afterRequest: function () {
     var self = this;
@@ -3725,6 +3779,51 @@ AjaxSolr.CountryCodeWidget = AjaxSolr.AbstractFacetWidget.extend({
     for (var value in maps) {
       var src = 'http://chart.apis.google.com/chart?chco=f5f5f5,edf0d4,6c9642,365e24,13390a&chd=t:' + chd.join(',') + '&chf=bg,s,eaf7fe&chtm=' + value + '&chld=' + chld + '&chs=350x180&cht=t';
       $('<img/>').attr('id', this.id + value).showIf(value == 'world').attr('src', src).appendTo(this.target);
+    }
+  }
+});
+
+})(jQuery);
+
+
+(function ($) {
+
+AjaxSolr.SingleFacet = AjaxSolr.AbstractFacetWidget.extend({
+
+    count: 5,
+    
+  afterRequest: function () {
+    if (this.manager.response.facet_counts.facet_fields[this.field] === undefined) {
+      $(this.target).html(AjaxSolr.theme('no_items_found'));
+      return;
+    }
+
+    var maxCount = 0;
+    var objectedItems = [];
+    for (var facet in this.manager.response.facet_counts.facet_fields[this.field]) {
+      var count = parseInt(this.manager.response.facet_counts.facet_fields[this.field][facet]);
+      if (count > maxCount) {
+        maxCount = count;
+      }
+      objectedItems.push({ facet: facet, count: count });
+    }
+
+    $(this.target).empty();
+    var added = 0;
+    for (var i = 0, l = objectedItems.length; i < l; i++) {
+      var facet = objectedItems[i].facet;
+      var fq = this.manager.store.values('fq');
+      var show = true;
+      for (var j = 0; j < fq.length; j++) {
+        var field = fq[j].split(':');
+        if (field[1] == facet) {
+            show = false;
+        }
+      }
+      if (show && this.count > added) {
+          $(this.target).append(AjaxSolr.theme('facet_link2', facet, objectedItems[i].count, this.clickHandler(facet)));
+          added++;
+      }
     }
   }
 });

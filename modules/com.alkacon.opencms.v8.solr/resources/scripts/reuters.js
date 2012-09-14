@@ -29,20 +29,31 @@ var Manager;
       target: '#search',
       fields: [ 'Title_prop', 'category_exact', 'type' ]
     }));
-    var fields = [ 'type', 'category_exact' ];
+    var fields = [ 'type' ];
     for (var i = 0, l = fields.length; i < l; i++) {
       Manager.addWidget(new AjaxSolr.MultiTagcloudWidget({
         id: fields[i],
         target: '#' + fields[i],
-        field: fields[i]
+        field: fields[i],
+        operator: 'OR',
+        count: 5
       }));
     }
-    var fields = [ 'res_locales' ];
+    var fields = [ 'category_exact' ];
+    for (var i = 0, l = fields.length; i < l; i++) {
+      Manager.addWidget(new AjaxSolr.SingleFacet({
+        id: fields[i],
+        target: '#' + fields[i],
+        field: fields[i],
+        count: 5
+      }));
+    }
+    var fields = [ 'con_locales' ];
     for (var i = 0, l = fields.length; i < l; i++) {
       Manager.addWidget(new AjaxSolr.TagcloudWidget({
         id: fields[i],
         target: '#' + fields[i],
-        field: fields[i]
+        field: fields[i],
       }));
     }
     Manager.addWidget(new AjaxSolr.CalendarWidget({
@@ -55,11 +66,10 @@ var Manager;
     var params = {
       facet: true,
 	  'rows': 10,
-      'facet.field': [ 'Title_prop', 'category_exact', 'res_locales', 'lastmodified' ],
-      'facet.limit': 20,
-      'facet.mincount': 1,
-      'f.topics.facet.limit': 50,
-      'f.countryCodes.facet.limit': -1,
+      'facet.field': [ 'Title_prop', 'category_exact', 'con_locales', 'lastmodified' ],
+      'facet.mincount': 5,
+      'facet.limit': 10,
+      'facet.sort': 'count',
       'facet.date': 'lastmodified',
       'facet.date.start': '2012-05-01T00:00:00.000Z/DAY',
       'facet.date.end': '2020-01-01T00:00:00.000Z/DAY+1DAY',

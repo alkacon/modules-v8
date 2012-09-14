@@ -20,21 +20,26 @@
   min-width: 1em;
   text-align: center;
   text-decoration: none;
-  border: solid 1px #AAE;
-  color: #15B;
+  border: 1px solid #D8DCDF;
+  background: #EEE url(images/ui-bg_highlight-hard_100_eeeeee_1x100.png) 50% 50% repeat-x;
+  font-weight: bold;
+  color: #003082;
 }
 #pager .pager-disabled, #pager .pager-gap {
-  color: #999;
-  border: solid 1px #999;
-  background: white;
   margin-right: 4px;
   cursor: default;
+  border: 1px solid #D8DCDF;
+  background: #EEE url(images/ui-bg_highlight-hard_100_eeeeee_1x100.png) 50% 50% repeat-x;
+  font-weight: bold;
+  color: #86b2fe;
+
 }
 #pager span.pager-current {
-  background: #26B;
-  color: white;
-  border: solid 1px #AAE;
   margin-right: 4px;
+  background: white url(images/ui-bg_flat_65_ffffff_40x100.png) 50% 50% repeat-x;
+  font-weight: bold;
+  color: #B31B34;
+  border: 1px solid #EEE;
 }
 
 .wrap {
@@ -99,10 +104,7 @@ width: 300px;
   float: left;
   display: block;
   margin-right: 4px;
-  color: #6998f0;
-}
-.wrap .tagcloud_item:hover {
-  color: #f00;
+  color: #003082;
 }
 .wrap a.tagcloud_size_0 {
 font-size: 80%;

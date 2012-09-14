@@ -41,6 +41,7 @@ AjaxSolr.AbstractFacetWidget = AjaxSolr.AbstractWidget.extend(
       'facet.prefix',
       'facet.sort',
       'facet.limit',
+      'facet.sort',
       'facet.offset',
       'facet.mincount',
       'facet.missing',

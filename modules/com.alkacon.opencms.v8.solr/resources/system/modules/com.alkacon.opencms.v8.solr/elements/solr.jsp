@@ -6,6 +6,7 @@
   	var solrRequestHandler = "handleSolrSelect";
   	var opencmsServlet = "<%= OpenCms.getLinkManager().getOnlineLink(new CmsJspActionElement(pageContext, request, response).getCmsObject() , "/") %>";
   	var opencmsLocale = "${cms.locale}";
+  	var initLocale = "${cms.locale}"; // don't remove
 	var GUI_PREV_0                           ="<fmt:message key="v8.solr.previous" />";
 	var GUI_NEXT_0                           ="<fmt:message key="v8.solr.next" />";
 	var GUI_DOCUMENTS_FOUND_0                ="<fmt:message key="v8.solr.documents.found" />";
@@ -42,7 +43,7 @@
     <h2><fmt:message key="v8.solr.type"/></h2>
     <div class="tagcloud" id="type"></div>
     <h2><fmt:message key="v8.solr.languages"/></h2>
-    <div class="tagcloud" id="res_locales"></div>
+    <div class="tagcloud" id="con_locales"></div>
     <h2><fmt:message key="v8.solr.lastUpdate"/></h2>
     <div id="calendar"></div>
     <div class="clear"></div>

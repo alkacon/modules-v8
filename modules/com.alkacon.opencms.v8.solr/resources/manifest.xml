@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.4.7</opencms_version>
-		<createdate>Tue, 04 Sep 2012 12:45:16 GMT</createdate>
+		<createdate>Fri, 14 Sep 2012 15:29:40 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -33,10 +33,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>ac1eb4f1-f5b3-11e1-9278-058770d8fd70</uuidstructure>
-			<datelastmodified>Mon, 03 Sep 2012 10:39:43 GMT</datelastmodified>
+			<uuidstructure>43830f3a-fe40-11e1-925e-bd915da136f8</uuidstructure>
+			<datelastmodified>Fri, 14 Sep 2012 07:46:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 03 Sep 2012 10:39:43 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 07:46:16 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -55,10 +55,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>ac99d89d-f5b3-11e1-9278-058770d8fd70</uuidstructure>
-			<datelastmodified>Mon, 03 Sep 2012 10:39:44 GMT</datelastmodified>
+			<uuidstructure>451e48e6-fe40-11e1-925e-bd915da136f8</uuidstructure>
+			<datelastmodified>Fri, 14 Sep 2012 07:46:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 03 Sep 2012 10:39:44 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 07:46:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -303,7 +303,7 @@
 			<type>plain</type>
 			<uuidstructure>cd961b66-f687-11e1-b6b3-058770d8fd70</uuidstructure>
 			<uuidresource>cd961b67-f687-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:15:06 GMT</datelastmodified>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:57 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 04 Sep 2012 11:58:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -343,7 +343,7 @@
 			<type>plain</type>
 			<uuidstructure>cd946db3-f687-11e1-b6b3-058770d8fd70</uuidstructure>
 			<uuidresource>cd946db4-f687-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:35:26 GMT</datelastmodified>
+			<datelastmodified>Fri, 14 Sep 2012 15:29:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 04 Sep 2012 11:58:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -398,11 +398,11 @@
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_diagonals-thick_75_f3d8d8_40x40.png</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_diagonals-thick_75_f3d8d8_40x40.png</destination>
 			<type>image</type>
-			<uuidstructure>2dae0903-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2dae0904-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2fc57674-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fc57675-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -422,11 +422,11 @@
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_dots-small_65_a6a6a6_2x2.png</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_dots-small_65_a6a6a6_2x2.png</destination>
 			<type>image</type>
-			<uuidstructure>2db5d137-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2db5d138-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2fd61848-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fd61849-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -446,11 +446,11 @@
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_flat_0_333333_40x100.png</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_flat_0_333333_40x100.png</destination>
 			<type>image</type>
-			<uuidstructure>2db953ab-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2db953ac-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2fd99abc-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fd99abd-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -470,11 +470,11 @@
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_flat_65_ffffff_40x100.png</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_flat_65_ffffff_40x100.png</destination>
 			<type>image</type>
-			<uuidstructure>2dbd243f-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2dbd2440-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2fdbe4b0-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fdbe4b1-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -494,11 +494,11 @@
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_flat_75_ffffff_40x100.png</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_flat_75_ffffff_40x100.png</destination>
 			<type>image</type>
-			<uuidstructure>2dc05893-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2dc05894-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2fde7cc4-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fde7cc5-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -518,11 +518,11 @@
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_glass_55_fbf8ee_1x400.png</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_glass_55_fbf8ee_1x400.png</destination>
 			<type>image</type>
-			<uuidstructure>2dc365d7-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2dc365d8-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2fe114d8-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fe114d9-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -542,11 +542,11 @@
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_highlight-hard_100_eeeeee_1x100.png</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_highlight-hard_100_eeeeee_1x100.png</destination>
 			<type>image</type>
-			<uuidstructure>2dc69a2b-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2dc69a2c-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2fe310ac-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fe310ad-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -566,11 +566,11 @@
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png</destination>
 			<type>image</type>
-			<uuidstructure>2dcba33f-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2dcba340-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2fe50c80-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fe50c81-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -587,20 +587,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_highlight-soft_15_cc0000_1x100.png</source>
-			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_highlight-soft_15_cc0000_1x100.png</destination>
+			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_highlight-soft_15_b31b34_1x100.png</source>
+			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-bg_highlight-soft_15_b31b34_1x100.png</destination>
 			<type>image</type>
-			<uuidstructure>2dce8973-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2dce8974-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2fe6e144-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fe6e145-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[ui-bg_highlight-soft_15_cc0000_1x100]]></value>
+					<value><![CDATA[ui-bg_highlight-soft_15_b31b34_1x100]]></value>
 				</property>
 				<property type="shared">
 					<name>image.size</name>
@@ -611,20 +611,44 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-icons_004276_256x240.png</source>
-			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-icons_004276_256x240.png</destination>
+			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-icons_003082_256x240.png</source>
+			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-icons_003082_256x240.png</destination>
 			<type>image</type>
-			<uuidstructure>2ddf2b47-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2ddf2b48-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2fe95248-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fe95249-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[ui-icons_004276_256x240]]></value>
+					<value><![CDATA[ui-icons_003082_256x240]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:256,h:240]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-icons_b31b34_256x240.png</source>
+			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-icons_b31b34_256x240.png</destination>
+			<type>image</type>
+			<uuidstructure>2fec5f8c-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2fec5f8d-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 14 Sep 2012 15:09:32 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[ui-icons_b31b34_256x240]]></value>
 				</property>
 				<property type="shared">
 					<name>image.size</name>
@@ -638,11 +662,11 @@
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-icons_cc0000_256x240.png</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-icons_cc0000_256x240.png</destination>
 			<type>image</type>
-			<uuidstructure>2de3e63b-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2de3e63c-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2ff51220-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2ff51221-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -662,11 +686,11 @@
 			<source>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-icons_ffffff_256x240.png</source>
 			<destination>system/modules/com.alkacon.opencms.v8.solr/resources/css/images/ui-icons_ffffff_256x240.png</destination>
 			<type>image</type>
-			<uuidstructure>2dea75ef-f68c-11e1-b6b3-058770d8fd70</uuidstructure>
-			<uuidresource>2dea75f0-f68c-11e1-b6b3-058770d8fd70</uuidresource>
-			<datelastmodified>Tue, 04 Sep 2012 12:29:32 GMT</datelastmodified>
+			<uuidstructure>2ff930d4-fe7e-11e1-a88d-bd915da136f8</uuidstructure>
+			<uuidresource>2ff930d5-fe7e-11e1-a88d-bd915da136f8</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 15:09:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Sep 2012 12:29:32 GMT</datecreated>
+			<datecreated>Fri, 14 Sep 2012 15:09:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>

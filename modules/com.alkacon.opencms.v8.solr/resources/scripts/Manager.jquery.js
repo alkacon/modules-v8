@@ -10,10 +10,16 @@ AjaxSolr.Manager = AjaxSolr.AbstractManager.extend(
   {
   executeRequest: function (servlet, string, handler) {
     var self = this;
+    var loc = "";
+    if (initLocale && initLocale != null) {
+        loc = "con_locales:" + initLocale;
+        this.store.addByValue('fq', loc);
+        initLocale = null;
+    }
     string = string || this.store.string();
     handler = handler || function (data) {
       self.handleResponse(data);
-      jQuery('#result').fadeIn('slow');
+      jQuery('#result').fadeIn('fast');
     };
     if (this.proxyUrl) {
       jQuery.post(this.proxyUrl, { query: string }, handler, 'json');

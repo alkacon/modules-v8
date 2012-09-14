@@ -37,7 +37,7 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
       $(this.target).append(AjaxSolr.theme('result', doc, AjaxSolr.theme('snippet', doc)));
       var items = [];
       items = items.concat(this.facetLinks('category_exact', doc.category_exact));
-      items = items.concat(this.facetLinks('res_locales', doc.res_locales));
+      items = items.concat(this.facetLinks('con_locales', doc.con_locales));
       var type = doc.type.toString();
       items = items.concat(this.facetLinks('type', new Array(type)));
       AjaxSolr.theme('list_items', '#links_' + doc.id, items);
