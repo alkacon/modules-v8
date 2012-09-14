@@ -1241,6 +1241,21 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/org.opencms.dev.demo/resources/css/style_greyblue_editor.jsp</source>
+			<destination>system/modules/org.opencms.dev.demo/resources/css/style_greyblue_editor.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>91e05056-fe49-11e1-913f-311903c1ecf3</uuidstructure>
+			<uuidresource>91e05057-fe49-11e1-913f-311903c1ecf3</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 08:53:59 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 14 Sep 2012 08:52:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/org.opencms.dev.demo/resources/css/style_redblue.css</source>
 			<destination>system/modules/org.opencms.dev.demo/resources/css/style_redblue.css</destination>
 			<type>plain</type>
@@ -1830,7 +1845,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>6b009a99-7639-11e0-a23b-8fedaf1e6b74</uuidstructure>
 			<uuidresource>6b009a9a-7639-11e0-a23b-8fedaf1e6b74</uuidresource>
-			<datelastmodified>Wed, 29 Jun 2011 09:50:26 GMT</datelastmodified>
+			<datelastmodified>Fri, 14 Sep 2012 08:53:17 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 04 May 2011 10:29:40 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1839,6 +1854,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Dev Demo Formatter Template]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/org.opencms.dev.demo/resources/css/style_greyblue_editor.jsp]]></value>
 				</property>
 				<property>
 					<name>template.image</name>
@@ -1854,7 +1873,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>119921e6-b607-11e1-b8db-c524a635a326</uuidstructure>
 			<uuidresource>119921e7-b607-11e1-b8db-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 14 Jun 2012 10:02:40 GMT</datelastmodified>
+			<datelastmodified>Fri, 14 Sep 2012 08:53:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 14 Jun 2012 09:55:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1873,6 +1892,10 @@
 					<value><![CDATA[functionDetail=centercolumn]]></value>
 				</property>
 				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/org.opencms.dev.demo/resources/css/style_greyblue_editor.jsp]]></value>
+				</property>
+				<property>
 					<name>template.image</name>
 					<value><![CDATA[/system/modules/org.opencms.dev.demo/resources/images/template.png]]></value>
 				</property>
@@ -1886,7 +1909,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>dcb91e15-673d-11e0-8b6f-0760e8fc984c</uuidstructure>
 			<uuidresource>dcb91e16-673d-11e0-8b6f-0760e8fc984c</uuidresource>
-			<datelastmodified>Tue, 15 Nov 2011 15:29:42 GMT</datelastmodified>
+			<datelastmodified>Fri, 14 Sep 2012 08:53:36 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 15 Apr 2011 08:53:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1903,6 +1926,10 @@
 				<property>
 					<name>container.info</name>
 					<value><![CDATA[functionDetail=centercolumn]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/org.opencms.dev.demo/resources/css/style_greyblue_editor.jsp]]></value>
 				</property>
 				<property>
 					<name>template.image</name>

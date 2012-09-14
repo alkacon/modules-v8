@@ -1,3 +1,10 @@
+<%@page session="false" taglibs="c,cms,fn" %>
+
+<c:set var="editmode" value="false" />
+<c:if test="${fn:endsWith(cms:vfs(pageContext).requestContext.uri, 'style_editor.css')}">
+	<c:set var="editmode" value="true" />
+</c:if>
+
 @media all
 {
   /**
@@ -19,7 +26,9 @@
   }
 
   body {
-    padding: 10px 0;
+	<c:if test="${not editmode}">
+	  padding: 10px 0;
+	</c:if>	
     font-family: Verdana, Helvetica, Arial, sans-serif;
     font-size: 75.00%; 
     height: 1%;
@@ -89,10 +98,12 @@
    * ------------------------------------------------------------------
    */
 
+<c:if test="${not editmode}">
   body { 
     background: #EEE url("../images/bg_demo_png24.png") repeat-x top left fixed; 
   }
-    
+</c:if>    
+	
   #window {
   	width: 960px;
     	margin: 0 auto;
