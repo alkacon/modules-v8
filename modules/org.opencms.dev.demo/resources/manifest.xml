@@ -1225,13 +1225,13 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
-		<file>
+			<file>
 			<source>system/modules/org.opencms.dev.demo/resources/css/style_greyblue.css</source>
 			<destination>system/modules/org.opencms.dev.demo/resources/css/style_greyblue.css</destination>
-			<type>plain</type>
+			<type>jsp</type>
 			<uuidstructure>f2a2691a-6766-11e0-a598-0760e8fc984c</uuidstructure>
 			<uuidresource>f2a2691b-6766-11e0-a598-0760e8fc984c</uuidresource>
-			<datelastmodified>Thu, 14 Jun 2012 09:58:55 GMT</datelastmodified>
+			<datelastmodified>Fri, 14 Sep 2012 09:10:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 15 Apr 2011 13:47:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1241,14 +1241,13 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/org.opencms.dev.demo/resources/css/style_greyblue_editor.jsp</source>
 			<destination>system/modules/org.opencms.dev.demo/resources/css/style_greyblue_editor.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>91e05056-fe49-11e1-913f-311903c1ecf3</uuidstructure>
-			<uuidresource>91e05057-fe49-11e1-913f-311903c1ecf3</uuidresource>
-			<datelastmodified>Fri, 14 Sep 2012 08:53:59 GMT</datelastmodified>
+			<uuidstructure>dee87050-fe4c-11e1-afd8-311903c1ecf3</uuidstructure>
+			<uuidresource>f2a2691b-6766-11e0-a598-0760e8fc984c</uuidresource>
+			<datelastmodified>Fri, 14 Sep 2012 09:10:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 14 Sep 2012 08:52:53 GMT</datecreated>
+			<datecreated>Fri, 15 Apr 2011 13:47:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

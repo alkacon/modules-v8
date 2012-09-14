@@ -1,7 +1,7 @@
 <%@page session="false" taglibs="c,cms,fn" %>
 
 <c:set var="editmode" value="false" />
-<c:if test="${fn:endsWith(cms:vfs(pageContext).requestContext.uri, 'style_editor.css')}">
+<c:if test="${fn:endsWith(cms:vfs(pageContext).requestContext.uri, 'style_greyblue_editor.jsp')}">
 	<c:set var="editmode" value="true" />
 </c:if>
 
