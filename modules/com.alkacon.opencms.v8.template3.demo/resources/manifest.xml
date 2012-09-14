@@ -67,6 +67,10 @@
 					<name>Title</name>
 					<value><![CDATA[Container contents]]></value>
 				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.opencms.v8.template3/templates/main.jsp]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
