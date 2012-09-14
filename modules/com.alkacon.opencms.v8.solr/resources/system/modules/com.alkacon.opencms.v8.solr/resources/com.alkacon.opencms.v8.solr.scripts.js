@@ -1625,6 +1625,7 @@ AjaxSolr.Manager = AjaxSolr.AbstractManager.extend(
     string = string || this.store.string();
     handler = handler || function (data) {
       self.handleResponse(data);
+      jQuery('#result').fadeIn('slow');
     };
     if (this.proxyUrl) {
       jQuery.post(this.proxyUrl, { query: string }, handler, 'json');
@@ -2481,12 +2482,6 @@ var Manager;
         field: fields[i]
       }));
     }
-
-//    Manager.addWidget(new AjaxSolr.DateGroupWidget2({
-//      id: 'lastmodified2',
-//      target: '#dategroup2',
-//      field: 'lastmodified'
-//    }));
     Manager.addWidget(new AjaxSolr.CalendarWidget({
       id: 'calendar',
       target: '#calendar',
@@ -2527,6 +2522,11 @@ var Manager;
 
 (function ($) {
 
+AjaxSolr.formatSolrDate = function (solrDatestamp) {
+    var startdate = $.datepicker.parseDate('yy-mm-dd', solrDatestamp.split('T')[0]);
+    var date = dateFormat(startdate, GUI_DATE_FORMAT_0);
+    return date;
+}
 AjaxSolr.theme.prototype.result = function (doc, snippet) {
   var title = doc.Title_en;
   if (opencmsLocale == 'de') {
@@ -2535,10 +2535,13 @@ AjaxSolr.theme.prototype.result = function (doc, snippet) {
   if (!title || title == 'undefined' || title == null) {
     title = doc.Title_prop;
   }
-  var output = '<div><h2>' + title + '</h2>';
-  output += '<span><strong>' + GUI_TAGS_LABEL_0 + '&nbsp;</strong></span><span id="links_' + doc.id + '"></span>';
-  output += '<p>' + snippet + '</p></div>';
-  output += '<p><a href="' + doc.link + '">' + GUI_READ_ALL_0 + '</a></p>';
+  var output = '<div>';
+  output += '<h5><a class="titlelink" href="' + doc.link + '">' + title + '</a></h5>';
+  output += '<p><small><strong>'+AjaxSolr.formatSolrDate(doc.lastmodified)+'</strong></small></p>'
+  output += '<p>' + snippet + '</p>';
+  output += '<span><strong>' + GUI_TAGS_LABEL_0 + '&nbsp;</strong></span>';
+  output += '<span id="links_' + doc.id + '"></span>';
+  output += '</div>';
   return output;
 };
 
@@ -2850,7 +2853,7 @@ AjaxSolr.PagerWidget = AjaxSolr.AbstractWidget.extend(
    * @type String
    * @default "&laquo; previous"
    */
-  prevLabel: '&laquo; Previous',
+  prevLabel: GUI_PREV_0,
 
   /**
    * The next page link label.
@@ -2860,7 +2863,7 @@ AjaxSolr.PagerWidget = AjaxSolr.AbstractWidget.extend(
    * @type String
    * @default "next &raquo;"
    */
-  nextLabel: 'Next &raquo;',
+  nextLabel: GUI_NEXT_0,
 
   /**
    * Separator between pagination links.
@@ -2989,9 +2992,11 @@ AjaxSolr.PagerWidget = AjaxSolr.AbstractWidget.extend(
   clickHandler: function (page) {
     var self = this;
     return function () {
-      self.manager.store.get('start').val((page - 1) * (self.manager.response.responseHeader.params && self.manager.response.responseHeader.params.rows || 10));
-      self.manager.doRequest();
-      return false;
+      $('#result').fadeOut('slow', function() {
+          self.manager.store.get('start').val((page - 1) * (self.manager.response.responseHeader.params && self.manager.response.responseHeader.params.rows || 10));
+          self.manager.doRequest();
+          return false;
+      });
     }
   },
 
@@ -3549,169 +3554,6 @@ afterRequest: function () {
 
 (function ($) {
 
-AjaxSolr.dateDatestampToLabel = function (solrDatestamp) {
-  console.log(solrDatestamp);
-  var startdate = $.datepicker.parseDate('yy-mm-dd', solrDatestamp.split('T')[0]);
-  // going in 10-year chunks so add 9 to starting year to get end year
-  var enddate = new Date(startdate.getFullYear() + 9, 11, 31, 23, 59, 59, 0);
-  return startdate.getFullYear() + " to " + enddate.getFullYear();
-}
-
-AjaxSolr.dateFqToLabel = function (fqValue) {
-  var fqValue = fqValue.replace(/[\[\]\s]/g, "");
-  var start = fqValue.split('TO')[0];
-  return AjaxSolr.dateDatestampToLabel(start);
-}
-
-AjaxSolr.dateLabelToFq = function (displayValue) {
-  var years = displayValue.toLowerCase().split(' to ');
-  var format = 'yy-mm-dd';
-  var start = new Date(years[0], 1, 1, 0, 0, 0, 0);
-  var start_str = $.datepicker.formatDate(format, start) + 'T00:00:00Z';
-  var end = new Date(years[1], 11, 31, 23, 59, 59, 0);
-  var end_str = $.datepicker.formatDate(format, end) + 'T00:00:00Z';
-  return '[' + start_str + ' TO ' + end_str + ']';
-}
-
-AjaxSolr.DateGroupWidget1 = AjaxSolr.AbstractFacetWidget.extend({
-  afterRequest: function () {
-    if (this.manager.response.facet_counts.facet_fields[this.field] === undefined) {
-      $(this.target).html(AjaxSolr.theme('no_items_found'));
-      return;
-    }
-
-    var maxCount = 0;
-    var objectedItems = [];
-    for (var facet in this.manager.response.facet_counts.facet_dates[this.field]) {
-      var count = parseInt(this.manager.response.facet_counts.facet_dates[this.field][facet], 10);
-      // skip keys like 'gap','end','before'; skip empty ranges
-      if (!facet.match(/^\d/) || count == 0)
-      {
-        continue;
-      }
-      if (count > maxCount) {
-        maxCount = count;
-      }
-      
-      var label = AjaxSolr.dateDatestampToLabel(facet);
-      objectedItems.push({ label: label, count: count });
-    }
-
-    objectedItems.sort(function (a, b) {
-      return parseInt(a.label.substr(0,4)) > parseInt(b.label.substr(0,4)) ? -1 : 1;
-    });
-
-    $(this.target).empty();
-
-    for (var i = 0, l = objectedItems.length; i < l; i++) {
-      var label = objectedItems[i].label;
-      $(this.target).append(AjaxSolr.theme('facet_link2', label, objectedItems[i].count, this.clickHandler(label)));
-    }
-  },
-
-  fq: function (label, exclude) {
-    var fq_value = AjaxSolr.dateLabelToFq(label);
-    return (exclude ? '-' : '') + this.field + ':' + fq_value;
-  }
-});
-
-})(jQuery);
-
-(function ($) {
-
-AjaxSolr.getEndDate = function (startdate) {
-  return new Date(startdate.getFullYear(), startdate.getMonth()+1, startdate.getDay());
-}
-
-AjaxSolr.dateDateToDisplay = function (solrDatestamp) {
-  var startdate = $.datepicker.parseDate('yy-mm-dd', solrDatestamp.split('T')[0]);
-  var enddate = AjaxSolr.getEndDate(startdate);
-  return startdate.getDay() + "." + startdate.getMonth() + "." + startdate.getFullYear() + " bis " + enddate.getDay() + "." + enddate.getMonth() + "." + enddate.getFullYear();
-}
-
-AjaxSolr.DateGroupWidget2 = AjaxSolr.AbstractFacetWidget.extend({
-
-  add: function (solrDatestamp) {
-    return this.changeSelection(function () {
-      var startdate = $.datepicker.parseDate('yy-mm-dd', solrDatestamp.split('T')[0]);
-      var enddate = AjaxSolr.getEndDate(startdate);
-      var start = startdate.getFullYear() + '-' + startdate.getMonth() + '-' + startdate.getDay();
-      var end = enddate.getFullYear() + '-' + enddate.getMonth() + '-' + enddate.getDay();
-      query = this.field + ':[' + solrDatestamp + ' TO 2020-12-31T23:59:59Z]';
-      if (this.manager.store.add('fq', new AjaxSolr.Parameter( { name: 'fq', value: query } ))) {
-        this.manager.doRequest(0);
-      }
-    }); 
-  },
-
-  afterRequest: function () {
-    if (this.manager.response.facet_counts.facet_fields[this.field] === undefined) {
-      $(this.target).html(AjaxSolr.theme('no_items_found'));
-      return;
-    }
-
-    var maxCount = 0;
-    var objectedItems = [];
-    for (var facet in this.manager.response.facet_counts.facet_dates[this.field]) {
-      var count = parseInt(this.manager.response.facet_counts.facet_dates[this.field][facet], 10);
-      // skip keys like 'gap','end','before'; skip empty ranges
-      if (!facet.match(/^\d/) || count == 0)
-      {
-        continue;
-      }
-      if (count > maxCount) {
-        maxCount = count;
-      }
-      
-      objectedItems.push({ facet: facet, count: count });
-    }
-
-    objectedItems.sort(function (a, b) {
-      return parseInt(a.facet.substr(0,4)) > parseInt(b.facet.substr(0,4)) ? -1 : 1;
-    });
-
-    $(this.target).empty();
-
-    for (var i = 0, l = objectedItems.length; i < l; i++) {
-      var facet = objectedItems[i].facet;
-      $(this.target).append(AjaxSolr.theme('facet_link2', AjaxSolr.dateDateToDisplay(facet), objectedItems[i].count, this.clickHandler(facet)));
-    }
-  }
-});
-})(jQuery);
-
-
-(function ($) {
-
-AjaxSolr.DateGroupWidget3 = AjaxSolr.AbstractFacetWidget.extend({
-
-
-  addFacet: function (label, query) {
-
-    $(this.target).append(AjaxSolr.theme('facet_link2', label, -1, this.clickHandler(query)));
-  },
-
-  init: function () {
-
-    this.initStore();
-
-    var lastweek = '[NOW-7DAY/DAY TO NOW]';
-    var lastmonth = '[NOW-1MONTH/DAY TO NOW]';
-    var lastyear = '[NOW-1YEAR/DAY TO NOW]';
-    var beforelastyear = '[* TO NOW-1YEAR/DAY]';
-
-    this.addFacet("Last week", lastweek);
-    this.addFacet("Last month", lastmonth);
-    this.addFacet("Last year", lastyear);
-    this.addFacet("Before last year", beforelastyear);
-  }
-
-});
-
-})(jQuery);
-
-(function ($) {
-
 
 AjaxSolr.SpellCheckWidget = AjaxSolr.AbstractSpellcheckWidget.extend({
   
@@ -3918,3 +3760,131 @@ AjaxSolr.CalendarWidget = AjaxSolr.AbstractFacetWidget.extend({
 });
 
 })(jQuery);
+
+
+/*
+ * Date Format 1.2.3
+ * (c) 2007-2009 Steven Levithan <stevenlevithan.com>
+ * MIT license
+ *
+ * Includes enhancements by Scott Trenda <scott.trenda.net>
+ * and Kris Kowal <cixar.com/~kris.kowal/>
+ *
+ * Accepts a date, a mask, or a date and a mask.
+ * Returns a formatted version of the given date.
+ * The date defaults to the current date/time.
+ * The mask defaults to dateFormat.masks.default.
+ */
+
+var dateFormat = function () {
+	var	token = /d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"[^"]*"|'[^']*'/g,
+		timezone = /\b(?:[PMCEA][SDP]T|(?:Pacific|Mountain|Central|Eastern|Atlantic) (?:Standard|Daylight|Prevailing) Time|(?:GMT|UTC)(?:[-+]\d{4})?)\b/g,
+		timezoneClip = /[^-+\dA-Z]/g,
+		pad = function (val, len) {
+			val = String(val);
+			len = len || 2;
+			while (val.length < len) val = "0" + val;
+			return val;
+		};
+
+	// Regexes and supporting functions are cached through closure
+	return function (date, mask, utc) {
+		var dF = dateFormat;
+
+		// You can't provide utc if you skip other args (use the "UTC:" mask prefix)
+		if (arguments.length == 1 && Object.prototype.toString.call(date) == "[object String]" && !/\d/.test(date)) {
+			mask = date;
+			date = undefined;
+		}
+
+		// Passing date through Date applies Date.parse, if necessary
+		date = date ? new Date(date) : new Date;
+		if (isNaN(date)) throw SyntaxError("invalid date");
+
+		mask = String(dF.masks[mask] || mask || dF.masks["default"]);
+
+		// Allow setting the utc argument via the mask
+		if (mask.slice(0, 4) == "UTC:") {
+			mask = mask.slice(4);
+			utc = true;
+		}
+
+		var	_ = utc ? "getUTC" : "get",
+			d = date[_ + "Date"](),
+			D = date[_ + "Day"](),
+			m = date[_ + "Month"](),
+			y = date[_ + "FullYear"](),
+			H = date[_ + "Hours"](),
+			M = date[_ + "Minutes"](),
+			s = date[_ + "Seconds"](),
+			L = date[_ + "Milliseconds"](),
+			o = utc ? 0 : date.getTimezoneOffset(),
+			flags = {
+				d:    d,
+				dd:   pad(d),
+				ddd:  dF.i18n.dayNames[D],
+				dddd: dF.i18n.dayNames[D + 7],
+				m:    m + 1,
+				mm:   pad(m + 1),
+				mmm:  dF.i18n.monthNames[m],
+				mmmm: dF.i18n.monthNames[m + 12],
+				yy:   String(y).slice(2),
+				yyyy: y,
+				h:    H % 12 || 12,
+				hh:   pad(H % 12 || 12),
+				H:    H,
+				HH:   pad(H),
+				M:    M,
+				MM:   pad(M),
+				s:    s,
+				ss:   pad(s),
+				l:    pad(L, 3),
+				L:    pad(L > 99 ? Math.round(L / 10) : L),
+				t:    H < 12 ? "a"  : "p",
+				tt:   H < 12 ? "am" : "pm",
+				T:    H < 12 ? "A"  : "P",
+				TT:   H < 12 ? "AM" : "PM",
+				Z:    utc ? "UTC" : (String(date).match(timezone) || [""]).pop().replace(timezoneClip, ""),
+				o:    (o > 0 ? "-" : "+") + pad(Math.floor(Math.abs(o) / 60) * 100 + Math.abs(o) % 60, 4),
+				S:    ["th", "st", "nd", "rd"][d % 10 > 3 ? 0 : (d % 100 - d % 10 != 10) * d % 10]
+			};
+
+		return mask.replace(token, function ($0) {
+			return $0 in flags ? flags[$0] : $0.slice(1, $0.length - 1);
+		});
+	};
+}();
+
+// Some common format strings
+dateFormat.masks = {
+	"default":      "ddd mmm dd yyyy HH:MM:ss",
+	shortDate:      "m/d/yy",
+	mediumDate:     "mmm d, yyyy",
+	longDate:       "mmmm d, yyyy",
+	fullDate:       "dddd, mmmm d, yyyy",
+	shortTime:      "h:MM TT",
+	mediumTime:     "h:MM:ss TT",
+	longTime:       "h:MM:ss TT Z",
+	isoDate:        "yyyy-mm-dd",
+	isoTime:        "HH:MM:ss",
+	isoDateTime:    "yyyy-mm-dd'T'HH:MM:ss",
+	isoUtcDateTime: "UTC:yyyy-mm-dd'T'HH:MM:ss'Z'"
+};
+
+// Internationalization strings
+dateFormat.i18n = {
+	dayNames: [
+		"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat",
+		"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+	],
+	monthNames: [
+		"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+		"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+	]
+};
+
+// For convenience...
+Date.prototype.format = function (mask, utc) {
+	return dateFormat(this, mask, utc);
+};
+

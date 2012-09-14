@@ -1,5 +1,10 @@
 (function ($) {
 
+AjaxSolr.formatSolrDate = function (solrDatestamp) {
+    var startdate = $.datepicker.parseDate('yy-mm-dd', solrDatestamp.split('T')[0]);
+    var date = dateFormat(startdate, GUI_DATE_FORMAT_0);
+    return date;
+}
 AjaxSolr.theme.prototype.result = function (doc, snippet) {
   var title = doc.Title_en;
   if (opencmsLocale == 'de') {
@@ -8,10 +13,13 @@ AjaxSolr.theme.prototype.result = function (doc, snippet) {
   if (!title || title == 'undefined' || title == null) {
     title = doc.Title_prop;
   }
-  var output = '<div><h2>' + title + '</h2>';
-  output += '<span><strong>' + GUI_TAGS_LABEL_0 + '&nbsp;</strong></span><span id="links_' + doc.id + '"></span>';
-  output += '<p>' + snippet + '</p></div>';
-  output += '<p><a href="' + doc.link + '">' + GUI_READ_ALL_0 + '</a></p>';
+  var output = '<div>';
+  output += '<h5><a class="titlelink" href="' + doc.link + '">' + title + '</a></h5>';
+  output += '<p><small><strong>'+AjaxSolr.formatSolrDate(doc.lastmodified)+'</strong></small></p>'
+  output += '<p>' + snippet + '</p>';
+  output += '<span><strong>' + GUI_TAGS_LABEL_0 + '&nbsp;</strong></span>';
+  output += '<span id="links_' + doc.id + '"></span>';
+  output += '</div>';
   return output;
 };
 

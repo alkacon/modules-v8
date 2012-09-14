@@ -1,24 +1,32 @@
 <%@page buffer="none" session="false" taglibs="c,cms,fmt" import="org.opencms.main.OpenCms, org.opencms.jsp.CmsJspActionElement" %>
 <div class="wrap">
+  <fmt:setLocale value="${cms.locale}" />
+  <fmt:bundle basename="com.alkacon.opencms.v8.solr.messages">
   <script type="text/javascript">
   	var solrRequestHandler = "handleSolrSelect";
   	var opencmsServlet = "<%= OpenCms.getLinkManager().getOnlineLink(new CmsJspActionElement(pageContext, request, response).getCmsObject() , "/") %>";
-  	var opencmsLocale = "${cms.requestContext.locale}";
+  	var opencmsLocale = "${cms.locale}";
+	var GUI_PREV_0                           ="<fmt:message key="v8.solr.previous" />";
+	var GUI_NEXT_0                           ="<fmt:message key="v8.solr.next" />";
+	var GUI_DOCUMENTS_FOUND_0                ="<fmt:message key="v8.solr.documents.found" />";
+	var GUI_MORE_0                           ="<fmt:message key="v8.solr.more" />";
+	var GUI_LESS_0                           ="<fmt:message key="v8.solr.less" />";
+	var GUI_NO_ITEMS_FOUND_0                 ="<fmt:message key="v8.solr.noitems" />";
+	var GUI_NO_CONTENT_AVAILABLE_0           ="<fmt:message key="v8.solr.nocontent" />";
+	var GUI_TAGS_LABEL_0                     ="<fmt:message key="v8.solr.facats" />";
+	var GUI_VIEWING_ALL_DOCS_0               ="<fmt:message key="v8.solr.alldocs" />";
+	var GUI_REMOVE_ALL_FACETS_0              ="<fmt:message key="v8.solr.remove" />";
+	var GUI_DATE_FORMAT_0                    ="<fmt:message key="v8.solr.dateFormat" />";
   </script>
-  <fmt:setLocale value="${cms.locale}" />
-  <fmt:bundle basename="com.alkacon.opencms.v8.solr.messages">
-  <link rel="stylesheet" type="text/css" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/css/jquery-ui-1.8.23.custom.css)</cms:link>" media="screen"/>
-  <link rel="stylesheet" type="text/css" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/css/jquery.autocomplete.css)</cms:link>" media="screen"/>
-  <link rel="stylesheet" type="text/css" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/css/reuters.css)</cms:link>" media="screen"/>
-  <script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/com.alkacon.opencms.v8.solr.scripts.js)</cms:link>"></script>
-  <script type="text/javascript" src="<cms:link>/system/modules/com.alkacon.opencms.v8.solr/resources/messages_${cms.requestContext.locale}.js</cms:link>"></script>
-  <div class="right">
+  <link rel="stylesheet" type="text/css" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/css/jquery-ui-1.8.23.custom.css:cd961b66-f687-11e1-b6b3-058770d8fd70)</cms:link>" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/css/jquery.autocomplete.css:cd9298f0-f687-11e1-b6b3-058770d8fd70)</cms:link>" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/css/reuters.css:cd946db3-f687-11e1-b6b3-058770d8fd70)</cms:link>" media="screen"/>
+  <script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/com.alkacon.opencms.v8.solr.scripts.js:cd98da89-f687-11e1-b6b3-058770d8fd70)</cms:link>"></script>
+  <div class="right box box_schema3">
     <div id="result">
-      <div id="navigation">
-        <ul id="pager"></ul>
-        <div id="pager-header"></div>
-      </div>
-      <div id="docs"></div>
+      <h4><fmt:message key="v8.solr.results"/>:&nbsp;<div id="pager-header"></div></h4>
+        <div id="docs" class="boxbody"></div>
+		<ul id="pager"></ul>
     </div>
   </div>
   <div class="left">

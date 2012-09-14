@@ -1,9 +1,0 @@
-var GUI_DOCUMENTS_FOUND_0                ="Dokumente gefunden!";
-var GUI_MORE_0                           ="mehr";
-var GUI_LESS_0                           ="weniger";
-var GUI_READ_ALL_0                       ="Alles lesen ...";
-var GUI_NO_ITEMS_FOUND_0                 ="Es wurden keine Treffer für die aktuelle Auswahl gefunden.";
-var GUI_NO_CONTENT_AVAILABLE_0           ="Kein content für diese Datei gefunden.";
-var GUI_TAGS_LABEL_0                     ="Facetten:";
-var GUI_VIEWING_ALL_DOCS_0               ="Es werden alle Dokumente angezeigt!";
-GUI_REMOVE_ALL_FACETS_0                  ="Alle Kriterien entfernen";

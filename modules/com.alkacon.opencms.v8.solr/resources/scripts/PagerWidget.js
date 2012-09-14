@@ -44,7 +44,7 @@ AjaxSolr.PagerWidget = AjaxSolr.AbstractWidget.extend(
    * @type String
    * @default "&laquo; previous"
    */
-  prevLabel: '&laquo; Previous',
+  prevLabel: GUI_PREV_0,
 
   /**
    * The next page link label.
@@ -54,7 +54,7 @@ AjaxSolr.PagerWidget = AjaxSolr.AbstractWidget.extend(
    * @type String
    * @default "next &raquo;"
    */
-  nextLabel: 'Next &raquo;',
+  nextLabel: GUI_NEXT_0,
 
   /**
    * Separator between pagination links.
@@ -183,9 +183,11 @@ AjaxSolr.PagerWidget = AjaxSolr.AbstractWidget.extend(
   clickHandler: function (page) {
     var self = this;
     return function () {
-      self.manager.store.get('start').val((page - 1) * (self.manager.response.responseHeader.params && self.manager.response.responseHeader.params.rows || 10));
-      self.manager.doRequest();
-      return false;
+      $('#result').fadeOut('slow', function() {
+          self.manager.store.get('start').val((page - 1) * (self.manager.response.responseHeader.params && self.manager.response.responseHeader.params.rows || 10));
+          self.manager.doRequest();
+          return false;
+      });
     }
   },
 

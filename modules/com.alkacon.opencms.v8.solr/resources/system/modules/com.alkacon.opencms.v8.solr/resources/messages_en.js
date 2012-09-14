@@ -1,9 +1,0 @@
-var GUI_DOCUMENTS_FOUND_0                ="documents found!";
-var GUI_MORE_0                           ="more";
-var GUI_LESS_0                           ="less";
-var GUI_READ_ALL_0                       ="Read all ...";
-var GUI_NO_ITEMS_FOUND_0                 ="No items found for current selection.";
-var GUI_NO_CONTENT_AVAILABLE_0           ="No content available for this resource.";
-var GUI_TAGS_LABEL_0                     ="Facets:";
-var GUI_VIEWING_ALL_DOCS_0               ="Viewing all documents!";
-GUI_REMOVE_ALL_FACETS_0                  ="remove all";

@@ -45,12 +45,6 @@ var Manager;
         field: fields[i]
       }));
     }
-
-//    Manager.addWidget(new AjaxSolr.DateGroupWidget2({
-//      id: 'lastmodified2',
-//      target: '#dategroup2',
-//      field: 'lastmodified'
-//    }));
     Manager.addWidget(new AjaxSolr.CalendarWidget({
       id: 'calendar',
       target: '#calendar',
