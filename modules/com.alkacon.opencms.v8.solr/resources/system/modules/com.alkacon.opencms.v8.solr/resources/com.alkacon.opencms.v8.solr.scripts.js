@@ -1631,7 +1631,7 @@ AjaxSolr.Manager = AjaxSolr.AbstractManager.extend(
     string = string || this.store.string();
     handler = handler || function (data) {
       self.handleResponse(data);
-      jQuery('#result').fadeIn('fast');
+      jQuery('#docs').fadeIn('fast');
     };
     if (this.proxyUrl) {
       jQuery.post(this.proxyUrl, { query: string }, handler, 'json');
@@ -2508,7 +2508,7 @@ var Manager;
     Manager.store.addByValue('q', '*:*');
     var params = {
       facet: true,
-	  'rows': 10,
+	  'rows': 5,
       'facet.field': [ 'Title_prop', 'category_exact', 'con_locales', 'lastmodified' ],
       'facet.mincount': 5,
       'facet.limit': 10,
@@ -2554,7 +2554,7 @@ AjaxSolr.theme.prototype.result = function (doc, snippet) {
   var output = '<div>';
   output += '<h5><a class="titlelink" href="' + doc.link + '">' + title + '</a></h5>';
   output += '<p><small><strong>'+AjaxSolr.formatSolrDate(doc.lastmodified)+'</strong></small></p>'
-  output += '<p>' + snippet + '</p>';
+  output += '<p style="overflow: hidden;">' + snippet + '</p>';
   output += '<span><strong>' + GUI_TAGS_LABEL_0 + '&nbsp;</strong></span>';
   output += '<span id="links_' + doc.id + '"></span>';
   output += '</div>';
@@ -2571,10 +2571,10 @@ AjaxSolr.theme.prototype.snippet = function (doc) {
   }
   var output = '';
   if (content && content.toString().length > 300) {
-    output = content.toString();
-    var rest = output.substring(300, output.length);
-    output = output.substring(0, 300);
-    output += '<span style="display:none;">' + rest;
+    output = ($('<p/>').text(content.toString())).html();
+    var rest = output.substring(200, output.length);
+    output = output.substring(0, 200);
+    output += '<span style="display:none; font-size: 11px;">' + rest;
     output += '</span> <a href="#" class="more">' + GUI_MORE_0 + '</a>';
   }
   else {
@@ -3008,7 +3008,8 @@ AjaxSolr.PagerWidget = AjaxSolr.AbstractWidget.extend(
   clickHandler: function (page) {
     var self = this;
     return function () {
-      $('#result').fadeOut('slow', function() {
+      $('#docs').fadeOut('fast', function() {
+    	  // self.target.empty();
           self.manager.store.get('start').val((page - 1) * (self.manager.response.responseHeader.params && self.manager.response.responseHeader.params.rows || 10));
           self.manager.doRequest();
           return false;
@@ -3079,8 +3080,6 @@ AjaxSolr.PagerWidget = AjaxSolr.AbstractWidget.extend(
 
     this.currentPage = Math.ceil((offset + 1) / perPage);
     this.totalPages = Math.ceil(total / perPage);
-
-    $(this.target).empty();
 
     this.renderLinks(this.windowedLinks());
     this.renderHeader(perPage, offset, total);
@@ -3628,7 +3627,7 @@ AjaxSolr.CurrentSearchWidget = AjaxSolr.AbstractWidget.extend({
       var field = fq[i].split(':');
       console.log(field);
       if (field[0] == 'lastmodified') {
-        var displayValue = 'lastmodified:' + AjaxSolr.dateFqToLabel(field[1]);
+        var displayValue = 'lastmodified:' + AjaxSolr.formatSolrDate(field[1].split('TO ')[0].split('T')[0].slice(1));
       } else {
         var displayValue = fq[i];
       }

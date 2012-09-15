@@ -25,9 +25,9 @@
   <script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/com.alkacon.opencms.v8.solr.scripts.js:cd98da89-f687-11e1-b6b3-058770d8fd70)</cms:link>"></script>
   <div class="right box box_schema3">
     <div id="result">
+      <ul id="pager"></ul>
       <h4><fmt:message key="v8.solr.results"/>:&nbsp;<div id="pager-header"></div></h4>
-        <div id="docs" class="boxbody"></div>
-		<ul id="pager"></ul>
+      <div id="docs" class="boxbody"></div>
     </div>
   </div>
   <div class="left">

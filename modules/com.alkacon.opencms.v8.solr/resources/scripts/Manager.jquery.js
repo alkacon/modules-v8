@@ -19,7 +19,7 @@ AjaxSolr.Manager = AjaxSolr.AbstractManager.extend(
     string = string || this.store.string();
     handler = handler || function (data) {
       self.handleResponse(data);
-      jQuery('#result').fadeIn('fast');
+      jQuery('#docs').fadeIn('fast');
     };
     if (this.proxyUrl) {
       jQuery.post(this.proxyUrl, { query: string }, handler, 'json');

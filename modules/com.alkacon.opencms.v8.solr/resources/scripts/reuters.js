@@ -65,7 +65,7 @@ var Manager;
     Manager.store.addByValue('q', '*:*');
     var params = {
       facet: true,
-	  'rows': 10,
+	  'rows': 5,
       'facet.field': [ 'Title_prop', 'category_exact', 'con_locales', 'lastmodified' ],
       'facet.mincount': 5,
       'facet.limit': 10,

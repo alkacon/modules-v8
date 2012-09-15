@@ -16,7 +16,7 @@ AjaxSolr.theme.prototype.result = function (doc, snippet) {
   var output = '<div>';
   output += '<h5><a class="titlelink" href="' + doc.link + '">' + title + '</a></h5>';
   output += '<p><small><strong>'+AjaxSolr.formatSolrDate(doc.lastmodified)+'</strong></small></p>'
-  output += '<p>' + snippet + '</p>';
+  output += '<p style="overflow: hidden;">' + snippet + '</p>';
   output += '<span><strong>' + GUI_TAGS_LABEL_0 + '&nbsp;</strong></span>';
   output += '<span id="links_' + doc.id + '"></span>';
   output += '</div>';
@@ -33,10 +33,10 @@ AjaxSolr.theme.prototype.snippet = function (doc) {
   }
   var output = '';
   if (content && content.toString().length > 300) {
-    output = content.toString();
-    var rest = output.substring(300, output.length);
-    output = output.substring(0, 300);
-    output += '<span style="display:none;">' + rest;
+    output = ($('<p/>').text(content.toString())).html();
+    var rest = output.substring(200, output.length);
+    output = output.substring(0, 200);
+    output += '<span style="display:none; font-size: 11px;">' + rest;
     output += '</span> <a href="#" class="more">' + GUI_MORE_0 + '</a>';
   }
   else {

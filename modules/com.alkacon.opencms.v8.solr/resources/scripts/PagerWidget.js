@@ -183,7 +183,8 @@ AjaxSolr.PagerWidget = AjaxSolr.AbstractWidget.extend(
   clickHandler: function (page) {
     var self = this;
     return function () {
-      $('#result').fadeOut('slow', function() {
+      $('#docs').fadeOut('fast', function() {
+    	  // self.target.empty();
           self.manager.store.get('start').val((page - 1) * (self.manager.response.responseHeader.params && self.manager.response.responseHeader.params.rows || 10));
           self.manager.doRequest();
           return false;
@@ -254,8 +255,6 @@ AjaxSolr.PagerWidget = AjaxSolr.AbstractWidget.extend(
 
     this.currentPage = Math.ceil((offset + 1) / perPage);
     this.totalPages = Math.ceil(total / perPage);
-
-    $(this.target).empty();
 
     this.renderLinks(this.windowedLinks());
     this.renderHeader(perPage, offset, total);

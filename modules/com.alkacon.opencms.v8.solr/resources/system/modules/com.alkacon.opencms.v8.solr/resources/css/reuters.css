@@ -6,7 +6,7 @@
   display: block;
   text-align: center;
   padding: 0;
-  margin: 10px 0 0 0;
+  margin: 0 0 10px 0;
 }
 #pager li {
 	display: inline-block;
@@ -17,7 +17,7 @@
   display: inline-block;
   float: left;
   padding: 0.2em 0.5em;
-  min-width: 1em;
+  min-width: 2em;
   text-align: center;
   text-decoration: none;
   border: 1px solid #D8DCDF;
@@ -26,12 +26,12 @@
   color: #003082;
 }
 #pager .pager-disabled, #pager .pager-gap {
-  margin-right: 4px;
+  margin-right: 5px;
   cursor: default;
   border: 1px solid #D8DCDF;
   background: #EEE url(images/ui-bg_highlight-hard_100_eeeeee_1x100.png) 50% 50% repeat-x;
   font-weight: bold;
-  color: #86b2fe;
+  color: ##D8DCDF;
 
 }
 #pager span.pager-current {
@@ -50,7 +50,6 @@
   border: none;
 }
 .wrap a {
-  margin-right: 5px;
   font-weight: bold;
 }
 .wrap .box h5, .wrap .box h5 a {
@@ -63,12 +62,18 @@
 	background-color: white;
 	border: none;
 }
+.wrap .facet_link, #pager a {
+	margin-right: 5px;
+}
 
 /* right */
 .wrap .right {
  float: right;
- width: 620px;
+ width: 660px;
  text-align: justify;
+}
+#docs > div {
+	margin-bottom: 20px;
 }
 #docs li {
   margin: 0;
@@ -78,33 +83,40 @@
 }
 
 
+
 /* left */
 .wrap .left {
 float: left;
-width: 300px;
+width: 270px;
+height: 760px;
 }
 .wrap .left h2 {
   clear: left;
-  padding-top: 20px;
-  color: #333;
+  padding: 0;
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 0;
+  margin: 5px 0 0 0;
+}
+.wrap .left > ul, .wrap .left > div {
+  margin: 10px 10px 20px 10px;
 }
 #search input {
-  width: 240px;
+  width: 230px;
 }
 
 
 /* tagcloud */
-.wrap .tagcloud {
-  padding: 10px 15px 0;
+#con_locales{
+  padding: 0 20px 20px 20px;
+}
+.wrap .tagcloud > div {
+	margin: 4px;
 }
 .wrap .tagcloud_item {
   float: left;
   display: block;
-  margin-right: 4px;
   color: #003082;
+  margin-right: 5px;
 }
 .wrap a.tagcloud_size_0 {
 font-size: 80%;
@@ -144,10 +156,11 @@ font-size: 180%;
 
 
 #selection {
-  padding: 10px 15px 0;
 }
 #selection li {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 #calendar {
   width: 160px;

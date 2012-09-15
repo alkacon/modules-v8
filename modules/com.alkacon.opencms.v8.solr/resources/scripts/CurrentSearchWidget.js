@@ -34,7 +34,7 @@ AjaxSolr.CurrentSearchWidget = AjaxSolr.AbstractWidget.extend({
       var field = fq[i].split(':');
       console.log(field);
       if (field[0] == 'lastmodified') {
-        var displayValue = 'lastmodified:' + AjaxSolr.dateFqToLabel(field[1]);
+        var displayValue = 'lastmodified:' + AjaxSolr.formatSolrDate(field[1].split('TO ')[0].split('T')[0].slice(1));
       } else {
         var displayValue = fq[i];
       }
