@@ -1,3 +1,11 @@
+.twocols {
+	margin-bottom: 20px;
+}
+.twocols> div > span:first-child {
+	font-weight: bold;
+	width: 200px;
+	display: inline-block;
+}
 /** Other elements */
 #pager-header {
   display: inline;
