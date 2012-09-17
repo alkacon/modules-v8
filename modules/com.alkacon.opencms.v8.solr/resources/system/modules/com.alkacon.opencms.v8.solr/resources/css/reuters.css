@@ -13,8 +13,9 @@
 #pager {
   display: block;
   text-align: center;
-  padding: 0;
-  margin: 0 0 10px 0;
+  margin: 0;
+  padding: 0 0 10px 0;
+  background-color: white;
 }
 #pager li {
 	display: inline-block;
@@ -39,7 +40,7 @@
   border: 1px solid #D8DCDF;
   background: #EEE url(images/ui-bg_highlight-hard_100_eeeeee_1x100.png) 50% 50% repeat-x;
   font-weight: bold;
-  color: ##D8DCDF;
+  color: #D8DCDF;
 
 }
 #pager span.pager-current {
