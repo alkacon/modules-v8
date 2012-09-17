@@ -9,14 +9,22 @@ AjaxSolr.Manager = AjaxSolr.AbstractManager.extend(
   /** @lends AjaxSolr.Manager.prototype */
   {
   executeRequest: function (servlet, string, handler) {
-    var self = this;
-    var loc = "";
     if (initLocale && initLocale != null) {
-        loc = "con_locales:" + initLocale;
-        this.store.addByValue('fq', loc);
-        initLocale = null;
+        if (window.location.hash) {
+            string = window.location.hash.slice(1, window.location.hash.length);
+            this.store.parseString(string);
+            initLocale = null;
+        } else {
+            var loc = "con_locales:" + initLocale;
+            this.store.addByValue('fq', loc);
+            string = this.store.string();
+            initLocale = null;
+        }
     }
     string = string || this.store.string();
+    window.location.hash = this.store.string();
+    
+    var self = this;
     handler = handler || function (data) {
       self.handleResponse(data);
       jQuery('#docs').fadeIn('fast');
