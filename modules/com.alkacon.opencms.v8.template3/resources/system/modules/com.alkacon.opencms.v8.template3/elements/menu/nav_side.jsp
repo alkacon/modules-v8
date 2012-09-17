@@ -15,7 +15,7 @@
 				</c:when>
 			</c:choose>
 			
-			<li><a href="<cms:link>${elem.resourceName}</cms:link>" <c:if test="${nav.isActive[elem.resourceName]}">class="current"</c:if>>${elem.navText}</a>
+			<li><a href="<cms:link>${elem.resourceName}</cms:link>" <c:if test="${!elem.navigationLevel && nav.isActive[elem.resourceName]}">class="current"</c:if>>${elem.navText}</a>
 			
 			<c:set var="oldLevel" value="${currentLevel}" />
 		</c:forEach>
