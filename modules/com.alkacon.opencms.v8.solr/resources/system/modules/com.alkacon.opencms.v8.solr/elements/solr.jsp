@@ -40,7 +40,7 @@
     </ul>
     <h2><fmt:message key="v8.solr.category"/></h2>
     <div class="tagcloud" id="category_exact"></div>
-    <h2><fmt:message key="v8.solr.type"/></h2>
+    <h2><fmt:message key="v8.solr.types"/></h2>
     <div class="tagcloud" id="type"></div>
     <h2><fmt:message key="v8.solr.languages"/></h2>
     <div class="tagcloud" id="con_locales"></div>
