@@ -4,7 +4,7 @@
   <V8List language="en">
     <Title><![CDATA[Recent news]]></Title>
     <Collector><![CDATA[byQuery]]></Collector>
-    <Parameter><![CDATA[fq=type:v8news&fq=parent-folders:(/shared/.content/news/ OR %(request.siteroot)%(link1))&sort=collector.priority_prop desc, collector.date_prop desc&rows=2]]></Parameter>
+    <Parameter><![CDATA[fq=type:v8news&fq=parent-folders:(/shared/.content/news/ OR %(request.siteroot)%(link1))&sort=collector.priority_prop desc, collector.date_prop desc&rows=2|createPath=%(link1)n_%(number:5).html]]></Parameter>
     <Links>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.content/news/]]></target>
@@ -35,7 +35,7 @@
   <V8List language="de">
     <Title><![CDATA[Aktuelle Meldungen]]></Title>
     <Collector><![CDATA[byQuery]]></Collector>
-    <Parameter><![CDATA[fq=type:v8news&fq=parent-folders:(/shared/.content/news/ OR %(request.siteroot)%(link1))&sort=collector.priority_prop desc, collector.date_prop desc&rows=2]]></Parameter>
+    <Parameter><![CDATA[fq=type:v8news&fq=parent-folders:(/shared/.content/news/ OR %(request.siteroot)%(link1))&sort=collector.priority_prop desc, collector.date_prop desc&rows=2|createPath=%(link1)n_%(number:5).html]]></Parameter>
     <Links>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.content/news/]]></target>
