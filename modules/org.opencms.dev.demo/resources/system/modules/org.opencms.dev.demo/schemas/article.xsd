@@ -68,11 +68,9 @@
 			<relations />
 			<formatters>
 				<formatter minwidth="1" maxwidth="250"
-					uri="/system/modules/org.opencms.dev.demo/formatters/article/side.jsp"
-					searchcontent="false" />
+					uri="/system/modules/org.opencms.dev.demo/formatters/article/side.jsp" />
 				<formatter minwidth="250"
-					uri="/system/modules/org.opencms.dev.demo/formatters/article/center.jsp"
-					searchcontent="false" />
+					uri="/system/modules/org.opencms.dev.demo/formatters/article/center.jsp" />
 			</formatters>
 		</xsd:appinfo>
 	</xsd:annotation>

@@ -64,8 +64,7 @@
 			<relations />
 			<formatters>
 				<formatter minwidth="150"
-					uri="/system/modules/org.opencms.dev.demo/formatters/settings_article/settings.jsp"
-					searchcontent="false" />
+					uri="/system/modules/org.opencms.dev.demo/formatters/settings_article/settings.jsp" />
 			</formatters>
 			<settings>
 				<setting name="boxschema" nice-name="Box Color" type="string"

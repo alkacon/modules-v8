@@ -62,8 +62,7 @@
 					uri="/system/modules/org.opencms.dev.demo/formatters/article_with_headincludes/side.jsp"
 					searchcontent="false" />
 				<formatter minwidth="250"
-					uri="/system/modules/org.opencms.dev.demo/formatters/article_with_headincludes/center.jsp"
-					searchcontent="false" />
+					uri="/system/modules/org.opencms.dev.demo/formatters/article_with_headincludes/center.jsp" />
 			</formatters>
 			<headincludes>
 				<headinclude type="javascript"
