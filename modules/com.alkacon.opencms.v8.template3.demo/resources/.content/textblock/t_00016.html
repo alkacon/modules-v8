@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<V8Textblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.v8.textblock/schemas/textblock.xsd">
+  <V8Textblock language="de">
+    <Title><![CDATA[OpenCms integriert Apache Solr ]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Ajax Solr Demo]]></Headline>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/flower-en/flower-search/ajax-solr/index.html]]></target>
+            <uuid>9d443ec4-00cc-11e2-9ad3-bd915da136f8</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>&nbsp;</p>
+<p style="text-align: -webkit-auto;">Die OpenCms V8 Module beinhalten eine Solr basierte Demonstration, die als Benutzeroberfl&auml;che das Open Source Projekt&nbsp;Ajax Solr verwendet:</p>
+<p style="text-align: -webkit-auto;"><a title="Ajax Solr Demo" href="%(link0)" target="_self"><strong>Klicken Sie hier, um die Ajax Solr Demo zu starten...</strong></a></p>]]></content>
+      </Text>
+    </Paragraph>
+    <Paragraph>
+      <Headline><![CDATA[Mit Apache Solr suchen]]></Headline>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://lucene.apache.org/solr/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Nach vielen Jahren des Suchens mit Apache's Lucene, ist Apache Solr gr&ouml;&szlig;er und gr&ouml;&szlig;er geworden und kann jetzt als eine unternehmensweite Suchplattform (auf Basis von Lucene) bezeichnet werden.&nbsp;<strong>OpenCms integriert Apache Solr und bietet somit m&auml;chtige Suchfunktionen.</strong></p>
+<p style="text-align: -webkit-auto;"><strong><br /></strong></p>
+<p style="text-align: -webkit-auto;">Solr ist ein Such-Server mit einer&nbsp;RESTful-API. Man kann Dokumente im&nbsp;XML-, JSON-Format, aber auch als Bin&auml;rdokumente &uuml;ber HTTP PUT indexieren und per HTTP GET abrufen. Um einen genaueren Einblick zu bekommen, was Solr ist und wie es funktioniert, besuchen Sie die&nbsp;<a class="external text" href="%(link0)" rel="nofollow">Apache Solr</a>&nbsp;Projekt Webseite.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/Solr_Logo.png]]></target>
+            <uuid>2a498e81-00cf-11e2-a2ab-000c2972a6a4</uuid>
+          </link>
+        </Image>
+        <Align><![CDATA[righthl]]></Align>
+        <Title><![CDATA[Apache Solr Logo]]></Title>
+      </Image>
+    </Paragraph>
+    <Paragraph>
+      <Headline><![CDATA[Solr Live Query Demo]]></Headline>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://wiki.apache.org/solr/SolrQuerySyntax]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://lucidworks.lucidimagination.com/display/solr/Searching]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>&nbsp;</p>
+<p style="text-align: -webkit-auto;">OpenCms wird mit einem "Resource-Collector" ausgeliefert, der es erm&ouml;glicht mit Hilfe von Solr Queries nach Inhalten zu suchen.&nbsp;Die folgenden Beispiele zeigen, wie man Solr Queries verwendet, um OpenCms Inhalte zu finden. Wenn Sie sich erst einmal mit der Solr Query Syntax vertraut machen wollen, bietet das&nbsp;<a class="external text" href="%(link0)" rel="nofollow">Solr Wiki</a>&nbsp;einen guten Einstieg. Um tiefer in die Materie einzusteigen, besuchen Sie doch&nbsp;<a class="external text" href="%(link1)" rel="nofollow">Searching - Solr Reference Guide - Lucid Imagination</a>.</p>
+<p style="text-align: -webkit-auto;"><strong>Finden der zuletzt ge&auml;nderten Blumen sortiert nach &Auml;nderungsdatum</strong></p>
+<pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;">fq=type:v8flower&amp;fq=lastmodified:[NOW-1MONTH TO NOW]&amp;sort=lastmodified desc</pre>
+<p style="text-align: -webkit-auto;"><strong>Finden der zwei aktuellsten News sortiert nach Priorit&auml;t sortiert</strong><strong><br /></strong></p>
+<pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;">fq=type:v8news&amp;fq=parent-folders:/&amp;sort=collector.priority_prop desc&amp;rows=2</pre>
+<p style="text-align: -webkit-auto;"><strong>Finden von Veranstaltungen, die in Europa stattfinden</strong><strong><br /></strong></p>
+<pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;">fq=category_exact:location/europe/&amp;fq=type:v8event&amp;fq=parent-folders:/</pre>]]></content>
+      </Text>
+    </Paragraph>
+    <Paragraph>
+      <Headline><![CDATA[Getting started]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[
+		<p><span style="text-align: -webkit-auto; ">Kopieren Sie die oben aufgeführten Beispiele in dieses Eingabefeld.</span><br></p>
+		]]></content>
+      </Text>
+    </Paragraph>
+  </V8Textblock>
+  <V8Textblock language="en">
+    <Title><![CDATA[OpenCms integrates Apache Solr]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Ajax Solr Demo]]></Headline>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/flower-en/flower-search/ajax-solr/index.html]]></target>
+            <uuid>9d443ec4-00cc-11e2-9ad3-bd915da136f8</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The OpenCms v8 modules are covering a Solr based OpenCms Search Demonstration using the Open Source UI Ajax Solr:</p>
+<p><a title="Ajax Solr Demo" href="%(link0)" target="_self"><strong>Click here to start the Ajax Solr Demo...</strong></a></p>]]></content>
+      </Text>
+    </Paragraph>
+    <Paragraph>
+      <Headline><![CDATA[Searching with Solr]]></Headline>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://lucene.apache.org/solr/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p><span>After searching with Apache's Lucene for years Apache Solr has grown and grown and can now be called an enterprise search platform that is based on Lucene.&nbsp;</span><strong>OpenCms now integrates Apache Solr as powerful search engine.</strong></p>
+<p><span>Solr is a standalone enterprise search server with a REST-like API. You put documents in it (called "indexing") via XML, JSON or binary over HTTP. You query it via HTTP GET and receive XML, JSON, or binary results. To get a more detailed knowledge what Solr exactly is and how it works, please visit the&nbsp;</span><a class="external text" href="%(link0)" rel="nofollow">Apache Solr</a><span>&nbsp;project website. Searching with the powerful and flexible Apache Solr's REST-like interface will drill down the development complexity. More over you can rely on existing graphical interfaces that provide comfortable AJAX based search functionality to the end user of your internet/intranet application.</span></p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/Solr_Logo.png]]></target>
+            <uuid>2a498e81-00cf-11e2-a2ab-000c2972a6a4</uuid>
+          </link>
+        </Image>
+        <Align><![CDATA[righthl]]></Align>
+        <Title><![CDATA[Apache Solr Logo]]></Title>
+      </Image>
+    </Paragraph>
+    <Paragraph>
+      <Headline><![CDATA[Solr Live Query  Demo]]></Headline>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://wiki.apache.org/solr/SolrQuerySyntax]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://lucidworks.lucidimagination.com/display/solr/Searching]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms is shipped with a Solr collecor that allows you to find resources by "Solr Queries".&nbsp;The following example queries should give you an introduction how to use Solr queries to find content in OpenCms.&nbsp;&nbsp;If you want to get familiar with the Solr query syntax you will get a general overview at&nbsp;<a class="external text" href="%(link0)" rel="nofollow">Solr query syntax</a>. For advanced features&nbsp;<a class="external text" href="%(link1)" rel="nofollow">Searching - Solr Reference Guide - Lucid Imagination</a>&nbsp;will lend a hand.</p>
+<p><strong>Finding recently changed flowers modified last month sorted by date</strong></p>
+<pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;">fq=type:v8flower&amp;fq=lastmodified:[NOW-1MONTH TO NOW]&amp;sort=lastmodified desc</pre>
+<p><strong>Finding two most recent news sorted by priority property</strong><strong><br /></strong></p>
+<pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;">fq=type:v8news&amp;fq=parent-folders:/&amp;sort=collector.priority_prop desc&amp;rows=2</pre>
+<p><strong>Finding events taking place in europe</strong><strong><br /></strong></p>
+<pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;">fq=category_exact:location/europe/&amp;fq=type:v8event&amp;fq=parent-folders:/</pre>]]></content>
+      </Text>
+    </Paragraph>
+    <Paragraph>
+      <Headline><![CDATA[Getting started]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[
+		
+		<p><span>Copy and paste the queries above into the input box:</span></p>
+		
+		]]></content>
+      </Text>
+    </Paragraph>
+  </V8Textblock>
+</V8Textblocks>

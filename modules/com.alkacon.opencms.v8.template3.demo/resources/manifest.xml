@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.5.0</opencms_version>
-		<createdate>Wed, 12 Sep 2012 14:13:38 GMT</createdate>
+		<createdate>Tue, 18 Sep 2012 11:53:22 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -46,7 +46,7 @@
 			<resource uri="/.content/inheritance_group/"/>
 			<resource uri="/.content/list/"/>
 			<resource uri="/.content/news/n_00006.html"/>
-			<resource uri="/.content/news/n_00009.html"/>
+			<resource uri="/.content/news/n_00010.html"/>
 			<resource uri="/.content/textblock/"/>
 			<resource uri="/flower-en/"/>
 			<resource uri="/flower-de/"/>
@@ -57,7 +57,7 @@
 		<file>
 			<destination>.content</destination>
 			<type>content_folder</type>
-			<datelastmodified>Fri, 17 Aug 2012 13:58:00 GMT</datelastmodified>
+			<datelastmodified>Fri, 14 Sep 2012 08:28:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Jun 2012 15:28:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -201,7 +201,7 @@
 			<type>groupcontainer</type>
 			<uuidstructure>82065df5-77eb-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>82068506-77eb-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Sat, 18 Aug 2012 12:35:44 GMT</datelastmodified>
+			<datelastmodified>Thu, 13 Sep 2012 11:42:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:17:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -312,7 +312,7 @@
 			<type>v8list</type>
 			<uuidstructure>b69514ac-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b69514ad-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 09:15:19 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 08:32:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -332,7 +332,7 @@
 			<type>v8list</type>
 			<uuidstructure>b809b36a-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b809b36b-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 09:15:47 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 08:34:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:59 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -352,7 +352,7 @@
 			<type>v8list</type>
 			<uuidstructure>0648c4d4-77f5-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>0648c4d5-77f5-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 09:16:09 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 08:33:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 15:25:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -372,7 +372,7 @@
 			<type>v8list</type>
 			<uuidstructure>0cc8e477-77f5-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>0cc8e478-77f5-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 09:16:55 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 08:34:41 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 15:25:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -392,7 +392,7 @@
 			<type>v8list</type>
 			<uuidstructure>14a7e679-77f7-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>14a7e67a-77f7-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 09:17:28 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 08:45:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 15:39:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -412,7 +412,7 @@
 			<type>v8list</type>
 			<uuidstructure>a39dda4c-77fc-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a39dda4d-77fc-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 09:18:05 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 08:46:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 16:19:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -432,7 +432,7 @@
 			<type>v8list</type>
 			<uuidstructure>a675d97f-77fc-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a675d980-77fc-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 09:18:28 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 08:46:27 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 16:19:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -452,7 +452,7 @@
 			<type>v8list</type>
 			<uuidstructure>7b12bfdc-78cd-11e0-9b84-000c2972a6a4</uuidstructure>
 			<uuidresource>7b12bfdd-78cd-11e0-9b84-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 09:16:34 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 08:33:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 17:14:34 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -461,6 +461,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Most Recent News]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/list/l_00009.html</source>
+			<destination>.content/list/l_00009.html</destination>
+			<type>v8list</type>
+			<uuidstructure>fe61646e-016b-11e2-a2ab-000c2972a6a4</uuidstructure>
+			<uuidresource>fe61646f-016b-11e2-a2ab-000c2972a6a4</uuidresource>
+			<datelastmodified>Tue, 18 Sep 2012 08:37:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 18 Sep 2012 08:36:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Fabaceae Plants]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -530,7 +550,7 @@
 			<type>v8textblock</type>
 			<uuidstructure>ac56418f-77fd-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>ac564190-77fd-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:14:14 GMT</datelastmodified>
+			<datelastmodified>Tue, 18 Sep 2012 11:49:13 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 16:27:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -550,7 +570,7 @@
 			<type>v8textblock</type>
 			<uuidstructure>c5d0f90b-77fe-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>c5d0f90c-77fe-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:19:39 GMT</datelastmodified>
+			<datelastmodified>Tue, 18 Sep 2012 08:41:53 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 16:34:54 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -590,7 +610,7 @@
 			<type>v8textblock</type>
 			<uuidstructure>1773a5c3-78ba-11e0-8bb0-000c2972a6a4</uuidstructure>
 			<uuidresource>1773a5c4-78ba-11e0-8bb0-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:18:20 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 15:23:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 14:55:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -690,7 +710,7 @@
 			<type>v8textblock</type>
 			<uuidstructure>52357870-78be-11e0-8bb0-000c2972a6a4</uuidstructure>
 			<uuidresource>52357871-78be-11e0-8bb0-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:22:15 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Sep 2012 15:22:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 15:26:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -796,10 +816,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>.content/textblock/t_00016.html</source>
+			<destination>.content/textblock/t_00016.html</destination>
+			<type>v8textblock</type>
+			<uuidstructure>cd6d474e-00ce-11e2-a2ab-000c2972a6a4</uuidstructure>
+			<uuidresource>cd6d474f-00ce-11e2-a2ab-000c2972a6a4</uuidresource>
+			<datelastmodified>Tue, 18 Sep 2012 11:52:07 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 17 Sep 2012 13:51:38 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms integrates Apache Solr]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>flower-de</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f631ef8c-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
-			<datelastmodified>Thu, 16 Aug 2012 06:53:29 GMT</datelastmodified>
+			<datelastmodified>Thu, 13 Sep 2012 11:39:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -850,7 +890,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f71216b4-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f71216b5-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 13:22:53 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:42:27 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -945,7 +985,7 @@
 			<type>containerpage</type>
 			<uuidstructure>14c92a4a-c996-11e0-b07b-a97c08d979d8</uuidstructure>
 			<uuidresource>14c92a4b-c996-11e0-b07b-a97c08d979d8</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:28:51 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 12:52:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 18 Aug 2012 12:32:05 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1006,7 +1046,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f63b6575-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f63b6576-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:45:54 GMT</datelastmodified>
+			<datelastmodified>Tue, 18 Sep 2012 08:39:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1067,7 +1107,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f69ac3ab-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f69ac3ac-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 13:38:59 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:31:59 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1087,7 +1127,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f6a6d19e-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f6a6d19f-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 13:54:04 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:32:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1142,7 +1182,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f68edcc8-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f68edcc9-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:47:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:32:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1226,7 +1266,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f66fe30d-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f66fe30e-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:47:19 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:32:55 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1272,7 +1312,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f680abf5-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f680abf6-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:47:35 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:33:13 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1358,20 +1398,28 @@
 		<file>
 			<destination>flower-de/flower-search</destination>
 			<type>folder</type>
-			<uuidstructure>f6b50271-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
-			<datelastmodified>Thu, 16 Aug 2012 06:53:29 GMT</datelastmodified>
+			<uuidstructure>5c69db27-00e8-11e2-a2ab-000c2972a6a4</uuidstructure>
+			<datelastmodified>Mon, 17 Sep 2012 16:54:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
+			<datecreated>Mon, 17 Sep 2012 16:54:35 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[40.0]]></value>
+					<value><![CDATA[32.5]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
 					<value><![CDATA[Blumen Suche]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blumen Suche]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1380,22 +1428,130 @@
 		<file>
 			<source>flower-de/flower-search/index.html</source>
 			<destination>flower-de/flower-search/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>f6b77375-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
-			<uuidresource>f6b77376-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 09:11:30 GMT</datelastmodified>
+			<type>htmlredirect</type>
+			<uuidstructure>5d100651-00e8-11e2-a2ab-000c2972a6a4</uuidstructure>
+			<uuidresource>5d100652-00e8-11e2-a2ab-000c2972a6a4</uuidresource>
+			<datelastmodified>Mon, 17 Sep 2012 17:47:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 06 Jun 2012 08:35:41 GMT</datecreated>
+			<datecreated>Mon, 17 Sep 2012 16:54:36 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Blumen Suche]]></value>
+					<value><![CDATA[Flower Suche]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>flower-de/flower-search/ajax-solr</destination>
+			<type>folder</type>
+			<uuidstructure>5c7fd42d-00e8-11e2-a2ab-000c2972a6a4</uuidstructure>
+			<datelastmodified>Mon, 17 Sep 2012 16:54:35 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 17 Sep 2012 16:54:35 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Ajax Solr Demo]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Ajax Solr Demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>flower-de/flower-search/ajax-solr/index.html</source>
+			<destination>flower-de/flower-search/ajax-solr/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>5c9530f2-00e8-11e2-a2ab-000c2972a6a4</uuidstructure>
+			<uuidresource>5c9530f3-00e8-11e2-a2ab-000c2972a6a4</uuidresource>
+			<datelastmodified>Mon, 17 Sep 2012 17:47:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 17 Sep 2012 16:54:36 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Ajax Solr Demo]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Ajax Solr Demo]]></value>
 				</property>
 				<property>
 					<name>style.columns</name>
 					<value><![CDATA[1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>flower-de/flower-search/solr-integration</destination>
+			<type>folder</type>
+			<uuidstructure>5ccf2cb7-00e8-11e2-a2ab-000c2972a6a4</uuidstructure>
+			<datelastmodified>Mon, 17 Sep 2012 16:54:36 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 17 Sep 2012 16:54:36 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Solr Integration]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Integration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>flower-de/flower-search/solr-integration/index.html</source>
+			<destination>flower-de/flower-search/solr-integration/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>5ce4897c-00e8-11e2-a2ab-000c2972a6a4</uuidstructure>
+			<uuidresource>5ce4897d-00e8-11e2-a2ab-000c2972a6a4</uuidresource>
+			<datelastmodified>Mon, 17 Sep 2012 17:45:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 17 Sep 2012 16:54:36 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Solr Integration]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Integration]]></value>
+				</property>
+				<property>
+					<name>style.columns</name>
+					<value><![CDATA[2]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1444,7 +1600,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f6c8154c-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f6c8154d-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:46:14 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:34:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1501,7 +1657,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f703bed1-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f703bed2-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:44:46 GMT</datelastmodified>
+			<datelastmodified>Tue, 18 Sep 2012 09:35:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1543,7 +1699,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f6e00a27-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f6e00a28-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:45:24 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:37:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1585,7 +1741,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f6f0abfe-9017-11e0-9ccb-3976ff7a5cd1</uuidstructure>
 			<uuidresource>f6f0abff-9017-11e0-9ccb-3976ff7a5cd1</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:45:06 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:37:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Jun 2012 08:35:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1603,7 +1759,7 @@
 			<destination>flower-en</destination>
 			<type>subsitemap</type>
 			<uuidstructure>0f521354-77e8-11e0-be13-000c2972a6a4</uuidstructure>
-			<datelastmodified>Thu, 16 Aug 2012 06:53:21 GMT</datelastmodified>
+			<datelastmodified>Thu, 13 Sep 2012 11:39:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 13:52:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1650,7 +1806,7 @@
 			<type>containerpage</type>
 			<uuidstructure>0f6944d8-77e8-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>0f6944d9-77e8-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 13:22:15 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:37:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 13:52:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1760,7 +1916,7 @@
 			<type>containerpage</type>
 			<uuidstructure>d3a2392f-77fd-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>d3a23930-77fd-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:38:58 GMT</datelastmodified>
+			<datelastmodified>Tue, 18 Sep 2012 08:38:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 16:28:08 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1825,7 +1981,7 @@
 			<type>containerpage</type>
 			<uuidstructure>cc67abbf-77ef-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>cc67abc0-77ef-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 13:52:31 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:38:15 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:47:43 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1845,7 +2001,7 @@
 			<type>containerpage</type>
 			<uuidstructure>9fa1c2e5-78bf-11e0-a9a3-000c2972a6a4</uuidstructure>
 			<uuidresource>9fa1c2e6-78bf-11e0-a9a3-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 13:51:50 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:38:34 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 15:35:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1900,7 +2056,7 @@
 			<type>containerpage</type>
 			<uuidstructure>55ed73e4-78ba-11e0-8bb0-000c2972a6a4</uuidstructure>
 			<uuidresource>55ed73e5-78ba-11e0-8bb0-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:40:40 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:38:55 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 14:57:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1984,7 +2140,7 @@
 			<type>containerpage</type>
 			<uuidstructure>e94ca0c5-78bd-11e0-8bb0-000c2972a6a4</uuidstructure>
 			<uuidresource>e94ca0c6-78bd-11e0-8bb0-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:41:18 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:39:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 15:23:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2030,7 +2186,7 @@
 			<type>containerpage</type>
 			<uuidstructure>b8d31cc2-78bd-11e0-8bb0-000c2972a6a4</uuidstructure>
 			<uuidresource>b8d31cc3-78bd-11e0-8bb0-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:41:33 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:39:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 15:21:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2116,16 +2272,16 @@
 		<file>
 			<destination>flower-en/flower-search</destination>
 			<type>folder</type>
-			<uuidstructure>35dffd34-7885-11e0-be13-000c2972a6a4</uuidstructure>
-			<datelastmodified>Thu, 16 Aug 2012 06:53:21 GMT</datelastmodified>
+			<uuidstructure>ce7c7edb-00cc-11e2-9ad3-bd915da136f8</uuidstructure>
+			<datelastmodified>Mon, 17 Sep 2012 13:44:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Sat, 07 Jul 2012 08:37:15 GMT</datecreated>
+			<datecreated>Mon, 17 Sep 2012 13:37:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[40.0]]></value>
+					<value><![CDATA[32.5]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -2135,6 +2291,10 @@
 					<name>Title</name>
 					<value><![CDATA[Flower Search]]></value>
 				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
@@ -2142,12 +2302,12 @@
 		<file>
 			<source>flower-en/flower-search/index.html</source>
 			<destination>flower-en/flower-search/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>35fc85e8-7885-11e0-be13-000c2972a6a4</uuidstructure>
-			<uuidresource>35fcacf9-7885-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 09:06:54 GMT</datelastmodified>
+			<type>htmlredirect</type>
+			<uuidstructure>ce8d20b1-00cc-11e2-9ad3-bd915da136f8</uuidstructure>
+			<uuidresource>ce8d20b2-00cc-11e2-9ad3-bd915da136f8</uuidresource>
+			<datelastmodified>Mon, 17 Sep 2012 17:48:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Sat, 07 Jul 2012 08:37:15 GMT</datecreated>
+			<datecreated>Mon, 17 Sep 2012 13:37:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -2155,9 +2315,117 @@
 					<name>Title</name>
 					<value><![CDATA[Flower Search]]></value>
 				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>flower-en/flower-search/ajax-solr</destination>
+			<type>folder</type>
+			<uuidstructure>9d2e6dcf-00cc-11e2-9ad3-bd915da136f8</uuidstructure>
+			<datelastmodified>Mon, 17 Sep 2012 13:46:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 17 Sep 2012 13:35:58 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Ajax Solr Demo]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Ajax Solr Demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>flower-en/flower-search/ajax-solr/index.html</source>
+			<destination>flower-en/flower-search/ajax-solr/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>9d443ec4-00cc-11e2-9ad3-bd915da136f8</uuidstructure>
+			<uuidresource>9d443ec5-00cc-11e2-9ad3-bd915da136f8</uuidresource>
+			<datelastmodified>Mon, 17 Sep 2012 17:46:39 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 17 Sep 2012 13:35:58 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Ajax Solr Demo]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Ajax Solr Demo]]></value>
+				</property>
 				<property>
 					<name>style.columns</name>
 					<value><![CDATA[1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>flower-en/flower-search/solr-integration</destination>
+			<type>folder</type>
+			<uuidstructure>35dffd34-7885-11e0-be13-000c2972a6a4</uuidstructure>
+			<datelastmodified>Mon, 17 Sep 2012 13:45:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Sat, 07 Jul 2012 08:37:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Solr Integration]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Integration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>flower-en/flower-search/solr-integration/index.html</source>
+			<destination>flower-en/flower-search/solr-integration/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>35fc85e8-7885-11e0-be13-000c2972a6a4</uuidstructure>
+			<uuidresource>35fcacf9-7885-11e0-be13-000c2972a6a4</uuidresource>
+			<datelastmodified>Mon, 17 Sep 2012 17:46:02 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Sat, 07 Jul 2012 08:37:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Solr Integration]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Integration]]></value>
+				</property>
+				<property>
+					<name>style.columns</name>
+					<value><![CDATA[2]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2210,7 +2478,7 @@
 			<type>containerpage</type>
 			<uuidstructure>03de4901-789e-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>03de4902-789e-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:39:56 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:40:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 Jul 2012 11:34:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2321,7 +2589,7 @@
 			<type>containerpage</type>
 			<uuidstructure>b7e482d3-77ef-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b7e482d4-77ef-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:37:46 GMT</datelastmodified>
+			<datelastmodified>Tue, 18 Sep 2012 09:33:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:47:08 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2363,7 +2631,7 @@
 			<type>containerpage</type>
 			<uuidstructure>fac0e7cb-77ef-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>fac0e7cc-77ef-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:38:38 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:40:56 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:49:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2405,7 +2673,7 @@
 			<type>containerpage</type>
 			<uuidstructure>d4813015-77ef-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>d4813016-77ef-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:38:17 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 13:41:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:47:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2422,10 +2690,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>bbc8b51e-fc0e-11e1-87ed-21eebf8c5c9b</uuidstructure>
-			<datelastmodified>Tue, 11 Sep 2012 12:46:40 GMT</datelastmodified>
+			<uuidstructure>c04e6b2e-00a3-11e2-94d1-000c2972a6a4</uuidstructure>
+			<datelastmodified>Mon, 17 Sep 2012 08:43:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 11 Sep 2012 12:46:40 GMT</datecreated>
+			<datecreated>Mon, 17 Sep 2012 08:43:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -2444,10 +2712,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>bf0b362a-fc0e-11e1-87ed-21eebf8c5c9b</uuidstructure>
-			<datelastmodified>Tue, 11 Sep 2012 12:46:46 GMT</datelastmodified>
+			<uuidstructure>c6d8c43a-00a3-11e2-94d1-000c2972a6a4</uuidstructure>
+			<datelastmodified>Mon, 17 Sep 2012 08:43:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 11 Sep 2012 12:46:46 GMT</datecreated>
+			<datecreated>Mon, 17 Sep 2012 08:43:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -2528,7 +2796,7 @@
 			<type>sitemap_config</type>
 			<uuidstructure>bd081b3d-a19c-11e0-a8e7-4770e34e5651</uuidstructure>
 			<uuidresource>bd081b3e-a19c-11e0-a8e7-4770e34e5651</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 09:06:39 GMT</datelastmodified>
+			<datelastmodified>Mon, 17 Sep 2012 14:40:07 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Jun 2012 15:38:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2688,24 +2956,24 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>.content/news/n_00009.html</source>
-			<destination>.content/news/n_00009.html</destination>
+			<source>.content/news/n_00010.html</source>
+			<destination>.content/news/n_00010.html</destination>
 			<type>v8news</type>
-			<uuidstructure>cd574970-8b7c-11e0-9f3a-7b2444d59c19</uuidstructure>
-			<uuidresource>cd577081-8b7c-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:24:47 GMT</datelastmodified>
+			<uuidstructure>715eff23-fd8e-11e1-9ea8-000c2972a6a4</uuidstructure>
+			<uuidresource>715eff24-fd8e-11e1-9ea8-000c2972a6a4</uuidresource>
+			<datelastmodified>Tue, 18 Sep 2012 11:40:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 31 Jul 2012 11:54:55 GMT</datecreated>
+			<datecreated>Thu, 13 Sep 2012 10:33:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[BUGA 2012 in Koblenz]]></value>
+					<value><![CDATA[Exciting new Acacia variety discovered]]></value>
 				</property>
 				<property>
 					<name>collector.date</name>
-					<value><![CDATA[1346759580000]]></value>
+					<value><![CDATA[1348474500000]]></value>
 				</property>
 			</properties>
 			<relations/>
