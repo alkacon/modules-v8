@@ -36,7 +36,7 @@ var Manager;
         target: '#' + fields[i],
         field: fields[i],
         operator: 'OR',
-        count: 5
+        count: 30
       }));
     }
     var fields = [ 'category_exact' ];
@@ -45,7 +45,8 @@ var Manager;
         id: fields[i],
         target: '#' + fields[i],
         field: fields[i],
-        count: 5
+        count: 30,
+        sort: 'name'
       }));
     }
     var fields = [ 'con_locales' ];
@@ -67,8 +68,8 @@ var Manager;
       facet: true,
 	  'rows': 5,
       'facet.field': [ 'Title_prop', 'category_exact', 'con_locales', 'lastmodified' ],
-      'facet.mincount': 5,
-      'facet.limit': 10,
+      'facet.mincount': 1,
+      'facet.limit': 15,
       'facet.sort': 'count',
       'facet.date': 'lastmodified',
       'facet.date.start': '2012-05-01T00:00:00.000Z/DAY',

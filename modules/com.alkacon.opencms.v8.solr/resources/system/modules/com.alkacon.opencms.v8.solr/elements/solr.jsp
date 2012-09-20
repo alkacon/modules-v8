@@ -28,7 +28,15 @@
 		  <link rel="stylesheet" type="text/css" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/css/jquery.autocomplete.css:cd9298f0-f687-11e1-b6b3-058770d8fd70)</cms:link>" media="screen"/>
 		  <link rel="stylesheet" type="text/css" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/css/reuters.css:cd946db3-f687-11e1-b6b3-058770d8fd70)</cms:link>" media="screen"/>
 		  <script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.solr/resources/com.alkacon.opencms.v8.solr.scripts.js:cd98da89-f687-11e1-b6b3-058770d8fd70)</cms:link>"></script>
-		  <div class="right box ${cms.element.settings.boxschema}">
+		  <script type="text/javascript">
+			  $(document).ready(function() {
+				$("#accordion").accordion({ 
+					autoHeight: false,
+					animated: 'slide'
+				});
+			  });
+		  </script>
+          <div class="right box ${cms.element.settings.boxschema}">
 		    <div id="result">
 		      <ul id="pager"></ul>
 		      <h4><fmt:message key="v8.solr.results"/>:&nbsp;<div id="pager-header"></div></h4>
@@ -43,14 +51,16 @@
 		    <ul id="search">
 		      <input type="text" id="query" name="query"/>
 		    </ul>
-		    <h2><fmt:message key="v8.solr.category"/></h2>
-		    <div class="tagcloud" id="category_exact"></div>
-		    <h2><fmt:message key="v8.solr.types"/></h2>
-		    <div class="tagcloud" id="type"></div>
-		    <h2><fmt:message key="v8.solr.languages"/></h2>
-		    <div class="tagcloud" id="con_locales"></div>
-		    <h2><fmt:message key="v8.solr.lastUpdate"/></h2>
-		    <div id="calendar"></div>
+			<div id="accordion">
+				<h2><fmt:message key="v8.solr.types"/></h2>
+				<div><div class="tagcloud" id="type"></div></div>
+				<h2><fmt:message key="v8.solr.category"/></h2>
+				<div><div class="tagcloud" id="category_exact"></div></div>
+			</div>
+			<h2><fmt:message key="v8.solr.languages"/></h2>
+			<div><div class="tagcloud" id="con_locales"></div></div>
+			<h2><fmt:message key="v8.solr.lastUpdate"/></h2>
+			<div><div id="calendar"></div></div>
 		    <div class="clear"></div>
 		  </div>
 		  <div class="clear"></div>

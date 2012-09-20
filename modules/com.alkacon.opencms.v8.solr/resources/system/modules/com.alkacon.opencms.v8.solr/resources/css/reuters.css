@@ -1,3 +1,19 @@
+
+.tagcloud a {
+  font-size: 11px;
+  margin: 0px;
+  padding: 0px;
+}
+.ui-accordion .ui-accordion-content {
+    padding: 0 10px 10px 10px;
+}
+#accordion {
+	width: 235px;
+}
+#accordion h2 {
+	padding: 2px 2px 2px 25px;
+}
+
 .twocols {
 	margin-top: 5px;
 }
@@ -103,7 +119,6 @@
 .wrap .left {
 float: left;
 width: 270px;
-height: 760px;
 }
 .wrap .left h2 {
   clear: left;
@@ -125,7 +140,7 @@ height: 760px;
   padding: 0 20px 20px 20px;
 }
 .wrap .tagcloud > div {
-	margin: 4px;
+	margin: 4px 0px;
 }
 .wrap .tagcloud_item {
   float: left;

@@ -2,11 +2,12 @@
 
 AjaxSolr.MultiTagcloudWidget = AjaxSolr.AbstractFacetWidget.extend({
 
-field: null,
-multivalue: false,
-operator: 'OR',
-count: 5,
-  
+    field: null,
+    multivalue: false,
+    operator: 'OR',
+    sort: 'count',
+    count: 0,
+
 init: function () {
     this.manager.store.add('facet.field', new AjaxSolr.Parameter( { 
         name: 'facet.field', 

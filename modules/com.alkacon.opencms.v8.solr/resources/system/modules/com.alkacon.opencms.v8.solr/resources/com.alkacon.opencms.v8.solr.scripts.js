@@ -2487,7 +2487,7 @@ var Manager;
         target: '#' + fields[i],
         field: fields[i],
         operator: 'OR',
-        count: 5
+        count: 30
       }));
     }
     var fields = [ 'category_exact' ];
@@ -2496,7 +2496,8 @@ var Manager;
         id: fields[i],
         target: '#' + fields[i],
         field: fields[i],
-        count: 5
+        count: 30,
+        sort: 'name'
       }));
     }
     var fields = [ 'con_locales' ];
@@ -2518,8 +2519,8 @@ var Manager;
       facet: true,
 	  'rows': 5,
       'facet.field': [ 'Title_prop', 'category_exact', 'con_locales', 'lastmodified' ],
-      'facet.mincount': 5,
-      'facet.limit': 10,
+      'facet.mincount': 1,
+      'facet.limit': 15,
       'facet.sort': 'count',
       'facet.date': 'lastmodified',
       'facet.date.start': '2012-05-01T00:00:00.000Z/DAY',
@@ -3230,7 +3231,6 @@ AjaxSolr.AbstractFacetWidget = AjaxSolr.AbstractWidget.extend(
     /* http://wiki.apache.org/solr/SimpleFacetParameters */
     var parameters = [
       'facet.prefix',
-      'facet.sort',
       'facet.limit',
       'facet.sort',
       'facet.offset',
@@ -3516,11 +3516,12 @@ AjaxSolr.TagcloudWidget = AjaxSolr.AbstractFacetWidget.extend({
 
 AjaxSolr.MultiTagcloudWidget = AjaxSolr.AbstractFacetWidget.extend({
 
-field: null,
-multivalue: false,
-operator: 'OR',
-count: 5,
-  
+    field: null,
+    multivalue: false,
+    operator: 'OR',
+    sort: 'count',
+    count: 0,
+
 init: function () {
     this.manager.store.add('facet.field', new AjaxSolr.Parameter( { 
         name: 'facet.field', 
@@ -3797,7 +3798,8 @@ AjaxSolr.CountryCodeWidget = AjaxSolr.AbstractFacetWidget.extend({
 
 AjaxSolr.SingleFacet = AjaxSolr.AbstractFacetWidget.extend({
 
-    count: 5,
+    count: 0,
+    sort: 'count',
     
   afterRequest: function () {
     if (this.manager.response.facet_counts.facet_fields[this.field] === undefined) {
@@ -3813,6 +3815,12 @@ AjaxSolr.SingleFacet = AjaxSolr.AbstractFacetWidget.extend({
         maxCount = count;
       }
       objectedItems.push({ facet: facet, count: count });
+    }
+    
+    if (this.sort == 'name') {
+    objectedItems.sort(function (a, b) {
+        return a.facet < b.facet ? -1 : 1;
+      });
     }
 
     $(this.target).empty();

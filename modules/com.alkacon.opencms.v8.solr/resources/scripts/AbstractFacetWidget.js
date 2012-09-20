@@ -39,7 +39,6 @@ AjaxSolr.AbstractFacetWidget = AjaxSolr.AbstractWidget.extend(
     /* http://wiki.apache.org/solr/SimpleFacetParameters */
     var parameters = [
       'facet.prefix',
-      'facet.sort',
       'facet.limit',
       'facet.sort',
       'facet.offset',

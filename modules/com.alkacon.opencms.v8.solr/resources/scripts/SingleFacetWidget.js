@@ -2,7 +2,8 @@
 
 AjaxSolr.SingleFacet = AjaxSolr.AbstractFacetWidget.extend({
 
-    count: 5,
+    count: 0,
+    sort: 'count',
     
   afterRequest: function () {
     if (this.manager.response.facet_counts.facet_fields[this.field] === undefined) {
@@ -18,6 +19,12 @@ AjaxSolr.SingleFacet = AjaxSolr.AbstractFacetWidget.extend({
         maxCount = count;
       }
       objectedItems.push({ facet: facet, count: count });
+    }
+    
+    if (this.sort == 'name') {
+    objectedItems.sort(function (a, b) {
+        return a.facet < b.facet ? -1 : 1;
+      });
     }
 
     $(this.target).empty();
