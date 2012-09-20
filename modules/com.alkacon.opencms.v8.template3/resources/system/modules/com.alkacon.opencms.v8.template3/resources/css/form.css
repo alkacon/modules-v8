@@ -1,7 +1,7 @@
 @media all
 {
 	form.contactform input {
-		border: 1px solid #A3AAB7;
+		border: 1px solid #939Aa7;
 	}
 
 	form.contactform input[type=text] {
@@ -25,11 +25,11 @@
 
 	form.loginform div.boxform input {
 		width: 95%;
-		border: 1px solid #A3AAB7;
+		border: 1px solid #939Aa7;
 	}
 
-	form.loginform div.boxform input[type=text] {
-		padding: 1px;
+	form.loginform div.boxform input[type=text], form.loginform div.boxform input[type=password] {
+		padding: 2px;
 	}
 
 	form.loginform div.boxform input.button {
@@ -37,14 +37,21 @@
 	}
 
 	form#searchFormSide input, form#searchForm input, form.searchForm input, input#query {
-		border: 1px solid #A3AAB7;
+		border: 1px solid #939Aa7;
 	}
 
 	form#searchFormSide input[type=text], form#searchForm input[type=text], form.searchForm input[type=text], input#query[type=text] {
-		padding: 1px;
+		padding: 2px;
 	}
 
 	input[type=submit] {
-		-webkit-box-shadow: 0px 2px 4px #888; -moz-box-shadow: 0px 2px 4px #888; box-shadow: 0px 2px 4px #888;
+		padding: 2px 4px;
+		border: 1px solid #939Aa7;
+		-webkit-box-shadow: 0px 2px 4px #888; 
+		-moz-box-shadow: 0px 2px 4px #888;
+		box-shadow: 0px 2px 4px #888;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
 	}
 }

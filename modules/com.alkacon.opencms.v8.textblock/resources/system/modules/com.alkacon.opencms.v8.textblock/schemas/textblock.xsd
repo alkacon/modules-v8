@@ -15,7 +15,7 @@
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
 			<xsd:element name="Paragraph" type="OpenCmsV8TextblockParagraph" maxOccurs="5" />
-			<xsd:element name="Category" type="OpenCmsVfsFile" minOccurs="0" maxOccurs="5" />
+			<xsd:element name="Category" type="OpenCmsCategory" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>

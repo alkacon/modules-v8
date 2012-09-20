@@ -22,11 +22,8 @@
 }
 .searchForm input:first-child {
 	width: 480px;
-	border: 1px solid #CCC;
-	padding: 4px;
 }
 .searchForm .button {
-	padding: 3px;
 }
 /** Other elements */
 #pager-header {

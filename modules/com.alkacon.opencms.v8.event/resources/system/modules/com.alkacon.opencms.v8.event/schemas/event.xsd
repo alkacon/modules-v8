@@ -17,8 +17,8 @@
 	<xsd:complexType name="OpenCmsV8EventArticle">
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString"/>
-			<xsd:element name="Paragraph" type="OpenCmsV8EventParagraph" minOccurs="1" maxOccurs="1"/>
-			<xsd:element name="Category" type="OpenCmsVfsFile" minOccurs="0" maxOccurs="5"/>
+			<xsd:element name="Paragraph" type="OpenCmsV8EventParagraph"/>
+			<xsd:element name="Category" type="OpenCmsCategory" minOccurs="0"/>
 			<xsd:element name="EventDates" type="OpenCmsV8EventDate"/>
 			<xsd:element name="Availability" type="OpenCmsV8EventAvailability" minOccurs="0"/>
 		</xsd:sequence>
