@@ -17,8 +17,8 @@
 		<xsd:sequence>			
 			<xsd:element name="Title" type="OpenCmsString"/>
 			<xsd:element name="Date" type="OpenCmsDateTime"/>			
-			<xsd:element name="Paragraph" type="OpenCmsV8NewsParagraph" minOccurs="1" maxOccurs="1"/>
-			<xsd:element name="Category" type="OpenCmsVfsFile" minOccurs="0" maxOccurs="5"/>
+			<xsd:element name="Paragraph" type="OpenCmsV8NewsParagraph"/>
+			<xsd:element name="Category" type="OpenCmsCategory" minOccurs="0"/>
 			<xsd:element name="Author" type="OpenCmsString"/>
 			<xsd:element name="AuthorMail" type="OpenCmsString" minOccurs="0"/>
 			<xsd:element name="Availability" type="OpenCmsV8NewsAvailability" minOccurs="0"/>
