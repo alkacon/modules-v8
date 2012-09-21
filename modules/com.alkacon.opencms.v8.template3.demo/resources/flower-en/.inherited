@@ -8,14 +8,32 @@
       <OrderKey><![CDATA[/flower-en/7797e6a9-fcd6-11e1-a016-21eebf8c5c9b]]></OrderKey>
       <OrderKey><![CDATA[/flower-en/c34ca474-fcdc-11e1-a016-21eebf8c5c9b]]></OrderKey>
       <NewElement>
-        <Key><![CDATA[/flower-en/7797e6a9-fcd6-11e1-a016-21eebf8c5c9b]]></Key>
+        <Key><![CDATA[/flower-en/c34ca474-fcdc-11e1-a016-21eebf8c5c9b]]></Key>
         <Element>
           <Uri>
             <link type="STRONG">
-              <target><![CDATA[/sites/default/.content/function/function-00001.html]]></target>
-              <uuid>5fba7e2c-7655-11e0-a2c2-000c2972a6a4</uuid>
+              <target><![CDATA[/sites/default/.content/textblock/t_00015.html]]></target>
+              <uuid>8d8fc6a1-fcdc-11e1-a016-21eebf8c5c9b</uuid>
             </link>
           </Uri>
+          <Properties>
+            <Name><![CDATA[boxschema]]></Name>
+            <Value>
+              <String><![CDATA[box_schema2]]></String>
+            </Value>
+          </Properties>
+          <Properties>
+            <Name><![CDATA[keephtml]]></Name>
+            <Value>
+              <String><![CDATA[true]]></String>
+            </Value>
+          </Properties>
+          <Properties>
+            <Name><![CDATA[hidetitle]]></Name>
+            <Value>
+              <String><![CDATA[true]]></String>
+            </Value>
+          </Properties>
         </Element>
       </NewElement>
       <NewElement>
@@ -27,27 +45,10 @@
               <uuid>be62175b-77ff-11e0-be13-000c2972a6a4</uuid>
             </link>
           </Uri>
-        </Element>
-      </NewElement>
-      <NewElement>
-        <Key><![CDATA[/flower-en/c34ca474-fcdc-11e1-a016-21eebf8c5c9b]]></Key>
-        <Element>
-          <Uri>
-            <link type="STRONG">
-              <target><![CDATA[/sites/default/.content/textblock/t_00015.html]]></target>
-              <uuid>8d8fc6a1-fcdc-11e1-a016-21eebf8c5c9b</uuid>
-            </link>
-          </Uri>
           <Properties>
-            <Name><![CDATA[imgalign]]></Name>
+            <Name><![CDATA[boxschema]]></Name>
             <Value>
-              <String/>
-            </Value>
-          </Properties>
-          <Properties>
-            <Name><![CDATA[hidetitle]]></Name>
-            <Value>
-              <String><![CDATA[true]]></String>
+              <String><![CDATA[box_schema3]]></String>
             </Value>
           </Properties>
           <Properties>
@@ -57,11 +58,22 @@
             </Value>
           </Properties>
           <Properties>
-            <Name><![CDATA[boxschema]]></Name>
+            <Name><![CDATA[hidetitle]]></Name>
             <Value>
-              <String><![CDATA[box_schema2]]></String>
+              <String><![CDATA[false]]></String>
             </Value>
           </Properties>
+        </Element>
+      </NewElement>
+      <NewElement>
+        <Key><![CDATA[/flower-en/7797e6a9-fcd6-11e1-a016-21eebf8c5c9b]]></Key>
+        <Element>
+          <Uri>
+            <link type="STRONG">
+              <target><![CDATA[/sites/default/.content/function/function-00001.html]]></target>
+              <uuid>5fba7e2c-7655-11e0-a2c2-000c2972a6a4</uuid>
+            </link>
+          </Uri>
         </Element>
       </NewElement>
     </Configuration>

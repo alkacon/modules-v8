@@ -119,13 +119,21 @@
             <target><![CDATA[http://lucidworks.lucidimagination.com/display/solr/Searching]]></target>
           </link>
         </links>
-        <content><![CDATA[<p>OpenCms is shipped with a Solr collecor that allows you to find resources by "Solr Queries".&nbsp;The following example queries should give you an introduction how to use Solr queries to find content in OpenCms.&nbsp;&nbsp;If you want to get familiar with the Solr query syntax you will get a general overview at&nbsp;<a class="external text" href="%(link0)" rel="nofollow">Solr query syntax</a>. For advanced features&nbsp;<a class="external text" href="%(link1)" rel="nofollow">Searching - Solr Reference Guide - Lucid Imagination</a>&nbsp;will lend a hand.</p>
+        <content><![CDATA[
+		
+		
+		
+		<p>OpenCms is shipped with a Solr collecor that allows you to find resources by "Solr Queries".&nbsp;The following example queries should give you an introduction how to use Solr queries to find content in OpenCms.&nbsp;&nbsp;If you want to get familiar with the Solr query syntax you will get a general overview at&nbsp;<a class="external text" href="%(link0)" rel="nofollow">Solr query syntax</a>. For advanced features&nbsp;<a class="external text" href="%(link1)" rel="nofollow">Searching - Solr Reference Guide - Lucid Imagination</a>&nbsp;will lend a hand.</p>
 <p><strong>Finding recently changed flowers modified last month sorted by date</strong></p>
 <pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;">fq=type:v8flower&amp;fq=lastmodified:[NOW-1MONTH TO NOW]&amp;sort=lastmodified desc</pre>
-<p><strong>Finding two most recent news sorted by priority property</strong><strong><br /></strong></p>
-<pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;">fq=type:v8news&amp;fq=parent-folders:/&amp;sort=collector.priority_prop desc&amp;rows=2</pre>
-<p><strong>Finding events taking place in europe</strong><strong><br /></strong></p>
-<pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;">fq=category_exact:location/europe/&amp;fq=type:v8event&amp;fq=parent-folders:/</pre>]]></content>
+<p><strong>Finding three most recent news that have 'flower' in the title</strong><strong><br></strong></p>
+<pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;"><span style="font-family: monospace, 'Courier New'; font-size: 13px; line-height: 1.3em; text-align: -webkit-auto; ">fq=type:v8news&amp;fq=Title_prop:flower&amp;sort=lastmodified desc&amp;rows=3</span></pre>
+<p><strong>Finding events taking place in europe</strong><strong><br></strong></p>
+<pre style="font-family: monospace, 'Courier New'; font-size: 13px; border-image: initial; color: #000000; background-color: #f9f9f9; line-height: 1.3em; text-align: -webkit-auto; border-width: 1px; border-color: #2f6fab; border-style: dashed; padding: 1em;">fq=category_exact:location/europe/&amp;fq=type:v8event</pre>
+		
+		
+		
+		]]></content>
       </Text>
     </Paragraph>
     <Paragraph>
