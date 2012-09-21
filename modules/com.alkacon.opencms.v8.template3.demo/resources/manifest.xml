@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.5.0</opencms_version>
-		<createdate>Fri, 21 Sep 2012 13:30:20 GMT</createdate>
+		<createdate>Fri, 21 Sep 2012 17:58:08 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -247,12 +247,17 @@
 			<destination>.content/inheritance_group</destination>
 			<type>folder</type>
 			<uuidstructure>3fa60060-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
-			<datelastmodified>Wed, 12 Sep 2012 12:34:51 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:41:29 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 12:34:51 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -490,7 +495,7 @@
 			<destination>.content/textblock</destination>
 			<type>folder</type>
 			<uuidstructure>9ee357d6-6bfa-11e0-ad63-c3baf286301a</uuidstructure>
-			<datelastmodified>Mon, 10 Sep 2012 13:54:36 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:47:02 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 21 Jun 2012 09:34:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -499,6 +504,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Text Blocks]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -578,7 +587,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome OpenCms Days Participants]]></value>
+					<value><![CDATA[Wonderful World of Flowers]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -879,12 +888,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>8f961018-fcd7-11e1-a016-21eebf8c5c9b</uuidstructure>
 			<uuidresource>8f961019-fcd7-11e1-a016-21eebf8c5c9b</uuidresource>
-			<datelastmodified>Tue, 18 Sep 2012 12:49:27 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:50:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 12:44:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -918,7 +932,7 @@
 			<type>htmlredirect</type>
 			<uuidstructure>656eac48-0196-11e2-a2ab-000c2972a6a4</uuidstructure>
 			<uuidresource>656eac49-0196-11e2-a2ab-000c2972a6a4</uuidresource>
-			<datelastmodified>Tue, 18 Sep 2012 13:41:51 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:43:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 18 Sep 2012 13:40:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -927,6 +941,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Redirect zur Startseite]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>
@@ -942,7 +960,7 @@
 			<type>seo_file</type>
 			<uuidstructure>803367b1-0322-11e2-88ee-000c2972a6a4</uuidstructure>
 			<uuidresource>803367b2-0322-11e2-88ee-000c2972a6a4</uuidresource>
-			<datelastmodified>Thu, 20 Sep 2012 13:31:41 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:44:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 20 Sep 2012 12:55:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -960,6 +978,10 @@
 					<name>locale-available</name>
 					<value><![CDATA[en]]></value>
 				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
 				<property type="shared">
 					<name>template-elements</name>
 					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/render-seo-file.jsp]]></value>
@@ -974,7 +996,7 @@
 			<type>seo_file</type>
 			<uuidstructure>7166098b-0322-11e2-88ee-000c2972a6a4</uuidstructure>
 			<uuidresource>7166098c-0322-11e2-88ee-000c2972a6a4</uuidresource>
-			<datelastmodified>Thu, 20 Sep 2012 13:31:25 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:44:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 20 Sep 2012 12:55:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -991,6 +1013,10 @@
 				<property>
 					<name>locale-available</name>
 					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>
@@ -1123,12 +1149,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>cccadb0c-fcd7-11e1-a016-21eebf8c5c9b</uuidstructure>
 			<uuidresource>cccadb0d-fcd7-11e1-a016-21eebf8c5c9b</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:45:58 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:51:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 12:45:58 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1188,12 +1219,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>53d73c0a-fcda-11e1-a016-21eebf8c5c9b</uuidstructure>
 			<uuidresource>53d73c0b-fcda-11e1-a016-21eebf8c5c9b</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 13:06:32 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:51:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 13:04:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1454,12 +1490,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>db24ddee-fcd7-11e1-a016-21eebf8c5c9b</uuidstructure>
 			<uuidresource>db24ddef-fcd7-11e1-a016-21eebf8c5c9b</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:46:22 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:51:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 12:46:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1515,12 +1556,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>be923476-02f2-11e2-b2cd-000c2972a6a4</uuidstructure>
 			<uuidresource>be923477-02f2-11e2-b2cd-000c2972a6a4</uuidresource>
-			<datelastmodified>Thu, 20 Sep 2012 07:13:58 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:51:53 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 20 Sep 2012 07:13:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1584,12 +1630,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>1dc2cbd8-02f3-11e2-b2cd-000c2972a6a4</uuidstructure>
 			<uuidresource>1dc2cbd9-02f3-11e2-b2cd-000c2972a6a4</uuidresource>
-			<datelastmodified>Thu, 20 Sep 2012 07:16:37 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:52:05 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 20 Sep 2012 07:16:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1722,7 +1773,7 @@
 			<type>htmlredirect</type>
 			<uuidstructure>5d100651-00e8-11e2-a2ab-000c2972a6a4</uuidstructure>
 			<uuidresource>5d100652-00e8-11e2-a2ab-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 17 Sep 2012 17:47:58 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:43:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 17 Sep 2012 16:54:36 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1731,6 +1782,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Flower Suche]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>
@@ -2079,12 +2134,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>779ca19a-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
 			<uuidresource>779ca19b-fcd6-11e1-a016-21eebf8c5c9b</uuidresource>
-			<datelastmodified>Tue, 18 Sep 2012 12:49:39 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:48:29 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 12:36:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -2118,7 +2178,7 @@
 			<type>htmlredirect</type>
 			<uuidstructure>0756454e-0197-11e2-a2ab-000c2972a6a4</uuidstructure>
 			<uuidresource>0756454f-0197-11e2-a2ab-000c2972a6a4</uuidresource>
-			<datelastmodified>Tue, 18 Sep 2012 13:45:06 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:42:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 18 Sep 2012 13:44:54 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2127,6 +2187,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Redirect to start page]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>
@@ -2142,7 +2206,7 @@
 			<type>seo_file</type>
 			<uuidstructure>8d96bc64-0327-11e2-88ee-000c2972a6a4</uuidstructure>
 			<uuidresource>8d96bc65-0327-11e2-88ee-000c2972a6a4</uuidresource>
-			<datelastmodified>Thu, 20 Sep 2012 13:31:41 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:44:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 20 Sep 2012 13:31:58 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2160,6 +2224,10 @@
 					<name>locale-available</name>
 					<value><![CDATA[en]]></value>
 				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
 				<property type="shared">
 					<name>template-elements</name>
 					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/render-seo-file.jsp]]></value>
@@ -2174,7 +2242,7 @@
 			<type>seo_file</type>
 			<uuidstructure>8dc0647a-0327-11e2-88ee-000c2972a6a4</uuidstructure>
 			<uuidresource>8dc0647b-0327-11e2-88ee-000c2972a6a4</uuidresource>
-			<datelastmodified>Thu, 20 Sep 2012 13:31:25 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:44:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 20 Sep 2012 13:31:59 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2191,6 +2259,10 @@
 				<property>
 					<name>locale-available</name>
 					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>
@@ -2273,12 +2345,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>e4f7c76e-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
 			<uuidresource>e4f7c76f-fcd6-11e1-a016-21eebf8c5c9b</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:39:29 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:53:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 12:39:29 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -2338,12 +2415,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>e42f4006-fcd9-11e1-a016-21eebf8c5c9b</uuidstructure>
 			<uuidresource>e42f4007-fcd9-11e1-a016-21eebf8c5c9b</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 13:08:18 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:53:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 13:00:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -2604,12 +2686,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>f90c01e0-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
 			<uuidresource>f90c01e1-fcd6-11e1-a016-21eebf8c5c9b</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:40:03 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:54:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 12:40:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -2669,12 +2756,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>045aeb18-02f0-11e2-b2cd-000c2972a6a4</uuidstructure>
 			<uuidresource>045aeb19-02f0-11e2-b2cd-000c2972a6a4</uuidresource>
-			<datelastmodified>Thu, 20 Sep 2012 06:54:26 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:54:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 20 Sep 2012 06:54:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -2738,12 +2830,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>1a990a6a-02f0-11e2-b2cd-000c2972a6a4</uuidstructure>
 			<uuidresource>1a990a6b-02f0-11e2-b2cd-000c2972a6a4</uuidresource>
-			<datelastmodified>Thu, 20 Sep 2012 06:55:04 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:54:26 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 20 Sep 2012 06:55:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -2807,12 +2904,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>008f00b4-fcd9-11e1-a016-21eebf8c5c9b</uuidstructure>
 			<uuidresource>008f00b5-fcd9-11e1-a016-21eebf8c5c9b</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:54:34 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:57:01 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 12:54:34 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -2876,7 +2978,7 @@
 			<type>htmlredirect</type>
 			<uuidstructure>ce8d20b1-00cc-11e2-9ad3-bd915da136f8</uuidstructure>
 			<uuidresource>ce8d20b2-00cc-11e2-9ad3-bd915da136f8</uuidresource>
-			<datelastmodified>Mon, 17 Sep 2012 17:48:14 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:42:42 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 17 Sep 2012 13:37:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2885,6 +2987,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Flower Search]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>
@@ -3130,12 +3236,17 @@
 			<type>inheritance_config</type>
 			<uuidstructure>ac23706c-fcd6-11e1-a016-21eebf8c5c9b</uuidstructure>
 			<uuidresource>ac23706d-fcd6-11e1-a016-21eebf8c5c9b</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:37:53 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:57:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Sep 2012 12:37:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -3246,10 +3357,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>d86c0638-03b8-11e2-acfe-000c2972a6a4</uuidstructure>
-			<datelastmodified>Fri, 21 Sep 2012 06:52:01 GMT</datelastmodified>
+			<uuidstructure>46404b8d-0411-11e2-bb72-b98d50d75d33</uuidstructure>
+			<datelastmodified>Fri, 21 Sep 2012 17:25:01 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 21 Sep 2012 06:52:01 GMT</datecreated>
+			<datecreated>Fri, 21 Sep 2012 17:25:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -3268,10 +3379,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>dfe33044-03b8-11e2-acfe-000c2972a6a4</uuidstructure>
-			<datelastmodified>Fri, 21 Sep 2012 06:52:13 GMT</datelastmodified>
+			<uuidstructure>47c27ef9-0411-11e2-bb72-b98d50d75d33</uuidstructure>
+			<datelastmodified>Fri, 21 Sep 2012 17:25:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 21 Sep 2012 06:52:13 GMT</datecreated>
+			<datecreated>Fri, 21 Sep 2012 17:25:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -3614,7 +3725,7 @@
 			<type>t3style</type>
 			<uuidstructure>1191e217-6b25-11e0-897c-e363b206b5de</uuidstructure>
 			<uuidresource>1191e218-6b25-11e0-897c-e363b206b5de</uuidresource>
-			<datelastmodified>Fri, 17 Aug 2012 14:03:59 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 17:45:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 20 Jun 2012 08:06:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3623,6 +3734,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Color settings]]></value>
+				</property>
+				<property type="shared">
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
 				</property>
 			</properties>
 			<relations/>
