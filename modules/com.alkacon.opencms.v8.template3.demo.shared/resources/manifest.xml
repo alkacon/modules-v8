@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.5.0</opencms_version>
-		<createdate>Tue, 18 Sep 2012 11:53:31 GMT</createdate>
+		<createdate>Fri, 21 Sep 2012 13:30:32 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -115,7 +115,7 @@
 			<type>t3config</type>
 			<uuidstructure>a997c4b7-70d7-11e0-b894-5de1afb8a118</uuidstructure>
 			<uuidresource>a997c4b8-70d7-11e0-b894-5de1afb8a118</uuidresource>
-			<datelastmodified>Fri, 17 Aug 2012 14:03:34 GMT</datelastmodified>
+			<datelastmodified>Wed, 19 Sep 2012 12:50:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 27 Jun 2012 14:07:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -153,7 +153,7 @@
 			<type>v8flower</type>
 			<uuidstructure>d09fdff8-719c-11e0-9371-000c2972a6a4</uuidstructure>
 			<uuidresource>d09fdff9-719c-11e0-9371-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:51:29 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Jun 2012 13:38:35 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -176,16 +176,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -205,6 +195,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -214,7 +214,7 @@
 			<type>v8flower</type>
 			<uuidstructure>b21335c0-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b21335c1-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:49:24 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:49 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -237,16 +237,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>b4d5afee-74cf-11e0-8058-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/apocynaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -266,6 +256,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b4d5afee-74cf-11e0-8058-000c2972a6a4</id>
+					<path>/_categories/species/apocynaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -275,7 +275,7 @@
 			<type>v8flower</type>
 			<uuidstructure>9beee082-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>9beee083-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:50:09 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -298,16 +298,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -327,6 +317,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -336,7 +336,7 @@
 			<type>v8flower</type>
 			<uuidstructure>9cd76bc5-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>9cd76bc6-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:51:51 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:13 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -344,7 +344,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Azalea]]></value>
+					<value><![CDATA[Azalea n]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -356,16 +356,6 @@
 				<relation>
 					<id>2572c2b2-718d-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/color/yellow/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>2502490b-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/ericaceae/</path>
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
@@ -388,6 +378,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>2502490b-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/ericaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -397,7 +397,7 @@
 			<type>v8flower</type>
 			<uuidstructure>9d8781e8-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>9d8781e9-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:52:19 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -420,16 +420,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>66d8afa7-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/nyctaginaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -449,6 +439,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>66d8afa7-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/nyctaginaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -458,7 +458,7 @@
 			<type>v8flower</type>
 			<uuidstructure>9e1f06fb-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>9e1f06fc-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:53:04 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -481,16 +481,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>a2316ad0-7591-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/solanaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -510,6 +500,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a2316ad0-7591-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/solanaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -519,7 +519,7 @@
 			<type>v8flower</type>
 			<uuidstructure>9eb1d11e-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>9eb1d11f-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:53:46 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:13 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:16 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -542,16 +542,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>583b3b24-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/malvaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -571,6 +561,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>583b3b24-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/malvaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -580,7 +580,7 @@
 			<type>v8flower</type>
 			<uuidstructure>9f3fe051-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>9f3fe052-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:54:11 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:15 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -603,16 +603,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -632,6 +622,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -641,7 +641,7 @@
 			<type>v8flower</type>
 			<uuidstructure>9fd2d184-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>9fd2d185-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:54:48 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -664,16 +664,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>7382dfaa-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/orchidaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -693,6 +683,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>7382dfaa-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/orchidaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -702,7 +702,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a059dbd7-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a059dbd8-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:55:40 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -725,16 +725,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -754,6 +744,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -763,7 +763,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a0d85aaa-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a0d85aab-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 11:57:24 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -786,16 +786,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -815,6 +805,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -824,7 +824,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a15eefcd-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a15eefce-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:12:52 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -847,16 +847,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -876,6 +866,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -885,7 +885,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a1e02dc0-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a1e02dc1-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:13:24 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -908,16 +908,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -937,6 +927,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -946,7 +946,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a262f253-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a262f254-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:13:45 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -969,16 +969,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>50205741-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/liliaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -998,6 +988,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>50205741-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/liliaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1007,7 +1007,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a2e05fb6-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a2e05fb7-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:14:06 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1030,16 +1030,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>50205741-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/liliaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1059,6 +1049,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>50205741-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/liliaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1068,7 +1068,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a35a4aa9-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a35a4aaa-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:16:01 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:26 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1091,16 +1091,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1120,6 +1110,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1129,7 +1129,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a3d212bc-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a3d212bd-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:16:22 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1152,16 +1152,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1181,6 +1171,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1190,7 +1190,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a44fa72f-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a44fa730-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:16:45 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1213,16 +1213,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>a2316ad0-7591-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/solanaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1242,6 +1232,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a2316ad0-7591-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/solanaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1251,7 +1251,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a4ccc672-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a4ccc673-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:17:16 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1274,16 +1274,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1303,6 +1293,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1312,7 +1312,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a551fc05-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a551fc06-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:17:38 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1335,16 +1335,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>7d337ebd-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/rosaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1364,6 +1354,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>7d337ebd-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/rosaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1373,7 +1373,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a5d29db8-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a5d29db9-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:17:58 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1396,16 +1396,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>583b3b24-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/malvaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1425,6 +1415,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>583b3b24-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/malvaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1434,7 +1434,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a64ed29b-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a64ed29c-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:18:20 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:36 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:29 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1457,16 +1457,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>583b3b24-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/malvaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1486,6 +1476,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>583b3b24-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/malvaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1495,7 +1495,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a6cb2e8e-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a6cb2e8f-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:18:40 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:38 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1518,16 +1518,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>b4d5afee-74cf-11e0-8058-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/apocynaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1547,6 +1537,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b4d5afee-74cf-11e0-8058-000c2972a6a4</id>
+					<path>/_categories/species/apocynaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1556,7 +1556,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a73f4c21-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a73f4c22-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:19:02 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1579,16 +1579,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/asteraceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1608,6 +1598,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>303171ce-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/asteraceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1617,7 +1617,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a7bb32e4-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a7bb32e5-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:19:35 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1640,16 +1640,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>7d337ebd-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/rosaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1669,6 +1659,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>7d337ebd-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/rosaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1678,7 +1678,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a8345a87-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a8345a88-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:20:03 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:42 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1701,16 +1701,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>50205741-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/liliaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1730,6 +1720,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>50205741-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/liliaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1739,7 +1739,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a8ada93a-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a8ada93b-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:20:35 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1762,16 +1762,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>583b3b24-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/malvaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1791,6 +1781,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>583b3b24-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/malvaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1800,7 +1800,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a92faa7d-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a92faa7e-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:21:09 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:45 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:34 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1823,16 +1823,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>b4d5afee-74cf-11e0-8058-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/apocynaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1852,6 +1842,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b4d5afee-74cf-11e0-8058-000c2972a6a4</id>
+					<path>/_categories/species/apocynaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1861,7 +1861,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a9a8ab10-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>a9a8ab11-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:21:39 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:35 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1879,13 +1879,13 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
+					<id>334d8375-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/color/red/</path>
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>7d337ebd-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/rosaceae/</path>
+					<id>5896cc44-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/color/violet/</path>
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
@@ -1908,6 +1908,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>7d337ebd-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/rosaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1917,7 +1927,7 @@
 			<type>v8flower</type>
 			<uuidstructure>aa18d203-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>aa18d204-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:22:06 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:36 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1940,16 +1950,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>66d8afa7-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/nyctaginaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -1969,6 +1969,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>66d8afa7-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/nyctaginaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -1978,7 +1988,7 @@
 			<type>v8flower</type>
 			<uuidstructure>aa8d65c6-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>aa8d65c7-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:22:34 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:36 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2001,16 +2011,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>7d337ebd-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/rosaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -2030,6 +2030,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>7d337ebd-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/rosaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -2039,7 +2049,7 @@
 			<type>v8flower</type>
 			<uuidstructure>ab00e819-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>ab00e81a-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:23:00 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2062,16 +2072,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>b4d5afee-74cf-11e0-8058-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/apocynaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -2091,6 +2091,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b4d5afee-74cf-11e0-8058-000c2972a6a4</id>
+					<path>/_categories/species/apocynaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -2100,7 +2110,7 @@
 			<type>v8flower</type>
 			<uuidstructure>ab757bdc-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>ab757bdd-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 12:23:38 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:39:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2123,16 +2133,6 @@
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>7382dfaa-758d-11e0-a2c2-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/orchidaceae/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
 					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/location/</path>
 					<type>CATEGORY</type>
@@ -2152,6 +2152,16 @@
 					<path>/_categories/season/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>7382dfaa-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/orchidaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -2161,7 +2171,7 @@
 			<type>v8flower</type>
 			<uuidstructure>a334d7da-0165-11e2-a2ab-000c2972a6a4</uuidstructure>
 			<uuidresource>a334d7db-0165-11e2-a2ab-000c2972a6a4</uuidresource>
-			<datelastmodified>Tue, 18 Sep 2012 08:40:18 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:46:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 18 Sep 2012 07:51:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2181,16 +2191,6 @@
 				<relation>
 					<id>2572c2b2-718d-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/color/yellow/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/</path>
-					<type>CATEGORY</type>
-				</relation>
-				<relation>
-					<id>903c1f81-0165-11e2-a2ab-000c2972a6a4</id>
-					<path>/_categories/flowerspecies/fabaceae/</path>
 					<type>CATEGORY</type>
 				</relation>
 				<relation>
@@ -2216,6 +2216,16 @@
 				<relation>
 					<id>e2de02a4-718e-11e0-87bc-000c2972a6a4</id>
 					<path>/_categories/season/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>903c1f81-0165-11e2-a2ab-000c2972a6a4</id>
+					<path>/_categories/species/fabaceae/</path>
 					<type>CATEGORY</type>
 				</relation>
 			</relations>
@@ -2369,7 +2379,7 @@
 			<type>function</type>
 			<uuidstructure>53ad414a-f5e3-11e1-940a-058770d8fd70</uuidstructure>
 			<uuidresource>53ad414b-f5e3-11e1-940a-058770d8fd70</uuidresource>
-			<datelastmodified>Mon, 17 Sep 2012 14:57:54 GMT</datelastmodified>
+			<datelastmodified>Tue, 18 Sep 2012 13:27:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 03 Sep 2012 16:20:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4698,7 +4708,7 @@
 			<type>v8twitter</type>
 			<uuidstructure>970ffc37-0173-11e2-a2ab-000c2972a6a4</uuidstructure>
 			<uuidresource>970ffc38-0173-11e2-a2ab-000c2972a6a4</uuidresource>
-			<datelastmodified>Tue, 18 Sep 2012 09:33:46 GMT</datelastmodified>
+			<datelastmodified>Wed, 19 Sep 2012 11:45:02 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 18 Sep 2012 09:31:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4965,204 +4975,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>_categories/flowerspecies</destination>
-			<type>folder</type>
-			<uuidstructure>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</uuidstructure>
-			<datelastmodified>Sat, 07 Jul 2012 16:27:04 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 02 Jul 2012 14:56:02 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Flower Species]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>_categories/flowerspecies/apocynaceae</destination>
-			<type>folder</type>
-			<uuidstructure>b4d5afee-74cf-11e0-8058-000c2972a6a4</uuidstructure>
-			<datelastmodified>Wed, 04 Jul 2012 08:57:05 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 02 Jul 2012 15:20:26 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Apocynaceae]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>_categories/flowerspecies/asteraceae</destination>
-			<type>folder</type>
-			<uuidstructure>303171ce-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
-			<datelastmodified>Wed, 04 Jul 2012 08:57:27 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 03 Jul 2012 13:56:48 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Asteraceae]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>_categories/flowerspecies/ericaceae</destination>
-			<type>folder</type>
-			<uuidstructure>2502490b-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
-			<datelastmodified>Wed, 04 Jul 2012 08:57:31 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 03 Jul 2012 13:56:29 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Ericaceae]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>_categories/flowerspecies/fabaceae</destination>
-			<type>folder</type>
-			<uuidstructure>903c1f81-0165-11e2-a2ab-000c2972a6a4</uuidstructure>
-			<datelastmodified>Tue, 18 Sep 2012 07:50:51 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 18 Sep 2012 07:50:49 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Fabaceae]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>_categories/flowerspecies/liliaceae</destination>
-			<type>folder</type>
-			<uuidstructure>50205741-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
-			<datelastmodified>Wed, 04 Jul 2012 08:57:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 03 Jul 2012 13:57:41 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Liliaceae]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>_categories/flowerspecies/malvaceae</destination>
-			<type>folder</type>
-			<uuidstructure>583b3b24-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
-			<datelastmodified>Wed, 04 Jul 2012 08:57:37 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 03 Jul 2012 13:57:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Malvaceae]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>_categories/flowerspecies/nyctaginaceae</destination>
-			<type>folder</type>
-			<uuidstructure>66d8afa7-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
-			<datelastmodified>Wed, 04 Jul 2012 08:57:40 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 03 Jul 2012 13:58:19 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Nyctaginaceae]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>_categories/flowerspecies/orchidaceae</destination>
-			<type>folder</type>
-			<uuidstructure>7382dfaa-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
-			<datelastmodified>Wed, 04 Jul 2012 08:57:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 03 Jul 2012 13:58:41 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Orchidaceae]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>_categories/flowerspecies/rosaceae</destination>
-			<type>folder</type>
-			<uuidstructure>7d337ebd-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
-			<datelastmodified>Wed, 04 Jul 2012 08:57:50 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 03 Jul 2012 13:58:57 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Rosaceae]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>_categories/flowerspecies/solanaceae</destination>
-			<type>folder</type>
-			<uuidstructure>a2316ad0-7591-11e0-a2c2-000c2972a6a4</uuidstructure>
-			<datelastmodified>Wed, 04 Jul 2012 08:57:53 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 03 Jul 2012 14:28:37 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Solanaceae]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>_categories/location</destination>
 			<type>folder</type>
 			<uuidstructure>da3592ce-7193-11e0-87bc-000c2972a6a4</uuidstructure>
@@ -5310,7 +5122,7 @@
 			<destination>_categories/priority</destination>
 			<type>folder</type>
 			<uuidstructure>06a1f766-718d-11e0-87bc-000c2972a6a4</uuidstructure>
-			<datelastmodified>Wed, 04 Jul 2012 08:53:43 GMT</datelastmodified>
+			<datelastmodified>Thu, 20 Sep 2012 12:31:41 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Jun 2012 11:45:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5318,7 +5130,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Priority]]></value>
+					<value><![CDATA[Priority / Importance]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5505,6 +5317,204 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>_categories/species</destination>
+			<type>folder</type>
+			<uuidstructure>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</uuidstructure>
+			<datelastmodified>Sat, 07 Jul 2012 16:27:04 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 02 Jul 2012 14:56:02 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Flower Species]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>_categories/species/apocynaceae</destination>
+			<type>folder</type>
+			<uuidstructure>b4d5afee-74cf-11e0-8058-000c2972a6a4</uuidstructure>
+			<datelastmodified>Wed, 04 Jul 2012 08:57:05 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 02 Jul 2012 15:20:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Apocynaceae]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>_categories/species/asteraceae</destination>
+			<type>folder</type>
+			<uuidstructure>303171ce-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
+			<datelastmodified>Wed, 04 Jul 2012 08:57:27 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 03 Jul 2012 13:56:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Asteraceae]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>_categories/species/ericaceae</destination>
+			<type>folder</type>
+			<uuidstructure>2502490b-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
+			<datelastmodified>Wed, 04 Jul 2012 08:57:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 03 Jul 2012 13:56:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Ericaceae]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>_categories/species/fabaceae</destination>
+			<type>folder</type>
+			<uuidstructure>903c1f81-0165-11e2-a2ab-000c2972a6a4</uuidstructure>
+			<datelastmodified>Tue, 18 Sep 2012 07:50:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 18 Sep 2012 07:50:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Fabaceae]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>_categories/species/liliaceae</destination>
+			<type>folder</type>
+			<uuidstructure>50205741-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
+			<datelastmodified>Wed, 04 Jul 2012 08:57:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 03 Jul 2012 13:57:41 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Liliaceae]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>_categories/species/malvaceae</destination>
+			<type>folder</type>
+			<uuidstructure>583b3b24-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
+			<datelastmodified>Wed, 04 Jul 2012 08:57:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 03 Jul 2012 13:57:55 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Malvaceae]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>_categories/species/nyctaginaceae</destination>
+			<type>folder</type>
+			<uuidstructure>66d8afa7-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
+			<datelastmodified>Wed, 04 Jul 2012 08:57:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 03 Jul 2012 13:58:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nyctaginaceae]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>_categories/species/orchidaceae</destination>
+			<type>folder</type>
+			<uuidstructure>7382dfaa-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
+			<datelastmodified>Wed, 04 Jul 2012 08:57:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 03 Jul 2012 13:58:41 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Orchidaceae]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>_categories/species/rosaceae</destination>
+			<type>folder</type>
+			<uuidstructure>7d337ebd-758d-11e0-a2c2-000c2972a6a4</uuidstructure>
+			<datelastmodified>Wed, 04 Jul 2012 08:57:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 03 Jul 2012 13:58:57 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Rosaceae]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>_categories/species/solanaceae</destination>
+			<type>folder</type>
+			<uuidstructure>a2316ad0-7591-11e0-a2c2-000c2972a6a4</uuidstructure>
+			<datelastmodified>Wed, 04 Jul 2012 08:57:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 03 Jul 2012 14:28:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solanaceae]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>.content/event</destination>
 			<type>v8eventgallery</type>
 			<uuidstructure>e2af17d8-7013-11e0-a276-c3baf286301a</uuidstructure>
@@ -5528,7 +5538,7 @@
 			<type>v8event</type>
 			<uuidstructure>59731d4d-77e4-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>59731d4e-77e4-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:42:15 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:22:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 13:25:45 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5558,6 +5568,26 @@
 					<path>/_categories/location/europe/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>c8b3ea1b-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/01_very_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>4c2071e4-74cc-11e0-aaf6-000c2972a6a4</id>
+					<path>/_categories/species/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>7d337ebd-758d-11e0-a2c2-000c2972a6a4</id>
+					<path>/_categories/species/rosaceae/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -5567,7 +5597,7 @@
 			<type>v8event</type>
 			<uuidstructure>89e8084b-77f6-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>89e8084c-77f6-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:41:50 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:24:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 15:35:58 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5579,15 +5609,15 @@
 				</property>
 				<property>
 					<name>calendar.enddate</name>
-					<value><![CDATA[1341590400000]]></value>
+					<value><![CDATA[1342454400000]]></value>
 				</property>
 				<property>
 					<name>calendar.startdate</name>
-					<value><![CDATA[1341475200000]]></value>
+					<value><![CDATA[1342339200000]]></value>
 				</property>
 				<property>
 					<name>collector.date</name>
-					<value><![CDATA[1341475200000]]></value>
+					<value><![CDATA[1342339200000]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -5601,6 +5631,16 @@
 					<path>/_categories/location/europe/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -5610,7 +5650,7 @@
 			<type>v8event</type>
 			<uuidstructure>894fbfdd-77f6-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>894fbfde-77f6-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:41:12 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:24:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 15:35:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5633,7 +5673,38 @@
 					<value><![CDATA[1330765200000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>003171e0-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/01_spring/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e2de02a4-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -5642,7 +5713,7 @@
 			<type>v8event</type>
 			<uuidstructure>89af6c16-77f6-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>89af6c17-77f6-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:36:16 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:24:41 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 15:35:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5676,6 +5747,16 @@
 					<path>/_categories/location/southamerica/</path>
 					<type>CATEGORY</type>
 				</relation>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
 			</relations>
 			<accesscontrol/>
 		</file>
@@ -5685,7 +5766,7 @@
 			<type>v8event</type>
 			<uuidstructure>27cd3734-8a97-11e0-96c4-7b2444d59c19</uuidstructure>
 			<uuidresource>27cd3735-8a97-11e0-96c4-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:37:13 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:24:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jul 2012 08:31:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5708,7 +5789,38 @@
 					<value><![CDATA[1339339560000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06eec193-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/02_summer/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e2de02a4-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -5717,7 +5829,7 @@
 			<type>v8event</type>
 			<uuidstructure>bf540a4f-8a99-11e0-96c4-7b2444d59c19</uuidstructure>
 			<uuidresource>bf540a50-8a99-11e0-96c4-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:40:41 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:25:42 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jul 2012 08:49:36 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5740,7 +5852,28 @@
 					<value><![CDATA[1332603960000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -5749,7 +5882,7 @@
 			<type>v8event</type>
 			<uuidstructure>e8dc43c5-8a9e-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>e8dc43c6-8a9e-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:40:18 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:26:07 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jul 2012 09:26:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5772,7 +5905,28 @@
 					<value><![CDATA[1336401960000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -5781,7 +5935,7 @@
 			<type>v8event</type>
 			<uuidstructure>39ac2c37-8aa0-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>39ac2c38-8aa0-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 17 Aug 2012 14:03:38 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:27:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jul 2012 09:35:58 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5804,7 +5958,48 @@
 					<value><![CDATA[1302878760000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a2182faf-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/05_very_high/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>003171e0-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/01_spring/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06eec193-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/02_summer/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>0cd0a566-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/03_autumn/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e2de02a4-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -5813,7 +6008,7 @@
 			<type>v8event</type>
 			<uuidstructure>52270a4b-8aa2-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>52270a4c-8aa2-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:39:45 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:27:45 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jul 2012 09:50:58 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5836,7 +6031,28 @@
 					<value><![CDATA[1333723560000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -5845,7 +6061,7 @@
 			<type>v8event</type>
 			<uuidstructure>12c87d90-8aa9-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>12c87d91-8aa9-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:39:24 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:28:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jul 2012 10:39:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5868,7 +6084,38 @@
 					<value><![CDATA[1336920360000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>acb97052-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/04_high/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06eec193-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/02_summer/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e2de02a4-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -5877,7 +6124,7 @@
 			<type>v8event</type>
 			<uuidstructure>38a09b4f-8ab8-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>38a09b50-8ab8-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:38:46 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:28:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jul 2012 12:27:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5900,7 +6147,28 @@
 					<value><![CDATA[1334501160000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -5909,7 +6177,7 @@
 			<type>v8event</type>
 			<uuidstructure>2941aedb-8abc-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>2941d5ec-8abc-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:38:15 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:28:55 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jul 2012 12:55:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5932,7 +6200,28 @@
 					<value><![CDATA[1337093160000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -5959,7 +6248,7 @@
 			<type>v8news</type>
 			<uuidstructure>b8ea4f82-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b8ea4f83-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:48:22 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:45:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:40:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5974,7 +6263,48 @@
 					<value><![CDATA[1336895220000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>f41fca37-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/northamerica/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>01e3597a-7194-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/southamerica/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>003171e0-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/01_spring/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e2de02a4-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -5983,7 +6313,7 @@
 			<type>v8news</type>
 			<uuidstructure>b914e1f6-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b914e1f7-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:50:50 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 11:49:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:40:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5998,7 +6328,18 @@
 					<value><![CDATA[1325758620000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -6007,7 +6348,7 @@
 			<type>v8news</type>
 			<uuidstructure>b938216a-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b938216b-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:31:50 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:46:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:40:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6022,7 +6363,28 @@
 					<value><![CDATA[1328437980000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -6031,7 +6393,7 @@
 			<type>v8news</type>
 			<uuidstructure>b958539e-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b958539f-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Wed, 12 Sep 2012 12:26:39 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:46:27 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:40:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6046,7 +6408,28 @@
 					<value><![CDATA[1338810300000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -6055,7 +6438,7 @@
 			<type>v8news</type>
 			<uuidstructure>b9772642-77ee-11e0-be13-000c2972a6a4</uuidstructure>
 			<uuidresource>b9772643-77ee-11e0-be13-000c2972a6a4</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:30:57 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:46:45 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 Jul 2012 14:40:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6070,7 +6453,38 @@
 					<value><![CDATA[1340192700000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06eec193-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/02_summer/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e2de02a4-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -6079,7 +6493,7 @@
 			<type>v8news</type>
 			<uuidstructure>0c6b77eb-8b7c-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>0c6b77ec-8b7c-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Fri, 07 Sep 2012 07:29:53 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:47:17 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 31 Jul 2012 11:49:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6091,10 +6505,31 @@
 				</property>
 				<property>
 					<name>collector.date</name>
-					<value><![CDATA[1343737380000]]></value>
+					<value><![CDATA[1337602980000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06eec193-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/02_summer/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e2de02a4-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -6103,7 +6538,7 @@
 			<type>v8news</type>
 			<uuidstructure>cbbbfb08-8b7a-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>cbbbfb09-8b7a-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Thu, 13 Sep 2012 11:58:56 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:47:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 31 Jul 2012 11:40:34 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6118,7 +6553,38 @@
 					<value><![CDATA[1343737680000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>b14b31ed-718c-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/color/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>4b7d38a1-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/color/pink/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>acb97052-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/04_high/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -6127,7 +6593,7 @@
 			<type>v8news</type>
 			<uuidstructure>cd574970-8b7c-11e0-9f3a-7b2444d59c19</uuidstructure>
 			<uuidresource>cd577081-8b7c-11e0-9f3a-7b2444d59c19</uuidresource>
-			<datelastmodified>Thu, 13 Sep 2012 11:49:03 GMT</datelastmodified>
+			<datelastmodified>Fri, 21 Sep 2012 10:47:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 31 Jul 2012 11:54:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6142,7 +6608,48 @@
 					<value><![CDATA[1318765980000]]></value>
 				</property>
 			</properties>
-			<relations/>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>003171e0-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/01_spring/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06eec193-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/02_summer/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>0cd0a566-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/03_autumn/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e2de02a4-718e-11e0-87bc-000c2972a6a4</id>
+					<path>/_categories/season/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
 			<accesscontrol/>
 		</file>
 	</files>
