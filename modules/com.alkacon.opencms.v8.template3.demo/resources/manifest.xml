@@ -1709,7 +1709,12 @@
 			<datecreated>Wed, 12 Sep 2012 12:53:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+            <properties>
+                <property>
+                    <name>search.exclude</name>
+                    <value><![CDATA[true]]></value>
+                </property>
+            </properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1986,7 +1991,12 @@
 			<datecreated>Wed, 12 Sep 2012 12:44:51 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
-			<properties/>
+            <properties>
+                <property>
+                    <name>search.exclude</name>
+                    <value><![CDATA[true]]></value>
+                </property>
+            </properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
