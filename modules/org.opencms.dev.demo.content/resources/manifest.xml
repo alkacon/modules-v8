@@ -5549,6 +5549,149 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>dev-demo/solr-search-demo</destination>
+			<type>subsitemap</type>
+			<uuidstructure>a931c8b5-07c5-11e2-9e00-b98d50d75d33</uuidstructure>
+			<datelastmodified>Wed, 26 Sep 2012 14:01:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 26 Sep 2012 10:33:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[19.46875]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Solr Search Demo]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Search Demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>dev-demo/solr-search-demo/index.html</source>
+			<destination>dev-demo/solr-search-demo/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>a9479aaa-07c5-11e2-9e00-b98d50d75d33</uuidstructure>
+			<uuidresource>a9479aab-07c5-11e2-9e00-b98d50d75d33</uuidresource>
+			<datelastmodified>Wed, 26 Sep 2012 14:45:30 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 26 Sep 2012 10:33:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[2 column layout (left / center)]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Search Demo]]></value>
+				</property>
+				<property>
+					<name>style.columns</name>
+					<value><![CDATA[1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>dev-demo/solr-search-demo/.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>bcfc4fff-07c5-11e2-9e00-b98d50d75d33</uuidstructure>
+			<datelastmodified>Wed, 26 Sep 2012 14:01:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 26 Sep 2012 10:34:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>dev-demo/solr-search-demo/.content/.config</source>
+			<destination>dev-demo/solr-search-demo/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>bd0d18e1-07c5-11e2-9e00-b98d50d75d33</uuidstructure>
+			<uuidresource>bd0d18e2-07c5-11e2-9e00-b98d50d75d33</uuidresource>
+			<datelastmodified>Wed, 26 Sep 2012 14:54:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 26 Sep 2012 10:34:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource type configuration]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>dev-demo/solr-search-demo/.content/a-00003.html</source>
+			<destination>dev-demo/solr-search-demo/.content/a-00003.html</destination>
+			<type>ddarticle</type>
+			<uuidstructure>0c1a833c-07e7-11e2-9e00-b98d50d75d33</uuidstructure>
+			<uuidresource>0c1aaa4d-07e7-11e2-9e00-b98d50d75d33</uuidresource>
+			<datelastmodified>Wed, 26 Sep 2012 14:48:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 26 Sep 2012 14:32:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Use the OpenCms API for Solr Search]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>dev-demo/solr-search-demo/.content/function-00010.html</source>
+			<destination>dev-demo/solr-search-demo/.content/function-00010.html</destination>
+			<type>function</type>
+			<uuidstructure>5b11fa67-07c6-11e2-9e00-b98d50d75d33</uuidstructure>
+			<uuidresource>5b11fa68-07c6-11e2-9e00-b98d50d75d33</uuidresource>
+			<datelastmodified>Wed, 26 Sep 2012 10:40:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 26 Sep 2012 10:38:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[This function demonstartes how to use the OpenCms Java Search API to query Solr]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Solr Search API]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system</destination>
 			<type>folder</type>
 			<uuidstructure>a44fea20-0300-11e2-b9f2-000c2972a6a4</uuidstructure>
