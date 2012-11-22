@@ -246,21 +246,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.v8.event/classes/com/alkacon/opencms/v8/event/messages_ru.properties</source>
-			<destination>system/modules/com.alkacon.opencms.v8.event/classes/com/alkacon/opencms/v8/event/messages_ru.properties</destination>
-			<type>plain</type>
-			<uuidstructure>fdee67da-74c3-11e1-933a-6192c87e77fb</uuidstructure>
-			<uuidresource>fdee67db-74c3-11e1-933a-6192c87e77fb</uuidresource>
-			<datelastmodified>Fri, 23 Mar 2012 08:41:36 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 23 Mar 2012 08:41:32 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>system/modules/com.alkacon.opencms.v8.event/classes/com/alkacon/opencms/v8/event/workplace.properties</source>
 			<destination>system/modules/com.alkacon.opencms.v8.event/classes/com/alkacon/opencms/v8/event/workplace.properties</destination>
 			<type>plain</type>
@@ -303,21 +288,6 @@
 			<datelastmodified>Tue, 03 May 2011 14:14:41 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 20 Apr 2011 14:24:32 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.v8.event/classes/com/alkacon/opencms/v8/event/workplace_ru.properties</source>
-			<destination>system/modules/com.alkacon.opencms.v8.event/classes/com/alkacon/opencms/v8/event/workplace_ru.properties</destination>
-			<type>plain</type>
-			<uuidstructure>d9a0bc25-74c3-11e1-933a-6192c87e77fb</uuidstructure>
-			<uuidresource>d9a0bc26-74c3-11e1-933a-6192c87e77fb</uuidresource>
-			<datelastmodified>Fri, 23 Mar 2012 08:57:03 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 23 Mar 2012 08:40:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

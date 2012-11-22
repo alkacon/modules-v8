@@ -251,21 +251,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.v8.infobox/classes/com/alkacon/opencms/v8/infobox/workplace_ru.properties</source>
-			<destination>system/modules/com.alkacon.opencms.v8.infobox/classes/com/alkacon/opencms/v8/infobox/workplace_ru.properties</destination>
-			<type>plain</type>
-			<uuidstructure>5311f321-74c5-11e1-b0f2-6192c87e77fb</uuidstructure>
-			<uuidresource>5311f322-74c5-11e1-b0f2-6192c87e77fb</uuidresource>
-			<datelastmodified>Fri, 23 Mar 2012 08:51:13 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 23 Mar 2012 08:51:04 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>system/modules/com.alkacon.opencms.v8.infobox/formatters</destination>
 			<type>folder</type>
 			<uuidstructure>1e407fcb-82c0-11e0-ad58-c1b6fb5574d7</uuidstructure>
