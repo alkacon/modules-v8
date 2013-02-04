@@ -944,7 +944,7 @@
 				</property>
 				<property>
 					<name>search.exclude</name>
-					<value><![CDATA[true]]></value>
+					<value><![CDATA[all]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>
@@ -1790,7 +1790,7 @@
 				</property>
 				<property>
 					<name>search.exclude</name>
-					<value><![CDATA[true]]></value>
+					<value><![CDATA[all]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>
@@ -2200,7 +2200,7 @@
 				</property>
 				<property>
 					<name>search.exclude</name>
-					<value><![CDATA[true]]></value>
+					<value><![CDATA[all]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>
@@ -3000,7 +3000,7 @@
 				</property>
 				<property>
 					<name>search.exclude</name>
-					<value><![CDATA[true]]></value>
+					<value><![CDATA[all]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>

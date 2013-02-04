@@ -104,6 +104,10 @@
 					<name>Title</name>
 					<value><![CDATA[Redirect to current release notes]]></value>
 				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
 				<property type="shared">
 					<name>template-elements</name>
 					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
@@ -1514,6 +1518,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Welcome to OpenCms]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
 				</property>
 				<property type="shared">
 					<name>template-elements</name>
