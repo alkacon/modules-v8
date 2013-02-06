@@ -9,9 +9,9 @@
 		<export_version>7</export_version>
 	</info>
 	<module>
-		<name>com.alkacon.opencms.v8.customwidget</name>
+		<name>org.opencms.dev.demo.customwidget</name>
 		<nicename><![CDATA[OpenCms 8 Custom Widget]]></nicename>
-		<group>OpenCms 8 types</group>
+		<group>OpenCms 8 dev demo</group>
 		<class/>
 		<description><![CDATA[Provides sample implementation for a custom display widget that can be used in the new content editor.]]></description>
 		<version>8.5.1</version>
@@ -22,10 +22,10 @@
 		<dateinstalled/>
 		<dependencies/>
 		<exportpoints>
-			<exportpoint uri="/system/modules/com.alkacon.opencms.v8.customwidget/lib/" destination="WEB-INF/lib/"/>
+			<exportpoint uri="/system/modules/org.opencms.dev.demo.customwidget/lib/" destination="WEB-INF/lib/"/>
 		</exportpoints>
 		<resources>
-			<resource uri="/system/modules/com.alkacon.opencms.v8.customwidget/"/>
+			<resource uri="/system/modules/org.opencms.dev.demo.customwidget/"/>
 		</resources>
 		<parameters/>
 	</module>
@@ -75,7 +75,7 @@
 			</accesscontrol>
 		</file>
 		<file>
-			<destination>system/modules/com.alkacon.opencms.v8.customwidget</destination>
+			<destination>system/modules/org.opencms.dev.demo.customwidget</destination>
 			<type>folder</type>
 			<uuidstructure>10b40f40-66f6-11e2-bcc0-39f96f705e7f</uuidstructure>
 			<datelastmodified>Fri, 25 Jan 2013 13:49:40 GMT</datelastmodified>
@@ -88,7 +88,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>system/modules/com.alkacon.opencms.v8.customwidget/java_src</destination>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/java_src</destination>
 			<type>folder</type>
 			<uuidstructure>25332ea2-66f8-11e2-bcc0-39f96f705e7f</uuidstructure>
 			<datelastmodified>Fri, 25 Jan 2013 14:04:33 GMT</datelastmodified>
@@ -101,8 +101,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.v8.customwidget/java_src/CustomWidget.java</source>
-			<destination>system/modules/com.alkacon.opencms.v8.customwidget/java_src/CustomWidget.java</destination>
+			<source>system/modules/org.opencms.dev.demo.customwidget/java_src/CustomWidget.java</source>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/java_src/CustomWidget.java</destination>
 			<type>plain</type>
 			<uuidstructure>253f158a-66f8-11e2-bcc0-39f96f705e7f</uuidstructure>
 			<uuidresource>253f158b-66f8-11e2-bcc0-39f96f705e7f</uuidresource>
@@ -121,7 +121,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>system/modules/com.alkacon.opencms.v8.customwidget/lib</destination>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/lib</destination>
 			<type>folder</type>
 			<uuidstructure>e4bc3e71-7051-11e2-96b1-015d679692ec</uuidstructure>
 			<datelastmodified>Wed, 06 Feb 2013 11:39:40 GMT</datelastmodified>
@@ -134,7 +134,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>system/modules/com.alkacon.opencms.v8.customwidget/resources</destination>
+			<source>system/modules/org.opencms.dev.demo.customwidget/lib/org.opencms.dev.demo.customwidget.jar</source>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/lib/org.opencms.dev.demo.customwidget.jar</destination>
+			<type>binary</type>
+			<uuidstructure>df8a5459-7052-11e2-96b1-015d679692ec</uuidstructure>
+			<uuidresource>df8a545a-7052-11e2-96b1-015d679692ec</uuidresource>
+			<datelastmodified>Wed, 06 Feb 2013 11:46:41 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Feb 2013 11:46:41 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[org.opencms.dev.demo.customwidget]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/resources</destination>
 			<type>folder</type>
 			<uuidstructure>25d1072a-66f6-11e2-bcc0-39f96f705e7f</uuidstructure>
 			<datelastmodified>Fri, 25 Jan 2013 13:50:15 GMT</datelastmodified>
@@ -147,8 +167,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.v8.customwidget/resources/mywidget.js</source>
-			<destination>system/modules/com.alkacon.opencms.v8.customwidget/resources/mywidget.js</destination>
+			<source>system/modules/org.opencms.dev.demo.customwidget/resources/mywidget.js</source>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/resources/mywidget.js</destination>
 			<type>plain</type>
 			<uuidstructure>35f7177c-66f6-11e2-bcc0-39f96f705e7f</uuidstructure>
 			<uuidresource>35f7177d-66f6-11e2-bcc0-39f96f705e7f</uuidresource>

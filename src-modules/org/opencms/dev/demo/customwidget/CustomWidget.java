@@ -25,7 +25,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package com.alkacon.opencms.v8.customwidget;
+package org.opencms.dev.demo.customwidget;
 
 import org.opencms.file.CmsObject;
 import org.opencms.file.CmsResource;
