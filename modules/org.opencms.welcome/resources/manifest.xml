@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.5.0</opencms_version>
-		<createdate>Fri, 21 Sep 2012 13:30:50 GMT</createdate>
+		<opencms_version>8.5.1</opencms_version>
+		<createdate>Wed, 06 Feb 2013 15:53:26 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -16,8 +16,8 @@
 		<description><![CDATA[<p>This module contains the OpenCms welcome page and release notes.</p>
 <p>Install this module as a simple demonstration for the template capabilities of OpenCms 8.0.</p>
 <p><strong>Note:</strong> Deleting this module will remove the "/release" folder and all pages there.</p>
-<p><i>(c) 2012 by Alkacon Software GmbH (http://www.alkacon.com).</i></p>]]></description>
-		<version>8.5.0</version>
+<p><i>(c) 2013 by Alkacon Software GmbH (http://www.alkacon.com).</i></p>]]></description>
+		<version>8.5.1</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
@@ -449,6 +449,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Release Notes for OpenCms 8]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>release/.content/textblock/t_00009.html</source>
+			<destination>release/.content/textblock/t_00009.html</destination>
+			<type>v8textblock</type>
+			<uuidstructure>039ddaae-7074-11e2-bfad-4b0ffc7a0e9d</uuidstructure>
+			<uuidresource>039ddaaf-7074-11e2-bfad-4b0ffc7a0e9d</uuidresource>
+			<datelastmodified>Wed, 06 Feb 2013 15:51:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Feb 2013 15:43:55 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Release Notes for OpenCms 8.5.1]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1101,6 +1121,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>release/8.5.1-release-notes</destination>
+			<type>folder</type>
+			<uuidstructure>cd0f2de6-7073-11e2-bfad-4b0ffc7a0e9d</uuidstructure>
+			<datelastmodified>Wed, 06 Feb 2013 15:43:25 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Feb 2013 15:42:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.30]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[8.5.1 Release Notes]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[8.5.1 Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>release/8.5.1-release-notes/index.html</source>
+			<destination>release/8.5.1-release-notes/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>cd1ff6cb-7073-11e2-bfad-4b0ffc7a0e9d</uuidstructure>
+			<uuidresource>cd1ff6cc-7073-11e2-bfad-4b0ffc7a0e9d</uuidresource>
+			<datelastmodified>Wed, 06 Feb 2013 15:43:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Feb 2013 15:42:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[8.5.1 Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>release/installation</destination>
 			<type>folder</type>
 			<uuidstructure>e19630cc-7720-11e0-bfd0-1797e684fbbe</uuidstructure>
@@ -1185,10 +1251,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>d86c0638-03b8-11e2-acfe-000c2972a6a4</uuidstructure>
-			<datelastmodified>Fri, 21 Sep 2012 06:52:01 GMT</datelastmodified>
+			<uuidstructure>4bc5f9f7-7070-11e2-bfad-4b0ffc7a0e9d</uuidstructure>
+			<datelastmodified>Wed, 06 Feb 2013 15:17:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 21 Sep 2012 06:52:01 GMT</datecreated>
+			<datecreated>Wed, 06 Feb 2013 15:17:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -1207,10 +1273,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>dfe33044-03b8-11e2-acfe-000c2972a6a4</uuidstructure>
-			<datelastmodified>Fri, 21 Sep 2012 06:52:13 GMT</datelastmodified>
+			<uuidstructure>4f60ad23-7070-11e2-bfad-4b0ffc7a0e9d</uuidstructure>
+			<datelastmodified>Wed, 06 Feb 2013 15:17:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 21 Sep 2012 06:52:13 GMT</datecreated>
+			<datecreated>Wed, 06 Feb 2013 15:17:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
