@@ -27,6 +27,7 @@ var Manager;
     Manager.addWidget(new AjaxSolr.AutocompleteWidget({
       id: 'text',
       target: '#search',
+      field: 'content_' + opencmsLocale,
       fields: [ 'Title_prop', 'category_exact', 'type' ]
     }));
     var fields = [ 'type' ];
