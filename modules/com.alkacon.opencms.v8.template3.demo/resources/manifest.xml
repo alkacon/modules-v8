@@ -3540,10 +3540,6 @@
 					<name>calendar.startdate</name>
 					<value><![CDATA[1346942760000]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1346942760000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -3591,10 +3587,6 @@
 				</property>
 				<property>
 					<name>calendar.startdate</name>
-					<value><![CDATA[1348567200000]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
 					<value><![CDATA[1348567200000]]></value>
 				</property>
 			</properties>
@@ -3655,10 +3647,6 @@
 					<name>Title</name>
 					<value><![CDATA[Flowers not only look nice...]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1343893620000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -3689,10 +3677,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Exciting new Acacia variety discovered]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1348474500000]]></value>
 				</property>
 			</properties>
 			<relations>

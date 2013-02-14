@@ -46,7 +46,6 @@
 			<mappings>
 				<mapping element="Title" mapto="property:Title"/>
 				<mapping element="Title" mapto="urlName"/>
-				<mapping element="Date" mapto="property:collector.date"/>
 				<mapping element="Availability/Release" mapto="attribute:datereleased"/>
 				<mapping element="Availability/Expiration" mapto="attribute:dateexpired"/>
 			</mappings>
@@ -65,6 +64,9 @@
 			<searchsettings>
 				<searchsetting element="Title" searchcontent="true">
 					<solrfield targetfield="Title" />
+				</searchsetting>
+				<searchsetting element="Date" searchcontent="false">
+					<solrfield targetfield="newsdate" sourcefield="*_dt" />
 				</searchsetting>
 			</searchsettings>
 			<formatters>

@@ -4,7 +4,7 @@
   <V8List language="en">
     <Title><![CDATA[All news]]></Title>
     <Collector><![CDATA[byQuery]]></Collector>
-    <Parameter><![CDATA[fq=type:v8news&fq=parent-folders:(/shared/.content/news/ OR %(request.siteroot)%(link1))&sort=collector.priority_prop desc, collector.date_prop desc|createPath=%(link1)n_%(number:5).html]]></Parameter>
+    <Parameter><![CDATA[fq=type:v8news&fq=con_locales:%(request.locale)&fq=parent-folders:(/shared/.content/news/ OR %(request.siteroot)%(link1))&sort=collector.priority_prop desc, newsdate_%(request.locale)_dt desc&rows=100|createPath=%(link1)n_%(number:5).html]]></Parameter>
     <Links>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.content/news/]]></target>
@@ -40,7 +40,7 @@
       <content/>
     </TextBottom>
     <Collector><![CDATA[byQuery]]></Collector>
-    <Parameter><![CDATA[fq=type:v8news&fq=parent-folders:(/shared/.content/news/ OR %(request.siteroot)%(link1))&sort=collector.priority_prop desc, collector.date_prop desc|createPath=%(link1)n_%(number:5).html]]></Parameter>
+    <Parameter><![CDATA[fq=type:v8news&fq=con_locales:%(request.locale)&fq=parent-folders:(/shared/.content/news/ OR %(request.siteroot)%(link1))&sort=collector.priority_prop desc, newsdate_%(request.locale)_dt desc&rows=100|createPath=%(link1)n_%(number:5).html]]></Parameter>
     <Links>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.content/news/]]></target>

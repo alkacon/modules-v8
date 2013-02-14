@@ -45,7 +45,6 @@
 			<mappings>
 				<mapping element="Title" mapto="property:Title"/>
 				<mapping element="Title" mapto="urlName"/>
-				<mapping element="EventDates/EventStartDate" mapto="property:collector.date"/>
 				<mapping element="EventDates/EventStartDate" mapto="property:calendar.startdate"/>
 				<mapping element="EventDates/EventEndDate" mapto="property:calendar.enddate"/>
 				<mapping element="Availability/Release" mapto="attribute:datereleased"/>
@@ -66,8 +65,11 @@
 				<searchsetting element="Title" searchcontent="true">
 					<solrfield targetfield="Title" />
 				</searchsetting>
-				<searchsetting element="Title" searchcontent="true">
-					<solrfield targetfield="Title" />
+				<searchsetting element="EventDates/EventStartDate" searchcontent="false">
+					<solrfield targetfield="startdate" sourcefield="*_dt" />
+				</searchsetting>
+				<searchsetting element="EventDates/EventEndDate" searchcontent="false">
+					<solrfield targetfield="enddate" sourcefield="*_dt" />
 				</searchsetting>
 				<searchsetting element="Paragraph/Image/Align" searchcontent="false" />
 			</searchsettings>

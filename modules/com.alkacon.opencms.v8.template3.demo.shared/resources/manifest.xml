@@ -5557,10 +5557,6 @@
 					<name>calendar.startdate</name>
 					<value><![CDATA[1338802320000]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1338802320000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -5620,10 +5616,6 @@
 					<name>calendar.startdate</name>
 					<value><![CDATA[1342339200000]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1342339200000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -5671,10 +5663,6 @@
 				</property>
 				<property>
 					<name>calendar.startdate</name>
-					<value><![CDATA[1330765200000]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
 					<value><![CDATA[1330765200000]]></value>
 				</property>
 			</properties>
@@ -5736,10 +5724,6 @@
 					<name>calendar.startdate</name>
 					<value><![CDATA[1343556000000]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1343556000000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -5787,10 +5771,6 @@
 				</property>
 				<property>
 					<name>calendar.startdate</name>
-					<value><![CDATA[1339339560000]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
 					<value><![CDATA[1339339560000]]></value>
 				</property>
 			</properties>
@@ -5852,10 +5832,6 @@
 					<name>calendar.startdate</name>
 					<value><![CDATA[1332603960000]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1332603960000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -5905,10 +5881,6 @@
 					<name>calendar.startdate</name>
 					<value><![CDATA[1336401960000]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1336401960000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -5956,10 +5928,6 @@
 				</property>
 				<property>
 					<name>calendar.startdate</name>
-					<value><![CDATA[1302878760000]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
 					<value><![CDATA[1302878760000]]></value>
 				</property>
 			</properties>
@@ -6031,10 +5999,6 @@
 					<name>calendar.startdate</name>
 					<value><![CDATA[1333723560000]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1333723560000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -6082,10 +6046,6 @@
 				</property>
 				<property>
 					<name>calendar.startdate</name>
-					<value><![CDATA[1336920360000]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
 					<value><![CDATA[1336920360000]]></value>
 				</property>
 			</properties>
@@ -6147,10 +6107,6 @@
 					<name>calendar.startdate</name>
 					<value><![CDATA[1334501160000]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1334501160000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -6198,10 +6154,6 @@
 				</property>
 				<property>
 					<name>calendar.startdate</name>
-					<value><![CDATA[1337093160000]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
 					<value><![CDATA[1337093160000]]></value>
 				</property>
 			</properties>
@@ -6262,10 +6214,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Happy Mother's Day]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1336895220000]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -6328,10 +6276,6 @@
 					<name>Title</name>
 					<value><![CDATA[Bizarre- the new flower printer]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1325758620000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -6362,10 +6306,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Cooking with flowers]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1328437980000]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -6408,10 +6348,6 @@
 					<name>Title</name>
 					<value><![CDATA[Common privet anymore toxic!]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1338810300000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -6452,10 +6388,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Bloomy record]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1340192700000]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -6508,10 +6440,6 @@
 					<name>Title</name>
 					<value><![CDATA[Chelsea Flower Show in London]]></value>
 				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1337602980000]]></value>
-				</property>
 			</properties>
 			<relations>
 				<relation>
@@ -6552,10 +6480,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Flower of the year 2012]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1343737680000]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -6607,10 +6531,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[BUGA 2011 in Koblenz]]></value>
-				</property>
-				<property>
-					<name>collector.date</name>
-					<value><![CDATA[1318765980000]]></value>
 				</property>
 			</properties>
 			<relations>
