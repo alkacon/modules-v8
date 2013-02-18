@@ -11,6 +11,7 @@
 	<cms:enable-ade/>
 	
 	<c:set var="cols"><cms:property name="style.columns" file="search" default="3" /></c:set>
+	<c:set var="centerwidth" value="930" />
 
 	<!-- insert stylesheets needed for the template -->
 	<link href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.v8.template3/resources/css/form.css:3b612cb3-6b29-11e0-bc98-e363b206b5de)</cms:link>" rel="stylesheet" type="text/css"></link>
@@ -60,6 +61,7 @@
 				</div>
 	  		</div>
 	  		<!-- end: left column -->
+			<c:set var="centerwidth" value="700" />
 			</c:if>
 
 	  		<c:if test="${cols == '3'}">
@@ -71,6 +73,7 @@
 		        	</div>
 	      		</div>
 	      		<!-- end: right column -->
+			<c:set var="centerwidth" value="450" />
 			</c:if>
 
 	  		<!-- begin: center column -->
@@ -78,7 +81,7 @@
 		  		<div id="col2_content" class="clearfix">
 					<!-- anchor for accessible link to main content -->
 					<a id="content" name="content"></a>
-					<cms:container name="centercontainer" type="center" width="450" maxElements="8" detailview="true"/>
+					<cms:container name="centercontainer" type="center" width="${centerwidth}" maxElements="8" detailview="true"/>
 				</div>
 	  			<div class="clear">&nbsp;</div> 
 			</div>
