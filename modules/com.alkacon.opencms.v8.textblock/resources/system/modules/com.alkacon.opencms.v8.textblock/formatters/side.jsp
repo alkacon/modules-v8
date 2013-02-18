@@ -47,13 +47,13 @@
 			</c:if>
 			<c:choose>
 				<c:when test="${cms.element.settings.keephtml}">
-					<div ${paragraph.rdfa.Text}>
+					<p ${paragraph.rdfa.Text}>
 					${paragraph.value.Text}
-					</div>
+					</p>
 				</c:when><c:otherwise>
-					<div>
+					<p>
 					${cms:trimToSize(cms:stripHtml(paragraph.value.Text), 300)}
-					</div>
+					</p>
 				</c:otherwise>
 			</c:choose>
 			
