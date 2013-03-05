@@ -120,6 +120,28 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
+		
+		<file>
+			<source>system/modules/org.opencms.dev.demo.customwidget/java_src/CmsExampleComplexWidget.java</source>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/java_src/CmsExampleComplexWidget.java</destination>
+			<type>plain</type>
+			<uuidstructure>d0f286d0-09f7-4d52-944d-b03f8d531039</uuidstructure>
+			<uuidresource>ec328f7d-3f1a-4725-ab6c-d2b596b5a2fd</uuidresource>
+			<datelastmodified>Fri, 25 Jan 2013 14:59:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 25 Jan 2013 14:04:33 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CmsExampleComplexWidget]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		
 		<file>
 			<destination>system/modules/org.opencms.dev.demo.customwidget/lib</destination>
 			<type>folder</type>
@@ -181,5 +203,93 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
+		
+		<file>
+			<source>system/modules/org.opencms.dev.demo.customwidget/resources/examplewidget.js</source>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/resources/examplewidget.js</destination>
+			<type>plain</type>
+			<uuidstructure>6257df78-cdcc-40dc-ac98-3669da9a1ca6</uuidstructure>
+			<uuidresource>e7a4e5ae-11b7-4875-b983-4fe54e0e556f</uuidresource>
+			<datelastmodified>Fri, 25 Jan 2013 14:58:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 25 Jan 2013 13:50:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		
+		
+		<file>
+			<source>system/modules/org.opencms.dev.demo.customwidget/resources/examplewidget.css</source>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/resources/examplewidget.css</destination>
+			<type>plain</type>
+			<uuidstructure>1945382d-0145-4264-babc-120388e2ce6f</uuidstructure>
+			<uuidresource>38ac8530-61a9-44c6-9b5d-8f8b74f2daa8</uuidresource>
+			<datelastmodified>Fri, 25 Jan 2013 14:58:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 25 Jan 2013 13:50:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		
+		
+		<file>
+			<source>system/modules/org.opencms.dev.demo.customwidget/examplewidget_content.html</source>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/examplewidget_content.html</destination>
+			<type>xmlcontent</type>
+			<uuidstructure>31034e37-a5d8-4c0e-bc92-67a756647f27</uuidstructure>
+			<uuidresource>7353ddda-b190-40d6-b6d5-eff9e8396df8</uuidresource>
+			<datelastmodified>Fri, 25 Jan 2013 14:58:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 25 Jan 2013 13:50:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		
+		
+		
+		<file>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/schemas</destination>
+			<type>folder</type>
+			<uuidstructure>49010e18-8b7b-4f36-a6ef-4298ebb7baf6</uuidstructure>
+			<datelastmodified>Sat, 07 May 2011 09:05:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 15 Apr 2011 08:53:03 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		
+		<file>
+			<source>system/modules/org.opencms.dev.demo.customwidget/schemas/article_with_examplewidget.xsd</source>
+			<destination>system/modules/org.opencms.dev.demo.customwidget/schemas/article_with_examplewidget.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>f264893b-fff8-43d6-adff-75d214700b77</uuidstructure>
+			<uuidresource>cd4cfe18-7b64-4af9-ac29-e0c6f5a610b2</uuidresource>
+			<datelastmodified>Wed, 13 Jul 2011 15:20:16 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 04 May 2011 12:03:01 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for the basic article with custom complex widget]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		
 	</files>
 </export>
