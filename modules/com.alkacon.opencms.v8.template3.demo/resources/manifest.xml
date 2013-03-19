@@ -117,6 +117,10 @@
 					<name>Title</name>
 					<value><![CDATA[Blank page]]></value>
 				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.opencms.v8.template3/templates/main.jsp]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
@@ -140,6 +144,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Default page]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.opencms.v8.template3/templates/main.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -168,6 +176,10 @@
 				<property>
 					<name>style.columns</name>
 					<value><![CDATA[2]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.opencms.v8.template3/templates/main.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
