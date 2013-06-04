@@ -36,7 +36,13 @@ function myWidgetInitializationCall(){
         /**
          * Will be called once the widget element is attached to the DOM.
          */
-        onAttachWidget: function(){},
+        onAttachWidget: function(){
+            cmsAddEntityChangeListener({
+                onChange: function(entity){
+                    // do something
+                }
+            }, "path to content field to watch eg. '/Title'")
+        },
         /**
          * Activates or deactivates the widget.
          */
