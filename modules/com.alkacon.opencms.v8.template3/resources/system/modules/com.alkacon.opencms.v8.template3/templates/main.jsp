@@ -49,9 +49,11 @@
 			<c:if test="${cols == '3' || cols == '2'}">
 		  	<div id="col1">
 				<div id="col1_content" class="clearfix">	
-			  	<!-- include the left navigation menu -->
-				<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.v8.template3/elements/menu/nav_side.jsp:715f894d-6b35-11e0-bc98-e363b206b5de)" />
-		  		<!-- include the boxes on the left side -->
+			  	    <!-- include the left navigation menu -->
+				    <cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.v8.template3/elements/menu/nav_side.jsp:715f894d-6b35-11e0-bc98-e363b206b5de)" />
+				    <!-- this container and it's content will only be displayed on detail pages -->
+				    <cms:container name="leftcontainerDetail" detailonly="true" type="left" width="230" maxElements="4" />
+		  		    <!-- include the boxes on the left side -->
 	        		<cms:container name="leftcontainer" type="left" width="230" maxElements="8" />
 				</div>
 	  		</div>
@@ -63,6 +65,8 @@
 			<!-- begin: right column -->
 	  		<div id="col3">
 	  			<div id="col3_content" class="clearfix">
+	  			      <!-- this container and it's content will only be displayed on detail pages -->
+	  			      <cms:container name="rightcontainerDetail" detailonly="true" type="right" width="230" maxElements="4" />
 			          <!-- include the boxes on the right side -->
 			          <cms:container name="rightcontainer" type="right" width="230" maxElements="8" />
 		        	</div>
@@ -77,6 +81,7 @@
 					<!-- anchor for accessible link to main content -->
 					<a id="content" name="content"></a>
 					<cms:container name="centercontainer" type="center" width="${centerwidth}" maxElements="8" detailview="true"/>
+					<cms:container name="centercontainerDetail" type="center" width="${centerwidth}" maxElements="4" detailonly="true"/>
 				</div>
 	  			<div class="clear">&nbsp;</div> 
 			</div>
