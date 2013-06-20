@@ -1,6 +1,6 @@
 <%@page buffer="none" session="false" taglibs="c,cms" %>
 <div>
-	<cms:contentload collector="byQuery" param="q=+parent-folders:/sites/default/ +type:ddarticle&rows=4&start=7&type=dismax&fl=*,score&sort=lastmodified desc" preload="true">
+	<cms:contentload collector="byQuery" param="q=+parent-folders:"/sites/default/" +type:ddarticle&rows=4&start=7&type=dismax&fl=*,score&sort=lastmodified desc" preload="true">
 		<cms:contentinfo var="info" />
 		<c:if test="${info.resultSize > 0}">
 			<cms:contentinfo var="info" />			
