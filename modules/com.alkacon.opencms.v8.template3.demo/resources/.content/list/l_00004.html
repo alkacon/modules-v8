@@ -4,7 +4,7 @@
   <V8List language="en">
     <Title><![CDATA[Recent events]]></Title>
     <Collector><![CDATA[byQuery]]></Collector>
-    <Parameter><![CDATA[fq=type:v8event&fq=con_locales:%(request.locale)&fq=parent-folders:(/shared/.content/event/ OR %(request.siteroot)%(link1))&sort=collector.priority_prop desc, newsdate_%(request.locale)_dt desc&rows=2|createPath=%(link1)e_%(number:5).html]]></Parameter>
+    <Parameter><![CDATA[fq=type:v8event&fq=con_locales:%(request.locale)&fq=parent-folders:("/shared/.content/event/" OR "%(request.siteroot)%(link1)")&sort=collector.priority_prop desc, newsdate_%(request.locale)_dt desc&rows=2|createPath=%(link1)e_%(number:5).html]]></Parameter>
     <Links>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.content/event/]]></target>
@@ -35,7 +35,7 @@
   <V8List language="de">
     <Title><![CDATA[Aktuelle Veranstaltungen]]></Title>
     <Collector><![CDATA[byQuery]]></Collector>
-    <Parameter><![CDATA[fq=type:v8event&fq=con_locales:%(request.locale)&fq=parent-folders:(/shared/.content/event/ OR %(request.siteroot)%(link1))&sort=collector.priority_prop desc, startdate_%(request.locale)_dt desc&rows=2|createPath=%(link1)e_%(number:5).html]]></Parameter>
+    <Parameter><![CDATA[fq=type:v8event&fq=con_locales:%(request.locale)&fq=parent-folders:("/shared/.content/event/" OR "%(request.siteroot)%(link1)")&sort=collector.priority_prop desc, startdate_%(request.locale)_dt desc&rows=2|createPath=%(link1)e_%(number:5).html]]></Parameter>
     <Links>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.content/event/]]></target>
