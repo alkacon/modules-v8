@@ -67,8 +67,8 @@ function myWidgetInitializationCall(){
          * Delegates the value change event to the editor.
          * This function will be attached to the widget by the editor.
          * 
-         * It is required to call this function everytime the widget value changes.
-         * Changes that are propagated through this function won't be saved.                           
+         * It is required to call this function every time the widget value changes.
+         * Changes that are not propagated through this function won't be saved.                           
          */                           
         onChangeCommand: null,
         /**
