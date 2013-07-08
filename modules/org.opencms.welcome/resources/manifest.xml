@@ -3,7 +3,7 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.5.1</opencms_version>
+		<opencms_version>8.5.2</opencms_version>
 		<createdate>Wed, 06 Feb 2013 15:53:26 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
@@ -14,10 +14,10 @@
 		<group>OpenCms Release Notes</group>
 		<class/>
 		<description><![CDATA[<p>This module contains the OpenCms welcome page and release notes.</p>
-<p>Install this module as a simple demonstration for the template capabilities of OpenCms 8.0.</p>
+<p>Install this module as a simple demonstration for the template capabilities of OpenCms 8.5.</p>
 <p><strong>Note:</strong> Deleting this module will remove the "/release" folder and all pages there.</p>
 <p><i>(c) 2013 by Alkacon Software GmbH (http://www.alkacon.com).</i></p>]]></description>
-		<version>8.5.1</version>
+		<version>8.5.2</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
@@ -478,6 +478,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Release Notes for OpenCms 8.5.1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>release/.content/textblock/t_00010.html</source>
+			<destination>release/.content/textblock/t_00010.html</destination>
+			<type>v8textblock</type>
+			<uuidstructure>a3bcf413-e79c-11e2-b9ba-0b58e55c41a7</uuidstructure>
+			<uuidresource>a3bcf414-e79c-11e2-b9ba-0b58e55c41a7</uuidresource>
+			<datelastmodified>Mon, 08 Jul 2013 07:25:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 08 Jul 2013 07:04:32 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Release Notes for OpenCms 8.5.2]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1170,6 +1190,64 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[8.5.1 Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>release/8.5.2-release-notes</destination>
+			<type>folder</type>
+			<uuidstructure>c5202a08-e79c-11e2-b9ba-0b58e55c41a7</uuidstructure>
+			<datelastmodified>Mon, 08 Jul 2013 07:05:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 08 Jul 2013 07:05:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.050000012]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[8.5.2 Release Notes]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[8.5.2 Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>release/8.5.2-release-notes/index.html</source>
+			<destination>release/8.5.2-release-notes/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>c5333cdd-e79c-11e2-b9ba-0b58e55c41a7</uuidstructure>
+			<uuidresource>c5333cde-e79c-11e2-b9ba-0b58e55c41a7</uuidresource>
+			<datelastmodified>Mon, 08 Jul 2013 07:06:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 08 Jul 2013 07:05:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[2 column layout (left / center)]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[8.5.2 Release Notes]]></value>
+				</property>
+				<property>
+					<name>style.columns</name>
+					<value><![CDATA[2]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.opencms.v8.template3/templates/main.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
