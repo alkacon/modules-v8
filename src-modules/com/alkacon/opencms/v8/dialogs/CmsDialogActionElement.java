@@ -32,13 +32,13 @@ import com.alkacon.opencms.v8.dialogs.shared.I_CmsDialogConstants;
 import com.alkacon.opencms.v8.dialogs.shared.rpc.I_CmsDialogService;
 
 import org.opencms.gwt.CmsGwtActionElement;
+import org.opencms.main.OpenCms;
 import org.opencms.util.CmsStringUtil;
 import org.opencms.workplace.CmsWorkplace;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.jsp.PageContext;
-
 
 /**
  * Dialog action element.<p>
@@ -47,8 +47,11 @@ import javax.servlet.jsp.PageContext;
  */
 public class CmsDialogActionElement extends CmsGwtActionElement {
 
+    /** The OpenCms module name. */
+    public static final String CMS_MODULE_NAME = "com.alkacon.opencms.v8.dialogs";
+
     /** The module name. */
-    public static final String MODULE_NAME = "dialogs";
+    public static final String GWT_MODULE_NAME = "dialogs";
 
     /** The dialog data. */
     private CmsDialogData m_dialogData;
@@ -89,7 +92,9 @@ public class CmsDialogActionElement extends CmsGwtActionElement {
         sb.append(super.export());
         sb.append(export());
         sb.append(exportCloseLink());
-        sb.append(createNoCacheScript(MODULE_NAME));
+        sb.append(createNoCacheScript(
+            GWT_MODULE_NAME,
+            OpenCms.getModuleManager().getModule(CMS_MODULE_NAME).getVersion().toString()));
         return sb.toString();
     }
 
@@ -109,16 +114,6 @@ public class CmsDialogActionElement extends CmsGwtActionElement {
     }
 
     /**
-     * Returns the dialog title.<p>
-     * 
-     * @return the dialog title
-     */
-    public String getTitle() {
-
-        return Messages.get().getBundle(getWorkplaceLocale()).key(Messages.GUI_DIALOG_TITLE_0);
-    }
-
-    /**
      * Returns the needed server data for client-side usage.<p> 
      *
      * @return the needed server data for client-side usage
@@ -129,6 +124,16 @@ public class CmsDialogActionElement extends CmsGwtActionElement {
             m_dialogData = CmsDialogService.newInstance(getRequest()).prefetch();
         }
         return m_dialogData;
+    }
+
+    /**
+     * Returns the dialog title.<p>
+     * 
+     * @return the dialog title
+     */
+    public String getTitle() {
+
+        return Messages.get().getBundle(getWorkplaceLocale()).key(Messages.GUI_DIALOG_TITLE_0);
     }
 
     /**
