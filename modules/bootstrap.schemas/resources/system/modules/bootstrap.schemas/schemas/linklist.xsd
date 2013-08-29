@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/bootstrap.schemas/schemas/nested/link.xsd"/>
+	<xsd:element name="V9LinkLists" type="OpenCmsV9LinkLists"/>
+	<xsd:complexType name="OpenCmsV9LinkLists">
+		<xsd:sequence>
+			<xsd:element name="V9LinkList" type="OpenCmsV9LinkList" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="OpenCmsV9LinkList">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString"/>
+			<xsd:element name="ShowTitle" type="OpenCmsBoolean"/>
+			<xsd:element name="Links" type="OpenCmsV9Link" minOccurs="0" maxOccurs="10"/>
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="bootstrap.schemas.workplace"/>
+			<mappings>
+				<mapping element="Title" mapto="property:Title"/>
+			</mappings>
+			<defaults>
+				<default element="Title" value="%(key.def.linklist.title.new)" />
+				<default element="ShowTitle" value="true" />
+			</defaults>
+			<validationrules>
+				<rule element="Title" regex=".+" type="error" message="%(key.err.linklist.title.empty)" />
+			</validationrules>
+			<formatters>
+				<formatter minwidth="150" uri="/system/modules/bootstrap.template/formatters/linklist-box.jsp" searchcontent="false"/>
+			</formatters>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>

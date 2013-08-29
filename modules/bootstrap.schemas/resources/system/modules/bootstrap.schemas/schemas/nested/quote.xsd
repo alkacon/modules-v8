@@ -1,0 +1,25 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+    <xsd:element name="V9TextblockQuotes" type="OpenCmsV9TextblockQuotes"/>
+    <xsd:complexType name="OpenCmsV9TextblockQuotes">
+        <xsd:sequence>
+            <xsd:element name="V9TextblockQuote" type="OpenCmsV9TextblockQuote" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="OpenCmsV9TextblockQuote">
+        <xsd:sequence>
+            <xsd:element name="Headline" type="OpenCmsString"/>
+            <xsd:element name="Quote" type="OpenCmsString"/>
+            <xsd:element name="Text" type="OpenCmsHtml"/>
+        </xsd:sequence>
+        <xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+    </xsd:complexType>
+    <xsd:annotation>
+        <xsd:appinfo>
+            <resourcebundle name="bootstrap.schemas.workplace"/>
+            <layouts>
+                <layout element="Text" widget="HtmlWidget" configuration="height:200px,link,anchor"/>
+            </layouts>
+        </xsd:appinfo>
+    </xsd:annotation>
+</xsd:schema>

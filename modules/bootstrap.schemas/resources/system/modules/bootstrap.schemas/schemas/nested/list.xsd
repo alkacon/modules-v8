@@ -1,0 +1,23 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+    <xsd:element name="V9TextblockLists" type="OpenCmsV9TextblockLists"/>
+    <xsd:complexType name="OpenCmsV9TextblockLists">
+        <xsd:sequence>
+            <xsd:element name="V9TextblockList" type="OpenCmsV9TextblockList" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="OpenCmsV9TextblockList">
+        <xsd:sequence>
+            <xsd:element name="Headline" type="OpenCmsString"/>
+            <xsd:element name="Numbered" type="OpenCmsBoolean"/>
+            <xsd:element name="Entry" type="OpenCmsString" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+    </xsd:complexType>
+    <xsd:annotation>
+        <xsd:appinfo>
+            <resourcebundle name="booststrap.schemas.workplace"/>
+            <layouts/>
+        </xsd:appinfo>
+    </xsd:annotation>
+</xsd:schema>
