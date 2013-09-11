@@ -45,6 +45,7 @@
     <c:choose>
 		<c:when test="${editmode}">
 			padding: 0;
+			margin: 0 5px;
 		</c:when>
 		<c:otherwise>
 			padding: 10px 0;
