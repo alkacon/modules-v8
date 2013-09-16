@@ -38,5 +38,17 @@
       <Key><![CDATA[desc.bs-textblock]]></Key>
       <Value><![CDATA[A Text Block can contain multiple paragraphs with an optional image and link.]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-product]]></Key>
+      <Value><![CDATA[Product]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-product]]></Key>
+      <Value><![CDATA[New Product]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-product]]></Key>
+      <Value><![CDATA[A Product description.]]></Value>
+    </Message>
   </Bundle>
 </XmlVfsBundles>

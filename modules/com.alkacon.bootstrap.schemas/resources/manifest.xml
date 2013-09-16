@@ -32,6 +32,8 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-jumbotron_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-textblock.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-textblock_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-product.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-product_big.png"/>
 		</resources>
 		<parameters/>
 		<resourcetypes>
@@ -44,6 +46,9 @@
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-textblock" id="182">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd</param>
 			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="183">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</param>
+			</type>
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="bs-jumbotron" key="fileicon.bs-jumbotron" icon="bs-jumbotron.png" bigicon="bs-jumbotron_big.png" reference="xmlcontent">
@@ -55,16 +60,19 @@
 			<explorertype name="bs-textblock" key="fileicon.bs-textblock" icon="bs-textblock.png" bigicon="bs-textblock_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-textblock" order="114" autosetnavigation="false" autosettitle="false" info="desc.bs-textblock"/>
 			</explorertype>
+			<explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="115" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
+			</explorertype>
 		</explorertypes>
 	</module>
 	<files>
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>12e8cfc1-1a06-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 10:45:14 GMT</datelastmodified>
+			<uuidstructure>a2b492a7-1eba-11e3-ae8b-000c297c001d</uuidstructure>
+			<datelastmodified>Mon, 16 Sep 2013 10:27:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 10 Sep 2013 10:45:14 GMT</datecreated>
+			<datecreated>Mon, 16 Sep 2013 10:27:49 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -83,10 +91,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>1979b77d-1a06-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 10:45:25 GMT</datelastmodified>
+			<uuidstructure>a51fec93-1eba-11e3-ae8b-000c297c001d</uuidstructure>
+			<datelastmodified>Mon, 16 Sep 2013 10:27:53 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 10 Sep 2013 10:45:25 GMT</datecreated>
+			<datecreated>Mon, 16 Sep 2013 10:27:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -270,6 +278,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.product</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.product</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>ee8eacd2-1ed2-11e3-8842-000c297c001d</uuidstructure>
+			<uuidresource>ee8eacd3-1ed2-11e3-8842-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 13:29:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 13:21:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization configuration element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.textblock</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.textblock</destination>
 			<type>xmlvfsbundle</type>
@@ -365,6 +397,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[XSD for a Jumbotron component]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>7bd5b7a1-1ebe-11e3-8b2b-000c297c001d</uuidstructure>
+			<uuidresource>7bd5b7a2-1ebe-11e3-8b2b-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 13:19:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 10:55:22 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a product description]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -601,6 +653,46 @@
 			<datelastmodified>Fri, 13 Sep 2013 12:32:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 12:32:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-product.png</source>
+			<destination>system/workplace/resources/filetypes/bs-product.png</destination>
+			<type>image</type>
+			<uuidstructure>d844a7e4-1ec7-11e3-8b2b-000c297c001d</uuidstructure>
+			<uuidresource>d844a7e5-1ec7-11e3-8b2b-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 13 Sep 2013 12:32:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 12:02:22 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-product_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-product_big.png</destination>
+			<type>image</type>
+			<uuidstructure>e3d02177-1ec7-11e3-8b2b-000c297c001d</uuidstructure>
+			<uuidresource>e3d02178-1ec7-11e3-8b2b-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 13 Sep 2013 12:32:21 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 12:02:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>

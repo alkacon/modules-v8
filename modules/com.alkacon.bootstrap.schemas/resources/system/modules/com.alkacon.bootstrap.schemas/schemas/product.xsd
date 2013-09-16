@@ -1,0 +1,55 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd" />
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/nested/link.xsd" />
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/nested/image.xsd" />
+
+	<xsd:element name="BootstrapProducts" type="OpenCmsBootstrapProducts" />
+
+	<xsd:complexType name="OpenCmsBootstrapProducts">
+		<xsd:sequence>
+			<xsd:element name="BootstrapProduct" type="OpenCmsBootstrapProduct" minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapProduct">
+		<xsd:sequence>
+			<xsd:element name="Name" type="OpenCmsString" />
+			<xsd:element name="Description" type="OpenCmsString" />
+			<xsd:element name="Color" type="OpenCmsColor" minOccurs="0" />
+			<xsd:element name="Image" type="OpenCmsBootstrapTextblockImage" minOccurs="0" />
+			<xsd:element name="ProductID" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="Brand" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="Manufacturer" type="OpenCmsString" minOccurs="0" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required" />
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.product" />
+			<tabs>
+				<tab element="Name" collapse="false" name="General" />
+				<tab element="ProductID" collapse="false" name="Additional" />
+			</tabs>
+			<mappings>
+				<mapping element="Name" mapto="property:Title" />
+				<mapping element="Name" mapto="urlName" />
+			</mappings>
+			<defaults>
+				<default element="Name" value="%(key.bootstrap.product.default.Name)" />
+				<default element="Description" value="%(key.bootstrap.product.default.Description)" />
+			</defaults>
+			<layouts>
+				<layout element="Description" widget="TextareaWidget" configuration="4" />
+			</layouts>
+			<validationrules />
+			<relations />
+			<searchsettings containerPageOnly="false" />
+			<formatters>
+				<formatter minwidth="400" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/product.jsp" searchcontent="true" />
+			</formatters>
+			<settings />
+		</xsd:appinfo>
+	</xsd:annotation>
+</xsd:schema>

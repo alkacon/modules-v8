@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Name]]></Key>
+      <Value><![CDATA[Name]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Name.help]]></Key>
+      <Value><![CDATA[The title of the product.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Description]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Description.help]]></Key>
+      <Value><![CDATA[The description of the product.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Color]]></Key>
+      <Value><![CDATA[Color]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Color.help]]></Key>
+      <Value><![CDATA[The color of the product.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Image.help]]></Key>
+      <Value><![CDATA[The image of the product.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.ProductID]]></Key>
+      <Value><![CDATA[Product ID]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.ProductID.help]]></Key>
+      <Value><![CDATA[The id of the product.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Brand]]></Key>
+      <Value><![CDATA[Brand]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Brand.help]]></Key>
+      <Value><![CDATA[The brand of the product.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Manufacturer]]></Key>
+      <Value><![CDATA[Manufacturer]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Manufacturer.help]]></Key>
+      <Value><![CDATA[The manufacturer of the product.]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>
