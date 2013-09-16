@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblock.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblock.Title.help]]></Key>
+      <Value><![CDATA[The title of the text block. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblock.Paragraph]]></Key>
+      <Value><![CDATA[Paragraph]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblock.Paragraph.help]]></Key>
+      <Value><![CDATA[A paragraph for a text block, up to 5 paragraphs are possible.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockParagraph.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockParagraph.Headline.help]]></Key>
+      <Value><![CDATA[The optional headline of the paragraph.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockParagraph.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockParagraph.Text.help]]></Key>
+      <Value><![CDATA[The paragraph text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockParagraph.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockParagraph.Image.help]]></Key>
+      <Value><![CDATA[An image that can be aligned in different ways.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockParagraph.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockParagraph.Link.help]]></Key>
+      <Value><![CDATA[A link pointing to further information, can also be an external link (starting with <b>http://</b>).]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockImage.Image]]></Key>
+      <Value><![CDATA[Image URI]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockImage.Image.help]]></Key>
+      <Value><![CDATA[The absolute path to the image to use.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockImage.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockImage.Title.help]]></Key>
+      <Value><![CDATA[The image title is displayed when hovering the image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.image.left]]></Key>
+      <Value><![CDATA[Left of text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.image.right]]></Key>
+      <Value><![CDATA[Right of text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.image.top]]></Key>
+      <Value><![CDATA[Top]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.setting.imgalign]]></Key>
+      <Value><![CDATA[Image alignment]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.default.Title]]></Key>
+      <Value><![CDATA[New text block]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.default.Text]]></Key>
+      <Value><![CDATA[Please edit the text block text.]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

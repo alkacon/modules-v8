@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Theme]]></Key>
+      <Value><![CDATA[Color Theme]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Theme.help]]></Key>
+      <Value><![CDATA[Choose the main colors of the template.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.header.light]]></Key>
+      <Value><![CDATA[Light]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.header.dark]]></Key>
+      <Value><![CDATA[Dark]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Header]]></Key>
+      <Value><![CDATA[Header HTML]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Header.help]]></Key>
+      <Value><![CDATA[HTML code for the header of the pages.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Copyright]]></Key>
+      <Value><![CDATA[Copyright HTML]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Copyright.help]]></Key>
+      <Value><![CDATA[HTML code for the copyright in the foot of the pages.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[boostrap.configuration.theme.blue]]></Key>
+      <Value><![CDATA[Blue]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[boostrap.configuration.theme.light]]></Key>
+      <Value><![CDATA[Light]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[boostrap.configuration.theme.orange]]></Key>
+      <Value><![CDATA[Orange]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[boostrap.configuration.theme.red]]></Key>
+      <Value><![CDATA[Red]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

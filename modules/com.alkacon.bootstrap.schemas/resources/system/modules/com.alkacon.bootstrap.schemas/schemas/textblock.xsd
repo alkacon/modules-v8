@@ -1,0 +1,54 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/nested/paragraph.xsd"/>
+		
+	<xsd:element name="BootstrapTextblocks" type="OpenCmsBootstrapTextblocks"/>
+	
+	<xsd:complexType name="OpenCmsBootstrapTextblocks">
+		<xsd:sequence>
+			<xsd:element name="BootstrapTextblock" type="OpenCmsBootstrapTextblock" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapTextblock">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Paragraph" type="OpenCmsBootstrapTextblockParagraph" maxOccurs="5" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.textblock"/>
+			<mappings>
+				<mapping element="Title" mapto="property:Title" />
+				<mapping element="Title" mapto="urlName" />
+			</mappings>
+			<defaults>
+				<default element="Title" value="%(key.bootstrap.textblock.default.Title)" />
+				<default element="Paragraph/Text" value="%(key.bootstrap.textblock.default.Text)" />
+			</defaults>
+			<layouts/>
+			<validationrules/>
+			<relations>
+				<relation element="Paragraph/Image/Image" invalidate="parent" />
+			</relations>
+			<searchsettings containerPageOnly="true">
+				<searchsetting element="Title" searchcontent="true">
+					<solrfield targetfield="Title" />
+				</searchsetting>
+			</searchsettings>
+			<formatters>
+				<formatter minwidth="400" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-main.jsp" searchcontent="true" />
+				<formatter minwidth="150" maxwidth="250" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-side.jsp" searchcontent="true" />
+			</formatters>
+			<settings>
+				<setting name="imgalign" nice-name="%(key.bootstrap.textblock.setting.imgalign)" type="string" widget="select" widget-config="left:%(key.bootstrap.textblock.image.left)|right:%(key.bootstrap.textblock.image.right)|top:%(key.bootstrap.textblock.image.top)" />
+			</settings>
+			<headincludes/>
+		</xsd:appinfo>
+
+	</xsd:annotation>  
+</xsd:schema>

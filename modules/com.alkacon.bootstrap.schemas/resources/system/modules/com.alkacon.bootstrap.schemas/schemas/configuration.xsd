@@ -1,0 +1,40 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="BootstrapConfigurations" type="OpenCmsBootstrapConfigurations"/>
+
+	<xsd:complexType name="OpenCmsBootstrapConfigurations">
+		<xsd:sequence>
+			<xsd:element name="BootstrapConfiguration" type="OpenCmsBootstrapConfiguration" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapConfiguration">
+		<xsd:sequence>
+			<xsd:element name="Theme" type="OpenCmsString" />
+			<xsd:element name="HeaderType" type="OpenCmsString" />
+			<xsd:element name="Header" type="OpenCmsHtml" />
+			<xsd:element name="Copyright" type="OpenCmsHtml" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.configuration" />
+			<mappings/>
+			<defaults/>
+			<layouts>
+				<layout element="Theme" widget="SelectorWidget" configuration="blue:%(key.boostrap.configuration.theme.blue)|light:%(key.boostrap.configuration.theme.light)|orange:%(key.boostrap.configuration.theme.orange)|red*:%(key.boostrap.configuration.theme.red)" />
+				<layout element="HeaderType" widget="SelectorWidget" configuration="1*:%(key.bootstrap.configuration.header.light)|2:%(key.bootstrap.configuration.header.dark)" />
+				<layout element="Header" widget="TextareaWidget" configuration="10" />
+				<layout element="Copyright" widget="TextareaWidget" configuration="10" />
+			</layouts>
+			<validationrules/>
+			<relations/>
+			<searchsettings containerPageOnly="true" />
+		</xsd:appinfo>
+
+	</xsd:annotation>  
+</xsd:schema>
