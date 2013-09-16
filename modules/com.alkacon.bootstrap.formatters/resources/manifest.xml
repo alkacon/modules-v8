@@ -296,7 +296,7 @@
 			<type>jsp</type>
 			<uuidstructure>30e21d6a-1ed1-11e3-8842-000c297c001d</uuidstructure>
 			<uuidresource>30e21d6b-1ed1-11e3-8842-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 16 Sep 2013 13:15:45 GMT</datelastmodified>
+			<datelastmodified>Mon, 16 Sep 2013 17:06:36 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 13:09:16 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1791,6 +1791,216 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider</destination>
+			<type>folder</type>
+			<uuidstructure>76e2ee11-1eee-11e3-bba9-000c297c001d</uuidstructure>
+			<datelastmodified>Mon, 16 Sep 2013 16:38:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 16:38:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css</destination>
+			<type>plain</type>
+			<uuidstructure>771792bd-1eee-11e3-bba9-000c297c001d</uuidstructure>
+			<uuidresource>771792be-1eee-11e3-bba9-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 16:38:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 16:38:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[jquery.bxslider]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.js</destination>
+			<type>plain</type>
+			<uuidstructure>771cc2e0-1eee-11e3-bba9-000c297c001d</uuidstructure>
+			<uuidresource>771cc2e1-1eee-11e3-bba9-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 16:38:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 16:38:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[jquery.bxslider]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images</destination>
+			<type>folder</type>
+			<uuidstructure>76e733d3-1eee-11e3-bba9-000c297c001d</uuidstructure>
+			<datelastmodified>Mon, 16 Sep 2013 16:38:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 16:38:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/bx_loader.gif</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/bx_loader.gif</destination>
+			<type>image</type>
+			<uuidstructure>76edc385-1eee-11e3-bba9-000c297c001d</uuidstructure>
+			<uuidresource>76edc386-1eee-11e3-bba9-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 16:38:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 16:38:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[bx_loader]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/controls-blue.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/controls-blue.png</destination>
+			<type>image</type>
+			<uuidstructure>76f4a159-1eee-11e3-bba9-000c297c001d</uuidstructure>
+			<uuidresource>76f4a15a-1eee-11e3-bba9-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 16:38:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 16:38:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[controls-blue]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:45,h:47]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/controls-light.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/controls-light.png</destination>
+			<type>image</type>
+			<uuidstructure>76fb310d-1eee-11e3-bba9-000c297c001d</uuidstructure>
+			<uuidresource>76fb310e-1eee-11e3-bba9-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 16:38:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 16:38:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[controls-light]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:45,h:47]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/controls-orange.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/controls-orange.png</destination>
+			<type>image</type>
+			<uuidstructure>7701c0c1-1eee-11e3-bba9-000c297c001d</uuidstructure>
+			<uuidresource>7701c0c2-1eee-11e3-bba9-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 16:38:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 16:38:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[controls-orange]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:45,h:47]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/controls-red.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/controls-red.png</destination>
+			<type>image</type>
+			<uuidstructure>7709fe25-1eee-11e3-bba9-000c297c001d</uuidstructure>
+			<uuidresource>7709fe26-1eee-11e3-bba9-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 16:38:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 16:38:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[controls-red]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:45,h:47]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/controls.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/images/controls.png</destination>
+			<type>image</type>
+			<uuidstructure>7711c659-1eee-11e3-bba9-000c297c001d</uuidstructure>
+			<uuidresource>7711c65a-1eee-11e3-bba9-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 16:38:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 16:38:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[controls]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:45,h:47]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome</destination>
 			<type>folder</type>
 			<uuidstructure>0dec16e4-1b95-11e3-a120-000c29f9a2ec</uuidstructure>
@@ -2131,7 +2341,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>be01129c-1a1a-11e3-9358-000c29f9a2ec</uuidstructure>
 			<uuidresource>be01129d-1a1a-11e3-9358-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 13 Sep 2013 10:18:34 GMT</datelastmodified>
+			<datelastmodified>Mon, 16 Sep 2013 16:40:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Sep 2013 13:13:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>

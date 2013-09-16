@@ -32,6 +32,7 @@
 	<cms:headincludes type="css" closetags="true" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css/bootstrap.min.css:0dabb26f-1b95-11e3-a120-000c29f9a2ec)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/style.css:0b639751-1b95-11e3-a120-000c29f9a2ec)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css/bootstrap-responsive.min.css:0d9d8199-1b95-11e3-a120-000c29f9a2ec)
+		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css:771792bd-1eee-11e3-bba9-000c297c001d)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/style_responsive.css:0b6ac344-1b95-11e3-a120-000c29f9a2ec)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:0e03e4ae-1b95-11e3-a120-000c29f9a2ec)" />
 		<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/headers/header${configcontent.value.HeaderType}.css</cms:link>" rel="stylesheet" type="text/css"></link>
@@ -41,6 +42,7 @@
 	<cms:headincludes type="javascript" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/jquery-1.8.2.min.js:0bd87967-1b95-11e3-a120-000c29f9a2ec)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/modernizr.custom.js:0bdfa55a-1b95-11e3-a120-000c29f9a2ec)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/js/bootstrap.min.js:0de75bf1-1b95-11e3-a120-000c29f9a2ec)
+		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.js:771cc2e0-1eee-11e3-bba9-000c297c001d)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js:0e8263b2-1b95-11e3-a120-000c29f9a2ec)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/app.js:0bd14d74-1b95-11e3-a120-000c29f9a2ec)" />
 	<script type="text/javascript">
