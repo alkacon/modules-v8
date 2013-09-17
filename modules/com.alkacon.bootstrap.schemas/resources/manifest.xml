@@ -49,6 +49,9 @@
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="183">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</param>
 			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-imagerow" id="184">
+                <param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd</param>
+            </type>
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="bs-jumbotron" key="fileicon.bs-jumbotron" icon="bs-jumbotron.png" bigicon="bs-jumbotron_big.png" reference="xmlcontent">
@@ -63,6 +66,9 @@
 			<explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="115" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
 			</explorertype>
+			<explorertype name="bs-imagerow" key="fileicon.bs-imagerow" icon="bs-imagerow.png" bigicon="bs-imagerow_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-imagerow" order="116" autosetnavigation="false" autosettitle="false" info="desc.bs-imagerow"/>
+            </explorertype>
 		</explorertypes>
 	</module>
 	<files>
