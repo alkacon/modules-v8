@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/configuration.xsd">
+  <BootstrapConfiguration language="en">
+    <Theme><![CDATA[orange]]></Theme>
+    <HeaderType><![CDATA[1]]></HeaderType>
+    <NavStartLevel><![CDATA[0]]></NavStartLevel>
+    <Header name="Header0">
+      <links>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/]]></target>
+          <uuid>a51677af-1eba-11e3-ae8b-000c297c001d</uuid>
+        </link>
+        <link name="link3" internal="true" type="A">
+          <target><![CDATA[/sites/default/]]></target>
+          <uuid>a51677af-1eba-11e3-ae8b-000c297c001d</uuid>
+        </link>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[]]></anchor>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[        <ul class="loginbar pull-right">
+            <li><i class="icon-globe"></i><a>Languages <i class="icon-sort-up"></i></a>
+            	<ul class="nav-list">
+                	<li><a href="%(link0)">English</a></li>
+                	<li><a href="%(link1)">German</a></li>
+                </ul>
+            </li>	
+            <li class="devider">&nbsp;</li>
+            <li><a href="%(link2)" class="login-btn">Help</a></li>
+            <li class="devider">&nbsp;</li>
+            <li><a href="%(link3)" class="login-btn">Login</a></li>
+        </ul>]]></content>
+    </Header>
+    <Copyright name="Copyright0">
+      <links>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com]]></target>
+        </link>
+        <link name="link3" internal="true" type="IMG">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_alkacon_png24.png]]></target>
+          <uuid>a9d4b54a-1abc-11e3-9246-000c29f9a2ec</uuid>
+          <query><![CDATA[__scale=w:120,h:39,c:transparent]]></query>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.opencms.org]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com]]></target>
+        </link>
+      </links>
+      <content><![CDATA[		<div class="row-fluid">
+			<div class="span8">						
+	            <p>Build with <a href="%(link0)">OpenCms - The Open Source CMS</a> from <a href="%(link1)">Alkacon Software - The OpenCms Experts</a></p>
+			</div>
+			<div class="span4">	
+				<a href="%(link2)"><img id="logo-footer" src="%(link3)" class="pull-right" alt="Alkacon Software GmbH" /></a>
+			</div>
+		</div><!--/row-fluid-->]]></content>
+    </Copyright>
+  </BootstrapConfiguration>
+</BootstrapConfigurations>

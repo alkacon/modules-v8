@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconInheritConfigGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/inheritance_config.xsd">
+  <AlkaconInheritConfigGroup language="en">
+    <Configuration>
+      <Name><![CDATA[3fe41ad4-fcd6-11e1-a016-21eebf8c5c9b]]></Name>
+      <OrderKey><![CDATA[/flower-en/7797e6a8-fcd6-11e1-a016-21eebf8c5c9b]]></OrderKey>
+      <OrderKey><![CDATA[/flower-en/7797e6a9-fcd6-11e1-a016-21eebf8c5c9b]]></OrderKey>
+      <OrderKey><![CDATA[/flower-en/c34ca474-fcdc-11e1-a016-21eebf8c5c9b]]></OrderKey>
+      <NewElement>
+        <Key><![CDATA[/flower-en/c34ca474-fcdc-11e1-a016-21eebf8c5c9b]]></Key>
+        <Element>
+          <Uri>
+            <link type="STRONG">
+              <target><![CDATA[/sites/default/.content/textblock/t_00015.html]]></target>
+              <uuid>8d8fc6a1-fcdc-11e1-a016-21eebf8c5c9b</uuid>
+            </link>
+          </Uri>
+          <Properties>
+            <Name><![CDATA[boxschema]]></Name>
+            <Value>
+              <String><![CDATA[box_schema2]]></String>
+            </Value>
+          </Properties>
+          <Properties>
+            <Name><![CDATA[keephtml]]></Name>
+            <Value>
+              <String><![CDATA[true]]></String>
+            </Value>
+          </Properties>
+          <Properties>
+            <Name><![CDATA[hidetitle]]></Name>
+            <Value>
+              <String><![CDATA[true]]></String>
+            </Value>
+          </Properties>
+        </Element>
+      </NewElement>
+      <NewElement>
+        <Key><![CDATA[/flower-en/7797e6a8-fcd6-11e1-a016-21eebf8c5c9b]]></Key>
+        <Element>
+          <Uri>
+            <link type="STRONG">
+              <target><![CDATA[/sites/default/.content/textblock/t_00005.html]]></target>
+              <uuid>be62175b-77ff-11e0-be13-000c2972a6a4</uuid>
+            </link>
+          </Uri>
+          <Properties>
+            <Name><![CDATA[boxschema]]></Name>
+            <Value>
+              <String><![CDATA[box_schema3]]></String>
+            </Value>
+          </Properties>
+          <Properties>
+            <Name><![CDATA[keephtml]]></Name>
+            <Value>
+              <String><![CDATA[true]]></String>
+            </Value>
+          </Properties>
+          <Properties>
+            <Name><![CDATA[hidetitle]]></Name>
+            <Value>
+              <String><![CDATA[false]]></String>
+            </Value>
+          </Properties>
+        </Element>
+      </NewElement>
+      <NewElement>
+        <Key><![CDATA[/flower-en/7797e6a9-fcd6-11e1-a016-21eebf8c5c9b]]></Key>
+        <Element>
+          <Uri>
+            <link type="STRONG">
+              <target><![CDATA[/sites/default/.content/function/function-00001.html]]></target>
+              <uuid>5fba7e2c-7655-11e0-a2c2-000c2972a6a4</uuid>
+            </link>
+          </Uri>
+        </Element>
+      </NewElement>
+    </Configuration>
+  </AlkaconInheritConfigGroup>
+</AlkaconInheritConfigGroups>

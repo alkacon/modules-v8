@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[Release Notes for OpenCms 8.5.1]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Release Notes for OpenCms 8.5.1]]></Headline>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://bugzilla.opencms.org/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>February 7, 2013: OpenCms 8.5.1 is an update which improves the content editor functionality as well as the Solr integration. This version also fixes a lot of issues that persisted in the 8.5.0 release.</p>
+<h2>Main new features of OpenCms 8.5.1</h2>
+<ul>
+<li>The content editor shows preview thumbnails for selected images.</li>
+<li>The content editor displays resource information like e.g. "Title" for selected files.</li>
+<li>The performance of the content editor has been improved significantly.</li>
+<li>The workplace property dialog has been replaced with the advanced HTML 5 dialog from the page editor.</li>
+<li>The Solr integration provides better performance, configurability and multi-language handling. </li>
+</ul>
+<h2>Other improvements in OpenCms 8.5.1</h2>
+<ul>
+<li>Added content editor selector, to detect whether the old or new XML content editor should be used.</li>
+<li>Added text based language detection utilities.</li>
+<li>Added configuration option that allows to index contents only when they occur on container pages.</li>
+<li>Added ability to exclude file names from VFS sync with pull request #86, provided by Daniel Latzer.</li>
+<li>Improved Solr field configuration for indexing nested contents with multiple occurrences.</li>
+<li>Improved performance due to increased content definition cache size.</li>
+<li>Improved locale handling when opening the new content editor.</li>
+<li>Improved Solr field mappings defined within XSDs.</li>
+</ul>
+<h2>Fixed issues in OpenCms 8.5.1</h2>
+<ul>
+<li>Fixed issue #20 where browsing a download gallery with custom resource types showed up empty.</li>
+<li>Fixed issue #37 where a "white page" appeared after clicking on the advanced button of the property dialog.</li>
+<li>Fixed issue #44 where it was not possible to save property values for old xmlpage contents.</li>
+<li>Fixed issue #56 where content tool "Language node copier" was broken.</li>
+<li>Fixed issue #64 where CmsResource had an incorrect resource state after de-serialization.</li>
+<li>Fixed issue #68, #70 where file name translation rules were missing, provided by Christian Steinert.</li>
+<li>Fixed issue #73 where HTTP error 409 was returned when importing contents using WebDAV servlet.</li>
+<li>Fixed issue #75 where sorting column "display name" of the field configuration was incorrect.</li>
+<li>Fixed issue #77 where XML content boolean data types should return plain text values, provided by Wolfgang Illmeyer.</li>
+<li>Fixed issue #83 where the new content editor had a problem with comments and JavaScript.</li>
+<li>Fixed issue #84 where saving + exit in the new content editor was possible even if a validation rule was invalid.</li>
+<li>Fixed issue #87 where OU names containing "." would lead to a 404 error on log out.</li>
+<li>Fixed issue #88, #119 where the selector widget had problems with the default value.</li>
+<li>Fixed issue #89 where help bubbles were shown with no text configured.</li>
+<li>Fixed issue #90 where too many tabs were displayed in the new content editor.</li>
+<li>Fixed issue #92 where clicking on a link in the inline editor caused an error.</li>
+<li>Fixed issue #93 where file selector widget did not find any container pages that were part of the default site.</li>
+<li>Fixed issue #95, #96, #97 where FireFox changed user agent string.</li>
+<li>Fixed issue #98 where new content editor did not work for expired resources.</li>
+<li>Fixed issue #99 where displaying XSD choice options at the bottom of the editor window were cropped.</li>
+<li>Fixed issue #102 where renamed resources were remaining within gallery dialogs.</li>
+<li>Fixed issue #104 where TinyMCE entity-escaping resulted in broken links.</li>
+<li>Fixed issue #105 where the category widget showed all categories even if a pre-selection was configured.</li>
+<li>Fixed issue #106 where gallery dialogs popped up empty when opening them with the gallery buttons of the rich text editor.</li>
+<li>Fixed issue #107 where CMIS only found the default locale of XML contents.</li>
+<li>Fixed issue #108 where SEO file JSP had the wrong cache property.</li>
+<li>Fixed issue #110 where the TinyMCE toolbar overflowed unexpectedly in Chrome browsers.</li>
+<li>Fixed issue #111 where the login bean always switched to the users default site.</li>
+<li>Fixed issue #112 where the content access bean performed wrong empty check for nested element types.</li>
+<li>Fixed issue #113 where "CreateNew" in model pages was not behaving as expected.</li>
+<li>Fixed issue #115 where no error message was provided when the password field was left blank, provided by Yuta Aoki.</li>
+<li>Fixed issue #116 where the upload did not work from gallery folder tab.</li>
+<li>Fixed issue #117 where xsd:choice nesting another xsd:choice caused errors in new content editor.</li>
+<li>Fixed issue #121 where the gallery items were sorted incorrect.</li>
+<li>Fixed issue #123 where the new content editor created a new default locale node even when a none-default locale already exists.</li>
+<li>Fixed issue #124 where search excerpt was missing when using wildcards.</li>
+<li>Fixed issue #126 where newly added xsd:choice elements did not show choices.</li>
+<li>Fixed issue #127 where the image gallery widget did not open correctly using Internet Explorer.</li>
+<li>Fixed issue #128 where an exception was thrown when indexing dependent documents.</li>
+<li>Fixed issue #131 where a NPE was thrown when using custom widgets in the new content editor.</li>
+<li>Fixed issue #132 where index selection in the workplace search had no effect.</li>
+<li>Fixed issue #135 where upload to gallery was displaying errors.</li>
+<li>Fixed issue #136 where using custom styles for TinyMCE Editor with "style_formats" caused problems, provided by David Landreman.</li>
+<li>Fixed issue #139 where image URLs treated wrongly as external when they contain scale parameters and workplace server was HTTPS.</li>
+<li>Fixed issue #141 where JavaScript animations were flickering in Chrome 24.</li>
+<li>Fixed issue #142 where TinyMCE toolbar was positioned inside the text area.</li>
+<li>Fixed issue #144 where database schema for HSQLDB was improved, provided by Georgi Naplatanov.</li>
+<li>Fixed issue where fall-back locale was not used.</li>
+<li>Fixed issue where file selector widget did ignore the start gallery.</li>
+<li>Fixed issue where file selector widget text overflowed unexpectedly.</li>
+<li>Fixed issue where radio select widget did handle the default value wrongly.</li>
+<li>Fixed issue where HTML widget initialization failed for choice options.</li>
+<li>Fixed issue where string widget added unwanted line breaks.</li>
+<li>Fixed issue where writing search configuration failed when Solr index configured.</li>
+<li>Fixed issue where 'Publish with related resources' did not work as expected.</li>
+<li>Fixed issue where view permissions were not handled correctly in gallery dialogs.</li>
+</ul>
+<h2>Features of OpenCms in general</h2>
+<ul>
+<li>The page editor allows to create and arrange content on web pages by drag &amp; drop.</li>
+<li>The sitemap editor allows to create new pages and re-arrange the navigation tree by drag &amp; drop.</li>
+<li>Support for creation of content for mobile devices with the &lt;cms:mobile&gt; tag.</li>
+<li>Structured contents can be defined using a simple XML schema.</li>
+<li>Editors with WYSIWYG and syntax highlighting functionality.</li>
+<li>Easy to use "Online / Offline" workflow, changes must be approved before they become visible.</li>
+<li>Link management for all internal resources with broken link detection.</li>
+<li>Integrated image scaling and cropping.</li>
+<li>Full featured internal user management that supports the concept of "Organizational Units" (OUs).</li>
+<li>Allows management of multiple websites within one installation.</li>
+<li>Contents can be served dynamically or exported to static HTML files.</li>
+<li>Extensions can be added through a flexible module system.</li>
+<li>Full text search for web pages, but also in PDF, MS Office documents etc.</li>
+<li>The "time warp" feature allows to view resources which are expired or not yet released.</li>
+<li>JSP integration for dynamic functionality in templates, dynamic forms etc.</li>
+<li>... and many more</li>
+</ul>
+<h2>Backward compatibility</h2>
+<p>We recommend everyone who uses OpenCms to update to this 8.5.1 release.</p>
+<p>OpenCms 8.5.1 is fully backward compatible to all prior 8.x and 7.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 8.5.1.</p>
+<p><strong>Notice for users of Alkacon OCEE:</strong> OpenCms version 8.5.1 requires Alkacon OCEE version 3.5.1 or later. In case you want to update your OpenCms installation to 8.5.1, please make sure you update Alkacon OCEE to 3.5.1 or later first!</p>
+<h2>Compatibility with Java versions, Servlet containers and Databases</h2>
+<p>OpenCms 8.5.1 has been written and tested for Java 5, 6 and 7. We have tested only with ORACLEs version of the JDK. However, OpenCms has no dependencies to sun.* packages so it should in theory run with all compliant JVMs.</p>
+<p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>
+<p>On the database side, we have tested with MySQL, Oracle, PostgreSQL, MS SQL Server, DB2 and HSQLDB. The automatic update wizard for OpenCms 8 supports MySQL, Oracle and PostgreSQL.</p>
+<h2>Regarding version numbers and build tags</h2>
+<p>In case you want to check out OpenCms from Git, please keep the following in mind: The tag numbers for all OpenCms 8.5 final releases are "build_8_5_x", so the 8.5.1 release is tagged "build_8_5_1".</p>
+<p>The main OpenCms Git repository is available on Github at <a href="%(link0)">github.com/alkacon/opencms-core</a>.</p>
+<h2>How you can help</h2>
+<p>Contributions to the OpenCms core development are most welcome. Please send us your pull requests directly on GitHub.</p>
+<p>Please use our Bugzilla to report bugs in this release: <a href="%(link1)">http://bugzilla.opencms.org/</a></p>
+<p> </p>
+<p>Thank you for using OpenCms and have fun with OpenCms 8.5 :-)</p>]]></content>
+      </Text>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

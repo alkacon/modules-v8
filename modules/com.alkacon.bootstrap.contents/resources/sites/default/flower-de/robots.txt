@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SeoFiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/seo_file.xsd">
+  <SeoFile language="en">
+    <Mode><![CDATA[robotstxt]]></Mode>
+    <RobotsTxtText><![CDATA[User-agent: *
+Disallow: /system/login
+Disallow: /system/workplace
+Disallow: /cgi-bin
+Disallow: /cgibin
+Disallow: /resources
+Disallow: /cvs
+Disallow: /bugzilla
+Disallow: /dtd]]></RobotsTxtText>
+  </SeoFile>
+</SeoFiles>
