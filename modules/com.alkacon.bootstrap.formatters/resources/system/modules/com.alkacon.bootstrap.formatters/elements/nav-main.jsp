@@ -51,14 +51,14 @@
 		<c:set var="caret"></c:set>
 		<c:if test="${parentItem and not status.last}">
 			<c:forEach items="${nav.items}" var="nextelem" varStatus="nextstatus">
-				<c:if test="${nextstatus.count eq (status.count + 1) and nextelem.navTreeLevel eq 2}">
+				<c:if test="${nextstatus.count eq (status.count + 1) and nextelem.navTreeLevel eq (navStartLevel + 1)}">
 					<c:set var="caret">&nbsp;<b class="caret"></b></c:set>
 				</c:if>
 			</c:forEach>
 		</c:if>
 
 		<li ${listClass}>
-		<a href="<c:choose><c:when test="${parentItem and not empty caret}">#</c:when><c:otherwise><cms:link>${elem.resourceName}</cms:link></c:otherwise></c:choose>"<c:if test="${parentItem}"> class="dropdown-toggle" data-toggle="dropdown"</c:if>>${elem.navText}${caret}</a>
+		<a href="<c:choose><c:when test="${parentItem and not empty caret}">#</c:when><c:otherwise><cms:link>${elem.resourceName}</cms:link></c:otherwise></c:choose>"<c:if test="${parentItem and not empty caret}"> class="dropdown-toggle" data-toggle="dropdown"</c:if>>${elem.navText}${caret}</a>
 		<c:set var="oldLevel" value="${currentLevel}" />
 	</c:forEach>
 
