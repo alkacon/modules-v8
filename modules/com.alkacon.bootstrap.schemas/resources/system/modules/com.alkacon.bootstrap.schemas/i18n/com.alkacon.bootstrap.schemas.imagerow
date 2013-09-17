@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerow.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerow.Title.help]]></Key>
+      <Value><![CDATA[The title of the image row is shown on top of the items.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerow.Item]]></Key>
+      <Value><![CDATA[Row Item]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerow.Item.help]]></Key>
+      <Value><![CDATA[A row item has a headline, a text and optional image and link.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerowItem.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerowItem.Headline.help]]></Key>
+      <Value><![CDATA[The headline of the image row item.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerowItem.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerowItem.Text.help]]></Key>
+      <Value><![CDATA[The item text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerowItem.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerowItem.Image.help]]></Key>
+      <Value><![CDATA[The image of the item.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerowItem.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerowItem.Link.help]]></Key>
+      <Value><![CDATA[A link pointing to further information, can also be an external link (starting with <b>http://</b>).]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.imagerow.default.Title]]></Key>
+      <Value><![CDATA[New image row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.imagerow.default.Text]]></Key>
+      <Value><![CDATA[Please edit the image row item text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.imagerow.setting.hidetitle]]></Key>
+      <Value><![CDATA[Hide Title]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

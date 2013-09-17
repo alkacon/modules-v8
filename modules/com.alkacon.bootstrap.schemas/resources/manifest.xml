@@ -254,6 +254,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.imagerow</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.imagerow</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>2afa0df4-1ed3-11e3-89be-000c29f9a2ec</uuidstructure>
+			<uuidresource>2afa0df5-1ed3-11e3-89be-000c29f9a2ec</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 13:33:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 13:23:25 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization image row element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.jumbotron</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.jumbotron</destination>
 			<type>xmlvfsbundle</type>
@@ -382,6 +406,26 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
+			<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>5948bf59-1ecf-11e3-89be-000c29f9a2ec</uuidstructure>
+			<uuidresource>5948bf5a-1ecf-11e3-89be-000c29f9a2ec</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 13:55:04 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 12:56:05 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for an image row]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
 		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/jumbotron.xsd</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/jumbotron.xsd</destination>
@@ -470,6 +514,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Nested XSD for a textblock image]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/imagerowitem.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/imagerowitem.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>1ff2ade1-1ed2-11e3-89be-000c29f9a2ec</uuidstructure>
+			<uuidresource>1ff2ade2-1ed2-11e3-89be-000c29f9a2ec</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 15:23:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 13:15:57 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for an image row item]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -613,6 +677,46 @@
 			<datelastmodified>Wed, 27 Apr 2011 13:40:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 07:48:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-imagerow.png</source>
+			<destination>system/workplace/resources/filetypes/bs-imagerow.png</destination>
+			<type>image</type>
+			<uuidstructure>a2bbd1c5-1ed2-11e3-89be-000c29f9a2ec</uuidstructure>
+			<uuidresource>a2bbd1c6-1ed2-11e3-89be-000c29f9a2ec</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 13:19:42 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 13:19:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-imagerow_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-imagerow_big.png</destination>
+			<type>image</type>
+			<uuidstructure>a2d15599-1ed2-11e3-89be-000c29f9a2ec</uuidstructure>
+			<uuidresource>a2d1559a-1ed2-11e3-89be-000c29f9a2ec</uuidresource>
+			<datelastmodified>Mon, 16 Sep 2013 13:19:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 16 Sep 2013 13:19:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>

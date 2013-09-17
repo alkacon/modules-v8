@@ -25,7 +25,7 @@
 			<c:set var="pageconfig">${configcontent.filename}</c:set>
 		</cms:contentload>
 	</c:catch>
-	<c:set var="pagelayout"><cms:property name="bs.page.layout" file="search" default="default" /></c:set>
+	<c:set var="pagelayout"><cms:property name="bs.page.layout" file="search" default="9" /></c:set>
 
 	<cms:enable-ade/>
 
@@ -89,33 +89,26 @@
 <!--=== Content Part ===-->
 <div class="container">		
 
-    <cms:container name="top-content-container" type="content-full" width="940" maxElements="12" detailview="false"/>
-
-	<c:choose>
-		<c:when test="${pagelayout == 'default'}">
-			<div class="row-fluid">
-				<div class="span9">
-					<cms:container name="content-container" type="content" width="680" maxElements="12" detailview="true"/>
-				</div>
-				<div class="span3">
-					<cms:container name="column-container" type="column" width="230" maxElements="8" detailview="false"/>
-				</div> 
-			</div><!--/row-fluid-->
-		</c:when>
-		<c:when test="${pagelayout == 'left'}">
-			<div class="row-fluid">
-				<div class="span3">
-					<cms:container name="column-container" type="column" width="230" maxElements="8" detailview="false"/>
-				</div> 
-				<div class="span9">
-					<cms:container name="content-container" type="content" width="680" maxElements="12" detailview="true"/>
-				</div>
-			</div><!--/row-fluid-->
-		</c:when>
-	</c:choose>
+    <cms:container name="top-content-container" type="content-full" width="1200" maxElements="15" detailview="false"/>
 
 	<c:if test="${pagelayout != 'full'}">
-        <cms:container name="bottom-content-container" type="content-full" width="940" maxElements="12" detailview="false"/>
+		<c:choose>
+			<c:when test="${pagelayout < 6}">
+				<c:set var="detailcon1" value="false" />
+			</c:when>
+			<c:otherwise>
+				<c:set var="detailcon1" value="true" />
+			</c:otherwise>
+		</c:choose>
+		<div class="row-fluid">
+			<div class="span${pagelayout}">
+				<cms:container name="middle-content-container-1" type="content" width="${(pagelayout * 100) - 30}" maxElements="15" detailview="${detailcon1}"/>
+			</div>
+			<div class="span${12 - pagelayout}">
+				<cms:container name="middle-content-container-2" type="content" width="${((12 - pagelayout) * 100) - 30}" maxElements="15" detailview="${not detailcon1}"/>
+			</div> 
+		</div><!--/row-fluid-->
+        <cms:container name="bottom-content-container" type="content-full" width="1200" maxElements="15" detailview="false"/>
 	</c:if>
 
 </div><!--/container-->		

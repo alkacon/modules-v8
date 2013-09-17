@@ -58,13 +58,5 @@
       <Key><![CDATA[label.BootstrapProduct.Manufacturer.help]]></Key>
       <Value><![CDATA[The manufacturer of the product.]]></Value>
     </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.product.default.Name]]></Key>
-      <Value><![CDATA[Product name]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.product.default.Description]]></Key>
-      <Value><![CDATA[Product description]]></Value>
-    </Message>
   </Bundle>
 </XmlVfsBundles>

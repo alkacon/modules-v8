@@ -17,7 +17,7 @@
 			<xsd:element name="Name" type="OpenCmsString" />
 			<xsd:element name="Description" type="OpenCmsString" />
 			<xsd:element name="Color" type="OpenCmsColor" minOccurs="0" />
-			<xsd:element name="Images" type="OpenCmsBootstrapTextblockImage" minOccurs="0" maxOccurs="10" />
+			<xsd:element name="Image" type="OpenCmsBootstrapTextblockImage" minOccurs="0" />
 			<xsd:element name="ProductID" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Brand" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Manufacturer" type="OpenCmsString" minOccurs="0" />
@@ -44,11 +44,12 @@
 				<layout element="Description" widget="TextareaWidget" configuration="4" />
 			</layouts>
 			<validationrules />
-			<relations/>
+			<relations />
 			<searchsettings containerPageOnly="false" />
 			<formatters>
 				<formatter minwidth="400" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/product.jsp" searchcontent="true" />
 			</formatters>
+			<settings />
 		</xsd:appinfo>
 	</xsd:annotation>
 </xsd:schema>
