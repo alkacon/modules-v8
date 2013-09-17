@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+	<info>
+		<creator>Admin</creator>
+		<opencms_version>8.7.1</opencms_version>
+		<createdate>Tue, 17 Sep 2013 07:31:42 GMT</createdate>
+		<infoproject>Offline</infoproject>
+		<export_version>7</export_version>
+	</info>
+	<module>
+		<name>com.alkacon.bootstrap.contents</name>
+		<nicename><![CDATA[Bootstrap Template Contents]]></nicename>
+		<group>Bootstrap Template</group>
+		<class/>
+		<description><![CDATA[The OpenCms 9 bootstrap template demo contents.]]></description>
+		<version>9.0.0</version>
+		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies/>
+		<exportpoints/>
+		<resources/>
+		<parameters/>
+	</module>
+	<files/>
+</export>
