@@ -36,6 +36,8 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-product_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-imagerow.png"/>
             <resource uri="/system/workplace/resources/filetypes/bs-imagerow_big.png"/>
+            <resource uri="/system/workplace/resources/filetypes/bs-tabs.png"/>
+            <resource uri="/system/workplace/resources/filetypes/bs-tabs_big.png"/>
 		</resources>
 		<parameters/>
 		<resourcetypes>
@@ -48,12 +50,15 @@
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-textblock" id="182">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd</param>
 			</type>
-			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="183">
-				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</param>
-			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-tabs" id="183">
+                <param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd</param>
+            </type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-imagerow" id="184">
                 <param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd</param>
             </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="190">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</param>
+			</type>
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="bs-jumbotron" key="fileicon.bs-jumbotron" icon="bs-jumbotron.png" bigicon="bs-jumbotron_big.png" reference="xmlcontent">
@@ -65,12 +70,15 @@
 			<explorertype name="bs-textblock" key="fileicon.bs-textblock" icon="bs-textblock.png" bigicon="bs-textblock_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-textblock" order="114" autosetnavigation="false" autosettitle="false" info="desc.bs-textblock"/>
 			</explorertype>
-			<explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="115" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
-			</explorertype>
+			<explorertype name="bs-tabs" key="fileicon.bs-tabs" icon="bs-tabs.png" bigicon="bs-tabs_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-tabs" order="115" autosetnavigation="false" autosettitle="false" info="desc.bs-tabs"/>
+            </explorertype>
 			<explorertype name="bs-imagerow" key="fileicon.bs-imagerow" icon="bs-imagerow.png" bigicon="bs-imagerow_big.png" reference="xmlcontent">
                 <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-imagerow" order="116" autosetnavigation="false" autosettitle="false" info="desc.bs-imagerow"/>
             </explorertype>
+            <explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="122" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
+			</explorertype>
 		</explorertypes>
 	</module>
 	<files>
@@ -334,6 +342,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.tabs</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.tabs</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>61d671b1-1f82-11e3-8a31-000c29f9a2ec</uuidstructure>
+			<uuidresource>61d671b2-1f82-11e3-8a31-000c29f9a2ec</uuidresource>
+			<datelastmodified>Tue, 17 Sep 2013 13:03:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 17 Sep 2013 10:17:39 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization tabs element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.textblock</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.textblock</destination>
 			<type>xmlvfsbundle</type>
@@ -475,6 +507,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>1fb64d5b-1f81-11e3-8a31-000c29f9a2ec</uuidstructure>
+			<uuidresource>1fb64d5c-1f81-11e3-8a31-000c29f9a2ec</uuidresource>
+			<datelastmodified>Tue, 17 Sep 2013 13:20:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 17 Sep 2013 10:08:39 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a Tabs / Accordion]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd</destination>
 			<type>plain</type>
@@ -582,6 +634,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Nested XSD for a textblock paragraph]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/tabsitem.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/tabsitem.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>e309cfce-1f81-11e3-8a31-000c29f9a2ec</uuidstructure>
+			<uuidresource>e309cfcf-1f81-11e3-8a31-000c29f9a2ec</uuidresource>
+			<datelastmodified>Tue, 17 Sep 2013 13:01:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 17 Sep 2013 10:14:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a tabs item]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -765,6 +837,46 @@
 			<datelastmodified>Fri, 13 Sep 2013 12:32:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 12:32:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-tabs.png</source>
+			<destination>system/workplace/resources/filetypes/bs-tabs.png</destination>
+			<type>image</type>
+			<uuidstructure>5ddc73ee-1f9a-11e3-8a31-000c29f9a2ec</uuidstructure>
+			<uuidresource>5ddc73ef-1f9a-11e3-8a31-000c29f9a2ec</uuidresource>
+			<datelastmodified>Tue, 17 Sep 2013 13:09:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 17 Sep 2013 13:09:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-tabs_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-tabs_big.png</destination>
+			<type>image</type>
+			<uuidstructure>5df6b2b2-1f9a-11e3-8a31-000c29f9a2ec</uuidstructure>
+			<uuidresource>5df6b2b3-1f9a-11e3-8a31-000c29f9a2ec</uuidresource>
+			<datelastmodified>Tue, 17 Sep 2013 13:09:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 17 Sep 2013 13:09:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>

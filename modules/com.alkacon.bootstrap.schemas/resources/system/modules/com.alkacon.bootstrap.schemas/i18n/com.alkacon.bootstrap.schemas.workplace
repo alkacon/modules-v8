@@ -62,5 +62,17 @@
       <Key><![CDATA[desc.bs-imagerow]]></Key>
       <Value><![CDATA[An image row shows 3 or 4 columns with images and a description with links to more details.]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-tabs]]></Key>
+      <Value><![CDATA[Tabs Element]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-tabs]]></Key>
+      <Value><![CDATA[New Tabs Element]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-tabs]]></Key>
+      <Value><![CDATA[A content element with multiple tabs, can also be rendered as accordion.]]></Value>
+    </Message>
   </Bundle>
 </XmlVfsBundles>

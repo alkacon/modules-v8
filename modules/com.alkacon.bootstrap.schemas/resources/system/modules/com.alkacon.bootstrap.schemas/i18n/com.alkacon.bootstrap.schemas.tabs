@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Title.help]]></Key>
+      <Value><![CDATA[The title is shown above the tabbed content.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Item]]></Key>
+      <Value><![CDATA[Tab Item]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Item.help]]></Key>
+      <Value><![CDATA[A tab item has a headline, a text and an optional image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTabItem.Label]]></Key>
+      <Value><![CDATA[Label]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTabItem.Label.help]]></Key>
+      <Value><![CDATA[The label of this tab.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTabItem.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTabItem.Headline.help]]></Key>
+      <Value><![CDATA[The headline of this tab.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTabItem.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTabItem.Text.help]]></Key>
+      <Value><![CDATA[The item text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTabItem.Image.help]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTabItem.Image.help]]></Key>
+      <Value><![CDATA[The image of the item.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.default.Title]]></Key>
+      <Value><![CDATA[New tabbed content]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.default.Label]]></Key>
+      <Value><![CDATA[Label]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.default.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.default.Text]]></Key>
+      <Value><![CDATA[Please edit the tab item text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.setting.hidetitle]]></Key>
+      <Value><![CDATA[Hide Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.setting.accordion]]></Key>
+      <Value><![CDATA[Show as Accordion]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

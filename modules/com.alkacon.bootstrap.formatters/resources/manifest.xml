@@ -343,6 +343,34 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>fc5081f5-1f86-11e3-8a31-000c29f9a2ec</uuidstructure>
+			<uuidresource>fc5081f6-1f86-11e3-8a31-000c29f9a2ec</uuidresource>
+			<datelastmodified>Tue, 17 Sep 2013 13:28:42 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 17 Sep 2013 10:50:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for a tabs content]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-main.jsp</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-main.jsp</destination>
 			<type>jsp</type>
