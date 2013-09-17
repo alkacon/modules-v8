@@ -41,8 +41,8 @@
 				</searchsetting>
 			</searchsettings>
 			<formatters>
-				<formatter minwidth="400" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-main.jsp" searchcontent="true" />
-				<formatter minwidth="150" maxwidth="250" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-side.jsp" searchcontent="true" />
+				<formatter minwidth="570" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-main.jsp" searchcontent="true" />
+				<formatter minwidth="150" maxwidth="569" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-small.jsp" searchcontent="true" />
 			</formatters>
 			<settings>
 				<setting name="imgalign" nice-name="%(key.bootstrap.textblock.setting.imgalign)" type="string" widget="select" widget-config="left:%(key.bootstrap.textblock.image.left)|right:%(key.bootstrap.textblock.image.right)|top:%(key.bootstrap.textblock.image.top)" />
