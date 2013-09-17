@@ -16,11 +16,11 @@
 		<xsd:sequence>
 			<xsd:element name="Name" type="OpenCmsString" />
 			<xsd:element name="Description" type="OpenCmsString" />
-			<xsd:element name="Images" type="OpenCmsBootstrapTextblockImage" minOccurs="0" maxOccurs="10" />
-			<xsd:element name="Color" type="OpenCmsColor" minOccurs="0" />
 			<xsd:element name="ID" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Date" type="OpenCmsDateTime" minOccurs="0" />
 			<xsd:element name="Manufacturer" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="Images" type="OpenCmsBootstrapTextblockImage" minOccurs="0" maxOccurs="10" />
+			<xsd:element name="Color" type="OpenCmsColor" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required" />
 	</xsd:complexType>
@@ -30,7 +30,7 @@
 			<resourcebundle name="com.alkacon.bootstrap.schemas.product" />
 			<tabs>
 				<tab element="Name" collapse="false" name="General" />
-				<tab element="ProductID" collapse="false" name="Additional" />
+				<tab element="Images" collapse="false" name="Images" />
 			</tabs>
 			<mappings>
 				<mapping element="Name" mapto="property:Title" />
