@@ -29,7 +29,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package bootstrap.template;
+package com.alkacon.bootstrap.clone;
 
 import org.opencms.configuration.CmsConfigurationCopyResource;
 import org.opencms.configuration.Messages;
