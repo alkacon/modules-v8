@@ -39,7 +39,7 @@
 		</c:if>
 
 		<c:set var="parentItem">false</c:set>
-		<c:if test="${currentLevel == 1}">
+		<c:if test="${currentLevel == navStartLevel}">
 			<c:set var="parentItem">true</c:set>
 		</c:if>
 
