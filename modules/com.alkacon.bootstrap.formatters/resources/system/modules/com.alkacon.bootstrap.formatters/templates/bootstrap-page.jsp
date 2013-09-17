@@ -72,7 +72,9 @@
             <a href="<cms:link>${cms.subSitePath}</cms:link>"><img id="logo-header" src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_opencms_png24.png:aa1519ad-1abc-11e3-9246-000c29f9a2ec)</cms:link>" alt="Logo"></a>
         </div><!-- /logo -->
         <!-- Menu -->       
-        <cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-main.jsp:f6dcd82c-1a24-11e3-9358-000c29f9a2ec)" />                          
+        <cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-main.jsp:f6dcd82c-1a24-11e3-9358-000c29f9a2ec)">
+			<cms:param name="startlevel">${configcontent.value.NavStartLevel}</cms:param>
+		</cms:include>
     </div><!-- /container -->
 </div><!--/header -->
 <!--=== End Header ===-->
@@ -81,7 +83,9 @@
 <div class="row-fluid breadcrumbs margin-bottom-30">
 	<div class="container">
         <h1 class="pull-left"><cms:info property="opencms.title" /></h1>
-        <cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp:6f6f2ea3-1bb3-11e3-a120-000c29f9a2ec)" />
+        <cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp:6f6f2ea3-1bb3-11e3-a120-000c29f9a2ec)">
+			<cms:param name="startlevel">${configcontent.value.NavStartLevel}</cms:param>
+		</cms:include>
     </div><!--/container-->
 </div><!--/breadcrumbs-->
 <!--=== End Breadcrumbs ===-->

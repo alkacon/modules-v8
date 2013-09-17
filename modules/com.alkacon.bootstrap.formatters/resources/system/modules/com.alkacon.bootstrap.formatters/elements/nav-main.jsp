@@ -3,7 +3,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:set var="pathparts" value="${fn:split(cms.requestContext.folderUri, '/')}" />
-<c:set var="navStartLevel">1</c:set>
+<c:set var="navStartLevel">${param.startlevel}</c:set>
 <c:set var="navStartFolder" value="/" />
 <c:forEach var="folderName" items="${pathparts}" varStatus="status">
 	<c:if test="${status.count <= navStartLevel}">

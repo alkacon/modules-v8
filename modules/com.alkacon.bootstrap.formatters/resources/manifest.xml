@@ -211,7 +211,7 @@
 				</property>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[uri;user]]></value>
+					<value><![CDATA[uri;user;params=(startlevel)]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -239,7 +239,7 @@
 				</property>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[uri;user]]></value>
+					<value><![CDATA[uri;user;params=(startlevel)]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>

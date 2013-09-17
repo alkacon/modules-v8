@@ -3,7 +3,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<c:set var="slevel">1</c:set>
+<c:set var="slevel">${param.startlevel}</c:set>
 <cms:navigation type="breadCrumb" startLevel="${slevel - 1}" endLevel="-1" var="nav" param="true" />
 <ul class="pull-right breadcrumb">
 	<c:forEach items="${nav.items}" var="elem" varStatus="status">

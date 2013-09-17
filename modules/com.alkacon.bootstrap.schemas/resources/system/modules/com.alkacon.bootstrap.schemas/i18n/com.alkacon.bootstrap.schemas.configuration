@@ -11,12 +11,28 @@
       <Value><![CDATA[Choose the main colors of the template.]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.HeaderType]]></Key>
+      <Value><![CDATA[Header Type]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.HeaderType.help]]></Key>
+      <Value><![CDATA[Choose the template header type.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[bootstrap.configuration.header.light]]></Key>
       <Value><![CDATA[Light]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.configuration.header.dark]]></Key>
       <Value><![CDATA[Dark]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.NavStartLevel]]></Key>
+      <Value><![CDATA[Navigation Start Level]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.NavStartLevel.help]]></Key>
+      <Value><![CDATA[Choose the folder level where the navigation should start from.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapConfiguration.Header]]></Key>
@@ -49,6 +65,22 @@
     <Message>
       <Key><![CDATA[boostrap.configuration.theme.red]]></Key>
       <Value><![CDATA[Red]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.navstartlevel.0]]></Key>
+      <Value><![CDATA[0 - Root Level]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.navstartlevel.1]]></Key>
+      <Value><![CDATA[1 - First Level]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.navstartlevel.2]]></Key>
+      <Value><![CDATA[1 - Second Level]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.navstartlevel.3]]></Key>
+      <Value><![CDATA[3 - Third Level]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>
