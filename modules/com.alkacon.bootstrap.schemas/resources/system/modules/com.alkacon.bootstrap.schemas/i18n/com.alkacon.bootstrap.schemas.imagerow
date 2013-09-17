@@ -62,5 +62,9 @@
       <Key><![CDATA[bootstrap.imagerow.setting.hidetitle]]></Key>
       <Value><![CDATA[Hide Title]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.imagerow.frontend.readmore]]></Key>
+      <Value><![CDATA[read more +]]></Value>
+    </Message>
   </Bundle>
 </XmlVfsBundles>

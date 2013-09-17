@@ -55,11 +55,11 @@
       <Value><![CDATA[Image Row]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[title.newbs-product]]></Key>
+      <Key><![CDATA[title.newbs-imagerow]]></Key>
       <Value><![CDATA[New Image Row]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[desc.bs-product]]></Key>
+      <Key><![CDATA[desc.bs-imagerow]]></Key>
       <Value><![CDATA[An image row shows 3 or 4 columns with images and a description with links to more details.]]></Value>
     </Message>
   </Bundle>
