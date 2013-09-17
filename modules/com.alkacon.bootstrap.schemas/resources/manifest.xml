@@ -34,6 +34,8 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-textblock_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-product.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-product_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-imagerow.png"/>
+            <resource uri="/system/workplace/resources/filetypes/bs-imagerow_big.png"/>
 		</resources>
 		<parameters/>
 		<resourcetypes>
