@@ -16,6 +16,7 @@
 			<xsd:element name="HeaderType" type="OpenCmsString" />
 			<xsd:element name="NavStartLevel" type="OpenCmsString" />
 			<xsd:element name="Header" type="OpenCmsHtml" />
+			<xsd:element name="Footer" type="OpenCmsHtml" />
 			<xsd:element name="Copyright" type="OpenCmsHtml" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
@@ -27,12 +28,18 @@
 			<mappings/>
 			<defaults/>
 			<layouts>
-				<layout element="Theme" widget="SelectorWidget" configuration="blue:%(key.boostrap.configuration.theme.blue)|light:%(key.boostrap.configuration.theme.light)|orange:%(key.boostrap.configuration.theme.orange)|red*:%(key.boostrap.configuration.theme.red)" />
+				<layout element="Theme" widget="SelectorWidget" configuration="blue:%(key.bootstrap.configuration.theme.blue)|light:%(key.bootstrap.configuration.theme.light)|orange:%(key.bootstrap.configuration.theme.orange)|red*:%(key.bootstrap.configuration.theme.red)" />
 				<layout element="HeaderType" widget="SelectorWidget" configuration="1*:%(key.bootstrap.configuration.header.light)|2:%(key.bootstrap.configuration.header.dark)" />
 				<layout element="NavStartLevel" widget="SelectorWidget" configuration="0:%(key.bootstrap.configuration.navstartlevel.0)|1*:%(key.bootstrap.configuration.navstartlevel.1)|2:%(key.bootstrap.configuration.navstartlevel.2)|3:%(key.bootstrap.configuration.navstartlevel.3)" />
-				<layout element="Header" widget="TextareaWidget" configuration="10" />
-				<layout element="Copyright" widget="TextareaWidget" configuration="10" />
+				<layout element="Header" widget="TextareaWidget" configuration="15" />
+				<layout element="Footer" widget="TextareaWidget" configuration="20" />
+				<layout element="Copyright" widget="TextareaWidget" configuration="8" />
 			</layouts>
+			<tabs>
+				<tab element="Theme" name="TabGeneral" collapse="false" />
+				<tab element="HeaderType" name="TabHeader" collapse="false" />
+				<tab element="Footer" name="TabFooter" collapse="false" />
+			</tabs>
 			<validationrules/>
 			<relations/>
 			<searchsettings containerPageOnly="true" />
