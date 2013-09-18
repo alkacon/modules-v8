@@ -371,8 +371,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-main.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-main.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock.jsp</destination>
 			<type>jsp</type>
 			<uuidstructure>60739184-1c73-11e3-b68b-000c29f9a2ec</uuidstructure>
 			<uuidresource>60739185-1c73-11e3-b68b-000c29f9a2ec</uuidresource>
@@ -384,35 +384,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Formatter for a textblock - main content]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[container-element;locale]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-small.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-small.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>09b27d5b-1eab-11e3-89be-000c29f9a2ec</uuidstructure>
-			<uuidresource>09b27d5c-1eab-11e3-89be-000c29f9a2ec</uuidresource>
-			<datelastmodified>Mon, 16 Sep 2013 09:32:26 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 16 Sep 2013 08:36:10 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Formatter for a textblock - small content]]></value>
+					<value><![CDATA[Formatter for a textblock]]></value>
 				</property>
 				<property>
 					<name>cache</name>

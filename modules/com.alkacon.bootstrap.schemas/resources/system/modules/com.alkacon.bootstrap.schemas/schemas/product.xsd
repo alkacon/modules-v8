@@ -48,7 +48,8 @@
 			<relations/>
 			<searchsettings containerPageOnly="false" />
 			<formatters>
-				<formatter minwidth="400" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/product.jsp" searchcontent="true" />
+				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/product.jsp" searchcontent="true" />
+				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/product.jsp" searchcontent="true" />
 			</formatters>
 		</xsd:appinfo>
 	</xsd:annotation>

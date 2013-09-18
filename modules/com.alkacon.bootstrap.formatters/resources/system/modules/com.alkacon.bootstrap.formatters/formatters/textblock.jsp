@@ -1,6 +1,8 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
 <cms:formatter var="content" val="value" rdfa="rdfa">
 
@@ -22,12 +24,12 @@
 					<c:set var="imgWidth">${cms.container.width}</c:set>
 				</c:when>
 				<c:when test="${cms.element.settings.imgalign == 'right'}">
-					<c:set var="imgClass">pull-right rgt-img-margin img-width-200</c:set>
-					<c:set var="imgWidth">200</c:set>
+					<c:set var="imgClass">pull-right rgt-img-margin</c:set>
+					<c:set var="imgWidth"><fmt:formatNumber type="number" value="${(cms.container.width - 70) / 4}" /></c:set>
 				</c:when>
 				<c:otherwise>
-					<c:set var="imgClass">pull-left lft-img-margin img-width-200</c:set>
-					<c:set var="imgWidth">200</c:set>
+					<c:set var="imgClass">pull-left lft-img-margin</c:set>
+					<c:set var="imgWidth"><fmt:formatNumber type="number" value="${(cms.container.width - 70) / 4}" /></c:set>
 				</c:otherwise>
 			</c:choose>
 			<cms:img src="${paragraph.value.Image.value.Image}" cssclass="${imgClass}" width="${imgWidth}" scaleColor="transparent" scaleType="0" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
