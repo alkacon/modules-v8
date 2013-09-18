@@ -37,7 +37,13 @@
 		</dependencies>
 		<exportpoints/>
 		<resources>
-			<resource uri="/"/>
+			<resource uri="/index.html"/>
+			<resource uri="/.content/"/>
+			<resource uri="/_categories/"/>
+			<resource uri="/flower-de/"/>
+			<resource uri="/flower-en/"/>
+			<resource uri="/release/"/>
+			<resource uri="/welcome/"/>
 		</resources>
 		<parameters/>
 	</module>
