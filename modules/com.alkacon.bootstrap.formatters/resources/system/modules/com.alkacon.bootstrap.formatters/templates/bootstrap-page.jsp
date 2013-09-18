@@ -93,7 +93,7 @@
 <!--=== Content Part ===-->
 <div class="container">		
 
-    <cms:container name="top-content-container" type="content-full" width="1200" maxElements="15" detailview="false"/>
+    <cms:container name="top" type="content-full" width="1200" maxElements="15" detailview="false"/>
 
 	<c:if test="${pagelayout != 'full'}">
 		<c:choose>
@@ -106,13 +106,13 @@
 		</c:choose>
 		<div class="row-fluid">
 			<div class="span${pagelayout}">
-				<cms:container name="middle-content-container-1" type="content" width="${(pagelayout * 100) - 30}" maxElements="15" detailview="${detailcon1}"/>
+				<cms:container name="middle-left" type="content" width="${(pagelayout * 100) - 30}" maxElements="15" detailview="${detailcon1}"/>
 			</div>
 			<div class="span${12 - pagelayout}">
-				<cms:container name="middle-content-container-2" type="content" width="${((12 - pagelayout) * 100) - 30}" maxElements="15" detailview="${not detailcon1}"/>
+				<cms:container name="middle-right" type="content" width="${((12 - pagelayout) * 100) - 30}" maxElements="15" detailview="${not detailcon1}"/>
 			</div> 
 		</div><!--/row-fluid-->
-        <cms:container name="bottom-content-container" type="content-full" width="1200" maxElements="15" detailview="false"/>
+        <cms:container name="bottom" type="content-full" width="1200" maxElements="15" detailview="false"/>
 	</c:if>
 
 </div><!--/container-->		
