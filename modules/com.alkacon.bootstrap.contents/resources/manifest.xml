@@ -12158,7 +12158,7 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Welcome to OpenCms]]></value>
+					<value><![CDATA[Welcome]]></value>
 				</property>
 				<property>
 					<name>Title</name>
