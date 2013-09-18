@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Title.help]]></Key>
+      <Value><![CDATA[The title of the news article.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Description]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Description.help]]></Key>
+      <Value><![CDATA[The description of the news article.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.default.Title]]></Key>
+      <Value><![CDATA[New News article, please edit!]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

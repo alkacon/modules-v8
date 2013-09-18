@@ -34,6 +34,8 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-textblock_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-product.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-product_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-newsarticle.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-newsarticle_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-imagerow.png"/>
             <resource uri="/system/workplace/resources/filetypes/bs-imagerow_big.png"/>
             <resource uri="/system/workplace/resources/filetypes/bs-tabs.png"/>
@@ -59,6 +61,9 @@
             <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="190">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</param>
 			</type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-newsarticle" id="191">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd</param>
+			</type>
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="bs-jumbotron" key="fileicon.bs-jumbotron" icon="bs-jumbotron.png" bigicon="bs-jumbotron_big.png" reference="xmlcontent">
@@ -78,6 +83,9 @@
             </explorertype>
             <explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="122" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
+			</explorertype>
+            <explorertype name="bs-newsarticle" key="fileicon.bs-newsarticle" icon="bs-newsarticle.png" bigicon="bs-newsarticle_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-newsarticle" order="122" autosetnavigation="false" autosettitle="false" info="desc.bs-newsarticle"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -318,6 +326,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.newsarticle</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.newsarticle</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>14851e53-2069-11e3-b7a9-000c297c001d</uuidstructure>
+			<uuidresource>14851e53-2069-11e3-b7a9-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 13 Sep 2013 08:19:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 11 Sep 2013 09:39:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization news article]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.product</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.product</destination>
 			<type>xmlvfsbundle</type>
@@ -481,6 +513,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[XSD for a Jumbotron component]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>ace86b3a-2067-11e3-b7a9-000c297c001d</uuidstructure>
+			<uuidresource>ace86b3a-2067-11e3-b7a9-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 12 Sep 2013 13:46:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 11 Sep 2013 08:52:00 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a News article]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -834,6 +886,46 @@
 			<type>image</type>
 			<uuidstructure>855a771e-1c70-11e3-b68b-000c29f9a2ec</uuidstructure>
 			<uuidresource>855a771f-1c70-11e3-b68b-000c29f9a2ec</uuidresource>
+			<datelastmodified>Fri, 13 Sep 2013 12:32:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 13 Sep 2013 12:32:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-newsarticle.png</source>
+			<destination>system/workplace/resources/filetypes/bs-newsarticle.png</destination>
+			<type>image</type>
+			<uuidstructure>60e7971d-2066-11e3-b7a9-000c297c001d</uuidstructure>
+			<uuidresource>60e7971d-2066-11e3-b7a9-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 13 Sep 2013 12:32:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 13 Sep 2013 12:32:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-newsarticle_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-newsarticle_big.png</destination>
+			<type>image</type>
+			<uuidstructure>6635ed80-2066-11e3-b7a9-000c297c001d</uuidstructure>
+			<uuidresource>6635ed80-2066-11e3-b7a9-000c297c001d</uuidresource>
 			<datelastmodified>Fri, 13 Sep 2013 12:32:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 12:32:15 GMT</datecreated>
