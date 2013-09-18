@@ -27,28 +27,52 @@
       <Value><![CDATA[The color of the product.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapProduct.Image]]></Key>
-      <Value><![CDATA[Image]]></Value>
+      <Key><![CDATA[label.BootstrapProduct.Images]]></Key>
+      <Value><![CDATA[Images]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapProduct.Image.help]]></Key>
-      <Value><![CDATA[The image of the product.]]></Value>
+      <Key><![CDATA[label.BootstrapProduct.Images.help]]></Key>
+      <Value><![CDATA[The following images (max. 10) are displayed within an image rotator.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapProduct.ProductID]]></Key>
+      <Key><![CDATA[label.BootstrapTextblockImage.Image]]></Key>
+      <Value><![CDATA[URI]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockImage.Image.help]]></Key>
+      <Value><![CDATA[The URI pointing on a product image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockImage.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockImage.Title.help]]></Key>
+      <Value><![CDATA[The image title is used as as top title by the image rotator.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockImage.Description]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblockImage.Description.help]]></Key>
+      <Value><![CDATA[The image description is used as sub title by the image rotator.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.ID]]></Key>
       <Value><![CDATA[Product ID]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapProduct.ProductID.help]]></Key>
-      <Value><![CDATA[The id of the product.]]></Value>
+      <Key><![CDATA[label.BootstrapProduct.ID.help]]></Key>
+      <Value><![CDATA[The id of the product (to be typed manually).]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapProduct.Brand]]></Key>
-      <Value><![CDATA[Brand]]></Value>
+      <Key><![CDATA[label.BootstrapProduct.Date]]></Key>
+      <Value><![CDATA[Date]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapProduct.Brand.help]]></Key>
-      <Value><![CDATA[The brand of the product.]]></Value>
+      <Key><![CDATA[label.BootstrapProduct.Date.help]]></Key>
+      <Value><![CDATA[A date of the product e.g. a release date.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapProduct.Manufacturer]]></Key>
@@ -57,6 +81,30 @@
     <Message>
       <Key><![CDATA[label.BootstrapProduct.Manufacturer.help]]></Key>
       <Value><![CDATA[The manufacturer of the product.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Price]]></Key>
+      <Value><![CDATA[Price]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.Price.help]]></Key>
+      <Value><![CDATA[The price of the product.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.BrandName]]></Key>
+      <Value><![CDATA[Brand]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.BrandName.help]]></Key>
+      <Value><![CDATA[The brand name of the product.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.BrandLogo]]></Key>
+      <Value><![CDATA[Brand logo]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapProduct.BrandLogo.help]]></Key>
+      <Value><![CDATA[The brand logo of the product.]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>
