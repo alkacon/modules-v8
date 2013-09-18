@@ -19,52 +19,60 @@
       <Value><![CDATA[A paragraph for a text block, up to 5 paragraphs are possible.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockParagraph.Headline]]></Key>
+      <Key><![CDATA[label.BootstrapParagraph.Headline]]></Key>
       <Value><![CDATA[Headline]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockParagraph.Headline.help]]></Key>
+      <Key><![CDATA[label.BootstrapParagraph.Headline.help]]></Key>
       <Value><![CDATA[The optional headline of the paragraph.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockParagraph.Text]]></Key>
+      <Key><![CDATA[label.BootstrapParagraph.Text]]></Key>
       <Value><![CDATA[Text]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockParagraph.Text.help]]></Key>
+      <Key><![CDATA[label.BootstrapParagraph.Text.help]]></Key>
       <Value><![CDATA[The paragraph text.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockParagraph.Image]]></Key>
+      <Key><![CDATA[label.BootstrapParagraph.Image]]></Key>
       <Value><![CDATA[Image]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockParagraph.Image.help]]></Key>
+      <Key><![CDATA[label.BootstrapParagraph.Image.help]]></Key>
       <Value><![CDATA[An image that can be aligned in different ways.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockParagraph.Link]]></Key>
+      <Key><![CDATA[label.BootstrapParagraph.Link]]></Key>
       <Value><![CDATA[Link]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockParagraph.Link.help]]></Key>
+      <Key><![CDATA[label.BootstrapParagraph.Link.help]]></Key>
       <Value><![CDATA[A link pointing to further information, can also be an external link (starting with <b>http://</b>).]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockImage.Image]]></Key>
+      <Key><![CDATA[label.BootstrapImage.Image]]></Key>
       <Value><![CDATA[Image URI]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockImage.Image.help]]></Key>
+      <Key><![CDATA[label.BootstrapImage.Image.help]]></Key>
       <Value><![CDATA[The absolute path to the image to use.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockImage.Title]]></Key>
+      <Key><![CDATA[label.BootstrapImage.Title]]></Key>
       <Value><![CDATA[Title]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockImage.Title.help]]></Key>
+      <Key><![CDATA[label.BootstrapImage.Title.help]]></Key>
       <Value><![CDATA[The image title is displayed when hovering the image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Description]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Description.help]]></Key>
+      <Value><![CDATA[The image description is used as alternative text for the image.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.textblock.image.left]]></Key>

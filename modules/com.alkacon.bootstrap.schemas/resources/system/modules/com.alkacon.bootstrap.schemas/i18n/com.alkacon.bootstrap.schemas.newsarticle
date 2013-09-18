@@ -20,7 +20,27 @@
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.newsarticle.default.Title]]></Key>
-      <Value><![CDATA[New News article, please edit!]]></Value>
+      <Value><![CDATA[New news article]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.default.Text]]></Key>
+      <Value><![CDATA[Please edit the news article text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.image.left]]></Key>
+      <Value><![CDATA[Left of text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.image.right]]></Key>
+      <Value><![CDATA[Right of text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.image.top]]></Key>
+      <Value><![CDATA[Top]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.setting.imgalign]]></Key>
+      <Value><![CDATA[Image alignment]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

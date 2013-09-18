@@ -35,27 +35,27 @@
       <Value><![CDATA[The following images (max. 10) are displayed within an image rotator.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockImage.Image]]></Key>
+      <Key><![CDATA[label.BootstrapImage.Image]]></Key>
       <Value><![CDATA[URI]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockImage.Image.help]]></Key>
+      <Key><![CDATA[label.BootstrapImage.Image.help]]></Key>
       <Value><![CDATA[The URI pointing on a product image.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockImage.Title]]></Key>
+      <Key><![CDATA[label.BootstrapImage.Title]]></Key>
       <Value><![CDATA[Title]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockImage.Title.help]]></Key>
+      <Key><![CDATA[label.BootstrapImage.Title.help]]></Key>
       <Value><![CDATA[The image title is used as as top title by the image rotator.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockImage.Description]]></Key>
+      <Key><![CDATA[label.BootstrapImage.Description]]></Key>
       <Value><![CDATA[Description]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapTextblockImage.Description.help]]></Key>
+      <Key><![CDATA[label.BootstrapImage.Description.help]]></Key>
       <Value><![CDATA[The image description is used as sub title by the image rotator.]]></Value>
     </Message>
     <Message>

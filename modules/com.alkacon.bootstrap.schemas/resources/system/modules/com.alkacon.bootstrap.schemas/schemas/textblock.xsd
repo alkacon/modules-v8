@@ -14,7 +14,7 @@
 	<xsd:complexType name="OpenCmsBootstrapTextblock">
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
-			<xsd:element name="Paragraph" type="OpenCmsBootstrapTextblockParagraph" maxOccurs="5" />
+			<xsd:element name="Paragraph" type="OpenCmsBootstrapParagraph" maxOccurs="5" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
