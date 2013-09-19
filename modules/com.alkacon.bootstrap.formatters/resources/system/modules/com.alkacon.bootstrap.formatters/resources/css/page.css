@@ -34,3 +34,8 @@
 .nav-side .nav-tabs li.active a, .nav-side .nav-tabs li.active a:hover, .nav-tabs > .active > a, .nav-side .nav-tabs > .active > a:hover, .nav-side .nav-tabs > .active > a:focus {
 border: 1px solid #ddd;
 }
+
+/* Login element */
+.log-page {
+	width: auto;
+}

@@ -194,6 +194,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/elements/login.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/login.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>261e9861-2126-11e3-bb06-000c297c001d</uuidstructure>
+			<uuidresource>261e9862-2126-11e3-bb06-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 19 Sep 2013 13:35:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 19 Sep 2013 12:22:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login element]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp</destination>
 			<type>jsp</type>
@@ -492,6 +516,30 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/functions/login.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/functions/login.xml</destination>
+			<type>function</type>
+			<uuidstructure>17dc02c5-2133-11e3-bb06-000c297c001d</uuidstructure>
+			<uuidresource>17dc02c6-2133-11e3-bb06-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 19 Sep 2013 13:56:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 19 Sep 2013 13:55:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Provides a login form functionality.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login form]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
