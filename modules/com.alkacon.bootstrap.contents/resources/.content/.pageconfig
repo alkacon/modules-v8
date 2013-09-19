@@ -39,9 +39,8 @@
     </Header>
     <Footer name="Footer0">
       <links>
-        <link name="link4" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[]]></anchor>
+        <link name="link4" internal="false" type="A">
+          <target><![CDATA[http://www.facebook.com/opencms]]></target>
         </link>
         <link name="link5" internal="false" type="A">
           <target><![CDATA[https://twitter.com/OpenCms]]></target>
