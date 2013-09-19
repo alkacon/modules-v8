@@ -103,4 +103,106 @@
       <Value><![CDATA[3 - Third Level]]></Value>
     </Message>
   </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Theme]]></Key>
+      <Value><![CDATA[Farbthema]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Theme.help]]></Key>
+      <Value><![CDATA[Setzt die Hauptfarben des Templates.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.HeaderType]]></Key>
+      <Value><![CDATA[Typ Seitenkopf]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.HeaderType.help]]></Key>
+      <Value><![CDATA[Setzt die Variante des Seitenkopfes.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.header.light]]></Key>
+      <Value><![CDATA[Hell]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.header.dark]]></Key>
+      <Value><![CDATA[Dunkel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.NavStartLevel]]></Key>
+      <Value><![CDATA[Navigation Start Ebene]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.NavStartLevel.help]]></Key>
+      <Value><![CDATA[Setzt die Ordnerebene, von der aus die Navigation beginnen soll.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Header]]></Key>
+      <Value><![CDATA[Kopf HTML]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Header.help]]></Key>
+      <Value><![CDATA[HTML Code für den Kopf der Seiten.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Footer]]></Key>
+      <Value><![CDATA[Fuß HTML]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Footer.help]]></Key>
+      <Value><![CDATA[HTML Code ür den Fußbereich der Seiten.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Copyright]]></Key>
+      <Value><![CDATA[Copyright HTML]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.Copyright.help]]></Key>
+      <Value><![CDATA[HTML Code für den Copyright Abschnitt im Seitenfuß.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.TabGeneral]]></Key>
+      <Value><![CDATA[Allgemeine Einstellungen]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.TabHeader]]></Key>
+      <Value><![CDATA[Seitenkopf]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapConfiguration.TabFooter]]></Key>
+      <Value><![CDATA[Seitenfuß]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.theme.blue]]></Key>
+      <Value><![CDATA[Blau]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.theme.light]]></Key>
+      <Value><![CDATA[Hell]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.theme.orange]]></Key>
+      <Value><![CDATA[Orange]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.theme.red]]></Key>
+      <Value><![CDATA[Rot]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.navstartlevel.0]]></Key>
+      <Value><![CDATA[0 - Wurzelebene]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.navstartlevel.1]]></Key>
+      <Value><![CDATA[1 - Erste Ebene]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.navstartlevel.2]]></Key>
+      <Value><![CDATA[1 - Zweite Ebene]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.configuration.navstartlevel.3]]></Key>
+      <Value><![CDATA[3 - Dritte Ebene]]></Value>
+    </Message>
+  </Bundle>
 </XmlVfsBundles>

@@ -99,4 +99,102 @@
       <Value><![CDATA[Please edit the text block text.]]></Value>
     </Message>
   </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblock.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblock.Title.help]]></Key>
+      <Value><![CDATA[Der Titel des Textbausteins. Er wird nicht auf der Seite angezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblock.Paragraph]]></Key>
+      <Value><![CDATA[Absatz]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTextblock.Paragraph.help]]></Key>
+      <Value><![CDATA[Ein Absatz fÃ¼r einen Textbaustein, es können bis zu 5 Absätze erzeugt werden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Headline]]></Key>
+      <Value><![CDATA[Überschrift]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Headline.help]]></Key>
+      <Value><![CDATA[Die optionale Überschrift des Absatzes.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Text.help]]></Key>
+      <Value><![CDATA[Der Absatztext.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Image]]></Key>
+      <Value><![CDATA[Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Image.help]]></Key>
+      <Value><![CDATA[Ein Bild, das auf unterschiedliche Weise ausgerichtet werden kann.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Link.help]]></Key>
+      <Value><![CDATA[Ein weiterführender Link, kann auch ein externer Link (beginnend mit <b>http://</b>) sein.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Image]]></Key>
+      <Value><![CDATA[Bild URI]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Image.help]]></Key>
+      <Value><![CDATA[Der absolute Pfad des anzuzeigenden Bildes..]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Title.help]]></Key>
+      <Value><![CDATA[Der Bildtitel wird beim Überfahren des Bildes mit der Maus gezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Description]]></Key>
+      <Value><![CDATA[Beschreibung]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Description.help]]></Key>
+      <Value><![CDATA[Die Bildbeschreibung wird als alternativer Text des Bildes verwendet.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.image.left]]></Key>
+      <Value><![CDATA[Links vom Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.image.right]]></Key>
+      <Value><![CDATA[Rechts vom Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.image.top]]></Key>
+      <Value><![CDATA[Oben]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.setting.imgalign]]></Key>
+      <Value><![CDATA[Bildausrichtung]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.default.Title]]></Key>
+      <Value><![CDATA[Neuer Textbaustein]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.textblock.default.Text]]></Key>
+      <Value><![CDATA[Bitte bearbeiten Sie den Textbaustein.]]></Value>
+    </Message>
+  </Bundle>
 </XmlVfsBundles>
