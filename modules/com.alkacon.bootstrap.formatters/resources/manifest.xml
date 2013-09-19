@@ -250,6 +250,34 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/elements/nav-side.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/nav-side.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>e5d5a140-2067-11e3-b5aa-000c297c001d</uuidstructure>
+			<uuidresource>e5d5a141-2067-11e3-b5aa-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 19 Sep 2013 06:58:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 18 Sep 2013 13:40:36 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Side navigation]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;uri;user]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters</destination>
 			<type>folder</type>
 			<uuidstructure>ac221e8c-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
@@ -427,6 +455,39 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/functions</destination>
+			<type>folder</type>
+			<uuidstructure>06b09465-2068-11e3-b5aa-000c297c001d</uuidstructure>
+			<datelastmodified>Wed, 18 Sep 2013 13:41:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 18 Sep 2013 13:41:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/functions/nav-side.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/functions/nav-side.xml</destination>
+			<type>function</type>
+			<uuidstructure>16badf57-2068-11e3-b5aa-000c297c001d</uuidstructure>
+			<uuidresource>16badf58-2068-11e3-b5aa-000c297c001d</uuidresource>
+			<datelastmodified>Wed, 18 Sep 2013 13:44:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 18 Sep 2013 13:41:58 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Side navigation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources</destination>
 			<type>folder</type>
 			<uuidstructure>ac27008e-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
@@ -499,6 +560,26 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css</destination>
+			<type>plain</type>
+			<uuidstructure>52f716c6-20f8-11e3-b4d8-000c297c001d</uuidstructure>
+			<uuidresource>52f716c7-20f8-11e3-b4d8-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 19 Sep 2013 06:56:21 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 19 Sep 2013 06:54:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Styles for OpenCms special items]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>

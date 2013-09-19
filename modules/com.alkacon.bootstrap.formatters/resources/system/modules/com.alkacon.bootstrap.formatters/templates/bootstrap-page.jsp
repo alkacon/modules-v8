@@ -34,7 +34,8 @@
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css/bootstrap-responsive.min.css:0d9d8199-1b95-11e3-a120-000c29f9a2ec)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css:771792bd-1eee-11e3-bba9-000c297c001d)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/style_responsive.css:0b6ac344-1b95-11e3-a120-000c29f9a2ec)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:0e03e4ae-1b95-11e3-a120-000c29f9a2ec)" />
+		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:0e03e4ae-1b95-11e3-a120-000c29f9a2ec)
+		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css:52f716c6-20f8-11e3-b4d8-000c297c001d)" />
 		<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/headers/header${configcontent.value.HeaderType}.css</cms:link>" rel="stylesheet" type="text/css"></link>
 	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/${configcontent.value.Theme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
 	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/headers/header1-${configcontent.value.Theme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
