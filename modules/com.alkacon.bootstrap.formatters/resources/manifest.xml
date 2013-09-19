@@ -291,6 +291,34 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/flexible.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/flexible.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>3496dbbd-210d-11e3-9f67-000c297c001d</uuidstructure>
+			<uuidresource>3496dbbe-210d-11e3-9f67-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 19 Sep 2013 09:33:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 19 Sep 2013 09:23:55 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for flexible element]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/imagerow.jsp</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/imagerow.jsp</destination>
 			<type>jsp</type>

@@ -86,5 +86,17 @@
       <Key><![CDATA[desc.bs-tabs]]></Key>
       <Value><![CDATA[A content element with multiple tabs, can also be rendered as accordion.]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-flexible]]></Key>
+      <Value><![CDATA[Flexible Content]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-flexible]]></Key>
+      <Value><![CDATA[New Flexible Content ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-flexible]]></Key>
+      <Value><![CDATA[Use the flexible content to insert code (HTML, JavaScript), images or texts. ]]></Value>
+    </Message>
   </Bundle>
 </XmlVfsBundles>

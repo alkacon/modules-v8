@@ -1,0 +1,42 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/nested/flexiblechoice.xsd"/>
+		
+	<xsd:element name="BootstrapFlexibleElements" type="OpenCmsBootstrapFlexibleElements"/>
+	
+	<xsd:complexType name="OpenCmsBootstrapFlexibleElements">
+		<xsd:sequence>
+			<xsd:element name="BootstrapFlexibleElement" type="OpenCmsBootstrapFlexibleElement" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapFlexibleElement">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Choice" type="OpenCmsBootstrapFlexibleElementChoice" minOccurs="0" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.flexible"/>
+			<mappings>
+				<mapping element="Title" mapto="property:Title" />
+			</mappings>
+			<searchsettings containerPageOnly="true"> 
+				<searchsetting element="Title" searchcontent="true">
+					<solrfield targetfield="Title" />
+				</searchsetting>
+			</searchsettings>
+			<formatters>
+				<formatter type="*" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/flexible.jsp" searchcontent="false" />
+			</formatters>
+			<settings>
+				<setting name="hideTitle" nice-name="%(key.bootstrap.flexible.setting.hidetitle)" type="string" widget="checkbox" />
+				<setting name="cssClass" nice-name="%(key.bootstrap.flexible.setting.cssclass)" type="string" widget="string" />
+			</settings>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>

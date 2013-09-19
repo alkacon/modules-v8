@@ -2,7 +2,7 @@
 
 <BootstrapConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/configuration.xsd">
   <BootstrapConfiguration language="en">
-    <Theme><![CDATA[orange]]></Theme>
+    <Theme><![CDATA[red]]></Theme>
     <HeaderType><![CDATA[1]]></HeaderType>
     <NavStartLevel><![CDATA[0]]></NavStartLevel>
     <Header name="Header0">
@@ -46,7 +46,7 @@
           <target><![CDATA[https://twitter.com/OpenCms]]></target>
         </link>
         <link name="link2" internal="false" type="A">
-          <target><![CDATA[mailto:sales@alkacon.com]]></target>
+          <target><![CDATA[http://www.alkacon.com/contact]]></target>
         </link>
         <link name="link3" internal="false" type="A">
           <target><![CDATA[http://www.opencms.org/en/home/rss-news.xml]]></target>
@@ -58,42 +58,58 @@
           <target><![CDATA[http://www.alkacon.com/en/products/]]></target>
         </link>
       </links>
-      <content><![CDATA[      <div class="row-fluid">
+      <content><![CDATA[<div class="row-fluid">
 			<div class="span4">
                 <!-- About -->
 		        <div class="headline"><h3>About</h3></div>	
 				<p class="margin-bottom-25">OpenCms from Alkacon Software is a professional, easy to use website content management system. OpenCms helps content managers worldwide to create and maintain beautiful websites fast and efficiently.</p>	
-
-	            <!-- Monthly Newsletter -->
-		        <div class="headline"><h3>Mailing list</h3></div>	
-				<p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
-				<form class="form-inline">
-					<div class="input-append">
-						<input type="text" placeholder="Email Address" class="input-medium">
-						<button class="btn-u">Subscribe</button>
-					</div>
-				</form>							
-			</div><!--/span4-->	
-			
-			<div class="span4">
-                    <div class="headline"><h3>More Information</h3></div>
+          <div class="headline"><h3>More Information</h3></div>
                      <dl>
                            <dt><a href="%(link0)">OpenCms Wiki</a></dt>
                            <dd>Tutorials and HowTos for OpenCms.</dd>
                            <dt><a href="%(link1)">OpenCms Services by Alkacon Software</a></dt>
                            <dd>Alkacon Software's focus area is to develop OpenCms extensions as well as provide professional support and outsourcing services for OpenCms projects. </dd>
                      </dl>
+	            
+			</div><!--/span4-->	
+			
+			<div class="span4">
+          <!-- Mailing List -->
+		        <div class="headline"><h3>The OpenCms Mailing List</h3></div>	
+				<p>The opencms-dev mailing list is the place for all questions, comments and suggestions for OpenCms and the main forum of the OpenCms community. Subscribe to the list by filling out the following form.</p>
+				<form class="form-horizontal" method="post" action="http://lists.opencms.org/mailman/subscribe/opencms-dev">
+					
+							<div class="margin-bottom-10"><input type="text" name="email" placeholder="Email Address" class="input-block-level"/></div>
+            <div class="margin-bottom-10"><input type="password" name="pw" placeholder="Pick a password" class="input-block-level"/></div>
+            <div class="margin-bottom-5"><input type="password" name="pw-conf" placeholder="Confirm password" class="input-block-level"/></div>
+             <p class="margin-bottom-5">Would you like to receive list mail batched in a daily digest?</p>
+            <div class="margin-bottom-10">
+           
+            <label class="radio inline">
+              <input type="radio" checked="checked" value="0" name="digest"/>
+              No
+            </label>
+            <label class="radio inline">
+              <input type="radio" value="1" name="digest"/>
+              Yes
+            </label>   </div>
+            <div class="margin-bottom-10">
+						<button type="submit" class="btn-u">Subscribe</button>
+            </div>
+	
+				</form>							
+                    
 			</div><!--/span4-->
 
 			<div class="span4">
-	            <!-- Monthly Newsletter -->
+	            <!-- Contact -->
 		        <div class="headline"><h3>Contact Us</h3></div>	
                 <address>
 					Alkacon Software GmbH<br />
 					An der Wachsfabrik 13<br />
           50996 Cologne, Germany<br />
 					Phone: +49 2236 / 3826 - 0<br />
-					Email: <a href="%(link2)" class="">sales@alkacon.com</a>
+					<a href="%(link2)">Send us an email</a>
                 </address>
 
                 <!-- Stay Connected -->
@@ -104,7 +120,7 @@
                     <li><a href="%(link5)" data-original-title="Twitter" class="social_twitter"></a></li>
                 </ul>
 			</div><!--/span4-->
-		</div><!--/row-fluid-->]]></content>
+		</div>]]></content>
     </Footer>
     <Copyright name="Copyright0">
       <links>

@@ -40,6 +40,8 @@
             <resource uri="/system/workplace/resources/filetypes/bs-imagerow_big.png"/>
             <resource uri="/system/workplace/resources/filetypes/bs-tabs.png"/>
             <resource uri="/system/workplace/resources/filetypes/bs-tabs_big.png"/>
+            <resource uri="/system/workplace/resources/filetypes/bs-flexible.png"/>
+            <resource uri="/system/workplace/resources/filetypes/bs-flexible_big.png"/>
 		</resources>
 		<parameters/>
 		<resourcetypes>
@@ -57,6 +59,9 @@
             </type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-imagerow" id="184">
                 <param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-flexible" id="185">
+                <param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/flexible.xsd</param>
             </type>
             <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="190">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</param>
@@ -80,6 +85,9 @@
             </explorertype>
 			<explorertype name="bs-imagerow" key="fileicon.bs-imagerow" icon="bs-imagerow.png" bigicon="bs-imagerow_big.png" reference="xmlcontent">
                 <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-imagerow" order="116" autosetnavigation="false" autosettitle="false" info="desc.bs-imagerow"/>
+            </explorertype>
+            <explorertype name="bs-flexible" key="fileicon.bs-flexible" icon="bs-flexible.png" bigicon="bs-flexible_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-flexible" order="117" autosetnavigation="false" autosettitle="false" info="desc.bs-flexible"/>
             </explorertype>
             <explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="122" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
@@ -278,6 +286,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.flexible</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.flexible</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>9a932ff1-210f-11e3-bb06-000c297c001d</uuidstructure>
+			<uuidresource>9a932ff2-210f-11e3-bb06-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 19 Sep 2013 09:49:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 19 Sep 2013 09:41:05 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization flexible element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.imagerow</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.imagerow</destination>
 			<type>xmlvfsbundle</type>
@@ -363,7 +395,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Localization configuration element]]></value>
+					<value><![CDATA[Localization product element]]></value>
 				</property>
 				<property>
 					<name>search.exclude</name>
@@ -411,7 +443,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Localization configuration element]]></value>
+					<value><![CDATA[Localization text block element]]></value>
 				</property>
 				<property>
 					<name>search.exclude</name>
@@ -478,7 +510,27 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
-			<file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/flexible.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/flexible.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>780691d7-210b-11e3-9f67-000c297c001d</uuidstructure>
+			<uuidresource>780691d8-210b-11e3-9f67-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 19 Sep 2013 09:54:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 19 Sep 2013 09:11:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for flexible element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd</destination>
 			<type>plain</type>
@@ -611,10 +663,9 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
-		.xsd
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/image.xsd</source>
-			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/image.xsd</destination>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/availability.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/availability.xsd</destination>
 			<type>plain</type>
 			<uuidstructure>f5c99e75-20fe-11e3-a189-000c297c001d</uuidstructure>
 			<uuidresource>f5c99e75-20fe-11e3-a189-000c297c001d</uuidresource>
@@ -627,6 +678,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Nested XSD for availability info]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/flexiblechoice.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/flexiblechoice.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>17c0012a-210c-11e3-9f67-000c297c001d</uuidstructure>
+			<uuidresource>17c0012b-210c-11e3-9f67-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 19 Sep 2013 09:54:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 19 Sep 2013 09:15:57 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for flexible element choice]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -830,6 +901,46 @@
 			<datelastmodified>Wed, 27 Apr 2011 13:40:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 07:48:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-flexible.png</source>
+			<destination>system/workplace/resources/filetypes/bs-flexible.png</destination>
+			<type>image</type>
+			<uuidstructure>16f41e64-210f-11e3-bb06-000c297c001d</uuidstructure>
+			<uuidresource>16f41e65-210f-11e3-bb06-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 22 Mar 2012 13:51:21 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 19 Sep 2013 09:37:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-flexible_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-flexible_big.png</destination>
+			<type>image</type>
+			<uuidstructure>276c6d67-210f-11e3-bb06-000c297c001d</uuidstructure>
+			<uuidresource>276c6d68-210f-11e3-bb06-000c297c001d</uuidresource>
+			<datelastmodified>Thu, 22 Mar 2012 13:51:39 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 19 Sep 2013 09:37:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
