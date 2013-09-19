@@ -11083,8 +11083,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00001.html</source>
-			<destination>release/.content/textblocks/tb_00001.html</destination>
+			<source>release/.content/textblocks/tb_00001.xml</source>
+			<destination>release/.content/textblocks/tb_00001.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>134d137d-1fa5-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>134d137e-1fa5-11e3-85b8-000c297c001d</uuidresource>
@@ -11103,8 +11103,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00002.html</source>
-			<destination>release/.content/textblocks/tb_00002.html</destination>
+			<source>release/.content/textblocks/tb_00002.xml</source>
+			<destination>release/.content/textblocks/tb_00002.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>f3bcc8ca-1fa4-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>f3bcc8cb-1fa4-11e3-85b8-000c297c001d</uuidresource>
@@ -11123,8 +11123,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00003.html</source>
-			<destination>release/.content/textblocks/tb_00003.html</destination>
+			<source>release/.content/textblocks/tb_00003.xml</source>
+			<destination>release/.content/textblocks/tb_00003.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>d2f97514-1fa7-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>d2f97515-1fa7-11e3-85b8-000c297c001d</uuidresource>
@@ -11143,8 +11143,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00004.html</source>
-			<destination>release/.content/textblocks/tb_00004.html</destination>
+			<source>release/.content/textblocks/tb_00004.xml</source>
+			<destination>release/.content/textblocks/tb_00004.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>096cd1a7-1fa8-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>096cd1a8-1fa8-11e3-85b8-000c297c001d</uuidresource>
@@ -11163,8 +11163,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00005.html</source>
-			<destination>release/.content/textblocks/tb_00005.html</destination>
+			<source>release/.content/textblocks/tb_00005.xml</source>
+			<destination>release/.content/textblocks/tb_00005.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>386cadea-1fa8-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>386cadeb-1fa8-11e3-85b8-000c297c001d</uuidresource>
@@ -11183,8 +11183,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00006.html</source>
-			<destination>release/.content/textblocks/tb_00006.html</destination>
+			<source>release/.content/textblocks/tb_00006.xml</source>
+			<destination>release/.content/textblocks/tb_00006.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>5aff150d-1fa8-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>5aff150e-1fa8-11e3-85b8-000c297c001d</uuidresource>
@@ -11203,8 +11203,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00007.html</source>
-			<destination>release/.content/textblocks/tb_00007.html</destination>
+			<source>release/.content/textblocks/tb_00007.xml</source>
+			<destination>release/.content/textblocks/tb_00007.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>77b98370-1fa8-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>77b98371-1fa8-11e3-85b8-000c297c001d</uuidresource>
@@ -11223,8 +11223,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00008.html</source>
-			<destination>release/.content/textblocks/tb_00008.html</destination>
+			<source>release/.content/textblocks/tb_00008.xml</source>
+			<destination>release/.content/textblocks/tb_00008.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>b83a1e03-1fa8-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>b83a1e04-1fa8-11e3-85b8-000c297c001d</uuidresource>
@@ -11243,8 +11243,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00009.html</source>
-			<destination>release/.content/textblocks/tb_00009.html</destination>
+			<source>release/.content/textblocks/tb_00009.xml</source>
+			<destination>release/.content/textblocks/tb_00009.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>e2a44586-1fa8-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>e2a44587-1fa8-11e3-85b8-000c297c001d</uuidresource>
@@ -11263,8 +11263,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00010.html</source>
-			<destination>release/.content/textblocks/tb_00010.html</destination>
+			<source>release/.content/textblocks/tb_00010.xml</source>
+			<destination>release/.content/textblocks/tb_00010.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>04ae90e9-1fa9-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>04ae90ea-1fa9-11e3-85b8-000c297c001d</uuidresource>
@@ -11283,8 +11283,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00011.html</source>
-			<destination>release/.content/textblocks/tb_00011.html</destination>
+			<source>release/.content/textblocks/tb_00011.xml</source>
+			<destination>release/.content/textblocks/tb_00011.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>2b35159c-1fa9-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>2b35159d-1fa9-11e3-85b8-000c297c001d</uuidresource>
@@ -11303,8 +11303,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00012.html</source>
-			<destination>release/.content/textblocks/tb_00012.html</destination>
+			<source>release/.content/textblocks/tb_00012.xml</source>
+			<destination>release/.content/textblocks/tb_00012.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>4a341ccf-1fa9-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>4a341cd0-1fa9-11e3-85b8-000c297c001d</uuidresource>
@@ -11323,8 +11323,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00013.html</source>
-			<destination>release/.content/textblocks/tb_00013.html</destination>
+			<source>release/.content/textblocks/tb_00013.xml</source>
+			<destination>release/.content/textblocks/tb_00013.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>6bb56212-1fa9-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>6bb56213-1fa9-11e3-85b8-000c297c001d</uuidresource>
@@ -11343,8 +11343,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00014.html</source>
-			<destination>release/.content/textblocks/tb_00014.html</destination>
+			<source>release/.content/textblocks/tb_00014.xml</source>
+			<destination>release/.content/textblocks/tb_00014.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>acc67cd8-1fa9-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>acc67cd9-1fa9-11e3-85b8-000c297c001d</uuidresource>
@@ -11363,8 +11363,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00015.html</source>
-			<destination>release/.content/textblocks/tb_00015.html</destination>
+			<source>release/.content/textblocks/tb_00015.xml</source>
+			<destination>release/.content/textblocks/tb_00015.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>e8c4004b-1fa9-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>e8c4004c-1fa9-11e3-85b8-000c297c001d</uuidresource>
@@ -11383,8 +11383,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/.content/textblocks/tb_00016.html</source>
-			<destination>release/.content/textblocks/tb_00016.html</destination>
+			<source>release/.content/textblocks/tb_00016.xml</source>
+			<destination>release/.content/textblocks/tb_00016.xml</destination>
 			<type>bs-textblock</type>
 			<uuidstructure>1768761e-1faa-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>1768761f-1faa-11e3-85b8-000c297c001d</uuidresource>
