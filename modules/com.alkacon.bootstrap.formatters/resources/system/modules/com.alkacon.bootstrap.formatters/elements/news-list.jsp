@@ -15,8 +15,8 @@
 <cms:formatter var="function" rdfa="rdfa">
 
 	<div <c:if test="${cms.container.type == 'content-full'}"> class="row-fluid"</c:if>>
-		<div class="headline"><h4 ${rdfa.Title}><c:out value="${function.value['Title']}" escapeXml="false" /></h4></div>
-		<div class="posts blog-item margin-bottom-20">
+		<div class="headline"><h3 ${rdfa.Title}><c:out value="${function.value['Title']}" escapeXml="false" /></h3></div>
+		<div class="lists margin-bottom-20">
 
 	<cms:contentload collector="byContext" param="${collectorParam}" preload="true" >
 		<cms:contentinfo var="info" />
@@ -28,16 +28,29 @@
 				<c:if test="${paragraph.value.Headline.isSet}"><c:set var="headline">${paragraph.value.Headline}</c:set></c:if>
 
 				<!-- entry -->
-				<dl class="dl-horizontal">
-					<a href="<cms:link>${content.file.rootPath}</cms:link>">
-						<h4 class="media-heading">${cms:trimToSize(cms:stripHtml(headline), headCount)}<span><fmt:formatDate value="${cms:convertDate(content.value.Date)}" dateStyle="SHORT" timeStyle="SHORT" type="both" /></span></h4>
-					</a>
-					<c:if test="${paragraph.value.Image.exists}"><dt>
-				    	<a href="<cms:link>${content.file.rootPath}</cms:link>">
-						<cms:img src="${paragraph.value.Image.value.Image}" alt="${paragraph.value.Image.value.Title}" width="50" scaleColor="transparent" scaleType="0"/></a>
-					</dt></c:if>
-					<dd><p><a href="<cms:link>${content.file.rootPath}</cms:link>">${cms:trimToSize(cms:stripHtml(paragraph.value.Text), wordCount)}</a></p></dd>
-				</dl>
+				<div class="entry ">
+					<div class="row-fluid">
+						<div class="span12">
+							<a class="headlink" href="<cms:link>${content.file.rootPath}</cms:link>"><h4>${cms:trimToSize(cms:stripHtml(headline), headCount)}</h4></a>
+							<span class="date"><fmt:formatDate value="${cms:convertDate(content.value.Date)}" dateStyle="SHORT" timeStyle="SHORT" type="both" /></span>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="span3">
+							<c:if test="${paragraph.value.Image.exists}">
+							<a href="<cms:link>${content.file.rootPath}</cms:link>">
+								<cms:img src="${paragraph.value.Image.value.Image}" alt="${paragraph.value.Image.value.Title}" width="600" scaleQuality="60" scaleColor="transparent" scaleType="0" />
+							</a>
+							</c:if>
+							<c:if test="${!paragraph.value.Image.exists}">
+								<p>no image</p>
+							</c:if>
+						</div>
+	               		<div class="span9">
+							<a href="<cms:link>${content.file.rootPath}</cms:link>"><span>${cms:trimToSize(cms:stripHtml(paragraph.value.Text), wordCount)}</span></a>  
+						</div>
+					</div>
+				</div>
 				<!-- // END entry -->
 
 			</cms:contentload>
