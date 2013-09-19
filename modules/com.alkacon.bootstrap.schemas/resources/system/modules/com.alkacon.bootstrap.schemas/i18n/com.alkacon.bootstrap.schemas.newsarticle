@@ -11,20 +11,156 @@
       <Value><![CDATA[The title of the news article.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapNewsarticle.Description]]></Key>
-      <Value><![CDATA[Description]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapNewsarticle.Description.help]]></Key>
-      <Value><![CDATA[The description of the news article.]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[bootstrap.newsarticle.default.Title]]></Key>
       <Value><![CDATA[New news article]]></Value>
+    </Message>  
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Date]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Date.help]]></Key>
+      <Value><![CDATA[The date of the news article.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Paragraph]]></Key>
+      <Value><![CDATA[Paragraph]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Paragraph.help]]></Key>
+      <Value><![CDATA[The paragraphs of the news article.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLink.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLink.Text.help]]></Key>
+      <Value><![CDATA[The display text for the link.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLink.URI]]></Key>
+      <Value><![CDATA[Target]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLink.URI.help]]></Key>
+      <Value><![CDATA[The link target.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Category]]></Key>
+      <Value><![CDATA[Categories]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Category.help]]></Key>
+      <Value><![CDATA[Assigns categories to the news article.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.AuthorTab]]></Key>
+      <Value><![CDATA[Author]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Author]]></Key>
+      <Value><![CDATA[Author]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Author.help]]></Key>
+      <Value><![CDATA[The creator of this news article.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.AuthorMail]]></Key>
+      <Value><![CDATA[E-Mail]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.AuthorMail.help]]></Key>
+      <Value><![CDATA[The e-mail of the news article creator.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Availability]]></Key>
+      <Value><![CDATA[Availability]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Availability.help]]></Key>
+      <Value><![CDATA[The availability of the news article.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.General]]></Key>
+      <Value><![CDATA[General]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Headline.help]]></Key>
+      <Value><![CDATA[The optional headline of the paragraph.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Text.help]]></Key>
+      <Value><![CDATA[The paragraph text.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.newsarticle.default.Text]]></Key>
       <Value><![CDATA[Please edit the news article text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Image.help]]></Key>
+      <Value><![CDATA[An image that can be aligned in different ways.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Link.help]]></Key>
+      <Value><![CDATA[A link pointing to further information, can also be an external link (starting with <b>http://</b>).]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Image]]></Key>
+      <Value><![CDATA[Image URI]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Image.help]]></Key>
+      <Value><![CDATA[The absolute path to the image to use.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Title.help]]></Key>
+      <Value><![CDATA[The image title is displayed when hovering the image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Description]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Description.help]]></Key>
+      <Value><![CDATA[The image description is used as alternative text for the image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapAvailability.Release]]></Key>
+      <Value><![CDATA[Release date]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapAvailability.Release.help]]></Key>
+      <Value><![CDATA[The release date of the news.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapAvailability.Expiration]]></Key>
+      <Value><![CDATA[Expiration date]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapAvailability.Expiration.help]]></Key>
+      <Value><![CDATA[The expiration date of the news.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.newsarticle.image.left]]></Key>

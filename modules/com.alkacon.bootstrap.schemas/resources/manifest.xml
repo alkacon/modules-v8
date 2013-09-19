@@ -85,7 +85,7 @@
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="122" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
 			</explorertype>
             <explorertype name="bs-newsarticle" key="fileicon.bs-newsarticle" icon="bs-newsarticle.png" bigicon="bs-newsarticle_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-newsarticle" order="122" autosetnavigation="false" autosettitle="false" info="desc.bs-newsarticle"/>
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-newsarticle" order="123" autosetnavigation="false" autosettitle="false" info="desc.bs-newsarticle"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -611,6 +611,27 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
+		.xsd
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/image.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/image.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>f5c99e75-20fe-11e3-a189-000c297c001d</uuidstructure>
+			<uuidresource>f5c99e75-20fe-11e3-a189-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 13 Sep 2013 14:30:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 13 Sep 2013 10:51:38 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for availability info]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
 		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/image.xsd</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/image.xsd</destination>
@@ -625,7 +646,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Nested XSD for a textblock image]]></value>
+					<value><![CDATA[Nested XSD for a image]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -685,7 +706,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Nested XSD for a textblock paragraph]]></value>
+					<value><![CDATA[Nested XSD for a paragraph]]></value>
 				</property>
 			</properties>
 			<relations/>

@@ -24,7 +24,6 @@
 
 	<xsd:annotation>
 		<xsd:appinfo>
-			<resourcebundle name="com.alkacon.bootstrap.schemas.textblock"/>
 			<layouts>
 				<layout element="Text" widget="HtmlWidget" configuration="height:400px,link,anchor,source,downloadgallery"/>
 			</layouts>
