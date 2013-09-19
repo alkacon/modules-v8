@@ -1,6 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Title.help]]></Key>
+      <Value><![CDATA[Der Titel der Nachricht.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.default.Title]]></Key>
+      <Value><![CDATA[Neue Nachricht]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Date]]></Key>
+      <Value><![CDATA[Datum]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Date.help]]></Key>
+      <Value><![CDATA[Das Datum der Nachricht.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Paragraph]]></Key>
+      <Value><![CDATA[Absatz]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Paragraph.help]]></Key>
+      <Value><![CDATA[Die Absätze der Nachricht.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLink.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLink.Text.help]]></Key>
+      <Value><![CDATA[Der Anzeigetext für den Link.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLink.URI]]></Key>
+      <Value><![CDATA[Link URI]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLink.URI.help]]></Key>
+      <Value><![CDATA[Das Ziel des Links.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Category]]></Key>
+      <Value><![CDATA[Kategorien]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Category.help]]></Key>
+      <Value><![CDATA[Ordnet der Nachricht Kategorien zu.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.AuthorTab]]></Key>
+      <Value><![CDATA[Autor]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Author]]></Key>
+      <Value><![CDATA[Autor]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Author.help]]></Key>
+      <Value><![CDATA[Der Verfasser der Nachricht.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.AuthorMail]]></Key>
+      <Value><![CDATA[E-Mail]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.AuthorMail.help]]></Key>
+      <Value><![CDATA[Die E-Mail des Verfassers.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Availability]]></Key>
+      <Value><![CDATA[Gültigkeit]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.Availability.help]]></Key>
+      <Value><![CDATA[Die Gültigkeit der Nachricht.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNewsarticle.General]]></Key>
+      <Value><![CDATA[Allgemein]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Headline]]></Key>
+      <Value><![CDATA[Überschrift]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Headline.help]]></Key>
+      <Value><![CDATA[Die optionale Überschrift des Absatzes.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Text.help]]></Key>
+      <Value><![CDATA[Der Absatztext.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.default.Text]]></Key>
+      <Value><![CDATA[Bitte bearbeiten Sie den Nachrichtentext.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Image]]></Key>
+      <Value><![CDATA[Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Image.help]]></Key>
+      <Value><![CDATA[Ein Bild, das auf verschiedene Arten ausgerichtet werden kann.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Link.help]]></Key>
+      <Value><![CDATA[Ein Link zu weiterführenen Informationen, kann auch ein externer Link (beginnend mit <b>http://</b>) sein.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Image]]></Key>
+      <Value><![CDATA[Bild URI]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Image.help]]></Key>
+      <Value><![CDATA[Der absolute Pfad des anzuzeigenden Bildes.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Title.help]]></Key>
+      <Value><![CDATA[Der Bildtitel wird beim Überfahren des Bildes mit der Maus gezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Description]]></Key>
+      <Value><![CDATA[Beschreibung]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Description.help]]></Key>
+      <Value><![CDATA[Die Bildbeschreibung wird als alternativer Text für das Bild verwendet.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapAvailability.Release]]></Key>
+      <Value><![CDATA[Gültig ab]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapAvailability.Release.help]]></Key>
+      <Value><![CDATA[Datum ab dem diese Nachricht gültig ist. ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapAvailability.Expiration]]></Key>
+      <Value><![CDATA[Gültig bis]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapAvailability.Expiration.help]]></Key>
+      <Value><![CDATA[Datum bis zu dem diese Nachricht gültig ist.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.image.left]]></Key>
+      <Value><![CDATA[Links vom Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.image.right]]></Key>
+      <Value><![CDATA[Rechts vom Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.image.top]]></Key>
+      <Value><![CDATA[Oben]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.newsarticle.setting.imgalign]]></Key>
+      <Value><![CDATA[Bildausrichtung]]></Value>
+    </Message>
+  </Bundle>
   <Bundle language="en">
     <Message>
       <Key><![CDATA[label.BootstrapNewsarticle.Title]]></Key>
@@ -13,10 +191,10 @@
     <Message>
       <Key><![CDATA[bootstrap.newsarticle.default.Title]]></Key>
       <Value><![CDATA[New news article]]></Value>
-    </Message>  
+    </Message>
     <Message>
       <Key><![CDATA[label.BootstrapNewsarticle.Date]]></Key>
-      <Value><![CDATA[Title]]></Value>
+      <Value><![CDATA[Date]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapNewsarticle.Date.help]]></Key>
