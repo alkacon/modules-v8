@@ -114,6 +114,14 @@
       <Key><![CDATA[bootstrap.product.default.Description]]></Key>
       <Value><![CDATA[Product description]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[product.brand]]></Key>
+      <Value><![CDATA[Marke:]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[product.price]]></Key>
+      <Value><![CDATA[Preis:]]></Value>
+    </Message>
   </Bundle>
   <Bundle language="de">
     <Message>
@@ -227,6 +235,14 @@
     <Message>
       <Key><![CDATA[bootstrap.product.default.Description]]></Key>
       <Value><![CDATA[Produkt Beschreibung]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[product.brand]]></Key>
+      <Value><![CDATA[Brand:]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[product.price]]></Key>
+      <Value><![CDATA[Price:]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>
