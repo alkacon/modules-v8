@@ -5,7 +5,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
 <fmt:setLocale value="${cms.locale}" />
-<cms:bundle basename="com.alkacon.bootstrap.schemas.newsarticle" />
+<cms:bundle basename="com.alkacon.bootstrap.schemas.newsarticle">
 
 <c:set var="solrParamType">&fq=type:${param.resourceType}</c:set>
 <c:set var="solrParamDirs">&fq=parent-folders:${param.parentFolders}</c:set>
@@ -74,3 +74,4 @@
 	</div>
 
 </cms:formatter>
+</cms:bundle>
