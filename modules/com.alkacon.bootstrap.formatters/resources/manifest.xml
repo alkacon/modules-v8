@@ -2685,6 +2685,1559 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider</destination>
+			<type>folder</type>
+			<uuidstructure>2b4a5f76-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/index-fullwidth.html</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/index-fullwidth.html</destination>
+			<type>plain</type>
+			<uuidstructure>2be0363c-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2be0363d-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/index-static.html</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/index-static.html</destination>
+			<type>plain</type>
+			<uuidstructure>2be47bff-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2be47c00-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/index.html</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/index.html</destination>
+			<type>plain</type>
+			<uuidstructure>2be8c1c2-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2be8e8d3-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/css</destination>
+			<type>folder</type>
+			<uuidstructure>2b4e08f8-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/css/preview.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/css/preview.css</destination>
+			<type>plain</type>
+			<uuidstructure>2b52009a-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b52009b-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/css/rs-style.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/css/rs-style.css</destination>
+			<type>plain</type>
+			<uuidstructure>2b56e29d-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b56e29e-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images</destination>
+			<type>folder</type>
+			<uuidstructure>2b5ada40-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles</destination>
+			<type>folder</type>
+			<uuidstructure>2b5e83c2-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/bgtile.jpg</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/bgtile.jpg</destination>
+			<type>image</type>
+			<uuidstructure>2b6365c4-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b6365c5-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:25,h:25]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/bgtile.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/bgtile.png</destination>
+			<type>image</type>
+			<uuidstructure>2b698048-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b698049-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:198,h:198]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/check.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/check.png</destination>
+			<type>image</type>
+			<uuidstructure>2b6f4cac-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b6f4cad-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:40,h:40]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/divider.jpg</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/divider.jpg</destination>
+			<type>image</type>
+			<uuidstructure>2b75b550-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b75b551-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:100,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/divider.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/divider.png</destination>
+			<type>image</type>
+			<uuidstructure>2b7b5aa4-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b7b5aa5-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:10,h:10]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/dragnotch.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/dragnotch.png</destination>
+			<type>image</type>
+			<uuidstructure>2b80fff8-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b80fff9-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:7,h:22]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/dragsliderbg.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/dragsliderbg.png</destination>
+			<type>image</type>
+			<uuidstructure>2b867e3c-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b867e3d-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:410,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/dropdown.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/dropdown.png</destination>
+			<type>image</type>
+			<uuidstructure>2b8c2290-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b8c2291-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:23,h:46]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/inputfield.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/inputfield.png</destination>
+			<type>image</type>
+			<uuidstructure>2b91c7e4-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b91c7e5-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:154,h:33]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/logo.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/logo.png</destination>
+			<type>image</type>
+			<uuidstructure>2b979448-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b979449-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:400,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/minishadow.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/minishadow.png</destination>
+			<type>image</type>
+			<uuidstructure>2b9d60ac-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2b9d60ad-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:85,h:34]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/minishadow2.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/minishadow2.png</destination>
+			<type>image</type>
+			<uuidstructure>2ba30600-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2ba30601-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:85,h:34]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/minishadow3.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/minishadow3.png</destination>
+			<type>image</type>
+			<uuidstructure>2ba85d34-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2ba85d35-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:85,h:34]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/minus.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/minus.png</destination>
+			<type>image</type>
+			<uuidstructure>2bae0288-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bae0289-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:23,h:46]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/no.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/no.png</destination>
+			<type>image</type>
+			<uuidstructure>2bb380cc-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bb380cd-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:11,h:8]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/ok.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/ok.png</destination>
+			<type>image</type>
+			<uuidstructure>2bb8ff10-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bb8ff11-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:11,h:8]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/plus.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/plus.png</destination>
+			<type>image</type>
+			<uuidstructure>2bbe7d54-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bbe7d55-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:23,h:46]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/radio.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/radio.png</destination>
+			<type>image</type>
+			<uuidstructure>2bc3fb98-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bc3fb99-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:17,h:38]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/rotator-line.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/rotator-line.png</destination>
+			<type>image</type>
+			<uuidstructure>2bc9a0ec-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bc9a0ed-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:75,h:150]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/rotator.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/rotator.png</destination>
+			<type>image</type>
+			<uuidstructure>2bcf1f30-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bcf1f31-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:75,h:75]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/shadow3_large.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/shadow3_large.png</destination>
+			<type>image</type>
+			<uuidstructure>2bd587d4-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bd587d5-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:900,h:60]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/sliderconfigheadline.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/images/tiles/sliderconfigheadline.png</destination>
+			<type>image</type>
+			<uuidstructure>2bdba258-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bdba259-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:388,h:36]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/previewjs</destination>
+			<type>folder</type>
+			<uuidstructure>2bed0785-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:27 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/previewjs/preview-normal.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/previewjs/preview-normal.js</destination>
+			<type>plain</type>
+			<uuidstructure>2bf062e7-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bf062e8-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin</destination>
+			<type>folder</type>
+			<uuidstructure>2bf3be4a-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:27 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets</destination>
+			<type>folder</type>
+			<uuidstructure>2bf6f29c-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:27 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_large_left.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_large_left.png</destination>
+			<type>image</type>
+			<uuidstructure>2c0a0579-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c0a057a-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:46,h:92]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_large_right.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_large_right.png</destination>
+			<type>image</type>
+			<uuidstructure>2c0ee77d-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c0ee77e-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:46,h:92]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_left.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_left.png</destination>
+			<type>image</type>
+			<uuidstructure>2c13a271-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c13a272-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:26,h:52]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_left2.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_left2.png</destination>
+			<type>image</type>
+			<uuidstructure>2c188475-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c188476-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:12,h:34]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_right.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_right.png</destination>
+			<type>image</type>
+			<uuidstructure>2c1d3f69-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c1d3f6a-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:26,h:52]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_right2.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrow_right2.png</destination>
+			<type>image</type>
+			<uuidstructure>2c21fa5d-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c21fa5e-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:12,h:34]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrowleft.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrowleft.png</destination>
+			<type>image</type>
+			<uuidstructure>2bfb114e-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2bfb114f-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:9,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrowright.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrowright.png</destination>
+			<type>image</type>
+			<uuidstructure>2c006882-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c006883-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:9,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrows.psd</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/arrows.psd</destination>
+			<type>plain</type>
+			<uuidstructure>2c052376-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c052377-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/black50.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/black50.png</destination>
+			<type>image</type>
+			<uuidstructure>2c270371-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c270372-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:100,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/boxed_bgtile.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/boxed_bgtile.png</destination>
+			<type>image</type>
+			<uuidstructure>2c2bbe65-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c2bbe66-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:100,h:40]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/bullet.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/bullet.png</destination>
+			<type>image</type>
+			<uuidstructure>2c307959-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c30795a-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:40]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/bullet_boxed.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/bullet_boxed.png</destination>
+			<type>image</type>
+			<uuidstructure>2c42eff8-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c42eff9-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:18,h:38]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/bullets.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/bullets.png</destination>
+			<type>image</type>
+			<uuidstructure>2c35344d-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c35344e-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:23,h:46]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/bullets.psd</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/bullets.psd</destination>
+			<type>plain</type>
+			<uuidstructure>2c39a121-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c39a122-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/bullets2.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/bullets2.png</destination>
+			<type>image</type>
+			<uuidstructure>2c3e3504-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c3e3505-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:19,h:38]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/coloredbg.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/coloredbg.png</destination>
+			<type>image</type>
+			<uuidstructure>2c47aaec-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c47aaed-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:5,h:5]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/grain.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/grain.png</destination>
+			<type>image</type>
+			<uuidstructure>2c4cb400-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c4cb401-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:100,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/large_left.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/large_left.png</destination>
+			<type>image</type>
+			<uuidstructure>2c519604-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c519605-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:40,h:80]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/large_right.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/large_right.png</destination>
+			<type>image</type>
+			<uuidstructure>2c567808-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c567809-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:40,h:80]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/loader.gif</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/loader.gif</destination>
+			<type>image</type>
+			<uuidstructure>2c5b811c-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c5b811d-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/loader2.gif</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/loader2.gif</destination>
+			<type>image</type>
+			<uuidstructure>2c606320-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c606321-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/navigdots.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/navigdots.png</destination>
+			<type>image</type>
+			<uuidstructure>2c654524-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c654525-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:15,h:30]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/navigdots_bgtile.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/navigdots_bgtile.png</destination>
+			<type>image</type>
+			<uuidstructure>2c6a2728-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c6a2729-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:10,h:35]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/shadow1.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/shadow1.png</destination>
+			<type>image</type>
+			<uuidstructure>2c6f303c-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c6f303d-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:900,h:30]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/shadow2.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/shadow2.png</destination>
+			<type>image</type>
+			<uuidstructure>2c74ae80-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c74ae81-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:900,h:60]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/shadow3.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/shadow3.png</destination>
+			<type>image</type>
+			<uuidstructure>2c7a05b4-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c7a05b5-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:900,h:60]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/small_arrows.psd</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/small_arrows.psd</destination>
+			<type>plain</type>
+			<uuidstructure>2c7e7288-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c7e7289-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/small_left.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/small_left.png</destination>
+			<type>image</type>
+			<uuidstructure>2c83548b-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c83548c-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:19,h:28]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/small_left_boxed.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/small_left_boxed.png</destination>
+			<type>image</type>
+			<uuidstructure>2c880f7f-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c880f80-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:30]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/small_right.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/small_right.png</destination>
+			<type>image</type>
+			<uuidstructure>2c8cf183-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c8cf184-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:19,h:28]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/small_right_boxed.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/small_right_boxed.png</destination>
+			<type>image</type>
+			<uuidstructure>2c91d387-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c91d388-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:30]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/timer.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/timer.png</destination>
+			<type>image</type>
+			<uuidstructure>2c96b58b-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c96b58c-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1,h:10]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/timerdot.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/timerdot.png</destination>
+			<type>image</type>
+			<uuidstructure>2c9b978f-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2c9b9790-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1,h:10]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/transparent.jpg</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/transparent.jpg</destination>
+			<type>image</type>
+			<uuidstructure>2ca07993-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2ca07994-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:10,h:10]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/white50.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/assets/white50.png</destination>
+			<type>image</type>
+			<uuidstructure>2ca582a7-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2ca582a8-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:100,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/css</destination>
+			<type>folder</type>
+			<uuidstructure>2ca9a15b-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/css/settings-In-Konflikt-stehende-Kopie-von-Flash-Horvath-2013-02-13.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/css/settings-In-Konflikt-stehende-Kopie-von-Flash-Horvath-2013-02-13.css</destination>
+			<type>plain</type>
+			<uuidstructure>2cad4add-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2cad4ade-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/css/settings.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/css/settings.css</destination>
+			<type>plain</type>
+			<uuidstructure>2cb190a0-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2cb190a1-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images</destination>
+			<type>folder</type>
+			<uuidstructure>2cb56133-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/decor_inside.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/decor_inside.png</destination>
+			<type>image</type>
+			<uuidstructure>2cb97fe5-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2cb97fe6-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:4,h:4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/decor_inside_white.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/decor_inside_white.png</destination>
+			<type>image</type>
+			<uuidstructure>2cbe61e9-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2cbe61ea-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:4,h:4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/decor_testimonial.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/decor_testimonial.png</destination>
+			<type>image</type>
+			<uuidstructure>2cc31cdd-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2cc31cde-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:10,h:4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/gradient</destination>
+			<type>folder</type>
+			<uuidstructure>2cc73b91-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/gradient/g30.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/gradient/g30.png</destination>
+			<type>image</type>
+			<uuidstructure>2ccb8153-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2ccb8154-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1,h:60]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/gradient/g40.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/images/gradient/g40.png</destination>
+			<type>image</type>
+			<uuidstructure>2cd0ff97-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2cd0ff98-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1,h:80]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js</destination>
+			<type>folder</type>
+			<uuidstructure>2cd56c6b-2202-11e3-a498-000c297c001d</uuidstructure>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js</destination>
+			<type>plain</type>
+			<uuidstructure>2cd8eedd-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2cd8eede-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.js</destination>
+			<type>plain</type>
+			<uuidstructure>2cdd5ab0-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2cdd5ab1-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js</destination>
+			<type>plain</type>
+			<uuidstructure>2ce215a3-2202-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>2ce215a4-2202-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:37:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:37:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/templates</destination>
 			<type>folder</type>
 			<uuidstructure>ac18a8a8-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
