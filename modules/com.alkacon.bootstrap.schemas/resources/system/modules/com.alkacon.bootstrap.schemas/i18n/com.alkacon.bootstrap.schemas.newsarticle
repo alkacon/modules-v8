@@ -178,6 +178,10 @@
       <Key><![CDATA[bootstrap.newsarticle.setting.imgalign]]></Key>
       <Value><![CDATA[Bildausrichtung]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[no.image]]></Key>
+      <Value><![CDATA[Kein Bild vorhanden.]]></Value>
+    </Message>
   </Bundle>
   <Bundle language="en">
     <Message>
@@ -355,6 +359,10 @@
     <Message>
       <Key><![CDATA[bootstrap.newsarticle.setting.imgalign]]></Key>
       <Value><![CDATA[Image alignment]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[no.image]]></Key>
+      <Value><![CDATA[No image present.]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

@@ -35,57 +35,37 @@
 border: 1px solid #ddd;
 }
 
-.lists div.entry {
+.lists .entry {
 	margin-bottom: 15px;
 	padding: 3px;
 	background: #fdfdfd;
 	border-right: solid 2px #eee;
 	min-height: 100px;
 }
-.lists div.entry a.headlink {
-	width: 100%;
-	height: 150px;
-	display: inline-block;
-	position: absolute;
+.lists .entry:hover {
+	border-right: solid 2px #b31b34;
 }
-.lists div.entry img {
+.lists .entry img {
 	border: solid 3px #eee;
 }
-.lists div.entry span.date {
-	right: 20px;
+.lists .entry a.textlink {
+	display: inline-block;
+}
+.lists .entry a.headlink {
+	width: 75%;
+	display: inline-block;
+	float: left;
+}
+.lists .entry span.date {
 	color: #777;
 	font-size: 12px;
-	position: absolute;
 	margin-top: 8px;
+	float: right;
 }
-.lists div.entry:hover {
-	border-right: solid 2px #72c02c;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-.lists div.entry:hover a {
-	 text-decoration: none;
-	color: #72c02c;
-	border-color: #72c02c;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-.lists div.entry:hover a h4 {
-	 text-decoration: none;
-	color: #72c02c;
-	border-color: #72c02c;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-.lists div.entry:hover img {
-	color: #72c02c;
-	border-color: #72c02c;
+.lists .entry:hover, .lists .entry:hover a, .lists .entry:hover h4, .lists .entry:hover img {
+	text-decoration: none;
+	color: #b31b34;
+	border-color: #b31b34;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
