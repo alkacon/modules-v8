@@ -96,7 +96,7 @@
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.configuration.navstartlevel.2]]></Key>
-      <Value><![CDATA[1 - Second Level]]></Value>
+      <Value><![CDATA[2 - Second Level]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.configuration.navstartlevel.3]]></Key>
@@ -198,7 +198,7 @@
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.configuration.navstartlevel.2]]></Key>
-      <Value><![CDATA[1 - Zweite Ebene]]></Value>
+      <Value><![CDATA[2 - Zweite Ebene]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.configuration.navstartlevel.3]]></Key>
