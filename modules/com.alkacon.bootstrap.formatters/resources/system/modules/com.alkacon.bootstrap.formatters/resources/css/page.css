@@ -35,6 +35,12 @@
 border: 1px solid #ddd;
 }
 
+/* Login element */
+.log-page {
+	width: auto;
+}
+
+/* Lists */
 .lists .entry {
 	margin-bottom: 15px;
 	padding: 3px;
