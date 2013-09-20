@@ -2,7 +2,7 @@
 
 <DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
   <DynamicFunction language="en">
-    <Title><![CDATA[News article list (large)]]></Title>
+    <Title><![CDATA[News article list]]></Title>
     <Description><![CDATA[Provides a list of recent news articles]]></Description>
     <FunctionProvider>
       <link type="WEAK">
@@ -16,7 +16,7 @@
     </Parameter>
     <Parameter>
       <Key><![CDATA[parentFolders]]></Key>
-      <Value><![CDATA[("/shared/.content/newsarticles/" OR "/sites/default/.content/newsarticles/")]]></Value>
+      <Value><![CDATA[("/shared/.content/newsarticles/" OR "/sites/default/")]]></Value>
     </Parameter>
     <Parameter>
       <Key><![CDATA[sortOrder]]></Key>
@@ -24,11 +24,11 @@
     </Parameter>
     <Parameter>
       <Key><![CDATA[rowCount]]></Key>
-      <Value><![CDATA[4]]></Value>
+      <Value><![CDATA[2]]></Value>
     </Parameter>
     <Parameter>
       <Key><![CDATA[createPath]]></Key>
-      <Value><![CDATA[/sites/default/.content/newsarticles/na_%(number:5).html]]></Value>
+      <Value><![CDATA[/sites/default/demo/.content/newsarticles/na_%(number:5).html]]></Value>
     </Parameter>
   </DynamicFunction>
 </DynamicFunctions>

@@ -4,7 +4,7 @@
 
 <c:set var="navStartLevel"><c:out value="${cms.element.settings.startlevel}" default="1" /></c:set>
 <cms:navigation type="treeForFolder" startLevel="${navStartLevel}" endLevel="${navStartLevel + 2}" var="nav"/>
-<div class="nav-side">
+<div class="nav-side margin-bottom-20">
 	<ul class="nav nav-tabs nav-stacked">			
 		<c:set var="oldLevel" value="" />
 

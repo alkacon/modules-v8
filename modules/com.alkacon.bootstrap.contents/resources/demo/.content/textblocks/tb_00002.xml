@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[Test text block 2]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Extranet of flowers]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In our Extranet you will find an overview of pretty exotic plants and flowers.<br />You need to login in order to access the Extranet.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/news/blumenstrauss.jpg]]></target>
+            <uuid>6508c7e3-772e-11e0-b9f6-000c2972a6a4</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Flower arrangement]]></Title>
+      </Image>
+      <Link>
+        <Text><![CDATA[Read More]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/demo-en/]]></target>
+            <uuid>a87a6917-21d2-11e3-b95f-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

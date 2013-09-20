@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/configuration.xsd">
+  <BootstrapConfiguration language="en">
+    <Theme><![CDATA[red]]></Theme>
+    <HeaderType><![CDATA[1]]></HeaderType>
+    <NavStartLevel><![CDATA[2]]></NavStartLevel>
+    <Header name="Header0">
+      <links>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/]]></target>
+          <uuid>2e6da3bb-217e-11e3-96de-000c29d28104</uuid>
+        </link>
+        <link name="link3" internal="true" type="A">
+          <target><![CDATA[/sites/default/]]></target>
+          <uuid>2e6da3bb-217e-11e3-96de-000c29d28104</uuid>
+        </link>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[]]></anchor>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[        <ul class="loginbar pull-right">
+            <li><i class="icon-globe"></i><a>Languages <i class="icon-sort-up"></i></a>
+            	<ul class="nav-list">
+                	<li><a href="%(link0)">English</a></li>
+                	<li><a href="%(link1)">German</a></li>
+                </ul>
+            </li>	
+            <li class="devider">&nbsp;</li>
+            <li><a href="%(link2)" class="login-btn">Help</a></li>
+            <li class="devider">&nbsp;</li>
+            <li><a href="%(link3)" class="login-btn">Login</a></li>
+        </ul>]]></content>
+    </Header>
+    <Footer name="Footer0">
+      <links>
+        <link name="link8" internal="false" type="A">
+          <target><![CDATA[http://www.youtube.com/alkacon]]></target>
+        </link>
+        <link name="link6" internal="false" type="A">
+          <target><![CDATA[https://plus.google.com/103358026935578738937]]></target>
+        </link>
+        <link name="link7" internal="false" type="A">
+          <target><![CDATA[https://twitter.com/AlkaconOpenCms]]></target>
+        </link>
+        <link name="link4" internal="false" type="A">
+          <target><![CDATA[http://www.facebook.com/opencms]]></target>
+        </link>
+        <link name="link5" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[]]></anchor>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com/contact]]></target>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://www.opencms.org/en/home/rss-news.xml]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.opencms-wiki.org]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com/en/products/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<div class="row-fluid">
+			<div class="span4"> 
+                <!-- About -->
+		        <div class="headline"><h3>About</h3></div>	
+				<p class="margin-bottom-25">OpenCms from Alkacon Software is a professional, easy to use website content management system. OpenCms helps content managers worldwide to create and maintain beautiful websites fast and efficiently.</p>	
+          <div class="headline"><h3>More Information</h3></div>
+                     <dl>
+                           <dt><a href="%(link0)">OpenCms Wiki</a></dt>
+                           <dd>Tutorials and HowTos for OpenCms.</dd>
+                           <dt><a href="%(link1)">OpenCms Services by Alkacon Software</a></dt>
+                           <dd>Alkacon Software's focus area is to develop OpenCms extensions as well as provide professional support and outsourcing services for OpenCms projects. </dd>
+                     </dl>
+	            
+			</div><!--/span4-->	
+			
+			<div class="span4">
+          <!-- Mailing List -->
+		        <div class="headline"><h3>The OpenCms Mailing List</h3></div>	
+				<p>The opencms-dev mailing list is the place for all questions, comments and suggestions for OpenCms and the main forum of the OpenCms community. Subscribe to the list by filling out the following form.</p>
+				<form class="form-horizontal" method="post" action="http://lists.opencms.org/mailman/subscribe/opencms-dev">
+					
+							<div class="margin-bottom-10"><input type="text" name="email" placeholder="Email Address" class="input-block-level"/></div>
+            <div class="margin-bottom-10"><input type="password" name="pw" placeholder="Pick a password" class="input-block-level"/></div>
+            <div class="margin-bottom-10"><input type="password" name="pw-conf" placeholder="Confirm password" class="input-block-level"/></div>
+            <div class="margin-bottom-10">
+						<button type="submit" class="btn-u">Subscribe</button>
+            </div>
+<div><p>Connection to the internet is required for subscription.</p></div>
+	
+				</form>							
+                    
+			</div><!--/span4-->
+
+			<div class="span4">
+	            <!-- Contact -->
+		        <div class="headline"><h3>Contact Us</h3></div>	
+                <address>
+					Alkacon Software GmbH<br />
+					An der Wachsfabrik 13<br />
+          50996 Cologne, Germany<br />
+					Phone: +49 2236 / 3826 - 0<br />
+					<a href="%(link2)">Send us an email</a>
+                </address>
+
+                <!-- Stay Connected -->
+		        <div class="headline"><h3>Stay Connected</h3></div>	
+                <ul class="social-icons">
+                    <li><a href="%(link3)" data-original-title="Feed" class="social_rss"></a></li>
+                    <li><a href="%(link4)" data-original-title="Facebook" class="social_facebook"></a></li>
+                    <li><a href="%(link5)" data-original-title="Xing" class="social_xing"></a></li>
+                    <li><a href="%(link6)" data-original-title="Goole Plus" class="social_googleplus"></a></li>
+                    <li><a href="%(link7)" data-original-title="Twitter" class="social_twitter"></a></li>
+                    <li><a href="%(link8)" data-original-title="Youtube" class="social_youtube"></a></li>
+                </ul>
+			</div><!--/span4-->
+		</div>]]></content>
+    </Footer>
+    <Copyright name="Copyright0">
+      <links>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com]]></target>
+        </link>
+        <link name="link3" internal="true" type="IMG">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_alkacon_png24.png]]></target>
+          <uuid>a9d4b54a-1abc-11e3-9246-000c29f9a2ec</uuid>
+          <query><![CDATA[__scale=w:120,h:39,c:transparent]]></query>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.opencms.org]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com]]></target>
+        </link>
+      </links>
+      <content><![CDATA[		<div class="row-fluid">
+			<div class="span8">						
+	            <p>Build with <a href="%(link0)">OpenCms - The Open Source CMS</a> from <a href="%(link1)">Alkacon Software - The OpenCms Experts</a></p>
+			</div>
+			<div class="span4">	
+				<a href="%(link2)"><img id="logo-footer" src="%(link3)" class="pull-right" alt="Alkacon Software GmbH" /></a>
+			</div>
+		</div><!--/row-fluid-->]]></content>
+    </Copyright>
+  </BootstrapConfiguration>
+</BootstrapConfigurations>

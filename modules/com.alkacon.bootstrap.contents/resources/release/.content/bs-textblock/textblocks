@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[New text block]]></Title>
+    <Paragraph>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[Please edit the text block text.]]></content>
+      </Text>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

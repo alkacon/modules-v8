@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DevDemoArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.dev.demo/schemas/article.xsd">
+  <DevDemoArticle language="en">
+    <Title><![CDATA[Use the OpenCms API for Solr Search]]></Title>
+    <Text name="Text0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/system/modules/org.opencms.dev.demo/elements/solr-api-demo.jsp]]></target>
+          <uuid>32219b60-04ae-11e2-a12c-b98d50d75d33</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/system/modules/org.opencms.dev.demo/schemas/article.xsd]]></target>
+          <uuid>7584ca80-7646-11e0-a23b-8fedaf1e6b74</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>&nbsp;</p>
+<p>This Demo shows, how to use the OpenCms Java Core API to search for content with Apache Solr.</p>
+<p>&nbsp;</p>
+<p>In the center container of this page you see a function element using the <a title="Solr API Demo JSP" href="%(link0)" target="_blank">solr-api-demo.jsp</a>&nbsp;that compares retrieving content in the classic style with retrieving content with the search API of OpenCms.</p>
+<p>&nbsp;</p>
+<p>Parallely it explains how to use the new search field mapping that can be declared inside a the Content Defnition (XSD) file of an XML Content. For activating a "pre definied field mapping", switch to the Root-Site within the OpenCms Workplace Explorer and edit the <a title="Dev-Demo-Article XSD" href="%(link1)" target="_blank">XSD for the resource type ddarticle</a> (Dev-Demo-Article). There you will find inside the app info node a out commented section declaring a field mapping. Remove those comments.</p>
+<p>&nbsp;</p>
+<p>Once you there exist a new field mapping touch and rewrite all the resources of the type ddarticle in order to trigger a reindexing for those articles&nbsp;beeing sure all the extraction result caches are cleared and the field mapping is performed.&nbsp;Having done these steps reload this page and look at the result.&nbsp;Have fun using Solr integrated into OpenCms 8!!!</p>
+<p>&nbsp;</p>]]></content>
+    </Text>
+    <Image/>
+  </DevDemoArticle>
+</DevDemoArticles>

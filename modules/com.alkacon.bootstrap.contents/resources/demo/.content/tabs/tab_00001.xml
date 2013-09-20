@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTabs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd">
+  <BootstrapTab language="en">
+    <Title><![CDATA[Flower Facts]]></Title>
+    <Item>
+      <Label><![CDATA[Robust]]></Label>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Our flowers are the most robust ones you can ever find. However, consider the following facts:</p>
+<p>No matter what type of arrangement you have, it is important to keep your flowers off of televisions, appliances and heating/cooling units. You should also keep them away from hot or cold drafts and out of direct sunlight.</p>]]></content>
+      </Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/products/crown_imperial.jpg]]></target>
+          <uuid>7725c72a-717d-11e0-87bc-000c2972a6a4</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Label><![CDATA[Easy Care]]></Label>
+      <Headline><![CDATA[Headline]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Keep the vase filled (or floral foam soaked) with water containing a flower food provided by your florist.</p>
+<p>Flower foods make flowers last longer but it is important to follow the mixing directions on the flower food packet. Most packets are to be mixed with either a pint or a quart of water. Flower foods should not be diluted with more water than is specified on the packet.</p>]]></content>
+      </Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/news/blumenstrauss.jpg]]></target>
+          <uuid>6508c7e3-772e-11e0-b9f6-000c2972a6a4</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Label><![CDATA[Long Lasting]]></Label>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Most floral arrangements last 4-7 days or longer, depending on the flowers used and the care they receive.</p>]]></content>
+      </Text>
+    </Item>
+  </BootstrapTab>
+</BootstrapTabs>

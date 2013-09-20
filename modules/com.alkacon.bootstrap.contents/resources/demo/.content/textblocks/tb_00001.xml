@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[Testtext block]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Flowery Functionalities]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The principal purpose of a flower is the reproduction of the individual and the species. All flowering plants are heterosporous, producing two types of spores. Microspores are produced by meiosis inside anthers while megaspores are produced inside ovules, inside an ovary. In fact, anthers typically consist of four microsporangia and an ovule is an integumented megasporangium.</p>
+<p>Both types of spores develop into gametophytes inside sporangia. As with all heterosporous plants, the gametophytes also develop inside the spores (are endosporic).</p>
+<p>In the majority of species, individual flowers have both functional carpels and stamens. These flowers are described by botanists as being perfect or bisexual. Some flowers lack one or the other reproductive organ and called imperfect or unisexual If unisex flowers are found on the same individual plant but in different locations, the species is said to be monoecious. If each type of unisex flower is found only on separate individuals, the plant is dioecious.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/events/gerbera.jpg]]></target>
+            <uuid>768bd102-717d-11e0-87bc-000c2972a6a4</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Gerbera]]></Title>
+      </Image>
+      <Link>
+        <Text><![CDATA[More information]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/demo-en/]]></target>
+            <uuid>a87a6917-21d2-11e3-b95f-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

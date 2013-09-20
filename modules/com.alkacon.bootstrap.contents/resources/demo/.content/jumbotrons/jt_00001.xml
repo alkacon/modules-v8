@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapJumbotrons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/jumbotron.xsd">
+  <BootstrapJumbotron language="en">
+    <Title><![CDATA[Test Jumbotron]]></Title>
+    <Text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus.]]></Text>
+    <Link>
+      <Text><![CDATA[Read more]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/demo-en/template-functions/hero-jumbotron/]]></target>
+          <uuid>9cfa4f79-21d4-11e3-b95f-000c29d28104</uuid>
+        </link>
+      </URI>
+    </Link>
+  </BootstrapJumbotron>
+</BootstrapJumbotrons>

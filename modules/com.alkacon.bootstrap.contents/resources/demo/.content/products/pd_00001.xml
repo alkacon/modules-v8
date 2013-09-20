@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapProducts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd">
+  <BootstrapProduct language="en">
+    <Name><![CDATA[Alkacon Solr Search]]></Name>
+    <Price><![CDATA[120.000,00 €]]></Price>
+    <Color>#1800E0</Color>
+    <BrandName><![CDATA[Alkacon]]></BrandName>
+    <BrandLogo>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/org.opencms.dev.demo/resources/images/logo_alkacon_png24.png]]></target>
+          <uuid>e429a565-673f-11e0-8b6f-0760e8fc984c</uuid>
+        </link>
+      </Image>
+      <Title><![CDATA[Alkacon Software GmbH]]></Title>
+      <Description><![CDATA[Alkacon Software GmbH]]></Description>
+    </BrandLogo>
+    <Date>1379672880000</Date>
+    <Manufacturer><![CDATA[Alkacon Software GmbH]]></Manufacturer>
+    <ID><![CDATA[123456]]></ID>
+    <Description><![CDATA[<p><strong>Getting great results with Alkacon's OpenCms Solr Enterprise Search!</strong></p>]]></Description>
+    <Images>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/news/coltsfoot.jpg]]></target>
+          <uuid>76ef26c2-717d-11e0-87bc-000c2972a6a4</uuid>
+          <query><![CDATA[__scale=h:500,w:600,cx:0,cy:0,ch:500,cw:600]]></query>
+        </link>
+      </Image>
+      <Title><![CDATA[Great results]]></Title>
+      <Description><![CDATA[Using OpenCms Solr Search features]]></Description>
+    </Images>
+    <Images>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/news/dandelion.jpg]]></target>
+          <uuid>781d1f9a-717d-11e0-87bc-000c2972a6a4</uuid>
+          <query><![CDATA[__scale=h:500,w:600,cx:0,cy:0,ch:500,cw:600]]></query>
+        </link>
+      </Image>
+      <Title><![CDATA[Great results]]></Title>
+      <Description><![CDATA[Using OpenCms Solr Search features]]></Description>
+    </Images>
+    <Images>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/news/flora_koeln.jpg]]></target>
+          <uuid>8d67e974-77dd-11e0-be13-000c2972a6a4</uuid>
+          <query><![CDATA[__scale=h:500,w:600,cx:0,cy:0,ch:500,cw:600]]></query>
+        </link>
+      </Image>
+      <Title><![CDATA[Great results]]></Title>
+      <Description><![CDATA[Using OpenCms Solr Search features]]></Description>
+    </Images>
+  </BootstrapProduct>
+</BootstrapProducts>

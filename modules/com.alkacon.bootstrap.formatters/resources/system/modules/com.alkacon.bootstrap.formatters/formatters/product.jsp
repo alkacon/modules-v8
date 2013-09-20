@@ -13,7 +13,7 @@
 	<div class="portfolio-item" itemscope itemtype="http://schema.org/Product">
 		<div class="row-fluid margin-bottom-20">
 
-			<c:if test="${fn:length(content.valueList) > 1 }">
+			<c:if test="${fn:length(content.valueList.Images) > 0}">
 			<!-- Carousel -->
 			<div class="span4">
 				<div id="myCarousel" class="carousel slide">

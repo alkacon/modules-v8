@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapNewsarticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd">
+  <BootstrapNewsarticle language="en">
+    <Title><![CDATA[Exciting new Acacia variety]]></Title>
+    <Date>1378800900000</Date>
+    <Paragraph>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The genus Acacia contains roughly 1300 species, most of them native to Australia, with the remainder spread around the tropical to warm-temperate regions of both hemispheres, including Europe, Africa, southern Asia, and the Americas.</p>
+<p>An exciting new species has just been recently discovered on your computers desktop: The “Acacieae editorius”, commonly called “Acasia editor”, build into OpenCms 8.5. The species comes in 2 varieties: The “in page” variety allows editing fresh text content directly on the page. The “form based” variety offers enhanced editing capabilities for more complex editing operations. Most amazingly, the new species does not require water, but electricity.</p>
+<p>Acacias are also known as thorntrees, whistling thorns or wattles.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/products/acacia_covenyi.jpg]]></target>
+            <uuid>cfb15865-fd76-11e1-9ea8-000c2972a6a4</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Acacia]]></Title>
+        <Description><![CDATA[Acacia Description]]></Description>
+      </Image>
+      <Link>
+        <Text><![CDATA[Link to Wikipedia]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://de.wikipedia.org/wiki/Akazien]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+    <Category>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/_categories/color/yellow/]]></target>
+        <uuid>2572c2b2-718d-11e0-87bc-000c2972a6a4</uuid>
+      </link>
+    </Category>
+    <Author><![CDATA[    ]]></Author>
+    <AuthorMail><![CDATA[a.acacia@alkacon.com]]></AuthorMail>
+    <Availability>
+      <Release>1378799460000</Release>
+      <Expiration>1382082720000</Expiration>
+    </Availability>
+  </BootstrapNewsarticle>
+</BootstrapNewsarticles>

@@ -19,7 +19,7 @@
       <DisplayName><![CDATA[Start Level]]></DisplayName>
       <Type><![CDATA[string]]></Type>
       <Widget><![CDATA[select]]></Widget>
-      <Default><![CDATA[1]]></Default>
+      <Default><![CDATA[3]]></Default>
       <WidgetConfig><![CDATA[1:1|2:2|3:3|4:4|5:5]]></WidgetConfig>
     </SettingConfig>
   </DynamicFunction>

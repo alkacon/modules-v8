@@ -38,6 +38,7 @@
 			<relations/>
 			<searchsettings containerPageOnly="true" />
 			<formatters>
+				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/jumbotron.jsp" searchcontent="true" />
 				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/jumbotron.jsp" searchcontent="true" />
 			</formatters>
 			<settings/>

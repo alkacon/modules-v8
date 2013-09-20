@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.0.x</opencms_version>
-		<createdate>Mon, 16 Sep 2013 08:03:16 GMT</createdate>
+		<opencms_version>8.7.1</opencms_version>
+		<createdate>Fri, 20 Sep 2013 13:09:09 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -37,11 +37,11 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-newsarticle.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-newsarticle_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-imagerow.png"/>
-            <resource uri="/system/workplace/resources/filetypes/bs-imagerow_big.png"/>
-            <resource uri="/system/workplace/resources/filetypes/bs-tabs.png"/>
-            <resource uri="/system/workplace/resources/filetypes/bs-tabs_big.png"/>
-            <resource uri="/system/workplace/resources/filetypes/bs-flexible.png"/>
-            <resource uri="/system/workplace/resources/filetypes/bs-flexible_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-imagerow_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-tabs.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-tabs_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-flexible.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-flexible_big.png"/>
 		</resources>
 		<parameters/>
 		<resourcetypes>
@@ -55,18 +55,18 @@
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd</param>
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-tabs" id="183">
-                <param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd</param>
-            </type>
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd</param>
+			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-imagerow" id="184">
-                <param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd</param>
-            </type>
-            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-flexible" id="185">
-                <param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/flexible.xsd</param>
-            </type>
-            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="190">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-flexible" id="185">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/flexible.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="190">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</param>
 			</type>
-            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-newsarticle" id="191">
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-newsarticle" id="191">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd</param>
 			</type>
 		</resourcetypes>
@@ -81,18 +81,18 @@
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-textblock" order="114" autosetnavigation="false" autosettitle="false" info="desc.bs-textblock"/>
 			</explorertype>
 			<explorertype name="bs-tabs" key="fileicon.bs-tabs" icon="bs-tabs.png" bigicon="bs-tabs_big.png" reference="xmlcontent">
-                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-tabs" order="115" autosetnavigation="false" autosettitle="false" info="desc.bs-tabs"/>
-            </explorertype>
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-tabs" order="115" autosetnavigation="false" autosettitle="false" info="desc.bs-tabs"/>
+			</explorertype>
 			<explorertype name="bs-imagerow" key="fileicon.bs-imagerow" icon="bs-imagerow.png" bigicon="bs-imagerow_big.png" reference="xmlcontent">
-                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-imagerow" order="116" autosetnavigation="false" autosettitle="false" info="desc.bs-imagerow"/>
-            </explorertype>
-            <explorertype name="bs-flexible" key="fileicon.bs-flexible" icon="bs-flexible.png" bigicon="bs-flexible_big.png" reference="xmlcontent">
-                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-flexible" order="117" autosetnavigation="false" autosettitle="false" info="desc.bs-flexible"/>
-            </explorertype>
-            <explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-imagerow" order="116" autosetnavigation="false" autosettitle="false" info="desc.bs-imagerow"/>
+			</explorertype>
+			<explorertype name="bs-flexible" key="fileicon.bs-flexible" icon="bs-flexible.png" bigicon="bs-flexible_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-flexible" order="117" autosetnavigation="false" autosettitle="false" info="desc.bs-flexible"/>
+			</explorertype>
+			<explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="122" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
 			</explorertype>
-            <explorertype name="bs-newsarticle" key="fileicon.bs-newsarticle" icon="bs-newsarticle.png" bigicon="bs-newsarticle_big.png" reference="xmlcontent">
+			<explorertype name="bs-newsarticle" key="fileicon.bs-newsarticle" icon="bs-newsarticle.png" bigicon="bs-newsarticle_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-newsarticle" order="123" autosetnavigation="false" autosettitle="false" info="desc.bs-newsarticle"/>
 			</explorertype>
 		</explorertypes>
@@ -101,10 +101,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>a2b492a7-1eba-11e3-ae8b-000c297c001d</uuidstructure>
-			<datelastmodified>Mon, 16 Sep 2013 10:27:49 GMT</datelastmodified>
+			<uuidstructure>2ba13e13-217e-11e3-96de-000c29d28104</uuidstructure>
+			<datelastmodified>Thu, 19 Sep 2013 22:52:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 16 Sep 2013 10:27:49 GMT</datecreated>
+			<datecreated>Thu, 19 Sep 2013 22:52:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -123,10 +123,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>a51fec93-1eba-11e3-ae8b-000c297c001d</uuidstructure>
-			<datelastmodified>Mon, 16 Sep 2013 10:27:53 GMT</datelastmodified>
+			<uuidstructure>2e77dcef-217e-11e3-96de-000c29d28104</uuidstructure>
+			<datelastmodified>Thu, 19 Sep 2013 22:52:38 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 16 Sep 2013 10:27:53 GMT</datecreated>
+			<datecreated>Thu, 19 Sep 2013 22:52:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -411,7 +411,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>ee8eacd2-1ed2-11e3-8842-000c297c001d</uuidstructure>
 			<uuidresource>ee8eacd3-1ed2-11e3-8842-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 16 Sep 2013 13:29:23 GMT</datelastmodified>
+			<datelastmodified>Fri, 20 Sep 2013 10:31:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 13:21:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -580,7 +580,7 @@
 			<type>plain</type>
 			<uuidstructure>6c4b8173-1abf-11e3-9246-000c29f9a2ec</uuidstructure>
 			<uuidresource>6c4b8174-1abf-11e3-9246-000c29f9a2ec</uuidresource>
-			<datelastmodified>Thu, 12 Sep 2013 13:46:26 GMT</datelastmodified>
+			<datelastmodified>Fri, 20 Sep 2013 09:57:42 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 11 Sep 2013 08:52:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1097,46 +1097,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/workplace/resources/filetypes/bs-tabs.png</source>
-			<destination>system/workplace/resources/filetypes/bs-tabs.png</destination>
-			<type>image</type>
-			<uuidstructure>5ddc73ee-1f9a-11e3-8a31-000c29f9a2ec</uuidstructure>
-			<uuidresource>5ddc73ef-1f9a-11e3-8a31-000c29f9a2ec</uuidresource>
-			<datelastmodified>Tue, 17 Sep 2013 13:09:28 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 17 Sep 2013 13:09:21 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:16,h:16]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/workplace/resources/filetypes/bs-tabs_big.png</source>
-			<destination>system/workplace/resources/filetypes/bs-tabs_big.png</destination>
-			<type>image</type>
-			<uuidstructure>5df6b2b2-1f9a-11e3-8a31-000c29f9a2ec</uuidstructure>
-			<uuidresource>5df6b2b3-1f9a-11e3-8a31-000c29f9a2ec</uuidresource>
-			<datelastmodified>Tue, 17 Sep 2013 13:09:26 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 17 Sep 2013 13:09:21 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:24,h:24]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>system/workplace/resources/filetypes/bs-product.png</source>
 			<destination>system/workplace/resources/filetypes/bs-product.png</destination>
 			<type>image</type>
@@ -1165,6 +1125,46 @@
 			<datelastmodified>Fri, 13 Sep 2013 12:32:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 12:02:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-tabs.png</source>
+			<destination>system/workplace/resources/filetypes/bs-tabs.png</destination>
+			<type>image</type>
+			<uuidstructure>5ddc73ee-1f9a-11e3-8a31-000c29f9a2ec</uuidstructure>
+			<uuidresource>5ddc73ef-1f9a-11e3-8a31-000c29f9a2ec</uuidresource>
+			<datelastmodified>Tue, 17 Sep 2013 13:09:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 17 Sep 2013 13:09:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-tabs_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-tabs_big.png</destination>
+			<type>image</type>
+			<uuidstructure>5df6b2b2-1f9a-11e3-8a31-000c29f9a2ec</uuidstructure>
+			<uuidresource>5df6b2b3-1f9a-11e3-8a31-000c29f9a2ec</uuidresource>
+			<datelastmodified>Tue, 17 Sep 2013 13:09:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 17 Sep 2013 13:09:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
