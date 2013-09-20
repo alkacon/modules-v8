@@ -116,11 +116,11 @@
     </Message>
     <Message>
       <Key><![CDATA[product.brand]]></Key>
-      <Value><![CDATA[Marke:]]></Value>
+      <Value><![CDATA[Brand:]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[product.price]]></Key>
-      <Value><![CDATA[Preis:]]></Value>
+      <Value><![CDATA[Price:]]></Value>
     </Message>
   </Bundle>
   <Bundle language="de">
@@ -238,11 +238,11 @@
     </Message>
     <Message>
       <Key><![CDATA[product.brand]]></Key>
-      <Value><![CDATA[Brand:]]></Value>
+      <Value><![CDATA[Marke:]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[product.price]]></Key>
-      <Value><![CDATA[Price:]]></Value>
+      <Value><![CDATA[Preis:]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>
