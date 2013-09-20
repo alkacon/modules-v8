@@ -2,7 +2,10 @@
 <%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+
 <fmt:setLocale value="${cms.locale}" />
+<cms:bundle basename="com.alkacon.bootstrap.schemas.product">
 
 <cms:formatter var="content" val="product" rdfa="rdfa">
 	
@@ -10,6 +13,7 @@
 	<div class="portfolio-item" itemscope itemtype="http://schema.org/Product">
 		<div class="row-fluid margin-bottom-20">
 
+			<c:if test="${fn:length(content.valueList) > 1 }">
 			<!-- Carousel -->
 			<div class="span4">
 				<div id="myCarousel" class="carousel slide">
@@ -32,30 +36,33 @@
 			</div>
 			<!--/span4-->
 			<!-- //End Carousel -->
+			</c:if>
 
 			<!-- Description -->
 			<div class="span8">
 				<h3 ${rdfa.Name} itemprop="name">${product.Name}</h3>
-				<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-					<h4><span>Price: </span><b><span itemprop="price" ${rdfa.Price}>${product.Price}</span></b></h4>
-				</div>
+				<c:if test="${product.Price.isSet}">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+						<h4><span><fmt:message key="product.price" /> </span><b><span itemprop="price" ${rdfa.Price}>${product.Price}</span></b></h4>
+					</div>
+				</c:if>
 				<c:if test="${product.Color.exists}">
 					<h4>Color: <div style="background-color: ${product.Color}; color: white; padding: 7px; text-align: center; display: inline-block; width: 125px; height: 20px;" itemprop="color">${product.Color}</div></h4>
 				</c:if>
 				<c:choose>
-					<c:when test="${product.BrandLogo.value.Image.exists && product.BrandName.exists}">
+					<c:when test="${product.BrandLogo.isSet && product.BrandLogo.value.Image.exists && product.BrandName.exists}">
 						<div itemprop="brand" itemscope itemtype="http://schema.org/Brand">
-							<h4>Brand: <img itemprop="logo" src="<cms:link>${product.BrandLogo.value.Image}?__scale=w:80,h:39,c:transparent</cms:link>" title="${product.BrandLogo.value.Title}" alt="${product.BrandLogo.value.Description}" /><span ${rdfa.BrandName} itemprop="name" style="visibility: hidden;">${product.BrandName}</span></h4>
+							<h4><fmt:message key="product.brand" /> <img itemprop="logo" src="<cms:link>${product.BrandLogo.value.Image}?__scale=w:80,h:39,c:transparent</cms:link>" title="${product.BrandLogo.value.Title}" alt="${product.BrandLogo.value.Description}" /><span ${rdfa.BrandName} itemprop="name" style="visibility: hidden;">${product.BrandName}</span></h4>
 						</div>
 					</c:when>
-					<c:when test="${product.BrandLogo.value.Image.exists}">
+					<c:when test="${product.BrandLogo.isSet && product.BrandLogo.value.Image.exists}">
 						<div itemprop="brand" itemscope itemtype="http://schema.org/Brand">
-							<h4>Brand: <img itemprop="logo" src="<cms:link>${product.BrandLogo.value.Image}?__scale=w:80,h:39,c:transparent</cms:link>" title="${product.BrandLogo.value.Title}" alt="${product.BrandLogo.value.Description}" /></h4>
+							<h4><fmt:message key="product.brand" /> <img itemprop="logo" src="<cms:link>${product.BrandLogo.value.Image}?__scale=w:80,h:39,c:transparent</cms:link>" title="${product.BrandLogo.value.Title}" alt="${product.BrandLogo.value.Description}" /></h4>
 						</div>
 					</c:when>
 					<c:when test="${product.BrandName.exists}">
 						<div itemprop="brand" itemscope itemtype="http://schema.org/Brand">
-							<h4>Brand: <span ${rdfa.BrandName} itemprop="name">${product.BrandName}</span></h4>
+							<h4><fmt:message key="product.brand" /> <span ${rdfa.BrandName} itemprop="name">${product.BrandName}</span></h4>
 						</div>
 					</c:when>
 					<c:otherwise>
@@ -87,3 +94,4 @@
 <!--=== End Content Part ===-->
 
 </cms:formatter>
+</cms:bundle>

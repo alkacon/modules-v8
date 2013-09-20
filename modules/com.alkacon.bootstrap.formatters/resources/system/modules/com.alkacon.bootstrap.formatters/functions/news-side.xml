@@ -2,12 +2,12 @@
 
 <DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
   <DynamicFunction language="en">
-    <Title><![CDATA[News article list (large)]]></Title>
+    <Title><![CDATA[News article list (small)]]></Title>
     <Description><![CDATA[Provides a list of recent news articles]]></Description>
     <FunctionProvider>
       <link type="WEAK">
-        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/elements/news-list.jsp]]></target>
-        <uuid>1628372e-2119-11e3-a189-000c297c001d</uuid>
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/elements/news-side.jsp]]></target>
+        <uuid>caabadf1-21db-11e3-b95f-000c29d28104</uuid>
       </link>
     </FunctionProvider>
     <Parameter>
@@ -16,7 +16,7 @@
     </Parameter>
     <Parameter>
       <Key><![CDATA[parentFolders]]></Key>
-      <Value><![CDATA[("/shared/.content/newsarticles/" OR "/sites/default/.content/newsarticles/")]]></Value>
+      <Value><![CDATA[("/shared/.content/newsarticles/" OR "/sites/default/")]]></Value>
     </Parameter>
     <Parameter>
       <Key><![CDATA[sortOrder]]></Key>
@@ -24,11 +24,11 @@
     </Parameter>
     <Parameter>
       <Key><![CDATA[rowCount]]></Key>
-      <Value><![CDATA[4]]></Value>
+      <Value><![CDATA[3]]></Value>
     </Parameter>
     <Parameter>
       <Key><![CDATA[createPath]]></Key>
-      <Value><![CDATA[/sites/default/.content/newsarticles/na_%(number:5).html]]></Value>
+      <Value><![CDATA[/sites/default/demo-en/.content/newsarticles/na_%(number:5).html]]></Value>
     </Parameter>
   </DynamicFunction>
 </DynamicFunctions>
