@@ -22,7 +22,7 @@
         <Element>
           <Uri>
             <link type="STRONG">
-              <target><![CDATA[/sites/default/dev-demo/inheritance-group/.content/article/a-00013.html]]></target>
+              <target><![CDATA[/sites/default/welcome/dev-demo/inheritance-group/.content/article/a-00013.html]]></target>
               <uuid>0bfcced1-ab31-11e1-9650-c524a635a326</uuid>
             </link>
           </Uri>
@@ -33,7 +33,7 @@
         <Element>
           <Uri>
             <link type="STRONG">
-              <target><![CDATA[/sites/default/dev-demo/inheritance-group/.content/article/a-00002.html]]></target>
+              <target><![CDATA[/sites/default/welcome/dev-demo/inheritance-group/.content/article/a-00002.html]]></target>
               <uuid>ce9b8f7d-aa37-11e1-beb5-c524a635a326</uuid>
             </link>
           </Uri>

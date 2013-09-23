@@ -2,57 +2,9 @@
 
 <BootstrapImagerows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd">
   <BootstrapImagerow language="en">
-    <Title><![CDATA[Test image row]]></Title>
+    <Title><![CDATA[Test image row 4 items]]></Title>
     <Item>
-      <Headline><![CDATA[Item 1]]></Headline>
-      <Text><![CDATA[Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut repellat.]]></Text>
-      <Image>
-        <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/products/eggplant.jpg]]></target>
-          <uuid>758117a2-717d-11e0-87bc-000c2972a6a4</uuid>
-        </link>
-      </Image>
-      <Link>
-        <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/demo-en/template-functions/image-row/]]></target>
-          <uuid>a7165995-21d4-11e3-b95f-000c29d28104</uuid>
-        </link>
-      </Link>
-    </Item>
-    <Item>
-      <Headline><![CDATA[Item 2]]></Headline>
-      <Text><![CDATA[At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.]]></Text>
-      <Image>
-        <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/products/malva.jpg]]></target>
-          <uuid>7871cf4e-717d-11e0-87bc-000c2972a6a4</uuid>
-        </link>
-      </Image>
-      <Link>
-        <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/demo-en/template-functions/image-row/]]></target>
-          <uuid>a7165995-21d4-11e3-b95f-000c29d28104</uuid>
-        </link>
-      </Link>
-    </Item>
-    <Item>
-      <Headline><![CDATA[Item 3]]></Headline>
-      <Text><![CDATA[Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.]]></Text>
-      <Image>
-        <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/products/crocus.jpg]]></target>
-          <uuid>77ebaf52-717d-11e0-87bc-000c2972a6a4</uuid>
-        </link>
-      </Image>
-      <Link>
-        <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/demo-en/template-functions/image-row/]]></target>
-          <uuid>a7165995-21d4-11e3-b95f-000c29d28104</uuid>
-        </link>
-      </Link>
-    </Item>
-    <Item>
-      <Headline><![CDATA[Item 4]]></Headline>
+      <Headline><![CDATA[Hibiscus]]></Headline>
       <Text><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.]]></Text>
       <Image>
         <link type="WEAK">
@@ -62,7 +14,55 @@
       </Image>
       <Link>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/demo-en/template-functions/image-row/]]></target>
+          <target><![CDATA[/sites/default/demo/en/template-functions/image-row/]]></target>
+          <uuid>a7165995-21d4-11e3-b95f-000c29d28104</uuid>
+        </link>
+      </Link>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Crocus]]></Headline>
+      <Text><![CDATA[Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/products/crocus.jpg]]></target>
+          <uuid>77ebaf52-717d-11e0-87bc-000c2972a6a4</uuid>
+        </link>
+      </Image>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/demo/en/template-functions/image-row/]]></target>
+          <uuid>a7165995-21d4-11e3-b95f-000c29d28104</uuid>
+        </link>
+      </Link>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Malva]]></Headline>
+      <Text><![CDATA[At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/products/malva.jpg]]></target>
+          <uuid>7871cf4e-717d-11e0-87bc-000c2972a6a4</uuid>
+        </link>
+      </Image>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/demo/en/template-functions/image-row/]]></target>
+          <uuid>a7165995-21d4-11e3-b95f-000c29d28104</uuid>
+        </link>
+      </Link>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Eggplant]]></Headline>
+      <Text><![CDATA[Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut repellat.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/products/eggplant.jpg]]></target>
+          <uuid>758117a2-717d-11e0-87bc-000c2972a6a4</uuid>
+        </link>
+      </Image>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/demo/en/template-functions/image-row/]]></target>
           <uuid>a7165995-21d4-11e3-b95f-000c29d28104</uuid>
         </link>
       </Link>

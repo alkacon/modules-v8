@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapSliders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/slider.xsd">
+  <BootstrapSlider language="en">
+    <Title><![CDATA[Test Slider]]></Title>
+    <Duration><![CDATA[9000]]></Duration>
+    <Width><![CDATA[960]]></Width>
+    <Height><![CDATA[500]]></Height>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/slider/bg1.jpg]]></target>
+          <uuid>43e5b95d-2457-11e3-adc8-000c297c001d</uuid>
+        </link>
+      </Image>
+      <Effect><![CDATA[3dcurtain-vertical]]></Effect>
+      <Slots><![CDATA[10]]></Slots>
+      <Delay><![CDATA[300]]></Delay>
+      <Link>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://www.opencms.org]]></target>
+        </link>
+      </Link>
+      <Caption>
+        <Text><![CDATA[OVER 
+                     <span style="color: #ffcc00;">500</span> 
+                     SATISFIED CUSTOMERS
+]]></Text>
+        <Class><![CDATA[caption large_text sfb bg-black-opacity]]></Class>
+        <PosX><![CDATA[176]]></PosX>
+        <PosY><![CDATA[12]]></PosY>
+        <Start><![CDATA[800]]></Start>
+        <Speed><![CDATA[300]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/slider/p1.jpg]]></target>
+            <uuid>44bdf025-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[189]]></PosX>
+        <PosY><![CDATA[76]]></PosY>
+        <Start><![CDATA[1100]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/slider/p2.jpg]]></target>
+            <uuid>44c8777d-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[0]]></PosX>
+        <PosY><![CDATA[92]]></PosY>
+        <Start><![CDATA[1200]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/slider/p6.jpg]]></target>
+            <uuid>44ddfb5d-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[200]]></PosX>
+        <PosY><![CDATA[209]]></PosY>
+        <Start><![CDATA[1300]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/slider/p3.jpg]]></target>
+            <uuid>44cdf5c1-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[638]]></PosX>
+        <PosY><![CDATA[201]]></PosY>
+        <Start><![CDATA[1400]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/slider/p4.jpg]]></target>
+            <uuid>44d325e5-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[717]]></PosX>
+        <PosY><![CDATA[294]]></PosY>
+        <Start><![CDATA[1500]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+    </Item>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/slider/bg2.jpg]]></target>
+          <uuid>44250c51-2457-11e3-adc8-000c297c001d</uuid>
+        </link>
+      </Image>
+      <Effect><![CDATA[papercut]]></Effect>
+      <Slots><![CDATA[15]]></Slots>
+      <Delay><![CDATA[1500]]></Delay>
+      <Caption>
+        <Text><![CDATA[TIMELINED CAPTIONS]]></Text>
+        <Class><![CDATA[caption very_big_white lfl stl]]></Class>
+        <PosX><![CDATA[18]]></PosX>
+        <PosY><![CDATA[343]]></PosY>
+        <Start><![CDATA[500]]></Start>
+        <Speed><![CDATA[300]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+        <End><![CDATA[8800]]></End>
+        <EndEasing><![CDATA[easeInSine]]></EndEasing>
+      </Caption>
+      <Caption>
+        <Text><![CDATA[MOVE CAPTIONS IN AND OUT ON ONE SLIDE]]></Text>
+        <Class><![CDATA[caption big_white lfl stl]]></Class>
+        <PosX><![CDATA[18]]></PosX>
+        <PosY><![CDATA[390]]></PosY>
+        <Start><![CDATA[800]]></Start>
+        <Speed><![CDATA[300]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+        <End><![CDATA[9100]]></End>
+        <EndEasing><![CDATA[easeInSine]]></EndEasing>
+      </Caption>
+    </Item>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/slider/bg3.jpg]]></target>
+          <uuid>4430f335-2457-11e3-adc8-000c297c001d</uuid>
+        </link>
+      </Image>
+      <Effect><![CDATA[slideleft]]></Effect>
+      <Slots><![CDATA[2]]></Slots>
+      <Delay><![CDATA[0]]></Delay>
+      <Caption>
+        <Text><![CDATA[ TOUCH ENABLED]]></Text>
+        <Class><![CDATA[caption large_text sft]]></Class>
+        <PosX><![CDATA[10]]></PosX>
+        <PosY><![CDATA[44]]></PosY>
+        <Start><![CDATA[800]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Text><![CDATA[AND]]></Text>
+        <Class><![CDATA[caption medium_text sfl]]></Class>
+        <PosX><![CDATA[39]]></PosX>
+        <PosY><![CDATA[82]]></PosY>
+        <Start><![CDATA[1100]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Text><![CDATA[<span style="color: #72c02c;">RESPONSIVE</span>]]></Text>
+        <Class><![CDATA[caption large_text sfr]]></Class>
+        <PosX><![CDATA[88]]></PosX>
+        <PosY><![CDATA[78]]></PosY>
+        <Start><![CDATA[1100]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+    </Item>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/slider/bg4.jpg]]></target>
+          <uuid>44525de9-2457-11e3-adc8-000c297c001d</uuid>
+        </link>
+      </Image>
+      <Effect><![CDATA[flyin]]></Effect>
+      <Slots><![CDATA[2]]></Slots>
+      <Delay><![CDATA[0]]></Delay>
+      <Caption>
+        <Text><![CDATA[Another caption goes here]]></Text>
+        <Class><![CDATA[caption sft big_black]]></Class>
+        <PosX><![CDATA[550]]></PosX>
+        <PosY><![CDATA[120]]></PosY>
+        <Start><![CDATA[1200]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+    </Item>
+  </BootstrapSlider>
+</BootstrapSliders>

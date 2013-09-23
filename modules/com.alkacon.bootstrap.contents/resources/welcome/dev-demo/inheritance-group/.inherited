@@ -12,7 +12,7 @@
         <Element>
           <Uri>
             <link type="STRONG">
-              <target><![CDATA[/sites/default/dev-demo/inheritance-group/.content/article/a-00003.html]]></target>
+              <target><![CDATA[/sites/default/welcome/dev-demo/inheritance-group/.content/article/a-00003.html]]></target>
               <uuid>826a3653-aa36-11e1-beb5-c524a635a326</uuid>
             </link>
           </Uri>
@@ -23,7 +23,7 @@
         <Element>
           <Uri>
             <link type="STRONG">
-              <target><![CDATA[/sites/default/dev-demo/inheritance-group/.content/article/a-00001.html]]></target>
+              <target><![CDATA[/sites/default/welcome/dev-demo/inheritance-group/.content/article/a-00001.html]]></target>
               <uuid>951def47-aa2e-11e1-beb5-c524a635a326</uuid>
             </link>
           </Uri>
@@ -39,7 +39,7 @@
         <Element>
           <Uri>
             <link type="STRONG">
-              <target><![CDATA[/sites/default/dev-demo/inheritance-group/.content/article/a-00001.html]]></target>
+              <target><![CDATA[/sites/default/welcome/dev-demo/inheritance-group/.content/article/a-00001.html]]></target>
               <uuid>951def47-aa2e-11e1-beb5-c524a635a326</uuid>
             </link>
           </Uri>
@@ -50,7 +50,7 @@
         <Element>
           <Uri>
             <link type="STRONG">
-              <target><![CDATA[/sites/default/dev-demo/inheritance-group/.content/article/a-00004.html]]></target>
+              <target><![CDATA[/sites/default/welcome/dev-demo/inheritance-group/.content/article/a-00004.html]]></target>
               <uuid>a38f78ed-aa36-11e1-beb5-c524a635a326</uuid>
             </link>
           </Uri>

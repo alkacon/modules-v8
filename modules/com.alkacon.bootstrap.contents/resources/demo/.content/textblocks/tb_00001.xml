@@ -24,7 +24,7 @@
         <Text><![CDATA[More information]]></Text>
         <URI>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/demo-en/]]></target>
+            <target><![CDATA[/sites/default/demo/en/]]></target>
             <uuid>a87a6917-21d2-11e3-b95f-000c29d28104</uuid>
           </link>
         </URI>
