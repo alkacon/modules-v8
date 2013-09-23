@@ -7,6 +7,11 @@
 <cms:bundle basename="com.alkacon.bootstrap.schemas.slider">
 
 <cms:formatter var="content" val="value" rdfa="rdfa">
+<div>
+	<c:if test="${not cms.element.settings.hidetitle}">
+		<div class="row-fluid"><div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div></div>
+	</c:if>
+
 <c:choose>
 	<c:when test="${cms.element.inMemoryOnly}">
 		<div class="row-fluid"><div class="alert"><fmt:message key="bootstrap.slider.message.new" /></div></div>
@@ -18,11 +23,7 @@
 
 <div class="fullwidthbanner-container"><!--=== Slider ===-->
 
-	<c:if test="${not cms.element.settings.hideTitle}">
-		<div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div>
-	</c:if>	
-
-	<div class="fullwidthbanner">
+	<div class="ocmsbanner">
 		<ul>
 			<c:forEach var="item" items="${content.valueList.Item}" varStatus="status">
 				<li data-transition="${item.value.Effect}" data-slotamount="${item.value.Slots}" data-masterspeed="${item.value.Delay}"<c:if test="${item.value.Link.isSet}"> data-link="<cms:link>${item.value.Link}</cms:link>"</c:if>>
@@ -45,7 +46,7 @@
 
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
-			jQuery('.fullwidthbanner').revolution(
+			jQuery('.ocmsbanner').revolution(
 	                {
 	                    delay:${value.Duration},
 	                    startheight:${value.Height},
@@ -94,5 +95,6 @@
 	</c:otherwise>
 </c:choose>
 
+</div>
 </cms:formatter>
 </cms:bundle>
