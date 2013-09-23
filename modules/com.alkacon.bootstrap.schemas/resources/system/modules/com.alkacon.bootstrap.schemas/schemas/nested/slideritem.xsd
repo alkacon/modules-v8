@@ -1,0 +1,37 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/nested/slidercaption.xsd"/>
+
+	<xsd:element name="BootstrapSliderItems" type="OpenCmsBootstrapSliderItems"/>
+	
+	<xsd:complexType name="OpenCmsBootstrapSliderItems">
+		<xsd:sequence>
+			<xsd:element name="BootstrapSliderItem" type="OpenCmsBootstrapSliderItem" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapSliderItem">
+		<xsd:sequence>
+			<xsd:element name="Image" type="OpenCmsVfsFile" />
+			<xsd:element name="Effect" type="OpenCmsString" />
+			<xsd:element name="Slots" type="OpenCmsString" />
+			<xsd:element name="Delay" type="OpenCmsString" />
+			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />
+			<xsd:element name="Caption" type="OpenCmsBootstrapSliderCaption" minOccurs="0" maxOccurs="20" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.slider"/>
+			<layouts>
+				<layout element="Effect" widget="SelectorWidget" configuration="boxslide|boxfade|flyin|slotzoom-horizontal|slotslide-horizontal|slotfade-horizontal|slotzoom-vertical|slotslide-vertical|slotfade-vertical|papercut|curtain-1|curtain-2|curtain-3|3dcurtain-vertical|slideleft|slideright|slideup|slidedown|fade*" />
+				<layout element="Delay" widget="SelectorWidget" configuration="0|100|200|300*|600|900|1200|1500" />
+				<layout element="Slots" widget="SelectorWidget" configuration="2|3|4|5*|6|7|8|9|10|12|15|18|20" />
+				<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat: true}" />
+			</layouts>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>

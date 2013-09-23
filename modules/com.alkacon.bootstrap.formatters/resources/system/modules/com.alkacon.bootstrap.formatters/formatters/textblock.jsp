@@ -4,49 +4,72 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
-<cms:formatter var="content" val="value" rdfa="rdfa">
+<cms:formatter var="content">
 
 <div<c:if test="${cms.container.type == 'content-full'}"> class="row-fluid"</c:if>>
 
-	<c:forEach var="paragraph" items="${content.valueList.Paragraph}" varStatus="status">
-		<div class="paragraph margin-bottom-20">
+<c:forEach var="paragraph" items="${content.valueList.Paragraph}">
 
-		<c:if test="${paragraph.value.Headline.isSet}">
-			<div class="headline">
-				<h3 ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h3>
-			</div>
-		</c:if>
+	<c:set var="imgalign">noimage</c:set>
+	<c:if test="${paragraph.value.Image.exists}">
+		<c:set var="imgalign"><cms:elementsetting name="imgalign" default="left" /></c:set>
+	</c:if>
 
-		<c:if test="${paragraph.value.Image.exists}">
-			<c:choose>
-				<c:when test="${cms.element.settings.imgalign == 'top'}">
-					<c:set var="imgClass">top</c:set>
-					<c:set var="imgWidth">${cms.container.width}</c:set>
-				</c:when>
-				<c:when test="${cms.element.settings.imgalign == 'right'}">
-					<c:set var="imgClass">pull-right rgt-img-margin</c:set>
-					<c:set var="imgWidth"><fmt:formatNumber type="number" value="${(cms.container.width - 70) / 4}" /></c:set>
-				</c:when>
-				<c:otherwise>
-					<c:set var="imgClass">pull-left lft-img-margin</c:set>
-					<c:set var="imgWidth"><fmt:formatNumber type="number" value="${(cms.container.width - 70) / 4}" /></c:set>
-				</c:otherwise>
-			</c:choose>
-			<cms:img src="${paragraph.value.Image.value.Image}" cssclass="${imgClass}" width="${imgWidth}" scaleColor="transparent" scaleType="0" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
-		</c:if>
+	<c:if test="${paragraph.value.Headline.isSet}">
+		<div class="headline"><h3 ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h3></div>
+	</c:if>
 
-		<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>
+	<c:choose>
+	
+		<c:when test="${imgalign == 'noimage' || imgalign == 'top'}">
+			<c:if test="${imgalign == 'top'}">	
+				<div ${paragraph.rdfa.Image} class="thumbnail-kenburn"><div class="overflow-hidden">
+					<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="1200" height="300" scaleType="2" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
+				</div></div>
+			</c:if>
+			<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>		
+			<c:if test="${paragraph.value.Link.exists}">
+				<p><a class="btn-u btn-u-small" href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a></p>
+			</c:if>
+		</c:when>
 
-		<c:if test="${paragraph.value.Link.exists}">
-			<p><a class="btn-u btn-u-small" href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a></p>
-		</c:if>
 
-		<c:if test="${paragraph.value.Image.exists}">
-			<div class="clearfix"></div>
-		</c:if> 
+		<c:when test="${imgalign == 'left'}">		
+			<div class="row-fluid">
+				<div class="span4">
+					<div ${paragraph.rdfa.Image} class="thumbnail-kenburn"><div class="overflow-hidden">
+						<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
+					</div></div>		
+				</div>
+				<div class="span8">
+					<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>		
+					<c:if test="${paragraph.value.Link.exists}">
+						<p><a class="btn-u btn-u-small" href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a></p>
+					</c:if>		
+				</div>
+			</div>		
+		</c:when>
+		
+		
+		<c:when test="${imgalign == 'right'}">
+			<div class="row-fluid">
+				<div class="span8">
+					<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>		
+					<c:if test="${paragraph.value.Link.exists}">
+						<p><a class="btn-u btn-u-small" href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a></p>
+					</c:if>		
+				</div>
+				<div class="span4">
+					<div ${paragraph.rdfa.Image} class="thumbnail-kenburn"><div class="overflow-hidden">
+						<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
+					</div></div>		
+				</div>
+			</div>			
+		</c:when>
+					
+	</c:choose>	
 
-	</div>
-	</c:forEach> 
+</c:forEach> 
 
 </div>
 

@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.7.1</opencms_version>
-		<createdate>Fri, 20 Sep 2013 13:09:09 GMT</createdate>
+		<createdate>Mon, 23 Sep 2013 13:16:54 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap XML Schema Definitions.]]></description>
-		<version>9.0.3</version>
+		<version>9.0.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -42,6 +42,8 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-tabs_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-flexible.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-flexible_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-slider.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-slider_big.png"/>
 		</resources>
 		<parameters/>
 		<resourcetypes>
@@ -62,6 +64,9 @@
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-flexible" id="185">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/flexible.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-slider" id="186">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/slider.xsd</param>
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="190">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</param>
@@ -89,6 +94,9 @@
 			<explorertype name="bs-flexible" key="fileicon.bs-flexible" icon="bs-flexible.png" bigicon="bs-flexible_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-flexible" order="117" autosetnavigation="false" autosettitle="false" info="desc.bs-flexible"/>
 			</explorertype>
+			<explorertype name="bs-slider" key="fileicon.bs-slider" icon="bs-slider.png" bigicon="bs-slider_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-slider" order="118" autosetnavigation="false" autosettitle="false" info="desc.bs-slider"/>
+			</explorertype>
 			<explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="122" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
 			</explorertype>
@@ -101,10 +109,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>2ba13e13-217e-11e3-96de-000c29d28104</uuidstructure>
-			<datelastmodified>Thu, 19 Sep 2013 22:52:33 GMT</datelastmodified>
+			<uuidstructure>a2b492a7-1eba-11e3-ae8b-000c297c001d</uuidstructure>
+			<datelastmodified>Mon, 16 Sep 2013 10:27:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 19 Sep 2013 22:52:33 GMT</datecreated>
+			<datecreated>Mon, 16 Sep 2013 10:27:49 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -123,10 +131,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>2e77dcef-217e-11e3-96de-000c29d28104</uuidstructure>
-			<datelastmodified>Thu, 19 Sep 2013 22:52:38 GMT</datelastmodified>
+			<uuidstructure>a51fec93-1eba-11e3-ae8b-000c297c001d</uuidstructure>
+			<datelastmodified>Mon, 16 Sep 2013 10:27:53 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 19 Sep 2013 22:52:38 GMT</datecreated>
+			<datecreated>Mon, 16 Sep 2013 10:27:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -161,7 +169,7 @@
 			<type>module_config</type>
 			<uuidstructure>1a6836da-1aca-11e3-a5c5-000c29f9a2ec</uuidstructure>
 			<uuidresource>1a6836db-1aca-11e3-a5c5-000c29f9a2ec</uuidresource>
-			<datelastmodified>Mon, 16 Sep 2013 16:16:13 GMT</datelastmodified>
+			<datelastmodified>Mon, 23 Sep 2013 09:00:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 11 Sep 2013 10:08:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -267,7 +275,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>2185ce0e-1bbe-11e3-a120-000c29f9a2ec</uuidstructure>
 			<uuidresource>2185ce0f-1bbe-11e3-a120-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 13 Sep 2013 08:21:57 GMT</datelastmodified>
+			<datelastmodified>Fri, 20 Sep 2013 13:58:04 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 12 Sep 2013 15:15:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -430,6 +438,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.slider</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.slider</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>8a926a02-2433-11e3-adc8-000c297c001d</uuidstructure>
+			<uuidresource>8a926a03-2433-11e3-adc8-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 23 Sep 2013 13:02:09 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 23 Sep 2013 09:35:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for slider element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.tabs</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.tabs</destination>
 			<type>xmlvfsbundle</type>
@@ -483,7 +515,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>c9def4ee-1c45-11e3-80da-000c29f9a2ec</uuidstructure>
 			<uuidresource>c9def4ef-1c45-11e3-80da-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 13 Sep 2013 12:37:33 GMT</datelastmodified>
+			<datelastmodified>Mon, 23 Sep 2013 12:16:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 07:26:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -629,6 +661,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[XSD for a product description]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/slider.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/slider.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>a6289b03-2200-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>a6289b04-2200-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 23 Sep 2013 13:06:43 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:26:33 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a Slider]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -802,6 +854,46 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Nested XSD for a paragraph]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/slidercaption.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/slidercaption.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>8e6839bd-2206-11e3-8169-000c297c001d</uuidstructure>
+			<uuidresource>8e6839be-2206-11e3-8169-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 23 Sep 2013 10:34:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 15:08:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a slider item caption element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/slideritem.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/slideritem.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>d501adfa-2203-11e3-8169-000c297c001d</uuidstructure>
+			<uuidresource>d501adfb-2203-11e3-8169-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 23 Sep 2013 10:48:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:49:20 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a slider item]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1125,6 +1217,46 @@
 			<datelastmodified>Fri, 13 Sep 2013 12:32:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 12:02:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-slider.png</source>
+			<destination>system/workplace/resources/filetypes/bs-slider.png</destination>
+			<type>image</type>
+			<uuidstructure>478a9ec9-2203-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>478a9eca-2203-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:45:27 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:45:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-slider_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-slider_big.png</destination>
+			<type>image</type>
+			<uuidstructure>478fa7dd-2203-11e3-a498-000c297c001d</uuidstructure>
+			<uuidresource>478fa7de-2203-11e3-a498-000c297c001d</uuidresource>
+			<datelastmodified>Fri, 20 Sep 2013 14:45:30 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 14:45:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>

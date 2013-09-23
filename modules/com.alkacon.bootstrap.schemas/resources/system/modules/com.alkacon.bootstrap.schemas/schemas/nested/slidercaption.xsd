@@ -1,0 +1,44 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="BootstrapSliderCaptions" type="OpenCmsBootstrapSliderCaptions"/>
+	
+	<xsd:complexType name="OpenCmsBootstrapSliderCaptions">
+		<xsd:sequence>
+			<xsd:element name="BootstrapSliderCaption" type="OpenCmsBootstrapSliderCaption" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapSliderCaption">
+		<xsd:sequence>
+			<xsd:element name="Image" type="OpenCmsVfsFile" minOccurs="0" />
+			<xsd:element name="Text" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="Class" type="OpenCmsString" />
+			<xsd:element name="PosX" type="OpenCmsString" />
+			<xsd:element name="PosY" type="OpenCmsString" />
+			<xsd:element name="Start" type="OpenCmsString" />
+			<xsd:element name="Speed" type="OpenCmsString" />
+			<xsd:element name="Easing" type="OpenCmsString" />
+			<xsd:element name="End" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="EndEasing" type="OpenCmsString" minOccurs="0" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.slider"/>
+			<layouts>
+				<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat: true}" />
+				<layout element="Text" widget="TextareaWidget" configuration="3" />
+				<layout element="Class" widget="ComboWidget" configuration="caption randomrotate|caption large_text sfb bg-black-opacity|caption big_white lfl stl|caption lft ltb|caption bold_red_text sft stb" />
+				<layout element="Start" widget="ComboWidget" configuration="600|900|1200|1800|2400|3600" />
+				<layout element="Speed" widget="ComboWidget" configuration="300|600|900|1200|1500" />
+				<layout element="Easing" widget="SelectorWidget" configuration="easeOutBack|easeInQuad|easeOutQuad|easeInOutQuad|easeInCubic|easeOutCubic|easeInOutCubic|easeInQuart|easeOutQuart|easeInOutQuart|easeInQuint|easeOutQuint|easeInOutQuint|easeInSine|easeOutSine|easeInOutSine|easeInExpo|easeOutExpo*|easeInOutExpo|easeInCirc|easeOutCirc|easeInOutCirc|easeInElastic|easeOutElastic|easeInOutElastic|easeInBack|easeOutBack|easeInOutBack|easeInBounce|easeOutBounce|easeInOutBounce" />
+				<layout element="End" widget="ComboWidget" configuration="1500|2000|3500|4500|8500" />
+				<layout element="EndEasing" widget="SelectorWidget" configuration="easeOutBack|easeInQuad|easeOutQuad|easeInOutQuad|easeInCubic|easeOutCubic|easeInOutCubic|easeInQuart|easeOutQuart|easeInOutQuart|easeInQuint|easeOutQuint|easeInOutQuint|easeInSine|easeOutSine|easeInOutSine|easeInExpo|easeOutExpo*|easeInOutExpo|easeInCirc|easeOutCirc|easeInOutCirc|easeInElastic|easeOutElastic|easeInOutElastic|easeInBack|easeOutBack|easeInOutBack|easeInBounce|easeOutBounce|easeInOutBounce" />
+			</layouts>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>
