@@ -43,32 +43,12 @@
       <Value><![CDATA[HTML code for the header of the pages.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapConfiguration.Footer]]></Key>
-      <Value><![CDATA[Footer HTML]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapConfiguration.Footer.help]]></Key>
-      <Value><![CDATA[HTML code for the footer of the pages.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapConfiguration.Copyright]]></Key>
-      <Value><![CDATA[Copyright HTML]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapConfiguration.Copyright.help]]></Key>
-      <Value><![CDATA[HTML code for the copyright in the foot of the pages.]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[label.BootstrapConfiguration.TabGeneral]]></Key>
       <Value><![CDATA[General settings]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapConfiguration.TabHeader]]></Key>
       <Value><![CDATA[Header]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapConfiguration.TabFooter]]></Key>
-      <Value><![CDATA[Footer]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.configuration.theme.blue]]></Key>
@@ -145,32 +125,12 @@
       <Value><![CDATA[HTML Code für den Kopf der Seiten.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapConfiguration.Footer]]></Key>
-      <Value><![CDATA[Fuß HTML]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapConfiguration.Footer.help]]></Key>
-      <Value><![CDATA[HTML Code ür den Fußbereich der Seiten.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapConfiguration.Copyright]]></Key>
-      <Value><![CDATA[Copyright HTML]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapConfiguration.Copyright.help]]></Key>
-      <Value><![CDATA[HTML Code für den Copyright Abschnitt im Seitenfuß.]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[label.BootstrapConfiguration.TabGeneral]]></Key>
       <Value><![CDATA[Allgemeine Einstellungen]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapConfiguration.TabHeader]]></Key>
       <Value><![CDATA[Seitenkopf]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapConfiguration.TabFooter]]></Key>
-      <Value><![CDATA[Seitenfuß]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.configuration.theme.blue]]></Key>

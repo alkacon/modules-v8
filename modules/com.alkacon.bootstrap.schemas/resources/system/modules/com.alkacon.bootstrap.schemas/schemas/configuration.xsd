@@ -16,8 +16,6 @@
 			<xsd:element name="HeaderType" type="OpenCmsString" />
 			<xsd:element name="NavStartLevel" type="OpenCmsString" />
 			<xsd:element name="Header" type="OpenCmsHtml" />
-			<xsd:element name="Footer" type="OpenCmsHtml" />
-			<xsd:element name="Copyright" type="OpenCmsHtml" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -32,13 +30,10 @@
 				<layout element="HeaderType" widget="SelectorWidget" configuration="1*:%(key.bootstrap.configuration.header.light)|2:%(key.bootstrap.configuration.header.dark)" />
 				<layout element="NavStartLevel" widget="SelectorWidget" configuration="0:%(key.bootstrap.configuration.navstartlevel.0)|1*:%(key.bootstrap.configuration.navstartlevel.1)|2:%(key.bootstrap.configuration.navstartlevel.2)|3:%(key.bootstrap.configuration.navstartlevel.3)" />
 				<layout element="Header" widget="TextareaWidget" configuration="15" />
-				<layout element="Footer" widget="TextareaWidget" configuration="20" />
-				<layout element="Copyright" widget="TextareaWidget" configuration="8" />
 			</layouts>
 			<tabs>
 				<tab element="Theme" name="TabGeneral" collapse="false" />
 				<tab element="HeaderType" name="TabHeader" collapse="false" />
-				<tab element="Footer" name="TabFooter" collapse="false" />
 			</tabs>
 			<validationrules/>
 			<relations/>

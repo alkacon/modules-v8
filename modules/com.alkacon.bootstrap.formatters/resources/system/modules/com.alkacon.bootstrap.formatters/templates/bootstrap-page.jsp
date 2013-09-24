@@ -26,6 +26,7 @@
 		</cms:contentload>
 	</c:catch>
 	<c:set var="pagelayout"><cms:property name="bs.page.layout" file="search" default="9" /></c:set>
+	<c:set var="pagefullwidth"><cms:property name="bs.page.fullwidth" file="search" default="false" /></c:set>
 
 	<cms:enable-ade/>
 
@@ -92,9 +93,15 @@
 <!--=== End Breadcrumbs ===-->
 
 <!--=== Content Part ===-->
-<div class="container">		
+<c:if test="${not pagefullwidth}">
+	<div class="container">
+</c:if>
 
     <cms:container name="top" type="content-full" width="1200" maxElements="15" detailview="false"/>
+
+<c:if test="${pagefullwidth}">
+	<div class="container">
+</c:if>
 
 	<c:if test="${pagelayout != 'full'}">
 		<c:choose>
@@ -119,21 +126,9 @@
 </div><!--/container-->		
 <!--=== End Content Part ===-->
 
-<!--=== Footer ===-->
-<div class="footer">
-	<div class="container">
-		${configcontent.value.Footer}
-	</div><!--/container-->	
-</div><!--/footer-->	
-<!--=== End Footer ===-->
-
-<!--=== Copyright ===-->
-<div class="copyright">
-	<div class="container">
-		${configcontent.value.Copyright}
-	</div><!--/container-->
-</div><!--/copyright-->
-<!--=== End Copyright ===-->
+<!--=== Foot ===-->
+<cms:container name="foot" type="foot-full" width="1200" maxElements="15" detailview="false"/>
+<!--=== End Foot ===-->
 
 </div><!--/page-wrap-->
 </body>

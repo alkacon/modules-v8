@@ -6,10 +6,10 @@
 <fmt:setLocale value="${cms.locale}" />
 <cms:bundle basename="com.alkacon.bootstrap.schemas.slider">
 
-<cms:formatter var="content" val="value" rdfa="rdfa">
+<cms:formatter var="content" rdfa="rdfa">
 <div>
 	<c:if test="${not cms.element.settings.hidetitle}">
-		<div class="row-fluid"><div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div></div>
+		<div class="row-fluid"><div class="headline"><h3 ${content.rdfa.Title}>${content.value.Title}</h3></div></div>
 	</c:if>
 
 <c:choose>
@@ -23,7 +23,7 @@
 
 <div class="fullwidthbanner-container"><!--=== Slider ===-->
 
-	<div class="ocmsbanner">
+	<div class="fullwidthbanner">
 		<ul>
 			<c:forEach var="item" items="${content.valueList.Item}" varStatus="status">
 				<li data-transition="${item.value.Effect}" data-slotamount="${item.value.Slots}" data-masterspeed="${item.value.Delay}"<c:if test="${item.value.Link.isSet}"> data-link="<cms:link>${item.value.Link}</cms:link>"</c:if>>
@@ -46,11 +46,11 @@
 
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
-			jQuery('.ocmsbanner').revolution(
+			jQuery('.fullwidthbanner').revolution(
 	                {
-	                    delay:${value.Duration},
-	                    startheight:${value.Height},
-	                    startwidth:${value.Width},
+	                    delay:${content.value.Duration},
+	                    startheight:${content.value.Height},
+	                    startwidth:${content.value.Width},
 
 	                    hideThumbs:10,
 
@@ -79,7 +79,7 @@
 	                    soloArrowRightVOffset:0,
 
 	                    touchenabled:"on",                      // Enable Swipe Function : on/off
-	                    onHoverStop:"on",                       // Stop Banner Timet at Hover on Slide on/off
+	                    onHoverStop:"off",                       // Stop Banner Timet at Hover on Slide on/off
 
 	                    stopAtSlide:-1,
 	                    stopAfterLoops:-1,

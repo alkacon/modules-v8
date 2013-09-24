@@ -4412,6 +4412,10 @@
 					<name>Title</name>
 					<value><![CDATA[Bootstrap Page]]></value>
 				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/css/style.css]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
