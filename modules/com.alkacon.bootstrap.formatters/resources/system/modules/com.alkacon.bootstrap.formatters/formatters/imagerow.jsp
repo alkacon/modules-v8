@@ -19,7 +19,7 @@
 		<c:forEach var="item" items="${content.valueList.Item}" varStatus="status">
 			<li class="span<fmt:formatNumber type="number" value="${12 / itemCount}" />">
             	<div class="thumbnail-style thumbnail-kenburn">
-           	 		<c:if test="${item.value.Image.isSet}"><div class="thumbnail-img">
+           	 		<c:if test="${item.value.Image.isSet}"><div class="thumbnail-img" ${item.rdfa.Image}>
             			<div class="overflow-hidden"><img src="<cms:link>${item.value.Image}</cms:link>" alt="" /></div>
                			<c:if test="${item.value.Link.isSet}"><a class="btn-more hover-effect" href="<cms:link>${item.value.Link}</cms:link>"><fmt:message key="bootstrap.imagerow.frontend.readmore" /></a></c:if>
 					</div></c:if>

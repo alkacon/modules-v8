@@ -81,6 +81,8 @@
 </div><!--/header -->
 <!--=== End Header ===-->
 
+<c:if test="${not pagefullwidth}">
+
 <!--=== Breadcrumbs ===-->
 <div class="row-fluid breadcrumbs margin-bottom-30">
 	<div class="container">
@@ -93,7 +95,7 @@
 <!--=== End Breadcrumbs ===-->
 
 <!--=== Content Part ===-->
-<c:if test="${not pagefullwidth}">
+
 	<div class="container">
 </c:if>
 
