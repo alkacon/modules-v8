@@ -242,6 +242,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone-action.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone-action.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>e660113a-2500-11e3-b76c-000c297c001d</uuidstructure>
+			<uuidresource>e660113b-2500-11e3-b76c-000c297c001d</uuidresource>
+			<datelastmodified>Tue, 24 Sep 2013 10:47:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 24 Sep 2013 10:05:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Module clone page]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp</destination>
 			<type>jsp</type>
