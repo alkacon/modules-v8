@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[Welcome Page: Responsive template]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[All new responsive template]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/flowers/cornflower.jpg]]></target>
+            <uuid>77ca449e-717d-11e0-87bc-000c2972a6a4</uuid>
+            <query><![CDATA[__scale=h:500,w:500]]></query>
+          </link>
+        </Image>
+        <Title/>
+      </Image>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

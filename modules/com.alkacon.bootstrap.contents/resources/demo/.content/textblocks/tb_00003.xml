@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[Welcome page: More features than ever]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[More features than ever]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/flowers/chaenomeles.jpg]]></target>
+            <uuid>7a0e4176-717d-11e0-87bc-000c2972a6a4</uuid>
+            <query><![CDATA[__scale=h:500,w:500,cx:14,cy:35,ch:459,cw:460]]></query>
+          </link>
+        </Image>
+        <Title><![CDATA[Chaenomeles]]></Title>
+      </Image>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

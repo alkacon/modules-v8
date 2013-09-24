@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapFlexibleElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/flexible.xsd">
+  <BootstrapFlexibleElement language="en">
+    <Title><![CDATA[Welcome Desktop Footer]]></Title>
+    <Choice>
+      <Code><![CDATA[<!--=== Footer ===-->
+<div class="footer">
+<div class="container">
+<div class="row-fluid">
+<div class="span4">
+<!-- About -->
+<div class="headline"><h3>About</h3></div>
+<p class="margin-bottom-25">OpenCms from Alkacon Software is a professional, easy to use website content management system. OpenCms helps content managers worldwide to create and maintain beautiful websites fast and efficiently.</p>
+<div class="headline"><h3>More Information</h3></div>
+<dl>
+<dt><a href="http://www.opencms-wiki.org">OpenCms Wiki</a></dt>
+<dd>Tutorials and HowTos for OpenCms.</dd>
+<dt><a href="http://www.alkacon.com/en/products/">OpenCms Services by Alkacon Software</a></dt>
+<dd>Alkacon Software's focus area is to develop OpenCms extensions as well as provide professional support and outsourcing services for OpenCms projects. </dd>
+</dl>
+			</div><!--/span4-->	
+			
+			<div class="span4">
+<!-- Mailing List -->
+<div class="headline"><h3>The OpenCms Mailing List</h3></div>
+<p>The opencms-dev mailing list is the place for all questions, comments and suggestions for OpenCms and the main forum of the OpenCms community. Subscribe to the list by filling out the following form.</p>
+<form class="form-horizontal" method="post" action="http://lists.opencms.org/mailman/subscribe/opencms-dev">
+<div class="margin-bottom-10"><input type="text" name="email" placeholder="Email Address" class="input-block-level"/></div>
+<div class="margin-bottom-10"><input type="password" name="pw" placeholder="Pick a password" class="input-block-level"/></div>
+<div class="margin-bottom-10"><input type="password" name="pw-conf" placeholder="Confirm password" class="input-block-level"/></div>
+<div class="margin-bottom-10">
+<button type="submit" class="btn-u">Subscribe</button>
+</div>
+<div><p>Connection to the internet is required for subscription.</p></div>
+</form>							
+                    
+			</div><!--/span4-->
+
+
+
+
+			<div class="span4">
+<!-- Contact -->
+<div class="headline"><h3>Contact Us</h3></div>
+<address>
+Alkacon Software GmbH<br />
+An der Wachsfabrik 13<br />
+50996 Cologne, Germany<br />
+Phone: +49 2236 / 3826 - 0<br />
+<a href="http://www.alkacon.com/contact">Send us an email</a>
+</address>
+
+                <!-- Stay Connected -->
+		        <div class="headline"><h3>Stay Connected</h3></div>
+<ul class="social-icons">
+<li><a href="http://www.opencms.org/en/home/rss-news.xml" data-original-title="Feed" class="social_rss" title="RSS Feed"></a></li>
+<li><a href="http://github.com/alkacon" data-original-title="GitHub" class="social_github" title="GitHub"></a></li>
+<li><a href="https://twitter.com/AlkaconOpenCms" data-original-title="Twitter" class="social_twitter" title="Twitter"></a></li>
+<li><a href="http://www.facebook.com/opencms" data-original-title="Facebook" class="social_facebook" title="Facebook"></a></li>
+<li><a href="https://google.com/+opencms" data-original-title="Goole Plus" class="social_googleplus" title="Google+"></a></li>
+<li><a href="https://www.xing.com/net/pri17d83bx/opencmsusergroup" data-original-title="Xing" class="social_xing" title="Xing"></a></li>
+<li><a href="http://www.youtube.com/alkacon" data-original-title="Youtube" class="social_youtube" title="YouTube"></a></li>
+<li><a href="http://slideshare.net/AlkaconOpenCms/presentations" data-original-title="SlideShare" class="social_slideshare" title="SlideShare"></a></li>
+</ul>
+			</div><!--/span4-->
+		</div>
+    </div>
+</div><!--/footer-->	
+<!--=== End Footer ===-->
+
+<!--=== Copyright ===-->
+<div class="copyright">
+    <div class="container">
+		<div class="row-fluid">
+			<div class="span8">
+<p>Build with <a href="http://www.opencms.org">OpenCms - The Open Source CMS</a> from <a href="http://www.alkacon.com">Alkacon Software - The OpenCms Experts</a></p>
+</div>
+			<div class="span4">
+<a href="http://www.alkacon.com"><img id="logo-footer" src="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_alkacon_png24.png?__scale=w:120,h:39,c:transparent" class="pull-right" alt="Alkacon Software GmbH" /></a>
+</div>
+		</div><!--/row-fluid-->
+    </div>
+</div><!--/copyright-->
+<!--=== End Copyright ===-->]]></Code>
+    </Choice>
+  </BootstrapFlexibleElement>
+</BootstrapFlexibleElements>
