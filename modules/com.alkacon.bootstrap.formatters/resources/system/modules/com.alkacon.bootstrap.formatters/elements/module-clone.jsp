@@ -1,8 +1,8 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true"%>
-<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <jsp:useBean id="cloneModule" scope="request" class="org.opencms.workplace.tools.modules.CmsCloneModule">
 	<jsp:setProperty name="cloneModule" property="*" />
 	<%
@@ -13,12 +13,6 @@
 	<div <c:if test="${cms.container.type == 'content-full'}"> class="row-fluid"</c:if>>
 		<div class="headline">
 			<h1>${function.value.Title}</h1>
-		</div>
-		<div id="wait">
-			<h2>Loading ...</h2>
-		</div>
-		<div id="success">
-			<h2>Module: ${cloneModule.packageName} created successfully!</h2>
 		</div>
 		<form class="form-horizontal" method="post" id="clone-module-form">
 			<!-- Select a Source Module  -->
@@ -56,60 +50,6 @@
 										id="deleteModule" name="deleteModule">
 								</c:otherwise>
 							</c:choose> Select this option if you like to delete the source module after cloning
-						</label>
-					</div>
-				</div>
-			</fieldset>
-			<!-- Translation options  -->
-			<fieldset>
-				<legend>Translation options</legend>
-				<!-- Enter a source prefix name -->
-				<div class="control-group">
-					<label class="control-label" for="sourceNamePrefix">Source prefix name</label>
-					<div class="controls">
-						<input type="text" id="sourceNamePrefix" name="sourceNamePrefix" class="border-radius-none input-xlarge"
-							placeholder="Source prefix name" value="${cloneModule.sourceNamePrefix}">
-					</div>
-				</div>
-				<!-- Enter a target prefix name -->
-				<div class="control-group">
-					<label class="control-label" for="targetNamePrefix">Target prefix name</label>
-					<div class="controls">
-						<input type="text" id="targetNamePrefix" name="targetNamePrefix" class="border-radius-none input-xlarge"
-							placeholder="Target prefix name" value="${cloneModule.targetNamePrefix}">
-					</div>
-				</div>
-				<!-- Enter a source formatter module -->
-				<div class="control-group">
-					<label class="control-label" for="formatterSourceModule">Formatters source</label>
-					<div class="controls">
-						<input type="text" id="formatterSourceModule" name="formatterSourceModule" class="border-radius-none input-xlarge"
-							placeholder="Formatters source module name" value="${cloneModule.formatterSourceModule}">
-					</div>
-				</div>
-				<!-- Enter a new formatter path -->
-				<div class="control-group">
-					<label class="control-label" for="formatterTargetModule">Formatters target</label>
-					<div class="controls">
-						<input type="text" id="formatterTargetModule" name="formatterTargetModule" class="border-radius-none input-xlarge"
-							placeholder="Formatters target module name" value="${cloneModule.formatterTargetModule}">
-					</div>
-				</div>
-				<!-- Option to correct schema locations -->
-				<div class="control-group">
-					<div class="controls">
-						<label class="checkbox" for="changeResourceTypes"> <c:choose>
-								<c:when test="${'false' eq param.changeResourceTypes}">
-									<input type="checkbox" value="false" id="changeResourceTypes" name="changeResourceTypes">
-								</c:when>
-								<c:when test="${'true' eq param.changeResourceTypes || 'true' ne param.submit}">
-									<input type="checkbox" value="true" id="changeResourceTypes" name="changeResourceTypes" checked>
-								</c:when>
-								<c:otherwise>
-									<input type="checkbox" value="<c:out value="${param.changeResourceTypes}" escapeXml="true" />"
-										id="changeResourceTypes" name="changeResourceTypes">
-								</c:otherwise>
-							</c:choose> Select this option if you like to replace the schema locations and resource types of existing resources
 						</label>
 					</div>
 				</div>
@@ -178,6 +118,60 @@
 					</div>
 				</div>
 			</fieldset>
+			<!-- Translation options  -->
+			<fieldset>
+				<legend>Translation options</legend>
+				<!-- Enter a source prefix name -->
+				<div class="control-group">
+					<label class="control-label" for="sourceNamePrefix">Source prefix name</label>
+					<div class="controls">
+						<input type="text" id="sourceNamePrefix" name="sourceNamePrefix" class="border-radius-none input-xlarge"
+							placeholder="Source prefix name" value="${cloneModule.sourceNamePrefix}">
+					</div>
+				</div>
+				<!-- Enter a target prefix name -->
+				<div class="control-group">
+					<label class="control-label" for="targetNamePrefix">Target prefix name</label>
+					<div class="controls">
+						<input type="text" id="targetNamePrefix" name="targetNamePrefix" class="border-radius-none input-xlarge"
+							placeholder="Target prefix name" value="${cloneModule.targetNamePrefix}">
+					</div>
+				</div>
+				<!-- Enter a source formatter module -->
+				<div class="control-group">
+					<label class="control-label" for="formatterSourceModule">Formatters source</label>
+					<div class="controls">
+						<input type="text" id="formatterSourceModule" name="formatterSourceModule" class="border-radius-none input-xlarge"
+							placeholder="Formatters source module name" value="${cloneModule.formatterSourceModule}">
+					</div>
+				</div>
+				<!-- Enter a new formatter path -->
+				<div class="control-group">
+					<label class="control-label" for="formatterTargetModule">Formatters target</label>
+					<div class="controls">
+						<input type="text" id="formatterTargetModule" name="formatterTargetModule" class="border-radius-none input-xlarge"
+							placeholder="Formatters target module name" value="${cloneModule.formatterTargetModule}">
+					</div>
+				</div>
+				<!-- Option to correct schema locations -->
+				<div class="control-group">
+					<div class="controls">
+						<label class="checkbox" for="changeResourceTypes"> <c:choose>
+								<c:when test="${'false' eq param.changeResourceTypes}">
+									<input type="checkbox" value="false" id="changeResourceTypes" name="changeResourceTypes">
+								</c:when>
+								<c:when test="${'true' eq param.changeResourceTypes || 'true' ne param.submit}">
+									<input type="checkbox" value="true" id="changeResourceTypes" name="changeResourceTypes" checked>
+								</c:when>
+								<c:otherwise>
+									<input type="checkbox" value="<c:out value="${param.changeResourceTypes}" escapeXml="true" />"
+										id="changeResourceTypes" name="changeResourceTypes">
+								</c:otherwise>
+							</c:choose> Select this option if you like to replace the schema locations and resource types of existing resources
+						</label>
+					</div>
+				</div>
+			</fieldset>
 			<input type="hidden" name="submit" value="true">
 			<div class="control-group">
 				<div class="controls">
@@ -185,16 +179,24 @@
 				</div>
 			</div>
 		</form>
+		<div id="wait">
+			<h2>Loading ...</h2>
+		</div>
+		<div id="result">
+		</div>
 <script>
 $('#wait').hide();
-$('#success').hide();
+$('#result').hide();
 $("#clone-module-form").submit(function(event) {
   $('#wait').show();
   $('#clone-module-form').hide();
   var params = $('#clone-module-form').serialize();
-  $.post('<cms:link>/system/modules/my.company.template/elements/module-clone-action.jsp</cms:link>?' + params, function() {
+  var posting = $.post('<cms:link>/system/modules/com.alkacon.bootstrap.formatters/elements/module-clone-action.jsp</cms:link>?' + params);
+  posting.done(function( data ) {
       $('#wait').hide();
-      $('#success').show();
+      var content = $(data).find("#success");
+      $("#result").empty().append(content);
+      $('#result').show();
   });
   return false;
   event.preventDefault();
