@@ -17,7 +17,7 @@
 	<c:forEach var="item" items="${content.valueList.Item}" varStatus="status"><c:if test="${status.last}"><c:set var="itemCount" value="${status.count}" /></c:if></c:forEach>
 	<ul class="thumbnails">
 		<c:forEach var="item" items="${content.valueList.Item}" varStatus="status">
-			<li class="span<fmt:formatNumber type="number" value="${12 / itemCount}" />">
+			<li <c:if test="${not item.value.Link.isSet}">${item.rdfa.Link}</c:if> class="span<fmt:formatNumber type="number" value="${12 / itemCount}" maxFractionDigits="0" />">				
             	<div class="thumbnail-style thumbnail-kenburn">
            	 		<c:if test="${item.value.Image.isSet}"><div class="thumbnail-img" ${item.rdfa.Image}>
             			<div class="overflow-hidden"><img src="<cms:link>${item.value.Image}</cms:link>" alt="" /></div>

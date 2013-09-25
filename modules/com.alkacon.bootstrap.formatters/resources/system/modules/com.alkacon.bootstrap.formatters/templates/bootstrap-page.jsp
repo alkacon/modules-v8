@@ -81,8 +81,7 @@
 </div><!--/header -->
 <!--=== End Header ===-->
 
-<c:if test="${not pagefullwidth}">
-
+<c:if test="${(pagefullwidth != 'true') && (pagefullwidth != 'false')}">
 <!--=== Breadcrumbs ===-->
 <div class="row-fluid breadcrumbs margin-bottom-30">
 	<div class="container">
@@ -93,15 +92,17 @@
     </div><!--/container-->
 </div><!--/breadcrumbs-->
 <!--=== End Breadcrumbs ===-->
+</c:if>
 
 <!--=== Content Part ===-->
 
+<c:if test="${(pagefullwidth != 'true') && (pagefullwidth != 'true-bc')}">
 	<div class="container">
 </c:if>
 
     <cms:container name="top" type="content-full" width="1200" maxElements="15" detailview="false"/>
 
-<c:if test="${pagefullwidth}">
+<c:if test="${(pagefullwidth == 'true') || (pagefullwidth == 'true-bc')}">
 	<div class="container">
 </c:if>
 
