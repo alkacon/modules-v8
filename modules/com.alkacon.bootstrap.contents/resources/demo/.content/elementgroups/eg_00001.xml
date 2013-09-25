@@ -9,6 +9,26 @@
       <Element>
         <Uri>
           <link type="STRONG">
+            <target><![CDATA[/sites/default/demo/.content/flexiblecontents/fc_00002.xml]]></target>
+            <uuid>fb30d744-25bf-11e3-9fd8-000c29d28104</uuid>
+          </link>
+        </Uri>
+        <Properties>
+          <Name><![CDATA[hideTitle]]></Name>
+          <Value>
+            <String><![CDATA[true]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[mobile]]></String>
+          </Value>
+        </Properties>
+      </Element>
+      <Element>
+        <Uri>
+          <link type="STRONG">
             <target><![CDATA[/sites/default/demo/.content/flexiblecontents/fc_00003.xml]]></target>
             <uuid>9441776c-2526-11e3-91e8-000c29d28104</uuid>
           </link>
@@ -17,6 +37,12 @@
           <Name><![CDATA[hideTitle]]></Name>
           <Value>
             <String><![CDATA[true]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|tablet]]></String>
           </Value>
         </Properties>
       </Element>

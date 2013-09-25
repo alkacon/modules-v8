@@ -2,7 +2,7 @@
 
 <BootstrapTabs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd">
   <BootstrapTab language="en">
-    <Title><![CDATA[Flower Facts]]></Title>
+    <Title><![CDATA[Tabs / Accordion Demo Element]]></Title>
     <Item>
       <Label><![CDATA[Robust]]></Label>
       <Text name="Text0">
@@ -12,7 +12,7 @@
       </Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/products/crown_imperial.jpg]]></target>
+          <target><![CDATA[/sites/default/.content/images/flowers/crown_imperial.jpg]]></target>
           <uuid>7725c72a-717d-11e0-87bc-000c2972a6a4</uuid>
         </link>
       </Image>

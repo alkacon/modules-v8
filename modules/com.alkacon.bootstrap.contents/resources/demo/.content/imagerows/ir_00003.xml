@@ -13,6 +13,7 @@
           <query><![CDATA[__scale=h:500,w:500,cx:107,cy:6,ch:574,cw:574]]></query>
         </link>
       </Image>
+      <Link/>
     </Item>
     <Item>
       <Headline><![CDATA[Better]]></Headline>
@@ -46,6 +47,7 @@
           <query><![CDATA[__scale=h:500,w:500,cx:94,cy:9,ch:567,cw:567]]></query>
         </link>
       </Image>
+      <Link/>
     </Item>
   </BootstrapImagerow>
 </BootstrapImagerows>

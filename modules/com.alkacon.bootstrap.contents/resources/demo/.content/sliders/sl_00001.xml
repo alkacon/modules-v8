@@ -97,8 +97,8 @@
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/slider/bg_sl_01.jpg]]></target>
-          <uuid>275f340b-24e8-11e3-9bbf-000c29d28104</uuid>
+          <target><![CDATA[/sites/default/.content/images/slider/bg_sl_02.jpg]]></target>
+          <uuid>278e816f-24e8-11e3-9bbf-000c29d28104</uuid>
         </link>
       </Image>
       <Effect><![CDATA[3dcurtain-vertical]]></Effect>
@@ -192,8 +192,8 @@
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/slider/bg_sl_02.jpg]]></target>
-          <uuid>278e816f-24e8-11e3-9bbf-000c29d28104</uuid>
+          <target><![CDATA[/sites/default/.content/images/slider/bg_sl_01.jpg]]></target>
+          <uuid>275f340b-24e8-11e3-9bbf-000c29d28104</uuid>
         </link>
       </Image>
       <Effect><![CDATA[papercut]]></Effect>
