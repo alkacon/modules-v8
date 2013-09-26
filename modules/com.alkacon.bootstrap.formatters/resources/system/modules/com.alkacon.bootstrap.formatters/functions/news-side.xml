@@ -30,5 +30,12 @@
       <Key><![CDATA[createPath]]></Key>
       <Value><![CDATA[/sites/default/demo/.content/newsarticles/na_%(number:5).html]]></Value>
     </Parameter>
+    <SettingConfig>
+      <PropertyName><![CDATA[hidetitle]]></PropertyName>
+      <DisplayName><![CDATA[Hide Title]]></DisplayName>
+      <Type><![CDATA[string]]></Type>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+    </SettingConfig>
   </DynamicFunction>
 </DynamicFunctions>

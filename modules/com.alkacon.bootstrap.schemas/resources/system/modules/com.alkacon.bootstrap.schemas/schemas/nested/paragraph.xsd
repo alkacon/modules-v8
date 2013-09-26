@@ -25,7 +25,7 @@
 	<xsd:annotation>
 		<xsd:appinfo>
 			<layouts>
-				<layout element="Text" widget="HtmlWidget" configuration="height:400px,link,anchor,source,downloadgallery"/>
+				<layout element="Text" widget="HtmlWidget" configuration="height:400px,link,anchor,source,downloadgallery,formatselect"/>
 			</layouts>
 		</xsd:appinfo>
 	</xsd:annotation>  

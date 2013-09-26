@@ -12,12 +12,17 @@
 <c:set var="collectorParam">${solrParamType}${solrParamDirs}${solrParamSort}${solrParamRows}${resCreatePath}</c:set>
 <c:set var="wordCount"><fmt:formatNumber type="number" value="${((cms.container.width + 30) / 100) * 30}" maxFractionDigits="0" /></c:set>
 
+<fmt:setLocale value="${cms.locale}" />
+
 <cms:formatter var="function" rdfa="rdfa">
-
 	<div <c:if test="${cms.container.type == 'content-full'}"> class="row-fluid"</c:if>>
-		<div class="headline"><h4 ${rdfa.Title}><c:out value="${function.value['Title']}" escapeXml="false" /></h4></div>
+	
+		<c:if test="${not cms.element.settings.hidetitle}">
+			<div class="headline"><h4 ${rdfa.Title}><c:out value="${function.value.Title}" escapeXml="false" /></h4></div>
+		</c:if>			
+		
 		<div class="posts blog-item margin-bottom-20">
-
+		
 	<cms:contentload collector="byContext" param="${collectorParam}" preload="true" >
 		<cms:contentinfo var="info" />
 		<c:if test="${info.resultSize > 0}">

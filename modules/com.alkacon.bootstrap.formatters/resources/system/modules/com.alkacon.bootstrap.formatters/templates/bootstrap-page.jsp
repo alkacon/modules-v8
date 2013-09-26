@@ -26,7 +26,7 @@
 		</cms:contentload>
 	</c:catch>
 	<c:set var="pagelayout"><cms:property name="bs.page.layout" file="search" default="9" /></c:set>
-	<c:set var="pagefullwidth"><cms:property name="bs.page.fullwidth" file="search" default="false" /></c:set>
+	<c:set var="pagefullwidth"><cms:property name="bs.page.fullwidth" file="search" default="false-bc" /></c:set>
 
 	<cms:enable-ade/>
 
@@ -100,7 +100,7 @@
 	<div class="container">
 </c:if>
 
-    <cms:container name="top" type="content-full" width="1200" maxElements="15" detailview="false"/>
+    <cms:container name="top" type="content-full" width="1200" maxElements="15" />
 
 <c:if test="${(pagefullwidth == 'true') || (pagefullwidth == 'true-bc')}">
 	<div class="container">
@@ -109,28 +109,30 @@
 	<c:if test="${pagelayout != 'full'}">
 		<c:choose>
 			<c:when test="${pagelayout < 6}">
-				<c:set var="detailcon1" value="false" />
+				<c:set var="leftDetail" value="false" />
 			</c:when>
 			<c:otherwise>
-				<c:set var="detailcon1" value="true" />
+				<c:set var="leftDetail" value="true" />
 			</c:otherwise>
 		</c:choose>
 		<div class="row-fluid">
 			<div class="span${pagelayout}">
-				<cms:container name="middle-left" type="content" width="${(pagelayout * 100) - 30}" maxElements="15" detailview="${detailcon1}"/>
+				<cms:container name="middle-left" type="content" width="${(pagelayout * 100) - 30}" detailview="${leftDetail}"/>
+				<cms:container name="middle-left-detail" type="content" detailonly="true"/>				
 			</div>
 			<div class="span${12 - pagelayout}">
-				<cms:container name="middle-right" type="content" width="${((12 - pagelayout) * 100) - 30}" maxElements="15" detailview="${not detailcon1}"/>
+				<cms:container name="middle-right" type="content" width="${((12 - pagelayout) * 100) - 30}" detailview="${not leftDetail}"/>
+				<cms:container name="middle-right-detail" type="content" detailonly="true"/>				
 			</div> 
 		</div><!--/row-fluid-->
-        <cms:container name="bottom" type="content-full" width="1200" maxElements="15" detailview="false"/>
+        <cms:container name="bottom" type="content-full" width="1200" maxElements="15" />
 	</c:if>
 
 </div><!--/container-->		
 <!--=== End Content Part ===-->
 
 <!--=== Foot ===-->
-<cms:container name="foot" type="foot-full" width="1200" maxElements="15" detailview="false"/>
+<cms:container name="foot" type="foot-full" width="1200" maxElements="15" />
 <!--=== End Foot ===-->
 
 </div><!--/page-wrap-->

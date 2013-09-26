@@ -14,7 +14,7 @@
 	<xsd:complexType name="OpenCmsBootstrapImagerow">
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
-			<xsd:element name="Item" type="OpenCmsBootstrapImagerowItem" minOccurs="3" maxOccurs="4" />
+			<xsd:element name="Item" type="OpenCmsBootstrapImagerowItem" minOccurs="2" maxOccurs="6" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -42,6 +42,7 @@
 			</searchsettings>
 			<formatters>
 				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/imagerow.jsp" searchcontent="true" />
+				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/imagerow.jsp" searchcontent="true" />
 			</formatters>
 			<settings>
 				<setting name="hidetitle" nice-name="%(key.bootstrap.imagerow.setting.hidetitle)" type="string" default="false" widget="checkbox" />
