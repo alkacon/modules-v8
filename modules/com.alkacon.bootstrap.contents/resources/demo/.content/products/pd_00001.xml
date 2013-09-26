@@ -2,24 +2,15 @@
 
 <BootstrapProducts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd">
   <BootstrapProduct language="en">
-    <Name><![CDATA[Alkacon Solr Search]]></Name>
+    <Name><![CDATA[Alkacon OpenCms]]></Name>
     <Price><![CDATA[120.000,00 €]]></Price>
-    <Color>#1800E0</Color>
-    <BrandName><![CDATA[Alkacon]]></BrandName>
-    <BrandLogo>
-      <Image>
-        <link type="WEAK">
-          <target><![CDATA[/system/modules/org.opencms.dev.demo/resources/images/logo_alkacon_png24.png]]></target>
-          <uuid>e429a565-673f-11e0-8b6f-0760e8fc984c</uuid>
-        </link>
-      </Image>
-      <Title><![CDATA[Alkacon Software GmbH]]></Title>
-      <Description><![CDATA[Alkacon Software GmbH]]></Description>
-    </BrandLogo>
-    <Date>1379672880000</Date>
+    <BrandName><![CDATA[Alkacon Software]]></BrandName>
+    <Date>1380191280000</Date>
     <Manufacturer><![CDATA[Alkacon Software GmbH]]></Manufacturer>
     <ID><![CDATA[123456]]></ID>
-    <Description><![CDATA[<p><strong>Getting great results with Alkacon's OpenCms Solr Enterprise Search!</strong></p>]]></Description>
+    <Description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>]]></Description>
     <Images>
       <Image>
         <link type="WEAK">

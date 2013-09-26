@@ -2,14 +2,13 @@
 
 <BootstrapNewsarticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd">
   <BootstrapNewsarticle language="en">
-    <Title><![CDATA[Exciting new Acacia variety]]></Title>
-    <Date>1378800900000</Date>
+    <Title><![CDATA[OpenCms Days 2013]]></Title>
+    <Date>1380526200000</Date>
     <Paragraph>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The genus Acacia contains roughly 1300 species, most of them native to Australia, with the remainder spread around the tropical to warm-temperate regions of both hemispheres, including Europe, Africa, southern Asia, and the Americas.</p>
-<p>An exciting new species has just been recently discovered on your computers desktop: The “Acacieae editorius”, commonly called “Acasia editor”, build into OpenCms 8.5. The species comes in 2 varieties: The “in page” variety allows editing fresh text content directly on the page. The “form based” variety offers enhanced editing capabilities for more complex editing operations. Most amazingly, the new species does not require water, but electricity.</p>
-<p>Acacias are also known as thorntrees, whistling thorns or wattles.</p>]]></content>
+        <content><![CDATA[<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>]]></content>
       </Text>
       <Image>
         <Image>
@@ -29,6 +28,13 @@
           </link>
         </URI>
       </Link>
+    </Paragraph>
+    <Paragraph>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><span style="line-height: 1.6;">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span></p>
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>]]></content>
+      </Text>
     </Paragraph>
     <Category>
       <link type="WEAK">

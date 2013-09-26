@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapJumbotrons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/jumbotron.xsd">
+  <BootstrapJumbotron language="en">
+    <Title><![CDATA[About the Wonderful World of Flowers]]></Title>
+    <Text><![CDATA[Wonderful World of Flowers presents the most spectacular and amazing stories about flowers from around the world. Entertaining and with lots of useful information. Let us take you into the adventurous world of flowers around the globe!]]></Text>
+    <Link>
+      <Text><![CDATA[Show me more...]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/demo/en/world-of-flowers/welcome-to-opencms-9/]]></target>
+          <uuid>feab9fd3-2518-11e3-91e8-000c29d28104</uuid>
+        </link>
+      </URI>
+    </Link>
+  </BootstrapJumbotron>
+</BootstrapJumbotrons>

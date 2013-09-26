@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[Our exiting products]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Our exciting products]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><span style="line-height: 1.6;">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span></p>
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/flowers/chrysanthemum.jpg]]></target>
+            <uuid>75e6421e-717d-11e0-87bc-000c2972a6a4</uuid>
+          </link>
+        </Image>
+        <Title/>
+      </Image>
+      <Link>
+        <Text><![CDATA[Buy them now]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/demo/en/world-of-flowers/welcome-to-opencms-9/]]></target>
+            <uuid>feab9fd3-2518-11e3-91e8-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

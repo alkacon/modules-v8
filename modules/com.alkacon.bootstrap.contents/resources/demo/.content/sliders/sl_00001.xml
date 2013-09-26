@@ -52,51 +52,6 @@
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/slider/bg_sl_04.jpg]]></target>
-          <uuid>9a39c079-24ea-11e3-9bbf-000c29d28104</uuid>
-        </link>
-      </Image>
-      <Effect><![CDATA[slotzoom-horizontal]]></Effect>
-      <Slots><![CDATA[5]]></Slots>
-      <Delay><![CDATA[600]]></Delay>
-      <Caption>
-        <Image/>
-        <Text><![CDATA[100% OPEN SOURCE]]></Text>
-        <Class><![CDATA[caption sft big_black]]></Class>
-        <PosX><![CDATA[75]]></PosX>
-        <PosY><![CDATA[330]]></PosY>
-        <Start><![CDATA[1200]]></Start>
-        <Speed><![CDATA[600]]></Speed>
-        <Easing><![CDATA[easeOutExpo]]></Easing>
-      </Caption>
-      <Caption>
-        <Text><![CDATA[FULL COMMERCIAL SUPPORT AVAILABLE]]></Text>
-        <Class><![CDATA[caption large_text sfb bg-black-opacity]]></Class>
-        <PosX><![CDATA[75]]></PosX>
-        <PosY><![CDATA[380]]></PosY>
-        <Start><![CDATA[1400]]></Start>
-        <Speed><![CDATA[600]]></Speed>
-        <Easing><![CDATA[easeOutExpo]]></Easing>
-        <End><![CDATA[8000]]></End>
-      </Caption>
-      <Caption>
-        <Image>
-          <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/slider/osi-logo.png]]></target>
-            <uuid>393462f4-2507-11e3-9bbf-000c29d28104</uuid>
-          </link>
-        </Image>
-        <Class><![CDATA[caption randomrotate]]></Class>
-        <PosX><![CDATA[595]]></PosX>
-        <PosY><![CDATA[130]]></PosY>
-        <Start><![CDATA[900]]></Start>
-        <Speed><![CDATA[600]]></Speed>
-        <Easing><![CDATA[easeOutExpo]]></Easing>
-      </Caption>
-    </Item>
-    <Item>
-      <Image>
-        <link type="WEAK">
           <target><![CDATA[/sites/default/.content/images/slider/bg_sl_02.jpg]]></target>
           <uuid>278e816f-24e8-11e3-9bbf-000c29d28104</uuid>
         </link>
@@ -186,6 +141,51 @@
         <PosY><![CDATA[120]]></PosY>
         <Start><![CDATA[1500]]></Start>
         <Speed><![CDATA[900]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+    </Item>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.content/images/slider/bg_sl_04.jpg]]></target>
+          <uuid>9a39c079-24ea-11e3-9bbf-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Effect><![CDATA[slotzoom-horizontal]]></Effect>
+      <Slots><![CDATA[5]]></Slots>
+      <Delay><![CDATA[600]]></Delay>
+      <Caption>
+        <Image/>
+        <Text><![CDATA[100% OPEN SOURCE]]></Text>
+        <Class><![CDATA[caption sft big_black]]></Class>
+        <PosX><![CDATA[75]]></PosX>
+        <PosY><![CDATA[330]]></PosY>
+        <Start><![CDATA[1200]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Text><![CDATA[FULL COMMERCIAL SUPPORT AVAILABLE]]></Text>
+        <Class><![CDATA[caption large_text sfb bg-black-opacity]]></Class>
+        <PosX><![CDATA[75]]></PosX>
+        <PosY><![CDATA[380]]></PosY>
+        <Start><![CDATA[1400]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+        <End><![CDATA[8000]]></End>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.content/images/slider/osi_logo.png]]></target>
+            <uuid>393462f4-2507-11e3-9bbf-000c29d28104</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[595]]></PosX>
+        <PosY><![CDATA[130]]></PosY>
+        <Start><![CDATA[900]]></Start>
+        <Speed><![CDATA[600]]></Speed>
         <Easing><![CDATA[easeOutExpo]]></Easing>
       </Caption>
     </Item>

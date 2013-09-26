@@ -12,8 +12,38 @@
       <Elements>
         <Uri>
           <link type="STRONG">
-            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/functions/login.xml]]></target>
-            <uuid>17dc02c5-2133-11e3-bb06-000c297c001d</uuid>
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/functions/news-side.xml]]></target>
+            <uuid>e2d5bec5-21db-11e3-b95f-000c29d28104</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/org.opencms.ade.containerpage/formatters/function.jsp]]></target>
+            <uuid>087ba7c9-e7fc-4336-acb8-d3416a4eb1fd</uuid>
+          </link>
+        </Formatter>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|mobile|tablet]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[hidetitle]]></Name>
+          <Value>
+            <String><![CDATA[false]]></String>
+          </Value>
+        </Properties>
+      </Elements>
+    </Containers>
+    <Containers>
+      <Name><![CDATA[middle-right]]></Name>
+      <Type><![CDATA[content]]></Type>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/functions/nav-side.xml]]></target>
+            <uuid>16badf57-2068-11e3-b5aa-000c297c001d</uuid>
           </link>
         </Uri>
         <Formatter>
@@ -23,15 +53,11 @@
           </link>
         </Formatter>
       </Elements>
-    </Containers>
-    <Containers>
-      <Name><![CDATA[middle-right]]></Name>
-      <Type><![CDATA[content]]></Type>
       <Elements>
         <Uri>
           <link type="STRONG">
-            <target><![CDATA[/sites/default/demo/.content/textblocks/tb_00003.xml]]></target>
-            <uuid>143c5579-2526-11e3-91e8-000c29d28104</uuid>
+            <target><![CDATA[/sites/default/demo/.content/textblocks/tb_00007.xml]]></target>
+            <uuid>29eb0b51-269c-11e3-9ee6-000c29d28104</uuid>
           </link>
         </Uri>
         <Formatter>
@@ -49,7 +75,7 @@
         <Properties>
           <Name><![CDATA[imgalign]]></Name>
           <Value>
-            <String><![CDATA[right]]></String>
+            <String><![CDATA[top]]></String>
           </Value>
         </Properties>
       </Elements>
@@ -57,6 +83,32 @@
     <Containers>
       <Name><![CDATA[bottom]]></Name>
       <Type><![CDATA[content-full]]></Type>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/demo/.content/imagerows/ir_00004.xml]]></target>
+            <uuid>6fe7d0ca-26a1-11e3-9ee6-000c29d28104</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/imagerow.jsp]]></target>
+            <uuid>07a86e28-1ed6-11e3-89be-000c29f9a2ec</uuid>
+          </link>
+        </Formatter>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|mobile|tablet]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[hidetitle]]></Name>
+          <Value>
+            <String><![CDATA[false]]></String>
+          </Value>
+        </Properties>
+      </Elements>
     </Containers>
     <Containers>
       <Name><![CDATA[foot]]></Name>
