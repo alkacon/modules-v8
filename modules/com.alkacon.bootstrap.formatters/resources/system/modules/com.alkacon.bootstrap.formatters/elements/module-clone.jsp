@@ -38,18 +38,10 @@
 				<!-- Option to delete the source module after cloning -->
 				<div class="control-group">
 					<div class="controls">
-						<label class="checkbox" for="deleteModule"> <c:choose>
-								<c:when test="${'false' eq param.deleteModule}">
-									<input type="checkbox" value="false" id="deleteModule" name="deleteModule">
-								</c:when>
-								<c:when test="${'true' eq param.deleteModule || 'true' ne param.submit}">
-									<input type="checkbox" value="true" id="deleteModule" name="deleteModule" checked>
-								</c:when>
-								<c:otherwise>
-									<input type="checkbox" value="<c:out value="${param.deleteModule}" escapeXml="true" />"
-										id="deleteModule" name="deleteModule">
-								</c:otherwise>
-							</c:choose> Select this option if you like to delete the source module after cloning
+						<label class="checkbox" for="deleteModule">
+							<input type="checkbox" value="<c:out value="${param.deleteModule}" escapeXml="true" />"
+								<c:if test="${param.deleteModule}">checked</c:if> id="deleteModule" name="deleteModule">
+								Select this option if you like to delete the source module after cloning
 						</label>
 					</div>
 				</div>
@@ -156,18 +148,17 @@
 				<!-- Option to correct schema locations -->
 				<div class="control-group">
 					<div class="controls">
-						<label class="checkbox" for="changeResourceTypes"> <c:choose>
-								<c:when test="${'false' eq param.changeResourceTypes}">
-									<input type="checkbox" value="false" id="changeResourceTypes" name="changeResourceTypes">
-								</c:when>
-								<c:when test="${'true' eq param.changeResourceTypes || 'true' ne param.submit}">
-									<input type="checkbox" value="true" id="changeResourceTypes" name="changeResourceTypes" checked>
-								</c:when>
-								<c:otherwise>
-									<input type="checkbox" value="<c:out value="${param.changeResourceTypes}" escapeXml="true" />"
-										id="changeResourceTypes" name="changeResourceTypes">
-								</c:otherwise>
-							</c:choose> Select this option if you like to replace the schema locations and resource types of existing resources
+						<label class="checkbox" for="changeResourceTypes">
+							<input type="checkbox" value="<c:out value="${param.changeResourceTypes}" escapeXml="true" />"
+								<c:if test="${param.changeResourceTypes}">checked</c:if> id="changeResourceTypes" name="changeResourceTypes">
+								Select this option, if you like to change resource types
+						</label>
+					</div>
+					<div class="controls">
+						<label class="checkbox" for="changeResourceTypesEverywhere">
+							<input type="checkbox" value="<c:out value="${param.changeResourceTypesEverywhere}" escapeXml="true" />"
+								<c:if test="${param.changeResourceTypesEverywhere}">checked</c:if> id="changeResourceTypesEverywhere" name="changeResourceTypesEverywhere">
+								Select this option, if you like to change resource types in all sites
 						</label>
 					</div>
 				</div>
