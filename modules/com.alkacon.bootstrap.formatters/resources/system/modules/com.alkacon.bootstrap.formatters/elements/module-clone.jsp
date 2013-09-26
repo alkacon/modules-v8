@@ -39,7 +39,7 @@
 				<div class="control-group">
 					<div class="controls">
 						<label class="checkbox" for="deleteModule">
-							<input type="checkbox" value="<c:out value="${param.deleteModule}" escapeXml="true" />"
+							<input type="checkbox" value="true" 
 								<c:if test="${param.deleteModule}">checked</c:if> id="deleteModule" name="deleteModule">
 								Select this option if you like to delete the source module after cloning
 						</label>
@@ -149,14 +149,14 @@
 				<div class="control-group">
 					<div class="controls">
 						<label class="checkbox" for="changeResourceTypes">
-							<input type="checkbox" value="<c:out value="${param.changeResourceTypes}" escapeXml="true" />"
+							<input type="checkbox" value="true"
 								<c:if test="${param.changeResourceTypes}">checked</c:if> id="changeResourceTypes" name="changeResourceTypes">
 								Select this option, if you like to change resource types
 						</label>
 					</div>
 					<div class="controls">
 						<label class="checkbox" for="changeResourceTypesEverywhere">
-							<input type="checkbox" value="<c:out value="${param.changeResourceTypesEverywhere}" escapeXml="true" />"
+							<input type="checkbox" value="true"
 								<c:if test="${param.changeResourceTypesEverywhere}">checked</c:if> id="changeResourceTypesEverywhere" name="changeResourceTypesEverywhere">
 								Select this option, if you like to change resource types in all sites
 						</label>
