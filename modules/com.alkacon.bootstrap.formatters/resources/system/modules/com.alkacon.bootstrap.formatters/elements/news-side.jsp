@@ -3,6 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+
 <c:set var="solrParamType">&fq=type:${param.resourceType}</c:set>
 <c:set var="solrParamDirs">&fq=parent-folders:${param.parentFolders}</c:set>
 <c:set var="solrParamSort">&sort=collector.priority_prop ${param.sortOrder}, newsdate_${cms.locale}_dt ${param.sortOrder}</c:set>
@@ -10,7 +11,6 @@
 <c:set var="resCreatePath">|createPath=${param.createPath}</c:set>
 <c:set var="collectorParam">${solrParamType}${solrParamDirs}${solrParamSort}${solrParamRows}${resCreatePath}</c:set>
 <c:set var="wordCount"><fmt:formatNumber type="number" value="${((cms.container.width + 30) / 100) * 30}" maxFractionDigits="0" /></c:set>
-<c:set var="headCount"><fmt:formatNumber type="number" value="${((cms.container.width + 30) / 100) * 8}" maxFractionDigits="0" /></c:set>
 
 <cms:formatter var="function" rdfa="rdfa">
 
@@ -30,16 +30,20 @@
 				<!-- entry -->
 				<dl class="dl-horizontal">
 					<a href="<cms:link>${content.file.rootPath}</cms:link>">
-						<h4 class="media-heading">${cms:trimToSize(cms:stripHtml(headline), headCount)}<span><fmt:formatDate value="${cms:convertDate(content.value.Date)}" dateStyle="SHORT" timeStyle="SHORT" type="both" /></span></h4>
+						<h4 class="media-heading">${headline}</h4>
 					</a>
 					<c:if test="${paragraph.value.Image.exists}"><dt>
 				    	<a href="<cms:link>${content.file.rootPath}</cms:link>">
 						<cms:img src="${paragraph.value.Image.value.Image}" alt="${paragraph.value.Image.value.Title}" width="50" scaleColor="transparent" scaleType="0"/></a>
 					</dt></c:if>
-					<dd><p><a href="<cms:link>${content.file.rootPath}</cms:link>">${cms:trimToSize(cms:stripHtml(paragraph.value.Text), wordCount)}</a></p></dd>
+					<dd>
+						<a href="<cms:link>${content.file.rootPath}</cms:link>">
+							<p class="muted"><small><i class="icon-calendar"></i> <fmt:formatDate value="${cms:convertDate(content.value.Date)}" dateStyle="LONG" type="DATE" /></small></p>
+							<p>${cms:trimToSize(cms:stripHtml(paragraph.value.Text), wordCount)}</p>
+						</a>
+					</dd>
 				</dl>
 				<!-- // END entry -->
-
 			</cms:contentload>
 		</c:if>
 	</cms:contentload>
