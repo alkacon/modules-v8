@@ -2,12 +2,102 @@
 
 <BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
   <BootstrapTextblock language="en">
-    <Title><![CDATA[Release Notes for OpenCms 9.0.0]]></Title>
+    <Title><![CDATA[Release Notes for OpenCms 9.0 RC]]></Title>
     <Paragraph>
-      <Headline><![CDATA[Release Notes for OpenCms 9.0.0]]></Headline>
+      <Headline><![CDATA[Release Notes for OpenCms 9.0 RC]]></Headline>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[Please edit the text block text.]]></content>
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://bugzilla.opencms.org/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>September 30, 2013: Development of OpenCms 9 has reached another milestone as the release candidate (RC) of OpenCms 9 is now available.</p>
+<h2>Main features in OpenCms 9.0 RC</h2>
+<ul>
+<li>Integrated JLan for accessing the VFS as a network share</li>
+<li>Added gallery access to the toolbar</li>
+<li>Added enhanced page / element info dialog</li>
+<li>Added dynamic template provider feature.</li>
+<li>Added site management administration tool with web server configuration support</li>
+<li>Added option to configure an error page per site</li>
+<li>Added detail view containers the allow individual detail pages</li>
+<li>Added XML content based resource bundles</li>
+<li>Replaced in line wysiwyg editor with fully-fledged TinyMCE</li>
+<li>Added undo / redo function to content editor</li>
+<li>Added in place editing options for nested contents</li>
+<li>Added dynamic HTML update during in place editing</li>
+<li>Added direct upload option to image widget</li>
+<li>Improved XML content editor layout</li>
+<li>Added scripted setup feature</li>
+<li>Added option to create new contents for empty collector lists</li>
+<li>Added new demo template</li>
+<li>Added 'This page' publishing mode</li>
+<li>Added mode for the workplace where the session is not kept alive</li>
+<li>Added configurable password substitution mechanism to avoid putting passwords in the configuration files</li>
+<li>Added global permission overview dialog</li>
+<li>Added feature to unlock users who are locked out because of too many login attempts</li>
+<li>Added feature to destroy sessions of logged in users</li>
+<li>Added optional feature to prevent users from having more than one session</li>
+</ul>
+<h2>Fixed issues and other improvements in OpenCms 9.0 RC</h2>
+<ul>
+<li><span style="line-height: 1.6;">Fixed issue #23 where parsing the publish scheduled date failed due to a wrong locale</span></li>
+<li><span style="line-height: 1.6;">Fixed issue #61 where the removal of mapped properties failed</span></li>
+<li><span style="line-height: 1.6;">Fixed issue #67 where malformed nested XML content schemas resulted in misleading error messages</span></li>
+<li><span style="line-height: 1.6;">Fixed issue #130 where container page elements where removed without confirmation</span></li>
+<li><span style="line-height: 1.6;">Fixed issue #168 where the source code contained some spelling errors</span></li>
+<li><span style="line-height: 1.6;">Fixed issue #180 where database names where not validated during setup </span></li>
+<li><span style="line-height: 1.6;">Fixed issue #187 where sort by title did not work in the gallery dialogs</span></li>
+<li><span style="line-height: 1.6;">Updated Italian localization</span></li>
+<li><span style="line-height: 1.6;">Updated Spanish localization</span></li>
+<li><span style="line-height: 1.6;">Updated Russian localization</span></li>
+<li><span style="line-height: 1.6;">Changed build process to use Gradle</span></li>
+<li><span style="line-height: 1.6;">Removed upload applet</span></li>
+<li><span style="line-height: 1.6;">Removed obsolete FCKEditor and EditArea</span></li>
+<li><span style="line-height: 1.6;">Updated Solr and Lucene libraries</span></li>
+<li><span style="line-height: 1.6;">Improved Solr search field mapping for multi-lingual XML contents that are using nested elements</span></li>
+<li><span style="line-height: 1.6;">Improved text based language detection.</span></li>
+</ul>
+<h2>Features of OpenCms in general</h2>
+<ul>
+<li>The page editor allows to create and arrange content on web pages by drag &amp; drop.</li>
+<li>The sitemap editor allows to create new pages and re-arrange the navigation tree by drag &amp; drop.</li>
+<li>Support for creation of content for mobile devices with the &lt;cms:mobile&gt; tag.</li>
+<li>Structured contents can be defined using a simple XML schema.</li>
+<li>Editors with WYSIWYG and syntax highlighting functionality.</li>
+<li>Easy to use "Online / Offline" workflow, changes must be approved before they become visible.</li>
+<li>Link management for all internal resources with broken link detection.</li>
+<li>Integrated image scaling and cropping.</li>
+<li>Full featured internal user management that supports the concept of "Organizational Units" (OUs).</li>
+<li>Allows management of multiple websites within one installation.</li>
+<li>Contents can be served dynamically or exported to static HTML files.</li>
+<li>Extensions can be added through a flexible module system.</li>
+<li>Full text search for web pages, but also in PDF, MS Office documents etc.</li>
+<li>The "time warp" feature allows to view resources which are expired or not yet released.</li>
+<li>JSP integration for dynamic functionality in templates, dynamic forms etc.</li>
+<li>... and many more</li>
+</ul>
+<h2>Who should use this OpenCms 9 RC distribution download?</h2>
+<p>It is recommended for heavy OpenCms users, developers and contributors to install and try out this release candidate version, in order to prepare for the upcoming OpenCms 9 final release.</p>
+<p>Users looking for a stable installation should use the latest 8.5.2 version now and upgrade to OpenCms 9 when the final release is available. Please note that there will be no update wizard provided for any release candidate (RC) version to the final release of OpenCms 9.</p>
+<h2>Backward compatibility</h2>
+<p><span style="line-height: 1.6;">OpenCms 9.0 RC is fully backward compatible to all prior 8.x and 7.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 9.0 RC.</span></p>
+<p><strong>Notice for users of Alkacon OCEE:</strong> This release candidate does not work with current Alkacon OCEE versions, please wait for the final OpenCms 9 release.</p>
+<h2>Compatibility with Java versions, Servlet containers and Databases</h2>
+<p>OpenCms 9.0 RC has been written and tested for Java 6 and 7. We have tested only with ORACLEs version of the JDK. OpenCms should run with all compliant JVMs.</p>
+<p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>
+<p>On the database side, we have tested with MySQL, Oracle, PostgreSQL, MS SQL Server, DB2 and HSQLDB.</p>
+<h2>Regarding version numbers and build tags</h2>
+<p>In case you want to check out OpenCms from Git, please keep the following in mind: The tag numbers for all OpenCms 9.0 final releases will be "build_9_0_x". The 9.0 RC release is tagged "build_8_9_0".</p>
+<p>The main OpenCms Git repository is available on Github at <a href="%(link0)">github.com/alkacon/opencms-core</a>.</p>
+<h2>How you can help</h2>
+<p>Contributions to the OpenCms core development are most welcome. Please send us your pull requests directly on GitHub.</p>
+<p>Please use our Bugzilla to report bugs in this release: <a href="%(link1)">http://bugzilla.opencms.org/</a></p>
+<p> </p>
+<p>Thank you for using OpenCms and have fun with OpenCms 9.0 RC :-)</p>]]></content>
       </Text>
     </Paragraph>
   </BootstrapTextblock>

@@ -5731,7 +5731,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>134d137d-1fa5-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>134d137e-1fa5-11e3-85b8-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 17 Sep 2013 16:35:16 GMT</datelastmodified>
+			<datelastmodified>Fri, 27 Sep 2013 12:20:55 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 17 Sep 2013 14:26:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5739,7 +5739,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Release Notes for OpenCms 9.0.0]]></value>
+					<value><![CDATA[Release Notes for OpenCms 9.0 RC]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6652,10 +6652,10 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>release/9.0.0-release-notes</destination>
+			<destination>release/9.0-rc-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>5e05e90b-1fa4-11e3-85b8-000c297c001d</uuidstructure>
-			<datelastmodified>Tue, 17 Sep 2013 16:26:00 GMT</datelastmodified>
+			<datelastmodified>Fri, 27 Sep 2013 10:44:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 17 Sep 2013 14:20:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6667,23 +6667,23 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[9.0.0 Release Notes]]></value>
+					<value><![CDATA[9.0 RC Release Notes]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[9.0.0 Release Notes]]></value>
+					<value><![CDATA[9.0 RC Release Notes]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/9.0.0-release-notes/index.html</source>
-			<destination>release/9.0.0-release-notes/index.html</destination>
+			<source>release/9.0-rc-release-notes/index.html</source>
+			<destination>release/9.0-rc-release-notes/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>5e179c50-1fa4-11e3-85b8-000c297c001d</uuidstructure>
 			<uuidresource>5e179c51-1fa4-11e3-85b8-000c297c001d</uuidresource>
-			<datelastmodified>Wed, 25 Sep 2013 07:37:58 GMT</datelastmodified>
+			<datelastmodified>Fri, 27 Sep 2013 10:44:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 17 Sep 2013 14:20:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6695,7 +6695,7 @@
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[9.0.0 Release Notes]]></value>
+					<value><![CDATA[9.0 RC Release Notes]]></value>
 				</property>
 			</properties>
 			<relations/>
