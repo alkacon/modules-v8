@@ -121,8 +121,8 @@
 				<cms:container name="middle-left-detail" type="content" detailonly="true"/>				
 			</div>
 			<div class="span${12 - pagelayout}">
-				<cms:container name="middle-right" type="content" width="${((12 - pagelayout) * 100) - 30}" detailview="${not leftDetail}"/>
 				<cms:container name="middle-right-detail" type="content" detailonly="true"/>				
+				<cms:container name="middle-right" type="content" width="${((12 - pagelayout) * 100) - 30}" detailview="${not leftDetail}"/>
 			</div> 
 		</div><!--/row-fluid-->
         <cms:container name="bottom" type="content-full" width="1200" maxElements="15" />
