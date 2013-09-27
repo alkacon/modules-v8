@@ -2,8 +2,8 @@
 
 <DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
   <DynamicFunction language="en">
-    <Title><![CDATA[News article list]]></Title>
-    <Description><![CDATA[Provides a list of recent news articles]]></Description>
+    <Title><![CDATA[Latest News]]></Title>
+    <Description><![CDATA[Provides a list of recent news articles (side element)]]></Description>
     <FunctionProvider>
       <link type="WEAK">
         <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/elements/news-side.jsp]]></target>

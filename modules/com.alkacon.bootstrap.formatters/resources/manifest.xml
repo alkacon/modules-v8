@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.7.1</opencms_version>
-		<createdate>Mon, 23 Sep 2013 13:16:45 GMT</createdate>
+		<createdate>Fri, 27 Sep 2013 09:50:41 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap template and formatters.]]></description>
-		<version>9.0.0</version>
+		<version>8.9.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -33,10 +33,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>a2b492a7-1eba-11e3-ae8b-000c297c001d</uuidstructure>
-			<datelastmodified>Mon, 16 Sep 2013 10:27:49 GMT</datelastmodified>
+			<uuidstructure>52dcafe6-26fe-11e3-ab7d-000c29d28104</uuidstructure>
+			<datelastmodified>Thu, 26 Sep 2013 22:52:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 16 Sep 2013 10:27:49 GMT</datecreated>
+			<datecreated>Thu, 26 Sep 2013 22:52:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -55,10 +55,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>a51fec93-1eba-11e3-ae8b-000c297c001d</uuidstructure>
-			<datelastmodified>Mon, 16 Sep 2013 10:27:53 GMT</datelastmodified>
+			<uuidstructure>556556d2-26fe-11e3-ab7d-000c29d28104</uuidstructure>
+			<datelastmodified>Thu, 26 Sep 2013 22:52:34 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 16 Sep 2013 10:27:53 GMT</datecreated>
+			<datecreated>Thu, 26 Sep 2013 22:52:34 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -116,71 +116,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/classes</destination>
-			<type>folder</type>
-			<uuidstructure>ac2bba80-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 12:08:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 10 Sep 2013 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/classes/com</destination>
-			<type>folder</type>
-			<uuidstructure>ac307572-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 12:08:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 10 Sep 2013 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/classes/com/alkacon</destination>
-			<type>folder</type>
-			<uuidstructure>ac353064-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 12:08:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 10 Sep 2013 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/classes/com/alkacon/bootstrap</destination>
-			<type>folder</type>
-			<uuidstructure>ac3a1266-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 12:08:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 10 Sep 2013 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/classes/com/alkacon/bootstrap/formatters</destination>
-			<type>folder</type>
-			<uuidstructure>ac3ecd58-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 12:08:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 10 Sep 2013 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/elements</destination>
 			<type>folder</type>
 			<uuidstructure>ac1d639a-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
@@ -199,7 +134,7 @@
 			<type>jsp</type>
 			<uuidstructure>261e9861-2126-11e3-bb06-000c297c001d</uuidstructure>
 			<uuidresource>261e9862-2126-11e3-bb06-000c297c001d</uuidresource>
-			<datelastmodified>Thu, 19 Sep 2013 13:35:52 GMT</datelastmodified>
+			<datelastmodified>Fri, 27 Sep 2013 08:54:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 12:22:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -218,14 +153,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone-action.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone-action.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>783fc2d0-2468-11e3-ade6-000c297c001d</uuidstructure>
-			<uuidresource>783fc2d1-2468-11e3-ade6-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 23 Sep 2013 15:59:44 GMT</datelastmodified>
+			<uuidstructure>e660113a-2500-11e3-b76c-000c297c001d</uuidstructure>
+			<uuidresource>e660113b-2500-11e3-b76c-000c297c001d</uuidresource>
+			<datelastmodified>Tue, 24 Sep 2013 10:47:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 23 Sep 2013 15:54:46 GMT</datecreated>
+			<datecreated>Tue, 24 Sep 2013 10:05:54 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -242,14 +177,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone-action.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone-action.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>e660113a-2500-11e3-b76c-000c297c001d</uuidstructure>
-			<uuidresource>e660113b-2500-11e3-b76c-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 24 Sep 2013 10:47:50 GMT</datelastmodified>
+			<uuidstructure>783fc2d0-2468-11e3-ade6-000c297c001d</uuidstructure>
+			<uuidresource>783fc2d1-2468-11e3-ade6-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 23 Sep 2013 15:59:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 24 Sep 2013 10:05:54 GMT</datecreated>
+			<datecreated>Mon, 23 Sep 2013 15:54:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -608,7 +543,7 @@
 			<type>jsp</type>
 			<uuidstructure>60739184-1c73-11e3-b68b-000c29f9a2ec</uuidstructure>
 			<uuidresource>60739185-1c73-11e3-b68b-000c29f9a2ec</uuidresource>
-			<datelastmodified>Mon, 23 Sep 2013 10:18:08 GMT</datelastmodified>
+			<datelastmodified>Fri, 27 Sep 2013 09:37:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 12:52:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -741,7 +676,7 @@
 			<type>function</type>
 			<uuidstructure>e2d5bec5-21db-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>e2d5bec6-21db-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 20 Sep 2013 10:05:03 GMT</datelastmodified>
+			<datelastmodified>Fri, 27 Sep 2013 07:58:05 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 10:03:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -749,11 +684,11 @@
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[Provides a list of recent news articles]]></value>
+					<value><![CDATA[Provides a list of recent news articles (side element)]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[News article list]]></value>
+					<value><![CDATA[Latest News]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -861,7 +796,7 @@
 			<type>plain</type>
 			<uuidstructure>0b639751-1b95-11e3-a120-000c29f9a2ec</uuidstructure>
 			<uuidresource>0b639752-1b95-11e3-a120-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 20 Sep 2013 09:46:54 GMT</datelastmodified>
+			<datelastmodified>Fri, 27 Sep 2013 08:53:53 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 12 Sep 2013 10:21:10 GMT</datecreated>
 			<usercreated>Admin</usercreated>

@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.7.1</opencms_version>
-		<createdate>Thu, 26 Sep 2013 15:01:19 GMT</createdate>
+		<createdate>Fri, 27 Sep 2013 09:50:28 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,15 +14,15 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap template demo contents.]]></description>
-		<version>9.0.0</version>
+		<version>8.9.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="com.alkacon.bootstrap.schemas" version="9.0.0"/>
-			<dependency name="com.alkacon.bootstrap.formatters" version="9.0.0"/>
+			<dependency name="com.alkacon.bootstrap.schemas" version="8.9.0"/>
+			<dependency name="com.alkacon.bootstrap.formatters" version="8.9.0"/>
 			<dependency name="com.alkacon.opencms.v8.event" version="8.0.0"/>
 			<dependency name="com.alkacon.opencms.v8.flower" version="8.5.0"/>
 			<dependency name="com.alkacon.opencms.v8.list" version="8.0.0"/>
@@ -4456,7 +4456,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>adc737e8-2202-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>adc737e9-2202-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 26 Sep 2013 10:59:19 GMT</datelastmodified>
+			<datelastmodified>Fri, 27 Sep 2013 09:49:27 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 14:41:05 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5236,7 +5236,7 @@
 			<type>containerpage</type>
 			<uuidstructure>b5cede74-2696-11e3-9ee6-000c29d28104</uuidstructure>
 			<uuidresource>b5cede75-2696-11e3-9ee6-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 26 Sep 2013 13:47:25 GMT</datelastmodified>
+			<datelastmodified>Fri, 27 Sep 2013 08:54:56 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 26 Sep 2013 10:30:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5257,6 +5257,60 @@
 				<property>
 					<name>bs.page.layout</name>
 					<value><![CDATA[4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>demo/en/world-of-flowers/login-page</destination>
+			<type>folder</type>
+			<uuidstructure>e6b2fe3a-274a-11e3-a044-000c29d28104</uuidstructure>
+			<datelastmodified>Fri, 27 Sep 2013 08:00:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 27 Sep 2013 08:00:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Login page]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/en/world-of-flowers/login-page/index.html</source>
+			<destination>demo/en/world-of-flowers/login-page/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>e6d10d8f-274a-11e3-a044-000c29d28104</uuidstructure>
+			<uuidresource>e6d10d90-274a-11e3-a044-000c29d28104</uuidresource>
+			<datelastmodified>Fri, 27 Sep 2013 08:51:35 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 27 Sep 2013 08:00:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Bootstrap layout without pre-configured elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login page]]></value>
+				</property>
+				<property>
+					<name>bs.page.layout</name>
+					<value><![CDATA[6]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5440,7 +5494,7 @@
 			<destination>demo/en/world-of-flowers/welcome-to-opencms-9</destination>
 			<type>folder</type>
 			<uuidstructure>feab9fd3-2518-11e3-91e8-000c29d28104</uuidstructure>
-			<datelastmodified>Thu, 26 Sep 2013 13:47:21 GMT</datelastmodified>
+			<datelastmodified>Fri, 27 Sep 2013 09:11:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 24 Sep 2013 12:58:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5448,7 +5502,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
+					<value><![CDATA[0.25]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -13813,10 +13867,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>0e37b208-2635-11e3-b603-000c29d28104</uuidstructure>
-			<datelastmodified>Wed, 25 Sep 2013 22:51:46 GMT</datelastmodified>
+			<uuidstructure>52dcafe6-26fe-11e3-ab7d-000c29d28104</uuidstructure>
+			<datelastmodified>Thu, 26 Sep 2013 22:52:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 25 Sep 2013 22:51:46 GMT</datecreated>
+			<datecreated>Thu, 26 Sep 2013 22:52:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

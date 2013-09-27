@@ -27,6 +27,9 @@
 					<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="1200" height="300" scaleType="2" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 				</div></div>
 			</c:if>
+			<c:if test="${imgalign == 'noimage'}">	
+				<span ${paragraph.rdfa.Image}></span>
+			</c:if>
 			<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>		
 			<c:if test="${paragraph.value.Link.exists}">
 				<p><a class="btn-u btn-u-small" href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a></p>
