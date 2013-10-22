@@ -11,15 +11,9 @@
 	</c:if>
 </c:forEach>
 <cms:navigation type="forSite" resource="${navStartFolder}" startLevel="${navStartLevel}" endLevel="${navStartLevel + 1}" var="nav"/>
-<div class="navbar">                                
-	<div class="navbar-inner">                                  
-		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</a><!-- /nav-collapse -->                                  
-		<div class="nav-collapse collapse">                                     
-			<ul class="nav top-2">
+<div class="collapse navbar-collapse navbar-responsive-collapse">                                                             
+	<ul class="nav navbar-nav navbar-right">
+
 	<c:set var="oldLevel" value="" />
 	<c:forEach items="${nav.items}" var="elem" varStatus="status">
 		<c:set var="currentLevel" value="${elem.navTreeLevel}" />
@@ -52,28 +46,32 @@
 		<c:if test="${parentItem and not status.last}">
 			<c:forEach items="${nav.items}" var="nextelem" varStatus="nextstatus">
 				<c:if test="${nextstatus.count eq (status.count + 1) and nextelem.navTreeLevel eq (navStartLevel + 1)}">
-					<c:set var="caret">&nbsp;<b class="caret"></b></c:set>
+					<c:set var="caret">&nbsp;<i class="icon-angle-down"></i></c:set>
+					<c:choose>
+						<c:when test="${markItem}"><c:set var="listClass">class="dropdown active"</c:set></c:when>
+						<c:otherwise><c:set var="listClass">class="dropdown"</c:set></c:otherwise>
+					</c:choose>
 				</c:if>
 			</c:forEach>
 		</c:if>
 
 		<li ${listClass}>
-		<a href="<c:choose><c:when test="${parentItem and not empty caret}">#</c:when><c:otherwise><cms:link>${elem.resourceName}</cms:link></c:otherwise></c:choose>"<c:if test="${parentItem and not empty caret}"> class="dropdown-toggle" data-toggle="dropdown"</c:if>>${elem.navText}${caret}</a>
+		<a href="<c:choose><c:when test="${parentItem and not empty caret}">#</c:when><c:otherwise><cms:link>${elem.resourceName}</cms:link></c:otherwise></c:choose>"<c:if test="${parentItem and not empty caret}"> class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false"</c:if>>${elem.navText}${caret}</a>
 		<c:set var="oldLevel" value="${currentLevel}" />
 	</c:forEach>
 
 	<c:forEach begin="${navStartLevel + 1}" end="${oldLevel}"></li></ul></c:forEach>
 	<c:if test="${not empty nav.items}"></li></c:if>
-    <li><a class="search"><i class="icon-search search-btn"></i></a></li>                               
+    <li class="hidden-sm"><a class="search"><i class="icon-search search-btn"></i></a></li>                               
 			</ul>
 			<div class="search-open">
-				<div class="input-append">
-					<form>
-						<input type="text" class="span3" placeholder="Search" />
-						<button type="submit" class="btn-u">Go</button>
-					</form>
-				</div>
+				<form class="form-inline">
+					<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search" />
+					<span class="input-group-btn">
+						<button class="btn-u" type="button">Go</button>
+					</span>
+					</div>
+				</form>
 			</div>
-		</div><!-- /nav-collapse -->                                
-	</div><!-- /navbar-inner -->
-</div><!-- /navbar -->
+</div><!-- /collapse -->

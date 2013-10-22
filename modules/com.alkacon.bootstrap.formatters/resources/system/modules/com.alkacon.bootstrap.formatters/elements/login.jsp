@@ -31,31 +31,35 @@
         </c:if>
 </jsp:useBean>
 
-<div class="row-fluid">
-<form class="log-page" <c:if test="${cms.container.type == 'content-full'}">style="width: 400px"</c:if> action="<cms:link>${cms.requestContext.uri}</cms:link>" method="get">
+<div class="row">
+<form class="reg-page" <c:if test="${cms.container.type == 'content-full'}">style="width: 400px"</c:if> action="<cms:link>${cms.requestContext.uri}</cms:link>" method="get">
 
 <input type="hidden" name="requestedResource" value="${param.requestedResource}" />
 
 <c:choose>
-	<c:when test="${! login.loggedIn}">	
-		<h3><fmt:message key="bootstrap.login.title.loggedoff" /></h3>
-		<p><fmt:message key="bootstrap.login.message.loggedoff" /></p>
-
-		<div class="input-prepend">
-			<span class="add-on"><i class="icon-user"></i></span>
-			<input class="input-xlarge" type="text" name="name" placeholder="<fmt:message key="bootstrap.login.label.username" />"/>
+	<c:when test="${! login.loggedIn}">
+		<div class="reg-header">		
+			<h3><fmt:message key="bootstrap.login.title.loggedoff" /></h3>
+			<p><fmt:message key="bootstrap.login.message.loggedoff" /></p>
 		</div>
-		<div class="input-prepend">
-			<span class="add-on"><i class="icon-lock"></i></span>
-			<input class="input-xlarge" type="password" name="password" placeholder="<fmt:message key="bootstrap.login.label.password" />">
+
+		<div class="input-group margin-bottom-20">
+			<span class="input-group-addon"><i class="icon-user"></i></span>
+			<input class="form-control" type="text" name="name" placeholder="<fmt:message key="bootstrap.login.label.username" />"/>
+		</div>
+		<div class="input-group margin-bottom-20">
+			<span class="input-group-addon"><i class="icon-lock"></i></span>
+			<input class="form-control" type="password" name="password" placeholder="<fmt:message key="bootstrap.login.label.password" />">
 		</div>
 		<div class="controls form-inline">
 			<button class="btn-u" type="submit" name="action" value="login" ><fmt:message key="bootstrap.login.label.login" /></button>
 		</div>   
 	</c:when>
-	<c:otherwise>		
-		<h3><fmt:message key="bootstrap.login.title.loggedin" /></h3>
-		<p><fmt:message key="bootstrap.login.message.loggedin" />: <b>${cms.requestContext.currentUser.name}</b></p>
+	<c:otherwise>
+		<div class="reg-header">
+			<h3><fmt:message key="bootstrap.login.title.loggedin" /></h3>
+			<p><fmt:message key="bootstrap.login.message.loggedin" />: <b>${cms.requestContext.currentUser.name}</b></p>
+		</div>
 
 		<div class="controls form-inline">
 			<button class="btn-u btn-u-blue" type="submit" name="action" value="logoff" ><fmt:message key="bootstrap.login.label.logoff" /></button>

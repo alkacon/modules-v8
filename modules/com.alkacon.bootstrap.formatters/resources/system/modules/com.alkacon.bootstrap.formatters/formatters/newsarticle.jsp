@@ -21,20 +21,20 @@
 	</c:choose>
 	<%-- //END create author link --%>
 
-	<div <c:if test="${cms.container.type == 'content-full'}"> class="row-fluid"</c:if>>
+	<div <c:if test="${cms.container.type == 'content-full'}"> class="row"</c:if>>
 
 		<!-- blog header -->
 		<div class="blog-page">
 			<div class="blog">
 				<c:if test="${!cms.detailRequest}"><h3 ${rdfa.Title}>${value.Title}</h3></c:if>
-				<ul class="unstyled inline blog-info">
+				<ul class="list-unstyled list-inline blog-info">
 					<li><i class="icon-calendar"></i> <fmt:formatDate value="${cms:convertDate(value.Date)}" dateStyle="SHORT" timeStyle="SHORT" type="both" /></li>
 					<c:if test="${author ne ''}">
 					<li><i class="icon-pencil"></i> ${author}</li>
 					</c:if>
 				</ul>
 				<c:if test="${fn:length(content.valueList.Category) > 0}">
-				<ul class="unstyled inline blog-tags">
+				<ul class="list-unstyled list-inline blog-tags">
 					<li>
 						<i class="icon-tags"></i>
 						<c:forEach var="item" items="${content.valueList.Category}" varStatus="status">

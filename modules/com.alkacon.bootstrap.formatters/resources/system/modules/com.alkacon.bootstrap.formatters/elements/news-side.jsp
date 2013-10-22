@@ -15,10 +15,10 @@
 <fmt:setLocale value="${cms.locale}" />
 
 <cms:formatter var="function" rdfa="rdfa">
-	<div <c:if test="${cms.container.type == 'content-full'}"> class="row-fluid"</c:if>>
+	<div <c:if test="${cms.container.type == 'content-full'}">class="row"</c:if>>
 	
 		<c:if test="${not cms.element.settings.hidetitle}">
-			<div class="headline"><h4 ${rdfa.Title}><c:out value="${function.value.Title}" escapeXml="false" /></h4></div>
+			<div class="headline headline-md"><h4 ${rdfa.Title}><c:out value="${function.value.Title}" escapeXml="false" /></h4></div>
 		</c:if>			
 		
 		<div class="posts blog-item margin-bottom-20">

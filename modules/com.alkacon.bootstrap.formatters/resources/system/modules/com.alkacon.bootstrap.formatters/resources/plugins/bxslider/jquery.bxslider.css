@@ -32,10 +32,6 @@
 	position:relative;
 }
 
-.bx-wrapper .bx-viewport {
-	background: #fff;
-}
-
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;

@@ -2,14 +2,14 @@
 //** Available/ usage terms at http://www.dynamicdrive.com (March 30th, 09')
 //** v1.1 (April 7th, 09'):
 //** 1) Adds ability to scroll to an absolute position (from top of page) or specific element on the page instead.
-//** 2) Fixes scroll animation not working in Opera.
+//** 2) Fixes scroll animation not working in Opera. 
 <%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms" %>
 
 var scrolltotop={
 	//startline: Integer. Number of pixels from top of doc scrollbar is scrolled before showing control
 	//scrollto: Keyword (Integer, or "Scroll_to_Element_ID"). How far to scroll document up when control is clicked on (0=top).
 	setting: {startline:100, scrollto: 0, scrollduration:1000, fadeduration:[500, 100]},
-	controlHTML: '<img src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/img/up.png:0c8b4ecc-1b95-11e3-a120-000c29f9a2ec)</cms:link>" style="width:51px; height:42px" />', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
+	controlHTML: '<img src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/img/up.png)</cms:link>" style="width:51px; height:42px" />', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
 	controlattrs: {offsetx:5, offsety:5}, //offset of control relative to right/ bottom of window corner
 	anchorkeyword: '#top', //Enter href value of HTML anchors on the page that should also act as "Scroll Up" links
 

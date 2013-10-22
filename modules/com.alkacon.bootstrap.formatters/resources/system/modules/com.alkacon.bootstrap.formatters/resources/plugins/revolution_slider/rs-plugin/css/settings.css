@@ -261,6 +261,94 @@ website:   	http://www.themepunch.com
 			padding-top: 1px;
 			background-color:#fff;
 					}
+					
+					
+.tp-caption.modern_medium_fat{
+			position: absolute; 
+			color: #000; 
+			text-shadow: none; 
+			font-weight: 800; 
+			font-size: 24px; 
+			line-height: 20px; 
+			font-family: 'Open Sans', sans-serif; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			white-space:nowrap;		
+		}
+.tp-caption.modern_medium_fat_white{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 800; 
+			font-size: 24px; 
+			line-height: 20px; 
+			font-family: 'Open Sans', sans-serif; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			white-space:nowrap;		
+		}
+.tp-caption.modern_medium_light{
+			position: absolute; 
+			color: #000; 
+			text-shadow: none; 
+			font-weight: 300; 
+			font-size: 24px; 
+			line-height: 20px; 
+			font-family: 'Open Sans', sans-serif; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			white-space:nowrap;		
+		}
+.tp-caption.modern_big_bluebg{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 800; 
+			font-size: 30px; 
+			line-height: 36px; 
+			font-family: 'Open Sans', sans-serif; 
+			padding: 3px 10px; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#4e5b6c;	
+			letter-spacing: 0;										
+		}
+.tp-caption.modern_big_redbg{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 300; 
+			font-size: 30px; 
+			line-height: 36px; 
+			font-family: 'Open Sans', sans-serif; 
+			padding: 3px 10px; 
+  			padding-top: 1px;
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#de543e;	
+			letter-spacing: 0;										
+		}
+.tp-caption.modern_small_text_dark{
+			position: absolute; 
+			color: #555; 
+			text-shadow: none; 
+			font-size: 14px; 
+			line-height: 22px; 
+			font-family: Arial; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			white-space:nowrap;		
+		}
+
+					
+					
+					
 
 .tp-caption.boxshadow{
 		-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -294,6 +382,44 @@ website:   	http://www.themepunch.com
 						-webkit-box-sizing:border-box;
 						-moz-box-sizing:border-box;
 						max-height:none !important;	}
+
+
+.tp-caption .frontcorner		{
+										width: 0;
+										height: 0;
+										border-left: 40px solid transparent;
+										border-right: 0px solid transparent;
+										border-top: 40px solid #00A8FF;
+										position: absolute;left:-40px;top:0px;
+									}
+
+.tp-caption .backcorner		{
+										width: 0;
+										height: 0;
+										border-left: 0px solid transparent;
+										border-right: 40px solid transparent;
+										border-bottom: 40px solid #00A8FF;
+										position: absolute;right:0px;top:0px;
+									}
+
+.tp-caption .frontcornertop		{
+										width: 0;
+										height: 0;
+										border-left: 40px solid transparent;
+										border-right: 0px solid transparent;
+										border-bottom: 40px solid #00A8FF;
+										position: absolute;left:-40px;top:0px;
+									}
+
+.tp-caption .backcornertop		{
+										width: 0;
+										height: 0;
+										border-left: 0px solid transparent;
+										border-right: 40px solid transparent;
+										border-top: 40px solid #00A8FF;
+										position: absolute;right:0px;top:0px;
+									}
+
 
 /******************************
 	-	BUTTONS	-
@@ -411,7 +537,7 @@ website:   	http://www.themepunch.com
         -o-user-select: none;
 	}
 
-.tp-bannershadow.tp-shadow1 {	background:url(../assets/shadow1.png) no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
+.tp-bannershadow.tp-shadow1 {	background:url(../assets/shadow1.png) no-repeat; background-size:100%; width:890px; height:60px; bottom:-60px;}
 .tp-bannershadow.tp-shadow2 {	background:url(../assets/shadow2.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
 .tp-bannershadow.tp-shadow3 {	background:url(../assets/shadow3.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
 
@@ -609,8 +735,8 @@ website:   	http://www.themepunch.com
 /************************************
 		-	TP BANNER TIMER		-
 *************************************/
-.tp-bannertimer								{	width:100%; height:10px; background:url(../assets/timer.png);position:absolute; z-index:200;}
-.tp-bannertimer.tp-bottom					{	bottom:0px !important;height:5px;}
+.tp-bannertimer								{	width:100%; height:10px; background:url(../assets/timer.png);position:absolute; z-index:200;top:0px;}
+.tp-bannertimer.tp-bottom					{	bottom:0px;height:5px; top:auto;}
 
 
 
@@ -672,7 +798,7 @@ website:   	http://www.themepunch.com
 }
 /*  CAPTION SLIDELINK   **/
 .caption.slidelink a div,
-.tp-caption.slidelink a div {	width:10000px; height:10000px;  background:url(../assets/coloredbg.png) repeat;}
+.tp-caption.slidelink a div {	width:3000px; height:1500px;  background:url(../assets/coloredbg.png) repeat;}
 
 .tp-loader 	{	background:url(../assets/loader.gif) no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
 				border-radius: 3px;

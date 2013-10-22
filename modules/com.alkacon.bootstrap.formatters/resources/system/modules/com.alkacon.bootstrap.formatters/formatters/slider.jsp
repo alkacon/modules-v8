@@ -9,19 +9,19 @@
 <cms:formatter var="content" rdfa="rdfa">
 <div>
 	<c:if test="${not cms.element.settings.hidetitle}">
-		<div class="row-fluid"><div class="headline"><h3 ${content.rdfa.Title}>${content.value.Title}</h3></div></div>
+		<div class="row"><div class="headline"><h3 ${content.rdfa.Title}>${content.value.Title}</h3></div></div>
 	</c:if>
 
 <c:choose>
 	<c:when test="${cms.element.inMemoryOnly}">
-		<div class="row-fluid"><div class="alert"><fmt:message key="bootstrap.slider.message.new" /></div></div>
+		<div class="row"><div class="alert"><fmt:message key="bootstrap.slider.message.new" /></div></div>
 	</c:when>
 	<c:when test="${cms.edited}">
-		<div class="row-fluid"><div class="alert"><fmt:message key="bootstrap.slider.message.edit" /></div></div>
+		<div class="row"><div class="alert"><fmt:message key="bootstrap.slider.message.edit" /></div></div>
 	</c:when>
 	<c:otherwise>
 
-<div class="fullwidthbanner-container"><!--=== Slider ===-->
+<div class="fullwidthbanner-container margin-bottom-20" style="overflow: visible;"><!--=== Slider ===-->
 
 	<div class="fullwidthbanner">
 		<ul>
@@ -84,7 +84,7 @@
 	                    stopAtSlide:-1,
 	                    stopAfterLoops:-1,
 
-	                    shadow:1,                               //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
+	                    shadow:1,                               //1 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
 	                    fullWidth:"on"                          // Turns On or Off the Fullwidth Image Centering in FullWidth Modus
 	                });
 

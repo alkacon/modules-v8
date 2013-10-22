@@ -17,7 +17,7 @@
 
 <cms:formatter var="function" rdfa="rdfa">
 
-	<div <c:if test="${cms.container.type == 'content-full'}"> class="row-fluid"</c:if>>
+	<div <c:if test="${cms.container.type == 'content-full'}"> class="row"</c:if>>
 		<div class="headline">
 			<h3 ${rdfa.Title}><c:out value="${function.value['Title']}" escapeXml="false" /></h3>
 		</div>
@@ -36,14 +36,14 @@
 
 						<!-- entry -->
 						<div class="entry">
-							<div class="row-fluid">
-								<div class="span12">
+							<div class="row">
+								<div class="col-md-12">
 									<a class="headlink" href="<cms:link>${content.file.rootPath}</cms:link>"><h4>${headline}</h4></a>
 									<span class="date"> <fmt:formatDate value="${cms:convertDate(content.value.Date)}" dateStyle="SHORT" timeStyle="SHORT" type="both" /></span>
 								</div>
 							</div>
-							<div class="row-fluid">
-								<div class="span4">
+							<div class="row">
+								<div class="col-md-4">
 									<c:if test="${paragraph.value.Image.exists}">
 										<a href="<cms:link>${content.file.rootPath}</cms:link>">
 											<cms:img
@@ -59,7 +59,7 @@
 										<span><fmt:message key="no.image" /></span>
 									</c:if>
 								</div>
-								<div class="span8">
+								<div class="col-md-8">
 									<a class="textlink" href="<cms:link>${content.file.rootPath}</cms:link>">${cms:trimToSize(cms:stripHtml(paragraph.value.Text), wordCount)}</a>
 								</div>
 							</div>

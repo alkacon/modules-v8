@@ -4,14 +4,14 @@
 
 <cms:formatter var="content" val="value" rdfa="rdfa">
 
-<c:if test="${cms.container.type == 'content-full'}"><div class="row-fluid"></c:if>
+<c:if test="${cms.container.type == 'content-full'}"><div class="row"></c:if>
 
-<div class="hero-unit">
+<div class="jumbotron">
 	<h1 ${rdfa.Title}>${value.Title}</h1>
 	<p ${rdfa.Text}>${value.Text}</p>
 	<c:if test="${value.Link.exists and value.Link.value.URI.isSet}">
 		<p>
-			<a class="btn btn-u btn-large" href="<cms:link>${value.Link.value.URI}</cms:link>">${value.Link.value.Text}</a>
+			<a class="btn btn-u btn-lg" href="<cms:link>${value.Link.value.URI}</cms:link>">${value.Link.value.Text}</a>
 		</p>
 	</c:if>
 </div>

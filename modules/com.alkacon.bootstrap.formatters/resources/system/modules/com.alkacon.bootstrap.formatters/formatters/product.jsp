@@ -11,12 +11,12 @@
 	
 <!--=== Content Part ===-->
 	<div class="portfolio-item" itemscope itemtype="http://schema.org/Product">
-		<div class="row-fluid margin-bottom-20">
+		<div class="row margin-bottom-20">
 
 			<c:if test="${fn:length(content.valueList.Images) > 0}">
 			<!-- Carousel -->
-			<div class="span4">
-				<div id="myCarousel" class="carousel slide">
+			<div class="col-md-4">
+				<div id="myCarousel" class="carousel slide carousel-v1">
 					<div class="carousel-inner">
 						<c:forEach items="${content.valueList.Images}" var="image" varStatus="stat">
 							<div class="item<c:if test="${stat.first}"> active</c:if>" itemprop="image">
@@ -34,12 +34,12 @@
 					</div>
 				</div>
 			</div>
-			<!--/span4-->
+			<!--/col-md-4-->
 			<!-- //End Carousel -->
 			</c:if>
 
 			<!-- Description -->
-			<div class="span8">
+			<div class="col-md-8">
 				<h3 ${rdfa.Name} itemprop="name">${product.Name}</h3>
 				<c:if test="${product.Price.isSet}">
 					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
@@ -70,7 +70,7 @@
 					</c:otherwise>
 				</c:choose>
 				<c:if test="${product.Price.exists || product.Date.exists || product.Manufacturer.exists || product.ID.exists}">
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<c:if test="${product.Date.exists}">
 							<li itemprop="releaseDate"><i class="icon-calendar color-green"></i> <fmt:formatDate value="${cms:convertDate(product.Date)}" dateStyle="SHORT" timeStyle="SHORT" type="both" /></li>
 						</c:if>
@@ -84,11 +84,11 @@
 				</c:if>
 				<div ${rdfa.Description} itemprop="description">${product.Description}</div>
 			</div>
-			<!--/span8-->
+			<!--/col-md-8-->
 			<!-- //End Description -->
 
 		</div>
-		<!--/row-fluid-->
+		<!--/row-->
 	</div>
 	<!--/container-->
 <!--=== End Content Part ===-->

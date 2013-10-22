@@ -13,7 +13,7 @@
 			<c:set var="navText">${elem.title}</c:set>
 		</c:if>
 		<c:if test="${!empty navText}">
-			<li><c:if test="${true}"><a href="<cms:link>${elem.resourceName}</cms:link>"></c:if>${navText}</a><c:if test="${not status.last}"> <span class="divider">/</span></c:if></li>
+			<li><c:if test="${true}"><a href="<cms:link>${elem.resourceName}</cms:link>"></c:if>${navText}</a></li>
 		</c:if>
 	</c:forEach>
 </ul>

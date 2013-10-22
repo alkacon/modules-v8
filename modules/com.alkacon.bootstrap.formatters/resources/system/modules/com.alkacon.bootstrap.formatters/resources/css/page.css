@@ -1,44 +1,42 @@
 /* CSS for OpenCms special items */
 
 /* Side Navigation level 2 and 3 */
-.nav-side ul li ul li a {
-	padding-left: 30px !important;
+.nav-side .nav-side-level-1 {
+	padding-left: 15px;
 }
 
-.nav-side ul li ul li ul li a {
-	padding-left: 45px !important;
+.nav-side .nav-side-level-2 {
+	padding-left: 30px;
 }
 
-.nav-side ul li ul li, .nav-side ul li.active ul li {
-	margin-bottom: -1px;
-}
 
-.nav-side ul li ul li a, .nav-side ul li.active ul li a {
-	background-color: #f7f7f7;
-	color: #555;
-	border: 1px solid #ddd !important;
-	line-height: 20px !important;
-}
-
-.nav-side ul li ul li:first-child a, .nav-side ul li.active ul li:first-child a {
-	border-top: none !important;
-}
-
-.nav-side ul li ul li.active a, .nav-side ul li.active ul li.active a, .nav-side ul li ul li.active a:hover, .nav-side ul li.active ul li.active a:hover {
-	border-top: none !important;
-	border-bottom: none !important;
-	border-left: 1px solid #ddd !important;
-	border-right: 1px solid #ddd !important;
-}
-
-.nav-side .nav-tabs li.active a, .nav-side .nav-tabs li.active a:hover, .nav-tabs > .active > a, .nav-side .nav-tabs > .active > a:hover, .nav-side .nav-tabs > .active > a:focus {
-border: 1px solid #ddd;
-}
 
 /* Login element */
-.log-page {
+.reg-page {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0 0 3px #EEEEEE;
+    color: #555555;
+	margin: 0 auto;
+    padding: 30px;
 	width: auto;
 }
+.reg-header {
+    border-bottom: 1px solid #EEEEEE;
+    color: #555555;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.reg-header h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.reg-page label {
+    color: #777777;
+}
+
+/* Social icons */
+.social_slideshare {background: url(../img/icons/social/slideshare.png) no-repeat;}
 
 /* Lists */
 .lists .entry {

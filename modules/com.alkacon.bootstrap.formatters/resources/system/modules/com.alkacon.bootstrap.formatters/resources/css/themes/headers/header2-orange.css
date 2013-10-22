@@ -1,18 +1,50 @@
-/*Top*/
-.loginbar li a:hover {
-	color:#ec9637;
+/*Menu
+------------------------------------*/
+/*Top Bar*/
+.top-v1 .top-v1-data li a:hover i {
+	color: #ec9637;
 }
 
-/*Menu*/
-.navbar .nav > .active > a, 
-.navbar .nav > .active > a:focus {
-	background: #ec9637 !important;
-}
-.navbar .nav > .active > a:hover {	
-	background: #ec9637 !important;		
+/*Header Default
+------------------------------------*/
+/*Navbar*/
+.header .navbar-default .navbar-nav > .active > a {
+	color: #ec9637;
 }
 
-/*Search*/
-.navbar .nav li a.search-nav:hover {
-	background:#ec9637 !important;
+/*Navber Toggle*/
+.navbar-toggle,
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background: #ec9637;
+}
+
+.navbar-toggle:hover {
+	background: #d35400 !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #d35400;
+}
+
+/*Responsive @Media 
+------------------------------------*/
+@media (min-width: 767px) {
+	/*Navbar*/
+	.header .navbar-default .navbar-nav > li > a:hover,
+	.header .navbar-default .navbar-nav > .active > a {
+		color: #fff;
+		background: #ec9637 !important;
+	}
+
+	.header .navbar-default .navbar-nav > .open > a,
+	.header .navbar-default .navbar-nav > .open > a:hover,
+	.header .navbar-default .navbar-nav > .open > a:focus {
+		background: #ec9637;		
+	}
+
+	/*Dropdown Menu*/
+	.header .dropdown-menu { 
+		border-top: solid 2px #ec9637; 
+	}
 }

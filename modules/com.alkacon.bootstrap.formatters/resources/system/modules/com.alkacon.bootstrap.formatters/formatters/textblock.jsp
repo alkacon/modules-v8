@@ -6,7 +6,7 @@
 
 <cms:formatter var="content">
 
-<div<c:if test="${cms.container.type == 'content-full'}"> class="row-fluid"</c:if>>
+<div<c:if test="${cms.container.type == 'content-full'}"> class="row"</c:if>>
 
 <c:forEach var="paragraph" items="${content.valueList.Paragraph}">
 
@@ -24,7 +24,7 @@
 		<c:when test="${imgalign == 'noimage' || imgalign == 'top'}">
 			<c:if test="${imgalign == 'top'}">	
 				<div ${paragraph.rdfa.Image} class="thumbnail-kenburn"><div class="overflow-hidden">
-					<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="1200" height="300" scaleType="2" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
+					<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="1200" height="300" scaleType="2" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 				</div></div>
 			</c:if>
 			<c:if test="${imgalign == 'noimage'}">	
@@ -38,13 +38,13 @@
 
 
 		<c:when test="${imgalign == 'left'}">		
-			<div class="row-fluid">
-				<div class="span4">
+			<div class="row">
+				<div class="col-md-4">
 					<div ${paragraph.rdfa.Image} class="thumbnail-kenburn"><div class="overflow-hidden">
-						<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
+						<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 					</div></div>		
 				</div>
-				<div class="span8">
+				<div class="col-md-8">
 					<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>		
 					<c:if test="${paragraph.value.Link.exists}">
 						<p><a class="btn-u btn-u-small" href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a></p>
@@ -56,15 +56,15 @@
 		
 		<c:when test="${imgalign == 'right'}">
 			<div class="row-fluid">
-				<div class="span8">
+				<div class="col-md-8">
 					<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>		
 					<c:if test="${paragraph.value.Link.exists}">
 						<p><a class="btn-u btn-u-small" href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a></p>
 					</c:if>		
 				</div>
-				<div class="span4">
+				<div class="col-md-4">
 					<div ${paragraph.rdfa.Image} class="thumbnail-kenburn"><div class="overflow-hidden">
-						<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
+						<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 					</div></div>		
 				</div>
 			</div>			

@@ -4,25 +4,10 @@
 
 <c:set var="navStartLevel"><c:out value="${cms.element.settings.startlevel}" default="1" /></c:set>
 <cms:navigation type="treeForFolder" startLevel="${navStartLevel}" endLevel="${navStartLevel + 2}" var="nav"/>
-<div class="nav-side margin-bottom-20">
-	<ul class="nav nav-tabs nav-stacked">			
-		<c:set var="oldLevel" value="" />
-
+<div>
+	<ul class="nav-side list-group sidebar-nav-v1">			
 		<c:forEach items="${nav.items}" var="elem">
-			<c:set var="currentLevel" value="${elem.navTreeLevel}" />
-			<c:choose>
-				<c:when test="${empty oldLevel}"></c:when>
-				<c:when test="${currentLevel > oldLevel}"><ul class="nav"></c:when>
-				<c:when test="${currentLevel == oldLevel}"></li></c:when>
-				<c:when test="${oldLevel > currentLevel}">
-					<c:forEach begin="${currentLevel + 1}" end="${oldLevel}"></li></ul></c:forEach></li>
-				</c:when>
-			</c:choose>
-			<li<c:if test="${!elem.navigationLevel && nav.isActive[elem.resourceName]}"> class="active"</c:if>><a href="<cms:link>${elem.resourceName}</cms:link>">${elem.navText}</a>
-			<c:set var="oldLevel" value="${currentLevel}" />
+			<li class="nav-side-level-${elem.navTreeLevel - navStartLevel} list-group-item<c:if test="${!elem.navigationLevel && nav.isActive[elem.resourceName]}"> active</c:if>"><a href="<cms:link>${elem.resourceName}</cms:link>">${elem.navText}</a></li>
 		</c:forEach>
-
-		<c:forEach begin="${navStartLevel}" end="${oldLevel}"></li></ul></c:forEach>
-		<c:if test="${not empty nav.items}"></li></c:if>
 	</ul>
 </div>
