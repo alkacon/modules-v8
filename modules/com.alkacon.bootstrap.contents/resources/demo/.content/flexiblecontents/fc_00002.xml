@@ -7,14 +7,14 @@
       <Code><![CDATA[<!--=== Footer ===-->
 <div class="footer">
 <div class="container">
-<div class="row-fluid">
+<div class="row">
 
-<div class="span6">
+<div class="col-md-6 md-margin-bottom-40">
 <div class="headline"><h3>About</h3></div>
 <p class="margin-bottom-25">OpenCms from Alkacon Software is a professional, easy to use website content management system. OpenCms helps content managers worldwide to create and maintain beautiful websites fast and efficiently.</p>
 </div>
 
-<div class="span6">
+<div class="col-md-6">
 <div class="headline"><h3>Contact Us</h3></div>
 <address>
 Alkacon Software GmbH<br />

@@ -7,8 +7,8 @@
       <Code><![CDATA[<!--=== Footer ===-->
 <div class="footer">
 <div class="container">
-<div class="row-fluid">
-<div class="span4">
+<div class="row">
+<div class="col-md-4 md-margin-bottom-40">
 <!-- About -->
 <div class="headline"><h3>About</h3></div>
 <p class="margin-bottom-25">OpenCms from Alkacon Software is a professional, easy to use website content management system. OpenCms helps content managers worldwide to create and maintain beautiful websites fast and efficiently.</p>
@@ -21,14 +21,14 @@
 </dl>
 			</div><!--/span4-->	
 			
-			<div class="span4">
+			<div class="col-md-4 md-margin-bottom-40">
 <!-- Mailing List -->
 <div class="headline"><h3>The OpenCms Mailing List</h3></div>
 <p>The opencms-dev mailing list is the place for all questions, comments and suggestions for OpenCms and the main forum of the OpenCms community. Subscribe to the list by filling out the following form.</p>
 <form class="form-horizontal" method="post" action="http://lists.opencms.org/mailman/subscribe/opencms-dev">
-<div class="margin-bottom-10"><input type="text" name="email" placeholder="Email Address" class="input-block-level"/></div>
-<div class="margin-bottom-10"><input type="password" name="pw" placeholder="Pick a password" class="input-block-level"/></div>
-<div class="margin-bottom-10"><input type="password" name="pw-conf" placeholder="Confirm password" class="input-block-level"/></div>
+<div class="margin-bottom-10"><input type="text" name="email" placeholder="Email Address" class="form-control"/></div>
+<div class="margin-bottom-10"><input type="password" name="pw" placeholder="Pick a password" class="form-control"/></div>
+<div class="margin-bottom-10"><input type="password" name="pw-conf" placeholder="Confirm password" class="form-control"/></div>
 <div class="margin-bottom-10">
 <button type="submit" class="btn-u">Subscribe</button>
 </div>
@@ -40,7 +40,7 @@
 
 
 
-			<div class="span4">
+			<div class="col-md-4">
 <!-- Contact -->
 <div class="headline"><h3>Contact Us</h3></div>
 <address>
