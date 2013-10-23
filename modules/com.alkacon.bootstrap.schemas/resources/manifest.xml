@@ -76,32 +76,35 @@
 			</type>
 		</resourcetypes>
 		<explorertypes>
+			<explorertype name="bs-menu" key="fileicon.bs-menu" icon="menu.png" reference="xmlcontent">
+				<newresource uri="newresource.jsp?page=bs-menu" order="12" autosetnavigation="false" autosettitle="false" info="desc.bs-menu"/>
+			</explorertype>
 			<explorertype name="bs-jumbotron" key="fileicon.bs-jumbotron" icon="bs-jumbotron.png" bigicon="bs-jumbotron_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-jumbotron" order="112" autosetnavigation="false" autosettitle="false" info="desc.bs-jumbotron"/>
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-jumbotron" order="10" autosetnavigation="false" autosettitle="false" info="desc.bs-jumbotron"/>
 			</explorertype>
 			<explorertype name="bs-configuration" key="fileicon.bs-configuration" icon="bs-configuration.png" bigicon="bs-configuration_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-configuration" order="113" autosetnavigation="false" autosettitle="false" info="desc.bs-configuration"/>
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-configuration" order="500" autosetnavigation="false" autosettitle="false" info="desc.bs-configuration"/>
 			</explorertype>
 			<explorertype name="bs-textblock" key="fileicon.bs-textblock" icon="bs-textblock.png" bigicon="bs-textblock_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-textblock" order="114" autosetnavigation="false" autosettitle="false" info="desc.bs-textblock"/>
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-textblock" order="20" autosetnavigation="false" autosettitle="false" info="desc.bs-textblock"/>
 			</explorertype>
 			<explorertype name="bs-tabs" key="fileicon.bs-tabs" icon="bs-tabs.png" bigicon="bs-tabs_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-tabs" order="115" autosetnavigation="false" autosettitle="false" info="desc.bs-tabs"/>
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-tabs" order="30" autosetnavigation="false" autosettitle="false" info="desc.bs-tabs"/>
 			</explorertype>
 			<explorertype name="bs-imagerow" key="fileicon.bs-imagerow" icon="bs-imagerow.png" bigicon="bs-imagerow_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-imagerow" order="116" autosetnavigation="false" autosettitle="false" info="desc.bs-imagerow"/>
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-imagerow" order="40" autosetnavigation="false" autosettitle="false" info="desc.bs-imagerow"/>
 			</explorertype>
 			<explorertype name="bs-flexible" key="fileicon.bs-flexible" icon="bs-flexible.png" bigicon="bs-flexible_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-flexible" order="117" autosetnavigation="false" autosettitle="false" info="desc.bs-flexible"/>
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-flexible" order="50" autosetnavigation="false" autosettitle="false" info="desc.bs-flexible"/>
 			</explorertype>
 			<explorertype name="bs-slider" key="fileicon.bs-slider" icon="bs-slider.png" bigicon="bs-slider_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-slider" order="118" autosetnavigation="false" autosettitle="false" info="desc.bs-slider"/>
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-slider" order="60" autosetnavigation="false" autosettitle="false" info="desc.bs-slider"/>
 			</explorertype>
 			<explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="122" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="100" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
 			</explorertype>
 			<explorertype name="bs-newsarticle" key="fileicon.bs-newsarticle" icon="bs-newsarticle.png" bigicon="bs-newsarticle_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=bs-newsarticle" order="123" autosetnavigation="false" autosettitle="false" info="desc.bs-newsarticle"/>
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-newsarticle" order="110" autosetnavigation="false" autosettitle="false" info="desc.bs-newsarticle"/>
 			</explorertype>
 		</explorertypes>
 	</module>
