@@ -26,14 +26,14 @@
       </links>
       <content><![CDATA[        <ul class="loginbar pull-right">
             <li><i class="icon-globe"></i><a>Languages</a>
-            	<ul class="nav-list">
+            	<ul class="lenguages">
                 	<li><a href="%(link0)">English</a></li>
                 	<li><a href="%(link1)">German</a></li>
                 </ul>
             </li>	
-            <li class="devider">&nbsp;</li>
+            <li class="devider"></li>
             <li><a href="%(link2)" class="login-btn">Help</a></li>
-            <li class="devider">&nbsp;</li>
+            <li class="devider"></li>
             <li><a href="%(link3)" class="login-btn">Login</a></li>
         </ul>]]></content>
     </Header>

@@ -1,7 +1,7 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms" %>
-<div class="row-fluid">
-	<div class="span12">
+<div class="row">
+	<div class="col-md-12">
 		<div class="headline">
 			<h3>Congratulations!</h3>
 		</div>
@@ -32,8 +32,8 @@
 			<p><a href="#" onclick="window.open('<cms:link>/system/login/</cms:link>');return false;"><cms:link>/system/login/</cms:link></a></p>
 		</div>
 
-		<div class="row-fluid">
-			<div class="span6">
+		<div class="row">
+			<div class="col-md-6">
 				<blockquote>
 					<div>
 						<strong>You are currently identified as:</strong><br/>
@@ -43,7 +43,7 @@
 				</blockquote>
 			</div>
 
-			<div class="span6">
+			<div class="col-md-6">
 				<div class="alert alert-info pull-right">
 					<p><strong>Use the following account information for your first login:</strong></p>
 					<p>
@@ -54,7 +54,7 @@
 			</div>
 		</div>
 
-		<p class="text-error">
+		<p class="text-danger">
 			<strong>Important:</strong> You should change this default password immediately,
 			before someone else does it for you.
 		</p>
