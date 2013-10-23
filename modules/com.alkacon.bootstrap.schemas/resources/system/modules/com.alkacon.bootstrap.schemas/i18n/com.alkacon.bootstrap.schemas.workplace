@@ -1,128 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
-  <Bundle language="en">
-    <Message>
-      <Key><![CDATA[fileicon.bs-menu]]></Key>
-      <Value><![CDATA[Bootstrap Template]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-menu]]></Key>
-      <Value><![CDATA[New Bootstrap Template]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-menu]]></Key>
-      <Value><![CDATA[Contains all content types belonging to the Bootstrap Template.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-configuration]]></Key>
-      <Value><![CDATA[Bootstrap Configuration]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-configuration]]></Key>
-      <Value><![CDATA[New Bootstrap Configuration]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-configuration]]></Key>
-      <Value><![CDATA[The configuration is used for global settings of the Bootstrap template.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-jumbotron]]></Key>
-      <Value><![CDATA[Jumbotron]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-jumbotron]]></Key>
-      <Value><![CDATA[New Jumbotron]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-jumbotron]]></Key>
-      <Value><![CDATA[This component is used to showcase key content. ]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-textblock]]></Key>
-      <Value><![CDATA[Text Block]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-textblock]]></Key>
-      <Value><![CDATA[New Text Block]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-textblock]]></Key>
-      <Value><![CDATA[A Text Block can contain multiple paragraphs with an optional image and link.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-product]]></Key>
-      <Value><![CDATA[Product]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-product]]></Key>
-      <Value><![CDATA[New Product]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-product]]></Key>
-      <Value><![CDATA[A Product contains details about one item.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-newsarticle]]></Key>
-      <Value><![CDATA[News article]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-newsarticle]]></Key>
-      <Value><![CDATA[New News article]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-newsarticle]]></Key>
-      <Value><![CDATA[A News article is a content with a message, an optional image, a publication date and an author.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-imagerow]]></Key>
-      <Value><![CDATA[Image Row]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-imagerow]]></Key>
-      <Value><![CDATA[New Image Row]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-imagerow]]></Key>
-      <Value><![CDATA[An image row shows 3 or 4 columns with images and a description with links to more details.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-tabs]]></Key>
-      <Value><![CDATA[Tabs Element]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-tabs]]></Key>
-      <Value><![CDATA[New Tabs Element]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-tabs]]></Key>
-      <Value><![CDATA[A content element with multiple tabs, can also be rendered as accordion.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-flexible]]></Key>
-      <Value><![CDATA[Flexible Content]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-flexible]]></Key>
-      <Value><![CDATA[New Flexible Content ]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-flexible]]></Key>
-      <Value><![CDATA[Use the flexible content to insert code (HTML, JavaScript), images or texts. ]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-slider]]></Key>
-      <Value><![CDATA[Image Slider]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-slider]]></Key>
-      <Value><![CDATA[New Image Slider]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-slider]]></Key>
-      <Value><![CDATA[Use this image rotator to create a configurable image slider.]]></Value>
-    </Message>
-  </Bundle>
   <Bundle language="de">
     <Message>
       <Key><![CDATA[fileicon.bs-menu]]></Key>
@@ -197,6 +75,18 @@
       <Value><![CDATA[Eine Nachricht mit Text, optionalem Bild, Datum und Autor. ]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[fileicon.bs-imagegalleryshow]]></Key>
+      <Value><![CDATA[Bilderschau]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-imagegalleryshow]]></Key>
+      <Value><![CDATA[Neue Bilderschau]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-imagegalleryshow]]></Key>
+      <Value><![CDATA[Zeigt eine Übersicht der Bilder eines Ordners an.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[fileicon.bs-imagerow]]></Key>
       <Value><![CDATA[Bild Reihe]]></Value>
     </Message>
@@ -243,6 +133,140 @@
     <Message>
       <Key><![CDATA[desc.bs-slider]]></Key>
       <Value><![CDATA[Mit dem Bild Rotator kann ein automatischer Bildwechsel zusammengestellt werden. ]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[fileicon.bs-menu]]></Key>
+      <Value><![CDATA[Bootstrap Template]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-menu]]></Key>
+      <Value><![CDATA[New Bootstrap Template]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-menu]]></Key>
+      <Value><![CDATA[Contains all content types belonging to the Bootstrap Template.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-configuration]]></Key>
+      <Value><![CDATA[Bootstrap Configuration]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-configuration]]></Key>
+      <Value><![CDATA[New Bootstrap Configuration]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-configuration]]></Key>
+      <Value><![CDATA[The configuration is used for global settings of the Bootstrap template.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-jumbotron]]></Key>
+      <Value><![CDATA[Jumbotron]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-jumbotron]]></Key>
+      <Value><![CDATA[New Jumbotron]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-jumbotron]]></Key>
+      <Value><![CDATA[This component is used to showcase key content. ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-textblock]]></Key>
+      <Value><![CDATA[Text Block]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-textblock]]></Key>
+      <Value><![CDATA[New Text Block]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-textblock]]></Key>
+      <Value><![CDATA[A Text Block can contain multiple paragraphs with an optional image and link.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-product]]></Key>
+      <Value><![CDATA[Product]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-product]]></Key>
+      <Value><![CDATA[New Product]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-product]]></Key>
+      <Value><![CDATA[A Product contains details about one item.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-newsarticle]]></Key>
+      <Value><![CDATA[News article]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-newsarticle]]></Key>
+      <Value><![CDATA[New News article]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-newsarticle]]></Key>
+      <Value><![CDATA[A News article is a content with a message, an optional image, a publication date and an author.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-imagegalleryshow]]></Key>
+      <Value><![CDATA[Image Gallery Show]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-imagegalleryshow]]></Key>
+      <Value><![CDATA[New Image Gallery Show]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-imagegalleryshow]]></Key>
+      <Value><![CDATA[Shows thumbnails of all images of a specific folder.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-imagerow]]></Key>
+      <Value><![CDATA[Image Row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-imagerow]]></Key>
+      <Value><![CDATA[New Image Row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-imagerow]]></Key>
+      <Value><![CDATA[An image row shows 3 or 4 columns with images and a description with links to more details.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-tabs]]></Key>
+      <Value><![CDATA[Tabs Element]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-tabs]]></Key>
+      <Value><![CDATA[New Tabs Element]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-tabs]]></Key>
+      <Value><![CDATA[A content element with multiple tabs, can also be rendered as accordion.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-flexible]]></Key>
+      <Value><![CDATA[Flexible Content]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-flexible]]></Key>
+      <Value><![CDATA[New Flexible Content ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-flexible]]></Key>
+      <Value><![CDATA[Use the flexible content to insert code (HTML, JavaScript), images or texts. ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-slider]]></Key>
+      <Value><![CDATA[Image Slider]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-slider]]></Key>
+      <Value><![CDATA[New Image Slider]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-slider]]></Key>
+      <Value><![CDATA[Use this image rotator to create a configurable image slider.]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

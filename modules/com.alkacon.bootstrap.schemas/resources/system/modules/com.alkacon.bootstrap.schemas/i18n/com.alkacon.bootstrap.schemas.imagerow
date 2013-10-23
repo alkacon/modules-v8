@@ -114,7 +114,7 @@
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapImagerowItem.Link.help]]></Key>
-      <Value><![CDATA[ein Link zu weiterführenden Informationen, kann auch ein externer Link (beginnend mit <b>http://</b>) sein.]]></Value>
+      <Value><![CDATA[Ein Link zu weiterführenden Informationen, kann auch ein externer Link (beginnend mit <b>http://</b>) sein.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.imagerow.default.Title]]></Key>

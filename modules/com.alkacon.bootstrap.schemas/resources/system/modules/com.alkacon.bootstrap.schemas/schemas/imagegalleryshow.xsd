@@ -1,0 +1,58 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+		
+	<xsd:element name="BootstrapImageGalleryShows" type="OpenCmsBootstrapImageGalleryShows"/>
+	
+	<xsd:complexType name="OpenCmsBootstrapImageGalleryShows">
+		<xsd:sequence>
+			<xsd:element name="BootstrapImageGalleryShow" type="OpenCmsBootstrapImageGalleryShow" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapImageGalleryShow">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="ImageFolder" type="OpenCmsVfsFile" />
+			<xsd:element name="ImageCount" type="OpenCmsString" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.imagegalleryshow"/>
+			<mappings>
+				<mapping element="Title" mapto="property:Title" />
+				<mapping element="Title" mapto="urlName" />
+			</mappings>
+			<defaults>
+				<default element="Title" value="%(key.bootstrap.imagegalleryshow.default.Title)" />
+				<default element="ImageCount" value="4" />
+			</defaults>
+			<layouts>
+				<layout element="ImageFolder" widget="VfsFileWidget" configuration="{selectabletypes: 'folder'}}" />
+				<layout element="ImageCount" widget="SelectorWidget" configuration="2|3|4|6" />
+			</layouts>
+			<validationrules/>
+			<relations/>
+			<searchsettings containerPageOnly="true">
+				<searchsetting element="Title" searchcontent="true">
+					<solrfield targetfield="Title" />
+				</searchsetting>
+			</searchsettings>
+			<formatters>
+				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/imagegalleryshow.jsp" searchcontent="true" />
+				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/imagegalleryshow.jsp" searchcontent="true" />
+			</formatters>
+			<settings>
+				<setting name="hidetitle" nice-name="%(key.bootstrap.imagegalleryshow.setting.hidetitle)" type="string" default="false" widget="checkbox" />
+			</settings>
+			<headincludes>
+				<headinclude type="javascript" uri="/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/fancybox/source/jquery.fancybox.pack.js" />
+				<headinclude type="css" uri="/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/fancybox/source/jquery.fancybox.css" /> 
+			</headincludes>
+		</xsd:appinfo>
+
+	</xsd:annotation>  
+</xsd:schema>
