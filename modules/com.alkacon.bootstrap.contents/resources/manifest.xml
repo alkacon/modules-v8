@@ -5726,6 +5726,56 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/default/demo/en/world-of-flowers/solr-search</destination>
+			<type>folder</type>
+			<uuidstructure>1e76557b-3bce-11e3-a955-000c297c001d</uuidstructure>
+			<datelastmodified>Wed, 23 Oct 2013 10:30:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 23 Oct 2013 10:30:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[3.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Solr Search]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Search]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/default/demo/en/world-of-flowers/solr-search/index.html</source>
+			<destination>sites/default/demo/en/world-of-flowers/solr-search/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>1e891a30-3bce-11e3-a955-000c297c001d</uuidstructure>
+			<uuidresource>1e891a31-3bce-11e3-a955-000c297c001d</uuidresource>
+			<datelastmodified>Wed, 23 Oct 2013 10:33:03 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 23 Oct 2013 10:30:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Bootstrap layout without pre-configured elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr Search]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>demo/en/world-of-flowers/structure-page</destination>
 			<type>folder</type>
 			<uuidstructure>2f140727-26b3-11e3-9ee6-000c29d28104</uuidstructure>
