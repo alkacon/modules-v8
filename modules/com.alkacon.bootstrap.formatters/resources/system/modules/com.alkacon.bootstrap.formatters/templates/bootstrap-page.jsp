@@ -93,7 +93,7 @@
 
 <c:if test="${(pagefullwidth != 'true') && (pagefullwidth != 'false')}">
 <!--=== Breadcrumbs ===-->
-<div class="row breadcrumbs margin-bottom-30">
+<div class="breadcrumbs margin-bottom-30">
 	<div class="container">
         <h1 class="pull-left"><cms:info property="opencms.title" /></h1>
         <cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp:6f6f2ea3-1bb3-11e3-a120-000c29f9a2ec)">
