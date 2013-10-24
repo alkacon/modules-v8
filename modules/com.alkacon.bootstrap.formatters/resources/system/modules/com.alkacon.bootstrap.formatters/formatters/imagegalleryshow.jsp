@@ -39,9 +39,9 @@
 		</c:when>
 		<c:otherwise>
 
-			<c:set var="imgFolder">${value.ImageFolder}</c:set>
 			<c:set var="itemCount">${value.ImageCount.stringValue}</c:set>
-			<cms:resourceload collector="allInFolder" param="%(pageContext.imgFolder)|image">
+			<c:set var="collectorParam">&fq=type:image&fq=parent-folders:"${cms.vfs.requestContext.siteRoot}${value.ImageFolder.stringValue}"&fq=con_locales:*&sort=path asc&rows=1000</c:set>
+			<cms:resourceload collector="byContext" param="${collectorParam}">
 				<cms:contentinfo var="info" />
 				<c:if test="${info.resultSize > 0}">
 					<cms:resourceaccess var="res" />

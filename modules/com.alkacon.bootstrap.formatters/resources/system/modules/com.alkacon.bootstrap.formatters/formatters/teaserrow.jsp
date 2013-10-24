@@ -1,0 +1,44 @@
+<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" %>
+<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+
+<fmt:setLocale value="${cms.locale}" />
+<cms:bundle basename="com.alkacon.bootstrap.schemas.teaserrow">
+<cms:formatter var="content" val="value" rdfa="rdfa">
+
+<div>
+
+	<c:choose>
+		<c:when test="${cms.element.inMemoryOnly}">
+			<div class="alert"><fmt:message key="bootstrap.teaserrow.message.new" /></div>
+		</c:when>
+		<c:otherwise>
+
+			<c:if test="${not cms.element.settings.hidetitle}">
+				<div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div>
+			</c:if>
+
+			<c:forEach var="item" items="${content.valueList.Item}" varStatus="status"><c:if test="${status.last}"><c:set var="itemCount" value="${status.count}" /></c:if></c:forEach>
+			<div class="row servive-block margin-bottom-10">
+				<c:forEach var="item" items="${content.valueList.Item}" varStatus="status">
+					<div ${item.rdfa.Link} class="col-md-<fmt:formatNumber type="number" value="${12 / itemCount}" maxFractionDigits="0" /> col-sm-6">				
+						<div class="servive-block-in<c:if test="${item.value.Color != 'default'}"> servive-block-colored servive-block-${item.value.Color}</c:if>">
+							<c:if test="${item.value.Link.isSet}"><a href="<cms:link>${item.value.Link}</cms:link>"></c:if>
+							<h4 ${item.rdfa.Headline}>${item.value.Headline}</h4>
+							<div><i class="icon-${fn:toLowerCase(item.value.Icon.stringValue)}"></i></div>
+							<p ${item.rdfa.Text}>${item.value.Text}</p>
+							<c:if test="${item.value.Link.isSet}"></a></c:if>
+						</div>
+					</div>
+				</c:forEach>	
+			</div>
+
+		</c:otherwise>
+	</c:choose>
+
+</div>
+
+</cms:formatter>
+</cms:bundle>

@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.7.1</opencms_version>
-		<createdate>Fri, 27 Sep 2013 09:50:28 GMT</createdate>
+		<opencms_version>8.9.0</opencms_version>
+		<createdate>Thu, 24 Oct 2013 10:53:27 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -3606,7 +3606,7 @@
 			<type>sitemap_config</type>
 			<uuidstructure>2cb243d6-21ee-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>2cb243d7-21ee-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 26 Sep 2013 14:55:26 GMT</datelastmodified>
+			<datelastmodified>Thu, 24 Oct 2013 10:14:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 12:14:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3699,6 +3699,59 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>demo/.content/carousels</destination>
+			<type>folder</type>
+			<uuidstructure>871481dc-3c82-11e3-a99f-000c2943a707</uuidstructure>
+			<datelastmodified>Thu, 24 Oct 2013 08:01:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 08:01:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/.content/carousels/bs-carousel-00001.xml</source>
+			<destination>demo/.content/carousels/bs-carousel-00001.xml</destination>
+			<type>bs-carousel</type>
+			<uuidstructure>871b86be-3c82-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>871b86bf-3c82-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 08:20:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 08:01:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Carousel Block Side]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/.content/carousels/bs-carousel-00002.xml</source>
+			<destination>demo/.content/carousels/bs-carousel-00002.xml</destination>
+			<type>bs-carousel</type>
+			<uuidstructure>05224091-3c83-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>05224092-3c83-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 08:52:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 08:05:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Carousel Block Main]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>demo/.content/elementgroups</destination>
 			<type>folder</type>
 			<uuidstructure>818c099f-2526-11e3-91e8-000c29d28104</uuidstructure>
@@ -3774,7 +3827,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Test Video]]></value>
+					<value><![CDATA[Video "Introduction to OpenCms"]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3815,6 +3868,39 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Desktop Footer]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>demo/.content/imagegalleryshows</destination>
+			<type>folder</type>
+			<uuidstructure>730bb34b-3c7a-11e3-a752-000c2943a707</uuidstructure>
+			<datelastmodified>Thu, 24 Oct 2013 07:03:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:03:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/.content/imagegalleryshows/igs_00001.xml</source>
+			<destination>demo/.content/imagegalleryshows/igs_00001.xml</destination>
+			<type>bs-imagegalleryshow</type>
+			<uuidstructure>7311318d-3c7a-11e3-a752-000c2943a707</uuidstructure>
+			<uuidresource>7311318e-3c7a-11e3-a752-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 07:04:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:03:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image Gallery Show Block]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -4358,6 +4444,59 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>demo/.content/teaserrows</destination>
+			<type>folder</type>
+			<uuidstructure>11b253f1-3c95-11e3-a99f-000c2943a707</uuidstructure>
+			<datelastmodified>Thu, 24 Oct 2013 10:14:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 10:14:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/.content/teaserrows/tr_00001.xml</source>
+			<destination>demo/.content/teaserrows/tr_00001.xml</destination>
+			<type>bs-teaserrow</type>
+			<uuidstructure>11b86e73-3c95-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>11b86e74-3c95-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 10:33:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 10:14:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Teaser Row Block (3 boxes)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/.content/teaserrows/tr_00002.xml</source>
+			<destination>demo/.content/teaserrows/tr_00002.xml</destination>
+			<type>bs-teaserrow</type>
+			<uuidstructure>fc41fa06-3c96-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>fc41fa07-3c96-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 10:32:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 10:28:12 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Teaser Row Block]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>demo/.content/textblocks</destination>
 			<type>folder</type>
 			<uuidstructure>4ec004bd-21de-11e3-b95f-000c29d28104</uuidstructure>
@@ -4707,6 +4846,110 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>demo/en/elements/carousel</destination>
+			<type>folder</type>
+			<uuidstructure>b7e236a1-3c81-11e3-a99f-000c2943a707</uuidstructure>
+			<datelastmodified>Thu, 24 Oct 2013 07:56:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:55:58 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[7.0625]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Carousel Block]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Carousel Block]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/en/elements/carousel/index.html</source>
+			<destination>demo/en/elements/carousel/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>b7f57086-3c81-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>b7f57087-3c81-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 08:51:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:55:58 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Bootstrap layout without pre-configured elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Carousel Block]]></value>
+				</property>
+				<property>
+					<name>bs.page.layout</name>
+					<value><![CDATA[8]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>demo/en/elements/image-galleryshow</destination>
+			<type>folder</type>
+			<uuidstructure>2a6f7182-3c7a-11e3-a752-000c2943a707</uuidstructure>
+			<datelastmodified>Thu, 24 Oct 2013 07:02:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:01:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[6.0625]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Image Gallery Show Block]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image Gallery Show Block]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/en/elements/image-galleryshow/index.html</source>
+			<destination>demo/en/elements/image-galleryshow/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>2a7f9e27-3c7a-11e3-a752-000c2943a707</uuidstructure>
+			<uuidresource>2a7f9e28-3c7a-11e3-a752-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 07:03:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:01:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Bootstrap layout without pre-configured elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image Gallery Show Block]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>demo/en/elements/image-row</destination>
 			<type>folder</type>
 			<uuidstructure>a7165995-21d4-11e3-b95f-000c29d28104</uuidstructure>
@@ -4925,6 +5168,56 @@
 				<property>
 					<name>bs.page.layout</name>
 					<value><![CDATA[full]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>demo/en/elements/teaser-row</destination>
+			<type>folder</type>
+			<uuidstructure>c2fffef8-3c94-11e3-a99f-000c2943a707</uuidstructure>
+			<datelastmodified>Thu, 24 Oct 2013 10:12:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 10:12:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Teaser Row Block]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Teaser Row Block]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/en/elements/teaser-row/index.html</source>
+			<destination>demo/en/elements/teaser-row/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>c315a9dd-3c94-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>c315a9de-3c94-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 10:28:12 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 10:12:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Bootstrap layout without pre-configured elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Teaser Row Block]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -13867,10 +14160,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>52dcafe6-26fe-11e3-ab7d-000c29d28104</uuidstructure>
-			<datelastmodified>Thu, 26 Sep 2013 22:52:30 GMT</datelastmodified>
+			<uuidstructure>b1d216ca-3a35-11e3-a584-000c2943a707</uuidstructure>
+			<datelastmodified>Mon, 21 Oct 2013 09:46:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 26 Sep 2013 22:52:30 GMT</datecreated>
+			<datecreated>Mon, 21 Oct 2013 09:46:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

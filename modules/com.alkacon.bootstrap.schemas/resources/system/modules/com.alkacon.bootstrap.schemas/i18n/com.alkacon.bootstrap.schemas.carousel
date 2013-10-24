@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapCarousel.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarousel.Title.help]]></Key>
+      <Value><![CDATA[The title of the carousel can be hidden with an element setting.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarousel.Item]]></Key>
+      <Value><![CDATA[Component]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarousel.Item.help]]></Key>
+      <Value><![CDATA[A single carousel component.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Image.help]]></Key>
+      <Value><![CDATA[The image to show.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Headline]]></Key>
+      <Value><![CDATA[Caption Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Headline.help]]></Key>
+      <Value><![CDATA[Optional headline of the image caption.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Text]]></Key>
+      <Value><![CDATA[Caption Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Text.help]]></Key>
+      <Value><![CDATA[The caption text is shown in an overlay.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.carousel.default.Title]]></Key>
+      <Value><![CDATA[New Carousel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.carousel.default.Text]]></Key>
+      <Value><![CDATA[Please enter a caption text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.carousel.setting.hidetitle]]></Key>
+      <Value><![CDATA[Hide Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.carousel.message.new]]></Key>
+      <Value><![CDATA[<strong>New Carousel</strong>, please edit the content.]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.BootstrapCarousel.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarousel.Title.help]]></Key>
+      <Value><![CDATA[Der Titel des Karussells kann mit einer Elementeinstellung verborgen werden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarousel.Item]]></Key>
+      <Value><![CDATA[Komponente]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarousel.Item.help]]></Key>
+      <Value><![CDATA[Eine Komponente des Karussells.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Image]]></Key>
+      <Value><![CDATA[Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Image.help]]></Key>
+      <Value><![CDATA[Das anzuzeigende Bild.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Headline]]></Key>
+      <Value><![CDATA[Bildüberschrift]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Headline.help]]></Key>
+      <Value><![CDATA[Optionale Überschrift des Bildtexts.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Text]]></Key>
+      <Value><![CDATA[Bildtext]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarouselItem.Text.help]]></Key>
+      <Value><![CDATA[Der Bildtext wird mit einem Overlay angezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.carousel.default.Title]]></Key>
+      <Value><![CDATA[Neues Karussell]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.carousel.default.Text]]></Key>
+      <Value><![CDATA[Bitte einen Bildtext eingeben.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.carousel.setting.hidetitle]]></Key>
+      <Value><![CDATA[Verstecke Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.carousel.message.new]]></Key>
+      <Value><![CDATA[<strong>Neues Karussell</strong>, bitte bearbeiten Sie das Element.]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

@@ -9,8 +9,6 @@
 	padding-left: 30px;
 }
 
-
-
 /* Login element */
 .reg-page {
     background: none repeat scroll 0 0 #FEFEFE;
@@ -37,6 +35,11 @@
 
 /* Social icons */
 .social_slideshare {background: url(../img/icons/social/slideshare.png) no-repeat;}
+
+/* Service Boxes */
+.servive-block-in a:hover {
+	text-decoration: none;
+}
 
 /* Lists */
 .lists .entry {

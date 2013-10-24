@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.9.0</opencms_version>
-		<createdate>Wed, 23 Oct 2013 15:21:11 GMT</createdate>
+		<createdate>Thu, 24 Oct 2013 10:53:43 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -346,6 +346,34 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/carousel.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/carousel.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>68b8480a-3c7e-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>68b8480b-3c7e-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 08:51:12 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:32:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for a carousel]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/flexible.jsp</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/flexible.jsp</destination>
 			<type>jsp</type>
@@ -552,6 +580,34 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Formatter for a tabs content]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/teaserrow.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/teaserrow.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>0371f7a4-3c8e-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>0371f7a5-3c8e-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 10:10:05 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 09:23:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for a teaser row]]></value>
 				</property>
 				<property>
 					<name>cache</name>
@@ -774,7 +830,7 @@
 			<type>plain</type>
 			<uuidstructure>52f716c6-20f8-11e3-b4d8-000c297c001d</uuidstructure>
 			<uuidresource>52f716c7-20f8-11e3-b4d8-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 22 Oct 2013 14:06:22 GMT</datelastmodified>
+			<datelastmodified>Thu, 24 Oct 2013 10:23:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 06:54:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2943,10 +2999,10 @@
 		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js</destination>
-			<type>plain</type>
+			<type>jsp</type>
 			<uuidstructure>1908df28-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>1908df29-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:08 GMT</datelastmodified>
+			<datelastmodified>Thu, 24 Oct 2013 08:10:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>

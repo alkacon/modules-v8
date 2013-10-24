@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapImageGalleryShows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/imagegalleryshow.xsd">
+  <BootstrapImageGalleryShow language="en">
+    <Title><![CDATA[Image Gallery Show Block]]></Title>
+    <ImageFolder>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.content/images/events/]]></target>
+        <uuid>ffcd464a-77df-11e0-be13-000c2972a6a4</uuid>
+      </link>
+    </ImageFolder>
+    <ImageCount><![CDATA[4]]></ImageCount>
+  </BootstrapImageGalleryShow>
+</BootstrapImageGalleryShows>

@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.9.0</opencms_version>
-		<createdate>Wed, 23 Oct 2013 15:21:26 GMT</createdate>
+		<createdate>Thu, 24 Oct 2013 10:53:56 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -46,6 +46,10 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-flexible_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-slider.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-slider_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-carousel.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-carousel_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-teaserrow.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-teaserrow_big.png"/>
 		</resources>
 		<parameters/>
 		<resourcetypes>
@@ -72,6 +76,12 @@
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-imagegalleryshow" id="187">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/imagegalleryshow.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-carousel" id="188">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/carousel.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-teaserrow" id="189">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/teaserrow.xsd</param>
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="190">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</param>
@@ -107,6 +117,12 @@
 			</explorertype>
 			<explorertype name="bs-imagegalleryshow" key="fileicon.bs-imagegalleryshow" icon="bs-imagegalleryshow.png" bigicon="bs-imagegalleryshow_big.png" reference="xmlcontent">
 				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-imagegalleryshow" order="62" autosetnavigation="false" autosettitle="false" info="desc.bs-imagegalleryshow"/>
+			</explorertype>
+			<explorertype name="bs-carousel" key="fileicon.bs-carousel" icon="bs-carousel.png" bigicon="bs-carousel_big.png" reference="xmlcontent">
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-carousel" order="70" autosetnavigation="false" autosettitle="false" info="desc.bs-carousel"/>
+			</explorertype>
+			<explorertype name="bs-teaserrow" key="fileicon.bs-teaserrow" icon="bs-teaserrow.png" bigicon="bs-teaserrow_big.png" reference="xmlcontent">
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-teaserrow" order="80" autosetnavigation="false" autosettitle="false" info="desc.bs-teaserrow"/>
 			</explorertype>
 			<explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
 				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="100" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
@@ -180,7 +196,7 @@
 			<type>module_config</type>
 			<uuidstructure>1a6836da-1aca-11e3-a5c5-000c29f9a2ec</uuidstructure>
 			<uuidresource>1a6836db-1aca-11e3-a5c5-000c29f9a2ec</uuidresource>
-			<datelastmodified>Wed, 23 Oct 2013 12:54:18 GMT</datelastmodified>
+			<datelastmodified>Thu, 24 Oct 2013 10:11:55 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 11 Sep 2013 10:08:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -212,6 +228,30 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.carousel</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.carousel</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>3eb522fa-3c82-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>3eb522fb-3c82-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 08:44:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:59:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for carousel element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -456,6 +496,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.teaserrow</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.teaserrow</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>c9d0efeb-3c8f-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>c9d0efec-3c8f-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 09:53:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 09:36:41 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for teaser row element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.textblock</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.textblock</destination>
 			<type>xmlvfsbundle</type>
@@ -485,7 +549,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>c9def4ee-1c45-11e3-80da-000c29f9a2ec</uuidstructure>
 			<uuidresource>c9def4ef-1c45-11e3-80da-000c29f9a2ec</uuidresource>
-			<datelastmodified>Wed, 23 Oct 2013 15:19:36 GMT</datelastmodified>
+			<datelastmodified>Thu, 24 Oct 2013 08:58:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 07:26:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -513,6 +577,26 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/carousel.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/carousel.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>3e3022fb-3c7c-11e3-a752-000c2943a707</uuidstructure>
+			<uuidresource>3e3022fc-3c7c-11e3-a752-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 08:52:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:16:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a carousel]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -697,6 +781,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/teaserrow.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/teaserrow.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>562bf7de-3c7c-11e3-a752-000c2943a707</uuidstructure>
+			<uuidresource>562bf7df-3c7c-11e3-a752-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 10:17:27 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:17:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a teaser row]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd</destination>
 			<type>plain</type>
@@ -744,6 +848,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Nested XSD for availability info]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/carouselitem.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/carouselitem.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>013e1ba7-3c7e-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>013e1ba8-3c7e-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 08:22:59 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:29:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a carousel item]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -910,6 +1034,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/teaserrowitem.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/nested/teaserrowitem.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>9ba1cdea-3c8b-11e3-a99f-000c2943a707</uuidstructure>
+			<uuidresource>9ba1f4fb-3c8b-11e3-a99f-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 10:37:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 09:06:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for an image row item]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/workplace</destination>
 			<type>folder</type>
 			<uuidstructure>825afce2-11b7-11db-91cd-fdbae480bac9</uuidstructure>
@@ -975,6 +1119,46 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-carousel.png</source>
+			<destination>system/workplace/resources/filetypes/bs-carousel.png</destination>
+			<type>image</type>
+			<uuidstructure>1ea137c2-3c7c-11e3-a752-000c2943a707</uuidstructure>
+			<uuidresource>1ea137c3-3c7c-11e3-a752-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 07:15:59 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:15:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-carousel_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-carousel_big.png</destination>
+			<type>image</type>
+			<uuidstructure>1ea6dd16-3c7c-11e3-a752-000c2943a707</uuidstructure>
+			<uuidresource>1ea6dd17-3c7c-11e3-a752-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 07:15:57 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:15:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1327,6 +1511,46 @@
 			<datelastmodified>Tue, 17 Sep 2013 13:09:26 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 17 Sep 2013 13:09:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-teaserrow.png</source>
+			<destination>system/workplace/resources/filetypes/bs-teaserrow.png</destination>
+			<type>image</type>
+			<uuidstructure>1eac344a-3c7c-11e3-a752-000c2943a707</uuidstructure>
+			<uuidresource>1eac344b-3c7c-11e3-a752-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 07:16:01 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:15:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-teaserrow_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-teaserrow_big.png</destination>
+			<type>image</type>
+			<uuidstructure>1eb1646e-3c7c-11e3-a752-000c2943a707</uuidstructure>
+			<uuidresource>1eb1646f-3c7c-11e3-a752-000c2943a707</uuidresource>
+			<datelastmodified>Thu, 24 Oct 2013 07:16:04 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 24 Oct 2013 07:15:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>

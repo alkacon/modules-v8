@@ -1,0 +1,53 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/nested/teaserrowitem.xsd"/>
+
+	<xsd:element name="BootstrapTeaserrows" type="OpenCmsBootstrapTeaserrows"/>
+
+	<xsd:complexType name="OpenCmsBootstrapTeaserrows">
+		<xsd:sequence>
+			<xsd:element name="BootstrapTeaserrow" type="OpenCmsBootstrapTeaserrow" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapTeaserrow">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Item" type="OpenCmsBootstrapTeaserrowItem" minOccurs="2" maxOccurs="6" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.teaserrow"/>
+			<mappings>
+				<mapping element="Title" mapto="property:Title" />
+				<mapping element="Title" mapto="urlName" />
+			</mappings>
+			<defaults>
+				<default element="Title" value="%(key.bootstrap.teaserrow.default.Title)" />
+				<default element="Item/Icon" value="Lightbulb" />
+				<default element="Item/Text" value="%(key.bootstrap.teaserrow.default.Text)" />
+			</defaults>
+			<layouts/>
+			<validationrules/>
+			<relations/>
+			<searchsettings containerPageOnly="true">
+				<searchsetting element="Title" searchcontent="true">
+					<solrfield targetfield="Title" />
+				</searchsetting>
+			</searchsettings>
+			<formatters>
+				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/teaserrow.jsp" searchcontent="true" />
+				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/teaserrow.jsp" searchcontent="true" />
+			</formatters>
+			<settings>
+				<setting name="hidetitle" nice-name="%(key.bootstrap.teaserrow.setting.hidetitle)" type="string" default="false" widget="checkbox" />
+			</settings>
+			<headincludes/>
+		</xsd:appinfo>
+
+	</xsd:annotation>  
+</xsd:schema>

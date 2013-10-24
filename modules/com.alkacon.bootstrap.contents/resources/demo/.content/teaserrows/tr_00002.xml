@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTeaserrows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/teaserrow.xsd">
+  <BootstrapTeaserrow language="en">
+    <Title><![CDATA[Teaser Row Block]]></Title>
+    <Item>
+      <Headline><![CDATA[The Default Box]]></Headline>
+      <Icon><![CDATA[Globe]]></Icon>
+      <Text><![CDATA[Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.]]></Text>
+      <Color><![CDATA[default]]></Color>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Incredible Blue Box]]></Headline>
+      <Icon><![CDATA[Thumbs-Up]]></Icon>
+      <Text><![CDATA[Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Non cupidatat skateboard dolor brunch.]]></Text>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/]]></target>
+          <uuid>b4748742-3a35-11e3-a584-000c2943a707</uuid>
+        </link>
+      </Link>
+      <Color><![CDATA[blue]]></Color>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Something Yellow]]></Headline>
+      <Icon><![CDATA[Key]]></Icon>
+      <Text><![CDATA[Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Non cupidatat skateboard dolor brunch.]]></Text>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/]]></target>
+          <uuid>b4748742-3a35-11e3-a584-000c2943a707</uuid>
+        </link>
+      </Link>
+      <Color><![CDATA[yellow]]></Color>
+    </Item>
+    <Item>
+      <Headline><![CDATA[An Orange Box]]></Headline>
+      <Icon><![CDATA[USD]]></Icon>
+      <Text><![CDATA[Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Non cupidatat skateboard dolor brunch.]]></Text>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/]]></target>
+          <uuid>b4748742-3a35-11e3-a584-000c2943a707</uuid>
+        </link>
+      </Link>
+      <Color><![CDATA[orange]]></Color>
+    </Item>
+  </BootstrapTeaserrow>
+</BootstrapTeaserrows>

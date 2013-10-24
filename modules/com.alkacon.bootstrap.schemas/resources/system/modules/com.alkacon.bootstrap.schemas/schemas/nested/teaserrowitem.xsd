@@ -1,0 +1,43 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="BootstrapTeaserrowItems" type="OpenCmsBootstrapTeaserrowItems"/>
+	
+	<xsd:complexType name="OpenCmsBootstrapTeaserrowItems">
+		<xsd:sequence>
+			<xsd:element name="BootstrapTeaserrowItem" type="OpenCmsBootstrapTeaserrowItem" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapTeaserrowItem">
+		<xsd:sequence>
+			<xsd:element name="Headline" type="OpenCmsString" />
+			<xsd:element name="Icon" type="OpenCmsString" />
+			<xsd:element name="Text" type="OpenCmsString" />
+			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />
+			<xsd:element name="Color" type="OpenCmsString" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.imagerow"/>
+			<layouts>
+				<layout element="Icon" widget="ComboWidget" configuration="Bell|Bookmark|Bullhorn|Comments|Comments-AltEnvelope|Envelope-Alt|Exclamation|Globe|Heart|Key|Lightbulb|Phone|Smile|Star|Thumbs-Up|Time|Unlock|EUR|USD" />
+				<layout element="Text" widget="TextareaWidget" configuration="3"/>
+				<layout element="Color" widget="SelectorWidget" configuration="
+					default:%(key.bootstrap.teaserrow.color.default)|
+					red:%(key.bootstrap.teaserrow.color.red)|
+					sea:%(key.bootstrap.teaserrow.color.sea)|
+					grey:%(key.bootstrap.teaserrow.color.grey)|
+					green:%(key.bootstrap.teaserrow.color.green)|
+					blue:%(key.bootstrap.teaserrow.color.blue)|
+					orange:%(key.bootstrap.teaserrow.color.orange)|
+					yellow:%(key.bootstrap.teaserrow.color.yellow)
+					"/>
+			</layouts>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>
