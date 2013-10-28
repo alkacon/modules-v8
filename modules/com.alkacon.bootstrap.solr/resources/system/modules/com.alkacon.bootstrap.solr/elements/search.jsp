@@ -1,21 +1,21 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" import="org.opencms.jsp.CmsJspActionElement,org.opencms.file.CmsRequestContext,org.opencms.main.OpenCms"%>
 <%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%><%
 	CmsJspActionElement jae = new  CmsJspActionElement(pageContext, request, response);
 	CmsRequestContext con = jae.getCmsObject().getRequestContext();
 	String glo = con.addSiteRoot("/.content/");
 	String onlineLink = OpenCms.getLinkManager().getOnlineLink(jae.getCmsObject(), con.getUri()); %>
 
-<fmt:setLocale value="${cms.locale}" />
-<cms:bundle basename="com.alkacon.bootstrap.schemas.newsarticle" />
-
 <cms:formatter var="function" rdfa="rdfa">
 
 	<div <c:if test="${cms.container.type == 'content-full'}"> class="row"</c:if>>
 		<div id="alkaconSolrSearch" class="lists margin-bottom-20">
 			<script type="text/javascript">
+
+				<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.solr/resources/dictionary.js:d2f20f93-1370-11e2-b821-2b1b08a6835d)" />
+				<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.solr/resources/configuration.js:e3fb6d55-0e64-11e2-8968-2b1b08a6835d)" />
+
 				var GWTsolrContextInformation = {
 				        "onlineURL"    : "<%= onlineLink %>",
 				        "rootSite"     : "<%= con.getSiteRoot() %>",

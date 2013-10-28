@@ -1,8 +1,18 @@
 <%@page buffer="none" session="false" taglibs="c,cms" import="java.util.*"%><%--
 --%><c:set var="locale"><cms:info property="opencms.request.locale" /></c:set><%--
---%><% ResourceBundle bundle = org.opencms.i18n.CmsResourceBundleLoader.getBundle("com.alkacon.bootstrap.solr.messages", new Locale((String)pageContext.getAttribute("locale"))); %><%--
---%>var GWTsolrUIDictionary = {
-
+--%><% ResourceBundle bundle = org.opencms.i18n.CmsResourceBundleLoader.getBundle("com.alkacon.bootstrap.solr.messages", new Locale((String)pageContext.getAttribute("locale"))); %>
+var GWTsolrUIDictionary = {
+<%
+        org.opencms.relations.CmsCategoryService srv = org.opencms.relations.CmsCategoryService.getInstance();
+        org.opencms.file.CmsObject cmsO = new org.opencms.jsp.CmsJspActionElement(pageContext, request, response).getCmsObject();
+        String siteRoot = cmsO.getRequestContext().getSiteRoot() + "/";
+        java.util.List<String> reps = srv.getCategoryRepositories(cmsO, siteRoot + "/_categories/");
+        java.util.List<org.opencms.relations.CmsCategory> cats = srv.readCategoriesForRepositories(cmsO, "/", true, reps);
+        for (org.opencms.relations.CmsCategory cat : cats) {
+            String val = "\"" + cat.getPath() + "\":'" + cat.getTitle() + "',";
+            out.println(val);
+        }
+%>
         "locale"                            :'${locale}',
         "label.email.link"                  :'<%= bundle.getString("label.email.link") %>',
         "label.share.box"                   :'<%= bundle.getString("label.share.box") %>',

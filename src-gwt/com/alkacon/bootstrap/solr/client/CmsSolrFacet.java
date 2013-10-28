@@ -125,10 +125,30 @@ public class CmsSolrFacet implements Comparable<Object> {
     public CmsSolrFacet(String name, int count) {
 
         m_name = name;
-
-        m_labelText = UserMessages.getMessage(name);
-        if (m_labelText == null) {
-            m_labelText = name;
+        String la = "";
+        if (name.contains("/")) {
+            String[] pathParts = name.split("/");
+            boolean first = true;
+            String concatPath = "";
+            for (int i = 0; i < pathParts.length; i++) {
+                String catPath = pathParts[i] + "/";
+                concatPath = concatPath + catPath;
+                String msg = UserMessages.getMessage(concatPath);
+                if (!first) {
+                    la = la + " / " + msg;
+                } else {
+                    la = msg;
+                }
+                first = false;
+            }
+        }
+        if ((la != null) && !la.isEmpty()) {
+            m_labelText = la;
+        } else {
+            m_labelText = UserMessages.getMessage(name);
+            if (m_labelText == null) {
+                m_labelText = name;
+            }
         }
 
         m_count = count;
