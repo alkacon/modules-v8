@@ -367,10 +367,7 @@ public class CmsSolrController {
              */
             public void execute(JSONObject jsonObject) {
 
-                String q = getSearchData().getSearchQuery().replaceAll("\"", "");
-                if (m_titles.contains(q)) {
-                    getSearchData().setSearchQuery(q);
-                }
+                getSearchData().setSearchQuery(getSearchData().getSearchQuery());
 
                 CmsSolrDocumentList result = processSearch(jsonObject);
                 for (I_CmsSearchWidget inputWidget : m_searchWidgets.values()) {

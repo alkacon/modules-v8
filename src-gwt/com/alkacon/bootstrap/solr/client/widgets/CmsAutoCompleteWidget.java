@@ -75,13 +75,9 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
         public void requestSuggestions(Request request, Callback callback) {
 
             if (m_suggestBox.getText() != null) {
-                String query = m_suggestBox.getText().trim();
+                String query = m_suggestBox.getText();
                 if (query.length() > 3) {
-                    String q = query;
-                    if (getController().getTitles().contains(q)) {
-                        q = "\"" + q + "\"";
-                    }
-                    getController().getSearchData().setSearchQuery(q);
+                    getController().getSearchData().setSearchQuery(query);
                     getController().doAutoComplete(request, callback);
                 }
             }
@@ -216,7 +212,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
 
                 super.moveSelectionDown();
                 m_currentSelection = getCurrentSelection().getReplacementString();
-                search("\"" + m_currentSelection + "\"", 0);
+                search(m_currentSelection, 0);
             }
 
             /**
@@ -227,7 +223,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
 
                 super.moveSelectionUp();
                 m_currentSelection = getCurrentSelection().getReplacementString();
-                search("\"" + m_currentSelection + "\"", 0);
+                search(m_currentSelection, 0);
             }
         };
 
@@ -243,14 +239,14 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
 
             public void onSelection(SelectionEvent<Suggestion> event) {
 
-                String q = "\"" + event.getSelectedItem().getReplacementString() + "\"";
-                getController().getSearchData().setSearchQuery(q);
                 if (id != null) {
+                    String q = "\"" + event.getSelectedItem().getReplacementString() + "\"";
+                    getController().getSearchData().setSearchQuery(q);
                     suggestBox.setValue(q, false);
                     submitForm();
                 } else {
                     if (!((m_currentSelection != null) && m_currentSelection.equals(getController().getSearchData().getSearchQuery()))) {
-                        search(q, 0);
+                        search(event.getSelectedItem().getReplacementString(), 0);
                     }
                 }
             }
@@ -286,7 +282,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
         if (getController().getTitles().contains(q)) {
             q = "\"" + q + "\"";
         }
-        getController().getSearchData().setSearchQuery(q.trim());
+        getController().getSearchData().setSearchQuery(q);
         getController().doSearch(q, delay);
     }
 
