@@ -10,5 +10,11 @@
         <uuid>9dbf1580-0bc3-11e2-809c-09acdb80abab</uuid>
       </link>
     </FunctionProvider>
+    <SettingConfig>
+      <PropertyName><![CDATA[restoreQuery]]></PropertyName>
+      <DisplayName><![CDATA[Shared result]]></DisplayName>
+      <Type><![CDATA[string]]></Type>
+      <Widget><![CDATA[string]]></Widget>
+    </SettingConfig>
   </DynamicFunction>
 </DynamicFunctions>
