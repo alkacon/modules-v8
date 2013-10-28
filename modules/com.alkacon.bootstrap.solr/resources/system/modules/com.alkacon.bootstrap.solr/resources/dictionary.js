@@ -1,10 +1,11 @@
 <%@page buffer="none" session="false" taglibs="c,cms" import="java.util.*"%><%--
 --%><c:set var="locale"><cms:info property="opencms.request.locale" /></c:set><%--
---%><% ResourceBundle bundle = org.opencms.i18n.CmsResourceBundleLoader.getBundle("com.alkacon.bootstrap.solr.messages", new Locale((String)pageContext.getAttribute("locale"))); %>
-var GWTsolrUIDictionary = {
+--%><% ResourceBundle bundle = org.opencms.i18n.CmsResourceBundleLoader.getBundle("com.alkacon.bootstrap.solr.messages", new Locale((String)pageContext.getAttribute("locale"))); %><%--
+--%>var GWTsolrUIDictionary = {
 <%
         org.opencms.relations.CmsCategoryService srv = org.opencms.relations.CmsCategoryService.getInstance();
-        org.opencms.file.CmsObject cmsO = new org.opencms.jsp.CmsJspActionElement(pageContext, request, response).getCmsObject();
+        org.opencms.jsp.CmsJspActionElement jae = new org.opencms.jsp.CmsJspActionElement(pageContext, request, response);
+        org.opencms.file.CmsObject cmsO = jae.getCmsObject();
         String siteRoot = cmsO.getRequestContext().getSiteRoot() + "/";
         java.util.List<String> reps = srv.getCategoryRepositories(cmsO, siteRoot + "/_categories/");
         java.util.List<org.opencms.relations.CmsCategory> cats = srv.readCategoriesForRepositories(cmsO, "/", true, reps);
@@ -12,109 +13,64 @@ var GWTsolrUIDictionary = {
             String val = "\"" + cat.getPath() + "\":'" + cat.getTitle() + "',";
             out.println(val);
         }
-%>
-        "locale"                            :'${locale}',
-        "label.email.link"                  :'<%= bundle.getString("label.email.link") %>',
-        "label.share.box"                   :'<%= bundle.getString("label.share.box") %>',
+        java.util.List<org.opencms.workplace.explorer.CmsExplorerTypeSettings> settings = org.opencms.main.OpenCms.getWorkplaceManager().getExplorerTypeSettings();
+        org.opencms.workplace.explorer.CmsExplorer exp =  new org.opencms.workplace.explorer.CmsExplorer(jae);
+        for (org.opencms.workplace.explorer.CmsExplorerTypeSettings setting : settings) {
+            String name = setting.getName();
+            String title = setting.getTitleKey();
+            if (title == null) {
+                title = org.opencms.workplace.CmsWorkplaceMessages.getResourceTypeName(exp, name);
+            }
+            if (title == null) {
+                title = name;
+            }
+            String val = "\"" + name + "\":'" + title + "',";
+            out.println(val);
+        }
+%>"locale"                            :'${locale}',
+"label.email.link"                  :'<%= bundle.getString("label.email.link") %>',
+"label.share.box"                   :'<%= bundle.getString("label.share.box") %>',
 
-        "showMore"                          :'<%= bundle.getString("label.showMore") %>',
-        "showLess"                          :'<%= bundle.getString("label.showLess") %>',
-        "category"                          :'<%= bundle.getString("label.category") %>',
-        "language"                          :'<%= bundle.getString("label.language") %>',
-        "languages"                         :'<%= bundle.getString("label.languages") %>',
-        "currentSelection"                  :'<%= bundle.getString("label.currentSelection") %>',
-        "lastChanges"                       :'<%= bundle.getString("label.lastChanges") %>',
-        "format"                            :'<%= bundle.getString("label.format") %>',
-        "relevance"                         :'<%= bundle.getString("label.relevance") %>',
-        "aToZ"                              :'<%= bundle.getString("label.aToZ") %>',
-        "zToA"                              :'<%= bundle.getString("label.zToA") %>',
-        "sortByDate"                        :'<%= bundle.getString("label.sortByDate") %>',
-        "undefined"                         :'<%= bundle.getString("label.undefined") %>',
-        "suffix"                            :'<%= bundle.getString("label.suffix") %>',
-        "resetSelection"                    :'<%= bundle.getString("label.resetSelection") %>',
-        "attachments"                       :'<%= bundle.getString("label.attachments") %>',
-        "from"                              :'<%= bundle.getString("label.from") %>',
-        "until"                             :'<%= bundle.getString("label.until") %>',
-        "hits"                              :'<%= bundle.getString("label.hits") %>',
-        "searchedFor"                       :'<%= bundle.getString("label.searchedFor") %>',
-        "back"                              :'<%= bundle.getString("label.back") %>',
-        "next"                              :'<%= bundle.getString("label.next") %>',
-        "show"                              :'<%= bundle.getString("label.show") %>',
-        "attachmentOf"                      :'<%= bundle.getString("label.attachmentOf") %>',
-        "nothingFoundForQuery"              :'<%= bundle.getString("label.nothingFoundForQuery") %>',
+"showMore"                          :'<%= bundle.getString("label.showMore") %>',
+"showLess"                          :'<%= bundle.getString("label.showLess") %>',
+"category"                          :'<%= bundle.getString("label.category") %>',
+"language"                          :'<%= bundle.getString("label.language") %>',
+"languages"                         :'<%= bundle.getString("label.languages") %>',
+"currentSelection"                  :'<%= bundle.getString("label.currentSelection") %>',
+"lastChanges"                       :'<%= bundle.getString("label.lastChanges") %>',
+"format"                            :'<%= bundle.getString("label.format") %>',
+"relevance"                         :'<%= bundle.getString("label.relevance") %>',
+"aToZ"                              :'<%= bundle.getString("label.aToZ") %>',
+"zToA"                              :'<%= bundle.getString("label.zToA") %>',
+"sortByDate"                        :'<%= bundle.getString("label.sortByDate") %>',
+"undefined"                         :'<%= bundle.getString("label.undefined") %>',
+"suffix"                            :'<%= bundle.getString("label.suffix") %>',
+"resetSelection"                    :'<%= bundle.getString("label.resetSelection") %>',
+"attachments"                       :'<%= bundle.getString("label.attachments") %>',
+"from"                              :'<%= bundle.getString("label.from") %>',
+"until"                             :'<%= bundle.getString("label.until") %>',
+"hits"                              :'<%= bundle.getString("label.hits") %>',
+"searchedFor"                       :'<%= bundle.getString("label.searchedFor") %>',
+"back"                              :'<%= bundle.getString("label.back") %>',
+"next"                              :'<%= bundle.getString("label.next") %>',
+"show"                              :'<%= bundle.getString("label.show") %>',
+"attachmentOf"                      :'<%= bundle.getString("label.attachmentOf") %>',
+"nothingFoundForQuery"              :'<%= bundle.getString("label.nothingFoundForQuery") %>',
 
-        "searchedFor"                       :'<%= bundle.getString("label.searchedFor") %>',
-        "back"                              :'<%= bundle.getString("label.back") %>',
-        "next"                              :'<%= bundle.getString("label.next") %>',
-        "show"                              :'<%= bundle.getString("label.show") %>',
-        "attachmentOf"                      :'<%= bundle.getString("label.attachmentOf") %>',
-        "nothingFoundForQuery"              :'<%= bundle.getString("label.nothingFoundForQuery") %>',
+"searchedFor"                       :'<%= bundle.getString("label.searchedFor") %>',
+"back"                              :'<%= bundle.getString("label.back") %>',
+"next"                              :'<%= bundle.getString("label.next") %>',
+"show"                              :'<%= bundle.getString("label.show") %>',
+"attachmentOf"                      :'<%= bundle.getString("label.attachmentOf") %>',
+"nothingFoundForQuery"              :'<%= bundle.getString("label.nothingFoundForQuery") %>',
 
-        "listTitle"                         :'<%= bundle.getString("label.list.title") %>',
-        "listDoctype"                       :'<%= bundle.getString("label.list.doctype") %>',
-        "listLanguage"                      :'<%= bundle.getString("label.list.language") %>',
-        "listDate"                          :'<%= bundle.getString("label.list.date") %>',
-        "listVersion"                       :'<%= bundle.getString("label.list.version") %>',
-        "listType"                          :'<%= bundle.getString("label.list.type") %>',
+"listTitle"                         :'<%= bundle.getString("label.list.title") %>',
+"listDoctype"                       :'<%= bundle.getString("label.list.doctype") %>',
+"listLanguage"                      :'<%= bundle.getString("label.list.language") %>',
+"listDate"                          :'<%= bundle.getString("label.list.date") %>',
+"listVersion"                       :'<%= bundle.getString("label.list.version") %>',
+"listType"                          :'<%= bundle.getString("label.list.type") %>',
 
-        "checklist"                         :'<%= bundle.getString("label.type.checklist") %>',
-        "database"                          :'<%= bundle.getString("label.type.database") %>',
-        "regulations"                       :'<%= bundle.getString("label.type.regulations") %>',
-        "publications"                      :'<%= bundle.getString("label.type.publications") %>',                      
-        "table"                             :'<%= bundle.getString("label.type.table") %>',             
-        "guidelines"                        :'<%= bundle.getString("label.type.guidelines") %>',                     
-        "benchmarking"                      :'<%= bundle.getString("label.type.benchmarking") %>',        
-        "application"                       :'<%= bundle.getString("label.type.application") %>',                  
-        "cpacc"                             :'<%= bundle.getString("label.type.cpacc") %>',
-        "gasd"                              :'<%= bundle.getString("label.type.gasd") %>',
-        "rules"                             :'<%= bundle.getString("label.type.rules") %>',
-        "press"                             :'<%= bundle.getString("label.type.press") %>',
-        "feedback"                          :'<%= bundle.getString("label.type.feedback") %>',
-        "xls"                               :'<%= bundle.getString("label.type.xls") %>',
-        "pdf"                               :'<%= bundle.getString("label.type.pdf") %>',
-        "gap-committee"                     :'<%= bundle.getString("label.type.committee") %>',
-        "gap-event"                         :'<%= bundle.getString("label.type.event") %>',
-        "gap-eyecatcher"                    :'<%= bundle.getString("label.type.eyecatcher") %>',
-        "gap-iframe"                        :'<%= bundle.getString("label.type.iframe") %>',
-        "gap-imagerow"                      :'<%= bundle.getString("label.type.imagerow") %>',
-        "gap-member"                        :'<%= bundle.getString("label.type.member") %>',
-        "gap-news"                          :'<%= bundle.getString("label.type.news") %>',
-        "gap-ntwg"                          :'<%= bundle.getString("label.type.ntwg") %>',
-        "gap-person"                        :'<%= bundle.getString("label.type.person") %>',
-        "gap-slider"                        :'<%= bundle.getString("label.type.slider") %>',
-        "gap-textblock"                     :'<%= bundle.getString("label.tpye.textblock") %>',
-
-        "cn"                                :'<%= bundle.getString("label.lang.cn") %>',
-        "de"                                :'<%= bundle.getString("label.lang.de") %>',
-        "en"                                :'<%= bundle.getString("label.lang.en") %>',
-        "uk"                                :'<%= bundle.getString("label.lang.en") %>',
-        "us"                                :'<%= bundle.getString("label.lang.en") %>',
-        "el"                                :'<%= bundle.getString("label.lang.el") %>',
-        "es"                                :'<%= bundle.getString("label.lang.es") %>',
-        "fr"                                :'<%= bundle.getString("label.lang.fr") %>',
-        "he"                                :'<%= bundle.getString("label.lang.he") %>',
-        "it"                                :'<%= bundle.getString("label.lang.it") %>',
-        "nl"                                :'<%= bundle.getString("label.lang.nl") %>',
-        "pt"                                :'<%= bundle.getString("label.lang.pt") %>',
-        "th"                                :'<%= bundle.getString("label.lang.th") %>',
-        "tr"                                :'<%= bundle.getString("label.lang.tr") %>',
-        "vi"                                :'<%= bundle.getString("label.lang.vi") %>',
-        "af"                                :'<%= bundle.getString("label.lang.af") %>',
-        "iw"                                :'<%= bundle.getString("label.lang.iw") %>',
-        "no"                                :'<%= bundle.getString("label.lang.no") %>',
-        "pl"                                :'<%= bundle.getString("label.lang.pl") %>',
-        "cs"                                :'<%= bundle.getString("label.lang.cs") %>',
-        "hu"                                :'<%= bundle.getString("label.lang.hu") %>',
-        "ba"                                :'<%= bundle.getString("label.lang.ba") %>',
-        "da"                                :'<%= bundle.getString("label.lang.da") %>',
-        "sw"                                :'<%= bundle.getString("label.lang.sw") %>',
-        "ar"                                :'<%= bundle.getString("label.lang.ar") %>',
-        "ja"                                :'<%= bundle.getString("label.lang.ja") %>',
-        "sv"                                :'<%= bundle.getString("label.lang.sv") %>',
-        "bg"                                :'<%= bundle.getString("label.lang.bg") %>',
-        "ka"                                :'<%= bundle.getString("label.lang.ka") %>',
-        "ru"                                :'<%= bundle.getString("label.lang.ru") %>',
-        "sk"                                :'<%= bundle.getString("label.lang.sk") %>',
-        "bs"                                :'<%= bundle.getString("label.lang.bs") %>',
-        "zh"                                :'<%= bundle.getString("label.lang.zh") %>'
+"de"                                :'<%= bundle.getString("label.lang.de") %>',
+"en"                                :'<%= bundle.getString("label.lang.en") %>'
 };
