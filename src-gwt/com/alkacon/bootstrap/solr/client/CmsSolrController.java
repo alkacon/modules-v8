@@ -794,7 +794,6 @@ public class CmsSolrController {
                 String suffix = UserMessages.undefined();
                 try {
                     suffix = document.get("suffix").isString().stringValue();
-                    suffix = suffix.substring(1, suffix.length());
                 } catch (Throwable t) {
                     // nothing to do here, path was empty
                 }

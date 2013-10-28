@@ -30,6 +30,7 @@ package com.alkacon.bootstrap.solr.client;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;
+import com.google.gwt.resources.client.ImageResource;
 
 /**
  * Resource bundle to access CSS and image resources.
@@ -43,6 +44,62 @@ public interface I_CmsSolrLayoutBundle extends ClientBundle {
 
         // not yet used
     }
+
+    /**
+     * Image resource accessor.<p>
+     *
+     * @return an image resource
+     */
+    @Source("images/doc.png")
+    ImageResource doc();
+
+    /**
+     * Image resource accessor.<p>
+     *
+     * @return an image resource
+     */
+    @Source("images/gif.png")
+    ImageResource gif();
+
+    /**
+     * Image resource accessor.<p>
+     *
+     * @return an image resource
+     */
+    @Source("images/html.png")
+    ImageResource html();
+
+    /**
+     * Image resource accessor.<p>
+     *
+     * @return an image resource
+     */
+    @Source("images/jpg.png")
+    ImageResource jpg();
+
+    /**
+     * Image resource accessor.<p>
+     *
+     * @return an image resource
+     */
+    @Source("images/pdf.png")
+    ImageResource pdf();
+
+    /**
+     * Image resource accessor.<p>
+     *
+     * @return an image resource
+     */
+    @Source("images/ppt.png")
+    ImageResource ppt();
+
+    /**
+     * Image resource accessor.<p>
+     *
+     * @return an image resource
+     */
+    @Source("images/xml.png")
+    ImageResource xml();
 
     /** The bundle instance. */
     I_CmsSolrLayoutBundle INSTANCE = GWT.create(I_CmsSolrLayoutBundle.class);
