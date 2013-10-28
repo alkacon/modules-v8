@@ -1,6 +1,7 @@
-.bodyScroll {
-	overflow-y: scroll;
+#alkaconSolrSearch {
+	min-height: 550px;
 }
+
 .gwt-SuggestBoxPopup {
 	margin-left: -1px;
 	z-index: 1000;
