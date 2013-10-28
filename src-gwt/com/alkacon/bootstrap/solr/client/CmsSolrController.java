@@ -178,9 +178,6 @@ public class CmsSolrController {
     /** Stores the search widgets. */
     protected Map<String, I_CmsSearchWidget> m_searchWidgets = new HashMap<String, I_CmsSearchWidget>();
 
-    /** All titles. */
-    private List<String> m_titles = new ArrayList<String>();
-
     /** A timer. */
     private Timer m_autocompleteTimer;
 
@@ -198,6 +195,9 @@ public class CmsSolrController {
 
     /** The share widget. */
     private CmsResultShareWidget m_shareWidget;
+
+    /** All titles. */
+    List<String> m_titles = new ArrayList<String>();
 
     /**
      * Creates a controller.<p>
@@ -267,6 +267,18 @@ public class CmsSolrController {
         searchData.setParentFolders(searchRoots);
         searchData.setSubSitePath(context.getSubSitePath());
         searchData.setRows(config.getRows());
+
+        String q = searchData.getSearchQuery();
+        if (q != null) {
+            if (q.endsWith("&#034;") && q.startsWith("&#034;")) {
+                q = q.replaceFirst("&#034;", "\"");
+                if (q.length() > 5) {
+                    q = q.substring(0, q.length() - 6);
+                    q += "\"";
+                    searchData.setSearchQuery(q);
+                }
+            }
+        }
         return searchData;
     }
 
@@ -352,6 +364,11 @@ public class CmsSolrController {
              * @see com.alkacon.bootstrap.solr.client.I_CmsSolrJsonCommand#execute(com.google.gwt.json.client.JSONObject)
              */
             public void execute(JSONObject jsonObject) {
+
+                String q = getSearchData().getSearchQuery().replaceAll("\"", "");
+                if (m_titles.contains(q)) {
+                    getSearchData().setSearchQuery(q);
+                }
 
                 CmsSolrDocumentList result = processSearch(jsonObject);
                 for (I_CmsSearchWidget inputWidget : m_searchWidgets.values()) {
@@ -1091,7 +1108,6 @@ public class CmsSolrController {
                 }
                 // add the facet to the search result under its name
                 searchResult.addFacet(facetKey, facetBeans);
-
             }
         } catch (Throwable t) {
             // no facetes found, so do nothing here

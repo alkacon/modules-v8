@@ -77,7 +77,11 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
             if (m_suggestBox.getText() != null) {
                 String query = m_suggestBox.getText().trim();
                 if (query.length() > 3) {
-                    getController().getSearchData().setSearchQuery(query);
+                    String q = query;
+                    if (getController().getTitles().contains(q)) {
+                        q = "\"" + q + "\"";
+                    }
+                    getController().getSearchData().setSearchQuery(q);
                     getController().doAutoComplete(request, callback);
                 }
             }
@@ -164,36 +168,14 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
      */
     public void update(CmsSolrDocumentList result) {
 
-        if (CmsSolrStringUtil.isEmpty(getController().getSearchData().getSearchQuery())) {
-            if (m_suggestBox != null) {
+        if (m_suggestBox != null) {
+            if (CmsSolrStringUtil.isEmpty(getController().getSearchData().getSearchQuery())) {
                 m_suggestBox.setValue("");
+            } else {
+                m_suggestBox.setValue(getController().getSearchData().getSearchQuery(), false);
             }
         }
     }
-
-    /**
-     * Executes a search.<p>
-     * 
-     * @param query the text query to search for 
-     * @param delay the delay before execution in ms
-     */
-    protected void search(String query, int delay) {
-
-        String q = query;
-        if (getController().getTitles().contains(q)) {
-            q = "\"" + q + "\"";
-        }
-        getController().getSearchData().setSearchQuery(q.trim());
-        getController().doSearch(q, delay);
-    }
-
-    /**
-     * Submits the header auto suggest form.<p>
-     */
-    protected native void submitForm()/*-{
-
-        $wnd.document.searchFormHeader.submit();
-    }-*/;
 
     /**
      * Creates a suggest box.<p>
@@ -251,7 +233,9 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
 
         final SuggestBox suggestBox = new SuggestBox(new AllSuggestionOracle(), searchField, suggestDisplay);
         suggestBox.setAutoSelectEnabled(false);
-        suggestBox.getElement().setAttribute("name", getConfig().getId());
+        if (getConfig().getType().equals(WIDGET_TYPES.autocompleteHeader)) {
+            suggestBox.getElement().setAttribute("name", getConfig().getId());
+        }
         suggestBox.getElement().setAttribute("autocomplete", "off");
         suggestBox.setStyleName("form-control");
 
@@ -262,6 +246,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
                 String q = "\"" + event.getSelectedItem().getReplacementString() + "\"";
                 getController().getSearchData().setSearchQuery(q);
                 if (id != null) {
+                    suggestBox.setValue(q, false);
                     submitForm();
                 } else {
                     if (!((m_currentSelection != null) && m_currentSelection.equals(getController().getSearchData().getSearchQuery()))) {
@@ -288,5 +273,29 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
         });
         return suggestBox;
     }
+
+    /**
+     * Executes a search.<p>
+     * 
+     * @param query the text query to search for 
+     * @param delay the delay before execution in ms
+     */
+    protected void search(String query, int delay) {
+
+        String q = query;
+        if (getController().getTitles().contains(q)) {
+            q = "\"" + q + "\"";
+        }
+        getController().getSearchData().setSearchQuery(q.trim());
+        getController().doSearch(q, delay);
+    }
+
+    /**
+     * Submits the header auto suggest form.<p>
+     */
+    protected native void submitForm()/*-{
+
+        $wnd.document.searchFormHeader.submit();
+    }-*/;
 
 }
