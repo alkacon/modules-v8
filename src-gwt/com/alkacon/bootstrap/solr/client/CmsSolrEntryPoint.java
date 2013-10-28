@@ -78,9 +78,7 @@ public class CmsSolrEntryPoint implements EntryPoint {
      */
     private native void createSolrContext() /*-{
 
-        if ($wnd.GWTsolrContextInformation) {
-            this.@com.alkacon.bootstrap.solr.client.CmsSolrEntryPoint::createSolrContext(Lcom/google/gwt/core/client/JavaScriptObject;)($wnd.GWTsolrContextInformation);
-        }
+        this.@com.alkacon.bootstrap.solr.client.CmsSolrEntryPoint::createSolrContext(Lcom/google/gwt/core/client/JavaScriptObject;)($wnd.GWTsolrContextInformation);
     }-*/;
 
     /**

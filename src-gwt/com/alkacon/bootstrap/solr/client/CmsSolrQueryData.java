@@ -55,9 +55,6 @@ public class CmsSolrQueryData implements IsSerializable {
     /** The general search configuration. */
     private CmsSolrConfig m_config;
 
-    /** Signals whether this is a document center search or not. */
-    private boolean m_docSearch;
-
     /** The end date. */
     private Date m_endDate;
 
@@ -514,7 +511,7 @@ public class CmsSolrQueryData implements IsSerializable {
         }
 
         //add code for highlighting
-        if ((m_searchQuery != null) && !m_searchQuery.trim().isEmpty() && !isDocSearch()) {
+        if ((m_searchQuery != null) && !m_searchQuery.trim().isEmpty()) {
             buf.append("&hl=");
             buf.append(m_config.isHl());
             buf.append("&hl.fragsize=");
@@ -720,16 +717,6 @@ public class CmsSolrQueryData implements IsSerializable {
     }
 
     /**
-     * Returns the docSearch.<p>
-     *
-     * @return the docSearch
-     */
-    public boolean isDocSearch() {
-
-        return m_docSearch;
-    }
-
-    /**
      * Returns <code>true</true> if this query was restored.<p>
      *
      * @return <code>true</true> if this query was restored
@@ -792,16 +779,6 @@ public class CmsSolrQueryData implements IsSerializable {
     public void removeParameter(String parameter) {
 
         m_searchParams.remove(parameter);
-    }
-
-    /**
-     * Sets the docSearch.<p>
-     *
-     * @param docSearch the docSearch to set
-     */
-    public void setDocSearch(boolean docSearch) {
-
-        m_docSearch = docSearch;
     }
 
     /**

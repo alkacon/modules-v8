@@ -46,6 +46,8 @@ import com.google.gwt.event.logical.shared.SelectionEvent;
 import com.google.gwt.event.logical.shared.SelectionHandler;
 import com.google.gwt.user.client.DOM;
 import com.google.gwt.user.client.Element;
+import com.google.gwt.user.client.Event;
+import com.google.gwt.user.client.EventListener;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.HTMLPanel;
@@ -99,15 +101,27 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
 
         super(panel, controller, config);
 
+        controller.initTitles();
+
         if (config.getType().equals(WIDGET_TYPES.autocompleteHeader)) {
-            final SuggestBox suggestBox = createSugestBox(config.getId());
-            RootPanel sf = RootPanel.get("searchFieldSet");
-            if (sf != null) {
-                suggestBox.setStyleName("inputSearch");
-                sf.insert(suggestBox, 0);
-            }
-            m_suggestBox = suggestBox;
-            m_suggestBox.setStyleName("websearch");
+
+            Element e = RootPanel.get("searchButtonHeader").getElement();
+            Event.sinkEvents(e, Event.ONCLICK);
+            Event.setEventListener(e, new EventListener() {
+
+                @Override
+                public void onBrowserEvent(Event event) {
+
+                    if (Event.ONCLICK == event.getTypeInt()) {
+                        final SuggestBox suggestBox = createSugestBox(config.getId());
+                        RootPanel sf = RootPanel.get("searchContentHeader");
+                        if (sf != null) {
+                            sf.insert(suggestBox, 0);
+                        }
+                        m_suggestBox = suggestBox;
+                    }
+                }
+            });
         } else {
             final SuggestBox suggestBox = createSugestBox(null);
             if (controller.getSearchData().getSearchQuery() != null) {
@@ -130,7 +144,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
                     search(suggestBox.getText(), 0);
                 }
             });
-            searchbutton.getElement().setInnerHTML("Go!");
+            searchbutton.getElement().setInnerHTML("Go");
 
             HTMLPanel buttonGroup = new HTMLPanel("span", "");
             buttonGroup.setStyleName("input-group-btn");
@@ -151,7 +165,9 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
     public void update(CmsSolrDocumentList result) {
 
         if (CmsSolrStringUtil.isEmpty(getController().getSearchData().getSearchQuery())) {
-            m_suggestBox.setValue("");
+            if (m_suggestBox != null) {
+                m_suggestBox.setValue("");
+            }
         }
     }
 
@@ -163,8 +179,12 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
      */
     protected void search(String query, int delay) {
 
-        getController().getSearchData().setSearchQuery(query.trim());
-        getController().doSearch(query, delay);
+        String q = query;
+        if (getController().getTitles().contains(q)) {
+            q = "\"" + q + "\"";
+        }
+        getController().getSearchData().setSearchQuery(q.trim());
+        getController().doSearch(q, delay);
     }
 
     /**
@@ -172,7 +192,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
      */
     protected native void submitForm()/*-{
 
-        $wnd.document.searchHeaderForm.submit();
+        $wnd.document.searchFormHeader.submit();
     }-*/;
 
     /**
@@ -183,7 +203,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
      * 
      * @return the suggest box
      */
-    private SuggestBox createSugestBox(final String id) {
+    protected SuggestBox createSugestBox(final String id) {
 
         Element e = DOM.getElementById(id);
         TextBox searchField = new TextBox();
@@ -193,10 +213,13 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
 
         final SuggestBox.DefaultSuggestionDisplay suggestDisplay = new SuggestBox.DefaultSuggestionDisplay() {
 
+            /**
+             * @see com.google.gwt.user.client.ui.SuggestBox.DefaultSuggestionDisplay#decorateSuggestionList(com.google.gwt.user.client.ui.Widget)
+             */
             @Override
             protected Widget decorateSuggestionList(Widget suggestionList) {
 
-                int width = RootPanel.get("solrWidgetAutoComplete").getElement().getOffsetWidth();
+                int width = RootPanel.get(getConfig().getId()).getElement().getOffsetWidth();
                 String styleValue = suggestionList.getElement().getAttribute("style");
                 styleValue = styleValue + " width: " + width + "px";
                 suggestionList.getElement().setAttribute("style", styleValue);
@@ -236,12 +259,13 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
 
             public void onSelection(SelectionEvent<Suggestion> event) {
 
-                getController().getSearchData().setSearchQuery(suggestBox.getText().trim());
+                String q = "\"" + event.getSelectedItem().getReplacementString() + "\"";
+                getController().getSearchData().setSearchQuery(q);
                 if (id != null) {
                     submitForm();
                 } else {
                     if (!((m_currentSelection != null) && m_currentSelection.equals(getController().getSearchData().getSearchQuery()))) {
-                        search("\"" + event.getSelectedItem().getReplacementString() + "\"", 0);
+                        search(q, 0);
                     }
                 }
             }

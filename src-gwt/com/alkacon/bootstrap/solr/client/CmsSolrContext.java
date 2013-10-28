@@ -53,9 +53,6 @@ public class CmsSolrContext {
     private static final String NODE_INITIAL_QUERY = "initialQuery";
 
     /** Node constant. */
-    private static final String NODE_IS_DOCCENTER = "isDoccenter";
-
-    /** Node constant. */
     private static final String NODE_ONLINE_URL = "onlineURL";
 
     /** Node constant. */
@@ -70,11 +67,11 @@ public class CmsSolrContext {
     /** Enables/Disables debug mode. */
     private boolean m_debug = true;
 
-    /** Signals whether this search is a doc center search or not. */
-    private boolean m_doccenter;
-
     /** The global path to search in. */
     private String m_globalPath;
+
+    /** Signals if the initialization was successful. */
+    private boolean m_initialized;
 
     /** The query to restore. */
     private String m_initialQuery;
@@ -193,12 +190,6 @@ public class CmsSolrContext {
             Throwable throwable = null;
 
             try {
-                m_doccenter = jsonObject.get(NODE_IS_DOCCENTER).isBoolean().booleanValue();
-            } catch (Throwable t) {
-                throwable = t;
-                errorNode = NODE_IS_DOCCENTER;
-            }
-            try {
                 m_globalPath = jsonObject.get(NODE_GLOBAL_PATH).isString().stringValue();
             } catch (Throwable t) {
                 throwable = t;
@@ -260,18 +251,29 @@ public class CmsSolrContext {
                         + throwable.getLocalizedMessage());
                 }
                 throwable.printStackTrace();
+            } else {
+                m_initialized = true;
             }
-
         }
     }
 
     /**
-     * Returns the doccenter.<p>
+     * Returns the initialized.<p>
      *
-     * @return the doccenter
+     * @return the initialized
      */
-    public boolean isDoccenter() {
+    public boolean isInitialized() {
 
-        return m_doccenter;
+        return m_initialized;
+    }
+
+    /**
+     * Sets the initialized.<p>
+     *
+     * @param initialized the initialized to set
+     */
+    public void setInitialized(boolean initialized) {
+
+        m_initialized = initialized;
     }
 }

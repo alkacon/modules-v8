@@ -49,7 +49,6 @@ import com.alkacon.bootstrap.solr.client.widgets.datepicker.CmsDateFacetWidget;
 import com.alkacon.bootstrap.solr.client.widgets.facet.CmsTextFacetWidget;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
@@ -180,7 +179,7 @@ public class CmsSolrController {
     protected Map<String, I_CmsSearchWidget> m_searchWidgets = new HashMap<String, I_CmsSearchWidget>();
 
     /** All titles. */
-    List<String> m_titles = new ArrayList<String>();
+    private List<String> m_titles = new ArrayList<String>();
 
     /** A timer. */
     private Timer m_autocompleteTimer;
@@ -213,7 +212,6 @@ public class CmsSolrController {
         } else {
             LOG.setLevel(Level.INFO);
         }
-        // LOG.setLevel(Level.INFO);
 
         History.addValueChangeHandler(new CmsHistoryValueChangeHandler(config, context));
 
@@ -223,10 +221,11 @@ public class CmsSolrController {
         if (m_searchData.isRestored()) {
             doSearch(null, false);
         } else {
-            doSearch(null, true);
+            if (m_context.isInitialized()) {
+                doSearch(null, true);
+            }
         }
         initWidgets();
-        initTitles();
     }
 
     /**
@@ -261,19 +260,13 @@ public class CmsSolrController {
         }
 
         CmsSolrQueryData searchData = data;
-        searchData.setDocSearch(context.isDoccenter());
         searchData.setRootSite(context.getRootSite());
         List<String> searchRoots = new ArrayList<String>();
         searchRoots.add("\"" + context.getGlobalPath() + "\"");
         searchRoots.add("\"" + context.getSubSitePath() + "\"");
         searchData.setParentFolders(searchRoots);
         searchData.setSubSitePath(context.getSubSitePath());
-        if (context.isDoccenter()) {
-            searchData.setResourceTypes(Arrays.asList(new String[] {"binary"}));
-            searchData.setRows(1000);
-        } else {
-            searchData.setRows(config.getRows());
-        }
+        searchData.setRows(config.getRows());
         return searchData;
     }
 
@@ -464,6 +457,16 @@ public class CmsSolrController {
     }
 
     /**
+     * Returns the titles.<p>
+     *
+     * @return the titles
+     */
+    public List<String> getTitles() {
+
+        return m_titles;
+    }
+
+    /**
      * Returns the widget configuration for the given type.<p>
      * 
      * @param type the type to get the configuration for
@@ -483,10 +486,45 @@ public class CmsSolrController {
         if (m_loadingTimer != null) {
             m_loadingTimer.cancel();
         }
-        RootPanel.get("loading").setStyleName("hide");
-        RootPanel.get("leftCol").setStyleName("visible");
-        RootPanel.get("rightCol").setStyleName("visible");
 
+        if (RootPanel.get("loading") != null) {
+            RootPanel.get("loading").setStyleName("hide");
+            RootPanel.get("leftCol").setStyleName("visible");
+            RootPanel.get("rightCol").setStyleName("visible");
+        }
+
+    }
+
+    /**
+     * Initializes the titles.<p>
+     */
+    public void initTitles() {
+
+        I_CmsSolrJsonCommand callback = new I_CmsSolrJsonCommand() {
+
+            /**
+             * @see com.alkacon.bootstrap.solr.client.I_CmsSolrJsonCommand#execute(com.google.gwt.json.client.JSONObject)
+             */
+            public void execute(JSONObject jsonObject) {
+
+                getTitles().clear();
+                // get the facets
+                try {
+                    JSONObject joFaceCounts = jsonObject.get(I_CmsSolrConstants.NODE_FACETS).isObject();
+                    JSONObject joFacetFields = joFaceCounts.get(I_CmsSolrConstants.NODE_FACETFIELDS).isObject();
+                    Map<String, List<CmsSolrFacet>> factes = toFacetBeans(joFacetFields);
+                    List<CmsSolrFacet> beans = factes.get("Title_exact");
+                    for (CmsSolrFacet facet : beans) {
+                        getTitles().add(facet.getName());
+                    }
+                } catch (Throwable t) {
+                    // no facets found, so do nothing here
+                }
+            }
+
+        };
+
+        sendRequest(m_config.getSolrUrl() + m_config.getTitleQuery(), callback);
     }
 
     /**
@@ -510,17 +548,19 @@ public class CmsSolrController {
         if (m_loadingTimer != null) {
             m_loadingTimer.cancel();
         }
-        m_loadingTimer = new Timer() {
+        if (RootPanel.get("loading") != null) {
+            m_loadingTimer = new Timer() {
 
-            @Override
-            public void run() {
+                @Override
+                public void run() {
 
-                RootPanel.get("loading").setStyleName("show");
-                RootPanel.get("leftCol").setStyleName("invisible");
-                RootPanel.get("rightCol").setStyleName("invisible");
-            }
-        };
-        m_loadingTimer.schedule(50);
+                    RootPanel.get("loading").setStyleName("show");
+                    RootPanel.get("leftCol").setStyleName("invisible");
+                    RootPanel.get("rightCol").setStyleName("invisible");
+                }
+            };
+            m_loadingTimer.schedule(50);
+        }
 
     }
 
@@ -598,6 +638,19 @@ public class CmsSolrController {
             }
         }
     }
+
+    //    /**
+    //     * Returns the window location hash.<p>
+    //     * 
+    //     * @return the window location hash
+    //     */
+    //    protected native String getWindowLocationHash()/*-{
+    //
+    //        if ($wnd.location.hash) {
+    //            return $wnd.location.hash.slice(1, $wnd.location.hash.length);
+    //        }
+    //        return null;
+    //    }-*/;
 
     /**
      * Processes the JSON result.<p>
@@ -702,19 +755,6 @@ public class CmsSolrController {
             LOG.log(Level.WARNING, "Suggestion is not a String", t);
         }
     }
-
-    //    /**
-    //     * Returns the window location hash.<p>
-    //     * 
-    //     * @return the window location hash
-    //     */
-    //    protected native String getWindowLocationHash()/*-{
-    //
-    //        if ($wnd.location.hash) {
-    //            return $wnd.location.hash.slice(1, $wnd.location.hash.length);
-    //        }
-    //        return null;
-    //    }-*/;
 
     /**
      * Processes the received JSON Object to create a list of result objects.<p>
@@ -1089,38 +1129,6 @@ public class CmsSolrController {
         }
         LOG.log(Level.INFO, "Facet Time: " + (System.currentTimeMillis() - facetsStart));
         return facets;
-    }
-
-    /**
-     * Initializes the titles.<p>
-     */
-    private void initTitles() {
-
-        I_CmsSolrJsonCommand callback = new I_CmsSolrJsonCommand() {
-
-            /**
-             * @see com.alkacon.bootstrap.solr.client.I_CmsSolrJsonCommand#execute(com.google.gwt.json.client.JSONObject)
-             */
-            public void execute(JSONObject jsonObject) {
-
-                m_titles.clear();
-                // get the facets
-                try {
-                    JSONObject joFaceCounts = jsonObject.get(I_CmsSolrConstants.NODE_FACETS).isObject();
-                    JSONObject joFacetFields = joFaceCounts.get(I_CmsSolrConstants.NODE_FACETFIELDS).isObject();
-                    Map<String, List<CmsSolrFacet>> factes = toFacetBeans(joFacetFields);
-                    List<CmsSolrFacet> beans = factes.get("Title_exact");
-                    for (CmsSolrFacet facet : beans) {
-                        m_titles.add(facet.getName());
-                    }
-                } catch (Throwable t) {
-                    // no facets found, so do nothing here
-                }
-            }
-
-        };
-
-        sendRequest(m_config.getSolrUrl() + m_config.getTitleQuery(), callback);
     }
 
     /**
