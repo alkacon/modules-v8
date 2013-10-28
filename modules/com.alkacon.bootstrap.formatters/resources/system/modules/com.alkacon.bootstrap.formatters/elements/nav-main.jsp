@@ -62,15 +62,15 @@
 
 	<c:forEach begin="${navStartLevel + 1}" end="${oldLevel}"></li></ul></c:forEach>
 	<c:if test="${not empty nav.items}"></li></c:if>
-    <li class="hidden-sm"><a class="search"><i class="icon-search search-btn"></i></a></li>                               
+    <li class="hidden-sm" id="searchButtonHeader"><a class="search"><i class="icon-search search-btn"></i></a></li>                               
 			</ul>
 			<div class="search-open">
-				<form class="form-inline">
-					<div class="input-group">
-					<input type="text" class="form-control" placeholder="Search" />
-					<span class="input-group-btn">
-						<button class="btn-u" type="button">Go</button>
-					</span>
+				<form class="form-inline" name="searchFormHeader">
+					<div class="input-group" id="searchContentHeader">
+						<input type="text" class="form-control" placeholder="Search" id="solrWidgetAutoCompleteHeader" />
+						<span class="input-group-btn">
+							<button class="btn-u" type="button">Go</button>
+						</span>
 					</div>
 				</form>
 			</div>
