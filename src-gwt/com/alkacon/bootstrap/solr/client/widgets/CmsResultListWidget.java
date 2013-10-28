@@ -195,8 +195,55 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
                     + ": '"
                     + getController().getSearchData().getSearchQuery()
                     + "'");
+
+                if ((getController().getSuggestions() != null) && !getController().getSuggestions().isEmpty()) {
+                    noHit.add(new HTMLPanel("h4", "Did you mean?"));
+                    HTMLPanel suggs = new HTMLPanel("ul", "");
+                    noHit.add(suggs);
+                    for (String sugg : getController().getSuggestions()) {
+                        CmsSuggestEntry ent = new CmsSuggestEntry(sugg);
+                        suggs.add(ent);
+                    }
+                }
                 getPanel().add(noHit);
             }
+        }
+    }
+
+    /**
+     * A page entry.<p>
+     */
+    private class CmsSuggestEntry extends HTMLPanel implements ClickHandler, HasClickHandlers {
+
+        /** The page number. */
+        protected String m_text;
+
+        /**
+         * Constructor, creates a new CmsSearchUiPaginationValue.<p>
+         * 
+         * @param text the text value
+         */
+        public CmsSuggestEntry(String text) {
+
+            super("li", "<a href=\"javascript:void()\" >" + text + " </a>");
+            m_text = text;
+            addClickHandler(this);
+        }
+
+        /**
+         * @see com.google.gwt.event.dom.client.ClickHandler#onClick(com.google.gwt.event.dom.client.ClickEvent)
+         */
+        public void onClick(ClickEvent event) {
+
+            getController().doSearch(m_text, 0);
+        }
+
+        /**
+         * @see com.google.gwt.event.dom.client.HasClickHandlers#addClickHandler(com.google.gwt.event.dom.client.ClickHandler)
+         */
+        public HandlerRegistration addClickHandler(ClickHandler handler) {
+
+            return addDomHandler(handler, ClickEvent.getType());
         }
     }
 }

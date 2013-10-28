@@ -52,7 +52,6 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -115,9 +114,9 @@ public class CmsSolrController {
         public int compare(String a, String b) {
 
             if (m_base.get(a).doubleValue() >= m_base.get(b).doubleValue()) {
-                return -1;
-            } else {
                 return 1;
+            } else {
+                return -1;
             } // returning 0 would merge keys
         }
     }
@@ -178,6 +177,9 @@ public class CmsSolrController {
     /** Stores the search widgets. */
     protected Map<String, I_CmsSearchWidget> m_searchWidgets = new HashMap<String, I_CmsSearchWidget>();
 
+    /** All titles. */
+    List<String> m_titles = new ArrayList<String>();
+
     /** A timer. */
     private Timer m_autocompleteTimer;
 
@@ -196,8 +198,8 @@ public class CmsSolrController {
     /** The share widget. */
     private CmsResultShareWidget m_shareWidget;
 
-    /** All titles. */
-    List<String> m_titles = new ArrayList<String>();
+    /** Suggestions. */
+    private List<String> m_suggestions;
 
     /**
      * Creates a controller.<p>
@@ -474,6 +476,16 @@ public class CmsSolrController {
     }
 
     /**
+     * The last suggestions.<p>
+     * 
+     * @return the last suggestions
+     */
+    public List<String> getSuggestions() {
+
+        return m_suggestions;
+    }
+
+    /**
      * Returns the titles.<p>
      *
      * @return the titles
@@ -634,6 +646,19 @@ public class CmsSolrController {
         sendRequest(url, solrCallback);
     }
 
+    //    /**
+    //     * Returns the window location hash.<p>
+    //     * 
+    //     * @return the window location hash
+    //     */
+    //    protected native String getWindowLocationHash()/*-{
+    //
+    //        if ($wnd.location.hash) {
+    //            return $wnd.location.hash.slice(1, $wnd.location.hash.length);
+    //        }
+    //        return null;
+    //    }-*/;
+
     /**
      * @param autoCompleteWidget
      * @param object
@@ -656,19 +681,6 @@ public class CmsSolrController {
         }
     }
 
-    //    /**
-    //     * Returns the window location hash.<p>
-    //     * 
-    //     * @return the window location hash
-    //     */
-    //    protected native String getWindowLocationHash()/*-{
-    //
-    //        if ($wnd.location.hash) {
-    //            return $wnd.location.hash.slice(1, $wnd.location.hash.length);
-    //        }
-    //        return null;
-    //    }-*/;
-
     /**
      * Processes the JSON result.<p>
      * 
@@ -679,6 +691,8 @@ public class CmsSolrController {
     protected void processAutoComplete(SuggestOracle.Request request, SuggestOracle.Callback callback, JSONObject object) {
 
         try {
+
+            m_suggestions = new LinkedList<String>();
 
             String q = m_searchData.getSearchQuery().replaceAll("\"", "");
             q = q.toLowerCase();
@@ -713,9 +727,10 @@ public class CmsSolrController {
                     }
                     // sort the result by hits
                     collationMap.putAll(map);
+                    m_suggestions.addAll(collationMap.keySet());
                 }
 
-                List<Suggestion> res = new ArrayList<Suggestion>();
+                List<Suggestion> res = new LinkedList<Suggestion>();
                 for (final String title : m_titles) {
                     if (title.toLowerCase().startsWith(q)) {
                         res.add(new Suggestion() {
@@ -739,10 +754,8 @@ public class CmsSolrController {
                     }
                 }
 
-                Set<String> vals = new HashSet<String>();
-                vals.addAll(collationMap.keySet());
-                for (String sug : vals) {
-                    final String sugg = sug.replaceAll("\"", "");
+                for (final Map.Entry<String, Double> sug : collationMap.entrySet()) {
+                    final String sugg = sug.getKey().replaceAll("\"", "");
 
                     res.add(new Suggestion() {
 
