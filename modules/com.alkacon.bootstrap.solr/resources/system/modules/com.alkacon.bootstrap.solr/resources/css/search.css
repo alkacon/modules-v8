@@ -3,6 +3,7 @@
 }
 .gwt-SuggestBoxPopup {
 	margin-left: -1px;
+	z-index: 1000;
 }
 .gwt-SuggestBoxPopup table {
 	width: 100%;
