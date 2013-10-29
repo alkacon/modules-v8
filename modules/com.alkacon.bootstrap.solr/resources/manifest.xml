@@ -88,6 +88,34 @@
       <relations/>
       <accesscontrol/>
     </file>
+	<file>
+		<source>system/modules/com.alkacon.bootstrap.solr/.config</source>
+		<destination>system/modules/com.alkacon.bootstrap.solr/.config</destination>
+		<type>module_config</type>
+		<uuidstructure>4aedfe33-4071-11e3-be04-000c297c001d</uuidstructure>
+		<uuidresource>4aedfe34-4071-11e3-be04-000c297c001d</uuidresource>
+		<datelastmodified>Tue, 29 Oct 2013 08:16:10 GMT</datelastmodified>
+		<userlastmodified>Admin</userlastmodified>
+		<datecreated>Tue, 29 Oct 2013 08:08:28 GMT</datecreated>
+		<usercreated>Admin</usercreated>
+		<flags>0</flags>
+		<properties>
+			<property>
+				<name>locale</name>
+				<value><![CDATA[en]]></value>
+			</property>
+			<property>
+				<name>locale-available</name>
+				<value><![CDATA[en]]></value>
+			</property>
+			<property>
+				<name>search.exclude</name>
+				<value><![CDATA[all]]></value>
+			</property>
+		</properties>
+		<relations/>
+		<accesscontrol/>
+	</file>
     <file>
       <destination>system/modules/com.alkacon.bootstrap.solr/classes</destination>
       <type>folder</type>
