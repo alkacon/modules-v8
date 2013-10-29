@@ -4310,7 +4310,12 @@
 			<datecreated>Thu, 26 Sep 2013 12:18:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
