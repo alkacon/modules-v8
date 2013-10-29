@@ -48,7 +48,9 @@
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.js:12686601-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js:1908df28-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/app.js:11fe5a44-3a3b-11e3-a584-000c2943a707)
-        |%(link.weak:/system/modules/com.alkacon.bootstrap.solr/resources/solr/solr.nocache.js:e1802fcd-12d3-11e2-ad60-2d4102177146)" />
+        |%(link.weak:/system/modules/com.alkacon.bootstrap.solr/resources/solr/solr.nocache.js:e1802fcd-12d3-11e2-ad60-2d4102177146)
+        |%(link.weak:/system/modules/com.alkacon.bootstrap.solr/resources/dictionary.js:d2f20f93-1370-11e2-b821-2b1b08a6835d)
+        |%(link.weak:/system/modules/com.alkacon.bootstrap.solr/resources/configuration.js:e3fb6d55-0e64-11e2-8968-2b1b08a6835d)" />
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
 			App.init();

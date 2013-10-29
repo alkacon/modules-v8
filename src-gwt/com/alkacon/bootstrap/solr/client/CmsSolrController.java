@@ -94,14 +94,14 @@ public class CmsSolrController {
     protected class ValueComparator implements Comparator<String> {
 
         /** The base map. */
-        protected Map<String, Double> m_base;
+        protected Map<String, Integer> m_base;
 
         /**
          * Constructor.<p>
          * 
          * @param base the map base
          */
-        public ValueComparator(Map<String, Double> base) {
+        public ValueComparator(Map<String, Integer> base) {
 
             m_base = base;
         }
@@ -113,10 +113,10 @@ public class CmsSolrController {
          */
         public int compare(String a, String b) {
 
-            if (m_base.get(a).doubleValue() >= m_base.get(b).doubleValue()) {
-                return 1;
-            } else {
+            if (m_base.get(a).intValue() >= m_base.get(b).intValue()) {
                 return -1;
+            } else {
+                return 1;
             } // returning 0 would merge keys
         }
     }
@@ -155,7 +155,7 @@ public class CmsSolrController {
             if (event.getValue().equals(m_lastQuery) || event.getValue().equals(m_forwardQuery)) {
                 CmsSolrQueryData data = createSearchData(m_solrConfig, m_solrContext, event.getValue());
                 if (data.hasSelection()) {
-                    m_forwardQuery = CmsSolrQueryData.shortQuery(m_searchData.createQueryString());
+                    m_forwardQuery = CmsSolrQueryData.shortQuery(m_searchData.createQueryString(isTitle()));
                     doSearch(data, false);
                 }
             }
@@ -164,6 +164,9 @@ public class CmsSolrController {
 
     /** The logging object for this class. */
     private static final Logger LOG = Logger.getLogger("SearchController");
+
+    /** Signals initialization status. */
+    protected boolean m_init;
 
     /** The last executed query.*/
     protected String m_lastQuery;
@@ -178,7 +181,7 @@ public class CmsSolrController {
     protected Map<String, I_CmsSearchWidget> m_searchWidgets = new HashMap<String, I_CmsSearchWidget>();
 
     /** All titles. */
-    List<String> m_titles = new ArrayList<String>();
+    protected List<String> m_titles = new ArrayList<String>();
 
     /** A timer. */
     private Timer m_autocompleteTimer;
@@ -199,7 +202,7 @@ public class CmsSolrController {
     private CmsResultShareWidget m_shareWidget;
 
     /** Suggestions. */
-    private List<String> m_suggestions;
+    private TreeMap<String, Integer> m_suggestions;
 
     /**
      * Creates a controller.<p>
@@ -216,18 +219,12 @@ public class CmsSolrController {
         }
 
         History.addValueChangeHandler(new CmsHistoryValueChangeHandler(config, context));
-
         m_config = config;
         m_context = context;
         m_searchData = createSearchData(config, context, null);
-        if (m_searchData.isRestored()) {
-            doSearch(null, false);
-        } else {
-            if (m_context.isInitialized()) {
-                doSearch(null, true);
-            }
-        }
-        initWidgets();
+
+        initTitles();
+
     }
 
     /**
@@ -374,7 +371,7 @@ public class CmsSolrController {
                     inputWidget.update(result);
                 }
                 if (!getSearchData().isFromLocation()) {
-                    m_newLocationQuery = CmsSolrQueryData.shortQuery(getSearchData().createQueryString());
+                    m_newLocationQuery = CmsSolrQueryData.shortQuery(getSearchData().createQueryString(isTitle()));
                     History.newItem(m_newLocationQuery, false);
                 }
                 getSearchData().setFromLocation(false);
@@ -382,7 +379,7 @@ public class CmsSolrController {
             }
         };
 
-        String q = m_searchData.createQueryString();
+        String q = m_searchData.createQueryString(isTitle());
         String url = m_config.getSolrUrl() + q;
         sendRequest(url, callback);
     }
@@ -444,7 +441,7 @@ public class CmsSolrController {
      */
     public String getLinkToShare() {
 
-        String query = getSearchData().createQueryString().substring(1);
+        String query = getSearchData().createQueryString(isTitle()).substring(1);
         String onlineLink = getContext().getOnlineUrl();
         String queryParams = CmsSolrQueryData.shortQuery(query);
         String link = onlineLink + "?" + queryParams;
@@ -477,7 +474,7 @@ public class CmsSolrController {
      * 
      * @return the last suggestions
      */
-    public List<String> getSuggestions() {
+    public TreeMap<String, Integer> getSuggestions() {
 
         return m_suggestions;
     }
@@ -543,6 +540,9 @@ public class CmsSolrController {
                     for (CmsSolrFacet facet : beans) {
                         getTitles().add(facet.getName());
                     }
+                    if (!m_init) {
+                        init();
+                    }
                 } catch (Throwable t) {
                     // no facets found, so do nothing here
                 }
@@ -550,7 +550,9 @@ public class CmsSolrController {
 
         };
 
-        sendRequest(m_config.getSolrUrl() + m_config.getTitleQuery(), callback);
+        if (getTitles().isEmpty()) {
+            sendRequest(m_config.getSolrUrl() + m_config.getTitleQuery(), callback);
+        }
     }
 
     /**
@@ -643,18 +645,31 @@ public class CmsSolrController {
         sendRequest(url, solrCallback);
     }
 
-    //    /**
-    //     * Returns the window location hash.<p>
-    //     * 
-    //     * @return the window location hash
-    //     */
-    //    protected native String getWindowLocationHash()/*-{
-    //
-    //        if ($wnd.location.hash) {
-    //            return $wnd.location.hash.slice(1, $wnd.location.hash.length);
-    //        }
-    //        return null;
-    //    }-*/;
+    /**
+     * Performs initial search.<p>
+     */
+    protected void init() {
+
+        if (m_searchData.isRestored()) {
+            doSearch(null, false);
+        } else {
+            if (m_context.isInitialized()) {
+                doSearch(null, true);
+            }
+        }
+        initWidgets();
+        m_init = true;
+    }
+
+    /**
+     * Returns true if a title search has been executed.<p>
+     * 
+     * @return true if a title search has been executed
+     */
+    protected boolean isTitle() {
+
+        return m_titles.contains(getSearchData().getSearchQuery());
+    }
 
     /**
      * @param autoCompleteWidget
@@ -689,13 +704,13 @@ public class CmsSolrController {
 
         try {
 
-            m_suggestions = new LinkedList<String>();
+            m_suggestions = new TreeMap<String, Integer>();
 
             String q = m_searchData.getSearchQuery().replaceAll("\"", "");
             q = q.toLowerCase();
 
-            HashMap<String, Double> map = new HashMap<String, Double>();
-            TreeMap<String, Double> collationMap = new TreeMap<String, Double>(new ValueComparator(map));
+            HashMap<String, Integer> map = new HashMap<String, Integer>();
+            TreeMap<String, Integer> collationMap = new TreeMap<String, Integer>(new ValueComparator(map));
 
             if (callback != null) {
 
@@ -708,23 +723,23 @@ public class CmsSolrController {
                         JSONValue val = suggestions.get(i);
                         if (val.isString() != null) {
                             String sugg = val.isString().stringValue();
-                            if (sugg.equals(q)) {
-                                JSONObject collations = suggestions.get(i + 1).isObject();
-                                JSONArray suggestion = collations.get("suggestion").isArray();
-                                if (suggestion != null) {
-                                    for (int j = 0; j < suggestion.size(); j++) {
-                                        String collQ = suggestion.get(j).isString().stringValue();
-                                        Double collC = new Double(j);
-                                        map.put(collQ, collC);
-                                    }
-                                    break;
+                            if (sugg.equals("collation")) {
+                                try {
+                                    JSONArray collations = suggestions.get(i + 1).isArray();
+                                    String collq = collations.get(1).isString().toString().replaceAll("\\\\\"", "").replaceAll(
+                                        "\"",
+                                        "");
+                                    Integer count = new Integer(collations.get(3).isNumber().toString());
+                                    map.put(collq, count);
+                                } catch (Throwable t) {
+                                    // noop
                                 }
                             }
                         }
                     }
                     // sort the result by hits
                     collationMap.putAll(map);
-                    m_suggestions.addAll(collationMap.keySet());
+                    m_suggestions = collationMap;
                 }
 
                 List<Suggestion> res = new LinkedList<Suggestion>();
@@ -751,7 +766,7 @@ public class CmsSolrController {
                     }
                 }
 
-                for (final Map.Entry<String, Double> sug : collationMap.entrySet()) {
+                for (final Map.Entry<String, Integer> sug : collationMap.entrySet()) {
                     final String sugg = sug.getKey().replaceAll("\"", "");
 
                     res.add(new Suggestion() {
@@ -761,7 +776,7 @@ public class CmsSolrController {
                          */
                         public String getDisplayString() {
 
-                            return sugg;
+                            return sugg + " (" + sug.getValue() + ")";
                         }
 
                         /**
@@ -1132,7 +1147,7 @@ public class CmsSolrController {
      * 
      * @return facet beans
      */
-    Map<String, List<CmsSolrFacet>> toFacetBeans(JSONObject joFacetFields) {
+    protected Map<String, List<CmsSolrFacet>> toFacetBeans(JSONObject joFacetFields) {
 
         long facetsStart = System.currentTimeMillis();
         Map<String, List<CmsSolrFacet>> facets = new HashMap<String, List<CmsSolrFacet>>();

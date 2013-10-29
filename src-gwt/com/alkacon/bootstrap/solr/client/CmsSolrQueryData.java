@@ -374,22 +374,20 @@ public class CmsSolrQueryData implements IsSerializable {
     public String createAutocompleteString() {
 
         StringBuffer buf = new StringBuffer();
-        buf.append(createQueryString());
-        buf.append("&spellcheck=on");
+        buf.append(createQueryString(false));
+        buf.append(URL.encode("&spellcheck=on"));
         buf.append(URL.encode("&spellcheck.q="));
-        buf.append(URL.encode(m_searchQuery.toLowerCase()));
-        buf.append(URL.encode("&spellcheck.extendedResults=false"));
-        buf.append(URL.encode("&spellcheck.collateExtendedResults=true"));
-        buf.append(URL.encode("&spellcheck.onlyMorePopular=true"));
+        buf.append(URL.encode("\"" + m_searchQuery.toLowerCase()) + "\"");
         return buf.toString();
     }
 
     /**
      * Creates the actual query string send to the search engine.<p>
+     * @param isTitle 
      * 
      * @return a generated query string based on the search data
      */
-    public String createQueryString() {
+    public String createQueryString(boolean isTitle) {
 
         StringBuffer buf = new StringBuffer(20);
         StringBuffer queryBuf = new StringBuffer(20);
@@ -408,7 +406,11 @@ public class CmsSolrQueryData implements IsSerializable {
                 queryBuf.append(qf);
             }
             queryBuf.append("'}");
-            queryBuf.append(m_searchQuery);
+            if (isTitle) {
+                queryBuf.append("\"" + m_searchQuery + "\"");
+            } else {
+                queryBuf.append(m_searchQuery);
+            }
             buf.append(queryBuf);
         } else {
             buf.append("*:*");
@@ -965,7 +967,7 @@ public class CmsSolrQueryData implements IsSerializable {
         buf.append(m_sort);
 
         buf.append("]', SOLR-Query:'");
-        buf.append(createQueryString());
+        buf.append(createQueryString(false));
         buf.append("', Autocomplete-Query:'");
         buf.append(createAutocompleteString());
         buf.append("']");

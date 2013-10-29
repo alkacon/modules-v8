@@ -74,8 +74,8 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
         @Override
         public void requestSuggestions(Request request, Callback callback) {
 
-            if (m_suggestBox.getText() != null) {
-                String query = m_suggestBox.getText();
+            if (m_suggestBox.getValue() != null) {
+                String query = m_suggestBox.getValue();
                 if (query.length() > 3) {
                     getController().getSearchData().setSearchQuery(query);
                     getController().doAutoComplete(request, callback);
@@ -89,6 +89,47 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
 
     /** The suggest box. */
     protected SuggestBox m_suggestBox;
+
+    /**
+     * Handles the up and down selection of the suggest oracle.<p>
+     */
+    private final SuggestBox.DefaultSuggestionDisplay m_suggestionDisplay = new SuggestBox.DefaultSuggestionDisplay() {
+
+        /**
+         * @see com.google.gwt.user.client.ui.SuggestBox.DefaultSuggestionDisplay#decorateSuggestionList(com.google.gwt.user.client.ui.Widget)
+         */
+        @Override
+        protected Widget decorateSuggestionList(Widget suggestionList) {
+
+            int width = RootPanel.get(getConfig().getId()).getElement().getOffsetWidth();
+            String styleValue = suggestionList.getElement().getAttribute("style");
+            styleValue = styleValue + " width: " + width + "px";
+            suggestionList.getElement().setAttribute("style", styleValue);
+            return suggestionList;
+        }
+
+        /**
+         * @see com.google.gwt.user.client.ui.SuggestBox.DefaultSuggestionDisplay#moveSelectionDown()
+         */
+        @Override
+        protected void moveSelectionDown() {
+
+            super.moveSelectionDown();
+            m_currentSelection = getCurrentSelection().getReplacementString();
+            search(m_currentSelection, 0);
+        }
+
+        /**
+         * @see com.google.gwt.user.client.ui.SuggestBox.DefaultSuggestionDisplay#moveSelectionUp()
+         */
+        @Override
+        protected void moveSelectionUp() {
+
+            super.moveSelectionUp();
+            m_currentSelection = getCurrentSelection().getReplacementString();
+            search(m_currentSelection, 0);
+        }
+    };
 
     /**
      * Constructor, creates a new CmsSearchUiSearchfieldWidget.<p>
@@ -109,6 +150,9 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
             Event.sinkEvents(e, Event.ONCLICK);
             Event.setEventListener(e, new EventListener() {
 
+                /**
+                 * @see com.google.gwt.user.client.EventListener#onBrowserEvent(com.google.gwt.user.client.Event)
+                 */
                 @Override
                 public void onBrowserEvent(Event event) {
 
@@ -118,6 +162,9 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
                         if (sf != null) {
                             sf.insert(suggestBox, 0);
                         }
+                        if (controller.getSearchData().getSearchQuery() != null) {
+                            suggestBox.setValue(controller.getSearchData().getSearchQuery());
+                        }
                         m_suggestBox = suggestBox;
                     }
                 }
@@ -125,7 +172,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
         } else {
             final SuggestBox suggestBox = createSugestBox(null);
             if (controller.getSearchData().getSearchQuery() != null) {
-                suggestBox.setText(controller.getSearchData().getSearchQuery());
+                suggestBox.setValue(controller.getSearchData().getSearchQuery());
             }
             m_suggestBox = suggestBox;
 
@@ -141,7 +188,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
                  */
                 public void onClick(ClickEvent event) {
 
-                    search(suggestBox.getText(), 0);
+                    search(suggestBox.getValue(), 0);
                 }
             });
             searchbutton.getElement().setInnerHTML("Go");
@@ -154,7 +201,6 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
             group.add(suggestBox);
             group.setStyleName("input-group");
             group.add(buttonGroup);
-
             getPanel().add(group);
         }
     }
@@ -164,11 +210,10 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
      */
     public void update(CmsSolrDocumentList result) {
 
+        // TODO: check if this is required
         if (m_suggestBox != null) {
             if (CmsSolrStringUtil.isEmpty(getController().getSearchData().getSearchQuery())) {
                 m_suggestBox.setValue("");
-            } else {
-                m_suggestBox.setValue(getController().getSearchData().getSearchQuery(), false);
             }
         }
     }
@@ -183,51 +228,15 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
      */
     protected SuggestBox createSugestBox(final String id) {
 
+        // create or wrap the query input field
         Element e = DOM.getElementById(id);
         TextBox searchField = new TextBox();
         if (e != null) {
             searchField = TextBox.wrap(e);
         }
 
-        final SuggestBox.DefaultSuggestionDisplay suggestDisplay = new SuggestBox.DefaultSuggestionDisplay() {
-
-            /**
-             * @see com.google.gwt.user.client.ui.SuggestBox.DefaultSuggestionDisplay#decorateSuggestionList(com.google.gwt.user.client.ui.Widget)
-             */
-            @Override
-            protected Widget decorateSuggestionList(Widget suggestionList) {
-
-                int width = RootPanel.get(getConfig().getId()).getElement().getOffsetWidth();
-                String styleValue = suggestionList.getElement().getAttribute("style");
-                styleValue = styleValue + " width: " + width + "px";
-                suggestionList.getElement().setAttribute("style", styleValue);
-                return suggestionList;
-            }
-
-            /**
-             * @see com.google.gwt.user.client.ui.SuggestBox.DefaultSuggestionDisplay#moveSelectionDown()
-             */
-            @Override
-            protected void moveSelectionDown() {
-
-                super.moveSelectionDown();
-                m_currentSelection = getCurrentSelection().getReplacementString();
-                search(m_currentSelection, 0);
-            }
-
-            /**
-             * @see com.google.gwt.user.client.ui.SuggestBox.DefaultSuggestionDisplay#moveSelectionUp()
-             */
-            @Override
-            protected void moveSelectionUp() {
-
-                super.moveSelectionUp();
-                m_currentSelection = getCurrentSelection().getReplacementString();
-                search(m_currentSelection, 0);
-            }
-        };
-
-        final SuggestBox suggestBox = new SuggestBox(new AllSuggestionOracle(), searchField, suggestDisplay);
+        // create the suggest box
+        final SuggestBox suggestBox = new SuggestBox(new AllSuggestionOracle(), searchField, m_suggestionDisplay);
         suggestBox.setAutoSelectEnabled(false);
         if (getConfig().getType().equals(WIDGET_TYPES.autocompleteHeader)) {
             suggestBox.getElement().setAttribute("name", getConfig().getId());
@@ -235,23 +244,31 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
         suggestBox.getElement().setAttribute("autocomplete", "off");
         suggestBox.setStyleName("form-control");
 
+        // add the selection handler
         suggestBox.addSelectionHandler(new SelectionHandler<SuggestOracle.Suggestion>() {
 
+            /**
+             * Handles the selection action on a suggestion.<p>
+             * 
+             * @param event the selection event
+             */
             public void onSelection(SelectionEvent<Suggestion> event) {
 
-                if (id != null) {
-                    String q = "\"" + event.getSelectedItem().getReplacementString() + "\"";
-                    getController().getSearchData().setSearchQuery(q);
-                    suggestBox.setValue(q, false);
-                    submitForm();
-                } else {
-                    if (!((m_currentSelection != null) && m_currentSelection.equals(getController().getSearchData().getSearchQuery()))) {
-                        search(event.getSelectedItem().getReplacementString(), 0);
+                if (!((m_currentSelection != null) && m_currentSelection.equals(getController().getSearchData().getSearchQuery()))) {
+                    // only if the query has changed execute a new search
+                    String newQuery = event.getSelectedItem().getReplacementString();
+                    if (id != null) {
+                        // when search is executed from an 'external' form, quote the query and submit the form
+                        submitForm();
+                    } else {
+                        search(newQuery, 0);
                     }
                 }
             }
         });
 
+        // add a key handler
+        // TODO: Check if this is executed any time ???
         suggestBox.getValueBox().addKeyUpHandler(new KeyUpHandler() {
 
             /**
@@ -261,8 +278,8 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
 
                 if (event.getNativeEvent().getKeyCode() == KeyCodes.KEY_ENTER) {
                     if (((m_currentSelection != null) && !m_currentSelection.equals(getController().getSearchData().getSearchQuery()))
-                        || CmsSolrStringUtil.isEmpty(suggestBox.getText())) {
-                        search(suggestBox.getText(), 50);
+                        || CmsSolrStringUtil.isEmpty(suggestBox.getValue())) {
+                        search(suggestBox.getValue(), 50);
                     }
                 }
             }
@@ -278,12 +295,8 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
      */
     protected void search(String query, int delay) {
 
-        String q = query;
-        if (getController().getTitles().contains(q)) {
-            q = "\"" + q + "\"";
-        }
-        getController().getSearchData().setSearchQuery(q);
-        getController().doSearch(q, delay);
+        getController().getSearchData().setSearchQuery(query);
+        getController().doSearch(query, delay);
     }
 
     /**

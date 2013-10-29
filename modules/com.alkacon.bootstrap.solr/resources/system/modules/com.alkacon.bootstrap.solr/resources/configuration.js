@@ -1,4 +1,5 @@
 <%@page buffer="none" session="false" taglibs="c,cms,fmt"%>
+<% org.opencms.util.CmsRequestUtil.setNoCacheHeaders(response); %>
 <c:set var="locale"><cms:info property="opencms.request.locale" /></c:set>
 <fmt:setLocale value="${locale}" />
 <fmt:bundle basename="com/alkacon/bootstrap/solr/messages">

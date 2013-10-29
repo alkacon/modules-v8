@@ -38,6 +38,8 @@ import com.alkacon.bootstrap.solr.client.CmsSolrDocumentList;
 import com.alkacon.bootstrap.solr.client.I_CmsSolrLayoutBundle;
 import com.alkacon.bootstrap.solr.client.UserMessages;
 
+import java.util.Map;
+
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
@@ -200,8 +202,8 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
                     noHit.add(new HTMLPanel("h4", "Did you mean?"));
                     HTMLPanel suggs = new HTMLPanel("ul", "");
                     noHit.add(suggs);
-                    for (String sugg : getController().getSuggestions()) {
-                        CmsSuggestEntry ent = new CmsSuggestEntry(sugg);
+                    for (Map.Entry<String, Integer> sugg : getController().getSuggestions().entrySet()) {
+                        CmsSuggestEntry ent = new CmsSuggestEntry(sugg.getKey(), sugg.getValue());
                         suggs.add(ent);
                     }
                 }
@@ -215,17 +217,18 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
      */
     private class CmsSuggestEntry extends HTMLPanel implements ClickHandler, HasClickHandlers {
 
-        /** The page number. */
+        /** The text. */
         protected String m_text;
 
         /**
          * Constructor, creates a new CmsSearchUiPaginationValue.<p>
          * 
          * @param text the text value
+         * @param count the count
          */
-        public CmsSuggestEntry(String text) {
+        public CmsSuggestEntry(String text, Integer count) {
 
-            super("li", "<a href=\"javascript:void()\" >" + text + " </a>");
+            super("li", "<a href=\"javascript:void()\" >" + text + " (" + count + ")" + " </a>");
             m_text = text;
             addClickHandler(this);
         }

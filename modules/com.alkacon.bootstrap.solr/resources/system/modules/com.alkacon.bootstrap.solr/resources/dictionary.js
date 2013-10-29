@@ -1,4 +1,5 @@
 <%@page buffer="none" session="false" taglibs="c,cms" import="java.util.*"%><%--
+--%><% org.opencms.util.CmsRequestUtil.setNoCacheHeaders(response); %><%--
 --%><c:set var="locale"><cms:info property="opencms.request.locale" /></c:set><%--
 --%><% ResourceBundle bundle = org.opencms.i18n.CmsResourceBundleLoader.getBundle("com.alkacon.bootstrap.solr.messages", new Locale((String)pageContext.getAttribute("locale"))); %><%--
 --%>var GWTsolrUIDictionary = {
@@ -14,17 +15,13 @@
             out.println(val);
         }
         java.util.List<org.opencms.workplace.explorer.CmsExplorerTypeSettings> settings = org.opencms.main.OpenCms.getWorkplaceManager().getExplorerTypeSettings();
-        org.opencms.workplace.explorer.CmsExplorer exp =  new org.opencms.workplace.explorer.CmsExplorer(jae);
+        Locale locale = new Locale((String)pageContext.getAttribute("locale"));
         for (org.opencms.workplace.explorer.CmsExplorerTypeSettings setting : settings) {
-            String name = setting.getName();
-            String title = setting.getTitleKey();
+            String title = org.opencms.workplace.CmsWorkplaceMessages.getResourceTypeName(locale, setting.getName());
             if (title == null) {
-                title = org.opencms.workplace.CmsWorkplaceMessages.getResourceTypeName(exp, name);
+                title = setting.getName();
             }
-            if (title == null) {
-                title = name;
-            }
-            String val = "\"" + name + "\":'" + title + "',";
+            String val = "\"" + setting.getName() + "\":'" + title + "',";
             out.println(val);
         }
 %>"locale"                            :'${locale}',
