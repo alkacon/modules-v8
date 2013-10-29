@@ -65,7 +65,7 @@
     <li class="hidden-sm" id="searchButtonHeader"><a class="search"><i class="icon-search search-btn"></i></a></li>                               
 			</ul>
 			<div class="search-open">
-				<form class="form-inline" name="searchFormHeader" action="${cms.functionDetail['Solr search result page']}">
+				<form class="form-inline" name="searchFormHeader" action="${cms.functionDetail['Search page']}">
 					<div class="input-group" id="searchContentHeader">
 						<input type="text" class="form-control" placeholder="Search" id="solrWidgetAutoCompleteHeader" />
 						<span class="input-group-btn">
