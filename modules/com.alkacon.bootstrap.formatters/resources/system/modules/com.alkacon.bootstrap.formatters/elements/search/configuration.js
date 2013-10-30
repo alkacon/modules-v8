@@ -2,7 +2,7 @@
 <% org.opencms.util.CmsRequestUtil.setNoCacheHeaders(response); %>
 <c:set var="locale"><cms:info property="opencms.request.locale" /></c:set>
 <fmt:setLocale value="${locale}" />
-<cms:bundle basename="com.alkacon.bootstrap.search.messages">
+<cms:bundle basename="com.alkacon.bootstrap.formatters.messages">
     var GWTsearchUIConfiguration = {
         "general" : {
             "searchUrl" : '<cms:link>/handleSolrSelect</cms:link>',
@@ -43,11 +43,6 @@
             "id" : "searchWidgetAutoCompleteHeader",
             "label" : '<fmt:message key="label.search" />',
             "fields" : [ "content_en", "content_de", "Title_exact" ]
-        },
-        "dateRanges" : {
-            "id" : "searchWidgetDateRange",
-            "label" : '<fmt:message key="label.last.changes" />',
-            "fields" : [ "lastmodified" ]
         },
         "textFacets" : {
             "id" : 'searchWidgetTextFacet',

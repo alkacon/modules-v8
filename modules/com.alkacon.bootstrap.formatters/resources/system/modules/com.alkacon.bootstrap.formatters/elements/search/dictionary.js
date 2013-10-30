@@ -25,7 +25,7 @@
         out.println("\t" + val);
     }
     
-    java.util.ResourceBundle bundle = org.opencms.i18n.CmsResourceBundleLoader.getBundle("com.alkacon.bootstrap.search.messages", locale);
+    java.util.ResourceBundle bundle = org.opencms.i18n.CmsResourceBundleLoader.getBundle("com.alkacon.bootstrap.formatters.messages", locale);
     for (String key : bundle.keySet()) {
         String value = bundle.getString(key);
         String val = "\"" + key + "\":'" + value + "',";
