@@ -45,6 +45,9 @@ public interface I_CmsSolrLayoutBundle extends ClientBundle {
         // not yet used
     }
 
+    /** The bundle instance. */
+    I_CmsSolrLayoutBundle INSTANCE = GWT.create(I_CmsSolrLayoutBundle.class);
+
     /**
      * Image resource accessor.<p>
      *
@@ -82,6 +85,14 @@ public interface I_CmsSolrLayoutBundle extends ClientBundle {
      *
      * @return an image resource
      */
+    @Source("images/loading.gif")
+    ImageResource loading();
+
+    /**
+     * Image resource accessor.<p>
+     *
+     * @return an image resource
+     */
     @Source("images/pdf.png")
     ImageResource pdf();
 
@@ -94,22 +105,19 @@ public interface I_CmsSolrLayoutBundle extends ClientBundle {
     ImageResource ppt();
 
     /**
-     * Image resource accessor.<p>
-     *
-     * @return an image resource
-     */
-    @Source("images/xml.png")
-    ImageResource xml();
-
-    /** The bundle instance. */
-    I_CmsSolrLayoutBundle INSTANCE = GWT.create(I_CmsSolrLayoutBundle.class);
-
-    /**
      * Access method.<p>
      * 
      * @return the constants CSS
      */
     @Source("solr.css")
     I_CmsSolrCss solrCss();
+
+    /**
+     * Image resource accessor.<p>
+     *
+     * @return an image resource
+     */
+    @Source("images/xml.png")
+    ImageResource xml();
 
 }

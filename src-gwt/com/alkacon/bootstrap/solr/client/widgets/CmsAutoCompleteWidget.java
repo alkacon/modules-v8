@@ -283,6 +283,10 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
             public void onKeyUp(KeyUpEvent event) {
 
                 if (event.getNativeEvent().getKeyCode() == KeyCodes.KEY_ENTER) {
+                    if (((m_currentSelection != null) && !m_currentSelection.equals(getController().getSearchData().getSearchQuery()))
+                        || CmsSolrStringUtil.isEmpty(suggestBox.getValue())) {
+                        search(suggestBox.getValue(), 50);
+                    }
                     display.hideSuggestions();
                 }
             }

@@ -33,7 +33,6 @@ import com.alkacon.bootstrap.solr.client.CmsSolrDocumentList;
 
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
-import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 
 /**
@@ -41,8 +40,8 @@ import com.google.gwt.user.client.ui.RootPanel;
  */
 public class CmsResetFacetWidget extends A_CmsSearchWidget {
 
-    /** The reset widget itself. */
-    private Label m_reset;
+    /** The widget. */
+    private CmsLabelWidget m_reset;
 
     /**
      * Public constructor with parameters.<p>
@@ -54,9 +53,7 @@ public class CmsResetFacetWidget extends A_CmsSearchWidget {
     public CmsResetFacetWidget(RootPanel panel, CmsSolrController controller, CmsWidgetConfig config) {
 
         super(panel, controller, config);
-
-        m_reset = new Label(config.getLabel());
-        m_reset.setStyleName("resetFacets");
+        m_reset = new CmsLabelWidget(config.getLabel(), " icon-remove");
         m_reset.addClickHandler(new ClickHandler() {
 
             /**
@@ -66,6 +63,7 @@ public class CmsResetFacetWidget extends A_CmsSearchWidget {
 
                 getController().getSearchData().clearFacetFilters();
                 getController().doSearch(false);
+
             }
         });
     }

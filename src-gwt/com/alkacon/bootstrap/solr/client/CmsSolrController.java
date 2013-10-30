@@ -42,7 +42,6 @@ import com.alkacon.bootstrap.solr.client.widgets.CmsResultAdvisorWidget;
 import com.alkacon.bootstrap.solr.client.widgets.CmsResultCountWidget;
 import com.alkacon.bootstrap.solr.client.widgets.CmsResultListWidget;
 import com.alkacon.bootstrap.solr.client.widgets.CmsResultShareWidget;
-import com.alkacon.bootstrap.solr.client.widgets.CmsSelectionWidget;
 import com.alkacon.bootstrap.solr.client.widgets.CmsSortBarWidget;
 import com.alkacon.bootstrap.solr.client.widgets.I_CmsSearchWidget;
 import com.alkacon.bootstrap.solr.client.widgets.datepicker.CmsDateFacetWidget;
@@ -77,6 +76,8 @@ import com.google.gwt.json.client.JSONValue;
 import com.google.gwt.user.client.History;
 import com.google.gwt.user.client.Timer;
 import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.ui.HTMLPanel;
+import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.SuggestOracle;
 import com.google.gwt.user.client.ui.SuggestOracle.Suggestion;
@@ -217,6 +218,8 @@ public class CmsSolrController {
         } else {
             LOG.setLevel(Level.INFO);
         }
+
+        createLoading();
 
         History.addValueChangeHandler(new CmsHistoryValueChangeHandler(config, context));
         m_config = config;
@@ -564,6 +567,19 @@ public class CmsSolrController {
     public void registerSearchWidget(String name, I_CmsSearchWidget widget) {
 
         m_searchWidgets.put(name, widget);
+    }
+
+    /**
+     * Creates the loading.<p>
+     */
+    private void createLoading() {
+
+        Image img = new Image(I_CmsSolrLayoutBundle.INSTANCE.loading());
+        img.setTitle(UserMessages.getMessage("label.loading"));
+        img.setAltText(UserMessages.getMessage("label.loading"));
+        HTMLPanel p = new HTMLPanel("p", UserMessages.getMessage("label.loading"));
+        RootPanel.get("loading").add(img);
+        RootPanel.get("loading").add(p);
     }
 
     /**
@@ -1076,9 +1092,6 @@ public class CmsSolrController {
                         break;
                     case autocompleteHeader:
                         new CmsAutoCompleteWidget(panel, this, widgetConfig.getValue());
-                        break;
-                    case currentSelection:
-                        new CmsSelectionWidget(panel, this, widgetConfig.getValue());
                         break;
                     case dateRanges:
                         new CmsDateFacetWidget(panel, this, widgetConfig.getValue());

@@ -33,7 +33,6 @@ import com.alkacon.bootstrap.solr.client.CmsSolrDocumentList;
 
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
-import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 
 /**
@@ -41,11 +40,8 @@ import com.google.gwt.user.client.ui.RootPanel;
  */
 public class CmsResultAdvisorWidget extends A_CmsSearchWidget {
 
-    /** The current query. */
-    protected String m_query;
-
     /** The label used by this widget. */
-    private Label m_label = new Label();
+    private CmsLabelWidget m_advice;
 
     /**
      * The public constructor.<p>
@@ -57,10 +53,8 @@ public class CmsResultAdvisorWidget extends A_CmsSearchWidget {
     public CmsResultAdvisorWidget(RootPanel panel, CmsSolrController controller, CmsWidgetConfig config) {
 
         super(panel, controller, config);
-
-        m_label.setText(config.getLabel());
-        m_label.setStyleName("advisorButton");
-        m_label.addClickHandler(new ClickHandler() {
+        m_advice = new CmsLabelWidget(config.getLabel(), "icon-bullhorn");
+        m_advice.addClickHandler(new ClickHandler() {
 
             /**
              * @see com.google.gwt.event.dom.client.ClickHandler#onClick(com.google.gwt.event.dom.client.ClickEvent)
@@ -84,7 +78,7 @@ public class CmsResultAdvisorWidget extends A_CmsSearchWidget {
             || ((getController().getSearchData().getSearchQuery() != null) && !(getController().getSearchData().getSearchQuery().trim().equals("")))
             || (getController().getSearchData().getStartDate() != null)
             || (getController().getSearchData().getEndDate() != null)) {
-            getPanel().add(m_label);
+            getPanel().add(m_advice);
         }
     }
 }

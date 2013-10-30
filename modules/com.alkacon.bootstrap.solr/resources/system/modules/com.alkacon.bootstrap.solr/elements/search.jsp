@@ -35,10 +35,7 @@
 					</div>
 				</div>
 				<div class="col-md-8">
-					<div id="loading">
-						<img src="<cms:link>/system/modules/com.alkacon.bootstrap.solr/resources/images/ajax-loader.gif</cms:link>" title="loading ..." alt="Loading, please wait." />
-						<p>loading</p>
-					</div>
+					<div id="loading"></div>
 					<div id="rightCol">
 						<div id="solrWidgetShareResult"></div>
 						<div id="solrWidgetSortBar"></div>

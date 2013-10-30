@@ -34,10 +34,6 @@
              "facet.limit" : 15,
              "auto.complete.delay" : 300
         },
-        "currentSelection" : {
-            "id" : "solrWidgetCurrentSelection",
-            "label" : '<fmt:message key="label.your.selection" />',
-        },
         "autocomplete" : {
             "id" : "solrWidgetAutoComplete",
             "label" : '<fmt:message key="label.search" />',
