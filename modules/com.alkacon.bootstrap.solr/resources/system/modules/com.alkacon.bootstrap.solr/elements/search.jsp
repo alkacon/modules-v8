@@ -13,9 +13,6 @@
 		<div id="alkaconSolrSearch" class="lists margin-bottom-20">
 			<script type="text/javascript">
 
-				<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.solr/resources/dictionary.js:d2f20f93-1370-11e2-b821-2b1b08a6835d)" />
-				<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.solr/resources/configuration.js:e3fb6d55-0e64-11e2-8968-2b1b08a6835d)" />
-
 				var GWTsolrContextInformation = {
 				        "onlineURL"    : "<%= onlineLink %>",
 				        "rootSite"     : "<%= con.getSiteRoot() %>",
