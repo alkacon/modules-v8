@@ -31,9 +31,9 @@
 
 package com.alkacon.bootstrap.search.client.widgets;
 
+import com.alkacon.bootstrap.search.client.CmsSearchConfig.CmsWidgetConfig;
 import com.alkacon.bootstrap.search.client.CmsSearchController;
 import com.alkacon.bootstrap.search.client.CmsSearchDocumentList;
-import com.alkacon.bootstrap.search.client.CmsSearchConfig.CmsWidgetConfig;
 
 import java.util.Collections;
 import java.util.Map;
@@ -87,12 +87,7 @@ public class CmsSortBarWidget extends A_CmsSearchWidget {
             }
         }
 
-        // find the selected value and mark it
-        for (int i = 0; i < m_order.getItemCount(); i++) {
-            if (m_order.getValue(i).equals(controller.getSearchData().getSort())) {
-                m_order.setSelectedIndex(i);
-            }
-        }
+        select();
 
         // a on change handler to run a new search after a new sort order is selected
         m_order.addChangeHandler(new ChangeHandler() {
@@ -118,10 +113,35 @@ public class CmsSortBarWidget extends A_CmsSearchWidget {
     }
 
     /**
+     * Selects the default value.<p>
+     */
+    private void select() {
+
+        // find the selected value and mark it
+        int defaultIndex = -1;
+        boolean found = false;
+        for (int i = 0; i < m_order.getItemCount(); i++) {
+            String curr = m_order.getValue(i);
+            if ("Title_exact+asc".equals(curr)) {
+                defaultIndex = i;
+            }
+            if (m_order.getValue(i).equals(getController().getSearchData().getSort())) {
+                m_order.setSelectedIndex(i);
+                found = true;
+                break;
+            }
+        }
+        if ((defaultIndex != -1) && !found) {
+            m_order.setSelectedIndex(defaultIndex);
+        }
+    }
+
+    /**
      * @see com.alkacon.bootstrap.search.client.widgets.I_CmsSearchWidget#update(com.alkacon.bootstrap.search.client.CmsSearchDocumentList)
      */
     public void update(CmsSearchDocumentList result) {
 
-        // noop
+        select();
     }
+
 }
