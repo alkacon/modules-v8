@@ -185,7 +185,7 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
                 String excerpt = oneResult.getExcerpt();
                 String suffix = oneResult.getSuffix();
                 if (excerpt == null) {
-                    excerpt = "No search term for generating an excerpt.";
+                    excerpt = UserMessages.getMessage("label.noExcerpt");
                 }
                 resultList.add(new CmsEntry(title, link, date, suffix, excerpt));
             }
@@ -193,13 +193,18 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
         } else {
             // only add the not found info, if there is a search query
             if (!getController().getSearchData().getSearchQuery().equals("")) {
+
                 HTMLPanel noHit = new HTMLPanel("p", UserMessages.getMessage("label.nothingFoundForQuery")
                     + ": '"
                     + getController().getSearchData().getSearchQuery()
                     + "'");
 
+                if ((getController().getSuggestions() == null) || getController().getSuggestions().isEmpty()) {
+                    getController().doSuggesting(null, null);
+                }
+
                 if ((getController().getSuggestions() != null) && !getController().getSuggestions().isEmpty()) {
-                    noHit.add(new HTMLPanel("h4", "Did you mean?"));
+                    noHit.add(new HTMLPanel("h4", UserMessages.getMessage("label.didYouMean")));
                     HTMLPanel suggs = new HTMLPanel("ul", "");
                     noHit.add(suggs);
                     for (Map.Entry<String, Integer> sugg : getController().getSuggestions().entrySet()) {

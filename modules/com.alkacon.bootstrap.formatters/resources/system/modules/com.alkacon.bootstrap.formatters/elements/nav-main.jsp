@@ -69,7 +69,7 @@
 					<div class="input-group" id="searchContentHeader">
 						<input type="text" class="form-control" placeholder="Search" id="solrWidgetAutoCompleteHeader" />
 						<span class="input-group-btn">
-							<button class="btn-u" type="button">Go</button>
+							<button class="btn-u" type="button" onclick="this.form.submit(); return false;">Go</button>
 						</span>
 					</div>
 				</form>

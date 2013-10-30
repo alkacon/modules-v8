@@ -312,7 +312,7 @@ public class CmsSolrController {
      * @param request the suggestion request
      * @param callback the suggestion callback to execute
      */
-    public void doAutoComplete(final SuggestOracle.Request request, final SuggestOracle.Callback callback) {
+    public void doSuggesting(final SuggestOracle.Request request, final SuggestOracle.Callback callback) {
 
         showLoading(20);
         if (m_autocompleteTimer != null) {
@@ -574,12 +574,14 @@ public class CmsSolrController {
      */
     private void createLoading() {
 
-        Image img = new Image(I_CmsSolrLayoutBundle.INSTANCE.loading());
-        img.setTitle(UserMessages.getMessage("label.loading"));
-        img.setAltText(UserMessages.getMessage("label.loading"));
-        HTMLPanel p = new HTMLPanel("p", UserMessages.getMessage("label.loading"));
-        RootPanel.get("loading").add(img);
-        RootPanel.get("loading").add(p);
+        if (RootPanel.get("loading") != null) {
+            Image img = new Image(I_CmsSolrLayoutBundle.INSTANCE.loading());
+            img.setTitle(UserMessages.getMessage("label.loading"));
+            img.setAltText(UserMessages.getMessage("label.loading"));
+            HTMLPanel p = new HTMLPanel("p", UserMessages.getMessage("label.loading"));
+            RootPanel.get("loading").add(img);
+            RootPanel.get("loading").add(p);
+        }
     }
 
     /**
@@ -653,7 +655,6 @@ public class CmsSolrController {
                     }
                 }
                 hideLoading();
-
             }
         };
         m_searchData.clearAll();
@@ -728,63 +729,37 @@ public class CmsSolrController {
             HashMap<String, Integer> map = new HashMap<String, Integer>();
             TreeMap<String, Integer> collationMap = new TreeMap<String, Integer>(new ValueComparator(map));
 
-            if (callback != null) {
+            if (object.get("spellcheck") != null) {
+                // CmsSolrResult searchResult = new CmsSolrResult();
+                JSONObject spellcheck = object.get("spellcheck").isObject();
+                JSONArray suggestions = spellcheck.get("suggestions").isArray();
 
-                if (object.get("spellcheck") != null) {
-                    // CmsSolrResult searchResult = new CmsSolrResult();
-                    JSONObject spellcheck = object.get("spellcheck").isObject();
-                    JSONArray suggestions = spellcheck.get("suggestions").isArray();
-
-                    for (int i = 0; i < suggestions.size(); i++) {
-                        JSONValue val = suggestions.get(i);
-                        if (val.isString() != null) {
-                            String sugg = val.isString().stringValue();
-                            if (sugg.equals("collation")) {
-                                try {
-                                    JSONArray collations = suggestions.get(i + 1).isArray();
-                                    String collq = collations.get(1).isString().toString().replaceAll("\\\\\"", "").replaceAll(
-                                        "\"",
-                                        "");
-                                    Integer count = new Integer(collations.get(3).isNumber().toString());
-                                    map.put(collq, count);
-                                } catch (Throwable t) {
-                                    // noop
-                                }
+                for (int i = 0; i < suggestions.size(); i++) {
+                    JSONValue val = suggestions.get(i);
+                    if (val.isString() != null) {
+                        String sugg = val.isString().stringValue();
+                        if (sugg.equals("collation")) {
+                            try {
+                                JSONArray collations = suggestions.get(i + 1).isArray();
+                                String collq = collations.get(1).isString().toString().replaceAll("\\\\\"", "").replaceAll(
+                                    "\"",
+                                    "");
+                                Integer count = new Integer(collations.get(3).isNumber().toString());
+                                map.put(collq, count);
+                            } catch (Throwable t) {
+                                // noop
                             }
                         }
                     }
-                    // sort the result by hits
-                    collationMap.putAll(map);
-                    m_suggestions = collationMap;
                 }
+                // sort the result by hits
+                collationMap.putAll(map);
+                m_suggestions = collationMap;
+            }
 
-                List<Suggestion> res = new LinkedList<Suggestion>();
-                for (final String title : m_titles) {
-                    if (title.toLowerCase().startsWith(q)) {
-                        res.add(new Suggestion() {
-
-                            /**
-                             * @see com.google.gwt.user.client.ui.SuggestOracle.Suggestion#getDisplayString()
-                             */
-                            public String getDisplayString() {
-
-                                return title;
-                            }
-
-                            /**
-                             * @see com.google.gwt.user.client.ui.SuggestOracle.Suggestion#getReplacementString()
-                             */
-                            public String getReplacementString() {
-
-                                return title;
-                            }
-                        });
-                    }
-                }
-
-                for (final Map.Entry<String, Integer> sug : collationMap.entrySet()) {
-                    final String sugg = sug.getKey().replaceAll("\"", "");
-
+            List<Suggestion> res = new LinkedList<Suggestion>();
+            for (final String title : m_titles) {
+                if (title.toLowerCase().startsWith(q)) {
                     res.add(new Suggestion() {
 
                         /**
@@ -792,7 +767,7 @@ public class CmsSolrController {
                          */
                         public String getDisplayString() {
 
-                            return sugg + " (" + sug.getValue() + ")";
+                            return title;
                         }
 
                         /**
@@ -800,13 +775,39 @@ public class CmsSolrController {
                          */
                         public String getReplacementString() {
 
-                            return sugg;
+                            return title;
                         }
                     });
                 }
-                SuggestOracle.Response response = new SuggestOracle.Response();
-                response.setSuggestions(res);
-                callback.onSuggestionsReady(request, response);
+            }
+
+            for (final Map.Entry<String, Integer> sug : collationMap.entrySet()) {
+                final String sugg = sug.getKey().replaceAll("\"", "");
+
+                res.add(new Suggestion() {
+
+                    /**
+                     * @see com.google.gwt.user.client.ui.SuggestOracle.Suggestion#getDisplayString()
+                     */
+                    public String getDisplayString() {
+
+                        return sugg + " (" + sug.getValue() + ")";
+                    }
+
+                    /**
+                     * @see com.google.gwt.user.client.ui.SuggestOracle.Suggestion#getReplacementString()
+                     */
+                    public String getReplacementString() {
+
+                        return sugg;
+                    }
+                });
+
+                if (callback != null) {
+                    SuggestOracle.Response response = new SuggestOracle.Response();
+                    response.setSuggestions(res);
+                    callback.onSuggestionsReady(request, response);
+                }
             }
 
         } catch (Throwable t) {

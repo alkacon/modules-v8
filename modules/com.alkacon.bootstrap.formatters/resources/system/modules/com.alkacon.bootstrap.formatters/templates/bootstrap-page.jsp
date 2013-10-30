@@ -49,9 +49,10 @@
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js:1908df28-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/app.js:11fe5a44-3a3b-11e3-a584-000c2943a707)" />
 
+	<script type="text/javascript" src="<cms:link>/system/modules/com.alkacon.bootstrap.solr/resources/solr/solr.nocache.js</cms:link>"></script>
 	<script type="text/javascript" src="<cms:link>/system/modules/com.alkacon.bootstrap.solr/resources/dictionary.js</cms:link>"></script>
 	<script type="text/javascript" src="<cms:link>/system/modules/com.alkacon.bootstrap.solr/resources/configuration.js</cms:link>"></script>
-	<script type="text/javascript" src="<cms:link>/system/modules/com.alkacon.bootstrap.solr/resources/solr/solr.nocache.js</cms:link>"></script>
+	<cms:include file="../elements/search/context.js" />
 
 	<script type="text/javascript">
 		jQuery(document).ready(function() {

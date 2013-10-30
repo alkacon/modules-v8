@@ -1,29 +1,9 @@
-<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" import="org.opencms.jsp.CmsJspActionElement,org.opencms.file.CmsRequestContext,org.opencms.main.OpenCms"%>
+<%@page buffer="none" session="false" trimDirectiveWhitespaces="true"%>
 <%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%><%
-	CmsJspActionElement jae = new  CmsJspActionElement(pageContext, request, response);
-	CmsRequestContext con = jae.getCmsObject().getRequestContext();
-	String glo = con.addSiteRoot("/.content/");
-	String onlineLink = OpenCms.getLinkManager().getOnlineLink(jae.getCmsObject(), con.getUri()); %>
-
 <cms:formatter var="function" rdfa="rdfa">
-
 	<div <c:if test="${cms.container.type == 'content-full'}"> class="row"</c:if>>
 		<div id="alkaconSolrSearch" class="lists margin-bottom-20">
-			<script type="text/javascript">
-
-				var GWTsolrContextInformation = {
-				        "onlineURL"    : "<%= onlineLink %>",
-				        "rootSite"     : "<%= con.getSiteRoot() %>",
-				        "globalPath"   : "<%= con.getSiteRoot() + "/demo/" %>",
-				        "subSitePath"  : "<%= con.getSiteRoot() %><c:out value='${cms.subSitePath}' />",
-				        "initialQuery" : "" + encodeURI('${cms.element.settings.restoreQuery}') + "",
-				        "searchQuery"  : "<c:out escapeXml='true' value='${param.solrWidgetAutoCompleteHeader}' />",
-				        "isDoccenter"  : <c:out value="${cms.element.settings.mode ne 'web'}"/>,
-				        "addtionalFL" : ["content_de","content_en"]
-				}
-			</script>
 			<div class="row margin-bottom-20">
 				<div class="col-md-4">
 					<div id="solrWidgetAutoComplete"></div>
@@ -48,5 +28,4 @@
 			</div>
 		</div>
 	</div>
-
 </cms:formatter>

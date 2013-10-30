@@ -78,7 +78,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
                 String query = m_suggestBox.getValue();
                 if (query.length() > 3) {
                     getController().getSearchData().setSearchQuery(query);
-                    getController().doAutoComplete(request, callback);
+                    getController().doSuggesting(request, callback);
                 }
             }
         }
@@ -274,23 +274,26 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
             }
         });
 
-        // add a key handler to hide suggestion on enter
-        suggestBox.addKeyUpHandler(new KeyUpHandler() {
+        if (!getConfig().getType().equals(WIDGET_TYPES.autocompleteHeader)) {
 
-            /**
-             * @see com.google.gwt.event.dom.client.KeyUpHandler#onKeyUp(com.google.gwt.event.dom.client.KeyUpEvent)
-             */
-            public void onKeyUp(KeyUpEvent event) {
+            // add a key handler to hide suggestion on enter
+            suggestBox.addKeyUpHandler(new KeyUpHandler() {
 
-                if (event.getNativeEvent().getKeyCode() == KeyCodes.KEY_ENTER) {
-                    if (((m_currentSelection != null) && !m_currentSelection.equals(getController().getSearchData().getSearchQuery()))
-                        || CmsSolrStringUtil.isEmpty(suggestBox.getValue())) {
-                        search(suggestBox.getValue(), 50);
+                /**
+                 * @see com.google.gwt.event.dom.client.KeyUpHandler#onKeyUp(com.google.gwt.event.dom.client.KeyUpEvent)
+                 */
+                public void onKeyUp(KeyUpEvent event) {
+
+                    if (event.getNativeEvent().getKeyCode() == KeyCodes.KEY_ENTER) {
+                        if (((m_currentSelection != null) && !m_currentSelection.equals(getController().getSearchData().getSearchQuery()))
+                            || CmsSolrStringUtil.isEmpty(suggestBox.getValue())) {
+                            search(suggestBox.getValue(), 50);
+                        }
+                        display.hideSuggestions();
                     }
-                    display.hideSuggestions();
                 }
-            }
-        });
+            });
+        }
         return suggestBox;
     }
 

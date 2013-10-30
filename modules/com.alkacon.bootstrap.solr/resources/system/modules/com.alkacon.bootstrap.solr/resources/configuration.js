@@ -1,4 +1,4 @@
-<%@page buffer="none" session="false" taglibs="c,cms,fmt"%>
+<%@page buffer="none" session="false" taglibs="c,cms,fmt" import="org.opencms.jsp.CmsJspActionElement,org.opencms.file.CmsRequestContext,org.opencms.main.OpenCms"%>
 <% org.opencms.util.CmsRequestUtil.setNoCacheHeaders(response); %>
 <c:set var="locale"><cms:info property="opencms.request.locale" /></c:set>
 <fmt:setLocale value="${locale}" />

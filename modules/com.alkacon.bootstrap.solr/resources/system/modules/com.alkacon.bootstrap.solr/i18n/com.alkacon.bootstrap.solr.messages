@@ -99,8 +99,16 @@
       <Value><![CDATA[Share result]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[loading]]></Key>
+      <Key><![CDATA[label.loading]]></Key>
       <Value><![CDATA[loading ...]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.noExcerpt]]></Key>
+      <Value><![CDATA[No search term for generating an excerpt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.didYouMean]]></Key>
+      <Value><![CDATA[Did you mean?]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[de]]></Key>
