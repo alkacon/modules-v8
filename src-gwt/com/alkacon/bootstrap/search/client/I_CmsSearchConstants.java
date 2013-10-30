@@ -33,9 +33,6 @@ package com.alkacon.bootstrap.search.client;
 public interface I_CmsSearchConstants {
 
     /** Node within the json result. */
-    String NODE_ATTACHMENTS = "attachments";
-
-    /** Node within the json result. */
     String NODE_DOCS = "docs";
 
     /** Node within the json result. */
@@ -53,9 +50,6 @@ public interface I_CmsSearchConstants {
     /** Node within the json result. */
     String NODE_LOCALE = "locale";
 
-    /** Node within the json result. */
-    String NODE_MAIN = "main";
-
     /** The node containing the total count of found documents. */
     String NODE_NUM_FOUND = "numFound";
 
@@ -67,5 +61,4 @@ public interface I_CmsSearchConstants {
 
     /** Node within the json result. */
     String NODE_TITLE = "title";
-
 }

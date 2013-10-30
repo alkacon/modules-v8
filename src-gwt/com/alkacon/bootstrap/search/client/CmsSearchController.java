@@ -43,9 +43,8 @@ import com.alkacon.bootstrap.search.client.widgets.CmsResultCountWidget;
 import com.alkacon.bootstrap.search.client.widgets.CmsResultListWidget;
 import com.alkacon.bootstrap.search.client.widgets.CmsResultShareWidget;
 import com.alkacon.bootstrap.search.client.widgets.CmsSortBarWidget;
+import com.alkacon.bootstrap.search.client.widgets.CmsTextFacetWidget;
 import com.alkacon.bootstrap.search.client.widgets.I_CmsSearchWidget;
-import com.alkacon.bootstrap.search.client.widgets.datepicker.CmsDateFacetWidget;
-import com.alkacon.bootstrap.search.client.widgets.facet.CmsTextFacetWidget;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -1096,9 +1095,6 @@ public class CmsSearchController {
                         break;
                     case autocompleteHeader:
                         new CmsAutoCompleteWidget(panel, this, widgetConfig.getValue());
-                        break;
-                    case dateRanges:
-                        new CmsDateFacetWidget(panel, this, widgetConfig.getValue());
                         break;
                     case resetFacets:
                         new CmsResetFacetWidget(panel, this, widgetConfig.getValue());

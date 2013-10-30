@@ -49,15 +49,6 @@ public class CmsSearchDocumentList implements IsSerializable {
     public static final String FL_CON_LOCALES = "con_locales";
 
     /** Return field name constant. */
-    public static final String FL_DEP_ATT = "dep_attachment";
-
-    /** Return field name constant. */
-    public static final String FL_DEP_DOC = "dep_document";
-
-    /** Return field name constant. */
-    public static final String FL_DEP_VAR = "dep_variant";
-
-    /** Return field name constant. */
     public static final String FL_ID = "id";
 
     /** The link for this doc. */

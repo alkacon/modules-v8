@@ -29,7 +29,6 @@ package com.alkacon.bootstrap.search.client;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
-import com.google.gwt.resources.client.CssResource;
 import com.google.gwt.resources.client.ImageResource;
 
 /**
@@ -38,12 +37,6 @@ import com.google.gwt.resources.client.ImageResource;
  * @since 8.0.0
  */
 public interface I_CmsSearchLayoutBundle extends ClientBundle {
-
-    /** The dialog CSS classes. */
-    public interface I_CmsSearchCss extends CssResource {
-
-        // not yet used
-    }
 
     /** The bundle instance. */
     I_CmsSearchLayoutBundle INSTANCE = GWT.create(I_CmsSearchLayoutBundle.class);

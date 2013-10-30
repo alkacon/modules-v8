@@ -29,10 +29,8 @@ package com.alkacon.bootstrap.search.client;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import com.google.common.base.CharMatcher;
 
@@ -46,9 +44,6 @@ public final class CmsSearchStringUtil {
 
     /** Delimiter char between parameters. */
     public static final String PARAMETER_DELIMITER = "&";
-
-    /** Contains all chars that end a sentence in the {@link #trimToSize(String, int, int, String)} method. */
-    public static final char[] SENTENCE_ENDING_CHARS = {'.', '!', '?'};
 
     /** Delimiter char between url and query. */
     public static final String URL_DELIMITER = "?";
@@ -65,38 +60,6 @@ public final class CmsSearchStringUtil {
         // empty
     }
 
-    /**
-     * Creates a valid request parameter map from the given map,
-     * most notably changing the values form <code>String</code>
-     * to <code>String[]</code> if required.<p>
-     * 
-     * If the given parameter map is <code>null</code>, then <code>null</code> is returned.<p>
-     * 
-     * @param params the map of parameters to create a parameter map from
-     * @return the created parameter map, all values will be instances of <code>String[]</code>
-     */
-    public static Map<String, String[]> createParameterMap(Map<String, ?> params) {
-
-        if (params == null) {
-            return null;
-        }
-        Map<String, String[]> result = new HashMap<String, String[]>();
-        Iterator<?> i = params.entrySet().iterator();
-        while (i.hasNext()) {
-            @SuppressWarnings("unchecked")
-            Map.Entry<String, ?> entry = (Entry<String, ?>)i.next();
-            String key = entry.getKey();
-            Object values = entry.getValue();
-            if (values instanceof String[]) {
-                result.put(key, (String[])values);
-            } else {
-                if (values != null) {
-                    result.put(key, new String[] {values.toString()});
-                }
-            }
-        }
-        return result;
-    }
 
     /**
      * Parses the parameters of the given request query part and creates a parameter map out of them.<p>
@@ -242,20 +205,6 @@ public final class CmsSearchStringUtil {
      *
      * @param source the String to split
      * @param delimiter the delimiter to split at
-     *
-     * @return the List of splitted Substrings
-     */
-    public static List<String> splitAsList(String source, char delimiter) {
-
-        return splitAsList(source, delimiter, false);
-    }
-
-    /**
-     * Splits a String into substrings along the provided char delimiter and returns
-     * the result as a List of Substrings.<p>
-     *
-     * @param source the String to split
-     * @param delimiter the delimiter to split at
      * @param trim flag to indicate if leading and trailing white spaces should be omitted
      *
      * @return the List of splitted Substrings
@@ -336,86 +285,5 @@ public final class CmsSearchStringUtil {
             result.add(trim ? source.substring(i).trim() : source.substring(i));
         }
         return result;
-    }
-
-    /**
-     * Returns a substring of the source, which is at most length characters long, cut 
-     * in the last <code>area</code> chars in the source at a sentence ending char or whitespace.<p>
-     * 
-     * If a char is cut, the given <code>suffix</code> is appended to the result.<p>
-     * 
-     * @param source the string to trim
-     * @param length the maximum length of the string to be returned
-     * @param area the area at the end of the string in which to find a sentence ender or whitespace
-     * @param suffix the suffix to append in case the String was trimmed
-     * 
-     * @return a substring of the source, which is at most length characters long
-     */
-    public static String trimToSize(String source, int length, int area, String suffix) {
-
-        if ((source == null) || (source.length() <= length)) {
-            // no operation is required
-            return source;
-        }
-        if (isEmpty(suffix)) {
-            // we need an empty suffix
-            suffix = "";
-        }
-        // must remove the length from the after sequence chars since these are always added in the end
-        int modLength = length - suffix.length();
-        if (modLength <= 0) {
-            // we are to short, return beginning of the suffix
-            return suffix.substring(0, length);
-        }
-        int modArea = area + suffix.length();
-        if ((modArea > modLength) || (modArea < 0)) {
-            // area must not be longer then max length
-            modArea = modLength;
-        }
-
-        // first reduce the String to the maximum allowed length
-        String findPointSource = source.substring(modLength - modArea, modLength);
-
-        String result;
-        // try to find an "sentence ending" char in the text
-        int pos = lastIndexOf(findPointSource, SENTENCE_ENDING_CHARS);
-        if (pos >= 0) {
-            // found a sentence ender in the lookup area, keep the sentence ender
-            result = source.substring(0, (modLength - modArea) + pos + 1) + suffix;
-        } else {
-            // no sentence ender was found, try to find a whitespace
-            pos = lastWhitespaceIn(findPointSource);
-            if (pos >= 0) {
-                // found a whitespace, don't keep the whitespace
-                result = source.substring(0, (modLength - modArea) + pos) + suffix;
-            } else {
-                // not even a whitespace was found, just cut away what's to long
-                result = source.substring(0, modLength) + suffix;
-            }
-        }
-
-        return result;
-    }
-
-    /**
-     * Returns a substring of the source, which is at most length characters long.<p>
-     * 
-     * If a char is cut, the given <code>suffix</code> is appended to the result.<p>
-     * 
-     * This is almost the same as calling {@link #trimToSize(String, int, int, String)} with the 
-     * parameters <code>(source, length, length*, suffix)</code>. If <code>length</code>
-     * if larger then 100, then <code>length* = length / 2</code>,
-     * otherwise <code>length* = length</code>.<p>
-     * 
-     * @param source the string to trim
-     * @param length the maximum length of the string to be returned
-     * @param suffix the suffix to append in case the String was trimmed
-     * 
-     * @return a substring of the source, which is at most length characters long
-     */
-    public static String trimToSize(String source, int length, String suffix) {
-
-        int area = (length > 100) ? length / 2 : length;
-        return trimToSize(source, length, area, suffix);
     }
 }

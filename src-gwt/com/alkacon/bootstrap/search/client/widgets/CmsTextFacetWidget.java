@@ -29,7 +29,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package com.alkacon.bootstrap.search.client.widgets.facet;
+package com.alkacon.bootstrap.search.client.widgets;
 
 import com.alkacon.bootstrap.search.client.CmsSearchController;
 import com.alkacon.bootstrap.search.client.CmsSearchDocumentList;
@@ -37,7 +37,6 @@ import com.alkacon.bootstrap.search.client.CmsSearchFacet;
 import com.alkacon.bootstrap.search.client.CmsSearchStringUtil;
 import com.alkacon.bootstrap.search.client.UserMessages;
 import com.alkacon.bootstrap.search.client.CmsSearchConfig.CmsWidgetConfig;
-import com.alkacon.bootstrap.search.client.widgets.A_CmsSearchWidget;
 
 import java.util.Collections;
 import java.util.List;
@@ -45,6 +44,8 @@ import java.util.List;
 import com.google.common.collect.Lists;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.event.dom.client.HasClickHandlers;
+import com.google.gwt.event.shared.HandlerRegistration;
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.FocusPanel;
 import com.google.gwt.user.client.ui.HTMLPanel;
@@ -79,6 +80,34 @@ public class CmsTextFacetWidget extends A_CmsSearchWidget {
     /** The css class. */
     private String m_cssClass;
 
+    private class MoreOrLess extends HTMLPanel implements HasClickHandlers, ClickHandler {
+
+        public MoreOrLess(String html) {
+
+            super("ul", html);
+            addClickHandler(this);
+            setStyleName("list-unstyled");
+        }
+
+        /**
+         * @see com.google.gwt.event.dom.client.ClickHandler#onClick
+         */
+        @Override
+        public void onClick(ClickEvent event) {
+
+                setShowAll(!isShowAll());
+                update(null);
+        }
+
+        /**
+         * @see com.google.gwt.event.dom.client.HasClickHandlers#addClickHandler(com.google.gwt.event.dom.client.ClickHandler)
+         */
+        public HandlerRegistration addClickHandler(ClickHandler handler) {
+
+            return addDomHandler(handler, ClickEvent.getType());
+        }
+    }
+    
     /**
      * Constructor, creates a new CmsSearchUiCheckboxWidget.<p>
      * 
@@ -244,11 +273,13 @@ public class CmsTextFacetWidget extends A_CmsSearchWidget {
                 if ((m_facets.size() > m_defaultCount)) {
                     // show the "more" label if required
                     if (!m_showAll) {
-                        body.add(new CmsTextFacetMoreOrLess(this, UserMessages.getMessage("label.showMore")));
+                        String html = "<li><i class=\"icon-long-arrow-down\"></i> " + UserMessages.getMessage("label.showMore") + "</li>";
+                        body.add(new MoreOrLess(html));
                     }
                     // show the "less" label if required
                     if (m_showAll) {
-                        body.add(new CmsTextFacetMoreOrLess(this, UserMessages.getMessage("label.showLess")));
+                        String html = "<li><i class=\"icon-long-arrow-up\"></i> " + UserMessages.getMessage("label.showLess") + "</li>";
+                        body.add(new MoreOrLess(html));
                     }
                 }
                 m_facetPanel.add(body);
