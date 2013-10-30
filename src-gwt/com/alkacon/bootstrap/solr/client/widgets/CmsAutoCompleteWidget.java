@@ -84,16 +84,18 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
         }
     }
 
-    /** The current selection. */
-    protected String m_currentSelection;
-
-    /** The suggest box. */
-    protected SuggestBox m_suggestBox;
-
     /**
      * Handles the up and down selection of the suggest oracle.<p>
      */
-    private final SuggestBox.DefaultSuggestionDisplay m_suggestionDisplay = new SuggestBox.DefaultSuggestionDisplay() {
+    private class SuggDis extends SuggestBox.DefaultSuggestionDisplay {
+
+        /**
+         * Public constructor.<p>
+         */
+        public SuggDis() {
+
+            super();
+        }
 
         /**
          * @see com.google.gwt.user.client.ui.SuggestBox.DefaultSuggestionDisplay#decorateSuggestionList(com.google.gwt.user.client.ui.Widget)
@@ -129,7 +131,13 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
             m_currentSelection = getCurrentSelection().getReplacementString();
             search(m_currentSelection, 0);
         }
-    };
+    }
+
+    /** The current selection. */
+    protected String m_currentSelection;
+
+    /** The suggest box. */
+    protected SuggestBox m_suggestBox;
 
     /**
      * Constructor, creates a new CmsSearchUiSearchfieldWidget.<p>
@@ -210,11 +218,9 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
      */
     public void update(CmsSolrDocumentList result) {
 
-        // TODO: check if this is required
-        if (m_suggestBox != null) {
-            if (CmsSolrStringUtil.isEmpty(getController().getSearchData().getSearchQuery())) {
-                m_suggestBox.setValue("");
-            }
+        if ((m_suggestBox != null) && CmsSolrStringUtil.isEmpty(getController().getSearchData().getSearchQuery())) {
+            // clear the value of the suggest box if empty
+            m_suggestBox.setValue("");
         }
     }
 
@@ -236,7 +242,8 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
         }
 
         // create the suggest box
-        final SuggestBox suggestBox = new SuggestBox(new AllSuggestionOracle(), searchField, m_suggestionDisplay);
+        final SuggDis display = new SuggDis();
+        final SuggestBox suggestBox = new SuggestBox(new AllSuggestionOracle(), searchField, display);
         suggestBox.setAutoSelectEnabled(false);
         if (getConfig().getType().equals(WIDGET_TYPES.autocompleteHeader)) {
             suggestBox.getElement().setAttribute("name", getConfig().getId());
@@ -267,9 +274,8 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
             }
         });
 
-        // add a key handler
-        // TODO: Check if this is executed any time ???
-        suggestBox.getValueBox().addKeyUpHandler(new KeyUpHandler() {
+        // add a key handler to hide suggestion on enter
+        suggestBox.addKeyUpHandler(new KeyUpHandler() {
 
             /**
              * @see com.google.gwt.event.dom.client.KeyUpHandler#onKeyUp(com.google.gwt.event.dom.client.KeyUpEvent)
@@ -277,10 +283,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
             public void onKeyUp(KeyUpEvent event) {
 
                 if (event.getNativeEvent().getKeyCode() == KeyCodes.KEY_ENTER) {
-                    if (((m_currentSelection != null) && !m_currentSelection.equals(getController().getSearchData().getSearchQuery()))
-                        || CmsSolrStringUtil.isEmpty(suggestBox.getValue())) {
-                        search(suggestBox.getValue(), 50);
-                    }
+                    display.hideSuggestions();
                 }
             }
         });
