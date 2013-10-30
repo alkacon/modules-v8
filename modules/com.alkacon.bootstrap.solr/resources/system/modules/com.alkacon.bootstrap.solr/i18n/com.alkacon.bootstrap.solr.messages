@@ -96,7 +96,11 @@
     </Message>
     <Message>
       <Key><![CDATA[label.share]]></Key>
-      <Value><![CDATA[Share rsult]]></Value>
+      <Value><![CDATA[Share result]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[loading]]></Key>
+      <Value><![CDATA[loading ...]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[de]]></Key>
