@@ -27,9 +27,9 @@
 
 package com.alkacon.bootstrap.solr.client.widgets;
 
+import com.alkacon.bootstrap.solr.client.CmsSolrConfig.CmsWidgetConfig;
 import com.alkacon.bootstrap.solr.client.CmsSolrController;
 import com.alkacon.bootstrap.solr.client.CmsSolrDocumentList;
-import com.alkacon.bootstrap.solr.client.CmsSolrConfig.CmsWidgetConfig;
 
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -58,9 +58,7 @@ public class CmsResultAdvisorWidget extends A_CmsSearchWidget {
 
         super(panel, controller, config);
 
-        if (config.getLabel() != null) {
-            m_label.setText(config.getLabel());
-        }
+        m_label.setText(config.getLabel());
         m_label.setStyleName("advisorButton");
         m_label.addClickHandler(new ClickHandler() {
 

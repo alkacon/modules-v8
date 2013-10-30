@@ -43,58 +43,6 @@ import com.google.gwt.json.client.JSONValue;
 
 /**
  * Implements a Java object representation for the following JSON.<p>
- * 
- * <pre>
- * {
- *     "general" : {
- *         "solrUrl" : "http://localhost:8080/opencms/opencms/handleSolrSelect",
- *         "rows" : 10,
- *         "defaultQuery" : "*:*",
- *         "fl" : [ "id", "path", "type", "suffix", "language", "Title_prop", "dep_attachment", "dep_document", "dep_variant" ],
- *         "hl" : true,
- *         "hl.fl" : [ "content_en", "content_de", "Title_prop" ],
- *         "jsonp" : false,
- *         "facet.mincount" : 1,
- *         "facet.limit" : 15
- *     },
- *     "currentSelection" : {
- *         "id" : "solrWidgetCurrentSelection",
- *         "label" : "Your selection",
- *     },
- *     "autocomplete" : {
- *         "id" : "solrWidgetAutoComplete",
- *         "labels" : [ "Search" ],
- *         "fields" : [ "content_en", "content_de", "Title_prop" ]
- *     },
- *     "autocompleteHeader" : {
- *         "id" : "solrWidgetAutoCompleteHeader",
- *         "labels" : [ "Search" ],
- *         "fields" : [ "content_en", "content_de", "Title_prop" ]
- *     },
- *     "dateRanges" : {
- *         "id" : "solrWidgetDateRange",
- *         "labels" : [ "Last changes" ],
- *         "fields" : [ "lastmodified" ]
- *     },
- *     "textFacets" : {
- *         "id" : 'solrWidgetTextFacet',
- *         "labels" : [ 'Category', 'Language', 'Suffix' ],
- *         "fields" : [ 'category', 'language', 'suffix' ]
- *     },
- *     "sortBar" : {
- *         "id" : solrWidgetSortBar,
- *         "fields" : [ "lastmodified, "Title_prop" ],
- *         "labels" : [ "Date asc, Date desc", "Title asc, Title desc" ]
- * 
- *     },
- *     "resultList" : {
- *         "id" : "solrWidgetResultList",
- *     },
- *     "resultPagination" : {
- *         "id" : "solrWidgetResultPagination",
- *     }
- * }
- * </pre>
  */
 public class CmsSolrConfig {
 

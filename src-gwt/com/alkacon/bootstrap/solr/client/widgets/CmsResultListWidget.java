@@ -169,10 +169,10 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
         if ((q != null) && !q.trim().isEmpty()) {
             getPanel().add(
                 new HTMLPanel("h3", "<div class=\"headline headline-md\"><h4>"
-                    + UserMessages.searchedFor()
-                    + " "
+                    + UserMessages.getMessage("label.searchedFor")
+                    + " \""
                     + q
-                    + "</h4></div>"));
+                    + "\"</h4></div>"));
         }
         if (result.hasDocuments()) {
             HTMLPanel resultList = new HTMLPanel("div", "");
@@ -193,7 +193,7 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
         } else {
             // only add the not found info, if there is a search query
             if (!getController().getSearchData().getSearchQuery().equals("")) {
-                HTMLPanel noHit = new HTMLPanel("p", UserMessages.nothingFoundForQuery()
+                HTMLPanel noHit = new HTMLPanel("p", UserMessages.getMessage("label.nothingFoundForQuery")
                     + ": '"
                     + getController().getSearchData().getSearchQuery()
                     + "'");

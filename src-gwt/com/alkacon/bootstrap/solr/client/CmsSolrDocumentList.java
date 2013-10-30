@@ -60,9 +60,6 @@ public class CmsSolrDocumentList implements IsSerializable {
     /** Return field name constant. */
     public static final String FL_ID = "id";
 
-    /** Return field name constant. */
-    public static final String FL_LANGUGAE = "language";
-
     /** The link for this doc. */
     public static final String FL_LINK = "link";
 

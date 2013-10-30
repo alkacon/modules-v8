@@ -57,9 +57,6 @@ public class CmsSolrDocument implements IsSerializable {
     /** The structure id. */
     private String m_id;
 
-    /** The language. */
-    private String m_language;
-
     /** The modification date. */
     private String m_lastModification;
 
@@ -170,16 +167,6 @@ public class CmsSolrDocument implements IsSerializable {
     public String getId() {
 
         return m_id;
-    }
-
-    /**
-     * Returns the language.<p>
-     *
-     * @return the language
-     */
-    public String getLanguage() {
-
-        return m_language;
     }
 
     /**
@@ -341,16 +328,6 @@ public class CmsSolrDocument implements IsSerializable {
     public void setId(String id) {
 
         m_id = id;
-    }
-
-    /**
-     * Sets the language.<p>
-     *
-     * @param language the language to set
-     */
-    public void setLanguage(String language) {
-
-        m_language = language;
     }
 
     /**

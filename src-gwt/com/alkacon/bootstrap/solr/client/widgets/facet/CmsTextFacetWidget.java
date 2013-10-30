@@ -244,11 +244,11 @@ public class CmsTextFacetWidget extends A_CmsSearchWidget {
                 if ((m_facets.size() > m_defaultCount)) {
                     // show the "more" label if required
                     if (!m_showAll) {
-                        body.add(new CmsTextFacetMoreOrLess(this, UserMessages.showMore()));
+                        body.add(new CmsTextFacetMoreOrLess(this, UserMessages.getMessage("label.showMore")));
                     }
                     // show the "less" label if required
                     if (m_showAll) {
-                        body.add(new CmsTextFacetMoreOrLess(this, UserMessages.showLess()));
+                        body.add(new CmsTextFacetMoreOrLess(this, UserMessages.getMessage("label.showLess")));
                     }
                 }
                 m_facetPanel.add(body);

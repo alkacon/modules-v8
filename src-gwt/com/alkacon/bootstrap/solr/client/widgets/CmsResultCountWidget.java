@@ -72,9 +72,9 @@ public class CmsResultCountWidget extends A_CmsSearchWidget {
             buf.append(start);
             buf.append("-");
             buf.append(end);
-            buf.append(" " + UserMessages.from() + " ");
+            buf.append(" " + UserMessages.getMessage("label.from") + " ");
             buf.append(result.getHits());
-            buf.append(" " + UserMessages.hits());
+            buf.append(" " + UserMessages.getMessage("label.hits"));
             HTMLPanel count = new HTMLPanel(
                 "div",
                 "<input class=\"form-control\" id=\"disabledInput\" type=\"text\" placeholder=\" "

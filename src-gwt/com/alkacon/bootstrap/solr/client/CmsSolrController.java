@@ -827,8 +827,9 @@ public class CmsSolrController {
                 // get the direct result values
                 //----------------------------------------------------------------------------------------------------
 
-                // get the title           
-                String title = UserMessages.undefined();
+                // get the title
+                String undefined = UserMessages.getMessage("label.undefined");
+                String title = undefined;
                 try {
                     title = document.get(CmsSolrDocumentList.FL_TITLE_PROP).isString().stringValue();
                 } catch (Throwable t) {
@@ -837,7 +838,7 @@ public class CmsSolrController {
                 result.setTitle(title);
 
                 // get the resource path
-                String path = UserMessages.undefined();
+                String path = undefined;
                 try {
                     path = document.get(CmsSolrDocumentList.FL_PATH).isString().stringValue();
                 } catch (Throwable t) {
@@ -846,7 +847,7 @@ public class CmsSolrController {
                 result.setPath(path);
 
                 // get the "gg.version_exact" field
-                String version = UserMessages.undefined();
+                String version = undefined;
                 try {
                     if (document.get("version") != null) {
                         version = document.get("version").isString().stringValue();
@@ -857,7 +858,7 @@ public class CmsSolrController {
                 result.setVersion(version);
 
                 // get the "lastmodified" field
-                String lastmodified = UserMessages.undefined();
+                String lastmodified = undefined;
                 try {
                     lastmodified = document.get("lastmodified").isString().stringValue();
                     // 2012-10-10T11:55:17.13Z
@@ -873,7 +874,7 @@ public class CmsSolrController {
                 result.setLastModification(lastmodified);
 
                 // get the "gg.version_exact" field
-                String suffix = UserMessages.undefined();
+                String suffix = undefined;
                 try {
                     suffix = document.get("suffix").isString().stringValue();
                 } catch (Throwable t) {
@@ -882,7 +883,7 @@ public class CmsSolrController {
                 result.setSuffix(suffix);
 
                 // get the "size" field
-                String size = UserMessages.undefined();
+                String size = undefined;
                 try {
                     int bytes = new Integer(document.get("size").isNumber().toString()).intValue();
                     int kb = Math.round(bytes / 1000);
@@ -893,7 +894,7 @@ public class CmsSolrController {
                 result.setSize(size);
 
                 // get the resource path
-                String link = UserMessages.undefined();
+                String link = undefined;
                 try {
                     link = document.get(CmsSolrDocumentList.FL_LINK).isString().stringValue();
                 } catch (Throwable t) {
@@ -943,111 +944,6 @@ public class CmsSolrController {
                 }
                 result.setContentLocales(locales);
 
-                String language = "";
-                if (!locales.isEmpty() && (locales.size() == 1)) {
-                    language = locales.get(0);
-                } else {
-                    try {
-                        if (document.get(CmsSolrDocumentList.FL_LANGUGAE) != null) {
-                            language = document.get(CmsSolrDocumentList.FL_LANGUGAE).isString().stringValue();
-                        }
-                    } catch (Throwable t) {
-                        // nothing to do here, id was empty
-                    }
-                }
-                result.setLanguage(language);
-
-                //----------------------------------------------------------------------------------------------------
-                // get the locale versions
-                //----------------------------------------------------------------------------------------------------
-                try {
-                    if (document.get(CmsSolrDocumentList.FL_DEP_VAR) != null) {
-                        // first of all, do not forget to add the search result itself
-                        CmsSolrDocumentAttachment self = new CmsSolrDocumentAttachment(title, link, language);
-                        result.addLocaleVerion(self);
-                        JSONArray languages = document.get(CmsSolrDocumentList.FL_DEP_VAR).isArray();
-                        for (int j = 0; j < languages.size(); j++) {
-                            String js = languages.get(j).isString().stringValue();
-                            JSONObject joLanguage = JSONParser.parseStrict(js).isObject();
-                            String lvPath = null;
-                            try {
-                                lvPath = joLanguage.get(I_CmsSolrConstants.NODE_LINK).isString().stringValue();
-                            } catch (Throwable t1) {
-                                System.out.println(t1);
-                            }
-                            if (lvPath == null) {
-                                lvPath = joLanguage.get(I_CmsSolrConstants.NODE_PATH).isString().stringValue();
-                            }
-                            String lvLocale = joLanguage.get(I_CmsSolrConstants.NODE_LOCALE).isString().stringValue();
-                            String lvTitle = UserMessages.getMessage(lvLocale);
-                            CmsSolrDocumentAttachment localeVersion = new CmsSolrDocumentAttachment(
-                                lvTitle,
-                                lvPath,
-                                lvLocale);
-                            result.addLocaleVerion(localeVersion);
-                        }
-                    }
-                } catch (Throwable t1) {
-                    System.out.println(t1);
-                }
-
-                //----------------------------------------------------------------------------------------------------
-                // get the main document
-                //----------------------------------------------------------------------------------------------------
-                try {
-                    if (document.get(CmsSolrDocumentList.FL_DEP_DOC) != null) {
-                        JSONObject main = document.get(CmsSolrDocumentList.FL_DEP_DOC).isObject();
-                        if (main != null) {
-                            String maTitle = main.get(I_CmsSolrConstants.NODE_TITLE).isString().stringValue();
-                            String maPath = null;
-                            try {
-                                maPath = main.get(I_CmsSolrConstants.NODE_LINK).isString().stringValue();
-                            } catch (Throwable t1) {
-                                System.out.println(t1);
-                            }
-                            if (maPath == null) {
-                                maPath = main.get(I_CmsSolrConstants.NODE_PATH).isString().stringValue();
-                            }
-                            String maLocale = main.get(I_CmsSolrConstants.NODE_LOCALE).isString().stringValue();
-                            CmsSolrDocumentAttachment mainDoc = new CmsSolrDocumentAttachment(maTitle, maPath, maLocale);
-                            result.setMainDocuemnt(mainDoc);
-                        }
-                    }
-                } catch (Throwable t1) {
-                    // noop
-                }
-
-                //----------------------------------------------------------------------------------------------------
-                // get the attachments
-                //----------------------------------------------------------------------------------------------------
-                try {
-                    if (document.get(CmsSolrDocumentList.FL_DEP_ATT) != null) {
-                        JSONArray attachments = document.get(CmsSolrDocumentList.FL_DEP_ATT).isArray();
-                        for (int k = 0; k < attachments.size(); k++) {
-                            String js = attachments.get(k).isString().stringValue();
-                            JSONObject joAttachment = JSONParser.parseStrict(js).isObject();
-                            String atTitle = joAttachment.get(I_CmsSolrConstants.NODE_TITLE).isString().stringValue();
-                            String atPath = null;
-                            try {
-                                atPath = joAttachment.get(I_CmsSolrConstants.NODE_LINK).isString().stringValue();
-                            } catch (Throwable t1) {
-                                System.out.println(t1);
-                            }
-                            if (atPath == null) {
-                                atPath = joAttachment.get(I_CmsSolrConstants.NODE_PATH).isString().stringValue();
-                            }
-                            String atLocale = joAttachment.get(I_CmsSolrConstants.NODE_LOCALE).isString().stringValue();
-                            CmsSolrDocumentAttachment attachment = new CmsSolrDocumentAttachment(
-                                atTitle,
-                                atPath,
-                                atLocale);
-                            result.addAttachment(attachment);
-                        }
-                    }
-                } catch (Throwable t1) {
-                    // noop
-                }
-
                 //----------------------------------------------------------------------------------------------------
                 // get the highlighting
                 //----------------------------------------------------------------------------------------------------
@@ -1081,20 +977,6 @@ public class CmsSolrController {
                         } catch (Throwable t) {
                             // nothing to do here, highlighting was empty
                         }
-                    }
-                } else {
-                    try {
-                        if (!CmsSolrStringUtil.isEmpty(language) && (document.get(language + "_excerpt") != null)) {
-                            String excerpt = document.get(language + "_excerpt").toString();
-                            if (excerpt != null) {
-                                excerpt = excerpt.substring(2, excerpt.length() - 2);
-                                excerpt = excerpt.replaceAll("\\\\n", " ");
-                                excerpt = excerpt.replaceAll("\\\\t", "");
-                                result.setExcerpt(CmsSolrStringUtil.trimToSize(excerpt, 200, " ..."));
-                            }
-                        }
-                    } catch (Throwable t) {
-                        // noop
                     }
                 }
                 // finally add the search result

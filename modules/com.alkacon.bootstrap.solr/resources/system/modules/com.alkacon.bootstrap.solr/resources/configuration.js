@@ -2,7 +2,7 @@
 <% org.opencms.util.CmsRequestUtil.setNoCacheHeaders(response); %>
 <c:set var="locale"><cms:info property="opencms.request.locale" /></c:set>
 <fmt:setLocale value="${locale}" />
-<fmt:bundle basename="com/alkacon/bootstrap/solr/messages">
+<cms:bundle basename="com.alkacon.bootstrap.solr.messages">
     var GWTsolrUIConfiguration = {
         "general" : {
             "solrUrl" : '<cms:link>/handleSolrSelect</cms:link>',
@@ -20,7 +20,6 @@
                          "suffix",
                          "lastmodified",
                          "parent-folders",
-                         "language",
                          "con_locales",
                          "Title_exact",
                          "Title_prop",
@@ -63,7 +62,8 @@
                        ]
         },
         "resetFacets" : {
-            "id" : 'solrWidgetResetFacets'
+            "id" : 'solrWidgetResetFacets',
+            "label" :  '<fmt:message key="label.reset" />'
         },
         "sortBar" : {
             "id" : "solrWidgetSortBar",
@@ -94,4 +94,4 @@
             "label" : '<fmt:message key="label.share" />'
         }
     };
-</fmt:bundle>
+</cms:bundle>

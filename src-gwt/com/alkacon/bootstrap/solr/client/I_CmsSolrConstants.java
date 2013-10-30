@@ -48,9 +48,6 @@ public interface I_CmsSolrConstants {
     String NODE_HIGHLIGHTING = "highlighting";
 
     /** Node within the json result. */
-    String NODE_LANGUAGES = "languages";
-
-    /** Node within the json result. */
     String NODE_LINK = "link";
 
     /** Node within the json result. */

@@ -122,11 +122,11 @@ public class CmsPaginationWidget extends A_CmsSearchWidget {
         CmsPaginationEntry previous = null;
         if (previousPage < 0) {
             // no prev page
-            previous = new CmsPaginationEntry("← " + UserMessages.back(), -1);
+            previous = new CmsPaginationEntry("← " + UserMessages.getMessage("label.back"), -1);
             previous.addStyleName("previous disabled");
         } else {
             // prev page
-            previous = new CmsPaginationEntry("← " + UserMessages.back(), previousPage);
+            previous = new CmsPaginationEntry("← " + UserMessages.getMessage("label.back"), previousPage);
             previous.addStyleName("previous");
         }
         pagination.add(previous);
@@ -139,10 +139,10 @@ public class CmsPaginationWidget extends A_CmsSearchWidget {
         final int nextPage = getController().getSearchData().getPage() + 1;
         CmsPaginationEntry next = null;
         if (nextPage >= lastPage) {
-            next = new CmsPaginationEntry(UserMessages.next() + " →", -1);
+            next = new CmsPaginationEntry(UserMessages.getMessage("label.next") + " →", -1);
             next.addStyleName("next disabled");
         } else {
-            next = new CmsPaginationEntry(UserMessages.next() + " →", nextPage);
+            next = new CmsPaginationEntry(UserMessages.getMessage("label.next") + " →", nextPage);
             next.addStyleName("next");
         }
         pagination.add(next);

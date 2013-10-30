@@ -27,10 +27,9 @@
 
 package com.alkacon.bootstrap.solr.client.widgets;
 
+import com.alkacon.bootstrap.solr.client.CmsSolrConfig.CmsWidgetConfig;
 import com.alkacon.bootstrap.solr.client.CmsSolrController;
 import com.alkacon.bootstrap.solr.client.CmsSolrDocumentList;
-import com.alkacon.bootstrap.solr.client.UserMessages;
-import com.alkacon.bootstrap.solr.client.CmsSolrConfig.CmsWidgetConfig;
 
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -56,7 +55,7 @@ public class CmsResetFacetWidget extends A_CmsSearchWidget {
 
         super(panel, controller, config);
 
-        m_reset = new Label(UserMessages.resetSelection());
+        m_reset = new Label(config.getLabel());
         m_reset.setStyleName("resetFacets");
         m_reset.addClickHandler(new ClickHandler() {
 

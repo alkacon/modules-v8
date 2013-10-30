@@ -31,10 +31,10 @@
 
 package com.alkacon.bootstrap.solr.client.widgets.datepicker;
 
+import com.alkacon.bootstrap.solr.client.CmsSolrConfig.CmsWidgetConfig;
 import com.alkacon.bootstrap.solr.client.CmsSolrController;
 import com.alkacon.bootstrap.solr.client.CmsSolrDocumentList;
 import com.alkacon.bootstrap.solr.client.UserMessages;
-import com.alkacon.bootstrap.solr.client.CmsSolrConfig.CmsWidgetConfig;
 import com.alkacon.bootstrap.solr.client.widgets.A_CmsSearchWidget;
 
 import com.google.gwt.user.client.ui.Label;
@@ -69,8 +69,8 @@ public class CmsDateFacetWidget extends A_CmsSearchWidget {
         m_label.setVisible(false);
         getPanel().add(m_label);
 
-        m_dpStartDate = new CmsDatePicker(getController(), UserMessages.from(), true);
-        m_dpEndDate = new CmsDatePicker(getController(), UserMessages.until(), false);
+        m_dpStartDate = new CmsDatePicker(getController(), UserMessages.getMessage("label.from"), true);
+        m_dpEndDate = new CmsDatePicker(getController(), UserMessages.getMessage("label.until"), false);
 
         getPanel().add(m_dpStartDate);
         getPanel().add(m_dpEndDate);
