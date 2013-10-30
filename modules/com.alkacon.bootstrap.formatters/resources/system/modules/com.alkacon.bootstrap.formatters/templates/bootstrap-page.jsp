@@ -36,7 +36,7 @@
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css:1264956e-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:127bc6fe-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css:52f716c6-20f8-11e3-b4d8-000c297c001d)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.search/resources/css/search.css:2e634695-0cb8-11e2-b19e-2b1b08a6835d)" />
+		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/search.css:2e634695-0cb8-11e2-b19e-2b1b08a6835d)" />
 		<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/headers/header${configcontent.value.HeaderType}.css</cms:link>" rel="stylesheet" type="text/css"></link>
 	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/${configcontent.value.Theme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
 	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/headers/header1-${configcontent.value.Theme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
@@ -49,10 +49,13 @@
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js:1908df28-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/app.js:11fe5a44-3a3b-11e3-a584-000c2943a707)" />
 
-	<script type="text/javascript" src="<cms:link>/system/modules/com.alkacon.bootstrap.search/resources/search/search.nocache.js</cms:link>"></script>
-	<script type="text/javascript" src="<cms:link>/system/modules/com.alkacon.bootstrap.search/resources/dictionary.js</cms:link>"></script>
-	<script type="text/javascript" src="<cms:link>/system/modules/com.alkacon.bootstrap.search/resources/configuration.js</cms:link>"></script>
-	<cms:include file="../elements/search/context.js" />
+	<!-- START: search resources -->
+	<script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/search/dictionary.js:d2f20f93-1370-11e2-b821-2b1b08a6835d)</cms:link>"></script>
+	<script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/search/configuration.js:e3fb6d55-0e64-11e2-8968-2b1b08a6835d)</cms:link>"></script>
+	<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/search/context.js:b4a9ffc9-416c-11e3-81ba-000c297c001d)" />
+	<%= org.opencms.gwt.CmsGwtActionElement.createNoCacheScript("search", "9.0.0") %>
+	
+	<!-- END: search resources -->
 
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
