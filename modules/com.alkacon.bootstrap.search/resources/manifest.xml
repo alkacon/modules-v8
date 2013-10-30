@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+	<info>
+		<creator>Admin</creator>
+		<opencms_version>8.9.0</opencms_version>
+		<createdate>Wed, 30 Oct 2013 10:22:03 GMT</createdate>
+		<infoproject>Offline</infoproject>
+		<export_version>7</export_version>
+	</info>
+	<module>
+		<name>com.alkacon.bootstrap.search</name>
+		<nicename><![CDATA[Bootstrap Search]]></nicename>
+		<group>Bootstrap Template</group>
+		<class/>
+		<description><![CDATA[The OpenCms 9 bootstrap search.]]></description>
+		<version>8.9.0</version>
+		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies/>
+		<exportpoints>
+			<exportpoint uri="/system/modules/com.alkacon.bootstrap.search/resources/" destination="resources/ade/"/>
+		</exportpoints>
+		<resources>
+			<resource uri="/system/modules/com.alkacon.bootstrap.search/"/>
+		</resources>
+		<parameters/>
+	</module>
+	<files>
+		<file>
+			<destination>system</destination>
+			<type>folder</type>
+			<uuidstructure>a862a91b-407b-11e3-85e0-000c297c001d</uuidstructure>
+			<datelastmodified>Tue, 29 Oct 2013 09:22:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 29 Oct 2013 09:22:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+					<flags>514</flags>
+					<permissionset>
+						<allowed>1</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
+		</file>
+		<file>
+			<destination>system/modules</destination>
+			<type>folder</type>
+			<uuidstructure>aad9c3d7-407b-11e3-85e0-000c297c001d</uuidstructure>
+			<datelastmodified>Tue, 29 Oct 2013 09:22:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 29 Oct 2013 09:22:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+					<flags>514</flags>
+					<permissionset>
+						<allowed>5</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.search</destination>
+			<type>folder</type>
+			<uuidstructure>8f865630-0bc3-11e2-809c-09acdb80abab</uuidstructure>
+			<datelastmodified>Mon, 01 Oct 2012 12:28:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 01 Oct 2012 12:28:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/.config</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/.config</destination>
+			<type>module_config</type>
+			<uuidstructure>4aedfe33-4071-11e3-be04-000c297c001d</uuidstructure>
+			<uuidresource>4aedfe34-4071-11e3-be04-000c297c001d</uuidresource>
+			<datelastmodified>Tue, 29 Oct 2013 08:16:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 29 Oct 2013 08:08:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.search/elements</destination>
+			<type>folder</type>
+			<uuidstructure>8fc92b92-0bc3-11e2-809c-09acdb80abab</uuidstructure>
+			<datelastmodified>Mon, 01 Oct 2012 12:28:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 01 Oct 2012 12:28:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/elements/search.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/elements/search.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>9dbf1580-0bc3-11e2-809c-09acdb80abab</uuidstructure>
+			<uuidresource>9dbf1581-0bc3-11e2-809c-09acdb80abab</uuidresource>
+			<datelastmodified>Wed, 30 Oct 2013 10:21:43 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 01 Oct 2012 12:29:16 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.search/functions</destination>
+			<type>folder</type>
+			<uuidstructure>2adb37d1-3bd1-11e3-a955-000c297c001d</uuidstructure>
+			<datelastmodified>Wed, 23 Oct 2013 10:52:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 23 Oct 2013 10:52:10 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/functions/search-page.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/functions/search-page.xml</destination>
+			<type>function</type>
+			<uuidstructure>51f921d6-3bce-11e3-a955-000c297c001d</uuidstructure>
+			<uuidresource>51f921d7-3bce-11e3-a955-000c297c001d</uuidresource>
+			<datelastmodified>Wed, 23 Oct 2013 10:53:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 23 Oct 2013 10:31:47 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Search page]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.search/i18n</destination>
+			<type>folder</type>
+			<uuidstructure>bd2fcf18-4146-11e3-a73a-000c297c001d</uuidstructure>
+			<datelastmodified>Wed, 30 Oct 2013 09:36:22 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Oct 2013 09:36:22 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/i18n/com.alkacon.bootstrap.search.messages</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/i18n/com.alkacon.bootstrap.search.messages</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>cb14c90a-4146-11e3-a73a-000c297c001d</uuidstructure>
+			<uuidresource>cb14c90b-4146-11e3-a73a-000c297c001d</uuidresource>
+			<datelastmodified>Wed, 30 Oct 2013 10:20:35 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Oct 2013 09:36:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search messages]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources</destination>
+			<type>folder</type>
+			<uuidstructure>32b5c7a2-0caf-11e2-a9e2-2b1b08a6835d</uuidstructure>
+			<datelastmodified>Mon, 08 Oct 2012 13:37:43 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 02 Oct 2012 16:35:38 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>export</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/configuration.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/configuration.js</destination>
+			<type>jsp</type>
+			<uuidstructure>e3fb6d55-0e64-11e2-8968-2b1b08a6835d</uuidstructure>
+			<uuidresource>e3fb6d56-0e64-11e2-8968-2b1b08a6835d</uuidresource>
+			<datelastmodified>Wed, 30 Oct 2013 10:21:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 04 Oct 2012 20:48:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/dictionary.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/dictionary.js</destination>
+			<type>jsp</type>
+			<uuidstructure>d2f20f93-1370-11e2-b821-2b1b08a6835d</uuidstructure>
+			<uuidresource>d2f20f94-1370-11e2-b821-2b1b08a6835d</uuidresource>
+			<datelastmodified>Wed, 30 Oct 2013 10:21:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Oct 2012 06:56:47 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/css</destination>
+			<type>folder</type>
+			<uuidstructure>2001d08b-114d-11e2-bc9d-2b1b08a6835d</uuidstructure>
+			<datelastmodified>Mon, 08 Oct 2012 13:36:12 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 08 Oct 2012 13:36:12 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/css/search.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/css/search.css</destination>
+			<type>plain</type>
+			<uuidstructure>2e634695-0cb8-11e2-b19e-2b1b08a6835d</uuidstructure>
+			<uuidresource>2e634696-0cb8-11e2-b19e-2b1b08a6835d</uuidresource>
+			<datelastmodified>Mon, 08 Oct 2012 10:27:39 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 02 Oct 2012 17:39:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>export</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/search</destination>
+			<type>folder</type>
+			<uuidstructure>3908bcc4-0caf-11e2-a9e2-2b1b08a6835d</uuidstructure>
+			<datelastmodified>Tue, 02 Oct 2012 16:35:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 02 Oct 2012 16:35:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+	</files>
+</export>

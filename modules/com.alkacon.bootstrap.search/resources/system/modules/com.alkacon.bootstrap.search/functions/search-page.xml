@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
+  <DynamicFunction language="en">
+    <Title><![CDATA[Search function]]></Title>
+    <Description><![CDATA[Search function]]></Description>
+    <FunctionProvider>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.search/elements/search.jsp]]></target>
+        <uuid>9dbf1580-0bc3-11e2-809c-09acdb80abab</uuid>
+      </link>
+    </FunctionProvider>
+    <SettingConfig>
+      <PropertyName><![CDATA[restoreQuery]]></PropertyName>
+      <DisplayName><![CDATA[Shared result]]></DisplayName>
+      <Type><![CDATA[string]]></Type>
+      <Widget><![CDATA[string]]></Widget>
+    </SettingConfig>
+  </DynamicFunction>
+</DynamicFunctions>
