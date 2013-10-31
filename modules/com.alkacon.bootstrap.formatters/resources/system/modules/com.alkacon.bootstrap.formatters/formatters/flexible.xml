@@ -12,7 +12,9 @@
     <NiceName><![CDATA[Flexible default formatter]]></NiceName>
     <Rank><![CDATA[1000]]></Rank>
     <Match>
-      <Types/>
+      <Width>
+        <Width><![CDATA[-1]]></Width>
+      </Width>
     </Match>
     <Preview>false</Preview>
     <SearchContent>false</SearchContent>
