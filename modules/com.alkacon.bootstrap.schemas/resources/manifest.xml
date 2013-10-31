@@ -21,9 +21,7 @@
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies/>
-		<exportpoints>
-			<exportpoint uri="/system/modules/com.alkacon.bootstrap.schemas/classes/" destination="WEB-INF/classes/"/>
-		</exportpoints>
+		<exportpoints/>
 		<resources>
 			<resource uri="/system/modules/com.alkacon.bootstrap.schemas/"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-configuration.png"/>
