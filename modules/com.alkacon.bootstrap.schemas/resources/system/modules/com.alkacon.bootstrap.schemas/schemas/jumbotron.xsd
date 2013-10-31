@@ -36,8 +36,8 @@
 			</layouts>
 			<validationrules/>
 			<relations/>
-			<searchsettings containerPageOnly="true" />
+			<searchsettings containerPageOnly="true"/>
 		</xsd:appinfo>
+	</xsd:annotation>
 
-	</xsd:annotation>  
 </xsd:schema>

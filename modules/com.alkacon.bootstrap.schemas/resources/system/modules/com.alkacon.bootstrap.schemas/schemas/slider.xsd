@@ -48,11 +48,22 @@
 			</layouts>
 			<validationrules/>
 			<searchsettings containerPageOnly="true">
-				<searchsetting element="Title" searchcontent="true">
-					<solrfield targetfield="Title" />
-				</searchsetting>
+				<searchsetting element="Duration" searchcontent="false"/>
+				<searchsetting element="Width" searchcontent="false"/>
+				<searchsetting element="Height" searchcontent="false"/>
+				<searchsetting element="Item/Effect" searchcontent="false"/>
+				<searchsetting element="Item/Slots" searchcontent="false"/>
+				<searchsetting element="Item/Delay" searchcontent="false"/>
+				<searchsetting element="Item/Caption/PosX" searchcontent="false"/>
+				<searchsetting element="Item/Caption/PosY" searchcontent="false"/>
+				<searchsetting element="Item/Caption/Class" searchcontent="false"/>
+				<searchsetting element="Item/Caption/Start" searchcontent="false"/>
+				<searchsetting element="Item/Caption/Speed" searchcontent="false"/>
+				<searchsetting element="Item/Caption/Easing" searchcontent="false"/>
+				<searchsetting element="Item/Caption/End" searchcontent="false"/>
+				<searchsetting element="Item/Caption/EndEasing" searchcontent="false"/>
 			</searchsettings>
 		</xsd:appinfo>
+	</xsd:annotation>
 
-	</xsd:annotation>  
 </xsd:schema>

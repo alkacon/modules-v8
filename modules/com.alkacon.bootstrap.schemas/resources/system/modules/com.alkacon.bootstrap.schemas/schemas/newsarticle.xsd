@@ -55,14 +55,11 @@
 				<relation element="Paragraph/Image/Image" invalidate="parent" />
 			</relations>
 			<searchsettings containerPageOnly="false">
-				<searchsetting element="Title" searchcontent="true">
-					<solrfield targetfield="Title" />
-				</searchsetting>
 				<searchsetting element="Date" searchcontent="false">
 					<solrfield targetfield="newsdate" sourcefield="*_dt" />
 				</searchsetting>
 			</searchsettings>
 		</xsd:appinfo>
-
 	</xsd:annotation>
+
 </xsd:schema>

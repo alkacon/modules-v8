@@ -35,12 +35,8 @@
 			<relations>
 				<relation element="Paragraph/Image/Image" invalidate="parent" />
 			</relations>
-			<searchsettings containerPageOnly="true">
-				<searchsetting element="Title" searchcontent="true">
-					<solrfield targetfield="Title" />
-				</searchsetting>
-			</searchsettings>
+			<searchsettings containerPageOnly="true"/>
 		</xsd:appinfo>
+	</xsd:annotation>
 
-	</xsd:annotation>  
 </xsd:schema>

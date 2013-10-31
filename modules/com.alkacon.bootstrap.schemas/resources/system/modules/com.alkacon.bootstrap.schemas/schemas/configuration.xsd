@@ -37,8 +37,13 @@
 			</tabs>
 			<validationrules/>
 			<relations/>
-			<searchsettings containerPageOnly="true" />
+			<searchsettings containerPageOnly="true">
+				<searchsetting element="Theme" searchcontent="false"/>
+				<searchsetting element="HeaderType" searchcontent="false"/>
+				<searchsetting element="NavStartLevel" searchcontent="false"/>
+				<searchsetting element="Header" searchcontent="false"/>
+			</searchsettings>
 		</xsd:appinfo>
+	</xsd:annotation>
 
-	</xsd:annotation>  
 </xsd:schema>

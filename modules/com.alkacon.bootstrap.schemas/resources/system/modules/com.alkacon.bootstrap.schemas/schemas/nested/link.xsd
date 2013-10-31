@@ -22,6 +22,5 @@
 		<xsd:appinfo>
 			<resourcebundle name="com.alkacon.bootstrap.schemas.workplace"/>
 		</xsd:appinfo>
-
 	</xsd:annotation>
 </xsd:schema>

@@ -37,12 +37,8 @@
 			<relations>
 				<relation element="Item/Image" invalidate="node" />
 			</relations>
-			<searchsettings containerPageOnly="true">
-				<searchsetting element="Title" searchcontent="true">
-					<solrfield targetfield="Title" />
-				</searchsetting>
-			</searchsettings>
+			<searchsettings containerPageOnly="true"/>
 		</xsd:appinfo>
+	</xsd:annotation> 
 
-	</xsd:annotation>  
 </xsd:schema>
