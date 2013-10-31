@@ -29,12 +29,6 @@
     <HeadIncludeCss>
       <CssLink>
         <link type="WEAK">
-          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/css/responsive.css]]></target>
-          <uuid>12ffeb7c-3a3b-11e3-a584-000c2943a707</uuid>
-        </link>
-      </CssLink>
-      <CssLink>
-        <link type="WEAK">
           <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/css/settings.css]]></target>
           <uuid>18676eb4-3a3b-11e3-a584-000c2943a707</uuid>
         </link>
