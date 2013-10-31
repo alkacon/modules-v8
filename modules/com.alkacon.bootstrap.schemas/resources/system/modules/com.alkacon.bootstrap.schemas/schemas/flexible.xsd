@@ -30,14 +30,6 @@
 					<solrfield targetfield="Title" />
 				</searchsetting>
 			</searchsettings>
-			<formatters>
-				<formatter type="*" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/flexible.jsp" searchcontent="false" />
-				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/flexible.jsp" searchcontent="false" />
-				</formatters>
-			<settings>
-				<setting name="hideTitle" nice-name="%(key.bootstrap.flexible.setting.hidetitle)" type="string" widget="checkbox" />
-				<setting name="cssClass" nice-name="%(key.bootstrap.flexible.setting.cssclass)" type="string" widget="string" />
-			</settings>
 		</xsd:appinfo>
 	</xsd:annotation>  
 </xsd:schema>

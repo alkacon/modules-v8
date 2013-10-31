@@ -41,17 +41,6 @@
 					<solrfield targetfield="Title" />
 				</searchsetting>
 			</searchsettings>
-			<formatters>
-				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/imagegalleryshow.jsp" searchcontent="true" />
-				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/imagegalleryshow.jsp" searchcontent="true" />
-			</formatters>
-			<settings>
-				<setting name="hidetitle" nice-name="%(key.bootstrap.imagegalleryshow.setting.hidetitle)" type="string" default="false" widget="checkbox" />
-			</settings>
-			<headincludes>
-				<headinclude type="javascript" uri="/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/fancybox/source/jquery.fancybox.pack.js" />
-				<headinclude type="css" uri="/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/fancybox/source/jquery.fancybox.css" /> 
-			</headincludes>
 		</xsd:appinfo>
 
 	</xsd:annotation>  

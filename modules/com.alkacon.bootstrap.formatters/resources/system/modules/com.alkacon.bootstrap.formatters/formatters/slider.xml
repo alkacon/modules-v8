@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <Type><![CDATA[bs-slider]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/slider.jsp]]></target>
+        <uuid>5e9a18fa-241f-11e3-adc8-000c297c001d</uuid>
+      </link>
+    </Jsp>
+    <NiceName><![CDATA[Slider default formatter]]></NiceName>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[content-full]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>true</Detail>
+    <Setting>
+      <PropertyName><![CDATA[hidetitle]]></PropertyName>
+      <DisplayName><![CDATA[%(key.bootstrap.slider.setting.hidetitle)]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+    </Setting>
+    <HeadIncludeCss>
+      <CssLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/css/responsive.css]]></target>
+          <uuid>12ffeb7c-3a3b-11e3-a584-000c2943a707</uuid>
+        </link>
+      </CssLink>
+      <CssLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/css/settings.css]]></target>
+          <uuid>18676eb4-3a3b-11e3-a584-000c2943a707</uuid>
+        </link>
+      </CssLink>
+    </HeadIncludeCss>
+    <HeadIncludeJs>
+      <JavascriptLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js]]></target>
+          <uuid>189e5d51-3a3b-11e3-a584-000c2943a707</uuid>
+        </link>
+      </JavascriptLink>
+    </HeadIncludeJs>
+  </NewFormatter>
+</NewFormatters>

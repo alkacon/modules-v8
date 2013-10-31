@@ -37,6 +37,10 @@
 				<default element="Item/Caption/Start" value="900" />
 				<default element="Item/Caption/Speed" value="600" />
 			</defaults>
+			<tabs>
+				<tab element="Title" name="TabGeneral" collapse="false" />
+				<tab element="Item" name="TabItems" collapse="false" />
+			</tabs>
 			<layouts>
 				<layout element="Duration" widget="SelectorWidget" configuration="2000:2|3000:3|4000:4|5000:5|6000:6|8000:8|9000*:9|10000:10|12000:12|15000:15|20000:20" />
 				<layout element="Width" widget="ComboWidget" configuration="700|800|900|960|1000|1100|1200" />
@@ -48,22 +52,6 @@
 					<solrfield targetfield="Title" />
 				</searchsetting>
 			</searchsettings>
-			<formatters>
-				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/slider.jsp" searchcontent="true" />
-			</formatters>
-			<settings>
-				<setting name="hidetitle" nice-name="%(key.bootstrap.slider.setting.hidetitle)" type="string" default="false" widget="checkbox" />
-			</settings>
-			<tabs>
-				<tab element="Title" name="TabGeneral" collapse="false" />
-				<tab element="Item" name="TabItems" collapse="false" />
-			</tabs>
-			<headincludes>
-				<headinclude type="css" uri="/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/css/rs-style.css" />
-				<headinclude type="css" uri="/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/css/settings.css" />
-				<headinclude type="javascript" uri="/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js" />
-				<headinclude type="javascript" uri="/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-			</headincludes>
 		</xsd:appinfo>
 
 	</xsd:annotation>  

@@ -28,7 +28,6 @@
 			</mappings>
 			<defaults>
 				<default element="Title" value="%(key.bootstrap.carousel.default.Title)" />
-				<!-- <default element="Item/Text" value="%(key.bootstrap.carousel.default.Text)" /> -->
 			</defaults>
 			<layouts/>
 			<validationrules/>
@@ -38,13 +37,6 @@
 					<solrfield targetfield="Title" />
 				</searchsetting>
 			</searchsettings>
-			<formatters>
-				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/carousel.jsp" searchcontent="true" />
-				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/carousel.jsp" searchcontent="true" />
-			</formatters>
-			<settings>
-				<setting name="hidetitle" nice-name="%(key.bootstrap.carousel.setting.hidetitle)" type="string" default="false" widget="checkbox" />
-			</settings>
 			<headincludes/>
 		</xsd:appinfo>
 

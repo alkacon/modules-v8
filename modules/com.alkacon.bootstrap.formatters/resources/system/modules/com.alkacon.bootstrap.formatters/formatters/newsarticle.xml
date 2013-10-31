@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <Type><![CDATA[bs-newsarticle]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/newsarticle.jsp]]></target>
+        <uuid>8cda7d9a-206d-11e3-bd82-000c297c001d</uuid>
+      </link>
+    </Jsp>
+    <NiceName><![CDATA[News article default formatter]]></NiceName>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[content]]></ContainerType>
+        <ContainerType><![CDATA[content-full]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>true</Detail>
+    <Setting>
+      <PropertyName><![CDATA[imgalign]]></PropertyName>
+      <DisplayName><![CDATA[%(key.bootstrap.newsarticle.setting.imgalign)]]></DisplayName>
+      <Widget><![CDATA[select]]></Widget>
+      <WidgetConfig><![CDATA[left:%(key.bootstrap.newsarticle.image.left)|right:%(key.bootstrap.newsarticle.image.right)|top:%(key.bootstrap.newsarticle.image.top)]]></WidgetConfig>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

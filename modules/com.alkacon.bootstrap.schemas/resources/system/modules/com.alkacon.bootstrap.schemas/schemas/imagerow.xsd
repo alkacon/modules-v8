@@ -40,14 +40,6 @@
 					<solrfield targetfield="Title" />
 				</searchsetting>
 			</searchsettings>
-			<formatters>
-				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/imagerow.jsp" searchcontent="true" />
-				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/imagerow.jsp" searchcontent="true" />
-			</formatters>
-			<settings>
-				<setting name="hidetitle" nice-name="%(key.bootstrap.imagerow.setting.hidetitle)" type="string" default="false" widget="checkbox" />
-			</settings>
-			<headincludes/>
 		</xsd:appinfo>
 
 	</xsd:annotation>  

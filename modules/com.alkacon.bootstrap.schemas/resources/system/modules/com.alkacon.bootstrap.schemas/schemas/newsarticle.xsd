@@ -62,14 +62,6 @@
 					<solrfield targetfield="newsdate" sourcefield="*_dt" />
 				</searchsetting>
 			</searchsettings>
-			<formatters>
-				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/newsarticle.jsp" searchcontent="true" />
-				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/newsarticle.jsp" searchcontent="true" />
-			</formatters>
-			<settings>
-				<setting name="imgalign" nice-name="%(key.bootstrap.newsarticle.setting.imgalign)" type="string" widget="select" widget-config="left:%(key.bootstrap.newsarticle.image.left)|right:%(key.bootstrap.newsarticle.image.right)|top:%(key.bootstrap.newsarticle.image.top)" />
-			</settings>
-			<headincludes />
 		</xsd:appinfo>
 
 	</xsd:annotation>

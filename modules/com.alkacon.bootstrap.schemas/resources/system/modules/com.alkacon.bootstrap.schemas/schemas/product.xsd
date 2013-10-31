@@ -50,10 +50,6 @@
 			<validationrules />
 			<relations/>
 			<searchsettings containerPageOnly="false" />
-			<formatters>
-				<formatter type="content" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/product.jsp" searchcontent="true" />
-				<formatter type="content-full" uri="/system/modules/com.alkacon.bootstrap.formatters/formatters/product.jsp" searchcontent="true" />
-			</formatters>
 		</xsd:appinfo>
 	</xsd:annotation>
 </xsd:schema>
