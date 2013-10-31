@@ -368,7 +368,7 @@ public class CmsSearchQueryData implements IsSerializable {
      */
     public void clearSortOrder() {
 
-        m_sort = m_config.getDefaultSort();
+        m_sort = "";
     }
 
     /**
