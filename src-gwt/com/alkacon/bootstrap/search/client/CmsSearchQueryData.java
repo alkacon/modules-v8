@@ -92,7 +92,7 @@ public class CmsSearchQueryData implements IsSerializable {
     private String m_searchQuery;
 
     /** The sort parameter value. */
-    private String m_sort = "Title_exact asc";
+    private String m_sort;
 
     /** The start date. */
     private Date m_startDate;
@@ -281,12 +281,10 @@ public class CmsSearchQueryData implements IsSerializable {
                     }
                 }
             }
+
             String[] sort = params.get("sort");
             if ((sort != null) && (sort.length > 0)) {
-                String sortp = sort[0];
-                if (!("Title_exact asc".equals(sortp) || "Title_exact+asc".equals(sortp))) {
-                    result += "&sort=" + sort[0];
-                }
+                result += "&sort=" + sort[0];
             }
         }
         return result;
@@ -370,7 +368,7 @@ public class CmsSearchQueryData implements IsSerializable {
      */
     public void clearSortOrder() {
 
-        m_sort = "Title_exact asc";
+        m_sort = m_config.getDefaultSort();
     }
 
     /**
@@ -514,18 +512,15 @@ public class CmsSearchQueryData implements IsSerializable {
         }
 
         // add the sorting if required
-        if (!m_sort.equals("")) {
-            buf.append("&sort=");
+        buf.append("&sort=");
+        if (((m_sort == null) || m_sort.equals(""))) {
             if ((m_searchQuery != null) && !m_searchQuery.trim().isEmpty()) {
-                if ("Title_exact asc".equals(m_sort)) {
-                    m_sort = "score+desc";
-                    buf.append(m_sort);
-
-                }
+                m_sort = "score+desc";
             } else {
-                buf.append(m_sort);
+                m_sort = m_config.getDefaultSort();
             }
         }
+        buf.append(m_sort);
 
         //add code for highlighting
         if ((m_searchQuery != null) && !m_searchQuery.trim().isEmpty()) {

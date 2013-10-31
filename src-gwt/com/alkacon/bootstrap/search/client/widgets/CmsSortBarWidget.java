@@ -122,7 +122,7 @@ public class CmsSortBarWidget extends A_CmsSearchWidget {
         boolean found = false;
         for (int i = 0; i < m_order.getItemCount(); i++) {
             String curr = m_order.getValue(i);
-            if ("Title_exact+asc".equals(curr)) {
+            if (getController().getConfig().getDefaultSort().equals(curr)) {
                 defaultIndex = i;
             }
             if (m_order.getValue(i).equals(getController().getSearchData().getSort())) {

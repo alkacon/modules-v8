@@ -440,6 +440,9 @@ public class CmsSearchConfig {
     protected static final String NODE_DEFAULT_QUERY = "defaultQuery";
 
     /** JSON node constant. */
+    protected static final String NODE_DEFAULT_SORT = "defaultSort";
+
+    /** JSON node constant. */
     protected static final String NODE_FACET = "facet";
 
     /** JSON node constant. */
@@ -550,6 +553,9 @@ public class CmsSearchConfig {
     /** The default query. */
     private String m_defaultQuery;
 
+    /** The default sort order. */
+    private String m_defaultSort;
+
     /** The facet flag. */
     private boolean m_facet;
 
@@ -604,6 +610,7 @@ public class CmsSearchConfig {
 
         JSONObject generalObject = jsonConfig.get(NODE_GENERAL).isObject();
         m_defaultQuery = generalObject.get(NODE_DEFAULT_QUERY).isString().stringValue();
+        m_defaultSort = generalObject.get(NODE_DEFAULT_SORT).isString().stringValue();
         m_queryType = generalObject.get(NODE_QUERY_TYPE).isString().stringValue();
         m_facet = generalObject.get(NODE_FACET).isBoolean().booleanValue();
         m_facetLimit = new Double(generalObject.get(NODE_FACET_LIMIT).isNumber().doubleValue()).intValue();
@@ -672,6 +679,16 @@ public class CmsSearchConfig {
     public String getDefaultQuery() {
 
         return m_defaultQuery;
+    }
+
+    /**
+     * Returns the defaultSort.<p>
+     *
+     * @return the defaultSort
+     */
+    public String getDefaultSort() {
+
+        return m_defaultSort;
     }
 
     /**
