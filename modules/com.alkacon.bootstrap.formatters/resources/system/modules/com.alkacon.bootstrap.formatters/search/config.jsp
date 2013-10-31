@@ -3,7 +3,10 @@ org.opencms.file.CmsObject cmsObject = new org.opencms.jsp.CmsJspActionElement(p
 String siteRoot = cmsObject.getRequestContext().getSiteRoot();
 String searchLink = org.opencms.main.OpenCms.getLinkManager().getRootPath(cmsObject, (String) pageContext.getAttribute("serachPage"));
 String onlineLink = org.opencms.main.OpenCms.getLinkManager().getOnlineLink(cmsObject, searchLink);
-%><script type="text/javascript">
+%>
+<script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/search/dictionary.js:d2f20f93-1370-11e2-b821-2b1b08a6835d)</cms:link>"></script>
+<script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/search/configuration.js:e3fb6d55-0e64-11e2-8968-2b1b08a6835d)</cms:link>"></script>
+<script type="text/javascript">
     var GWTsearchContextInformation = {
         "onlineURL"    : "<%= onlineLink %>",
         "rootSite"     : "<%= siteRoot %>",
@@ -15,3 +18,4 @@ String onlineLink = org.opencms.main.OpenCms.getLinkManager().getOnlineLink(cmsO
         "addtionalFL" : ["content_de","content_en"]
     }
 </script>
+<%= org.opencms.gwt.CmsGwtActionElement.createNoCacheScript("search", "9.0.0") %>

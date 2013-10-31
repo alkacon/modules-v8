@@ -49,14 +49,6 @@
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js:1908df28-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/app.js:11fe5a44-3a3b-11e3-a584-000c2943a707)" />
 
-	<!-- START: search resources -->
-	<script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/search/dictionary.js:d2f20f93-1370-11e2-b821-2b1b08a6835d)</cms:link>"></script>
-	<script type="text/javascript" src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/search/configuration.js:e3fb6d55-0e64-11e2-8968-2b1b08a6835d)</cms:link>"></script>
-	<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/search/context.js:b4a9ffc9-416c-11e3-81ba-000c297c001d)" />
-	<%= org.opencms.gwt.CmsGwtActionElement.createNoCacheScript("search", "9.0.0") %>
-	
-	<!-- END: search resources -->
-
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
 			App.init();
@@ -65,6 +57,7 @@
 	<!--[if lt IE 9]>
     	<script src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/respond.js:192037c7-3a3b-11e3-a584-000c2943a707)</cms:link>"></script>
 	<![endif]-->
+	<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/search/config.jsp:b4a9ffc9-416c-11e3-81ba-000c297c001d)" />
 </head><body>
 <div class="page-wrap">
 
