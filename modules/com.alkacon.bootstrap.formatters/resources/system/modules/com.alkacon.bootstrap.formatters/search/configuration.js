@@ -10,6 +10,7 @@
             "titleQuery" : '?wt=json&q=*:*&rows=0&fl=Title_prop&fq=con_locales:*&facet=true&facet.field=Title_exact&facet.limit=1000&fq=parent-folders:"/sites/default/demo/"',
             "rows" : 5,
             "defaultQuery" : "?wt=json&fq=con_locales:*&q=",
+            "defaultSort" : 'lastmodified+desc',
             "qt" : "edismax",
             "fl" : [     "id",
                          "path",
@@ -25,7 +26,7 @@
                          "Title_prop",
                          "category"],
              "hl" : true,
-             "hl.fl" : [ "content_en", "content_de", "Title_prop" ],
+             "hl.fl" : [ "spell", "content_en", "content_de", "Title_prop" ],
              "hl.fragsize" : 200,
              "hl.useFastVectorHighlighter" : true,
              "jsonp" : false,
@@ -37,12 +38,12 @@
         "autocomplete" : {
             "id" : "searchWidgetAutoComplete",
             "label" : '<fmt:message key="label.search" />',
-            "fields" : [ "content_en", "content_de", "Title_exact" ]
+            "fields" : [ "spell", "content_en", "content_de", "Title_exact" ]
         },
         "autocompleteHeader" : {
             "id" : "searchWidgetAutoCompleteHeader",
             "label" : '<fmt:message key="label.search" />',
-            "fields" : [ "content_en", "content_de", "Title_exact" ]
+            "fields" : [ "spell", "content_en", "content_de", "Title_exact" ]
         },
         "textFacets" : {
             "id" : 'searchWidgetTextFacet',
