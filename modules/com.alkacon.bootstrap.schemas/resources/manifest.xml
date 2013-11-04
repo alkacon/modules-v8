@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.9.0</opencms_version>
-		<createdate>Mon, 04 Nov 2013 13:28:17 GMT</createdate>
+		<createdate>Mon, 04 Nov 2013 17:47:50 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap XML Schema Definitions.]]></description>
-		<version>8.9.2</version>
+		<version>8.9.3</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -202,7 +202,7 @@
 			<type>module_config</type>
 			<uuidstructure>1a6836da-1aca-11e3-a5c5-000c29f9a2ec</uuidstructure>
 			<uuidresource>1a6836db-1aca-11e3-a5c5-000c29f9a2ec</uuidresource>
-			<datelastmodified>Thu, 24 Oct 2013 10:11:55 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 Nov 2013 14:09:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 11 Sep 2013 10:08:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -579,7 +579,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>c9def4ee-1c45-11e3-80da-000c29f9a2ec</uuidstructure>
 			<uuidresource>c9def4ef-1c45-11e3-80da-000c29f9a2ec</uuidresource>
-			<datelastmodified>Thu, 24 Oct 2013 08:58:14 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 Nov 2013 14:06:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 07:26:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>

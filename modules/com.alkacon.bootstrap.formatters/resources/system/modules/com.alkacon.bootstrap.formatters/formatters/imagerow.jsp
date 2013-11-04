@@ -14,10 +14,9 @@
 		<div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div>
 	</c:if>
 
-	<c:forEach var="item" items="${content.valueList.Item}" varStatus="status"><c:if test="${status.last}"><c:set var="itemCount" value="${status.count}" /></c:if></c:forEach>
 	<div class="row">
-		<c:forEach var="item" items="${content.valueList.Item}" varStatus="status">
-			<div ${item.rdfa.Link} class="col-md-<fmt:formatNumber type="number" value="${12 / itemCount}" maxFractionDigits="0" />">				
+		<c:forEach var="item" items="${content.valueList.Item}">
+			<div ${item.rdfa.Link} class="col-md-<fmt:formatNumber value="${12 / cms:getListSize(content.valueList.Item)}" maxFractionDigits="0" />">				
             	<div class="thumbnails thumbnail-style thumbnail-kenburn">
            	 		<c:if test="${item.value.Image.isSet}"><div class="thumbnail-img" ${item.rdfa.Image}>
             			<div class="overflow-hidden"><img src="<cms:link>${item.value.Image}</cms:link>" class="img-responsive" alt="" /></div>

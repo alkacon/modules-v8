@@ -61,3 +61,20 @@
 #searchShareLink {
 	display: none;
 }
+.panel-search {
+	border-color: #b31b34;
+}
+.panel-search > .panel-heading {
+	background-color: #b31b34;
+	color: #fff;
+}
+.btn-search {
+	color: #ffffff;
+	background-color: #b51d36;
+	border-color: #b31b34;
+}
+.btn-search:hover, .btn-search:focus, .btn-search:active, .btn-search.active, .open .dropdown-toggle.btn-search {
+	color: #ffffff;
+	background-color: #b31b34;
+	border-color: #b11932;
+}

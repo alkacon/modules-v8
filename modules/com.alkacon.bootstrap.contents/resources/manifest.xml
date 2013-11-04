@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.9.0</opencms_version>
-		<createdate>Mon, 04 Nov 2013 13:27:13 GMT</createdate>
+		<createdate>Mon, 04 Nov 2013 17:46:48 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap template demo contents.]]></description>
-		<version>8.9.15</version>
+		<version>8.9.16</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -61,7 +61,7 @@
 			<type>sitemap_config</type>
 			<uuidstructure>d8be96fd-21d0-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>d8be96fe-21d0-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 11:39:59 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 Nov 2013 14:21:26 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 08:44:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3678,7 +3678,7 @@
 			<type>sitemap_config</type>
 			<uuidstructure>2cb243d6-21ee-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>2cb243d7-21ee-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 11:09:32 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 Nov 2013 14:25:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 12:14:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3719,6 +3719,39 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Page configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>demo/.content/blogpages</destination>
+			<type>folder</type>
+			<uuidstructure>0b568055-455d-11e3-8774-000c29d28104</uuidstructure>
+			<datelastmodified>Mon, 04 Nov 2013 14:26:07 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 04 Nov 2013 14:26:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/.content/blogpages/bp_00001.xml</source>
+			<destination>demo/.content/blogpages/bp_00001.xml</destination>
+			<type>bs-blog</type>
+			<uuidstructure>0b64b127-455d-11e3-8774-000c29d28104</uuidstructure>
+			<uuidresource>0b64b128-455d-11e3-8774-000c29d28104</uuidresource>
+			<datelastmodified>Mon, 04 Nov 2013 15:31:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 04 Nov 2013 14:26:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Example for a blog page]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -4759,6 +4792,56 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>demo/elements/blog-page</destination>
+			<type>folder</type>
+			<uuidstructure>d393c05c-455c-11e3-8774-000c29d28104</uuidstructure>
+			<datelastmodified>Mon, 04 Nov 2013 14:24:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 04 Nov 2013 14:24:34 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[4.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Blog Page Block]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blog Page Block]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/elements/blog-page/index.html</source>
+			<destination>demo/elements/blog-page/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>d3a4fe71-455c-11e3-8774-000c29d28104</uuidstructure>
+			<uuidresource>d3a4fe72-455c-11e3-8774-000c29d28104</uuidresource>
+			<datelastmodified>Mon, 04 Nov 2013 16:35:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 04 Nov 2013 14:24:34 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Bootstrap layout without pre-configured elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blog Page Block]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>demo/elements/carousel</destination>
 			<type>folder</type>
 			<uuidstructure>b7e236a1-3c81-11e3-a99f-000c2943a707</uuidstructure>
@@ -5620,7 +5703,7 @@
 			<type>containerpage</type>
 			<uuidstructure>70957858-4072-11e3-be04-000c297c001d</uuidstructure>
 			<uuidresource>70957859-4072-11e3-be04-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 29 Oct 2013 08:16:49 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 Nov 2013 16:49:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 29 Oct 2013 08:16:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6083,7 +6166,7 @@
 			<type>sitemap_config</type>
 			<uuidstructure>2c5f1ac8-a223-11e0-9253-df452125cf28</uuidstructure>
 			<uuidresource>2c5f1ac9-a223-11e0-9253-df452125cf28</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 11:02:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 Nov 2013 14:12:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 29 Jun 2011 07:41:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
