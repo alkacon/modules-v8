@@ -225,8 +225,7 @@ public class CmsSearchController {
         m_context = context;
         m_searchData = createSearchData(config, context, null);
 
-        initTitles();
-
+        initWidgets();
     }
 
     /**
@@ -306,30 +305,6 @@ public class CmsSearchController {
             }
         };
         m_autocompleteTimer.schedule(m_config.getAutocompletedelay());
-    }
-
-    /**
-     * Executes the Search search for auto completion.<p>
-     * 
-     * @param request the suggestion request
-     * @param callback the suggestion callback to execute
-     */
-    public void doSuggesting(final SuggestOracle.Request request, final SuggestOracle.Callback callback) {
-
-        showLoading(20);
-        if (m_autocompleteTimer != null) {
-            m_autocompleteTimer.cancel();
-        }
-        m_autocompleteTimer = new Timer() {
-
-            @Override
-            public void run() {
-
-                executeAutoCompletion(request, callback);
-            }
-        };
-        m_autocompleteTimer.schedule(m_config.getAutocompletedelay());
-
     }
 
     /**
@@ -417,6 +392,30 @@ public class CmsSearchController {
             }
         };
         m_searchTimer.schedule(delay);
+    }
+
+    /**
+     * Executes the Search search for auto completion.<p>
+     * 
+     * @param request the suggestion request
+     * @param callback the suggestion callback to execute
+     */
+    public void doSuggesting(final SuggestOracle.Request request, final SuggestOracle.Callback callback) {
+
+        showLoading(20);
+        if (m_autocompleteTimer != null) {
+            m_autocompleteTimer.cancel();
+        }
+        m_autocompleteTimer = new Timer() {
+
+            @Override
+            public void run() {
+
+                executeAutoCompletion(request, callback);
+            }
+        };
+        m_autocompleteTimer.schedule(m_config.getAutocompletedelay());
+
     }
 
     /**
@@ -526,7 +525,7 @@ public class CmsSearchController {
     /**
      * Initializes the titles.<p>
      */
-    public void initTitles() {
+    public void initSuggestions() {
 
         I_CmsSearchJsonCommand callback = new I_CmsSearchJsonCommand() {
 
@@ -569,21 +568,6 @@ public class CmsSearchController {
     public void registerSearchWidget(String name, I_CmsSearchWidget widget) {
 
         m_searchWidgets.put(name, widget);
-    }
-
-    /**
-     * Creates the loading.<p>
-     */
-    private void createLoading() {
-
-        if (RootPanel.get("loading") != null) {
-            Image img = new Image(I_CmsSearchLayoutBundle.INSTANCE.loading());
-            img.setTitle(UserMessages.getMessage("label.loading"));
-            img.setAltText(UserMessages.getMessage("label.loading"));
-            HTMLPanel p = new HTMLPanel("p", UserMessages.getMessage("label.loading"));
-            RootPanel.get("loading").add(img);
-            RootPanel.get("loading").add(p);
-        }
     }
 
     /**
@@ -676,7 +660,7 @@ public class CmsSearchController {
                 doSearch(null, true);
             }
         }
-        initWidgets();
+
         m_init = true;
     }
 
@@ -1071,6 +1055,21 @@ public class CmsSearchController {
         }
         LOG.log(Level.INFO, "Facet Time: " + (System.currentTimeMillis() - facetsStart));
         return facets;
+    }
+
+    /**
+     * Creates the loading.<p>
+     */
+    private void createLoading() {
+
+        if (RootPanel.get("loading") != null) {
+            Image img = new Image(I_CmsSearchLayoutBundle.INSTANCE.loading());
+            img.setTitle(UserMessages.getMessage("label.loading"));
+            img.setAltText(UserMessages.getMessage("label.loading"));
+            HTMLPanel p = new HTMLPanel("p", UserMessages.getMessage("label.loading"));
+            RootPanel.get("loading").add(img);
+            RootPanel.get("loading").add(p);
+        }
     }
 
     /**

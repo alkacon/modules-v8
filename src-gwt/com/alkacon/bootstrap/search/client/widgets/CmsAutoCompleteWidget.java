@@ -31,11 +31,11 @@
 
 package com.alkacon.bootstrap.search.client.widgets;
 
+import com.alkacon.bootstrap.search.client.CmsSearchConfig.CmsWidgetConfig;
+import com.alkacon.bootstrap.search.client.CmsSearchConfig.WIDGET_TYPES;
 import com.alkacon.bootstrap.search.client.CmsSearchController;
 import com.alkacon.bootstrap.search.client.CmsSearchDocumentList;
 import com.alkacon.bootstrap.search.client.CmsSearchStringUtil;
-import com.alkacon.bootstrap.search.client.CmsSearchConfig.CmsWidgetConfig;
-import com.alkacon.bootstrap.search.client.CmsSearchConfig.WIDGET_TYPES;
 
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -150,8 +150,6 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
 
         super(panel, controller, config);
 
-        controller.initTitles();
-
         if (config.getType().equals(WIDGET_TYPES.autocompleteHeader)) {
 
             Element e = RootPanel.get("searchButtonHeader").getElement();
@@ -165,6 +163,9 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
                 public void onBrowserEvent(Event event) {
 
                     if (Event.ONCLICK == event.getTypeInt()) {
+
+                        controller.initSuggestions();
+
                         final SuggestBox suggestBox = createSugestBox(config.getId());
                         RootPanel sf = RootPanel.get("searchContentHeader");
                         if (sf != null) {
@@ -178,6 +179,9 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
                 }
             });
         } else {
+
+            controller.initSuggestions();
+
             final SuggestBox suggestBox = createSugestBox(null);
             if (controller.getSearchData().getSearchQuery() != null) {
                 suggestBox.setValue(controller.getSearchData().getSearchQuery());
