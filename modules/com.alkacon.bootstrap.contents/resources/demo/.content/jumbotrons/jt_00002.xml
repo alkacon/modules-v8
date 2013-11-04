@@ -8,8 +8,8 @@
       <Text><![CDATA[Show me more...]]></Text>
       <URI>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/demo/en/world-of-flowers/welcome-to-opencms-9/index.html]]></target>
-          <uuid>fed87c38-2518-11e3-91e8-000c29d28104</uuid>
+          <target><![CDATA[/sites/default/demo/]]></target>
+          <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
         </link>
       </URI>
     </Link>

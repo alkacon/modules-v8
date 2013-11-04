@@ -5,8 +5,8 @@
     <Type><![CDATA[bs-teaserrow]]></Type>
     <Jsp>
       <link type="WEAK">
-        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/tabs.jsp]]></target>
-        <uuid>fc5081f5-1f86-11e3-8a31-000c29f9a2ec</uuid>
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/teaserrow.jsp]]></target>
+        <uuid>0371f7a4-3c8e-11e3-a99f-000c2943a707</uuid>
       </link>
     </Jsp>
     <NiceName><![CDATA[Teaser row default formatter]]></NiceName>

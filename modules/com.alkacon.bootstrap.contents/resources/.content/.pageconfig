@@ -9,11 +9,11 @@
       <links>
         <link name="link2" internal="true" type="A">
           <target><![CDATA[/sites/default/]]></target>
-          <uuid>bdd9b517-24a2-11e3-9376-000c29d28104</uuid>
+          <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
         </link>
         <link name="link3" internal="true" type="A">
           <target><![CDATA[/sites/default/]]></target>
-          <uuid>bdd9b517-24a2-11e3-9376-000c29d28104</uuid>
+          <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
         </link>
         <link name="link0" internal="true" type="A">
           <target><![CDATA[]]></target>
@@ -25,15 +25,15 @@
         </link>
       </links>
       <content><![CDATA[        <ul class="loginbar pull-right">
-            <li><i class="icon-globe"></i><a>Languages <i class="icon-sort-up"></i></a>
-            	<ul class="nav-list">
+            <li><i class="icon-globe"></i><a>Languages</a>
+            	<ul class="lenguages">
                 	<li><a href="%(link0)">English</a></li>
                 	<li><a href="%(link1)">German</a></li>
                 </ul>
             </li>	
-            <li class="devider">&nbsp;</li>
+            <li class="devider"></li>
             <li><a href="%(link2)" class="login-btn">Help</a></li>
-            <li class="devider">&nbsp;</li>
+            <li class="devider"></li>
             <li><a href="%(link3)" class="login-btn">Login</a></li>
         </ul>]]></content>
     </Header>

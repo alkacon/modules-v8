@@ -23,8 +23,8 @@
         <Text><![CDATA[Buy them now]]></Text>
         <URI>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/demo/en/world-of-flowers/welcome-to-opencms-9/]]></target>
-            <uuid>feab9fd3-2518-11e3-91e8-000c29d28104</uuid>
+            <target><![CDATA[/sites/default/demo/pages/]]></target>
+            <uuid>d49a1c2c-25b3-11e3-9fd8-000c29d28104</uuid>
           </link>
         </URI>
       </Link>

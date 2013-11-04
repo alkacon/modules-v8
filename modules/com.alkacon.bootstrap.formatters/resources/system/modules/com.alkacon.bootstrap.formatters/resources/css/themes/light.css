@@ -45,10 +45,10 @@ a.read-more:hover {
 ------------------------------------*/
 .purchase a.btn-buy {
 	background:#a8adb4;
-	text-shadow:0 1px 0 #7f8c8d;
+	text-shadow:0 1px 0 #c8cdd4;
 }
 .purchase a.btn-buy:hover {
-	background:#7f8c8d;
+	background:#c8cdd4;
 } 
 
 /*Buttons
@@ -58,7 +58,7 @@ a.read-more:hover {
 }
 
 .btn-u:hover {
-	background: #7f8c8d;
+	background: #c8cdd4;
 }
 
 /*Service
@@ -82,7 +82,7 @@ a.read-more:hover {
 	background:#a8adb4;
 }
 .thumbnail-style a.btn-more:hover {
-	box-shadow:0 0 0 2px #7f8c8d;
+	box-shadow:0 0 0 2px #c8cdd4;
 }
 
 /*Carousel (Recent Work)*/
@@ -180,7 +180,7 @@ blockquote:hover {
 .tab-v3 .nav-pills li a:hover,
 .tab-v3 .nav-pills li.active a {
 	background: #a8adb4;
-	border: solid 1px #7f8c8d;
+	border: solid 1px #c8cdd4;
 }
 
 /*Accardion
@@ -443,15 +443,15 @@ ul.blog-tags a:hover {
 }
 
 .pagination li a:hover {
-   background: #7f8c8d;
-   border-color: #7f8c8d;   
+   background: #c8cdd4;
+   border-color: #c8cdd4;   
 }
 
 /*Pager*/
 .pager li > a:hover, 
 .pager li > a:focus {
-   background: #7f8c8d;
-   border-color: #7f8c8d;   
+   background: #c8cdd4;
+   border-color: #c8cdd4;   
 }
 
 /*Registration and Login Page v2

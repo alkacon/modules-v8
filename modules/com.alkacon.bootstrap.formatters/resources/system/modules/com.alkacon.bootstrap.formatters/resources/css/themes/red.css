@@ -45,10 +45,10 @@ a.read-more:hover {
 ------------------------------------*/
 .purchase a.btn-buy {
 	background:#b31b34;
-	text-shadow:0 1px 0 #c0392b;
+	text-shadow:0 1px 0 #c32b44;
 }
 .purchase a.btn-buy:hover {
-	background:#c0392b;
+	background:#c32b44;
 } 
 
 /*Buttons
@@ -58,7 +58,7 @@ a.read-more:hover {
 }
 
 .btn-u:hover {
-	background: #c0392b;
+	background: #c32b44;
 }
 
 /*Service
@@ -82,7 +82,7 @@ a.read-more:hover {
 	background:#b31b34;
 }
 .thumbnail-style a.btn-more:hover {
-	box-shadow:0 0 0 2px #c0392b;
+	box-shadow:0 0 0 2px #c32b44;
 }
 
 /*Carousel (Recent Work)*/
@@ -180,7 +180,7 @@ blockquote:hover {
 .tab-v3 .nav-pills li a:hover,
 .tab-v3 .nav-pills li.active a {
 	background: #b31b34;
-	border: solid 1px #c0392b;
+	border: solid 1px #c32b44;
 }
 
 /*Accardion
@@ -236,8 +236,8 @@ blockquote:hover {
 
 .pricing-head h3 {
 	background:#b31b34;
-	text-shadow:0 1px 0 #d35400;
-	border-bottom:solid 1px #d35400;
+	text-shadow:0 1px 0 #d33b54;
+	border-bottom:solid 1px #d33b54;
 }
 .pricing-head h4 {
 	color:#999;
@@ -257,12 +257,12 @@ blockquote:hover {
 .pricing-footer a,
 .pricing-footer button {
 	background:#b31b34;
-	text-shadow:0 1px 0 #c0392b;
-	border-bottom:solid 2px #c0392b;
+	text-shadow:0 1px 0 #c32b44;
+	border-bottom:solid 2px #c32b44;
 }
 .pricing-footer a:hover,
 .pricing-footer button:hover {
-	background:#c0392b;
+	background:#c32b44;
 }
 
 /*Priceing Active*/
@@ -443,15 +443,15 @@ ul.blog-tags a:hover {
 }
 
 .pagination li a:hover {
-   background: #c0392b;
-   border-color: #c0392b;   
+   background: #c32b44;
+   border-color: #c32b44;   
 }
 
 /*Pager*/
 .pager li > a:hover, 
 .pager li > a:focus {
-   background: #c0392b;
-   border-color: #c0392b;   
+   background: #c32b44;
+   border-color: #c32b44;   
 }
 
 /*Registration and Login Page v2

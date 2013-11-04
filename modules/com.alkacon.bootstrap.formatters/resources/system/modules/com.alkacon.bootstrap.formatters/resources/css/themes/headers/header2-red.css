@@ -20,11 +20,11 @@
 }
 
 .navbar-toggle:hover {
-	background: #c0392b !important;
+	background: #c32b44 !important;
 }
 
 .navbar-default .navbar-toggle {
-	border-color: #c0392b;
+	border-color: #c32b44;
 }
 
 /*Responsive @Media 
