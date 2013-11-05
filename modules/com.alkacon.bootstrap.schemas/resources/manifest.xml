@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.9.0</opencms_version>
-		<createdate>Mon, 04 Nov 2013 17:47:50 GMT</createdate>
+		<createdate>Tue, 05 Nov 2013 17:08:11 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap XML Schema Definitions.]]></description>
-		<version>8.9.3</version>
+		<version>8.9.5</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -50,6 +50,8 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-teaserrow_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-blog.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-blog_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-list.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-list_big.png"/>
 		</resources>
 		<parameters/>
 		<resourcetypes>
@@ -91,6 +93,9 @@
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-blog" id="192">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-list" id="193">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/list.xsd</param>
 			</type>
 		</resourcetypes>
 		<explorertypes>
@@ -135,6 +140,9 @@
 			</explorertype>
 			<explorertype name="bs-blog" key="fileicon.bs-blog" icon="bs-blog.png" bigicon="bs-blog_big.png" reference="xmlcontent">
 				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-blog" order="120" autosetnavigation="false" autosettitle="false" info="desc.bs-blog"/>
+			</explorertype>
+			<explorertype name="bs-list" key="fileicon.bs-list" icon="bs-list.png" bigicon="bs-list_big.png" reference="xmlcontent">
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-list" order="130" autosetnavigation="false" autosettitle="false" info="desc.bs-list"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -202,7 +210,7 @@
 			<type>module_config</type>
 			<uuidstructure>1a6836da-1aca-11e3-a5c5-000c29f9a2ec</uuidstructure>
 			<uuidresource>1a6836db-1aca-11e3-a5c5-000c29f9a2ec</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 14:09:14 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 16:20:54 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 11 Sep 2013 10:08:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -243,7 +251,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>d99cbd6b-4543-11e3-93f3-000c29d28104</uuidstructure>
 			<uuidresource>d99cbd6c-4543-11e3-93f3-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 11:36:43 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 11:29:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 11:25:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -396,6 +404,30 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Localization jumbotron element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.list</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.list</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>368eb611-4605-11e3-945d-000c29d28104</uuidstructure>
+			<uuidresource>368eb612-4605-11e3-945d-000c29d28104</uuidresource>
+			<datelastmodified>Tue, 05 Nov 2013 12:06:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 05 Nov 2013 10:29:55 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for blog]]></value>
 				</property>
 				<property>
 					<name>search.exclude</name>
@@ -579,7 +611,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>c9def4ee-1c45-11e3-80da-000c29f9a2ec</uuidstructure>
 			<uuidresource>c9def4ef-1c45-11e3-80da-000c29f9a2ec</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 14:06:58 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 11:30:57 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 07:26:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -616,7 +648,7 @@
 			<type>plain</type>
 			<uuidstructure>46f9ad54-4543-11e3-93f3-000c29d28104</uuidstructure>
 			<uuidresource>46f9ad55-4543-11e3-93f3-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 11:54:50 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 11:27:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 11:21:40 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -624,7 +656,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[XSD for a blog page]]></value>
+					<value><![CDATA[XSD for a blog entry]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -676,7 +708,7 @@
 			<type>plain</type>
 			<uuidstructure>780691d7-210b-11e3-9f67-000c297c001d</uuidstructure>
 			<uuidresource>780691d8-210b-11e3-9f67-000c297c001d</uuidresource>
-			<datelastmodified>Fri, 27 Sep 2013 10:31:17 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 13:59:38 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 09:11:29 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -751,6 +783,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/list.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/list.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>7935e172-4602-11e3-945d-000c29d28104</uuidstructure>
+			<uuidresource>7935e173-4602-11e3-945d-000c29d28104</uuidresource>
+			<datelastmodified>Tue, 05 Nov 2013 12:07:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 05 Nov 2013 10:10:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for lists]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd</destination>
 			<type>plain</type>
@@ -776,7 +828,7 @@
 			<type>plain</type>
 			<uuidstructure>7bd5b7a1-1ebe-11e3-8b2b-000c297c001d</uuidstructure>
 			<uuidresource>7bd5b7a2-1ebe-11e3-8b2b-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 16 Sep 2013 16:52:57 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 10:31:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 10:55:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -836,7 +888,7 @@
 			<type>plain</type>
 			<uuidstructure>562bf7de-3c7c-11e3-a752-000c2943a707</uuidstructure>
 			<uuidresource>562bf7df-3c7c-11e3-a752-000c2943a707</uuidresource>
-			<datelastmodified>Thu, 24 Oct 2013 10:17:27 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 09:58:07 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 07:17:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -929,7 +981,7 @@
 			<type>plain</type>
 			<uuidstructure>17c0012a-210c-11e3-9f67-000c297c001d</uuidstructure>
 			<uuidresource>17c0012b-210c-11e3-9f67-000c297c001d</uuidresource>
-			<datelastmodified>Thu, 19 Sep 2013 09:54:37 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 14:01:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 09:15:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1178,7 +1230,7 @@
 			<type>image</type>
 			<uuidstructure>b0b47084-4542-11e3-93f3-000c29d28104</uuidstructure>
 			<uuidresource>b0b47085-4542-11e3-93f3-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 11:17:38 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 11:17:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1198,7 +1250,7 @@
 			<type>image</type>
 			<uuidstructure>b0b95288-4542-11e3-93f3-000c29d28104</uuidstructure>
 			<uuidresource>b0b95289-4542-11e3-93f3-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 11:17:34 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 11:17:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1218,7 +1270,7 @@
 			<type>image</type>
 			<uuidstructure>1ea137c2-3c7c-11e3-a752-000c2943a707</uuidstructure>
 			<uuidresource>1ea137c3-3c7c-11e3-a752-000c2943a707</uuidresource>
-			<datelastmodified>Thu, 24 Oct 2013 07:15:59 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 07:15:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1238,7 +1290,7 @@
 			<type>image</type>
 			<uuidstructure>1ea6dd16-3c7c-11e3-a752-000c2943a707</uuidstructure>
 			<uuidresource>1ea6dd17-3c7c-11e3-a752-000c2943a707</uuidresource>
-			<datelastmodified>Thu, 24 Oct 2013 07:15:57 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 07:15:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1298,7 +1350,7 @@
 			<type>image</type>
 			<uuidstructure>16f41e64-210f-11e3-bb06-000c297c001d</uuidstructure>
 			<uuidresource>16f41e65-210f-11e3-bb06-000c297c001d</uuidresource>
-			<datelastmodified>Thu, 22 Mar 2012 13:51:21 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 09:37:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1318,7 +1370,7 @@
 			<type>image</type>
 			<uuidstructure>276c6d67-210f-11e3-bb06-000c297c001d</uuidstructure>
 			<uuidresource>276c6d68-210f-11e3-bb06-000c297c001d</uuidresource>
-			<datelastmodified>Thu, 22 Mar 2012 13:51:39 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 09:37:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1338,7 +1390,7 @@
 			<type>image</type>
 			<uuidstructure>d93316d8-3bda-11e3-a1ad-000c2943a707</uuidstructure>
 			<uuidresource>d93316d9-3bda-11e3-a1ad-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 23 Oct 2013 12:01:36 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 23 Oct 2013 12:01:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1358,7 +1410,7 @@
 			<type>image</type>
 			<uuidstructure>d9436a8c-3bda-11e3-a1ad-000c2943a707</uuidstructure>
 			<uuidresource>d9436a8d-3bda-11e3-a1ad-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 23 Oct 2013 12:01:32 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 23 Oct 2013 12:01:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1378,7 +1430,7 @@
 			<type>image</type>
 			<uuidstructure>a2bbd1c5-1ed2-11e3-89be-000c29f9a2ec</uuidstructure>
 			<uuidresource>a2bbd1c6-1ed2-11e3-89be-000c29f9a2ec</uuidresource>
-			<datelastmodified>Mon, 16 Sep 2013 13:19:42 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 13:19:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1398,7 +1450,7 @@
 			<type>image</type>
 			<uuidstructure>a2d15599-1ed2-11e3-89be-000c29f9a2ec</uuidstructure>
 			<uuidresource>a2d1559a-1ed2-11e3-89be-000c29f9a2ec</uuidresource>
-			<datelastmodified>Mon, 16 Sep 2013 13:19:44 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 13:19:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1418,7 +1470,7 @@
 			<type>image</type>
 			<uuidstructure>85286a9a-1c70-11e3-b68b-000c29f9a2ec</uuidstructure>
 			<uuidresource>85286a9b-1c70-11e3-b68b-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 13 Sep 2013 12:32:26 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 12:32:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1438,9 +1490,49 @@
 			<type>image</type>
 			<uuidstructure>855a771e-1c70-11e3-b68b-000c29f9a2ec</uuidstructure>
 			<uuidresource>855a771f-1c70-11e3-b68b-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 13 Sep 2013 12:32:28 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 12:32:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-list.png</source>
+			<destination>system/workplace/resources/filetypes/bs-list.png</destination>
+			<type>image</type>
+			<uuidstructure>69e63735-4606-11e3-945d-000c29d28104</uuidstructure>
+			<uuidresource>69e63736-4606-11e3-945d-000c29d28104</uuidresource>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 05 Nov 2013 10:38:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-list_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-list_big.png</destination>
+			<type>image</type>
+			<uuidstructure>7c22a468-4606-11e3-945d-000c29d28104</uuidstructure>
+			<uuidresource>7c22a469-4606-11e3-945d-000c29d28104</uuidresource>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 05 Nov 2013 10:39:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -1458,7 +1550,7 @@
 			<type>image</type>
 			<uuidstructure>60e7971d-2066-11e3-b7a9-000c297c001d</uuidstructure>
 			<uuidresource>60e7971d-2066-11e3-b7a9-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 13:18:35 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 12:32:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1478,7 +1570,7 @@
 			<type>image</type>
 			<uuidstructure>6635ed80-2066-11e3-b7a9-000c297c001d</uuidstructure>
 			<uuidresource>6635ed80-2066-11e3-b7a9-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 13:18:35 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 12:32:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1498,7 +1590,7 @@
 			<type>image</type>
 			<uuidstructure>d844a7e4-1ec7-11e3-8b2b-000c297c001d</uuidstructure>
 			<uuidresource>d844a7e5-1ec7-11e3-8b2b-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 13:18:35 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 12:02:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1518,7 +1610,7 @@
 			<type>image</type>
 			<uuidstructure>e3d02177-1ec7-11e3-8b2b-000c297c001d</uuidstructure>
 			<uuidresource>e3d02178-1ec7-11e3-8b2b-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 13:18:35 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 12:02:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1538,7 +1630,7 @@
 			<type>image</type>
 			<uuidstructure>478a9ec9-2203-11e3-a498-000c297c001d</uuidstructure>
 			<uuidresource>478a9eca-2203-11e3-a498-000c297c001d</uuidresource>
-			<datelastmodified>Fri, 20 Sep 2013 14:45:27 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 14:45:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1558,7 +1650,7 @@
 			<type>image</type>
 			<uuidstructure>478fa7dd-2203-11e3-a498-000c297c001d</uuidstructure>
 			<uuidresource>478fa7de-2203-11e3-a498-000c297c001d</uuidresource>
-			<datelastmodified>Fri, 20 Sep 2013 14:45:30 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 14:45:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1578,7 +1670,7 @@
 			<type>image</type>
 			<uuidstructure>5ddc73ee-1f9a-11e3-8a31-000c29f9a2ec</uuidstructure>
 			<uuidresource>5ddc73ef-1f9a-11e3-8a31-000c29f9a2ec</uuidresource>
-			<datelastmodified>Tue, 17 Sep 2013 13:09:28 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 17 Sep 2013 13:09:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1598,7 +1690,7 @@
 			<type>image</type>
 			<uuidstructure>5df6b2b2-1f9a-11e3-8a31-000c29f9a2ec</uuidstructure>
 			<uuidresource>5df6b2b3-1f9a-11e3-8a31-000c29f9a2ec</uuidresource>
-			<datelastmodified>Tue, 17 Sep 2013 13:09:26 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 17 Sep 2013 13:09:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1618,7 +1710,7 @@
 			<type>image</type>
 			<uuidstructure>1eac344a-3c7c-11e3-a752-000c2943a707</uuidstructure>
 			<uuidresource>1eac344b-3c7c-11e3-a752-000c2943a707</uuidresource>
-			<datelastmodified>Thu, 24 Oct 2013 07:16:01 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 07:15:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1638,7 +1730,7 @@
 			<type>image</type>
 			<uuidstructure>1eb1646e-3c7c-11e3-a752-000c2943a707</uuidstructure>
 			<uuidresource>1eb1646f-3c7c-11e3-a752-000c2943a707</uuidresource>
-			<datelastmodified>Thu, 24 Oct 2013 07:16:04 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 07:15:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1658,7 +1750,7 @@
 			<type>image</type>
 			<uuidstructure>85641412-1c70-11e3-b68b-000c29f9a2ec</uuidstructure>
 			<uuidresource>85641413-1c70-11e3-b68b-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 13 Sep 2013 12:32:24 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 12:32:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1678,7 +1770,7 @@
 			<type>image</type>
 			<uuidstructure>856d89f6-1c70-11e3-b68b-000c29f9a2ec</uuidstructure>
 			<uuidresource>856d89f7-1c70-11e3-b68b-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 13 Sep 2013 12:32:21 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 12:32:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>

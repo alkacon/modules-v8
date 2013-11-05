@@ -14,7 +14,7 @@
 	<xsd:complexType name="OpenCmsBootstrapTeaserrow">
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
-			<xsd:element name="Item" type="OpenCmsBootstrapTeaserrowItem" minOccurs="2" maxOccurs="6" />
+			<xsd:element name="Item" type="OpenCmsBootstrapTeaserrowItem" minOccurs="1" maxOccurs="6" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>

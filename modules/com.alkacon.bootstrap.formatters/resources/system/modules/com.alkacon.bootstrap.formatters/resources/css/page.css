@@ -1,5 +1,17 @@
 /* CSS for OpenCms special items */
 
+/* Red boxes, buttons should always use "OpenCms red */
+.btn-u-red {
+   background: #b31b34 !important;
+}
+.btn-u-red:hover {
+   background: #c32b44 !important;
+}
+
+.servive-block .servive-block-red {
+    background-color: #b31b34;
+}
+
 /* Side Navigation level 2 and 3 */
 .nav-side .nav-side-level-1 {
 	padding-left: 15px;
@@ -41,6 +53,82 @@
 	text-decoration: none;
 }
 
+/* Blog entries */
+.search-blocks-yellow {
+    background: none repeat scroll 0 0 #F1C40F;
+}
+.search-blocks-green {
+    background: none repeat scroll 0 0 #72C02C;
+}
+.search-blocks-orange {
+    background: none repeat scroll 0 0 #E67E22;
+}
+.search-blocks-red {
+    background-color: #b31b34;
+}
+
+.search-blocks-top-red {
+    border-top: 2px solid #b31b34;
+}
+.search-blocks-top-red:hover {
+    border-top-color: #d33b54;
+}
+.search-blocks-top-grey {
+    border-top: 2px solid #95a5a6;
+}
+.search-blocks-top-grey:hover {
+    border-top-color: #b5c5c6;
+}
+.search-blocks-top-green {
+    border-top: 2px solid #72C02C;
+}
+.search-blocks-top-green:hover {
+    border-top-color: #5FB611;
+}
+.search-blocks-top-blue {
+    border-top: 2px solid #3498db;
+}
+.search-blocks-top-blue:hover {
+    border-top-color: #54b8fb;
+}
+.search-blocks-top-orange {
+    border-top: 2px solid #E67E22;
+}
+.search-blocks-top-orange:hover {
+    border-top-color: #D35400;
+}
+
+.search-blocks-left-red {
+    border-left: 2px solid #b31b34;
+}
+.search-blocks-left-red:hover {
+    border-left-color: #d33b54;
+}
+.search-blocks-left-grey {
+    border-left: 2px solid #95a5a6;
+}
+.search-blocks-left-grey:hover {
+    border-left-color: #b5c5c6;
+}
+.search-blocks-left-sea {
+    border-left: 2px solid #1ABC9C;
+}
+.search-blocks-left-sea:hover {
+    border-left-color: #16A085;
+}
+.search-blocks-left-blue {
+    border-left: 2px solid #3498DB;
+}
+.search-blocks-left-blue:hover {
+    border-left-color: #54b8fb;
+}
+.search-blocks-left-yellow {
+    border-left: 2px solid #F1C40F;
+}
+.search-blocks-left-yellow:hover {
+    border-left-color: #F39C12;
+}
+
 /* Lists */
 .lists .entry {
 	margin-bottom: 15px;
@@ -69,7 +157,7 @@
 	margin-top: 8px;
 	float: right;
 }
-.lists .entry:hover, .lists .entry:hover a, .lists .entry:hover img {
+.lists .entry:hover, .lists .entry:hover a, .lists .entry:hover p, .lists .entry:hover img {
 	text-decoration: none;
 	color: #b31b34;
 	border-color: #b31b34;
@@ -77,7 +165,4 @@
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-}
-.lists .entry:hover h4 {
-    text-decoration: underline;
 }

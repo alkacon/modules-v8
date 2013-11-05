@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.9.0</opencms_version>
-		<createdate>Mon, 04 Nov 2013 17:47:28 GMT</createdate>
+		<createdate>Tue, 05 Nov 2013 17:07:54 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap template and formatters.]]></description>
-		<version>8.9.2</version>
+		<version>8.9.3</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -91,7 +91,7 @@
 			<type>module_config</type>
 			<uuidstructure>f2d8e594-1c57-11e3-80da-000c29f9a2ec</uuidstructure>
 			<uuidresource>f2d8e595-1c57-11e3-80da-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 13 Sep 2013 09:41:16 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 09:50:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 09:36:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -283,54 +283,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/elements/news-list.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/news-list.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>1628372e-2119-11e3-a189-000c297c001d</uuidstructure>
-			<uuidresource>1628372f-2119-11e3-a189-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 22 Oct 2013 13:24:07 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 19 Sep 2013 10:48:58 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[JSP for news list (large)]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/elements/news-side.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/news-side.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>caabadf1-21db-11e3-b95f-000c29d28104</uuidstructure>
-			<uuidresource>caabadf2-21db-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Tue, 22 Oct 2013 13:38:04 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 20 Sep 2013 10:02:43 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[JSP for news list (small)]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters</destination>
 			<type>folder</type>
 			<uuidstructure>ac221e8c-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
@@ -349,7 +301,7 @@
 			<type>jsp</type>
 			<uuidstructure>66a4bb4f-4557-11e3-84e1-000c29d28104</uuidstructure>
 			<uuidresource>66a4bb50-4557-11e3-84e1-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 16:24:15 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 11:11:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 13:45:43 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -377,7 +329,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>a4918ba4-4557-11e3-84e1-000c29d28104</uuidstructure>
 			<uuidresource>a4918ba5-4557-11e3-84e1-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 16:22:36 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 10:17:59 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 13:47:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -704,6 +656,62 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/news-list-small.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/news-list-small.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>caabadf1-21db-11e3-b95f-000c29d28104</uuidstructure>
+			<uuidresource>caabadf2-21db-11e3-b95f-000c29d28104</uuidresource>
+			<datelastmodified>Tue, 05 Nov 2013 11:28:36 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 20 Sep 2013 10:02:43 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for small news article lists]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/news-list-small.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/news-list-small.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>5bd4a97b-45fe-11e3-945d-000c29d28104</uuidstructure>
+			<uuidresource>5bd4a97c-45fe-11e3-945d-000c29d28104</uuidresource>
+			<datelastmodified>Tue, 05 Nov 2013 11:26:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 05 Nov 2013 09:40:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Default formatter for small news article lists]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/newsarticle.jsp</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/newsarticle.jsp</destination>
 			<type>jsp</type>
@@ -825,7 +833,7 @@
 			<type>jsp</type>
 			<uuidstructure>5e9a18fa-241f-11e3-adc8-000c297c001d</uuidstructure>
 			<uuidresource>5e9a18fb-241f-11e3-adc8-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 22 Oct 2013 12:56:59 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 16:41:29 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 23 Sep 2013 07:11:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1126,7 +1134,7 @@
 			<type>function</type>
 			<uuidstructure>16badf57-2068-11e3-b5aa-000c297c001d</uuidstructure>
 			<uuidresource>16badf58-2068-11e3-b5aa-000c297c001d</uuidresource>
-			<datelastmodified>Fri, 20 Sep 2013 12:32:02 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 11:35:45 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 18 Sep 2013 13:41:58 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1135,54 +1143,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Side navigation]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/functions/news-list.xml</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/functions/news-list.xml</destination>
-			<type>function</type>
-			<uuidstructure>ff88e663-2132-11e3-a189-000c297c001d</uuidstructure>
-			<uuidresource>ff88e664-2132-11e3-a189-000c297c001d</uuidresource>
-			<datelastmodified>Fri, 20 Sep 2013 12:42:21 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 19 Sep 2013 13:54:27 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Description</name>
-					<value><![CDATA[Provides a list of recent news articles]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[News article list]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/functions/news-side.xml</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/functions/news-side.xml</destination>
-			<type>function</type>
-			<uuidstructure>e2d5bec5-21db-11e3-b95f-000c29d28104</uuidstructure>
-			<uuidresource>e2d5bec6-21db-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 27 Sep 2013 07:58:05 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 20 Sep 2013 10:03:23 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Description</name>
-					<value><![CDATA[Provides a list of recent news articles (side element)]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Latest News]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1297,7 +1257,7 @@
 			<type>plain</type>
 			<uuidstructure>52f716c6-20f8-11e3-b4d8-000c297c001d</uuidstructure>
 			<uuidresource>52f716c7-20f8-11e3-b4d8-000c297c001d</uuidresource>
-			<datelastmodified>Thu, 24 Oct 2013 10:23:11 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 11:29:34 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 06:54:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -9532,7 +9492,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>be01129c-1a1a-11e3-9358-000c29f9a2ec</uuidstructure>
 			<uuidresource>be01129d-1a1a-11e3-9358-000c29f9a2ec</uuidresource>
-			<datelastmodified>Tue, 22 Oct 2013 09:33:26 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 Nov 2013 12:13:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Sep 2013 13:13:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>

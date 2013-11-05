@@ -25,7 +25,7 @@
 			<mappings>
 				<mapping element="Title" mapto="property:Title" />
 			</mappings>
-			<searchsettings containerPageOnly="true"> 
+			<searchsettings containerPageOnly="true">
 				<searchsetting element="Choice/Code" searchcontent="false"/>
 			</searchsettings>
 		</xsd:appinfo>

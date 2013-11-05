@@ -1,0 +1,46 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/nested/link.xsd" />
+		
+	<xsd:element name="BootstrapLists" type="OpenCmsBootstrapLists"/>
+	
+	<xsd:complexType name="OpenCmsBootstrapLists">
+		<xsd:sequence>
+			<xsd:element name="BootstrapList" type="OpenCmsBootstrapList" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapList">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="ResourceType" type="OpenCmsString" />
+			<xsd:element name="ParentFolders" type="OpenCmsString" />
+			<xsd:element name="SortOrder" type="OpenCmsString" />
+			<xsd:element name="RowCount" type="OpenCmsString" />
+			<xsd:element name="CreatePath" type="OpenCmsString" />
+			<xsd:element name="Link" type="OpenCmsBootstrapLink" minOccurs="0" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.list"/>
+			<mappings>
+				<mapping element="Title" mapto="property:Title" />
+				<mapping element="Title" mapto="urlName" />
+			</mappings>
+			<defaults>
+				<default element="Title" value="%(key.bootstrap.list.default.Title)" />
+			</defaults>
+			<layouts>
+				<layout element="ResourceType" widget="TypeComboWidget"/>
+				<layout element="SortOrder" widget="SelectorWidget" configuration="asc:%(key.bootstrap.list.value.asc)|desc:%(key.bootstrap.list.value.desc)"/>
+			</layouts>
+			<validationrules/>
+			<searchsettings containerPageOnly="true"/>
+		</xsd:appinfo>
+	</xsd:annotation> 
+
+</xsd:schema>

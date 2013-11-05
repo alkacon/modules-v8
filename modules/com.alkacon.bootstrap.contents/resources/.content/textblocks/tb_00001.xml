@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[OpenCms Introduction: Step 1 - Modify a page]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Activate the OpenCms Toolbar]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>So you are logged in and wonder where the edit controls are? Look to the upper rigt corner of the screen. See the OpenCms "bullseye" icon. Click this to activate the toolbar!</p>]]></content>
+      </Text>
+    </Paragraph>
+    <Paragraph>
+      <Headline><![CDATA[Add a content element]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Let's start with adding content to this page. Click on the "Add content" button in the toolbar. You get a list of the available content types that you can add to the page. Click on the first entry "Text Block". You get a list of text blocks that have already been created. Move the mouse cursor to the one called "Demo text element". On the right hand side of the element box you will see some icons appear. Move the cursor over the "Drag &amp; Drop" icon, click and drag the element into the page. Possible target areas will be highlighted. Place the content anywhere you like.</p>]]></content>
+      </Text>
+    </Paragraph>
+    <Paragraph>
+      <Headline><![CDATA[More modification options]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>You will notice a grey "bullseye" icon on the right hand corner of some elements that are on the page. Move the mouse over one of these icons and you will see a list of options. For example, you can move items around in the page with the "Drag &amp; Drop" icon.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Continue to step 2: Edit content]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/introduction/step-2-edit-content/]]></target>
+            <uuid>dd81df6b-460a-11e3-b822-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

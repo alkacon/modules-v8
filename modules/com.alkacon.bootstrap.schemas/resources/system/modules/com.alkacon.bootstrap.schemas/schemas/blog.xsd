@@ -16,6 +16,7 @@
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
 			<xsd:element name="Date" type="OpenCmsDateTime" />
+			<xsd:element name="Teaser" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Paragraph" type="OpenCmsBootstrapParagraph" maxOccurs="5" />
 			<xsd:element name="Category" type="OpenCmsCategory" minOccurs="0" />
 			<xsd:element name="Author" type="OpenCmsString" />
@@ -48,6 +49,7 @@
 				<default element="Availability/Release" value="%(currenttime)" />
 			</defaults>
 			<layouts>
+				<layout element="Teaser" widget="TextareaWidget" configuration="4" />
 				<layout element="Category" widget="CategoryWidget" configuration="onlyleafs=false" />
 			</layouts>
 			<validationrules />

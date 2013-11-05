@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconContainerPages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/container_page.xsd">
+  <AlkaconContainerPage language="en">
+    <Containers>
+      <Name><![CDATA[top]]></Name>
+      <Type><![CDATA[content-full]]></Type>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/.content/flexiblecontents/fc_00001.xml]]></target>
+            <uuid>c915f121-4616-11e3-b822-000c29d28104</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/flexible.jsp]]></target>
+            <uuid>3496dbbd-210d-11e3-9f67-000c297c001d</uuid>
+          </link>
+        </Formatter>
+        <Properties>
+          <Name><![CDATA[hideTitle]]></Name>
+          <Value>
+            <String><![CDATA[true]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|mobile|tablet]]></String>
+          </Value>
+        </Properties>
+      </Elements>
+    </Containers>
+    <Containers>
+      <Name><![CDATA[middle-left]]></Name>
+      <Type><![CDATA[content]]></Type>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/functions/nav-side.xml]]></target>
+            <uuid>16badf57-2068-11e3-b5aa-000c297c001d</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/org.opencms.ade.containerpage/formatters/function.jsp]]></target>
+            <uuid>087ba7c9-e7fc-4336-acb8-d3416a4eb1fd</uuid>
+          </link>
+        </Formatter>
+        <Properties>
+          <Name><![CDATA[startlevel]]></Name>
+          <Value>
+            <String><![CDATA[1]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|mobile|tablet]]></String>
+          </Value>
+        </Properties>
+      </Elements>
+    </Containers>
+    <Containers>
+      <Name><![CDATA[middle-right]]></Name>
+      <Type><![CDATA[content]]></Type>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/.content/textblocks/tb_00001.xml]]></target>
+            <uuid>85c97b33-460d-11e3-b822-000c29d28104</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock.jsp]]></target>
+            <uuid>60739184-1c73-11e3-b68b-000c29f9a2ec</uuid>
+          </link>
+        </Formatter>
+      </Elements>
+    </Containers>
+    <Containers>
+      <Name><![CDATA[bottom]]></Name>
+      <Type><![CDATA[content-full]]></Type>
+    </Containers>
+    <Containers>
+      <Name><![CDATA[foot]]></Name>
+      <Type><![CDATA[foot-full]]></Type>
+    </Containers>
+  </AlkaconContainerPage>
+</AlkaconContainerPages>

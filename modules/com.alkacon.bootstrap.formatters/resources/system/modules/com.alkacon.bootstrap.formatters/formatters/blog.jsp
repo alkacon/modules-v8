@@ -3,88 +3,71 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<fmt:setLocale value="${cms.locale}" />
+<cms:bundle basename="com.alkacon.bootstrap.schemas.blog">
 
 <cms:formatter var="content" val="value" rdfa="rdfa">
-
-	<%-- create author link --%>
-	<c:set var="author" value="${fn:trim(value.Author)}" />
-	<c:choose>
-		<c:when test="${fn:length(author) > 3 && value.AuthorMail.exists}">
-			<c:set var="author"><a href="mailto:${value.AuthorMail}" title="${author}">${author}</a></c:set>
-		</c:when>
-		<c:when test="${fn:length(author) > 3}">
-			<c:set var="author">${author}</c:set>
-		</c:when>
-		<c:when test="${value.AuthorMail.exists}">
-			<c:set var="author"><a href="mailto:${value.AuthorMail}" title="${value.AuthorMail}">${value.AuthorMail}</a></c:set>
-		</c:when><c:otherwise><c:set var="author" value=""></c:set></c:otherwise>
-	</c:choose>
-	<%-- //END create author link --%>
 
 	<div <c:if test="${cms.container.type == 'content-full'}"> class="row"</c:if>>
 
 		<c:choose>
-			<c:when test="${not cms.detailRequest}">
-				<div class="search-page"><div class="search-blocks search-blocks-top-sea">
+			<c:when test="${not cms.detailRequest or cms.container.name == 'middle-left-detail' or cms.container.name == 'middle-right-detail'}">
+				<c:set var="layoutvariant"><c:out value="${cms.element.settings.layoutvariant}" default="top" /></c:set>
+				<c:choose>
+					<c:when test="${layoutvariant == 'top' or layoutvariant == 'left'}">
+						<c:set var="boxClass">search-blocks-${layoutvariant}-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
+					</c:when>
+					<c:otherwise>
+						<c:set var="boxClass">search-blocks-colored search-blocks-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
+					</c:otherwise>
+				</c:choose>
+				<div class="search-page"><div class="search-blocks ${boxClass}">
                     <div class="row">
                         <c:if test="${value.Paragraph.value.Image.exists}">
 							<div class="col-md-4 search-img">
-								<cms:img src="${value.Paragraph.value.Image.value.Image}" cssclass="img-responsive"
+								<cms:img src="${value.Paragraph.value.Image.value.Image}" width="800" cssclass="img-responsive"
 								scaleColor="transparent" scaleType="0" alt="${paragraph.value.Image.value.Title}"
 								title="${paragraph.value.Image.value.Title}" />
-								<ul class="list-unstyled">
-								   <li><i class="icon-briefcase"></i> Dell, Google</li>
-								   <li><i class="icon-map-marker"></i> New York, US</li>
-								</ul>
 							</div>
 						</c:if>
                         <div class="col-md-8">
                             <h2><a href="<cms:link>${content.filename}</cms:link>" ${rdfa.Title}>${value.Title}</a></h2>
-                            <p>${cms:trimToSize(cms:stripHtml(value.Paragraph.value.Text), 150)}</p>
-							<a href="#" class="btn-u btn-u-red">read more</a>
+							<c:set var="showdate"><c:out value="${cms.element.settings.showdate}" default="true" /></c:set>
+							<c:if test="${showdate}">
+								<ul class="list-unstyled">
+								   <li><i class="icon-calendar"></i> <fmt:formatDate value="${cms:convertDate(value.Date)}" dateStyle="LONG" timeStyle="SHORT" type="both" /></li>
+								</ul>
+							</c:if>
+							<c:choose>
+								<c:when test="${value.Teaser.isSet}">
+									<p ${rdfa.Teaser}>${value.Teaser}</p>
+								</c:when>
+								<c:otherwise>
+									<c:set var="teaserlength"><c:out value="${cms.element.settings.teaserlength}" default="250" /></c:set>
+									<p>${cms:trimToSize(cms:stripHtml(value.Paragraph.value.Text), teaserlength)}</p>
+								</c:otherwise>
+							</c:choose>
+                            
+							<a href="<cms:link>${content.filename}</cms:link>" class="btn-u btn-u-<c:out value="${cms.element.settings.buttoncolor}" default="red" />"><fmt:message key="bootstrap.blog.message.readmore" /></a>
                         </div>
                     </div>                            
                 </div></div>
-				<%--<div class="magazine-news">
-					<dl class="dl-horizontal">
-						<a href="<cms:link>${content.filename}</cms:link>"><h4 class="media-heading" ${rdfa.Title}>${value.Title}</h4></a>
-						<dt>
-							<c:if test="${value.Paragraph.value.Image.exists}">
-							<a href="<cms:link>${content.filename}</cms:link>">
-								<cms:img src="${value.Paragraph.value.Image.value.Image}" width="${imgWidth}"
-								scaleColor="transparent" scaleType="0" alt="${paragraph.value.Image.value.Title}"
-								title="${paragraph.value.Image.value.Title}" />
-							</a>
-							</c:if>
-						</dt>
-						<dd>
-							<a href="<cms:link>${content.filename}</cms:link>">
-								<p class="muted"><small><i class="icon-calendar"></i><fmt:formatDate value="${cms:convertDate(value.Date)}" dateStyle="MEDIUM" timeStyle="SHORT" type="both" /></small></p>
-								<p>${cms:trimToSize(cms:stripHtml(value.Paragraph.value.Text), 150)}</p>
-							</a>
-						</dd>
-						
-					</dl>
-
-				</div>
-				
-				
-				<div class="magazine-news">
-					<div class="magazine-mini-news">
-						<h3>
-							<a href="<cms:link>${content.filename}</cms:link>" ${rdfa.Title}>${value.Title}</a>
-						</h3>
-						<div class="post-author">
-							<c:if test="${author ne ''}"><strong>${author}</strong></c:if>
-							<span><c:if test="${author ne ''}"> / </c:if><fmt:formatDate value="${cms:convertDate(value.Date)}" dateStyle="MEDIUM" timeStyle="SHORT" type="both" /></span>
-						</div>
-						<p>${cms:trimToSize(cms:stripHtml(value.Paragraph.value.Text), 150)}</p>
-					</div>
-					<hr/>
-				</div>
-				--%>
 			</c:when>
 			<c:otherwise>
+				<%-- create author link --%>
+				<c:set var="author" value="${fn:trim(value.Author)}" />
+				<c:choose>
+					<c:when test="${fn:length(author) > 3 && value.AuthorMail.exists}">
+						<c:set var="author"><a href="mailto:${value.AuthorMail}" title="${author}">${author}</a></c:set>
+					</c:when>
+					<c:when test="${fn:length(author) > 3}">
+						<c:set var="author">${author}</c:set>
+					</c:when>
+					<c:when test="${value.AuthorMail.exists}">
+						<c:set var="author"><a href="mailto:${value.AuthorMail}" title="${value.AuthorMail}">${value.AuthorMail}</a></c:set>
+					</c:when><c:otherwise><c:set var="author" value=""></c:set></c:otherwise>
+				</c:choose>
+				<%-- //END create author link --%>
 				<!-- blog header -->
 				<div class="blog-page">
 					<div class="blog">
@@ -157,3 +140,4 @@
 		</c:choose>
 	</div>
 </cms:formatter>
+</cms:bundle>

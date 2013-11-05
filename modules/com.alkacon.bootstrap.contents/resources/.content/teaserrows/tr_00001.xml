@@ -2,11 +2,11 @@
 
 <BootstrapTeaserrows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/teaserrow.xsd">
   <BootstrapTeaserrow language="en">
-    <Title><![CDATA[Where do you want to go today?]]></Title>
+    <Title><![CDATA[Welcome page bottom teaser row]]></Title>
     <Item>
-      <Headline><![CDATA[Demo]]></Headline>
+      <Headline><![CDATA[OpenCms Demo Website]]></Headline>
       <Icon><![CDATA[Globe]]></Icon>
-      <Text><![CDATA[Enter a text for the box. 123]]></Text>
+      <Text><![CDATA[Our example website based on Bootstrap.]]></Text>
       <Link>
         <link internal="true" type="WEAK">
           <target><![CDATA[/sites/default/demo/]]></target>
@@ -16,40 +16,28 @@
       <Color><![CDATA[red]]></Color>
     </Item>
     <Item>
-      <Headline><![CDATA[Intro]]></Headline>
-      <Icon><![CDATA[Globe]]></Icon>
-      <Text><![CDATA[Enter a text for the box.]]></Text>
-      <Link>
-        <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/introduction/]]></target>
-          <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
-        </link>
-      </Link>
-      <Color><![CDATA[default]]></Color>
-    </Item>
-    <Item>
-      <Headline><![CDATA[Release]]></Headline>
-      <Icon><![CDATA[Globe]]></Icon>
-      <Text><![CDATA[Enter a text for the box.]]></Text>
-      <Link>
-        <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/release/]]></target>
-          <uuid>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuid>
-        </link>
-      </Link>
-      <Color><![CDATA[default]]></Color>
-    </Item>
-    <Item>
-      <Headline><![CDATA[Dev]]></Headline>
-      <Icon><![CDATA[Globe]]></Icon>
-      <Text><![CDATA[Enter a text for the box.]]></Text>
+      <Headline><![CDATA[OpenCms Developer Demo]]></Headline>
+      <Icon><![CDATA[Cog]]></Icon>
+      <Text><![CDATA[Technical examples for template developers.]]></Text>
       <Link>
         <link internal="true" type="WEAK">
           <target><![CDATA[/sites/default/dev-demo/]]></target>
           <uuid>9067a898-77c5-11e0-bf39-cde485e16fbf</uuid>
         </link>
       </Link>
-      <Color><![CDATA[default]]></Color>
+      <Color><![CDATA[grey]]></Color>
+    </Item>
+    <Item>
+      <Headline><![CDATA[OpenCms Release Notes]]></Headline>
+      <Icon><![CDATA[Bullhorn]]></Icon>
+      <Text><![CDATA[See what is new in this version.]]></Text>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/release/]]></target>
+          <uuid>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuid>
+        </link>
+      </Link>
+      <Color><![CDATA[blue]]></Color>
     </Item>
   </BootstrapTeaserrow>
 </BootstrapTeaserrows>

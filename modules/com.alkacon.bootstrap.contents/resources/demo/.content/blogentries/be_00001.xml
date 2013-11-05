@@ -2,8 +2,8 @@
 
 <BootstrapBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd">
   <BootstrapBlog language="en">
-    <Title><![CDATA[Example for a blog page]]></Title>
-    <Date>1383575167661</Date>
+    <Title><![CDATA[Example for a blog entry]]></Title>
+    <Date>1383919200000</Date>
     <Paragraph>
       <Text name="Text0">
         <links/>
@@ -21,6 +21,6 @@
         <Title><![CDATA[Vanilla]]></Title>
       </Image>
     </Paragraph>
-    <Author><![CDATA[Andreas Zahner]]></Author>
+    <Author><![CDATA[Jay Pritchett]]></Author>
   </BootstrapBlog>
 </BootstrapBlogs>

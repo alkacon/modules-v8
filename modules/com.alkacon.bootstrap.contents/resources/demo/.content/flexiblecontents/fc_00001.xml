@@ -4,7 +4,10 @@
   <BootstrapFlexibleElement language="en">
     <Title><![CDATA[Video "Introduction to OpenCms"]]></Title>
     <Choice>
-      <Code><![CDATA[<iframe width="100%" height="250px" src="http://www.youtube.com/embed/videoseries?list=PL281827164BA9EF5D" frameborder="0" allowfullscreen></iframe>]]></Code>
+      <Code name="Code0">
+        <links/>
+        <content><![CDATA[<iframe width="100%" height="250px" src="http://www.youtube.com/embed/videoseries?list=PL281827164BA9EF5D" frameborder="0" allowfullscreen></iframe>]]></content>
+      </Code>
     </Choice>
   </BootstrapFlexibleElement>
 </BootstrapFlexibleElements>

@@ -4,7 +4,27 @@
   <BootstrapFlexibleElement language="en">
     <Title><![CDATA[Mobile Footer]]></Title>
     <Choice>
-      <Code><![CDATA[<!--=== Footer ===-->
+      <Code name="Code0">
+        <links>
+          <link name="link4" internal="false" type="A">
+            <target><![CDATA[http://www.alkacon.com]]></target>
+          </link>
+          <link name="link2" internal="true" type="IMG">
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_alkacon_png24.png]]></target>
+            <uuid>a9d4b54a-1abc-11e3-9246-000c29f9a2ec</uuid>
+            <query><![CDATA[__scale=w:120,h:39,c:transparent]]></query>
+          </link>
+          <link name="link3" internal="false" type="A">
+            <target><![CDATA[http://www.opencms.org]]></target>
+          </link>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://www.alkacon.com/contact]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://www.alkacon.com]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<!--=== Footer ===-->
 <div class="footer">
 <div class="container">
 <div class="row">
@@ -21,7 +41,7 @@ Alkacon Software GmbH<br />
 An der Wachsfabrik 13<br />
 50996 Cologne, Germany<br />
 Phone: +49 2236 / 3826 - 0<br />
-<a href="http://www.alkacon.com/contact">Send us an email</a>
+<a href="%(link0)">Send us an email</a>
 </address>
 </div>
 
@@ -34,14 +54,15 @@ Phone: +49 2236 / 3826 - 0<br />
 <div class="copyright">
 <div class="container">
 
-<a href="http://www.alkacon.com"><img id="logo-footer" src="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_alkacon_png24.png?__scale=w:120,h:39,c:transparent" class="pull-right" alt="Alkacon Software GmbH" /></a>
+<a href="%(link1)"><img id="logo-footer" src="%(link2)" class="pull-right" alt="Alkacon Software GmbH" /></a>
 
-<p>Build with <a href="http://www.opencms.org">OpenCms</a> from <a href="http://www.alkacon.com">Alkacon Software </a></p>
+<p>Build with <a href="%(link3)">OpenCms</a> from <a href="%(link4)">Alkacon Software </a></p>
 
 
 </div>
 </div><!--/copyright-->
-<!--=== End Copyright ===-->]]></Code>
+<!--=== End Copyright ===-->]]></content>
+      </Code>
     </Choice>
   </BootstrapFlexibleElement>
 </BootstrapFlexibleElements>

@@ -21,7 +21,7 @@
 	</c:when>
 	<c:otherwise>
 
-<div class="fullwidthbanner-container margin-bottom-20" style="overflow: visible;"><!--=== Slider ===-->
+<div class="fullwidthbanner-container margin-bottom-20" style="height: ${content.value.Height}px; overflow: hidden;"><!--=== Slider ===-->
 
 	<div class="fullwidthbanner">
 		<ul>

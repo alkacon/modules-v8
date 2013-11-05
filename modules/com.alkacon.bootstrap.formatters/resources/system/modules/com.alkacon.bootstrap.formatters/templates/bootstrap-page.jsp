@@ -35,11 +35,11 @@
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/responsive.css:0f8c217f-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css:1264956e-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:127bc6fe-3a3b-11e3-a584-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css:52f716c6-20f8-11e3-b4d8-000c297c001d)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/search.css:2e634695-0cb8-11e2-b19e-2b1b08a6835d)" />
 		<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/headers/header${configcontent.value.HeaderType}.css</cms:link>" rel="stylesheet" type="text/css"></link>
 	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/${configcontent.value.Theme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
 	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/headers/header1-${configcontent.value.Theme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
+	<link href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css:52f716c6-20f8-11e3-b4d8-000c297c001d)</cms:link>" rel="stylesheet" type="text/css"></link>
 
 	<cms:headincludes type="javascript" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery-1.10.2.min.js:190d730b-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery-migrate-1.2.1.min.js:18ff9052-3a3b-11e3-a584-000c2943a707)
@@ -61,6 +61,7 @@
 </head><body>
 <div class="page-wrap">
 
+<c:if test="${not configcontent.value.Header.isEmpty}">
 <!--=== Top ===-->
 <div class="top">
     <div class="container">
@@ -68,7 +69,9 @@
     </div>
 </div><!--/top-->
 <!--=== End Top ===-->
+</c:if>
 
+<c:if test="${pagefullwidth != 'false-nn'}">
 <!--=== Header ===-->
 <div class="header">
 	<div class="navbar navbar-default" role="navigation">
@@ -81,7 +84,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<cms:link>${cms.subSitePath}</cms:link>">
+                <a class="navbar-brand" href="<cms:link>/</cms:link>">
                     <cms:img scaleType="2" scaleColor="transparent" height="40" id="logo-header" src="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_opencms_png24.png:aa1519ad-1abc-11e3-9246-000c29f9a2ec)" alt="Logo"/>
                 </a>
             </div>
@@ -93,8 +96,9 @@
 	</div><!-- /navbar -->
 </div><!--/header -->
 <!--=== End Header ===-->
+</c:if>
 
-<c:if test="${(pagefullwidth != 'true') && (pagefullwidth != 'false')}">
+<c:if test="${(pagefullwidth != 'true') && (pagefullwidth != 'false') && (pagefullwidth != 'false-nn')}">
 <!--=== Breadcrumbs ===-->
 <div class="breadcrumbs margin-bottom-30">
 	<div class="container">

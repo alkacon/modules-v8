@@ -15,7 +15,7 @@
 		<xsd:choice minOccurs="0" maxOccurs="5">
 			<xsd:element name="Image" type="OpenCmsBootstrapImage" minOccurs="0" />
 			<xsd:element name="Text" type="OpenCmsHtml" minOccurs="0" />
-			<xsd:element name="Code" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="Code" type="OpenCmsHtml" minOccurs="0" />
 		</xsd:choice>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
 	</xsd:complexType>
