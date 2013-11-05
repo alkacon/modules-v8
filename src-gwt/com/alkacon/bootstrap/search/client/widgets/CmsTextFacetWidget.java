@@ -148,7 +148,7 @@ public class CmsTextFacetWidget extends A_CmsSearchWidget {
 
         // create the panel
         m_facetPanel = new FlowPanel();
-        m_facetPanel.setStyleName("panel panel-blue margin-bottom-20 " + cssClass);
+        m_facetPanel.setStyleName("panel panel-search margin-bottom-20 " + cssClass);
 
         // add the label
         m_facetLabel = new HTMLPanel("div", "<h3 class=\"panel-title\"><i class=\"icon-tasks\"></i> " + label + "</h3>");
