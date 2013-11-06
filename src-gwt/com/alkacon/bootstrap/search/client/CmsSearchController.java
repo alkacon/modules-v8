@@ -266,8 +266,12 @@ public class CmsSearchController {
         CmsSearchQueryData searchData = data;
         searchData.setRootSite(context.getRootSite());
         List<String> searchRoots = new ArrayList<String>();
-        searchRoots.add("\"" + context.getGlobalPath() + "\"");
-        searchRoots.add("\"" + context.getSubSitePath() + "\"");
+        if (context.getGlobalPath() != null) {
+            searchRoots.add("\"" + context.getGlobalPath() + "\"");
+        }
+        if (context.getSubSitePath() != null) {
+            searchRoots.add("\"" + context.getSubSitePath() + "\"");
+        }
         searchData.setParentFolders(searchRoots);
         searchData.setSubSitePath(context.getSubSitePath());
         searchData.setRows(config.getRows());

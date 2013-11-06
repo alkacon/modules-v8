@@ -9434,6 +9434,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/search/context.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/search/context.js</destination>
+			<type>jsp</type>
+			<uuidstructure>be6d941f-46f9-11e3-9436-000c29d28104</uuidstructure>
+			<uuidresource>be6d9420-46f9-11e3-9436-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 06 Nov 2013 15:41:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Nov 2013 15:40:20 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/search/dictionary.js</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/search/dictionary.js</destination>
 			<type>jsp</type>
