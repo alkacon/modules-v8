@@ -188,7 +188,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
             m_suggestBox = suggestBox;
 
             Button searchbutton = new Button();
-            searchbutton.setStyleName("btn btn-danger");
+            searchbutton.setStyleName("btn-u btn-red");
             searchbutton.setText(" ");
             searchbutton.addClickHandler(new ClickHandler() {
 
