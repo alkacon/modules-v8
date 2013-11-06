@@ -1,0 +1,52 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="BootstrapNavigations" type="OpenCmsBootstrapNavigations"/>
+
+	<xsd:complexType name="OpenCmsBootstrapNavigations">
+		<xsd:sequence>
+			<xsd:element name="BootstrapNavigation" type="OpenCmsBootstrapNavigation" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapNavigation">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="NavStartLevel" type="OpenCmsString" />
+			<xsd:element name="LogoLink" type="OpenCmsVarLink" />
+			<xsd:element name="Header" type="OpenCmsHtml" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.navigation" />
+			<mappings>
+				<mapping element="Title" mapto="property:Title" />
+				<mapping element="Title" mapto="urlName" />
+			</mappings>
+			<defaults>
+				<default element="LogoLink" value="/" />
+			</defaults>
+			<layouts>
+				<layout element="NavStartLevel" widget="SelectorWidget" configuration="0:%(key.bootstrap.navigation.navstartlevel.0)|1*:%(key.bootstrap.navigation.navstartlevel.1)|2:%(key.bootstrap.navigation.navstartlevel.2)|3:%(key.bootstrap.navigation.navstartlevel.3)" />
+				<layout element="Header" widget="TextareaWidget" configuration="15" />
+			</layouts>
+			<tabs>
+				<tab element="Title" name="TabGeneral" collapse="false" />
+				<tab element="Header" name="TabHeader" collapse="false" />
+			</tabs>
+			<validationrules/>
+			<relations/>
+			<searchsettings containerPageOnly="true">
+				<searchsetting element="Title" searchcontent="false"/>
+				<searchsetting element="NavStartLevel" searchcontent="false"/>
+				<searchsetting element="LogoLink" searchcontent="false"/>
+				<searchsetting element="Header" searchcontent="false"/>
+			</searchsettings>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>

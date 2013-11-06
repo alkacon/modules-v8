@@ -9,7 +9,7 @@
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/slider/bg_sl_03.jpg]]></target>
+          <target><![CDATA[/sites/default/.galleries/slider/bg_sl_03.jpg]]></target>
           <uuid>7e882c04-24e9-11e3-9bbf-000c29d28104</uuid>
         </link>
       </Image>
@@ -19,7 +19,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/slider/arrows.png]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/arrows.png]]></target>
             <uuid>1b6b37e5-2511-11e3-91e8-000c29d28104</uuid>
           </link>
         </Image>
@@ -52,7 +52,7 @@
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/slider/bg_sl_02.jpg]]></target>
+          <target><![CDATA[/sites/default/.galleries/slider/bg_sl_02.jpg]]></target>
           <uuid>278e816f-24e8-11e3-9bbf-000c29d28104</uuid>
         </link>
       </Image>
@@ -76,7 +76,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/slider/p2.jpg]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/p2.jpg]]></target>
             <uuid>44c8777d-2457-11e3-adc8-000c297c001d</uuid>
           </link>
         </Image>
@@ -90,7 +90,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/slider/p9.jpg]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/p9.jpg]]></target>
             <uuid>44edb2d9-2457-11e3-adc8-000c297c001d</uuid>
           </link>
         </Image>
@@ -104,7 +104,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/slider/p8.jpg]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/p8.jpg]]></target>
             <uuid>44e85ba5-2457-11e3-adc8-000c297c001d</uuid>
           </link>
         </Image>
@@ -118,7 +118,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/slider/p3.jpg]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/p3.jpg]]></target>
             <uuid>44cdf5c1-2457-11e3-adc8-000c297c001d</uuid>
           </link>
         </Image>
@@ -132,7 +132,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/slider/p4.jpg]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/p4.jpg]]></target>
             <uuid>44d325e5-2457-11e3-adc8-000c297c001d</uuid>
           </link>
         </Image>
@@ -147,7 +147,7 @@
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/slider/bg_sl_04.jpg]]></target>
+          <target><![CDATA[/sites/default/.galleries/slider/bg_sl_04.jpg]]></target>
           <uuid>9a39c079-24ea-11e3-9bbf-000c29d28104</uuid>
         </link>
       </Image>
@@ -177,7 +177,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/slider/osi_logo.png]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/osi_logo.png]]></target>
             <uuid>393462f4-2507-11e3-9bbf-000c29d28104</uuid>
           </link>
         </Image>
@@ -192,7 +192,7 @@
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/slider/bg_sl_01.jpg]]></target>
+          <target><![CDATA[/sites/default/.galleries/slider/bg_sl_01.jpg]]></target>
           <uuid>275f340b-24e8-11e3-9bbf-000c29d28104</uuid>
         </link>
       </Image>
@@ -224,7 +224,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/slider/opencms_logo.png]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/opencms_logo.png]]></target>
             <uuid>90db6440-2508-11e3-91e8-000c29d28104</uuid>
           </link>
         </Image>

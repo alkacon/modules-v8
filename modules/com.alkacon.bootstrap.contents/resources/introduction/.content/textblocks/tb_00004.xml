@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[OpenCms Introduction: Step 4 - Preview in a device]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Preview a page in different devices]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Our demo template (the one used for this introduction) is based on the popular Bootstrap HTML framework. As a result, it is also a responsive template that adujsts to the size of the device.</p>
+<p>OpenCms features a device preview that allows you to easily see how the page will look e.g. in a iPad or smartphone. Just click on the menu icon on the toolbar, and there select "Show in device &gt; Tablet &gt; iPad (landscape)". A preview is shown for the selected device. To close the preview, just click anywhere outsite the highlighted area.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Continue with step 5: Publish your changes]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/introduction/step-5-publish-your-changes/]]></target>
+            <uuid>fe33c6dc-460a-11e3-b822-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

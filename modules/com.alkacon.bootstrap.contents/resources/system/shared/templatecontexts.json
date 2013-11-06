@@ -60,12 +60,12 @@
 		"path": "/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp",
 		"variants": {
 			"ipad": {
-				"niceName": "iPad 1-3/Mini (portrait)" ,
+				"niceName": "iPad (portrait)" ,
 				"width": 768,
 				"height": 1024
 			},
 			"ipad-ls": {
-				"niceName": "iPad 1-3/Mini (landscape)" ,
+				"niceName": "iPad (landscape)" ,
 				"width": 1024,
 				"height": 768
 			},

@@ -11,7 +11,7 @@
 	<div <c:if test="${cms.container.type == 'content-full'}"> class="row"</c:if>>
 
 		<c:choose>
-			<c:when test="${not cms.detailRequest or cms.container.name == 'middle-left-detail' or cms.container.name == 'middle-right-detail'}">
+			<c:when test="${not cms.detailRequest or cms.container.name == 'top' or cms.container.name == 'top-wide' or cms.container.name == 'middle-left-detail' or cms.container.name == 'middle-right-detail' or cms.container.name == 'bottom'}">
 				<c:set var="layoutvariant"><c:out value="${cms.element.settings.layoutvariant}" default="top" /></c:set>
 				<c:choose>
 					<c:when test="${layoutvariant == 'top' or layoutvariant == 'left'}">
@@ -34,9 +34,7 @@
                             <h2><a href="<cms:link>${content.filename}</cms:link>" ${rdfa.Title}>${value.Title}</a></h2>
 							<c:set var="showdate"><c:out value="${cms.element.settings.showdate}" default="true" /></c:set>
 							<c:if test="${showdate}">
-								<ul class="list-unstyled">
-								   <li><i class="icon-calendar"></i> <fmt:formatDate value="${cms:convertDate(value.Date)}" dateStyle="LONG" timeStyle="SHORT" type="both" /></li>
-								</ul>
+								<p><i><fmt:formatDate value="${cms:convertDate(value.Date)}" dateStyle="LONG" timeStyle="SHORT" type="both" /></i></p>
 							</c:if>
 							<c:choose>
 								<c:when test="${value.Teaser.isSet}">

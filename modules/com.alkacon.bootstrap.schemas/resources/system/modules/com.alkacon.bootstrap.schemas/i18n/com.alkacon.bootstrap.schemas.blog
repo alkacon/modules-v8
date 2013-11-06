@@ -322,7 +322,7 @@
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.blog.message.readmore]]></Key>
-      <Value><![CDATA[Weiterlesen]]></Value>
+      <Value><![CDATA[Weiter lesen]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>8.9.0</opencms_version>
-		<createdate>Tue, 05 Nov 2013 17:08:11 GMT</createdate>
+		<createdate>Wed, 06 Nov 2013 16:22:20 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap XML Schema Definitions.]]></description>
-		<version>8.9.5</version>
+		<version>8.9.8</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -24,16 +24,12 @@
 		<exportpoints/>
 		<resources>
 			<resource uri="/system/modules/com.alkacon.bootstrap.schemas/"/>
-			<resource uri="/system/workplace/resources/filetypes/bs-configuration.png"/>
-			<resource uri="/system/workplace/resources/filetypes/bs-configuration_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-jumbotron.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-jumbotron_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-textblock.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-textblock_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-product.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-product_big.png"/>
-			<resource uri="/system/workplace/resources/filetypes/bs-newsarticle.png"/>
-			<resource uri="/system/workplace/resources/filetypes/bs-newsarticle_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-imagerow.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-imagerow_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-imagegalleryshow.png"/>
@@ -52,14 +48,13 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-blog_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-list.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-list_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-navigation.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-navigation_big.png"/>
 		</resources>
 		<parameters/>
 		<resourcetypes>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-jumbotron" id="180">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/jumbotron.xsd</param>
-			</type>
-			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-configuration" id="181">
-				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/configuration.xsd</param>
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-textblock" id="182">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd</param>
@@ -88,14 +83,14 @@
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-product" id="190">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/product.xsd</param>
 			</type>
-			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-newsarticle" id="191">
-				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd</param>
-			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-blog" id="192">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd</param>
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-list" id="193">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/list.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-navigation" id="194">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/navigation.xsd</param>
 			</type>
 		</resourcetypes>
 		<explorertypes>
@@ -104,9 +99,6 @@
 			</explorertype>
 			<explorertype name="bs-jumbotron" key="fileicon.bs-jumbotron" icon="bs-jumbotron.png" bigicon="bs-jumbotron_big.png" reference="xmlcontent">
 				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-jumbotron" order="10" autosetnavigation="false" autosettitle="false" info="desc.bs-jumbotron"/>
-			</explorertype>
-			<explorertype name="bs-configuration" key="fileicon.bs-configuration" icon="bs-configuration.png" bigicon="bs-configuration_big.png" reference="xmlcontent">
-				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-configuration" order="500" autosetnavigation="false" autosettitle="false" info="desc.bs-configuration"/>
 			</explorertype>
 			<explorertype name="bs-textblock" key="fileicon.bs-textblock" icon="bs-textblock.png" bigicon="bs-textblock_big.png" reference="xmlcontent">
 				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-textblock" order="20" autosetnavigation="false" autosettitle="false" info="desc.bs-textblock"/>
@@ -135,14 +127,14 @@
 			<explorertype name="bs-product" key="fileicon.bs-product" icon="bs-product.png" bigicon="bs-product_big.png" reference="xmlcontent">
 				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-product" order="100" autosetnavigation="false" autosettitle="false" info="desc.bs-product"/>
 			</explorertype>
-			<explorertype name="bs-newsarticle" key="fileicon.bs-newsarticle" icon="bs-newsarticle.png" bigicon="bs-newsarticle_big.png" reference="xmlcontent">
-				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-newsarticle" order="110" autosetnavigation="false" autosettitle="false" info="desc.bs-newsarticle"/>
-			</explorertype>
 			<explorertype name="bs-blog" key="fileicon.bs-blog" icon="bs-blog.png" bigicon="bs-blog_big.png" reference="xmlcontent">
 				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-blog" order="120" autosetnavigation="false" autosettitle="false" info="desc.bs-blog"/>
 			</explorertype>
 			<explorertype name="bs-list" key="fileicon.bs-list" icon="bs-list.png" bigicon="bs-list_big.png" reference="xmlcontent">
 				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-list" order="130" autosetnavigation="false" autosettitle="false" info="desc.bs-list"/>
+			</explorertype>
+			<explorertype name="bs-navigation" key="fileicon.bs-navigation" icon="bs-navigation.png" bigicon="bs-navigation_big.png" reference="xmlcontent">
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-navigation" order="500" autosetnavigation="false" autosettitle="false" info="desc.bs-navigation"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -210,8 +202,8 @@
 			<type>module_config</type>
 			<uuidstructure>1a6836da-1aca-11e3-a5c5-000c29f9a2ec</uuidstructure>
 			<uuidresource>1a6836db-1aca-11e3-a5c5-000c29f9a2ec</uuidresource>
-			<datelastmodified>Tue, 05 Nov 2013 16:20:54 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 06 Nov 2013 11:09:43 GMT</datelastmodified>
+			<userlastmodified>rkurz</userlastmodified>
 			<datecreated>Wed, 11 Sep 2013 10:08:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -251,7 +243,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>d99cbd6b-4543-11e3-93f3-000c29d28104</uuidstructure>
 			<uuidresource>d99cbd6c-4543-11e3-93f3-000c29d28104</uuidresource>
-			<datelastmodified>Tue, 05 Nov 2013 11:29:52 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Nov 2013 13:20:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 11:25:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -284,30 +276,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Localization for carousel element]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.configuration</source>
-			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.configuration</destination>
-			<type>xmlvfsbundle</type>
-			<uuidstructure>2185ce0e-1bbe-11e3-a120-000c29f9a2ec</uuidstructure>
-			<uuidresource>2185ce0f-1bbe-11e3-a120-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 20 Sep 2013 13:58:04 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 12 Sep 2013 15:15:17 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Localization configuration element]]></value>
 				</property>
 				<property>
 					<name>search.exclude</name>
@@ -419,7 +387,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>368eb611-4605-11e3-945d-000c29d28104</uuidstructure>
 			<uuidresource>368eb612-4605-11e3-945d-000c29d28104</uuidresource>
-			<datelastmodified>Tue, 05 Nov 2013 12:06:08 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Nov 2013 13:44:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 10:29:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -462,20 +430,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.newsarticle</source>
-			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.newsarticle</destination>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.navigation</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.navigation</destination>
 			<type>xmlvfsbundle</type>
-			<uuidstructure>14851e53-2069-11e3-b7a9-000c297c001d</uuidstructure>
-			<uuidresource>14851e53-2069-11e3-b7a9-000c297c001d</uuidresource>
-			<datelastmodified>Fri, 13 Sep 2013 08:19:15 GMT</datelastmodified>
+			<uuidstructure>56a162ed-46bc-11e3-8fa9-000c29d28104</uuidstructure>
+			<uuidresource>56a162ee-46bc-11e3-8fa9-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 06 Nov 2013 14:49:07 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 11 Sep 2013 09:39:24 GMT</datecreated>
+			<datecreated>Wed, 06 Nov 2013 08:20:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Localization news article]]></value>
+					<value><![CDATA[Localization navigation element]]></value>
 				</property>
 				<property>
 					<name>search.exclude</name>
@@ -611,7 +579,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>c9def4ee-1c45-11e3-80da-000c29f9a2ec</uuidstructure>
 			<uuidresource>c9def4ef-1c45-11e3-80da-000c29f9a2ec</uuidresource>
-			<datelastmodified>Tue, 05 Nov 2013 11:30:57 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Nov 2013 14:51:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 07:26:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -677,26 +645,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[XSD for a carousel]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/configuration.xsd</source>
-			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/configuration.xsd</destination>
-			<type>plain</type>
-			<uuidstructure>686030fb-1bbd-11e3-a120-000c29f9a2ec</uuidstructure>
-			<uuidresource>686030fc-1bbd-11e3-a120-000c29f9a2ec</uuidresource>
-			<datelastmodified>Mon, 16 Sep 2013 08:00:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 12 Sep 2013 15:10:06 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[XSD for a bootstrap configuration]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -788,7 +736,7 @@
 			<type>plain</type>
 			<uuidstructure>7935e172-4602-11e3-945d-000c29d28104</uuidstructure>
 			<uuidresource>7935e173-4602-11e3-945d-000c29d28104</uuidresource>
-			<datelastmodified>Tue, 05 Nov 2013 12:07:37 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Nov 2013 13:35:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 10:10:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -803,20 +751,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd</source>
-			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/newsarticle.xsd</destination>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/navigation.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/navigation.xsd</destination>
 			<type>plain</type>
-			<uuidstructure>ace86b3a-2067-11e3-b7a9-000c297c001d</uuidstructure>
-			<uuidresource>ace86b3a-2067-11e3-b7a9-000c297c001d</uuidresource>
-			<datelastmodified>Thu, 12 Sep 2013 13:46:26 GMT</datelastmodified>
+			<uuidstructure>2c12af37-46ba-11e3-8fa9-000c29d28104</uuidstructure>
+			<uuidresource>2c12af38-46ba-11e3-8fa9-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 06 Nov 2013 14:44:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 11 Sep 2013 08:52:00 GMT</datecreated>
+			<datecreated>Wed, 06 Nov 2013 08:05:16 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[XSD for a News article]]></value>
+					<value><![CDATA[XSD for a navigation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -828,7 +776,7 @@
 			<type>plain</type>
 			<uuidstructure>7bd5b7a1-1ebe-11e3-8b2b-000c297c001d</uuidstructure>
 			<uuidresource>7bd5b7a2-1ebe-11e3-8b2b-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 05 Nov 2013 10:31:18 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Nov 2013 08:32:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 10:55:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1305,46 +1253,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/workplace/resources/filetypes/bs-configuration.png</source>
-			<destination>system/workplace/resources/filetypes/bs-configuration.png</destination>
-			<type>image</type>
-			<uuidstructure>d0aa952e-1c48-11e3-80da-000c29f9a2ec</uuidstructure>
-			<uuidresource>d0aa952f-1c48-11e3-80da-000c29f9a2ec</uuidresource>
-			<datelastmodified>Wed, 27 Apr 2011 13:40:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 13 Sep 2013 07:48:01 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:16,h:16]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/workplace/resources/filetypes/bs-configuration_big.png</source>
-			<destination>system/workplace/resources/filetypes/bs-configuration_big.png</destination>
-			<type>image</type>
-			<uuidstructure>d8bb3fe1-1c48-11e3-80da-000c29f9a2ec</uuidstructure>
-			<uuidresource>d8bb3fe2-1c48-11e3-80da-000c29f9a2ec</uuidresource>
-			<datelastmodified>Wed, 27 Apr 2011 13:40:40 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 13 Sep 2013 07:48:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:24,h:24]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>system/workplace/resources/filetypes/bs-flexible.png</source>
 			<destination>system/workplace/resources/filetypes/bs-flexible.png</destination>
 			<type>image</type>
@@ -1545,14 +1453,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/workplace/resources/filetypes/bs-newsarticle.png</source>
-			<destination>system/workplace/resources/filetypes/bs-newsarticle.png</destination>
+			<source>system/workplace/resources/filetypes/bs-navigation.png</source>
+			<destination>system/workplace/resources/filetypes/bs-navigation.png</destination>
 			<type>image</type>
-			<uuidstructure>60e7971d-2066-11e3-b7a9-000c297c001d</uuidstructure>
-			<uuidresource>60e7971d-2066-11e3-b7a9-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
+			<uuidstructure>c334e856-46c6-11e3-8fa9-000c29d28104</uuidstructure>
+			<uuidresource>c334e857-46c6-11e3-8fa9-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 06 Nov 2013 13:17:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 13 Sep 2013 12:32:14 GMT</datecreated>
+			<datecreated>Wed, 06 Nov 2013 09:35:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -1565,14 +1473,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/workplace/resources/filetypes/bs-newsarticle_big.png</source>
-			<destination>system/workplace/resources/filetypes/bs-newsarticle_big.png</destination>
+			<source>system/workplace/resources/filetypes/bs-navigation_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-navigation_big.png</destination>
 			<type>image</type>
-			<uuidstructure>6635ed80-2066-11e3-b7a9-000c297c001d</uuidstructure>
-			<uuidresource>6635ed80-2066-11e3-b7a9-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
+			<uuidstructure>cb0afb09-46c6-11e3-8fa9-000c29d28104</uuidstructure>
+			<uuidresource>cb0afb0a-46c6-11e3-8fa9-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 06 Nov 2013 13:17:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 13 Sep 2013 12:32:15 GMT</datecreated>
+			<datecreated>Wed, 06 Nov 2013 09:35:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>

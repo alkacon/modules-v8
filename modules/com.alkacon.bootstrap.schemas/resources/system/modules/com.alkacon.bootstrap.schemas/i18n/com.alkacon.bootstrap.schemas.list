@@ -3,28 +3,24 @@
 <XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
   <Bundle language="en">
     <Message>
-      <Key><![CDATA[label.BootstrapList.Title]]></Key>
-      <Value><![CDATA[Title]]></Value>
+      <Key><![CDATA[bootstrap.list.message.new]]></Key>
+      <Value><![CDATA[New list, please edit!]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.message.edit]]></Key>
+      <Value><![CDATA[Missing configuration options, please edit!]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapList.Title.help]]></Key>
       <Value><![CDATA[The title of the list, can be hidden by using an element setting, optionally.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapList.ResourceType]]></Key>
-      <Value><![CDATA[Type name]]></Value>
+      <Key><![CDATA[label.BootstrapList.FilterQueries]]></Key>
+      <Value><![CDATA[Filter quries]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapList.ResourceType.help]]></Key>
-      <Value><![CDATA[The resource type name to collect.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapList.ParentFolders]]></Key>
-      <Value><![CDATA[Parent folders]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapList.ParentFolders.help]]></Key>
-      <Value><![CDATA[The parent-folders search parameter e.g. <i>("/sites/default/" OR "/shared/")</i>.]]></Value>
+      <Key><![CDATA[label.BootstrapList.FilterQueries.help]]></Key>
+      <Value><![CDATA[Additional Solr filter queries <i>(use syntax like: &amp;fq=fieldName:"term")</i>.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapList.SortOrder]]></Key>
@@ -90,8 +86,104 @@
       <Key><![CDATA[bootstrap.list.value.desc]]></Key>
       <Value><![CDATA[Descending]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.image.left]]></Key>
+      <Value><![CDATA[Left of text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.image.right]]></Key>
+      <Value><![CDATA[Right of text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.image.top]]></Key>
+      <Value><![CDATA[Top]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.imgalign]]></Key>
+      <Value><![CDATA[Image alignment]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[no.image]]></Key>
+      <Value><![CDATA[No image present.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.showdate]]></Key>
+      <Value><![CDATA[Show date]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.color]]></Key>
+      <Value><![CDATA[Color]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.default]]></Key>
+      <Value><![CDATA[Default]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.red]]></Key>
+      <Value><![CDATA[Red]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.sea]]></Key>
+      <Value><![CDATA[Sea]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.grey]]></Key>
+      <Value><![CDATA[Grey]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.green]]></Key>
+      <Value><![CDATA[Green]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.blue]]></Key>
+      <Value><![CDATA[Blue]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.orange]]></Key>
+      <Value><![CDATA[Orange]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.yellow]]></Key>
+      <Value><![CDATA[Yellow]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.layoutvariant]]></Key>
+      <Value><![CDATA[Layout Variant]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.layout.top]]></Key>
+      <Value><![CDATA[Border Top]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.layout.left]]></Key>
+      <Value><![CDATA[Border Left]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.layout.box]]></Key>
+      <Value><![CDATA[Colored Box]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.buttoncolor]]></Key>
+      <Value><![CDATA[Button Color]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.teaserlength]]></Key>
+      <Value><![CDATA[Teaser Length]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.message.readmore]]></Key>
+      <Value><![CDATA[read more]]></Value>
+    </Message>
   </Bundle>
   <Bundle language="de">
+    <Message>
+      <Key><![CDATA[bootstrap.list.message.new]]></Key>
+      <Value><![CDATA[Neue Liste, bitte editieren!]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.message.edit]]></Key>
+      <Value><![CDATA[Fehlende Konfigurationseinstellungen, bitte editieren!]]></Value>
+    </Message>
     <Message>
       <Key><![CDATA[label.BootstrapList.Title]]></Key>
       <Value><![CDATA[Titel]]></Value>
@@ -101,20 +193,12 @@
       <Value><![CDATA[Der Titel für diese Liste, kann mittels Element Setting ausgeblended werden.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapList.ResourceType]]></Key>
-      <Value><![CDATA[Typename]]></Value>
+      <Key><![CDATA[label.BootstrapList.FilterQueries]]></Key>
+      <Value><![CDATA[Filter queries]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapList.ResourceType.help]]></Key>
-      <Value><![CDATA[Der Name des Ressourcetyps, der dargetstellt werden soll.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapList.ParentFolders]]></Key>
-      <Value><![CDATA[Elternverzeichnis]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapList.ParentFolders.help]]></Key>
-      <Value><![CDATA[Der Wert für den Parameter 'parent-folders', wo gesucht werden soll, z.B. <i>("/sites/default/" OR "/shared/")</i>.]]></Value>
+      <Key><![CDATA[label.BootstrapList.FilterQueries.help]]></Key>
+      <Value><![CDATA[Zusätzliche Solr filter queries <i>(Syntax: &amp;fq=fieldName:"term")</i>.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapList.SortOrder]]></Key>
@@ -179,6 +263,94 @@
     <Message>
       <Key><![CDATA[bootstrap.list.value.desc]]></Key>
       <Value><![CDATA[absteigend]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.image.left]]></Key>
+      <Value><![CDATA[Links vom Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.image.right]]></Key>
+      <Value><![CDATA[Rechts vom Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.image.top]]></Key>
+      <Value><![CDATA[Oben]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.imgalign]]></Key>
+      <Value><![CDATA[Bildausrichtung]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[no.image]]></Key>
+      <Value><![CDATA[Kein Bild vorhanden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.showdate]]></Key>
+      <Value><![CDATA[Zeige Datum]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.color]]></Key>
+      <Value><![CDATA[Farbe]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.default]]></Key>
+      <Value><![CDATA[Standard]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.red]]></Key>
+      <Value><![CDATA[Rot]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.sea]]></Key>
+      <Value><![CDATA[Meer]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.grey]]></Key>
+      <Value><![CDATA[Grau]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.green]]></Key>
+      <Value><![CDATA[Grün]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.blue]]></Key>
+      <Value><![CDATA[Blau]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.orange]]></Key>
+      <Value><![CDATA[Orange]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.color.yellow]]></Key>
+      <Value><![CDATA[Gelb]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.layoutvariant]]></Key>
+      <Value><![CDATA[Layout Variante]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.layout.top]]></Key>
+      <Value><![CDATA[Rahmen oben]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.layout.left]]></Key>
+      <Value><![CDATA[Rahmen links]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.layout.box]]></Key>
+      <Value><![CDATA[Box]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.buttoncolor]]></Key>
+      <Value><![CDATA[Button Farbe]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.setting.teaserlength]]></Key>
+      <Value><![CDATA[Teaser Länge]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.list.message.readmore]]></Key>
+      <Value><![CDATA[Weiterlesen]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

@@ -17,16 +17,8 @@
 	<meta name="robots" content="index, follow"/>
 	<meta name="revisit-after" content="7 days"/>
 
-	<c:set var="pageconfig">${cms.subSitePath}.content/.pageconfig</c:set>
-	<c:catch var="errconf">
-		<c:set var="confparam">${cms.subSitePath}.content/|bs-configuration|1</c:set>
-		<cms:contentload collector="allInFolder" param="%(pageContext.confparam)" editable="false">
-			<cms:contentaccess var="configcontent" />
-			<c:set var="pageconfig">${configcontent.filename}</c:set>
-		</cms:contentload>
-	</c:catch>
+	<c:set var="colortheme"><cms:property name="bs.page.color" file="search" default="red" /></c:set>
 	<c:set var="pagelayout"><cms:property name="bs.page.layout" file="search" default="9" /></c:set>
-	<c:set var="pagefullwidth"><cms:property name="bs.page.fullwidth" file="search" default="false-bc" /></c:set>
 
 	<cms:enable-ade/>
 
@@ -35,10 +27,10 @@
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/responsive.css:0f8c217f-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css:1264956e-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:127bc6fe-3a3b-11e3-a584-000c2943a707)
+		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/headers/header1.css:0f415ca7-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/search.css:2e634695-0cb8-11e2-b19e-2b1b08a6835d)" />
-		<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/headers/header${configcontent.value.HeaderType}.css</cms:link>" rel="stylesheet" type="text/css"></link>
-	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/${configcontent.value.Theme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
-	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/headers/header1-${configcontent.value.Theme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
+	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/${colortheme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
+	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/headers/header1-${colortheme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
 	<link href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css:52f716c6-20f8-11e3-b4d8-000c297c001d)</cms:link>" rel="stylesheet" type="text/css"></link>
 
 	<cms:headincludes type="javascript" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery-1.10.2.min.js:190d730b-3a3b-11e3-a584-000c2943a707)
@@ -60,68 +52,18 @@
 	<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/search/config.jsp:b4a9ffc9-416c-11e3-81ba-000c297c001d)" />
 </head><body>
 <div class="page-wrap">
-
-<c:if test="${not configcontent.value.Header.isEmpty}">
-<!--=== Top ===-->
-<div class="top">
-    <div class="container">
-        ${configcontent.value.Header}
-    </div>
-</div><!--/top-->
-<!--=== End Top ===-->
-</c:if>
-
-<c:if test="${pagefullwidth != 'false-nn'}">
-<!--=== Header ===-->
-<div class="header">
-	<div class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="<cms:link>/</cms:link>">
-                    <cms:img scaleType="2" scaleColor="transparent" height="40" id="logo-header" src="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_opencms_png24.png:aa1519ad-1abc-11e3-9246-000c29f9a2ec)" alt="Logo"/>
-                </a>
-            </div>
-			<!-- Menu -->       
-			<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-main.jsp:f6dcd82c-1a24-11e3-9358-000c29f9a2ec)">
-				<cms:param name="startlevel">${configcontent.value.NavStartLevel}</cms:param>
-			</cms:include>
-		</div><!-- /container -->
-	</div><!-- /navbar -->
-</div><!--/header -->
-<!--=== End Header ===-->
-</c:if>
-
-<c:if test="${(pagefullwidth != 'true') && (pagefullwidth != 'false') && (pagefullwidth != 'false-nn')}">
-<!--=== Breadcrumbs ===-->
-<div class="breadcrumbs margin-bottom-30">
-	<div class="container">
-        <h1 class="pull-left"><cms:info property="opencms.title" /></h1>
-        <cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp:6f6f2ea3-1bb3-11e3-a120-000c29f9a2ec)">
-			<cms:param name="startlevel">${configcontent.value.NavStartLevel}</cms:param>
-		</cms:include>
-    </div><!--/container-->
-</div><!--/breadcrumbs-->
-<!--=== End Breadcrumbs ===-->
+<c:if test="${not cms.requestContext.currentProject.onlineProject}">
+<!--=== Placeholder for OpenCms toolbar in the offline project ===-->
+<div style="background: lightgray; height: 35px">&nbsp;</div>
 </c:if>
 
 <!--=== Content Part ===-->
 
-<c:if test="${(pagefullwidth != 'true') && (pagefullwidth != 'true-bc')}">
-	<div class="container">
-</c:if>
+<cms:container name="top-wide" type="content-full" width="1200" maxElements="15" />
+
+<div class="container">
 
     <cms:container name="top" type="content-full" width="1200" maxElements="15" />
-
-<c:if test="${(pagefullwidth == 'true') || (pagefullwidth == 'true-bc')}">
-	<div class="container">
-</c:if>
 
 	<c:if test="${pagelayout != 'full'}">
 		<c:choose>

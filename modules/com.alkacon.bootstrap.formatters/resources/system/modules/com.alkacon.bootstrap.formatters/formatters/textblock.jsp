@@ -9,7 +9,7 @@
 <div<c:if test="${cms.container.type == 'content-full'}"> class="row"</c:if>>
 
 <c:forEach var="paragraph" items="${content.valueList.Paragraph}">
-
+	
 	<c:set var="imgalign">noimage</c:set>
 	<c:if test="${paragraph.value.Image.exists}">
 		<c:set var="imgalign"><cms:elementsetting name="imgalign" default="left" /></c:set>
@@ -19,16 +19,15 @@
 		<div class="headline"><h3 ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h3></div>
 	</c:if>
 
+	<div  ${paragraph.rdfa["Link|Image"]}>
+
 	<c:choose>
 	
 		<c:when test="${imgalign == 'noimage' || imgalign == 'top'}">
 			<c:if test="${imgalign == 'top'}">	
-				<div ${paragraph.rdfa.Image} class="thumbnail-kenburn"><div class="overflow-hidden">
+				<div class="thumbnail-kenburn"><div class="overflow-hidden">
 					<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="1200" height="300" scaleType="2" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 				</div></div>
-			</c:if>
-			<c:if test="${imgalign == 'noimage'}">	
-				<span ${paragraph.rdfa.Image}></span>
 			</c:if>
 			<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>		
 			<c:if test="${paragraph.value.Link.exists}">
@@ -40,7 +39,7 @@
 		<c:when test="${imgalign == 'left'}">		
 			<div class="row">
 				<div class="col-md-4">
-					<div ${paragraph.rdfa.Image} class="thumbnail-kenburn"><div class="overflow-hidden">
+					<div class="thumbnail-kenburn"><div class="overflow-hidden">
 						<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 					</div></div>		
 				</div>
@@ -63,7 +62,7 @@
 					</c:if>		
 				</div>
 				<div class="col-md-4">
-					<div ${paragraph.rdfa.Image} class="thumbnail-kenburn"><div class="overflow-hidden">
+					<div class="thumbnail-kenburn"><div class="overflow-hidden">
 						<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 					</div></div>		
 				</div>
@@ -72,6 +71,7 @@
 					
 	</c:choose>	
 
+	</div>
 </c:forEach> 
 
 </div>

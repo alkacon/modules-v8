@@ -14,8 +14,7 @@
 	<xsd:complexType name="OpenCmsBootstrapList">
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
-			<xsd:element name="ResourceType" type="OpenCmsString" />
-			<xsd:element name="ParentFolders" type="OpenCmsString" />
+			<xsd:element name="FilterQueries" type="OpenCmsString" />
 			<xsd:element name="SortOrder" type="OpenCmsString" />
 			<xsd:element name="RowCount" type="OpenCmsString" />
 			<xsd:element name="CreatePath" type="OpenCmsString" />
@@ -35,7 +34,6 @@
 				<default element="Title" value="%(key.bootstrap.list.default.Title)" />
 			</defaults>
 			<layouts>
-				<layout element="ResourceType" widget="TypeComboWidget"/>
 				<layout element="SortOrder" widget="SelectorWidget" configuration="asc:%(key.bootstrap.list.value.asc)|desc:%(key.bootstrap.list.value.desc)"/>
 			</layouts>
 			<validationrules/>

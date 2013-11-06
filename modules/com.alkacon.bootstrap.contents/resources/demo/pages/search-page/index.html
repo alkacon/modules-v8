@@ -3,6 +3,30 @@
 <AlkaconContainerPages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/container_page.xsd">
   <AlkaconContainerPage language="en">
     <Containers>
+      <Name><![CDATA[top-wide]]></Name>
+      <Type><![CDATA[content-full]]></Type>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/demo/.content/navigations/nv_00001.xml]]></target>
+            <uuid>7f084d61-46cc-11e3-9325-000c29d28104</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/navigation-main.jsp]]></target>
+            <uuid>731ab443-46bd-11e3-8fa9-000c29d28104</uuid>
+          </link>
+        </Formatter>
+        <Properties>
+          <Name><![CDATA[formatterSettings#top-wide]]></Name>
+          <Value>
+            <String><![CDATA[d3ab4632-46bc-11e3-8fa9-000c29d28104]]></String>
+          </Value>
+        </Properties>
+      </Elements>
+    </Containers>
+    <Containers>
       <Name><![CDATA[top]]></Name>
       <Type><![CDATA[content-full]]></Type>
       <Elements>
@@ -18,6 +42,12 @@
             <uuid>087ba7c9-e7fc-4336-acb8-d3416a4eb1fd</uuid>
           </link>
         </Formatter>
+        <Properties>
+          <Name><![CDATA[restoreQuery]]></Name>
+          <Value>
+            <String><![CDATA[http://jenkins.alkacon.com:8081/dev-content/opencms/demo/pages/search-page/?fq=type:("bs-newsarticle"+OR+"bs-blog"+OR+"bs-product")&sort=lastmodified+desc]]></String>
+          </Value>
+        </Properties>
         <Properties>
           <Name><![CDATA[templateContexts]]></Name>
           <Value>

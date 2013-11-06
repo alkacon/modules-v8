@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[OpenCms Introduction: Step 3 - Work with the sitemap]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Working with the sitemap]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To create new pages or change the navigation structure of existing pages OpenCms offers the sitemap editor. To open the sitemap, click on the sitemap icon located on the right of the toolbar.</p>
+<p>In the sitemap editor, you can move existing pages around or create new pages by drag and drop, similar to editing content. Go ahead and try the sitemap editor. Afterward, come back and continue the introcudtion tour.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Continue with step 4: Preview in a device]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/introduction/step-4-preview-in-a-device/]]></target>
+            <uuid>f4194261-460a-11e3-b822-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

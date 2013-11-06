@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[OpenCms Introduction: Step 2 - Edit content]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Edit content inline - directly on the page]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Move your mouse over a text element on the page, for example over <strong>this text here. </strong>You will notice the mouse cursor becoes a "pen" icon. Now click on the text. Text edit controls are shown and you can start changing the content. When you are done, just click outside the highligt area to save your changes.</p>]]></content>
+      </Text>
+    </Paragraph>
+    <Paragraph>
+      <Headline><![CDATA[Changing an image or a link inline]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If you edit text inline, you will notice a row of symbols that is shown to the right hand side of the element being edited. These controls allow you to add optional fields that are not yet enabled, as well as modify content that are not well suited for direct inline editing such as images. You will get a small form displayed where you can enter or modify the content. To try, click <strong>here</strong> and then move your mouse over the plus symbol on the right hand side to add an optional link to this content element.</p>]]></content>
+      </Text>
+    </Paragraph>
+    <Paragraph>
+      <Headline><![CDATA[Using the form based editor]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>All content in OpenCms is tored in structured fields. You can open the full form based editor by either clicking the pen icon that is shown on the "bullseye" edit point menu, or by clicking the pen icon in the toolbar while you edit content inline. Using either the form based editor or the inline editor is a matter of preference.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Continue with step 3: Work with the sitemap]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/introduction/step-3-work-with-the-sitemap/]]></target>
+            <uuid>e7408846-460a-11e3-b822-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>
