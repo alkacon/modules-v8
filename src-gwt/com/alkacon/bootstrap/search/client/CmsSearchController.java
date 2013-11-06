@@ -252,7 +252,8 @@ public class CmsSearchController {
                 data.setFromLocation(true);
             }
         }
-        if ((data == null) || (!data.hasSelection() && (context.getInitialQuery() != null))) {
+        if ((data == null)
+            || ((!data.hasSelection() && !CmsSearchStringUtil.isEmpty(context.getInitialQuery())) && CmsSearchStringUtil.isEmpty(context.getSearchQuery()))) {
             data = CmsSearchQueryData.fromShortQuery(config, context.getInitialQuery());
         }
         if ((data == null) || !data.hasSelection()) {

@@ -131,7 +131,7 @@ public final class CmsSearchStringUtil {
      */
     public static boolean isEmpty(String value) {
 
-        return (value == null) || (value.length() == 0);
+        return (value == null) || (value.trim().length() == 0);
     }
 
     /**
