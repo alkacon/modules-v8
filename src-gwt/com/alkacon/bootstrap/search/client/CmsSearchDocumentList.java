@@ -100,17 +100,6 @@ public class CmsSearchDocumentList implements IsSerializable {
     }
 
     /**
-     * Adds a new facet to the facet map.<p>
-     * 
-     * @param name name of the facet
-     * @param facet a list of CmsSearchFacet objects
-     */
-    public void addFacet(String name, List<CmsSearchFacet> facet) {
-
-        m_facets.put(name, facet);
-    }
-
-    /**
      * Adds a single searchresult to the list of search results.<p>
      * 
      * @param searchResult the search result to add
@@ -119,6 +108,17 @@ public class CmsSearchDocumentList implements IsSerializable {
 
         m_documents.add(searchResult);
 
+    }
+
+    /**
+     * Adds a new facet to the facet map.<p>
+     * 
+     * @param name name of the facet
+     * @param facet a list of CmsSearchFacet objects
+     */
+    public void addFacet(String name, List<CmsSearchFacet> facet) {
+
+        m_facets.put(name, facet);
     }
 
     /**

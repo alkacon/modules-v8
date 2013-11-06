@@ -27,9 +27,9 @@
 
 package com.alkacon.bootstrap.search.client.widgets;
 
+import com.alkacon.bootstrap.search.client.CmsSearchConfig.CmsWidgetConfig;
 import com.alkacon.bootstrap.search.client.CmsSearchController;
 import com.alkacon.bootstrap.search.client.CmsSearchDocumentList;
-import com.alkacon.bootstrap.search.client.CmsSearchConfig.CmsWidgetConfig;
 
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;

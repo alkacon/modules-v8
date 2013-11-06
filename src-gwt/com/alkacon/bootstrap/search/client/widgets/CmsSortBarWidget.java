@@ -92,6 +92,9 @@ public class CmsSortBarWidget extends A_CmsSearchWidget {
         // a on change handler to run a new search after a new sort order is selected
         m_order.addChangeHandler(new ChangeHandler() {
 
+            /**
+             * @see com.google.gwt.event.dom.client.ChangeHandler#onChange(com.google.gwt.event.dom.client.ChangeEvent)
+             */
             public void onChange(ChangeEvent event) {
 
                 int selectedIndex = m_order.getSelectedIndex();
@@ -110,6 +113,14 @@ public class CmsSortBarWidget extends A_CmsSearchWidget {
             }
         });
         panel.add(m_order);
+    }
+
+    /**
+     * @see com.alkacon.bootstrap.search.client.widgets.I_CmsSearchWidget#update(com.alkacon.bootstrap.search.client.CmsSearchDocumentList)
+     */
+    public void update(CmsSearchDocumentList result) {
+
+        select();
     }
 
     /**
@@ -135,13 +146,4 @@ public class CmsSortBarWidget extends A_CmsSearchWidget {
             m_order.setSelectedIndex(defaultIndex);
         }
     }
-
-    /**
-     * @see com.alkacon.bootstrap.search.client.widgets.I_CmsSearchWidget#update(com.alkacon.bootstrap.search.client.CmsSearchDocumentList)
-     */
-    public void update(CmsSearchDocumentList result) {
-
-        select();
-    }
-
 }

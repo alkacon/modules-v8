@@ -47,7 +47,7 @@ public class CmsDialogEntryPoint extends A_CmsEntryPoint {
     /**
      * @see org.opencms.gwt.client.A_CmsEntryPoint#onModuleLoad()
      */
-    @Override
+    
     public void onModuleLoad() {
 
         super.onModuleLoad();

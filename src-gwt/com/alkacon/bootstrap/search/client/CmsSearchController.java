@@ -399,8 +399,12 @@ public class CmsSearchController {
      * 
      * @param request the suggestion request
      * @param callback the suggestion callback to execute
+     * @param widget a widget to update
      */
-    public void doSuggesting(final SuggestOracle.Request request, final SuggestOracle.Callback callback) {
+    public void doSuggesting(
+        final SuggestOracle.Request request,
+        final SuggestOracle.Callback callback,
+        final CmsResultListWidget widget) {
 
         showLoading(20);
         if (m_autocompleteTimer != null) {
@@ -408,10 +412,13 @@ public class CmsSearchController {
         }
         m_autocompleteTimer = new Timer() {
 
+            /**
+             * @see com.google.gwt.user.client.Timer#run()
+             */
             @Override
             public void run() {
 
-                executeAutoCompletion(request, callback);
+                executeAutoCompletion(request, callback, widget);
             }
         };
         m_autocompleteTimer.schedule(m_config.getAutocompletedelay());
@@ -623,8 +630,12 @@ public class CmsSearchController {
      * 
      * @param request the suggestion request
      * @param callback the suggestion callback to execute
+     * @param widget a widget to update
      */
-    protected void executeAutoCompletion(final SuggestOracle.Request request, final SuggestOracle.Callback callback) {
+    protected void executeAutoCompletion(
+        final SuggestOracle.Request request,
+        final SuggestOracle.Callback callback,
+        final CmsResultListWidget widget) {
 
         I_CmsSearchJsonCommand searchCallback = new I_CmsSearchJsonCommand() {
 
@@ -636,7 +647,9 @@ public class CmsSearchController {
                 processAutoComplete(request, callback, jsonObject);
                 CmsSearchDocumentList result = processSearch(jsonObject);
                 for (I_CmsSearchWidget inputWidget : m_searchWidgets.values()) {
-                    if (inputWidget.updateOnSearch()) {
+                    if (widget != null) {
+                        widget.addSuggs(result);
+                    } else if (inputWidget.updateOnSearch()) {
                         inputWidget.update(result);
                     }
                 }
@@ -716,30 +729,34 @@ public class CmsSearchController {
             TreeMap<String, Integer> collationMap = new TreeMap<String, Integer>(new ValueComparator(map));
 
             if (object.get("spellcheck") != null) {
-                JSONObject spellcheck = object.get("spellcheck").isObject();
-                JSONArray suggestions = spellcheck.get("suggestions").isArray();
+                try {
+                    JSONObject spellcheck = object.get("spellcheck").isObject();
+                    JSONArray suggestions = spellcheck.get("suggestions").isArray();
 
-                for (int i = 0; i < suggestions.size(); i++) {
-                    JSONValue val = suggestions.get(i);
-                    if (val.isString() != null) {
-                        String sugg = val.isString().stringValue();
-                        if (sugg.equals("collation")) {
-                            try {
-                                JSONArray collations = suggestions.get(i + 1).isArray();
-                                String collq = collations.get(1).isString().toString().replaceAll("\\\\\"", "").replaceAll(
-                                    "\"",
-                                    "");
-                                Integer count = new Integer(collations.get(3).isNumber().toString());
-                                map.put(collq, count);
-                            } catch (Throwable t) {
-                                // noop
+                    for (int i = 0; i < suggestions.size(); i++) {
+                        try {
+                            JSONValue val = suggestions.get(i);
+                            if (val.isString() != null) {
+                                String sugg = val.isString().stringValue();
+                                if (sugg.equals("collation")) {
+                                    JSONArray collations = suggestions.get(i + 1).isArray();
+                                    String collq = collations.get(1).isString().toString().replaceAll("\\\\\"", "").replaceAll(
+                                        "\"",
+                                        "");
+                                    Integer count = new Integer(collations.get(3).isNumber().toString());
+                                    map.put(collq, count);
+                                }
                             }
+                        } catch (Throwable t) {
+                            // noop
                         }
                     }
+                    // sort the result by hits
+                    collationMap.putAll(map);
+
+                } catch (Throwable t) {
+                    // noop
                 }
-                // sort the result by hits
-                collationMap.putAll(map);
-                m_suggestions = collationMap;
             }
 
             List<Suggestion> res = new LinkedList<Suggestion>();
@@ -788,12 +805,13 @@ public class CmsSearchController {
                     }
                 });
 
-                if (callback != null) {
-                    SuggestOracle.Response response = new SuggestOracle.Response();
-                    response.setSuggestions(res);
-                    callback.onSuggestionsReady(request, response);
-                }
             }
+            if (callback != null) {
+                SuggestOracle.Response response = new SuggestOracle.Response();
+                response.setSuggestions(res);
+                callback.onSuggestionsReady(request, response);
+            }
+            m_suggestions = collationMap;
 
         } catch (Throwable t) {
             LOG.log(Level.WARNING, "Suggestion is not a String", t);

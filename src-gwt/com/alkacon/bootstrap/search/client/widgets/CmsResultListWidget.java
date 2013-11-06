@@ -31,12 +31,12 @@
 
 package com.alkacon.bootstrap.search.client.widgets;
 
+import com.alkacon.bootstrap.search.client.CmsSearchConfig.CmsWidgetConfig;
 import com.alkacon.bootstrap.search.client.CmsSearchController;
 import com.alkacon.bootstrap.search.client.CmsSearchDocument;
 import com.alkacon.bootstrap.search.client.CmsSearchDocumentList;
 import com.alkacon.bootstrap.search.client.I_CmsSearchLayoutBundle;
 import com.alkacon.bootstrap.search.client.UserMessages;
-import com.alkacon.bootstrap.search.client.CmsSearchConfig.CmsWidgetConfig;
 
 import java.util.Map;
 
@@ -124,7 +124,7 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
             HTMLPanel entry = new HTMLPanel("dl", dl);
             entry.addStyleName("entry dl-horizontal");
             this.add(entry);
-            this.getElement().setAttribute("style", "cursor:pointer");
+            getElement().setAttribute("style", "cursor:pointer");
             addClickHandler(this);
         }
 
@@ -148,6 +148,46 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
     }
 
     /**
+     * A page entry.<p>
+     */
+    private class CmsSuggestEntry extends HTMLPanel implements ClickHandler, HasClickHandlers {
+
+        /** The text. */
+        protected String m_text;
+
+        /**
+         * Constructor, creates a new CmsSearchUiPaginationValue.<p>
+         * 
+         * @param text the text value
+         * @param count the count
+         */
+        public CmsSuggestEntry(String text, Integer count) {
+
+            super("li", "<a href=\"javascript:void()\" >" + text + " (" + count + ")" + " </a>");
+            m_text = text;
+            addClickHandler(this);
+        }
+
+        /**
+         * @see com.google.gwt.event.dom.client.HasClickHandlers#addClickHandler(com.google.gwt.event.dom.client.ClickHandler)
+         */
+
+        public HandlerRegistration addClickHandler(ClickHandler handler) {
+
+            return addDomHandler(handler, ClickEvent.getType());
+        }
+
+        /**
+         * @see com.google.gwt.event.dom.client.ClickHandler#onClick(com.google.gwt.event.dom.client.ClickEvent)
+         */
+
+        public void onClick(ClickEvent event) {
+
+            getController().doSearch(m_text, 0);
+        }
+    }
+
+    /**
      * Public constructor with parameters.<p>
      * 
      * @param panel the panel for this widget
@@ -157,6 +197,43 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
     public CmsResultListWidget(RootPanel panel, CmsSearchController controller, CmsWidgetConfig config) {
 
         super(panel, controller, config);
+    }
+
+    /**
+     * Adds the suggestions to the result list if nothing has been found.<p>
+     * 
+     * @param result the search result
+     */
+    public void addSuggs(CmsSearchDocumentList result) {
+
+        getPanel().clear();
+        String q = getController().getSearchData().getSearchQuery();
+        if ((q != null) && !q.trim().isEmpty()) {
+            getPanel().add(
+                new HTMLPanel("h3", "<div class=\"headline headline-md\"><h4>"
+                    + UserMessages.getMessage("label.searchedFor")
+                    + " \""
+                    + q
+                    + "\"</h4></div>"));
+        }
+
+        HTMLPanel noHit = new HTMLPanel("p", UserMessages.getMessage("label.nothingFoundForQuery")
+            + ": '"
+            + getController().getSearchData().getSearchQuery()
+            + "'");
+
+        if ((getController().getSuggestions() != null) && !getController().getSuggestions().isEmpty()) {
+
+            noHit.add(new HTMLPanel("h4", UserMessages.getMessage("label.didYouMean")));
+            HTMLPanel suggs = new HTMLPanel("ul", "");
+            noHit.add(suggs);
+            for (Map.Entry<String, Integer> sugg : getController().getSuggestions().entrySet()) {
+                CmsSuggestEntry ent = new CmsSuggestEntry(sugg.getKey(), sugg.getValue());
+                suggs.add(ent);
+            }
+
+        }
+        getPanel().add(noHit);
     }
 
     /**
@@ -190,68 +267,9 @@ public class CmsResultListWidget extends A_CmsSearchWidget {
                 resultList.add(new CmsEntry(title, link, date, suffix, excerpt));
             }
             getPanel().add(resultList);
-        } else {
+        } else if ((q != null) && !q.trim().isEmpty()) {
             // only add the not found info, if there is a search query
-            if (!getController().getSearchData().getSearchQuery().equals("")) {
-
-                HTMLPanel noHit = new HTMLPanel("p", UserMessages.getMessage("label.nothingFoundForQuery")
-                    + ": '"
-                    + getController().getSearchData().getSearchQuery()
-                    + "'");
-
-                if ((getController().getSuggestions() == null) || getController().getSuggestions().isEmpty()) {
-                    getController().doSuggesting(null, null);
-                }
-
-                if ((getController().getSuggestions() != null) && !getController().getSuggestions().isEmpty()) {
-                    noHit.add(new HTMLPanel("h4", UserMessages.getMessage("label.didYouMean")));
-                    HTMLPanel suggs = new HTMLPanel("ul", "");
-                    noHit.add(suggs);
-                    for (Map.Entry<String, Integer> sugg : getController().getSuggestions().entrySet()) {
-                        CmsSuggestEntry ent = new CmsSuggestEntry(sugg.getKey(), sugg.getValue());
-                        suggs.add(ent);
-                    }
-                }
-                getPanel().add(noHit);
-            }
-        }
-    }
-
-    /**
-     * A page entry.<p>
-     */
-    private class CmsSuggestEntry extends HTMLPanel implements ClickHandler, HasClickHandlers {
-
-        /** The text. */
-        protected String m_text;
-
-        /**
-         * Constructor, creates a new CmsSearchUiPaginationValue.<p>
-         * 
-         * @param text the text value
-         * @param count the count
-         */
-        public CmsSuggestEntry(String text, Integer count) {
-
-            super("li", "<a href=\"javascript:void()\" >" + text + " (" + count + ")" + " </a>");
-            m_text = text;
-            addClickHandler(this);
-        }
-
-        /**
-         * @see com.google.gwt.event.dom.client.ClickHandler#onClick(com.google.gwt.event.dom.client.ClickEvent)
-         */
-        public void onClick(ClickEvent event) {
-
-            getController().doSearch(m_text, 0);
-        }
-
-        /**
-         * @see com.google.gwt.event.dom.client.HasClickHandlers#addClickHandler(com.google.gwt.event.dom.client.ClickHandler)
-         */
-        public HandlerRegistration addClickHandler(ClickHandler handler) {
-
-            return addDomHandler(handler, ClickEvent.getType());
+            getController().doSuggesting(null, null, this);
         }
     }
 }

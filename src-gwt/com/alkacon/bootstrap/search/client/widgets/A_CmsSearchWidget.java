@@ -27,8 +27,8 @@
 
 package com.alkacon.bootstrap.search.client.widgets;
 
-import com.alkacon.bootstrap.search.client.CmsSearchController;
 import com.alkacon.bootstrap.search.client.CmsSearchConfig.CmsWidgetConfig;
+import com.alkacon.bootstrap.search.client.CmsSearchController;
 
 import com.google.gwt.user.client.ui.RootPanel;
 

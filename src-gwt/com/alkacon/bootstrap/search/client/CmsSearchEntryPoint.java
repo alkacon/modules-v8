@@ -47,6 +47,7 @@ public class CmsSearchEntryPoint implements EntryPoint {
     /**
      * @see org.opencms.gwt.client.A_CmsEntryPoint#onModuleLoad()
      */
+    
     public void onModuleLoad() {
 
         createSearchConfig();

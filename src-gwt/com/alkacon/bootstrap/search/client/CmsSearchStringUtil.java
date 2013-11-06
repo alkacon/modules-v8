@@ -60,7 +60,6 @@ public final class CmsSearchStringUtil {
         // empty
     }
 
-
     /**
      * Parses the parameters of the given request query part and creates a parameter map out of them.<p>
      * 

@@ -78,7 +78,7 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
                 String query = m_suggestBox.getValue();
                 if (query.length() > 3) {
                     getController().getSearchData().setSearchQuery(query);
-                    getController().doSuggesting(request, callback);
+                    getController().doSuggesting(request, callback, null);
                 }
             }
         }
@@ -159,7 +159,6 @@ public class CmsAutoCompleteWidget extends A_CmsSearchWidget {
                 /**
                  * @see com.google.gwt.user.client.EventListener#onBrowserEvent(com.google.gwt.user.client.Event)
                  */
-                @Override
                 public void onBrowserEvent(Event event) {
 
                     if (Event.ONCLICK == event.getTypeInt()) {

@@ -83,6 +83,7 @@ public class CmsSearchFacet implements Comparable<Object> {
         /**
          * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
          */
+        
         public int compare(CmsSearchFacet o1, CmsSearchFacet o2) {
 
             if (m_asc) {
@@ -157,6 +158,7 @@ public class CmsSearchFacet implements Comparable<Object> {
     /**
      * @see java.lang.Comparable#compareTo(java.lang.Object)
      */
+    
     public int compareTo(Object o) {
 
         if (o instanceof CmsSearchFacet) {

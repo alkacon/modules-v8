@@ -118,7 +118,7 @@ public abstract class A_CmsDialog extends CmsPopup {
     /**
      * @see org.opencms.gwt.client.ui.CmsPopup#addCloseHandler(com.google.gwt.event.logical.shared.CloseHandler)
      */
-    @Override
+    
     public HandlerRegistration addCloseHandler(CloseHandler<PopupPanel> handler) {
 
         m_closeHandler = handler;
