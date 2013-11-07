@@ -4,7 +4,7 @@
 
 	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd" />
 	<xsd:include
-		schemaLocation="opencms://system/modules/org.opencms.dev.demo/schemas/nested/script.xsd" />
+		schemaLocation="opencms://system/modules/com.alkacon.bootstrap.dev.demo/schemas/nested/script.xsd" />
 
 	<xsd:element name="DevDemoArticles" type="OpenCmsDevDemoArticles" />
 
@@ -29,7 +29,7 @@
 	<xsd:annotation>
 		<xsd:appinfo>
 			<resourcebundles>
-				<xmlbundle name="org.opencms.dev.demo.workplace.ddarticle">
+				<xmlbundle name="com.alkacon.bootstrap.dev.demo.workplace.ddarticle">
 					<bundle locale="en">
 						<resource key="label.DevDemoArticle.Title">Title</resource>
 						<resource key="label.DevDemoArticle.Title.help">The title of the Dev Demo Article.</resource>
@@ -68,9 +68,9 @@
 			<relations />
 			<formatters>
 				<formatter minwidth="1" maxwidth="250"
-					uri="/system/modules/org.opencms.dev.demo/formatters/article/side.jsp" />
+					uri="/system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/side.jsp" />
 				<formatter minwidth="250"
-					uri="/system/modules/org.opencms.dev.demo/formatters/article/center.jsp" />
+					uri="/system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/center.jsp" />
 			</formatters>
 		</xsd:appinfo>
 	</xsd:annotation>

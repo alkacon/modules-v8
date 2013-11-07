@@ -25,7 +25,7 @@
 	<xsd:annotation>
 		<xsd:appinfo>
 			<resourcebundles>
-				<xmlbundle name="org.opencms.dev.demo.workplace.ddheadincludearticle">
+				<xmlbundle name="com.alkacon.bootstrap.dev.demo.workplace.ddheadincludearticle">
 					<bundle locale="en">
 						<resource key="label.DevDemoHeadincludeArticle.Title">Title</resource>
 						<resource key="label.DevDemoHeadincludeArticle.Title.help">The title of the Dev Demo Article.</resource>
@@ -59,16 +59,16 @@
 			<relations />
 			<formatters>
 				<formatter minwidth="1" maxwidth="250"
-					uri="/system/modules/org.opencms.dev.demo/formatters/article_with_headincludes/side.jsp"
+					uri="/system/modules/com.alkacon.bootstrap.dev.demo/formatters/article_with_headincludes/side.jsp"
 					searchcontent="false" />
 				<formatter minwidth="250"
-					uri="/system/modules/org.opencms.dev.demo/formatters/article_with_headincludes/center.jsp" />
+					uri="/system/modules/com.alkacon.bootstrap.dev.demo/formatters/article_with_headincludes/center.jsp" />
 			</formatters>
 			<headincludes>
 				<headinclude type="javascript"
-					uri="/system/modules/org.opencms.dev.demo/resources/js/headinclude_script.js" />
+					uri="/system/modules/com.alkacon.bootstrap.dev.demo/resources/js/headinclude_script.js" />
 				<headinclude type="css"
-					uri="/system/modules/org.opencms.dev.demo/resources/css/headinclude_css.css" />
+					uri="/system/modules/com.alkacon.bootstrap.dev.demo/resources/css/headinclude_css.css" />
 			</headincludes>
 		</xsd:appinfo>
 	</xsd:annotation>

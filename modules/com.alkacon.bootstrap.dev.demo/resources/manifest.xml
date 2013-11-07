@@ -5604,8 +5604,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/i18n/org.opencms.dev.demo.workplace</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/i18n/org.opencms.dev.demo.workplace</destination>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/i18n/com.alkacon.bootstrap.dev.demo.workplace</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/i18n/com.alkacon.bootstrap.dev.demo.workplace</destination>
 			<type>xmlvfsbundle</type>
 			<uuidstructure>bfce1c72-47b7-11e3-831e-000c29d28104</uuidstructure>
 			<uuidresource>bfce1c73-47b7-11e3-831e-000c29d28104</uuidresource>

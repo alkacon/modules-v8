@@ -12,7 +12,7 @@
 	In this demo different variables, which are available inside of the current element, are displayed.
 	These variables describe the current state of the container page and of the current container.<br>
 	Please check the following jsp to learn more about the source code:<br/>
-	<strong>/system/modules/org.opencms.dev.demo/pages/containervars.jsp</strong>
+	<strong>/system/modules/com.alkacon.bootstrap.dev.demo/pages/containervars.jsp</strong>
 	</p>
 	</c:if>
 	<span>&nbsp;</span>			

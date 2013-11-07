@@ -37,7 +37,7 @@
 			<pre>
 &lt;collectors&gt;
 	...
-	&lt;collector class="org.opencms.dev.demo.CmsSimpleResourceCollector" order="180" /&gt;
+	&lt;collector class="com.alkacon.bootstrap.dev.demo.CmsSimpleResourceCollector" order="180" /&gt;
 &lt;/collectors&gt;
         	</pre>
 			<p>Restart the servlet container.</p>

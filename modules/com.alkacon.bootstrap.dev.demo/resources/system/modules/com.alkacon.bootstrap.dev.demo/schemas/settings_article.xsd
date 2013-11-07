@@ -4,7 +4,7 @@
 
 	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd" />
 	<xsd:include
-		schemaLocation="opencms://system/modules/org.opencms.dev.demo/schemas/nested/options.xsd" />
+		schemaLocation="opencms://system/modules/com.alkacon.bootstrap.dev.demo/schemas/nested/options.xsd" />
 
 	<xsd:element name="DevDemoSettingsArticles" type="OpenCmsDevDemoSettingsArticles" />
 
@@ -28,7 +28,7 @@
 	<xsd:annotation>
 		<xsd:appinfo>
 			<resourcebundles>
-				<xmlbundle name="org.opencms.dev.demo.workplace.ddsettingsarticle">
+				<xmlbundle name="com.alkacon.bootstrap.dev.demo.workplace.ddsettingsarticle">
 					<bundle locale="en">
 						<resource key="label.DevDemoSettingsArticle.Title">Title</resource>
 						<resource key="label.DevDemoSettingsArticle.Title.help">The title of the Dev Demo Settings Article.</resource>
@@ -64,7 +64,7 @@
 			<relations />
 			<formatters>
 				<formatter minwidth="150"
-					uri="/system/modules/org.opencms.dev.demo/formatters/settings_article/settings.jsp" />
+					uri="/system/modules/com.alkacon.bootstrap.dev.demo/formatters/settings_article/settings.jsp" />
 			</formatters>
 			<settings>
 				<setting name="boxschema" nice-name="Box Color" type="string"

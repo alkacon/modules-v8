@@ -21,7 +21,7 @@
 
 	<xsd:annotation>
 		<xsd:appinfo>
-			<resourcebundle name="org.opencms.dev.demo.workplace" />
+			<resourcebundle name="com.alkacon.bootstrap.dev.demo.workplace" />
 			<mappings/>
 			<layouts>
 				<layout element="Html" widget="HtmlWidget" configuration="height:200px,link,source" />
