@@ -1102,8 +1102,6 @@ public class CmsSearchController {
 
         for (Map.Entry<String, CmsWidgetConfig> widgetConfig : m_config.getWidgets().entrySet()) {
             String id = widgetConfig.getValue().getId();
-            // do not override template or other style classes
-            RootPanel.get().addStyleName("bodyScroll");
             RootPanel panel = RootPanel.get(id);
             if (panel != null) {
                 switch (widgetConfig.getValue().getType()) {
