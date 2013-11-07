@@ -58,18 +58,6 @@
       <Key><![CDATA[bootstrap.navigation.navstartlevel.3]]></Key>
       <Value><![CDATA[3 - Dritte Ebene]]></Value>
     </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.navigation.showbreadcrumb]]></Key>
-      <Value><![CDATA[Zeige Brotkrumennavigation]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.navigation.showbreadcrumb.true]]></Key>
-      <Value><![CDATA[Ja]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.navigation.showbreadcrumb.false]]></Key>
-      <Value><![CDATA[Nein]]></Value>
-    </Message>
   </Bundle>
   <Bundle language="en">
     <Message>
@@ -127,18 +115,6 @@
     <Message>
       <Key><![CDATA[bootstrap.navigation.navstartlevel.3]]></Key>
       <Value><![CDATA[3 - Third Level]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.navigation.showbreadcrumb]]></Key>
-      <Value><![CDATA[Show Breadcrumb Navigation]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.navigation.showbreadcrumb.true]]></Key>
-      <Value><![CDATA[Yes]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.navigation.showbreadcrumb.false]]></Key>
-      <Value><![CDATA[No]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

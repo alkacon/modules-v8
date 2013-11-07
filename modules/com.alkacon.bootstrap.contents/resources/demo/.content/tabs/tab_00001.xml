@@ -2,7 +2,7 @@
 
 <BootstrapTabs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd">
   <BootstrapTab language="en">
-    <Title><![CDATA[Tabs / Accordion Demo Element]]></Title>
+    <Title><![CDATA[Tabs Demo Element]]></Title>
     <Item>
       <Label><![CDATA[Robust]]></Label>
       <Text name="Text0">
@@ -12,9 +12,8 @@
       </Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/crown_imperial.jpg]]></target>
-          <uuid>7725c72a-717d-11e0-87bc-000c2972a6a4</uuid>
-          <query><![CDATA[__scale=h:500,w:500,cx:234,cy:63,ch:280,cw:280]]></query>
+          <target><![CDATA[/sites/default/.galleries/samples/08.jpg]]></target>
+          <uuid>c4a06009-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
     </Item>
@@ -27,9 +26,8 @@
       </Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/news/blumenstrauss.jpg]]></target>
-          <uuid>6508c7e3-772e-11e0-b9f6-000c2972a6a4</uuid>
-          <query><![CDATA[__scale=h:500,w:500,cx:18,cy:98,ch:428,cw:428]]></query>
+          <target><![CDATA[/sites/default/.galleries/samples/06.jpg]]></target>
+          <uuid>c33e8613-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
     </Item>
@@ -42,9 +40,8 @@
       </Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/rose.jpg]]></target>
-          <uuid>c7c86469-71ab-11e0-9371-000c2972a6a4</uuid>
-          <query><![CDATA[__scale=h:500,w:500,cx:41,cy:18,ch:568,cw:569]]></query>
+          <target><![CDATA[/sites/default/.galleries/samples/15.jpg]]></target>
+          <uuid>c8d186ae-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
     </Item>

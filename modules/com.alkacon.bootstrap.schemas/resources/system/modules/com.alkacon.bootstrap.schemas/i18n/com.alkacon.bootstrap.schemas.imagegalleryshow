@@ -31,10 +31,6 @@
       <Value><![CDATA[New Image Gallery Show]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[bootstrap.imagegalleryshow.setting.hidetitle]]></Key>
-      <Value><![CDATA[Hide Title]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[bootstrap.imagegalleryshow.message.edit]]></Key>
       <Value><![CDATA[<strong>The image gallery show has been changed</strong>, please reload the page to display the images.]]></Value>
     </Message>
@@ -71,10 +67,6 @@
     <Message>
       <Key><![CDATA[bootstrap.imagegalleryshow.default.Title]]></Key>
       <Value><![CDATA[Neue Bilderschau]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.imagegalleryshow.setting.hidetitle]]></Key>
-      <Value><![CDATA[Verstecke Titel]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.imagegalleryshow.message.edit]]></Key>

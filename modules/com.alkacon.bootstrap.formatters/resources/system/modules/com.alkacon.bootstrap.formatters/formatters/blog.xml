@@ -2,7 +2,7 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
-    <NiceName><![CDATA[Blog page default formatter]]></NiceName>
+    <NiceName><![CDATA[Blog entry default formatter]]></NiceName>
     <Type><![CDATA[bs-blog]]></Type>
     <Jsp>
       <link type="WEAK">
@@ -20,7 +20,7 @@
     <Preview>false</Preview>
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
-    <Detail>true</Detail>
+    <Detail>false</Detail>
     <HeadIncludeCss>
       <CssLink>
         <link type="WEAK">
@@ -31,40 +31,40 @@
     </HeadIncludeCss>
     <Setting>
       <PropertyName><![CDATA[imgalign]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.blog.setting.imgalign)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.imgalign)]]></DisplayName>
       <Widget><![CDATA[select]]></Widget>
-      <WidgetConfig><![CDATA[left:%(key.bootstrap.blog.image.left)|right:%(key.bootstrap.blog.image.right)|top:%(key.bootstrap.blog.image.top)]]></WidgetConfig>
+      <WidgetConfig><![CDATA[left:%(key.bootstrap.setting.image.left)|right:%(key.bootstrap.setting.image.right)]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[showdate]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.blog.setting.showdate)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.showdate)]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[true]]></Default>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[color]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.blog.setting.color)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.color)]]></DisplayName>
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[sea]]></Default>
-      <WidgetConfig><![CDATA[red:%(key.bootstrap.blog.color.red)|sea:%(key.bootstrap.blog.color.sea)|grey:%(key.bootstrap.blog.color.grey)|green:%(key.bootstrap.blog.color.green)|blue:%(key.bootstrap.blog.color.blue)|orange:%(key.bootstrap.blog.color.orange)|yellow:%(key.bootstrap.blog.color.yellow)]]></WidgetConfig>
+      <WidgetConfig><![CDATA[red:%(key.bootstrap.setting.color.red)|sea:%(key.bootstrap.setting.color.sea)|grey:%(key.bootstrap.setting.color.grey)|green:%(key.bootstrap.setting.color.green)|blue:%(key.bootstrap.setting.color.blue)|orange:%(key.bootstrap.setting.color.orange)|yellow:%(key.bootstrap.setting.color.yellow)]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[layoutvariant]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.blog.setting.layoutvariant)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.layoutvariant)]]></DisplayName>
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[top]]></Default>
-      <WidgetConfig><![CDATA[top:%(key.bootstrap.blog.layout.top)|left:%(key.bootstrap.blog.layout.left)|box:%(key.bootstrap.blog.layout.box)]]></WidgetConfig>
+      <WidgetConfig><![CDATA[top:%(key.bootstrap.setting.layout.top)|left:%(key.bootstrap.setting.layout.left)|box:%(key.bootstrap.setting.layout.box)]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[buttoncolor]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.blog.setting.buttoncolor)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.buttoncolor)]]></DisplayName>
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[red]]></Default>
-      <WidgetConfig><![CDATA[red:%(key.bootstrap.blog.color.red)|sea:%(key.bootstrap.blog.color.sea)|green:%(key.bootstrap.blog.color.green)|blue:%(key.bootstrap.blog.color.blue)|orange:%(key.bootstrap.blog.color.orange)|yellow:%(key.bootstrap.blog.color.yellow)]]></WidgetConfig>
+      <WidgetConfig><![CDATA[red:%(key.bootstrap.setting.color.red)|sea:%(key.bootstrap.setting.color.sea)|green:%(key.bootstrap.setting.color.green)|blue:%(key.bootstrap.setting.color.blue)|orange:%(key.bootstrap.setting.color.orange)|yellow:%(key.bootstrap.setting.color.yellow)]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[teaserlength]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.blog.setting.teaserlength)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.teaserlength)]]></DisplayName>
       <Widget><![CDATA[string]]></Widget>
       <Default><![CDATA[200]]></Default>
     </Setting>

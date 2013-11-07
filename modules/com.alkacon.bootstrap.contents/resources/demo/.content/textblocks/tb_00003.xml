@@ -7,18 +7,18 @@
       <Headline><![CDATA[More features than ever]]></Headline>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-<p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>]]></content>
+        <content><![CDATA[<p>With more features then ever, this latest OpenCms version is powerful, yet easy to use.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
       </Text>
       <Image>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/flowers/chaenomeles.jpg]]></target>
-            <uuid>7a0e4176-717d-11e0-87bc-000c2972a6a4</uuid>
-            <query><![CDATA[__scale=h:500,w:500,cx:14,cy:35,ch:459,cw:460]]></query>
+            <target><![CDATA[/sites/default/.galleries/samples/10.jpg]]></target>
+            <uuid>c64906ff-4705-11e3-8417-000c29d28104</uuid>
           </link>
         </Image>
-        <Title><![CDATA[Chaenomeles]]></Title>
+        <Title><![CDATA[More features than ever]]></Title>
       </Image>
     </Paragraph>
   </BootstrapTextblock>

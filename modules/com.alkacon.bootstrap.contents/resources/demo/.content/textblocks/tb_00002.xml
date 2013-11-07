@@ -2,24 +2,33 @@
 
 <BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
   <BootstrapTextblock language="en">
-    <Title><![CDATA[Side Flowers]]></Title>
+    <Title><![CDATA[Side element]]></Title>
     <Paragraph>
-      <Headline><![CDATA[Side Flowers]]></Headline>
+      <Headline><![CDATA[Side element]]></Headline>
       <Text name="Text0">
         <links/>
         <content><![CDATA[<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>]]></content>
+<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>]]></content>
       </Text>
       <Image>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/flowers/tulips.jpg]]></target>
-            <uuid>b9a19c59-8b9c-11e0-9f3a-7b2444d59c19</uuid>
-            <query><![CDATA[__scale=h:474,w:280,cx:32,cy:14,ch:474,cw:280]]></query>
+            <target><![CDATA[/sites/default/.galleries/samples/25.jpg]]></target>
+            <uuid>cacfc097-4708-11e3-8417-000c29d28104</uuid>
+            <query><![CDATA[__scale=h:1008,w:465,cx:146,cy:9,ch:1008,cw:465]]></query>
           </link>
         </Image>
-        <Title><![CDATA[Tulips]]></Title>
+        <Title><![CDATA[Boat]]></Title>
       </Image>
+      <Link>
+        <Text><![CDATA[Read more]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/demo/]]></target>
+            <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
     </Paragraph>
   </BootstrapTextblock>
 </BootstrapTextblocks>

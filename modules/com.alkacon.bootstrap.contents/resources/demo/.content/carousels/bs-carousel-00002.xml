@@ -6,38 +6,38 @@
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/starflower.jpg]]></target>
-          <uuid>29efb216-8b94-11e0-9f3a-7b2444d59c19</uuid>
+          <target><![CDATA[/sites/default/.galleries/samples/09.jpg]]></target>
+          <uuid>c56a66cc-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
-      <Text><![CDATA[The Star Flower]]></Text>
+      <Text><![CDATA[Airplanes]]></Text>
     </Item>
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/maiden_pink.jpg]]></target>
-          <uuid>542a1360-fd9a-11e1-9ea8-000c2972a6a4</uuid>
+          <target><![CDATA[/sites/default/.galleries/samples/20.jpg]]></target>
+          <uuid>cb7ecc6d-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
-      <Text><![CDATA[Maiden Pink]]></Text>
+      <Text><![CDATA[Airports]]></Text>
     </Item>
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/crocus.jpg]]></target>
-          <uuid>77ebaf52-717d-11e0-87bc-000c2972a6a4</uuid>
+          <target><![CDATA[/sites/default/.galleries/samples/14.jpg]]></target>
+          <uuid>c851cf5b-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
-      <Text><![CDATA[Crocusses with different colors]]></Text>
+      <Text><![CDATA[Parachutes]]></Text>
     </Item>
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/tulips.jpg]]></target>
-          <uuid>b9a19c59-8b9c-11e0-9f3a-7b2444d59c19</uuid>
+          <target><![CDATA[/sites/default/.galleries/samples/01.jpg]]></target>
+          <uuid>c05c4da4-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
-      <Text><![CDATA[Various tulips]]></Text>
+      <Text><![CDATA[Turbines]]></Text>
     </Item>
   </BootstrapCarousel>
 </BootstrapCarousels>

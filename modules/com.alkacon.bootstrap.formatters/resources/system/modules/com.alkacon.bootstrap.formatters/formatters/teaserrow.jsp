@@ -19,11 +19,10 @@
 			<c:if test="${not cms.element.settings.hidetitle}">
 				<div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div>
 			</c:if>
-
-			<c:forEach var="item" items="${content.valueList.Item}" varStatus="status"><c:if test="${status.last}"><c:set var="itemCount" value="${status.count}" /></c:if></c:forEach>
+			
 			<div class="row servive-block margin-bottom-10">
 				<c:forEach var="item" items="${content.valueList.Item}" varStatus="status">
-					<div ${item.rdfa.Link} class="col-md-<fmt:formatNumber type="number" value="${12 / itemCount}" maxFractionDigits="0" /> col-sm-6">				
+					<div ${item.rdfa.Link} class="${cms:lookup(cms:getListSize(content.valueList.Item), '1:col-xs-12|2:col-sm-6|3:col-sm-4|4:col-md-3 col-sm-6|5:col-md-2 col-sm-6|6:col-md-2 col-sm-4')}">				
 						<div class="servive-block-in<c:if test="${item.value.Color != 'default'}"> servive-block-colored servive-block-${item.value.Color}</c:if>">
 							<c:if test="${item.value.Link.isSet}"><a href="<cms:link>${item.value.Link}</cms:link>"></c:if>
 							<h4 ${item.rdfa.Headline}>${item.value.Headline}</h4>

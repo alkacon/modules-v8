@@ -2,6 +2,7 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
+    <NiceName><![CDATA[Image row default formatter]]></NiceName>
     <Type><![CDATA[bs-imagerow]]></Type>
     <Jsp>
       <link type="WEAK">
@@ -9,7 +10,6 @@
         <uuid>07a86e28-1ed6-11e3-89be-000c29f9a2ec</uuid>
       </link>
     </Jsp>
-    <NiceName><![CDATA[Image row default formatter]]></NiceName>
     <Rank><![CDATA[1000]]></Rank>
     <Match>
       <Types>
@@ -23,7 +23,7 @@
     <Detail>true</Detail>
     <Setting>
       <PropertyName><![CDATA[hidetitle]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.imagerow.setting.hidetitle)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.hidetitle)]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[false]]></Default>
     </Setting>

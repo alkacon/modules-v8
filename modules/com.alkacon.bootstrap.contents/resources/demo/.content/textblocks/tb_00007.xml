@@ -2,7 +2,7 @@
 
 <BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
   <BootstrapTextblock language="en">
-    <Title><![CDATA[Our exiting products]]></Title>
+    <Title><![CDATA[Our exciting products]]></Title>
     <Paragraph>
       <Headline><![CDATA[Our exciting products]]></Headline>
       <Text name="Text0">
@@ -13,8 +13,8 @@
       <Image>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/flowers/chrysanthemum.jpg]]></target>
-            <uuid>75e6421e-717d-11e0-87bc-000c2972a6a4</uuid>
+            <target><![CDATA[/sites/default/.galleries/samples/31.jpg]]></target>
+            <uuid>b571e789-4785-11e3-ba23-000c29d28104</uuid>
           </link>
         </Image>
         <Title/>

@@ -1,5 +1,11 @@
 /* CSS for OpenCms special items */
 
+/* Borders have to be squared for all theme components */
+
+.list-group-item:first-child, .list-group-item:last-child, .jumbotron, .container .jumbotron, .nav-tabs > li > a, .panel-group .panel {
+	border-radius:0;
+}
+
 /* Red boxes, buttons should always use "OpenCms red */
 .btn-u-red {
    background: #b31b34 !important;

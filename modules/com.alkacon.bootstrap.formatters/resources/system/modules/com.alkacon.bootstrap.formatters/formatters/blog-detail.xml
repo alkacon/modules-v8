@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Blog entry detail formatter]]></NiceName>
+    <Type><![CDATA[bs-blog]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/blog-detail.jsp]]></target>
+        <uuid>1c792fa5-4795-11e3-852c-000c29d28104</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[900]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[content]]></ContainerType>
+        <ContainerType><![CDATA[content-full]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>true</Detail>
+    <HeadIncludeCss>
+      <CssLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/css/pages/page_search.css]]></target>
+          <uuid>0f8061a6-3a3b-11e3-a584-000c2943a707</uuid>
+        </link>
+      </CssLink>
+    </HeadIncludeCss>
+    <Setting>
+      <PropertyName><![CDATA[imgalign]]></PropertyName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.imgalign)]]></DisplayName>
+      <Widget><![CDATA[select]]></Widget>
+      <WidgetConfig><![CDATA[left:%(key.bootstrap.setting.image.left)|right:%(key.bootstrap.setting.image.right)]]></WidgetConfig>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

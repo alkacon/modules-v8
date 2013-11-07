@@ -43,14 +43,6 @@
       <Value><![CDATA[Use this to include HTML-Code or JavaScript. ]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[bootstrap.flexible.setting.hidetitle]]></Key>
-      <Value><![CDATA[Hide Title]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.flexible.setting.cssclass]]></Key>
-      <Value><![CDATA[Wrapper CSS class(es)]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[bootstrap.flexible.message.changed]]></Key>
       <Value><![CDATA[The content has been edited, please reload the page! ]]></Value>
     </Message>
@@ -99,14 +91,6 @@
     <Message>
       <Key><![CDATA[label.BootstrapFlexibleElementChoice.Code.help]]></Key>
       <Value><![CDATA[Hiermit kann HTML-Code oder JavaScript eingebettet werden. ]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.flexible.setting.hidetitle]]></Key>
-      <Value><![CDATA[Titel verstecken]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.flexible.setting.cssclass]]></Key>
-      <Value><![CDATA[Wrapper CSS Klasse(n)]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.flexible.message.changed]]></Key>

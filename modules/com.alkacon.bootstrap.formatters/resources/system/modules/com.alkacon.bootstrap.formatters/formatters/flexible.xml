@@ -2,6 +2,7 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
+    <NiceName><![CDATA[Flexible content default formatter]]></NiceName>
     <Type><![CDATA[bs-flexible]]></Type>
     <Jsp>
       <link type="WEAK">
@@ -9,7 +10,6 @@
         <uuid>3496dbbd-210d-11e3-9f67-000c297c001d</uuid>
       </link>
     </Jsp>
-    <NiceName><![CDATA[Flexible default formatter]]></NiceName>
     <Rank><![CDATA[1000]]></Rank>
     <Match>
       <Width>
@@ -22,12 +22,12 @@
     <Detail>true</Detail>
     <Setting>
       <PropertyName><![CDATA[hideTitle]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.flexible.setting.hidetitle)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.hidetitle)]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[cssClass]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.flexible.setting.cssclass)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.cssclass)]]></DisplayName>
       <Widget><![CDATA[string]]></Widget>
     </Setting>
   </NewFormatter>

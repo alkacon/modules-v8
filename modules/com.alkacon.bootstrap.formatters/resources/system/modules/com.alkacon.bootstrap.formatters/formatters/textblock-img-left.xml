@@ -2,14 +2,14 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
+    <NiceName><![CDATA[Textblock formatter with image left]]></NiceName>
     <Type><![CDATA[bs-textblock]]></Type>
     <Jsp>
       <link type="WEAK">
-        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock.jsp]]></target>
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-left.jsp]]></target>
         <uuid>60739184-1c73-11e3-b68b-000c29f9a2ec</uuid>
       </link>
     </Jsp>
-    <NiceName><![CDATA[Textblock default formatter]]></NiceName>
     <Rank><![CDATA[1000]]></Rank>
     <Match>
       <Types>
@@ -20,12 +20,6 @@
     <Preview>false</Preview>
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
-    <Detail>true</Detail>
-    <Setting>
-      <PropertyName><![CDATA[imgalign]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.textblock.setting.imgalign)]]></DisplayName>
-      <Widget><![CDATA[select]]></Widget>
-      <WidgetConfig><![CDATA[left:%(key.bootstrap.textblock.image.left)|right:%(key.bootstrap.textblock.image.right)|top:%(key.bootstrap.textblock.image.top)]]></WidgetConfig>
-    </Setting>
+    <Detail>false</Detail>
   </NewFormatter>
 </NewFormatters>

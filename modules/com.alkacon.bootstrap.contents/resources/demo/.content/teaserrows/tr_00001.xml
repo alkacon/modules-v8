@@ -2,7 +2,7 @@
 
 <BootstrapTeaserrows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/teaserrow.xsd">
   <BootstrapTeaserrow language="en">
-    <Title><![CDATA[Teaser Row Block (3 boxes)]]></Title>
+    <Title><![CDATA[Teaser row with 3 boxes]]></Title>
     <Item>
       <Headline><![CDATA[Grey Box]]></Headline>
       <Icon><![CDATA[Lightbulb]]></Icon>
@@ -16,10 +16,10 @@
       <Color><![CDATA[grey]]></Color>
     </Item>
     <Item>
-      <Headline><![CDATA[Test Red Box]]></Headline>
+      <Headline><![CDATA[Fancy Yellow Box]]></Headline>
       <Icon><![CDATA[Bell]]></Icon>
       <Text><![CDATA[Donec id elit non mi porta gravida at eget metus id elit mi egetine. Fusce dapibus, tellus ac cursus comodo egetine metuss gorp.]]></Text>
-      <Color><![CDATA[red]]></Color>
+      <Color><![CDATA[yellow]]></Color>
     </Item>
     <Item>
       <Headline><![CDATA[A Sea Colored One]]></Headline>

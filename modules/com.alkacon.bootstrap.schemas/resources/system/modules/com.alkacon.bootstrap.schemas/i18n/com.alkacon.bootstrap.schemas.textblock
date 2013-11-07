@@ -75,22 +75,6 @@
       <Value><![CDATA[The image description is used as alternative text for the image.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[bootstrap.textblock.image.left]]></Key>
-      <Value><![CDATA[Left of text]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.textblock.image.right]]></Key>
-      <Value><![CDATA[Right of text]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.textblock.image.top]]></Key>
-      <Value><![CDATA[Top]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.textblock.setting.imgalign]]></Key>
-      <Value><![CDATA[Image alignment]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[bootstrap.textblock.default.Title]]></Key>
       <Value><![CDATA[New text block]]></Value>
     </Message>
@@ -171,22 +155,6 @@
     <Message>
       <Key><![CDATA[label.BootstrapImage.Description.help]]></Key>
       <Value><![CDATA[Die Bildbeschreibung wird als alternativer Text des Bildes verwendet.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.textblock.image.left]]></Key>
-      <Value><![CDATA[Links vom Text]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.textblock.image.right]]></Key>
-      <Value><![CDATA[Rechts vom Text]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.textblock.image.top]]></Key>
-      <Value><![CDATA[Oben]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.textblock.setting.imgalign]]></Key>
-      <Value><![CDATA[Bildausrichtung]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.textblock.default.Title]]></Key>

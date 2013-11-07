@@ -8,7 +8,7 @@
 <cms:bundle basename="com.alkacon.bootstrap.schemas.carousel">
 <cms:formatter var="content" val="value" rdfa="rdfa">
 
-<div<c:if test="${cms.container.type == 'content-full'}"> class="row"</c:if>>
+<div<c:if test="${cms.container.type != 'content'}"> class="row"</c:if>>
 
 	<c:choose>
 		<c:when test="${cms.element.inMemoryOnly}">

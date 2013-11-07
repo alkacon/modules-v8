@@ -4,7 +4,7 @@
   <AlkaconContainerPage language="en">
     <Containers>
       <Name><![CDATA[top-wide]]></Name>
-      <Type><![CDATA[content-full]]></Type>
+      <Type><![CDATA[content-wide]]></Type>
       <Elements>
         <Uri>
           <link type="STRONG">
@@ -42,7 +42,7 @@
         </Uri>
         <Formatter>
           <link type="STRONG">
-            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock.jsp]]></target>
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-left.jsp]]></target>
             <uuid>60739184-1c73-11e3-b68b-000c29f9a2ec</uuid>
           </link>
         </Formatter>
@@ -60,46 +60,32 @@
       <Elements>
         <Uri>
           <link type="STRONG">
-            <target><![CDATA[/sites/default/demo/.content/navigations/nv_00001.xml]]></target>
-            <uuid>7f084d61-46cc-11e3-9325-000c29d28104</uuid>
+            <target><![CDATA[/sites/default/demo/.content/textblocks/tb_00002.xml]]></target>
+            <uuid>e5fdd292-21de-11e3-b95f-000c29d28104</uuid>
           </link>
         </Uri>
         <Formatter>
           <link type="STRONG">
-            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/navigation-side.jsp]]></target>
-            <uuid>65d30bbe-46bd-11e3-8fa9-000c29d28104</uuid>
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-fancy.jsp]]></target>
+            <uuid>d7fcbebb-47a8-11e3-8ae6-000c29d28104</uuid>
           </link>
         </Formatter>
         <Properties>
-          <Name><![CDATA[formatterSettings#top-wide]]></Name>
+          <Name><![CDATA[layoutvariant]]></Name>
           <Value>
-            <String><![CDATA[d3ab4632-46bc-11e3-8fa9-000c29d28104]]></String>
+            <String><![CDATA[top]]></String>
           </Value>
         </Properties>
         <Properties>
-          <Name><![CDATA[formatterSettings#middle-right]]></Name>
+          <Name><![CDATA[showdate]]></Name>
           <Value>
-            <String><![CDATA[269a0c58-46bd-11e3-8fa9-000c29d28104]]></String>
+            <String><![CDATA[false]]></String>
           </Value>
         </Properties>
-      </Elements>
-      <Elements>
-        <Uri>
-          <link type="STRONG">
-            <target><![CDATA[/sites/default/demo/.content/tabs/tab_00001.xml]]></target>
-            <uuid>c8473bca-21dc-11e3-b95f-000c29d28104</uuid>
-          </link>
-        </Uri>
-        <Formatter>
-          <link type="STRONG">
-            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/tabs.jsp]]></target>
-            <uuid>fc5081f5-1f86-11e3-8a31-000c29f9a2ec</uuid>
-          </link>
-        </Formatter>
         <Properties>
-          <Name><![CDATA[accordion]]></Name>
+          <Name><![CDATA[color]]></Name>
           <Value>
-            <String><![CDATA[true]]></String>
+            <String><![CDATA[red]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -109,15 +95,77 @@
           </Value>
         </Properties>
         <Properties>
-          <Name><![CDATA[hidetitle]]></Name>
+          <Name><![CDATA[imgalign]]></Name>
           <Value>
-            <String><![CDATA[true]]></String>
+            <String><![CDATA[left]]></String>
           </Value>
         </Properties>
         <Properties>
           <Name><![CDATA[formatterSettings#middle-right]]></Name>
           <Value>
-            <String><![CDATA[e5ca9be9-420f-11e3-9920-000c29d28104]]></String>
+            <String><![CDATA[0a6bd11e-47a9-11e3-8ae6-000c29d28104]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[buttoncolor]]></Name>
+          <Value>
+            <String><![CDATA[red]]></String>
+          </Value>
+        </Properties>
+      </Elements>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/demo/.content/textblocks/tb_00010.xml]]></target>
+            <uuid>aa896d90-47b6-11e3-831e-000c29d28104</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-fancy.jsp]]></target>
+            <uuid>d7fcbebb-47a8-11e3-8ae6-000c29d28104</uuid>
+          </link>
+        </Formatter>
+        <Properties>
+          <Name><![CDATA[layoutvariant]]></Name>
+          <Value>
+            <String><![CDATA[left]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[showdate]]></Name>
+          <Value>
+            <String><![CDATA[false]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[color]]></Name>
+          <Value>
+            <String><![CDATA[red]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|mobile|tablet]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[imgalign]]></Name>
+          <Value>
+            <String><![CDATA[right]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[formatterSettings#middle-right]]></Name>
+          <Value>
+            <String><![CDATA[0a6bd11e-47a9-11e3-8ae6-000c29d28104]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[buttoncolor]]></Name>
+          <Value>
+            <String><![CDATA[red]]></String>
           </Value>
         </Properties>
       </Elements>
@@ -125,10 +173,30 @@
     <Containers>
       <Name><![CDATA[bottom]]></Name>
       <Type><![CDATA[content-full]]></Type>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/demo/.content/teaserrows/tr_00002.xml]]></target>
+            <uuid>fc41fa06-3c96-11e3-a99f-000c2943a707</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/teaserrow.jsp]]></target>
+            <uuid>0371f7a4-3c8e-11e3-a99f-000c2943a707</uuid>
+          </link>
+        </Formatter>
+        <Properties>
+          <Name><![CDATA[formatterSettings#bottom]]></Name>
+          <Value>
+            <String><![CDATA[27dcabef-4210-11e3-9920-000c29d28104]]></String>
+          </Value>
+        </Properties>
+      </Elements>
     </Containers>
     <Containers>
       <Name><![CDATA[foot]]></Name>
-      <Type><![CDATA[foot-full]]></Type>
+      <Type><![CDATA[content-wide]]></Type>
       <Elements>
         <Uri>
           <link type="STRONG">

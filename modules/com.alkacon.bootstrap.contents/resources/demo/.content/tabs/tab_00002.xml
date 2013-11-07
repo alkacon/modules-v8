@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTabs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd">
+  <BootstrapTab language="en">
+    <Title><![CDATA[Accordion Demo Element]]></Title>
+    <Item>
+      <Label><![CDATA[Bigger]]></Label>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>]]></content>
+      </Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/35.jpg]]></target>
+          <uuid>b6b933a4-4785-11e3-ba23-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Label><![CDATA[Better]]></Label>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+<p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>]]></content>
+      </Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/14.jpg]]></target>
+          <uuid>c851cf5b-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Label><![CDATA[Best]]></Label>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>]]></content>
+      </Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/09.jpg]]></target>
+          <uuid>c56a66cc-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+  </BootstrapTab>
+</BootstrapTabs>

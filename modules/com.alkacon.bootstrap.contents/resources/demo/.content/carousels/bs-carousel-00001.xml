@@ -6,32 +6,32 @@
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/events/Blumenshow.jpg]]></target>
-          <uuid>e325af7f-3953-11de-90e9-9f223d1d1dbb</uuid>
+          <target><![CDATA[/sites/default/.galleries/samples/12.jpg]]></target>
+          <uuid>c76d14a5-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
-      <Headline><![CDATA[Flower show]]></Headline>
-      <Text><![CDATA[A large event for flower enthusiasts.]]></Text>
+      <Headline><![CDATA[Telescope]]></Headline>
+      <Text><![CDATA[Find what you are looking for.]]></Text>
     </Item>
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/events/keukenhof.jpg]]></target>
-          <uuid>cf32810a-8b9b-11e0-9f3a-7b2444d59c19</uuid>
+          <target><![CDATA[/sites/default/.galleries/samples/11.jpg]]></target>
+          <uuid>c6d9d552-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
-      <Headline><![CDATA[Keukenhof]]></Headline>
-      <Text><![CDATA[The famous Keukenhof is in the Netherlands.]]></Text>
+      <Headline><![CDATA[Propeller]]></Headline>
+      <Text><![CDATA[It turns and turns.]]></Text>
     </Item>
     <Item>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/events/oldenburg_blumenschau.jpg]]></target>
-          <uuid>a714fb96-77de-11e0-be13-000c2972a6a4</uuid>
+          <target><![CDATA[/sites/default/.galleries/samples/03.jpg]]></target>
+          <uuid>c132d78a-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
-      <Headline><![CDATA[The Oldenburg flower show]]></Headline>
-      <Text><![CDATA[A lot of new species can be seen there.]]></Text>
+      <Headline><![CDATA[Steel worker]]></Headline>
+      <Text><![CDATA[Not everyone can work in IT.]]></Text>
     </Item>
   </BootstrapCarousel>
 </BootstrapCarousels>

@@ -59,11 +59,11 @@
 
 <!--=== Content Part ===-->
 
-<cms:container name="top-wide" type="content-full" width="1200" maxElements="15" />
+<cms:container name="top-wide" type="content-wide" width="1200" maxElements="5" />
 
 <div class="container">
 
-    <cms:container name="top" type="content-full" width="1200" maxElements="15" />
+    <cms:container name="top" type="content-full" width="1200" />
 
 	<c:if test="${pagelayout != 'full'}">
 		<c:choose>
@@ -76,22 +76,22 @@
 		</c:choose>
 		<div class="row">
 			<div class="col-md-${pagelayout}">
-				<cms:container name="middle-left" type="content" width="${(pagelayout * 100) - 30}" detailview="${leftDetail}"/>
+				<cms:container name="middle-left" type="content" width="${(pagelayout * 100)}" detailview="${leftDetail}"/>
 				<cms:container name="middle-left-detail" type="content" detailonly="true"/>				
 			</div>
 			<div class="col-md-${12 - pagelayout}">
 				<cms:container name="middle-right-detail" type="content" detailonly="true"/>				
-				<cms:container name="middle-right" type="content" width="${((12 - pagelayout) * 100) - 30}" detailview="${not leftDetail}"/>
+				<cms:container name="middle-right" type="content" width="${((12 - pagelayout) * 100)}" detailview="${not leftDetail}"/>
 			</div> 
 		</div><!--/row-->
-        <cms:container name="bottom" type="content-full" width="1200" maxElements="15" />
+        <cms:container name="bottom" type="content-full" width="1200" />
 	</c:if>
 
 </div><!--/container-->		
 <!--=== End Content Part ===-->
 
 <!--=== Foot ===-->
-<cms:container name="foot" type="foot-full" width="1200" maxElements="15" />
+<cms:container name="foot" type="content-wide" width="1200" maxElements="5" />
 <!--=== End Foot ===-->
 
 </div><!--/page-wrap-->

@@ -23,7 +23,7 @@
     <Detail>true</Detail>
     <Setting>
       <PropertyName><![CDATA[hidetitle]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.list.setting.hidetitle)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.hidetitle)]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[false]]></Default>
     </Setting>

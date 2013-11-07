@@ -190,10 +190,6 @@
       <Key><![CDATA[bootstrap.slider.message.edit]]></Key>
       <Value><![CDATA[<strong>The slider has been changed</strong>, please reload the page to display the slider.]]></Value>
     </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.slider.setting.hidetitle]]></Key>
-      <Value><![CDATA[Hide Title]]></Value>
-    </Message>
   </Bundle>
   <Bundle language="de">
     <Message>
@@ -383,10 +379,6 @@
     <Message>
       <Key><![CDATA[bootstrap.slider.message.edit]]></Key>
       <Value><![CDATA[<strong>Der Rotator wurde geändert</strong>,bitte laden Sie zum Anzeigen die Seite neu.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.slider.setting.hidetitle]]></Key>
-      <Value><![CDATA[Titel verstecken]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

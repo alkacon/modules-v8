@@ -2,15 +2,15 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
+    <NiceName><![CDATA[Tabs formatter as accordion]]></NiceName>
     <Type><![CDATA[bs-tabs]]></Type>
     <Jsp>
       <link type="WEAK">
-        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/tabs.jsp]]></target>
-        <uuid>fc5081f5-1f86-11e3-8a31-000c29f9a2ec</uuid>
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-accordion.jsp]]></target>
+        <uuid>faf4bfdc-47a0-11e3-8ae6-000c29d28104</uuid>
       </link>
     </Jsp>
-    <NiceName><![CDATA[Tabs default formatter]]></NiceName>
-    <Rank><![CDATA[1000]]></Rank>
+    <Rank><![CDATA[900]]></Rank>
     <Match>
       <Types>
         <ContainerType><![CDATA[content]]></ContainerType>
@@ -20,10 +20,10 @@
     <Preview>false</Preview>
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
-    <Detail>true</Detail>
+    <Detail>false</Detail>
     <Setting>
       <PropertyName><![CDATA[hidetitle]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.tabs.setting.hidetitle)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.hidetitle)]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[false]]></Default>
     </Setting>

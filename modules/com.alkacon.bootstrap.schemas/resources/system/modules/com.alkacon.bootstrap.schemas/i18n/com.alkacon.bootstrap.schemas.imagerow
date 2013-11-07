@@ -59,10 +59,6 @@
       <Value><![CDATA[Please edit the image row item text.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[bootstrap.imagerow.setting.hidetitle]]></Key>
-      <Value><![CDATA[Hide Title]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[bootstrap.imagerow.frontend.readmore]]></Key>
       <Value><![CDATA[read more +]]></Value>
     </Message>
@@ -123,10 +119,6 @@
     <Message>
       <Key><![CDATA[bootstrap.imagerow.default.Text]]></Key>
       <Value><![CDATA[Bitte bearbeiten Sie den Text des Reihenelements.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.imagerow.setting.hidetitle]]></Key>
-      <Value><![CDATA[Verstecke Titel]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.imagerow.frontend.readmore]]></Key>

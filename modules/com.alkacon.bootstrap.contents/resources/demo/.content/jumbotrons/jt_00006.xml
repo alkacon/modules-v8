@@ -3,6 +3,6 @@
 <BootstrapJumbotrons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/jumbotron.xsd">
   <BootstrapJumbotron language="en">
     <Title><![CDATA[Foot container]]></Title>
-    <Text><![CDATA[Always full page width.]]></Text>
+    <Text><![CDATA[Expands to the full browser width. Usually contains a sticky footer.]]></Text>
   </BootstrapJumbotron>
 </BootstrapJumbotrons>

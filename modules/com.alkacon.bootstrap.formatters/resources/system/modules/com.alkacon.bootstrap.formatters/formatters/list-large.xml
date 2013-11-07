@@ -31,40 +31,40 @@
     </HeadIncludeCss>
     <Setting>
       <PropertyName><![CDATA[hidetitle]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.list.setting.hidetitle)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.hidetitle)]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[false]]></Default>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[showdate]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.list.setting.showdate)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.showdate)]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[true]]></Default>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[color]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.list.setting.color)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.color)]]></DisplayName>
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[sea]]></Default>
-      <WidgetConfig><![CDATA[red:%(key.bootstrap.list.color.red)|sea:%(key.bootstrap.list.color.sea)|grey:%(key.bootstrap.list.color.grey)|green:%(key.bootstrap.list.color.green)|blue:%(key.bootstrap.list.color.blue)|orange:%(key.bootstrap.list.color.orange)|yellow:%(key.bootstrap.list.color.yellow)]]></WidgetConfig>
+      <WidgetConfig><![CDATA[red:%(key.bootstrap.setting.color.red)|sea:%(key.bootstrap.setting.color.sea)|grey:%(key.bootstrap.setting.color.grey)|green:%(key.bootstrap.setting.color.green)|blue:%(key.bootstrap.setting.color.blue)|orange:%(key.bootstrap.setting.color.orange)|yellow:%(key.bootstrap.setting.color.yellow)]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[layoutvariant]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.list.setting.layoutvariant)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.layoutvariant)]]></DisplayName>
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[top]]></Default>
-      <WidgetConfig><![CDATA[top:%(key.bootstrap.list.layout.top)|left:%(key.bootstrap.list.layout.left)|box:%(key.bootstrap.list.layout.box)]]></WidgetConfig>
+      <WidgetConfig><![CDATA[top:%(key.bootstrap.setting.layout.top)|left:%(key.bootstrap.setting.layout.left)|box:%(key.bootstrap.setting.layout.box)]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[buttoncolor]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.list.setting.buttoncolor)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.buttoncolor)]]></DisplayName>
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[red]]></Default>
-      <WidgetConfig><![CDATA[red:%(key.bootstrap.list.color.red)|sea:%(key.bootstrap.list.color.sea)|green:%(key.bootstrap.list.color.green)|blue:%(key.bootstrap.list.color.blue)|orange:%(key.bootstrap.list.color.orange)|yellow:%(key.bootstrap.list.color.yellow)]]></WidgetConfig>
+      <WidgetConfig><![CDATA[red:%(key.bootstrap.setting.color.red)|sea:%(key.bootstrap.setting.color.sea)|green:%(key.bootstrap.setting.color.green)|blue:%(key.bootstrap.setting.color.blue)|orange:%(key.bootstrap.setting.color.orange)|yellow:%(key.bootstrap.setting.color.yellow)]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[teaserlength]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.list.setting.teaserlength)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.teaserlength)]]></DisplayName>
       <Widget><![CDATA[string]]></Widget>
       <Default><![CDATA[200]]></Default>
     </Setting>

@@ -51,10 +51,6 @@
       <Value><![CDATA[Please enter a caption text.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[bootstrap.carousel.setting.hidetitle]]></Key>
-      <Value><![CDATA[Hide Title]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[bootstrap.carousel.message.new]]></Key>
       <Value><![CDATA[<strong>New Carousel</strong>, please edit the content.]]></Value>
     </Message>
@@ -107,10 +103,6 @@
     <Message>
       <Key><![CDATA[bootstrap.carousel.default.Text]]></Key>
       <Value><![CDATA[Bitte einen Bildtext eingeben.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.carousel.setting.hidetitle]]></Key>
-      <Value><![CDATA[Verstecke Titel]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.carousel.message.new]]></Key>

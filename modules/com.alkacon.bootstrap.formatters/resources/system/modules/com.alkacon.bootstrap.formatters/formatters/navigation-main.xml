@@ -13,7 +13,7 @@
     <Rank><![CDATA[1000]]></Rank>
     <Match>
       <Types>
-        <ContainerType><![CDATA[content-full]]></ContainerType>
+        <ContainerType><![CDATA[content-wide]]></ContainerType>
       </Types>
     </Match>
     <Preview>false</Preview>
@@ -22,7 +22,7 @@
     <Detail>false</Detail>
     <Setting>
       <PropertyName><![CDATA[showbreadcrumb]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.navigation.showbreadcrumb)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.showbreadcrumb)]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[true]]></Default>
     </Setting>

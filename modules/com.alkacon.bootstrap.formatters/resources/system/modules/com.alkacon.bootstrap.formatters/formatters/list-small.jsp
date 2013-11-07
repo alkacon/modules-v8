@@ -20,7 +20,7 @@
 	</c:if>
 	<c:set var="wordCount"><fmt:formatNumber type="number" value="${((cms.container.width) / 100) * 20}" maxFractionDigits="0" /></c:set>
 
-	<div <c:if test="${cms.container.type == 'content-full'}">class="row"</c:if>>
+	<div <c:if test="${cms.container.type != 'content'}">class="row"</c:if>>
 
 		<c:choose>
 			<c:when test="${cms.element.inMemoryOnly}">

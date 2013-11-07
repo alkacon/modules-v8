@@ -5,7 +5,7 @@
     <GroupContainers>
       <Title><![CDATA[Demo Footer]]></Title>
       <Description><![CDATA[Page foot for the demo pages]]></Description>
-      <Type><![CDATA[foot-full]]></Type>
+      <Type><![CDATA[content-wide]]></Type>
       <Element>
         <Uri>
           <link type="STRONG">

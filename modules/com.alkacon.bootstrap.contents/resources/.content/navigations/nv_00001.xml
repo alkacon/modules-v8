@@ -13,33 +13,30 @@
     <Header name="Header0">
       <links>
         <link name="link2" internal="true" type="A">
-          <target><![CDATA[/sites/default/]]></target>
-          <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
-        </link>
-        <link name="link3" internal="true" type="A">
-          <target><![CDATA[/sites/default/]]></target>
-          <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
+          <target><![CDATA[/sites/default/demo/pages/login-page/]]></target>
+          <uuid>e6b2fe3a-274a-11e3-a044-000c29d28104</uuid>
         </link>
         <link name="link0" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[]]></anchor>
+          <target><![CDATA[/sites/default/demo/]]></target>
+          <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
         </link>
         <link name="link1" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[]]></anchor>
+          <target><![CDATA[/sites/default/introduction/]]></target>
+          <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
         </link>
       </links>
       <content><![CDATA[        <ul class="loginbar pull-right">
-            <li><i class="icon-globe"></i><a>Languages</a>
+            <!-- <li><i class="icon-globe"></i><a>Languages</a>
             	<ul class="lenguages">
-                	<li><a href="%(link0)">English</a></li>
-                	<li><a href="%(link1)">German</a></li>
+                	<li><a href="#">English</a></li>
+                	<li><a href="#">German</a></li>
                 </ul>
-            </li>	
+            </li> //-->
+            <li><a href="%(link0)" >Demo Home Page</a></li>
             <li class="devider"></li>
-            <li><a href="%(link2)" class="login-btn">Help</a></li>
+            <li><a href="%(link1)">Help</a></li>
             <li class="devider"></li>
-            <li><a href="%(link3)" class="login-btn">Login</a></li>
+            <li><a href="%(link2)">Login</a></li>
         </ul>]]></content>
     </Header>
   </BootstrapNavigation>

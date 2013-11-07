@@ -2,14 +2,14 @@
 
 <BootstrapJumbotrons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/jumbotron.xsd">
   <BootstrapJumbotron language="en">
-    <Title><![CDATA[OpenCms is great]]></Title>
-    <Text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus.]]></Text>
+    <Title><![CDATA[About OpenCms]]></Title>
+    <Text><![CDATA[OpenCms. Easy to use. Fun to work with. Simple and intuitive. Yet full featured and powerful.]]></Text>
     <Link>
       <Text><![CDATA[Read more]]></Text>
       <URI>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/demo/en/elements/jumbotron/]]></target>
-          <uuid>9cfa4f79-21d4-11e3-b95f-000c29d28104</uuid>
+          <target><![CDATA[/sites/default/demo/pages/home-page/]]></target>
+          <uuid>53c9908d-4547-11e3-93f3-000c29d28104</uuid>
         </link>
       </URI>
     </Link>

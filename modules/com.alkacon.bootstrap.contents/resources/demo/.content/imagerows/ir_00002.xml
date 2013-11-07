@@ -4,36 +4,32 @@
   <BootstrapImagerow language="en">
     <Title><![CDATA[Image row with 3 items]]></Title>
     <Item>
-      <Headline><![CDATA[Artichoke]]></Headline>
+      <Headline><![CDATA[Turbine]]></Headline>
       <Text><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.]]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/jerusalem_artichoke.jpg]]></target>
-          <uuid>79aa286a-717d-11e0-87bc-000c2972a6a4</uuid>
-          <query><![CDATA[__scale=h:400,w:400,cx:34,cy:20,ch:572,cw:573]]></query>
+          <target><![CDATA[/sites/default/.galleries/samples/01.jpg]]></target>
+          <uuid>c05c4da4-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
-      <Link/>
     </Item>
     <Item>
-      <Headline><![CDATA[Vinca]]></Headline>
+      <Headline><![CDATA[Looking Glass]]></Headline>
       <Text><![CDATA[Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.]]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/vinca.jpg]]></target>
-          <uuid>770ac516-717d-11e0-87bc-000c2972a6a4</uuid>
-          <query><![CDATA[__scale=h:400,w:400,cx:80,cy:139,ch:341,cw:342]]></query>
+          <target><![CDATA[/sites/default/.galleries/samples/12.jpg]]></target>
+          <uuid>c76d14a5-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
     </Item>
     <Item>
-      <Headline><![CDATA[Strawberry]]></Headline>
+      <Headline><![CDATA[Architecture]]></Headline>
       <Text><![CDATA[Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.]]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/strawberry.jpg]]></target>
-          <uuid>76561afa-717d-11e0-87bc-000c2972a6a4</uuid>
-          <query><![CDATA[__scale=h:400,w:400,cx:86,cy:101,ch:427,cw:427]]></query>
+          <target><![CDATA[/sites/default/.galleries/samples/05.jpg]]></target>
+          <uuid>c2581db0-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
     </Item>

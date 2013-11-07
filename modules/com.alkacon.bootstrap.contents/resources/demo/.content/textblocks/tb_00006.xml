@@ -7,18 +7,18 @@
       <Headline><![CDATA[All new responsive template]]></Headline>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>]]></content>
+        <content><![CDATA[<p>This demo template features a responsive design based on Bootstrap.</p>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+<p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>]]></content>
       </Text>
       <Image>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/flowers/cornflower.jpg]]></target>
-            <uuid>77ca449e-717d-11e0-87bc-000c2972a6a4</uuid>
-            <query><![CDATA[__scale=h:500,w:500]]></query>
+            <target><![CDATA[/sites/default/.galleries/samples/12.jpg]]></target>
+            <uuid>c76d14a5-4705-11e3-8417-000c29d28104</uuid>
           </link>
         </Image>
-        <Title/>
+        <Title><![CDATA[All new responsive template]]></Title>
       </Image>
     </Paragraph>
   </BootstrapTextblock>

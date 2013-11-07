@@ -18,9 +18,8 @@
     <Images>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/coltsfoot.jpg]]></target>
-          <uuid>76ef26c2-717d-11e0-87bc-000c2972a6a4</uuid>
-          <query><![CDATA[__scale=h:500,w:600,cx:0,cy:0,ch:500,cw:600]]></query>
+          <target><![CDATA[/sites/default/.galleries/samples/01.jpg]]></target>
+          <uuid>c05c4da4-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
       <Title><![CDATA[Great results]]></Title>
@@ -29,9 +28,8 @@
     <Images>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/flowers/dandelion.jpg]]></target>
-          <uuid>781d1f9a-717d-11e0-87bc-000c2972a6a4</uuid>
-          <query><![CDATA[__scale=h:500,w:600,cx:0,cy:0,ch:500,cw:600]]></query>
+          <target><![CDATA[/sites/default/.galleries/samples/05.jpg]]></target>
+          <uuid>c2581db0-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
       <Title><![CDATA[Great results]]></Title>
@@ -40,9 +38,8 @@
     <Images>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.content/images/news/flora_koeln.jpg]]></target>
-          <uuid>8d67e974-77dd-11e0-be13-000c2972a6a4</uuid>
-          <query><![CDATA[__scale=h:500,w:600,cx:0,cy:0,ch:500,cw:600]]></query>
+          <target><![CDATA[/sites/default/.galleries/samples/19.jpg]]></target>
+          <uuid>cadff45a-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
       <Title><![CDATA[Great results]]></Title>

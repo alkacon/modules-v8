@@ -13,12 +13,12 @@
       <Image>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.content/images/flowers/acacia_covenyi.jpg]]></target>
-            <uuid>cfb15865-fd76-11e1-9ea8-000c2972a6a4</uuid>
+            <target><![CDATA[/sites/default/.galleries/samples/38.jpg]]></target>
+            <uuid>b3ffe0f0-4785-11e3-ba23-000c29d28104</uuid>
           </link>
         </Image>
-        <Title><![CDATA[Acacia]]></Title>
-        <Description><![CDATA[Acacia Description]]></Description>
+        <Title><![CDATA[Beach]]></Title>
+        <Description><![CDATA[Beach Description]]></Description>
       </Image>
       <Link>
         <Text><![CDATA[Link to Wikipedia]]></Text>
@@ -38,7 +38,7 @@
     </Paragraph>
     <Category>
       <link type="WEAK">
-        <target><![CDATA[/sites/default/_categories/color/yellow/]]></target>
+        <target><![CDATA[/sites/default/.categories/color/yellow/]]></target>
         <uuid>2572c2b2-718d-11e0-87bc-000c2972a6a4</uuid>
       </link>
     </Category>

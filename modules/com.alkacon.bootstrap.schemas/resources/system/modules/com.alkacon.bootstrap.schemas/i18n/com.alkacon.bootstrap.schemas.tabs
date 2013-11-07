@@ -66,14 +66,6 @@
       <Key><![CDATA[bootstrap.tabs.default.Text]]></Key>
       <Value><![CDATA[Please edit the tab item text.]]></Value>
     </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.tabs.setting.hidetitle]]></Key>
-      <Value><![CDATA[Hide Title]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.tabs.setting.accordion]]></Key>
-      <Value><![CDATA[Show as Accordion]]></Value>
-    </Message>
   </Bundle>
   <Bundle language="de">
     <Message>
@@ -139,14 +131,6 @@
     <Message>
       <Key><![CDATA[bootstrap.tabs.default.Text]]></Key>
       <Value><![CDATA[Bitte bearbeiten Sie den Text des Reiters.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.tabs.setting.hidetitle]]></Key>
-      <Value><![CDATA[Verstecke Titel]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[bootstrap.tabs.setting.accordion]]></Key>
-      <Value><![CDATA[Zeige als Akkordion an]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>
