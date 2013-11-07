@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.9.0.1</opencms_version>
-		<createdate>Thu, 07 Nov 2013 15:25:52 GMT</createdate>
+		<opencms_version>8.9.0</opencms_version>
+		<createdate>Thu, 07 Nov 2013 19:47:14 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap template demo contents.]]></description>
-		<version>8.9.0</version>
+		<version>8.9.24</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -2616,7 +2616,7 @@
 			<type>bs-blog</type>
 			<uuidstructure>0b64b127-455d-11e3-8774-000c29d28104</uuidstructure>
 			<uuidresource>0b64b128-455d-11e3-8774-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 17:17:31 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:09:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 14:26:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2624,7 +2624,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Example for a blog entry]]></value>
+					<value><![CDATA[OpenCms is intuituve]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2669,7 +2669,7 @@
 			<type>bs-blog</type>
 			<uuidstructure>54a440c6-21d8-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>54a440c7-21d8-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 12:42:02 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:09:36 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 09:37:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2677,7 +2677,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms better than ever]]></value>
+					<value><![CDATA[OpenCms is better than ever]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -2710,7 +2710,7 @@
 			<type>bs-blog</type>
 			<uuidstructure>f66ceba1-21d9-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>f66ceba2-21d9-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 17:18:08 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:09:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 09:49:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2718,7 +2718,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms at CeBIT 2013]]></value>
+					<value><![CDATA[OpenCms is easy]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -2741,7 +2741,7 @@
 			<type>bs-blog</type>
 			<uuidstructure>28129385-21da-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>28129386-21da-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 17:14:08 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:09:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 09:51:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2749,7 +2749,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[New OpenCms 9 released]]></value>
+					<value><![CDATA[OpenCms is just fun]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -3257,7 +3257,7 @@
 			<type>bs-list</type>
 			<uuidstructure>4a672e4c-460a-11e3-b822-000c29d28104</uuidstructure>
 			<uuidresource>4a672e4d-460a-11e3-b822-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 13:36:11 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:10:29 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 11:06:16 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3265,7 +3265,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Recent blog entries]]></value>
+					<value><![CDATA[Recent news]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3277,7 +3277,7 @@
 			<type>bs-list</type>
 			<uuidstructure>9aebcaac-46d1-11e3-9325-000c29d28104</uuidstructure>
 			<uuidresource>9aebcaad-46d1-11e3-9325-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 15:14:00 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:10:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 10:53:01 GMT</datecreated>
 			<usercreated>rkurz</usercreated>
@@ -3285,7 +3285,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Recent blog entries (large)]]></value>
+					<value><![CDATA[Recent news (large)]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3482,7 +3482,7 @@
 			<type>bs-teaserrow</type>
 			<uuidstructure>fc41fa06-3c96-11e3-a99f-000c2943a707</uuidstructure>
 			<uuidresource>fc41fa07-3c96-11e3-a99f-000c2943a707</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 08:41:52 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 15:42:15 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 10:28:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3555,7 +3555,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>4ec6e28f-21de-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>4ec6e290-21de-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 17:18:48 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 15:48:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 10:20:43 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3563,7 +3563,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Testtext block]]></value>
+					<value><![CDATA[Full width example]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3635,7 +3635,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>adc737e8-2202-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>adc737e9-2202-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 12:31:13 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 15:50:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 14:41:05 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3643,7 +3643,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Exiting new Acasia variety discovered]]></value>
+					<value><![CDATA[Main content element]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3695,7 +3695,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>4daccde6-26a0-11e3-9ee6-000c29d28104</uuidstructure>
 			<uuidresource>4daccde7-26a0-11e3-9ee6-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 14:19:59 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 15:48:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 26 Sep 2013 11:39:29 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3703,7 +3703,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms 9 presented in Cologne]]></value>
+					<value><![CDATA[OpenCms: Intuitive content management]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3819,7 +3819,7 @@
 			<type>containerpage</type>
 			<uuidstructure>d3a4fe71-455c-11e3-8774-000c29d28104</uuidstructure>
 			<uuidresource>d3a4fe72-455c-11e3-8774-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:09:53 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:07:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 14:24:34 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3973,7 +3973,7 @@
 			<type>containerpage</type>
 			<uuidstructure>a722407a-21d4-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>a722407b-21d4-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 08:44:42 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:55:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 09:11:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4243,7 +4243,7 @@
 			<type>containerpage</type>
 			<uuidstructure>cbf60c32-21d4-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>cbf60c33-21d4-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 08:43:41 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 15:53:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 09:12:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4912,6 +4912,119 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>introduction/.content/imagerows</destination>
+			<type>folder</type>
+			<uuidstructure>8862c6b9-47c9-11e3-8474-000c29d28104</uuidstructure>
+			<datelastmodified>Thu, 07 Nov 2013 16:27:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 16:27:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/imagerows/ir_00001.xml</source>
+			<destination>introduction/.content/imagerows/ir_00001.xml</destination>
+			<type>bs-imagerow</type>
+			<uuidstructure>1938a547-47cc-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>1938a548-47cc-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:35:04 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 16:46:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Add content example]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/imagerows/ir_00002.xml</source>
+			<destination>introduction/.content/imagerows/ir_00002.xml</destination>
+			<type>bs-imagerow</type>
+			<uuidstructure>2e3c3de4-47d6-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>2e3c3de5-47d6-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:33:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 17:58:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Sitemap example]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/imagerows/ir_00003.xml</source>
+			<destination>introduction/.content/imagerows/ir_00003.xml</destination>
+			<type>bs-imagerow</type>
+			<uuidstructure>f1aa618e-47d8-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>f1aa618f-47d8-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:32:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:18:04 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Device preview]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/imagerows/ir_00004.xml</source>
+			<destination>introduction/.content/imagerows/ir_00004.xml</destination>
+			<type>bs-imagerow</type>
+			<uuidstructure>eb2e3cde-47dc-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>eb2e3cdf-47dc-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:50:30 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:46:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Publish changes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/imagerows/ir_00005.xml</source>
+			<destination>introduction/.content/imagerows/ir_00005.xml</destination>
+			<type>bs-imagerow</type>
+			<uuidstructure>faadbb1f-47e1-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>faadbb20-47e1-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:26:22 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 19:22:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Edit content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>introduction/.content/navigations</destination>
 			<type>folder</type>
 			<uuidstructure>6fa2cd57-46d7-11e3-ae58-000c29d28104</uuidstructure>
@@ -5016,7 +5129,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>85c97b33-460d-11e3-b822-000c29d28104</uuidstructure>
 			<uuidresource>85c97b34-460d-11e3-b822-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 09:05:55 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:35:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 11:29:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5036,7 +5149,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>4e47185e-4610-11e3-b822-000c29d28104</uuidstructure>
 			<uuidresource>4e47185f-4610-11e3-b822-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 10:45:34 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:29:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 11:49:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5056,7 +5169,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>d964fa63-46c2-11e3-8fa9-000c29d28104</uuidstructure>
 			<uuidresource>d964fa64-46c2-11e3-8fa9-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 10:46:43 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:12:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 09:07:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5076,7 +5189,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>17ac6dee-46c3-11e3-8fa9-000c29d28104</uuidstructure>
 			<uuidresource>17ac6def-46c3-11e3-8fa9-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 10:47:11 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:31:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 09:09:08 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5096,7 +5209,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>e5556ed8-46d0-11e3-9325-000c29d28104</uuidstructure>
 			<uuidresource>e5556ed9-46d0-11e3-9325-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 10:58:28 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:53:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 10:47:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5116,7 +5229,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>186cbd51-46d3-11e3-9325-000c29d28104</uuidstructure>
 			<uuidresource>186cbd52-46d3-11e3-9325-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 11:13:53 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:05:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 11:03:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5125,6 +5238,126 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[OpenCms Introduction: Start exploring]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/textblocks/tb_00007.xml</source>
+			<destination>introduction/.content/textblocks/tb_00007.xml</destination>
+			<type>bs-textblock</type>
+			<uuidstructure>abe0ff1f-47c7-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>abe0ff20-47c7-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 16:15:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 16:14:25 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo text element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/textblocks/tb_00008.xml</source>
+			<destination>introduction/.content/textblocks/tb_00008.xml</destination>
+			<type>bs-textblock</type>
+			<uuidstructure>b48ea616-47ca-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>b48ea617-47ca-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:00:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 16:36:08 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Introduction: Step 1 - Link to Step 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/textblocks/tb_00009.xml</source>
+			<destination>introduction/.content/textblocks/tb_00009.xml</destination>
+			<type>bs-textblock</type>
+			<uuidstructure>92a71122-47d7-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>92a71123-47d7-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:01:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:08:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Introduction: Step 3 - Link to Step 4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/textblocks/tb_00010.xml</source>
+			<destination>introduction/.content/textblocks/tb_00010.xml</destination>
+			<type>bs-textblock</type>
+			<uuidstructure>8ad2f30a-47da-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>8ad2f30b-47da-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:02:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:29:30 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Introduction: Step 4 - Link to Step 5]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/textblocks/tb_00011.xml</source>
+			<destination>introduction/.content/textblocks/tb_00011.xml</destination>
+			<type>bs-textblock</type>
+			<uuidstructure>95ad3dc1-47dd-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>95ad3dc2-47dd-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:02:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:51:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Introduction: Step 5 - Link to summary]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.content/textblocks/tb_00012.xml</source>
+			<destination>introduction/.content/textblocks/tb_00012.xml</destination>
+			<type>bs-textblock</type>
+			<uuidstructure>96da3322-47e2-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>96da3323-47e2-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:30:07 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 19:27:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Introduction: Step 2 - Link to Step 3]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5181,6 +5414,406 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:400,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-01.png</source>
+			<destination>introduction/.galleries/intro-images/tut-01.png</destination>
+			<type>image</type>
+			<uuidstructure>798fed0a-47cd-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>798fed0b-47cd-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 16:55:58 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 16:55:58 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:50,h:50]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-02.png</source>
+			<destination>introduction/.galleries/intro-images/tut-02.png</destination>
+			<type>image</type>
+			<uuidstructure>5254bb9d-47c9-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>5254bb9e-47c9-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:28:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 16:26:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-03.png</source>
+			<destination>introduction/.galleries/intro-images/tut-03.png</destination>
+			<type>image</type>
+			<uuidstructure>52884ec0-47c9-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>52884ec1-47c9-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 16:26:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 16:26:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-04.png</source>
+			<destination>introduction/.galleries/intro-images/tut-04.png</destination>
+			<type>image</type>
+			<uuidstructure>51e557f7-47c9-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>51e557f8-47c9-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 16:26:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 16:26:13 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-05.png</source>
+			<destination>introduction/.galleries/intro-images/tut-05.png</destination>
+			<type>image</type>
+			<uuidstructure>5222af1a-47c9-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>5222af1b-47c9-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 16:26:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 16:26:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-06.png</source>
+			<destination>introduction/.galleries/intro-images/tut-06.png</destination>
+			<type>image</type>
+			<uuidstructure>a07f9015-47d4-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>a07f9016-47d4-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 17:47:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 17:47:10 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:200,h:200]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-07.png</source>
+			<destination>introduction/.galleries/intro-images/tut-07.png</destination>
+			<type>image</type>
+			<uuidstructure>c6d8b166-47d6-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>c6d8b167-47d6-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:27:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:02:33 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-08.png</source>
+			<destination>introduction/.galleries/intro-images/tut-08.png</destination>
+			<type>image</type>
+			<uuidstructure>c64bdaad-47d6-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>c64bdaae-47d6-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:02:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:02:32 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-09.png</source>
+			<destination>introduction/.galleries/intro-images/tut-09.png</destination>
+			<type>image</type>
+			<uuidstructure>c66c8210-47d6-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>c66c8211-47d6-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:02:33 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:02:32 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-10.png</source>
+			<destination>introduction/.galleries/intro-images/tut-10.png</destination>
+			<type>image</type>
+			<uuidstructure>c6a32273-47d6-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>c6a32274-47d6-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:02:33 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:02:33 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-11.png</source>
+			<destination>introduction/.galleries/intro-images/tut-11.png</destination>
+			<type>image</type>
+			<uuidstructure>549da646-47d9-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>549da647-47d9-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:24:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:20:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-12.png</source>
+			<destination>introduction/.galleries/intro-images/tut-12.png</destination>
+			<type>image</type>
+			<uuidstructure>541b08c0-47d9-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>541b08c1-47d9-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:20:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:20:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-13.png</source>
+			<destination>introduction/.galleries/intro-images/tut-13.png</destination>
+			<type>image</type>
+			<uuidstructure>546f1c33-47d9-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>546f1c34-47d9-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:20:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:20:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-14.png</source>
+			<destination>introduction/.galleries/intro-images/tut-14.png</destination>
+			<type>image</type>
+			<uuidstructure>d41d3d2b-47dc-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>d41d3d2c-47dc-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:45:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:45:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-15.png</source>
+			<destination>introduction/.galleries/intro-images/tut-15.png</destination>
+			<type>image</type>
+			<uuidstructure>d3611915-47dc-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>d3611916-47dc-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:45:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:45:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-16.png</source>
+			<destination>introduction/.galleries/intro-images/tut-16.png</destination>
+			<type>image</type>
+			<uuidstructure>d3d20358-47dc-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>d3d20359-47dc-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 18:45:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:45:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-17.png</source>
+			<destination>introduction/.galleries/intro-images/tut-17.png</destination>
+			<type>image</type>
+			<uuidstructure>e7027bac-47e1-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>e7027bad-47e1-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:22:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 19:22:12 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-18.png</source>
+			<destination>introduction/.galleries/intro-images/tut-18.png</destination>
+			<type>image</type>
+			<uuidstructure>e633e103-47e1-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>e633e104-47e1-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:22:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 19:22:10 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-19.png</source>
+			<destination>introduction/.galleries/intro-images/tut-19.png</destination>
+			<type>image</type>
+			<uuidstructure>e6730ce6-47e1-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>e6730ce7-47e1-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:22:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 19:22:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>introduction/.galleries/intro-images/tut-20.png</source>
+			<destination>introduction/.galleries/intro-images/tut-20.png</destination>
+			<type>image</type>
+			<uuidstructure>e6aba919-47e1-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>e6aba91a-47e1-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:22:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 19:22:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5268,7 +5901,7 @@
 			<type>containerpage</type>
 			<uuidstructure>d1654965-460a-11e3-b822-000c29d28104</uuidstructure>
 			<uuidresource>d1654966-460a-11e3-b822-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 13:19:14 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:37:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 11:10:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5318,7 +5951,7 @@
 			<type>containerpage</type>
 			<uuidstructure>dd9121b0-460a-11e3-b822-000c29d28104</uuidstructure>
 			<uuidresource>dd9121b1-460a-11e3-b822-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 11:39:06 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:28:17 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 11:10:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5368,7 +6001,7 @@
 			<type>containerpage</type>
 			<uuidstructure>e75018ab-460a-11e3-b822-000c29d28104</uuidstructure>
 			<uuidresource>e75018ac-460a-11e3-b822-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 11:39:46 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:09:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 11:10:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5418,7 +6051,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f4277336-460a-11e3-b822-000c29d28104</uuidstructure>
 			<uuidresource>f4277337-460a-11e3-b822-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 11:40:17 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:29:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 11:11:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5468,7 +6101,7 @@
 			<type>containerpage</type>
 			<uuidstructure>fe40e641-460a-11e3-b822-000c29d28104</uuidstructure>
 			<uuidresource>fe40e642-460a-11e3-b822-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 11:40:44 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:51:17 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 11:11:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5665,17 +6298,17 @@
 			<source>release/.content/textblocks/tb_00001.xml</source>
 			<destination>release/.content/textblocks/tb_00001.xml</destination>
 			<type>bs-textblock</type>
-			<uuidstructure>134d137d-1fa5-11e3-85b8-000c297c001d</uuidstructure>
-			<uuidresource>134d137e-1fa5-11e3-85b8-000c297c001d</uuidresource>
-			<datelastmodified>Fri, 27 Sep 2013 12:20:55 GMT</datelastmodified>
+			<uuidstructure>e423b6bc-47c2-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>e423b6bd-47c2-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 16:04:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 17 Sep 2013 14:26:00 GMT</datecreated>
+			<datecreated>Thu, 07 Nov 2013 15:40:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Release Notes for OpenCms 9.0 RC]]></value>
+					<value><![CDATA[Release Notes for OpenCms 9.0.0]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6588,50 +7221,46 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>release/9.0-rc-release-notes</destination>
+			<destination>release/9.0.0-release-notes</destination>
 			<type>folder</type>
-			<uuidstructure>5e05e90b-1fa4-11e3-85b8-000c297c001d</uuidstructure>
-			<datelastmodified>Fri, 27 Sep 2013 10:44:10 GMT</datelastmodified>
+			<uuidstructure>7379b400-47c2-11e3-8474-000c29d28104</uuidstructure>
+			<datelastmodified>Thu, 07 Nov 2013 15:46:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 17 Sep 2013 14:20:56 GMT</datecreated>
+			<datecreated>Thu, 07 Nov 2013 15:37:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[0.018750012]]></value>
+					<value><![CDATA[0.045]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[9.0 RC Release Notes]]></value>
+					<value><![CDATA[9.0.0 Release Notes]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[9.0 RC Release Notes]]></value>
+					<value><![CDATA[9.0.0 Release Notes]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>release/9.0-rc-release-notes/index.html</source>
-			<destination>release/9.0-rc-release-notes/index.html</destination>
+			<source>release/9.0.0-release-notes/index.html</source>
+			<destination>release/9.0.0-release-notes/index.html</destination>
 			<type>containerpage</type>
-			<uuidstructure>5e179c50-1fa4-11e3-85b8-000c297c001d</uuidstructure>
-			<uuidresource>5e179c51-1fa4-11e3-85b8-000c297c001d</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 10:28:57 GMT</datelastmodified>
+			<uuidstructure>73839f15-47c2-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>73839f16-47c2-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 16:26:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 17 Sep 2013 14:20:56 GMT</datecreated>
+			<datecreated>Thu, 07 Nov 2013 15:37:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
-					<name>Description</name>
-					<value><![CDATA[3 column layout without pre-configured elements]]></value>
-				</property>
-				<property>
 					<name>Title</name>
-					<value><![CDATA[9.0 RC Release Notes]]></value>
+					<value><![CDATA[9.0.0 Release Notes]]></value>
 				</property>
 			</properties>
 			<relations/>

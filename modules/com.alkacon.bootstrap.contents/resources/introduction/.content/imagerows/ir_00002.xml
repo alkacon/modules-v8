@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapImagerows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd">
+  <BootstrapImagerow language="en">
+    <Title><![CDATA[Introduction: Sitemap example]]></Title>
+    <Item>
+      <Headline><![CDATA[Open the sitemap]]></Headline>
+      <Text><![CDATA[Open the sitemap from the toolbar.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-07.png]]></target>
+          <uuid>c6d8b166-47d6-11e3-8474-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Select "Add pages"]]></Headline>
+      <Text><![CDATA[Click 'Add pages' and select the page template.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-08.png]]></target>
+          <uuid>c64bdaad-47d6-11e3-8474-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Create a new page]]></Headline>
+      <Text><![CDATA[Drag the selected page template to the sitemap.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-09.png]]></target>
+          <uuid>c66c8210-47d6-11e3-8474-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Edit the page title]]></Headline>
+      <Text><![CDATA[Just click on the page title to change it.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-10.png]]></target>
+          <uuid>c6a32273-47d6-11e3-8474-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+  </BootstrapImagerow>
+</BootstrapImagerows>

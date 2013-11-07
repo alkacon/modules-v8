@@ -66,12 +66,6 @@
 				<default element="Text" value="%(key.dev.demo.ddarticle.default.Text)" />
 			</defaults>
 			<relations />
-			<formatters>
-				<formatter minwidth="1" maxwidth="250"
-					uri="/system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/side.jsp" />
-				<formatter minwidth="250"
-					uri="/system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/center.jsp" />
-			</formatters>
 		</xsd:appinfo>
 	</xsd:annotation>
 </xsd:schema>

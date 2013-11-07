@@ -62,23 +62,6 @@
 					value="%(key.dev.demo.ddsettingsarticle.default.Title)" />
 			</defaults>
 			<relations />
-			<formatters>
-				<formatter minwidth="150"
-					uri="/system/modules/com.alkacon.bootstrap.dev.demo/formatters/settings_article/settings.jsp" />
-			</formatters>
-			<settings>
-				<setting name="boxschema" nice-name="Box Color" type="string"
-					widget="select" widget-config="box_schema1:blue|box_schema2:grey" />
-				<setting name="text" nice-name="Text" type="string" widget="string"
-					default="Default setting text" rule-regex=".+"
-					error="The Input should may not be empty!" />
-				<setting name="showimage" nice-name="Show Image" type="string"
-					widget="checkbox" default="false" />
-				<setting name="date" nice-name="Date Picker" type="string"
-					widget="datebox" />
-				<setting name="format" nice-name="Date format" type="string"
-					widget="radio" default="both" widget-config="both:With time|date:No time" />
-			</settings>
 		</xsd:appinfo>
 	</xsd:annotation>
 </xsd:schema>

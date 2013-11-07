@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.9.0.1</opencms_version>
-		<createdate>Thu, 07 Nov 2013 15:26:36 GMT</createdate>
+		<opencms_version>8.9.0</opencms_version>
+		<createdate>Thu, 07 Nov 2013 19:48:24 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap XML Schema Definitions.]]></description>
-		<version>8.9.0</version>
+		<version>8.9.13</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>

@@ -1,7 +1,6 @@
 /* CSS for OpenCms special items */
 
 /* Borders have to be squared for all theme components */
-
 .list-group-item:first-child, .list-group-item:last-child, .jumbotron, .container .jumbotron, .nav-tabs > li > a, .panel-group .panel {
 	border-radius:0;
 }
@@ -16,6 +15,11 @@
 
 .servive-block .servive-block-red {
     background-color: #b31b34;
+}
+
+/* Unspecified styles for content alignment */
+.center {
+    text-align: center;
 }
 
 /* Side Navigation level 2 and 3 */

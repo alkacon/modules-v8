@@ -52,7 +52,7 @@
 					<div class="${cms:lookup(itemCount, '1:col-xs-12|2:col-sm-6|3:col-sm-4|4:col-md-3 col-sm-6|5:col-md-2 col-sm-6|6:col-md-2 col-sm-4')}">
 						<a class="thumbnail fancybox-button zoomer" data-rel="fancybox-button" title="<c:out value="${res.property['Title']}" />" href="<cms:link>${res.filename}</cms:link>">
 							<span class="overlay-zoom">  
-								<cms:img alt="${res.property['Title']}" src="${res.filename}" scaleType="2" scaleColor="transparent" scaleQuality="75" width="${720}" height="${450}" cssclass="img-responsive" />
+								<cms:img alt="${res.property['Title']}" title="${res.property['Title']}" src="${res.filename}" scaleType="2" scaleColor="transparent" scaleQuality="75" width="${720}" height="${450}" cssclass="img-responsive" />
 								<div class="zoom-icon"></div>                   
 							</span>                                              
 						</a>                                                                                    

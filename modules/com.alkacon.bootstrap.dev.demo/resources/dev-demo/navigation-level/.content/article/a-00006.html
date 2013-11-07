@@ -7,10 +7,14 @@
       <links/>
       <content><![CDATA[<p>You can use the new method "navigationLevel" of the CmsJspNavElement to recognize the "Navigation Level" element in the navigation. This can be usefull e.g. for styling.</p>
 <p>Navigation example snippet with &lt;cms:navigation&gt; tag:</p>
-<p>&lt;cms:navigation type="treeForFolder" startLevel="1" endLevel="4" var="nav"/&gt;<br />&lt;c:forEach items="${nav.items}" var="elem"&gt;<br /> &nbsp;&nbsp;&nbsp; ...<br />&nbsp;&nbsp; &lt;a href="&lt;cms:link&gt;${elem.resourceName}&lt;/cms:link&gt;" &lt;c:if test="${nav.isActive[elem.resourceName] and !elem.navigationLevel }"&gt;class="current"&lt;/c:if&gt;${elem.navText}&lt;/a&gt;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp; ...<br />&lt;/c:forEach&gt;<br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</p>
-<p>Please check following jsp for the complete navigation example:</p>
-<p>/system/modules/com.alkacon.bootstrap.dev.demo/elements/site-elements/side_nav.jsp</p>
-<p><br />&nbsp;&nbsp; &nbsp;&nbsp; <br /><br /></p>]]></content>
+<pre>&lt;cms:navigation type="treeForFolder" startLevel="1" endLevel="4" var="nav"/&gt;
+&lt;c:forEach items="${nav.items}" var="elem"&gt;
+    [...]
+    &lt;a href="&lt;cms:link&gt;${elem.resourceName}&lt;/cms:link&gt;"<br />        &lt;c:if test="${nav.isActive[elem.resourceName] and !elem.navigationLevel }"&gt;class="current"&lt;/c:if&gt;<br />        ${elem.navText}<br />    &lt;/a&gt;
+    [...]
+&lt;/c:forEach&gt;</pre>
+<p><strong>Please check following jsp for the complete navigation example:</strong></p>
+<p><code>/system/modules/com.alkacon.bootstrap.dev.demo/elements/site-elements/side_nav.jsp</code></p>]]></content>
     </Text>
     <Image/>
   </DevDemoArticle>

@@ -6,7 +6,7 @@
 
 <cms:formatter var="content">
 
-<div<c:if test="${cms.container.type != 'content'}"> class="row"</c:if>>
+<div<c:if test="${cms.container.type == 'content-wide'}"> class="row"</c:if>>
 
 <c:forEach var="paragraph" items="${content.valueList.Paragraph}">
 

@@ -1,10 +1,10 @@
 <%@page buffer="none" session="false" taglibs="c,cms" %>
 
-<div class="box box_schema1">
+<div class="margin-bottom-30">
 
 	<%-- Title of the article --%>
-	<h4>Simple calculator</h4>
-	<div class="boxbody">
+	<div class="headline"><h3>Simple calculator</h3></div>
+	<div>
 		<%-- The text field of the article with image --%>		
 		<div class="paragraph">
 			<form action="${cms.functionDetail['simplecalculator']}" method="post">

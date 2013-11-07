@@ -2,16 +2,16 @@
 
 <BootstrapLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/list.xsd">
   <BootstrapList language="en">
-    <Title><![CDATA[Recent blog entries]]></Title>
+    <Title><![CDATA[Recent news]]></Title>
     <FilterQueries/>
     <SortOrder><![CDATA[desc]]></SortOrder>
-    <RowCount><![CDATA[4]]></RowCount>
+    <RowCount><![CDATA[10]]></RowCount>
     <CreatePath><![CDATA[/sites/default/demo/.content/blogentries/be_%(number:5).html]]></CreatePath>
     <Link>
-      <Text><![CDATA[Read more ...]]></Text>
+      <Text><![CDATA[Show list ...]]></Text>
       <URI>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/demo/elements/blog-page/]]></target>
+          <target><![CDATA[/sites/default/demo/elements/blog-entries/]]></target>
           <uuid>d393c05c-455c-11e3-8774-000c29d28104</uuid>
         </link>
       </URI>

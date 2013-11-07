@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Dev-Demo settings article formatter]]></NiceName>
+    <Type><![CDATA[ddsettingsarticle]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.dev.demo/formatters/settings-article.jsp]]></target>
+        <uuid>9038eed2-773f-11e0-af56-eda16dd9314c</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[content]]></ContainerType>
+        <ContainerType><![CDATA[content-full]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>true</Preview>
+    <SearchContent>false</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <Setting>
+      <PropertyName><![CDATA[text]]></PropertyName>
+      <DisplayName><![CDATA[Text]]></DisplayName>
+      <Widget><![CDATA[string]]></Widget>
+      <Default><![CDATA[Default setting text]]></Default>
+      <RuleRegex><![CDATA[.+]]></RuleRegex>
+      <RuleType><![CDATA[error]]></RuleType>
+      <Error><![CDATA[The Input should may not be empty!]]></Error>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[showimage]]></PropertyName>
+      <DisplayName><![CDATA[Show Image]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[date]]></PropertyName>
+      <DisplayName><![CDATA[Date Picker]]></DisplayName>
+      <Widget><![CDATA[datebox]]></Widget>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[format]]></PropertyName>
+      <DisplayName><![CDATA[Date format]]></DisplayName>
+      <Widget><![CDATA[radio]]></Widget>
+      <Default><![CDATA[both]]></Default>
+      <WidgetConfig><![CDATA[both:With time|date:No time]]></WidgetConfig>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

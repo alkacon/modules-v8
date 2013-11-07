@@ -1,8 +1,7 @@
 <%@page buffer="none" session="false" taglibs="c,cms" %>
-
 <%-- The jsp html should be surround by block element --%>
 <div>
-	<h2>List of resources:</h2>
+	<div class="headline"><h2>List of resources:</h2></div>
 	
 	<%-- Read collector paramter, e.g. from request --%>	
 	<c:set var="folder" value="/dev-demo/collector-with-detail-page/.content/article/" />
@@ -34,12 +33,10 @@
 		<div class="paragraph">
 			<p><b>If you call this demo for the first time the collector "myCollector" maybe has not been configured yet.</b></p>
 			<p>Edit <b>opencms-vfs.xml</b> and add code line to <tt><collectors></tt> node:</p>	
-			<pre>
-&lt;collectors&gt;
+			<pre>&lt;collectors&gt;
 	...
 	&lt;collector class="com.alkacon.bootstrap.dev.demo.CmsSimpleResourceCollector" order="180" /&gt;
-&lt;/collectors&gt;
-        	</pre>
+&lt;/collectors&gt;</pre>
 			<p>Restart the servlet container.</p>
 		</div>
 		<br/>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[OpenCms Introduction: Step 1 - Link to Step 2]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[More modification options]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Have you already noticed the grey "bullseye" icon that appears on the right corner over some elements that you see on the page? Move the mouse over one of these icons and you will see a list of options.</p>
+<ul>
+<li>For example, you can move an element around in the page with the <em><strong>Move in page</strong></em> icon.</li>
+<li>You can change the appearance of an element in the dialog that appears when you click on <strong><em>Settings</em></strong> .</li>
+<li>And of course you can edit the element. You will see how this works on the next page of this introduction.</li>
+</ul>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-06.png]]></target>
+            <uuid>a07f9015-47d4-11e3-8474-000c29d28104</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The element menu]]></Title>
+      </Image>
+      <Link>
+        <Text><![CDATA[Continue to step 2: Edit content]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/introduction/step-2-edit-content/]]></target>
+            <uuid>dd81df6b-460a-11e3-b822-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

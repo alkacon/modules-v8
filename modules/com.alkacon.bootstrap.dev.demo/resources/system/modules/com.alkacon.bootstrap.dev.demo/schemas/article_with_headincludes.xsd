@@ -57,19 +57,6 @@
 					value="%(key.dev.demo.ddheadincludearticle.default.Text)" />
 			</defaults>
 			<relations />
-			<formatters>
-				<formatter minwidth="1" maxwidth="250"
-					uri="/system/modules/com.alkacon.bootstrap.dev.demo/formatters/article_with_headincludes/side.jsp"
-					searchcontent="false" />
-				<formatter minwidth="250"
-					uri="/system/modules/com.alkacon.bootstrap.dev.demo/formatters/article_with_headincludes/center.jsp" />
-			</formatters>
-			<headincludes>
-				<headinclude type="javascript"
-					uri="/system/modules/com.alkacon.bootstrap.dev.demo/resources/js/headinclude_script.js" />
-				<headinclude type="css"
-					uri="/system/modules/com.alkacon.bootstrap.dev.demo/resources/css/headinclude_css.css" />
-			</headincludes>
 		</xsd:appinfo>
 	</xsd:annotation>
 </xsd:schema>

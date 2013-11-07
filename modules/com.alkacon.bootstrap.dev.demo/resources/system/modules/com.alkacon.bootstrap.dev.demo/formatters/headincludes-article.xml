@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Dev-Demo headinclude article formatter]]></NiceName>
+    <Type><![CDATA[ddheadincludearticle]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.dev.demo/formatters/headincludes-article.jsp]]></target>
+        <uuid>9f7c1f2a-ad52-11e0-9f4a-87a56edf3321</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[content]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>false</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <HeadIncludeCss>
+      <CssLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.dev.demo/resources/css/headinclude_css.css]]></target>
+          <uuid>da38970d-47d3-11e3-8474-000c29d28104</uuid>
+        </link>
+      </CssLink>
+    </HeadIncludeCss>
+    <HeadIncludeJs>
+      <JavascriptLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.dev.demo/resources/javascript/headinclude_script.js]]></target>
+          <uuid>e68cb7d1-47d3-11e3-8474-000c29d28104</uuid>
+        </link>
+      </JavascriptLink>
+    </HeadIncludeJs>
+  </NewFormatter>
+</NewFormatters>

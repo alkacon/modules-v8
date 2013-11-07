@@ -2,30 +2,22 @@
 
 <BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
   <BootstrapTextblock language="en">
-    <Title><![CDATA[Release Notes for OpenCms 9.0 RC]]></Title>
+    <Title><![CDATA[Release Notes for OpenCms 9.0.0]]></Title>
     <Paragraph>
-      <Headline><![CDATA[Release Notes for OpenCms 9.0 RC]]></Headline>
+      <Headline><![CDATA[Release Notes for OpenCms 9]]></Headline>
       <Text name="Text0">
         <links>
-          <link name="link4" internal="false" type="A">
-            <target><![CDATA[https://github.com/alkacon/opencms-core/issues%20]]></target>
-          </link>
           <link name="link2" internal="false" type="A">
-            <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
-          </link>
-          <link name="link3" internal="false" type="A">
-            <target><![CDATA[https://github.com/alkacon/opencms-core/pulls]]></target>
+            <target><![CDATA[https://github.com/alkacon/opencms-core/issues%20]]></target>
           </link>
           <link name="link0" internal="false" type="A">
-            <target><![CDATA[https://github.com/alkacon/opencms-core/issues%20]]></target>
+            <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
           </link>
           <link name="link1" internal="false" type="A">
-            <target><![CDATA[https://github.com/alkacon/opencms-core/issues%20]]></target>
+            <target><![CDATA[https://github.com/alkacon/opencms-core/pulls]]></target>
           </link>
         </links>
-        <content><![CDATA[<p>September 30, 2013: This is the release candidate (RC) publication of OpenCms 9. OpenCms 9 brings several enhancements while being fully backward compatible with OpenCms 8.x. </p>
-<p>We recommended OpenCms integrators, developers and contributors to install and thoroughly test this release candidate, in order to prepare for the upcoming OpenCms 9 final.</p>
-<p>Please report issues found in OpenCms 9 RC using <a href="%(link0)">our GitHub issue tracker</a>.</p>
+        <content><![CDATA[<p>November 8, 2013: This is the initial publication of OpenCms 9. OpenCms 9 brings several enhancements while being fully backward compatible with OpenCms 8.x. </p>
 <h2>New in OpenCms 9</h2>
 <ul>
 <li>Improved "in place" editing of web pages for text and also for images and other content types.</li>
@@ -37,7 +29,7 @@
 <li>Optimized build process using Gradle.</li>
 <li>A new responsive demo template based on Bootstrap as a base for customization.</li>
 </ul>
-<h2>Improved in OpenCms 9.0 RC</h2>
+<h2>Improved in OpenCms 9</h2>
 <ul>
 <li>Added gallery access to the toolbar.</li>
 <li>Added enhanced page / element info dialog, accessible from the toolbar.</li>
@@ -91,23 +83,19 @@
 <li>JSP integration for dynamic functionality in templates, dynamic forms etc.</li>
 <li>... and many more</li>
 </ul>
-<h2>Who should use OpenCms 9 RC?</h2>
-<p>We recommended OpenCms integrators, developers and contributors to install and thoroughly test this release candidate, in order to prepare for the upcoming OpenCms 9 final . OpenCms 9.0 RC should not be used for production websites.</p>
-<p>Please report issues found in OpenCms 9 RC using <a href="%(link1)">our GitHub issue tracker</a>.</p>
-<p>Users looking for a production installation of OpenCms should use the 8.5.2 version and upgrade to OpenCms 9 final when it is available.</p>
 <h2>Backward compatibility</h2>
 <p>OpenCms 9 is fully backward compatible with all 8.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 9.</p>
-<p>Notice for users of Alkacon OCEE: OpenCms 9 requires an new version of Alkacon OCEE that will be available with OpenCms 9 final.</p>
+<p><strong>Notice for users of Alkacon OCEE:</strong> OpenCms 9 requires an new version of Alkacon OCEE that will be released until November 15th.</p>
 <h2>Compatibility with Java versions, servlet containers and databases</h2>
 <p>OpenCms 9 has been written and tested for Java 6 and 7. We have tested with ORACLEs JDK as well as OpenJDK. OpenCms should run with all compliant JVMs.</p>
 <p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>
 <p>On the database side, we have tested with MySQL, Oracle, PostgreSQL, MS SQL Server, DB2 and HSQLDB.</p>
 <h2>Regarding version numbers and build tags</h2>
-<p>The main OpenCms Git repository is available on Github at <a href="%(link2)">github.com/alkacon/opencms-core</a>.</p>
-<p>In case you want to get the most current OpenCms 9 sources from Git, please check out the "branch_9_0_x". The 9.0 RC release is tagged "build_8_9_0".</p>
+<p>The main OpenCms Git repository is available on Github at <a href="%(link0)">github.com/alkacon/opencms-core</a>.</p>
+<p>In case you want to get the most current OpenCms 9 sources from Git, please check out the "branch_9_0_x". The 9.0.0 release is tagged "build_9_0_0".</p>
 <h2>How you can help</h2>
-<p>Contributions to the OpenCms core development are most welcome. <a href="%(link3)">Please send us your pull requests directly on GitHub.</a></p>
-<p>Please report issues found in OpenCms 9 using <a href="%(link4)">our GitHub issue tracker</a>.</p>
+<p>Contributions to the OpenCms core development are most welcome. <a href="%(link1)">Please send us your pull requests directly on GitHub.</a></p>
+<p>Please report issues found in OpenCms 9 using <a href="%(link2)">our GitHub issue tracker</a>.</p>
 <p>Thank you for using OpenCms and have fun with OpenCms 9 :-)</p>]]></content>
       </Text>
     </Paragraph>

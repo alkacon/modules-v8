@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>8.9.0.1</opencms_version>
-		<createdate>Thu, 07 Nov 2013 15:26:09 GMT</createdate>
+		<opencms_version>8.9.0</opencms_version>
+		<createdate>Thu, 07 Nov 2013 19:48:00 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>OpenCms 9 Development Demo</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap Development Demo, providing a collection of use cases.]]></description>
-		<version>8.9.0</version>
+		<version>8.0.14</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -331,54 +331,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>dev-demo/.content/element-group/elg-00001.html</source>
-			<destination>dev-demo/.content/element-group/elg-00001.html</destination>
-			<type>groupcontainer</type>
-			<uuidstructure>e0e1b884-812f-11e0-8d0a-0ffe1353a061</uuidstructure>
-			<uuidresource>e0e1b885-812f-11e0-8d0a-0ffe1353a061</uuidresource>
-			<datelastmodified>Tue, 15 Nov 2011 13:29:07 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 18 May 2011 09:19:05 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Description</name>
-					<value><![CDATA[This is an element group in the right column.]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Right Element Group for Developer Demo Template]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>dev-demo/.content/element-group/elg-00002.html</source>
-			<destination>dev-demo/.content/element-group/elg-00002.html</destination>
-			<type>groupcontainer</type>
-			<uuidstructure>f29609f8-812f-11e0-8d0a-0ffe1353a061</uuidstructure>
-			<uuidresource>f29609f9-812f-11e0-8d0a-0ffe1353a061</uuidresource>
-			<datelastmodified>Tue, 15 Nov 2011 13:28:31 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 18 May 2011 09:19:35 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Description</name>
-					<value><![CDATA[This is an element group in the left column.]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Left Element Group for Developer Demo Template]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>dev-demo/.content/images</destination>
 			<type>imagegallery</type>
 			<uuidstructure>ddd44b2f-c9a1-11e0-b626-e73d0dfd48ec</uuidstructure>
@@ -430,7 +382,7 @@
 			<type>image</type>
 			<uuidstructure>04f90bbb-c9a2-11e0-b626-e73d0dfd48ec</uuidstructure>
 			<uuidresource>04f90bbc-c9a2-11e0-b626-e73d0dfd48ec</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:01 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 15:50:01 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 18 Aug 2011 13:57:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -442,7 +394,7 @@
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[800px-Wernigerode_Laga_1]]></value>
+					<value><![CDATA[Image Sclae Demo]]></value>
 				</property>
 				<property type="shared">
 					<name>image.size</name>
@@ -530,7 +482,7 @@
 			<type>containerpage</type>
 			<uuidstructure>62ae0921-fc0e-11e1-8d62-07c78ffda53f</uuidstructure>
 			<uuidresource>62ae0922-fc0e-11e1-8d62-07c78ffda53f</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:52:35 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:02:05 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 11 Sep 2012 12:44:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -714,7 +666,7 @@
 			<type>containerpage</type>
 			<uuidstructure>bf39b7df-78a6-11e0-88e3-e3fff2a64270</uuidstructure>
 			<uuidresource>bf39b7e0-78a6-11e0-88e3-e3fff2a64270</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 13:05:03 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 17:16:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 May 2011 12:37:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -793,7 +745,7 @@
 			<type>jsp</type>
 			<uuidstructure>1ed39e81-c749-11e0-a174-e73d0dfd48ec</uuidstructure>
 			<uuidresource>1ed39e82-c749-11e0-a174-e73d0dfd48ec</uuidresource>
-			<datelastmodified>Tue, 19 Jun 2012 15:44:16 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 17:32:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 15 Aug 2011 14:16:08 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -817,7 +769,7 @@
 			<type>function</type>
 			<uuidstructure>c2b41a94-c7eb-11e0-9f81-e73d0dfd48ec</uuidstructure>
 			<uuidresource>c2b41a95-c7eb-11e0-9f81-e73d0dfd48ec</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 14:10:29 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 17:21:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 16 Aug 2011 09:40:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -863,7 +815,7 @@
 			<type>containerpage</type>
 			<uuidstructure>b9db333b-ba17-11e1-ab08-c524a635a326</uuidstructure>
 			<uuidresource>b9db333c-ba17-11e1-ab08-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:15:40 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 17:15:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 19 Jun 2012 14:04:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -941,7 +893,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>e3a31cc4-ba16-11e1-9ba9-c524a635a326</uuidstructure>
 			<uuidresource>e3a31cc5-ba16-11e1-9ba9-c524a635a326</uuidresource>
-			<datelastmodified>Tue, 19 Jun 2012 13:26:21 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 17:14:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 19 Jun 2012 13:58:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -956,41 +908,19 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>dev-demo/dynamic-function-detail/.content/element-group</destination>
-			<type>folder</type>
-			<uuidstructure>e3873afc-ba17-11e1-ab08-c524a635a326</uuidstructure>
-			<datelastmodified>Tue, 19 Jun 2012 14:05:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 19 Jun 2012 14:05:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>dev-demo/dynamic-function-detail/.content/settings-article</destination>
-			<type>folder</type>
-			<uuidstructure>e38258fa-ba17-11e1-ab08-c524a635a326</uuidstructure>
-			<datelastmodified>Tue, 19 Jun 2012 14:05:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 19 Jun 2012 14:05:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>dev-demo/dynamic-function-detail/calculation-results</destination>
 			<type>folder</type>
 			<uuidstructure>f2a96fe0-ba17-11e1-ab08-c524a635a326</uuidstructure>
-			<datelastmodified>Tue, 19 Jun 2012 14:06:47 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 17:01:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 19 Jun 2012 14:06:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>NavInfo</name>
+					<value><![CDATA[ignoreInDefaultNav]]></value>
+				</property>
 				<property>
 					<name>NavPos</name>
 					<value><![CDATA[1.0]]></value>
@@ -1013,7 +943,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f2b556c5-ba17-11e1-ab08-c524a635a326</uuidstructure>
 			<uuidresource>f2b556c6-ba17-11e1-ab08-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:16:34 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 17:00:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 19 Jun 2012 14:06:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1137,7 +1067,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>02ec5f80-c7dd-11e0-9f81-e73d0dfd48ec</uuidstructure>
 			<uuidresource>02ec5f81-c7dd-11e0-9f81-e73d0dfd48ec</uuidresource>
-			<datelastmodified>Fri, 15 Jun 2012 14:22:47 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:55:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 16 Aug 2011 07:54:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1170,7 +1100,7 @@
 			<type>function</type>
 			<uuidstructure>e2483687-c74c-11e0-a174-e73d0dfd48ec</uuidstructure>
 			<uuidresource>e2483688-c74c-11e0-a174-e73d0dfd48ec</uuidresource>
-			<datelastmodified>Fri, 15 Jun 2012 14:20:42 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:55:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 15 Aug 2011 14:43:04 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1194,7 +1124,7 @@
 			<type>jsp</type>
 			<uuidstructure>f828a581-c74c-11e0-a174-e73d0dfd48ec</uuidstructure>
 			<uuidresource>f828a582-c74c-11e0-a174-e73d0dfd48ec</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:01 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:57:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 15 Aug 2011 14:43:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1322,7 +1252,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>62bd4037-b4ac-11e1-b12d-c524a635a326</uuidstructure>
 			<uuidresource>62bd4038-b4ac-11e1-b12d-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 14 Jun 2012 10:13:36 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:29:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 12 Jun 2012 16:33:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1342,12 +1272,17 @@
 			<type>ddarticle</type>
 			<uuidstructure>2a6ea92c-b4ae-11e1-b12d-c524a635a326</uuidstructure>
 			<uuidresource>2a6ea92d-b4ae-11e1-b12d-c524a635a326</uuidresource>
-			<datelastmodified>Wed, 13 Jun 2012 14:32:24 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:30:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 12 Jun 2012 16:46:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[FlexCache is not enabled in the Offline]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1397,7 +1332,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>74eac8b8-b5fe-11e1-b8db-c524a635a326</uuidstructure>
 			<uuidresource>74eac8b9-b5fe-11e1-b8db-c524a635a326</uuidresource>
-			<datelastmodified>Fri, 29 Jun 2012 14:06:31 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:31:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 14 Jun 2012 08:53:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1417,7 +1352,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>637a6c38-b603-11e1-b8db-c524a635a326</uuidstructure>
 			<uuidresource>637a6c39-b603-11e1-b8db-c524a635a326</uuidresource>
-			<datelastmodified>Fri, 29 Jun 2012 14:07:07 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:34:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 14 Jun 2012 09:29:06 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1457,7 +1392,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>11cd8cb7-b609-11e1-b8db-c524a635a326</uuidstructure>
 			<uuidresource>11cd8cb8-b609-11e1-b8db-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 14 Jun 2012 10:13:22 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:28:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 14 Jun 2012 10:09:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1676,7 +1611,7 @@
 			<type>jsp</type>
 			<uuidstructure>004bb714-b601-11e1-b8db-c524a635a326</uuidstructure>
 			<uuidresource>004bb715-b601-11e1-b8db-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 14 Jun 2012 09:32:21 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:36:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 14 Jun 2012 09:12:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1969,7 +1904,7 @@
 			<type>containerpage</type>
 			<uuidstructure>49b0853b-ad57-11e0-863c-87a56edf3321</uuidstructure>
 			<uuidresource>49b0853c-ad57-11e0-863c-87a56edf3321</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:21:34 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:17:05 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 13 Jul 2011 13:52:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2052,7 +1987,7 @@
 			<type>ddheadincludearticle</type>
 			<uuidstructure>93e217c6-ad58-11e0-863c-87a56edf3321</uuidstructure>
 			<uuidresource>93e217c7-ad58-11e0-863c-87a56edf3321</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 13:06:15 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:20:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 13 Jul 2011 14:01:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2244,7 +2179,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>a41cf57f-abef-11e1-9748-c524a635a326</uuidstructure>
 			<uuidresource>a41cf580-abef-11e1-9748-c524a635a326</uuidresource>
-			<datelastmodified>Fri, 29 Jun 2012 13:30:37 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:19:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 01 Jun 2012 13:42:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2304,7 +2239,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>edc7c742-c1f0-11e1-b81a-c524a635a326</uuidstructure>
 			<uuidresource>edc7c743-c1f0-11e1-b81a-c524a635a326</uuidresource>
-			<datelastmodified>Fri, 29 Jun 2012 13:49:23 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:20:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 29 Jun 2012 13:47:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2413,7 +2348,7 @@
 			<type>containerpage</type>
 			<uuidstructure>c48eb2e8-ab38-11e1-9650-c524a635a326</uuidstructure>
 			<uuidresource>c48eb2e9-ab38-11e1-9650-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:38:38 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:20:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 May 2012 15:53:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2459,7 +2394,7 @@
 			<type>containerpage</type>
 			<uuidstructure>d20fbaf2-ab38-11e1-9650-c524a635a326</uuidstructure>
 			<uuidresource>d20fbaf3-ab38-11e1-9650-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:38:59 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:20:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 May 2012 15:53:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2505,7 +2440,7 @@
 			<type>inheritance_config</type>
 			<uuidstructure>07fa7ed5-aa2e-11e1-beb5-c524a635a326</uuidstructure>
 			<uuidresource>07fa7ed6-aa2e-11e1-beb5-c524a635a326</uuidresource>
-			<datelastmodified>Mon, 04 Jun 2012 08:58:27 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:22:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 May 2012 08:04:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2520,7 +2455,7 @@
 			<type>containerpage</type>
 			<uuidstructure>ee272ace-aa2d-11e1-beb5-c524a635a326</uuidstructure>
 			<uuidresource>ee272acf-aa2d-11e1-beb5-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:27:25 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:22:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 May 2012 08:03:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2618,7 +2553,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>ce9b8f7d-aa37-11e1-beb5-c524a635a326</uuidstructure>
 			<uuidresource>ce9b8f7e-aa37-11e1-beb5-c524a635a326</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 12:02:05 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:22:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 May 2012 09:14:06 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2698,7 +2633,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>8fedb606-aa58-11e1-8042-c524a635a326</uuidstructure>
 			<uuidresource>8fedb607-aa58-11e1-8042-c524a635a326</uuidresource>
-			<datelastmodified>Tue, 19 Jun 2012 16:43:57 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:21:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 May 2012 13:08:34 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2718,7 +2653,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>8670d491-aa5c-11e1-8042-c524a635a326</uuidstructure>
 			<uuidresource>8670d492-aa5c-11e1-8042-c524a635a326</uuidresource>
-			<datelastmodified>Tue, 19 Jun 2012 16:46:30 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:22:13 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 May 2012 13:36:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2904,7 +2839,7 @@
 			<type>inheritance_group</type>
 			<uuidstructure>197c92e7-aa2d-11e1-beb5-c524a635a326</uuidstructure>
 			<uuidresource>197c92e8-aa2d-11e1-beb5-c524a635a326</uuidresource>
-			<datelastmodified>Thu, 31 May 2012 15:44:12 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:22:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 May 2012 07:57:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3566,7 +3501,7 @@
 			<type>containerpage</type>
 			<uuidstructure>097891c1-fb44-11e1-a884-a7fa5f486432</uuidstructure>
 			<uuidresource>097891c2-fb44-11e1-a884-a7fa5f486432</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:46:53 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:51:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 10 Sep 2012 12:35:43 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3644,7 +3579,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>a79fc866-fb44-11e1-a884-a7fa5f486432</uuidstructure>
 			<uuidresource>a79fc867-fb44-11e1-a884-a7fa5f486432</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 14:48:25 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:00:05 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 10 Sep 2012 12:40:08 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3684,7 +3619,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>8c302f2c-fb57-11e1-a884-a7fa5f486432</uuidstructure>
 			<uuidresource>8c302f2d-fb57-11e1-a884-a7fa5f486432</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 11:01:37 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:00:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 10 Sep 2012 14:55:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3730,7 +3665,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f20af570-fb52-11e1-a884-a7fa5f486432</uuidstructure>
 			<uuidresource>f20af571-fb52-11e1-a884-a7fa5f486432</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:47:14 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:01:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 10 Sep 2012 14:22:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3776,7 +3711,7 @@
 			<type>containerpage</type>
 			<uuidstructure>6a802116-8130-11e0-8d0a-0ffe1353a061</uuidstructure>
 			<uuidresource>6a802117-8130-11e0-8d0a-0ffe1353a061</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:25:42 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:18:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 18 May 2011 09:22:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4041,7 +3976,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>782371b8-7f98-11e0-91cd-1df1339be1a9</uuidstructure>
 			<uuidresource>782371b9-7f98-11e0-91cd-1df1339be1a9</uuidresource>
-			<datelastmodified>Tue, 19 Jun 2012 16:28:39 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:35:27 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 May 2011 08:42:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4061,7 +3996,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>7cf1a8ee-7f9d-11e0-91cd-1df1339be1a9</uuidstructure>
 			<uuidresource>7cf1a8ef-7f9d-11e0-91cd-1df1339be1a9</uuidresource>
-			<datelastmodified>Tue, 19 Jun 2012 16:30:38 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:37:02 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 May 2011 09:18:40 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4277,7 +4212,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>f71ecf8e-ae25-11e1-be24-c524a635a326</uuidstructure>
 			<uuidresource>f71ecf8f-ae25-11e1-be24-c524a635a326</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 10:25:13 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:23:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Jun 2012 09:16:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4297,7 +4232,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>5a8a2dee-ae2a-11e1-be24-c524a635a326</uuidstructure>
 			<uuidresource>5a8a2def-ae2a-11e1-be24-c524a635a326</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 10:26:05 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:23:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Jun 2012 09:47:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4377,7 +4312,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>cf790c6d-b49c-11e1-b12d-c524a635a326</uuidstructure>
 			<uuidresource>cf790c6e-b49c-11e1-b12d-c524a635a326</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 10:46:09 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:27:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 12 Jun 2012 14:42:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4397,7 +4332,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>81087364-b4aa-11e1-b12d-c524a635a326</uuidstructure>
 			<uuidresource>81087365-b4aa-11e1-b12d-c524a635a326</uuidresource>
-			<datelastmodified>Mon, 10 Sep 2012 10:47:14 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:27:53 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 12 Jun 2012 16:20:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4405,7 +4340,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Change the order in navigation]]></value>
+					<value><![CDATA[Change the navigation order]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -4678,7 +4613,7 @@
 			<type>containerpage</type>
 			<uuidstructure>29e97d5a-77f7-11e0-b1d0-cde485e16fbf</uuidstructure>
 			<uuidresource>29e97d5b-77f7-11e0-b1d0-cde485e16fbf</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:22:40 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:29:55 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 May 2011 15:40:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4751,32 +4686,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>dev-demo/no-script/.content/content/ns-00001.html</source>
-			<destination>dev-demo/no-script/.content/content/ns-00001.html</destination>
-			<type>ddarticle</type>
-			<uuidstructure>6acd5b29-77f9-11e0-8ad9-cde485e16fbf</uuidstructure>
-			<uuidresource>6acd5b2a-77f9-11e0-8ad9-cde485e16fbf</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:02 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 06 May 2011 15:56:34 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Facebook Like button]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>dev-demo/no-script/.content/content/ns-00003.html</source>
 			<destination>dev-demo/no-script/.content/content/ns-00003.html</destination>
 			<type>ddarticle</type>
 			<uuidstructure>b9649be7-7806-11e0-9411-cde485e16fbf</uuidstructure>
 			<uuidresource>b9649be8-7806-11e0-9411-cde485e16fbf</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:02 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:31:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 May 2011 17:31:49 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4796,7 +4711,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>4f06017a-7808-11e0-9411-cde485e16fbf</uuidstructure>
 			<uuidresource>4f06017b-7808-11e0-9411-cde485e16fbf</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 13:06:59 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 18:33:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 May 2011 17:43:10 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4842,7 +4757,7 @@
 			<type>containerpage</type>
 			<uuidstructure>d41d329c-788d-11e0-a908-e3fff2a64270</uuidstructure>
 			<uuidresource>d41d329d-788d-11e0-a908-e3fff2a64270</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 13:06:18 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:49:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 May 2011 09:38:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4925,7 +4840,7 @@
 			<type>ddarticle</type>
 			<uuidstructure>cefa209d-788f-11e0-a908-e3fff2a64270</uuidstructure>
 			<uuidresource>cefa209e-788f-11e0-a908-e3fff2a64270</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 13:04:44 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 15:57:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 May 2011 09:53:06 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4940,20 +4855,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>dev-demo/scale-image/.content/content/is-00002.html</source>
-			<destination>dev-demo/scale-image/.content/content/is-00002.html</destination>
+			<source>dev-demo/scale-image/.content/content/is-00003.html</source>
+			<destination>dev-demo/scale-image/.content/content/is-00003.html</destination>
 			<type>ddarticle</type>
-			<uuidstructure>cef6ae47-78a3-11e0-88e3-e3fff2a64270</uuidstructure>
-			<uuidresource>cef6ae48-78a3-11e0-88e3-e3fff2a64270</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:03 GMT</datelastmodified>
+			<uuidstructure>9e1ec1a9-47c2-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>9e1ec1aa-47c2-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 15:57:15 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Sat, 07 May 2011 12:16:16 GMT</datecreated>
+			<datecreated>Thu, 07 Nov 2013 15:38:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Dynamic image size demo]]></value>
+					<value><![CDATA[Image Scaling]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -4991,7 +4906,7 @@
 			<type>containerpage</type>
 			<uuidstructure>db002165-788f-11e0-a908-e3fff2a64270</uuidstructure>
 			<uuidresource>db002166-788f-11e0-a908-e3fff2a64270</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:10:38 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:39:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 May 2011 09:53:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5074,7 +4989,7 @@
 			<type>ddsettingsarticle</type>
 			<uuidstructure>c774d614-78a3-11e0-88e3-e3fff2a64270</uuidstructure>
 			<uuidresource>c774d615-78a3-11e0-88e3-e3fff2a64270</uuidresource>
-			<datelastmodified>Fri, 15 Jun 2012 13:51:55 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:39:54 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 07 May 2011 12:16:04 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5082,7 +4997,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Settings Demo]]></value>
+					<value><![CDATA[Settings Demo with image]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5094,7 +5009,7 @@
 			<type>ddsettingsarticle</type>
 			<uuidstructure>5a827dcd-7984-11e0-934b-1df1339be1a9</uuidstructure>
 			<uuidresource>5a827dce-7984-11e0-934b-1df1339be1a9</uuidresource>
-			<datelastmodified>Thu, 18 Aug 2011 14:19:03 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:40:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sun, 08 May 2011 15:03:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5171,7 +5086,7 @@
 			<type>module_config</type>
 			<uuidstructure>bafbd09b-0f9e-11e1-b485-71bb13df40eb</uuidstructure>
 			<uuidresource>bafbd09c-0f9e-11e1-b485-71bb13df40eb</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 14:32:00 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:48:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 15 Nov 2011 15:30:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5212,35 +5127,21 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article</destination>
-			<type>folder</type>
-			<uuidstructure>ffe38ad3-7648-11e0-a23b-8fedaf1e6b74</uuidstructure>
-			<datelastmodified>Sat, 07 May 2011 13:16:39 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 04 May 2011 12:21:12 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Formatters for article]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/center.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/center.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/dev-article.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/dev-article.jsp</destination>
 			<type>jsp</type>
 			<uuidstructure>fe5645f7-7646-11e0-a23b-8fedaf1e6b74</uuidstructure>
 			<uuidresource>fe5645f8-7646-11e0-a23b-8fedaf1e6b74</uuidresource>
-			<datelastmodified>Mon, 16 May 2011 09:53:22 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:08:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 04 May 2011 12:06:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Default article formatter JSP]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -5250,146 +5151,53 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/side.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/side.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>e7685ea4-7646-11e0-a23b-8fedaf1e6b74</uuidstructure>
-			<uuidresource>e7685ea5-7646-11e0-a23b-8fedaf1e6b74</uuidresource>
-			<datelastmodified>Sat, 07 May 2011 09:05:06 GMT</datelastmodified>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/dev-article.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/dev-article.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>01b97a72-47cc-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>01b97a73-47cc-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:05:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 04 May 2011 12:06:12 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/inline-editing</destination>
-			<type>folder</type>
-			<uuidstructure>b5362f6d-fb53-11e1-a884-a7fa5f486432</uuidstructure>
-			<datelastmodified>Mon, 10 Sep 2012 14:28:19 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 10 Sep 2012 14:27:53 GMT</datecreated>
+			<datecreated>Thu, 07 Nov 2013 16:45:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Formatters for inline editing demo]]></value>
+					<value><![CDATA[Dev-Demo default article formatter]]></value>
 				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/inline-editing/center.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/inline-editing/center.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>ed6d3500-fb53-11e1-a884-a7fa5f486432</uuidstructure>
-			<uuidresource>ed6d3501-fb53-11e1-a884-a7fa5f486432</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 16:18:27 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 10 Sep 2012 14:29:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/inline-editing/side.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/inline-editing/side.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>ed7b65d3-fb53-11e1-a884-a7fa5f486432</uuidstructure>
-			<uuidresource>ed7b65d4-fb53-11e1-a884-a7fa5f486432</uuidresource>
-			<datelastmodified>Tue, 11 Sep 2012 16:18:29 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 10 Sep 2012 14:29:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/no_script</destination>
-			<type>folder</type>
-			<uuidstructure>9a0aabd2-77f8-11e0-b1d0-cde485e16fbf</uuidstructure>
-			<datelastmodified>Sat, 07 May 2011 09:05:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 06 May 2011 15:50:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/no_script/both.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article/no_script/both.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>a7063024-77f8-11e0-b1d0-cde485e16fbf</uuidstructure>
-			<uuidresource>a7063025-77f8-11e0-b1d0-cde485e16fbf</uuidresource>
-			<datelastmodified>Sat, 07 May 2011 09:05:06 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 06 May 2011 15:51:05 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article_with_headincludes</destination>
-			<type>folder</type>
-			<uuidstructure>80edb417-ad52-11e0-9f4a-87a56edf3321</uuidstructure>
-			<datelastmodified>Wed, 13 Jul 2011 13:18:07 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 13 Jul 2011 13:17:48 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
 				<property>
-					<name>Title</name>
-					<value><![CDATA[Formatters for article with headincludes]]></value>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article_with_headincludes/center.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article_with_headincludes/center.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/headincludes-article.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/headincludes-article.jsp</destination>
 			<type>jsp</type>
 			<uuidstructure>9f7c1f2a-ad52-11e0-9f4a-87a56edf3321</uuidstructure>
 			<uuidresource>9f7c1f2b-ad52-11e0-9f4a-87a56edf3321</uuidresource>
-			<datelastmodified>Wed, 13 Jul 2011 15:33:16 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:08:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 13 Jul 2011 13:18:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Headinclude article formatter JSP]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -5399,58 +5207,200 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article_with_headincludes/side.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/article_with_headincludes/side.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>f6bb1021-ad53-11e0-9f4a-87a56edf3321</uuidstructure>
-			<uuidresource>f6bb1022-ad53-11e0-9f4a-87a56edf3321</uuidresource>
-			<datelastmodified>Wed, 13 Jul 2011 15:33:07 GMT</datelastmodified>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/headincludes-article.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/headincludes-article.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>fbc67bc6-47d2-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>fbc67bc7-47d2-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:05:54 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 13 Jul 2011 13:28:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/settings_article</destination>
-			<type>folder</type>
-			<uuidstructure>5a43edda-77d7-11e0-bb7c-cde485e16fbf</uuidstructure>
-			<datelastmodified>Sat, 07 May 2011 13:14:21 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 06 May 2011 11:52:43 GMT</datecreated>
+			<datecreated>Thu, 07 Nov 2013 17:35:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Formatters for settings]]></value>
+					<value><![CDATA[Dev-Demo headinclude article formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/settings_article/settings.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/settings_article/settings.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/inline-article.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/inline-article.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>ed6d3500-fb53-11e1-a884-a7fa5f486432</uuidstructure>
+			<uuidresource>ed6d3501-fb53-11e1-a884-a7fa5f486432</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:09:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 10 Sep 2012 14:29:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inline article formatter JSP]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/inline-article.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/inline-article.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>54a17a21-47dd-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>54a17a22-47dd-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:06:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:49:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dev-Demo inline edit article formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/noscript-article.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/noscript-article.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>a7063024-77f8-11e0-b1d0-cde485e16fbf</uuidstructure>
+			<uuidresource>a7063025-77f8-11e0-b1d0-cde485e16fbf</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:09:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 06 May 2011 15:51:05 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[No script article formatter JSP]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/noscript-article.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/noscript-article.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>e3c3766a-47d9-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>e3c3766b-47d9-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:06:59 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 18:24:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dev-Demo no script article formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/settings-article.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/settings-article.jsp</destination>
 			<type>jsp</type>
 			<uuidstructure>9038eed2-773f-11e0-af56-eda16dd9314c</uuidstructure>
 			<uuidresource>9038eed3-773f-11e0-af56-eda16dd9314c</uuidresource>
-			<datelastmodified>Mon, 30 May 2011 09:31:11 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 19:09:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 05 May 2011 17:46:10 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Settings article formatter JSP]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/formatters/settings-article.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/formatters/settings-article.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>d8000d3d-47c8-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>d8000d3e-47c8-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:07:20 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 16:22:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dev-Demo settings article formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5475,8 +5425,32 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-form.html</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-form.html</destination>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-form.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-form.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>f409530b-0f99-11e1-b485-71bb13df40eb</uuidstructure>
+			<uuidresource>f409530c-0f99-11e1-b485-71bb13df40eb</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 17:02:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Nov 2011 14:56:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Simple calculator form for Dev Demo]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-form.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-form.xml</destination>
 			<type>function</type>
 			<uuidstructure>7ff14641-0fa3-11e1-b485-71bb13df40eb</uuidstructure>
 			<uuidresource>7ff14642-0fa3-11e1-b485-71bb13df40eb</uuidresource>
@@ -5499,20 +5473,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-form.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-form.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-result.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-result.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>f409530b-0f99-11e1-b485-71bb13df40eb</uuidstructure>
-			<uuidresource>f409530c-0f99-11e1-b485-71bb13df40eb</uuidresource>
-			<datelastmodified>Tue, 19 Jun 2012 15:58:09 GMT</datelastmodified>
+			<uuidstructure>d2509763-0f9b-11e1-b485-71bb13df40eb</uuidstructure>
+			<uuidresource>d2509764-0f9b-11e1-b485-71bb13df40eb</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 17:12:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 15 Nov 2011 14:56:09 GMT</datecreated>
+			<datecreated>Tue, 15 Nov 2011 15:09:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Simple calculator form for Dev Demo]]></value>
+					<value><![CDATA[Result page of the calculation]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -5523,8 +5497,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-result.html</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-result.html</destination>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-result.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-result.xml</destination>
 			<type>function</type>
 			<uuidstructure>849abca9-0fa1-11e1-b485-71bb13df40eb</uuidstructure>
 			<uuidresource>849abcaa-0fa1-11e1-b485-71bb13df40eb</uuidresource>
@@ -5547,20 +5521,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-result.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/calculator-result.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/simple-collector.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/simple-collector.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>d2509763-0f9b-11e1-b485-71bb13df40eb</uuidstructure>
-			<uuidresource>d2509764-0f9b-11e1-b485-71bb13df40eb</uuidresource>
-			<datelastmodified>Tue, 19 Jun 2012 14:45:09 GMT</datelastmodified>
+			<uuidstructure>d98390ec-f8e6-11e1-b7b5-a7fa5f486432</uuidstructure>
+			<uuidresource>d98390ed-f8e6-11e1-b7b5-a7fa5f486432</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 19:03:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 15 Nov 2011 15:09:32 GMT</datecreated>
+			<datecreated>Fri, 07 Sep 2012 12:23:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Result page of the calculation]]></value>
+					<value><![CDATA[Simple collector with error handling]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -5571,8 +5545,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/simple-collector.html</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/simple-collector.html</destination>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/simple-collector.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/simple-collector.xml</destination>
 			<type>function</type>
 			<uuidstructure>67b3abd9-f8e6-11e1-b7b5-a7fa5f486432</uuidstructure>
 			<uuidresource>67b3abda-f8e6-11e1-b7b5-a7fa5f486432</uuidresource>
@@ -5589,30 +5563,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Dev-Demo: Simple collector with error handling]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.dev.demo/functions/simple-collector.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.dev.demo/functions/simple-collector.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>d98390ec-f8e6-11e1-b7b5-a7fa5f486432</uuidstructure>
-			<uuidresource>d98390ed-f8e6-11e1-b7b5-a7fa5f486432</uuidresource>
-			<datelastmodified>Thu, 13 Sep 2012 09:03:36 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 07 Sep 2012 12:23:37 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Simple collector with error handling]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5661,6 +5611,100 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/resources</destination>
+			<type>folder</type>
+			<uuidstructure>9a100783-47d3-11e3-8474-000c29d28104</uuidstructure>
+			<datelastmodified>Thu, 07 Nov 2013 17:40:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 17:39:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Static resource]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/resources/css</destination>
+			<type>folder</type>
+			<uuidstructure>b8016f49-47d3-11e3-8474-000c29d28104</uuidstructure>
+			<datelastmodified>Thu, 07 Nov 2013 17:40:43 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 17:40:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CSS Resources]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/resources/css/headinclude_css.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/resources/css/headinclude_css.css</destination>
+			<type>plain</type>
+			<uuidstructure>da38970d-47d3-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>da38970e-47d3-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 17:41:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 17:41:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[headinclude_css]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/resources/javascript</destination>
+			<type>folder</type>
+			<uuidstructure>b1882d76-47d3-11e3-8474-000c29d28104</uuidstructure>
+			<datelastmodified>Thu, 07 Nov 2013 17:40:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 17:40:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[JS Resources]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.dev.demo/resources/javascript/headinclude_script.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.dev.demo/resources/javascript/headinclude_script.js</destination>
+			<type>plain</type>
+			<uuidstructure>e68cb7d1-47d3-11e3-8474-000c29d28104</uuidstructure>
+			<uuidresource>e68cb7d2-47d3-11e3-8474-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 17:41:58 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 17:41:58 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[headinclude_script]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.bootstrap.dev.demo/schemas</destination>
 			<type>folder</type>
 			<uuidstructure>c606e01b-673d-11e0-8b6f-0760e8fc984c</uuidstructure>
@@ -5684,7 +5728,7 @@
 			<type>plain</type>
 			<uuidstructure>7584ca80-7646-11e0-a23b-8fedaf1e6b74</uuidstructure>
 			<uuidresource>7584ca81-7646-11e0-a23b-8fedaf1e6b74</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 13:03:30 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:47:26 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 04 May 2011 12:03:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5704,7 +5748,7 @@
 			<type>plain</type>
 			<uuidstructure>f4664770-ad4f-11e0-9f4a-87a56edf3321</uuidstructure>
 			<uuidresource>f4664771-ad4f-11e0-9f4a-87a56edf3321</uuidresource>
-			<datelastmodified>Wed, 13 Jul 2011 15:20:30 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 17:38:36 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 13 Jul 2011 12:59:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5724,7 +5768,7 @@
 			<type>plain</type>
 			<uuidstructure>7bece07a-77cc-11e0-ad4b-cde485e16fbf</uuidstructure>
 			<uuidresource>7bece07b-77cc-11e0-ad4b-cde485e16fbf</uuidresource>
-			<datelastmodified>Wed, 13 Jul 2011 15:17:05 GMT</datelastmodified>
+			<datelastmodified>Thu, 07 Nov 2013 16:24:54 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 06 May 2011 10:34:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>

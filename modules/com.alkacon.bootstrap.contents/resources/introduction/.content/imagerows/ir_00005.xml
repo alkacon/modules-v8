@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapImagerows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd">
+  <BootstrapImagerow language="en">
+    <Title><![CDATA[Introduction: Edit content]]></Title>
+    <Item>
+      <Headline><![CDATA[Inline editing]]></Headline>
+      <Text><![CDATA[Click anywhere in the page when the cursor becomes a pen to bring up the inline text editor.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-17.png]]></target>
+          <uuid>e7027bac-47e1-11e3-8474-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Adding images]]></Headline>
+      <Text><![CDATA[Optional images are added by clicking on a '+' icon on the right.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-18.png]]></target>
+          <uuid>e633e103-47e1-11e3-8474-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Link/>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Image galleries]]></Headline>
+      <Text><![CDATA[Images are selected from image galleries.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-19.png]]></target>
+          <uuid>e6730ce6-47e1-11e3-8474-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Form based editing]]></Headline>
+      <Text><![CDATA[Click on the pen icon in the toolbar or directly in the 'bullseye' menu to open the full form editor.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-20.png]]></target>
+          <uuid>e6aba919-47e1-11e3-8474-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+  </BootstrapImagerow>
+</BootstrapImagerows>
