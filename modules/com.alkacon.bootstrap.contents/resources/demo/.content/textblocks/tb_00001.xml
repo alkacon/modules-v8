@@ -4,12 +4,11 @@
   <BootstrapTextblock language="en">
     <Title><![CDATA[Full width example]]></Title>
     <Paragraph>
-      <Headline><![CDATA[Full width example]]></Headline>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<h1>Lorem ipsum dolor sit amet.</h1>
+        <content><![CDATA[<h1>OpenCms is easy to use</h1>
 <p>Lonsetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<h2>Lorem ipsum dolor sit amet.</h2>
+<h2>OpenCms is fun to work with</h2>
 <p>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>]]></content>
       </Text>
       <Image>

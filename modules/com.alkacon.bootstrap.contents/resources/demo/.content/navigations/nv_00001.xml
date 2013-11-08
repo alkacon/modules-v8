@@ -3,7 +3,7 @@
 <BootstrapNavigations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/navigation.xsd">
   <BootstrapNavigation language="en">
     <Title><![CDATA[Demo Main Navigation]]></Title>
-    <NavStartLevel><![CDATA[1]]></NavStartLevel>
+    <NavStartLevel><![CDATA[0]]></NavStartLevel>
     <LogoLink>
       <link internal="true" type="WEAK">
         <target><![CDATA[/sites/default/]]></target>
@@ -12,32 +12,38 @@
     </LogoLink>
     <Header name="Header0">
       <links>
-        <link name="link2" internal="true" type="A">
-          <target><![CDATA[/sites/default/demo/pages/login-page/]]></target>
+        <link name="link4" internal="true" type="A">
+          <target><![CDATA[/sites/default/demo/login/]]></target>
           <uuid>e6b2fe3a-274a-11e3-a044-000c29d28104</uuid>
         </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/release/]]></target>
+          <uuid>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuid>
+        </link>
+        <link name="link3" internal="true" type="A">
+          <target><![CDATA[/sites/default/demo/search-page/]]></target>
+          <uuid>708105f3-4072-11e3-be04-000c297c001d</uuid>
+        </link>
         <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/demo/]]></target>
-          <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
+          <target><![CDATA[/sites/default/]]></target>
+          <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
         </link>
         <link name="link1" internal="true" type="A">
-          <target><![CDATA[/sites/default/introduction/]]></target>
+          <target><![CDATA[/sites/default/tutorial/]]></target>
           <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
         </link>
       </links>
       <content><![CDATA[<ul class="loginbar pull-right">
-            <!-- <li><i class="icon-globe"></i><a>Languages</a>
-            	<ul class="lenguages">
-                	<li><a href="#">English</a></li>
-                	<li><a href="#">German</a></li>
-                </ul>
-            </li> //-->
-            <li><a href="%(link0)" >Demo Home Page</a></li>
+            <li><a href="%(link0)">Welcome</a></li>
             <li class="devider"></li>
-            <li><a href="%(link1)">Help</a></li>
+            <li><a href="%(link1)">Tutorial</a></li>
             <li class="devider"></li>
-            <li><a href="%(link2)">Login</a></li>
-        </ul>]]></content>
+            <li><a href="%(link2)">Release notes</a></li>
+            <li class="devider"></li>
+            <li><a href="%(link3)">Search</a></li>
+            <li class="devider"></li>
+            <li><a href="%(link4)">Login</a></li>
+</ul>]]></content>
     </Header>
   </BootstrapNavigation>
 </BootstrapNavigations>

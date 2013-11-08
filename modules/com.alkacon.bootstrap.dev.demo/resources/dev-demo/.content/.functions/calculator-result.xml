@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
+  <DynamicFunction language="en">
+    <Title><![CDATA[Dev-Demo: Simple calculator result]]></Title>
+    <Description><![CDATA[Dev-Demo: Dynamic Function providing the result page of the simple calculator]]></Description>
+    <FunctionProvider>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/dev-demo/.content/.functions/calculator-result.jsp]]></target>
+        <uuid>d2509763-0f9b-11e1-b485-71bb13df40eb</uuid>
+      </link>
+    </FunctionProvider>
+  </DynamicFunction>
+</DynamicFunctions>

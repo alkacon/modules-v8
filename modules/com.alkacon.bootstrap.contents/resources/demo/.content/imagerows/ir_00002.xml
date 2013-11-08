@@ -2,7 +2,7 @@
 
 <BootstrapImagerows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd">
   <BootstrapImagerow language="en">
-    <Title><![CDATA[Image row with 3 items]]></Title>
+    <Title><![CDATA[Full control over the created HTML]]></Title>
     <Item>
       <Headline><![CDATA[Turbine]]></Headline>
       <Text><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.]]></Text>

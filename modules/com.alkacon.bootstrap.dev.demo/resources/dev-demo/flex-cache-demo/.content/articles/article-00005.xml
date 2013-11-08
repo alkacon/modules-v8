@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DevDemoArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.dev.demo/schemas/article.xsd">
+  <DevDemoArticle language="en">
+    <Title><![CDATA[Example 2: Another Inclusion]]></Title>
+    <Text name="Text0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/dev-demo/flex-cache-demo/page-inclusion-2/]]></target>
+          <uuid>0d3ffa0c-b5ff-11e1-b8db-c524a635a326</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Another example for an inclusion, this time with other cache directives. The cache property of the first file is set to "always", which means that there will always be the same result generated for all requests. The cache property of the included file is set to "never". Refresh the page <a href="%(link0)" target="_self">Example 2</a> to see effects of the different cache directives.</p>
+<p>Following jsps are used in this example:</p>
+<p><code>/system/modules/com.alkacon.bootstrap.dev.demo/functions/include-exmaple2.jsp</code></p>
+<p><code>/system/modules/com.alkacon.bootstrap.dev.demo/functions/include-target2.jsp</code></p>]]></content>
+    </Text>
+    <Image/>
+  </DevDemoArticle>
+</DevDemoArticles>

@@ -21,6 +21,9 @@
           <link name="link4" internal="false" type="A">
             <target><![CDATA[http://github.com/alkacon]]></target>
           </link>
+          <link name="link10" internal="false" type="A">
+            <target><![CDATA[http://slideshare.net/AlkaconOpenCms/presentations]]></target>
+          </link>
           <link name="link5" internal="false" type="A">
             <target><![CDATA[https://twitter.com/AlkaconOpenCms]]></target>
           </link>
@@ -35,23 +38,6 @@
           </link>
           <link name="link1" internal="false" type="A">
             <target><![CDATA[http://www.alkacon.com/en/products/]]></target>
-          </link>
-          <link name="link13" internal="false" type="A">
-            <target><![CDATA[http://www.alkacon.com]]></target>
-          </link>
-          <link name="link14" internal="true" type="IMG">
-            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_alkacon_png24.png]]></target>
-            <uuid>a9d4b54a-1abc-11e3-9246-000c29f9a2ec</uuid>
-            <query><![CDATA[__scale=w:120,h:39,c:transparent]]></query>
-          </link>
-          <link name="link10" internal="false" type="A">
-            <target><![CDATA[http://slideshare.net/AlkaconOpenCms/presentations]]></target>
-          </link>
-          <link name="link11" internal="false" type="A">
-            <target><![CDATA[http://www.opencms.org]]></target>
-          </link>
-          <link name="link12" internal="false" type="A">
-            <target><![CDATA[http://www.alkacon.com]]></target>
           </link>
         </links>
         <content><![CDATA[<!--=== Footer ===-->
@@ -117,21 +103,44 @@ Phone: +49 2236 / 3826 - 0<br />
 		</div>
     </div>
 </div><!--/footer-->	
-<!--=== End Footer ===-->
-
-<!--=== Copyright ===-->
+<!--=== End Footer ===-->]]></content>
+      </Code>
+      <Code name="Code1">
+        <links>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[http://www.alkacon.com]]></target>
+          </link>
+          <link name="link3" internal="true" type="IMG">
+            <target><![CDATA[/sites/default/introduction/.galleries/intro-images/alkacon_logo.png]]></target>
+            <uuid>5bea2a93-47e6-11e3-8474-000c29d28104</uuid>
+            <query><![CDATA[__scale=w:120,h:39,c:transparent]]></query>
+          </link>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://www.opencms.org]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://www.alkacon.com]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<!--=== Copyright ===-->
 <div class="copyright">
-    <div class="container">
-		<div class="row">
-			<div class="col-md-8">
-<p>Build with <a href="%(link11)">OpenCms - The Open Source CMS</a> from <a href="%(link12)">Alkacon Software - The OpenCms Experts</a></p>
+<div class="container">
+<div class="row">
+
+<div class="col-sm-9">
+<p>Build with <a href="%(link0)">OpenCms - The Open Source CMS</a> from <a href="%(link1)">Alkacon Software - The OpenCms Experts</a><br>
+Alkacon and the OpenCms logo are registered trademarks owned by Alkacon Software.</p>
 </div>
-			<div class="col-md-4">
-<a href="%(link13)"><img id="logo-footer" src="%(link14)" class="pull-right" alt="Alkacon Software GmbH" /></a>
+
+<div class="col-sm-3">
+<a href="%(link2)">
+<img id="logo-footer" src="%(link3)" class="pull-right" alt="Alkacon Software GmbH" />
+</a>
 </div>
-		</div><!--/row-fluid-->
-    </div>
-</div><!--/copyright-->
+
+</div>
+</div>
+</div>
 <!--=== End Copyright ===-->]]></content>
       </Code>
     </Choice>

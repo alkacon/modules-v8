@@ -2,10 +2,10 @@
 
 <BootstrapLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/list.xsd">
   <BootstrapList language="en">
-    <Title><![CDATA[Recent news (large)]]></Title>
+    <Title><![CDATA[News about OpenCms]]></Title>
     <FilterQueries/>
     <SortOrder><![CDATA[desc]]></SortOrder>
     <RowCount><![CDATA[3]]></RowCount>
-    <CreatePath><![CDATA[/sites/default/demo/.content/blogentries/be_%(number:5).html]]></CreatePath>
+    <CreatePath><![CDATA[/sites/default/demo/.content/blogentries/be_%(number:5).xml]]></CreatePath>
   </BootstrapList>
 </BootstrapLists>

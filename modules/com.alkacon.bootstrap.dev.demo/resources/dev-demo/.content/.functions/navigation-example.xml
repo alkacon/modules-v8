@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
+  <DynamicFunction language="en">
+    <Title><![CDATA[Dev-Demo: Simple navigation examaple]]></Title>
+    <Description><![CDATA[A simple navigation examaple for the Dev-Demo]]></Description>
+    <FunctionProvider>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/dev-demo/.content/.functions/navigation-exmaple.jsp]]></target>
+        <uuid>004bb714-b601-11e1-b8db-c524a635a326</uuid>
+      </link>
+    </FunctionProvider>
+  </DynamicFunction>
+</DynamicFunctions>

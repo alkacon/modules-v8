@@ -4,7 +4,7 @@
   <BootstrapTextblock language="en">
     <Title><![CDATA[Main content element]]></Title>
     <Paragraph>
-      <Headline><![CDATA[Main content element]]></Headline>
+      <Headline><![CDATA[OpenCms has all the features]]></Headline>
       <Text name="Text0">
         <links/>
         <content><![CDATA[<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>

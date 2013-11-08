@@ -36,12 +36,6 @@
       <WidgetConfig><![CDATA[left:%(key.bootstrap.setting.image.left)|right:%(key.bootstrap.setting.image.right)]]></WidgetConfig>
     </Setting>
     <Setting>
-      <PropertyName><![CDATA[showdate]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.setting.showdate)]]></DisplayName>
-      <Widget><![CDATA[checkbox]]></Widget>
-      <Default><![CDATA[false]]></Default>
-    </Setting>
-    <Setting>
       <PropertyName><![CDATA[color]]></PropertyName>
       <DisplayName><![CDATA[%(key.bootstrap.setting.color)]]></DisplayName>
       <Widget><![CDATA[select]]></Widget>

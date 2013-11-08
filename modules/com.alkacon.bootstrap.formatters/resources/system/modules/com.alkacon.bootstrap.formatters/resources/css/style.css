@@ -237,8 +237,8 @@ blockquote:hover {
 .footer {
 	color: #dadada;
 	margin-top: 40px;
-	padding: 20px 0 30px;
-	background: #585f69;
+	padding: 20px 0 20px;
+	background: #6d7580;
 }
 
 .footer.margin-top-0 {
@@ -320,13 +320,9 @@ blockquote:hover {
 /*Copyright*/
 .copyright {
 	font-size: 12px;
-	padding: 11px 0 7px;
-	background: #3e4753;
+	padding: 15px 0 7px;
+	background: #ddd;
 	border-top: solid 1px #777;	
-}
-
-.copyright p {
-	color: #dadada;
 }
 
 .copyright p.copyright-space {
@@ -334,7 +330,7 @@ blockquote:hover {
 }
 
 .copyright a {
-	margin: 0 5px;
+	margin: 0 2px;
 	color: #72c02c;
 }
 .copyright a:hover {

@@ -6,7 +6,7 @@
 
 <cms:formatter var="content">
 
-<div<c:if test="${cms.container.type == 'content-wide'}"> class="row"</c:if>>
+<div class="<c:if test="${cms.container.type == 'content-wide'}">row </c:if>margin-bottom-30">
 
 <c:forEach var="paragraph" items="${content.valueList.Paragraph}">
 
@@ -19,11 +19,11 @@
 				<c:if test="${paragraph.value.Image.exists}">
 					<div class="col-md-4 col-sm-2 hidden-xs">
 						<div class="thumbnail-kenburn"><div class="overflow-hidden">
-							<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
+							<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" noDim="true" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 						</div></div>		
 					</div>
 				</c:if>
-				<div class="<c:choose><c:when test="${paragraph.value.Image.exists}">col-md-8 col-sm-10 col-xs-12"</c:when><c:otherwise>col-xs-12</c:otherwise></c:choose>">
+				<div class="<c:choose><c:when test="${paragraph.value.Image.exists}">col-md-8 col-sm-10 col-xs-12</c:when><c:otherwise>col-xs-12</c:otherwise></c:choose>">
 					<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>		
 					<c:if test="${paragraph.value.Link.exists}">
 						<p><a class="btn-u btn-u-small" href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a></p>

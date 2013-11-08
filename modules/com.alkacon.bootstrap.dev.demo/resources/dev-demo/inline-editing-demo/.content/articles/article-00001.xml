@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DevDemoArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.dev.demo/schemas/article.xsd">
+  <DevDemoArticle language="en">
+    <Title><![CDATA[Inline Editing]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Inline editing is a new feature introduced with OpenCms 8.5 and refined in OpenCms 9, which improves user experience during editing of page contents. The Inline Editing enables the editor directly change contents on the preview page.</p>
+<p><strong>General usage:</strong></p>
+<ul>
+<li>For an XML content type the inline editing can be configured for the most fields of type OpenCmsString. This feature cannot be used e.g. with selectboxes, comboboxes or other xmlcontet field with selectable values.</li>
+<li>The in-place editing is configured in formatters of the resource type. Different formatters of the same resource type can provide the inline editing feature for different fields. That means that one element can have different fields which can be edited inline, depended on container to which it is dropped and formatter which renders the content in this container. </li>
+</ul>]]></content>
+    </Text>
+    <Image/>
+  </DevDemoArticle>
+</DevDemoArticles>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[OpenCms Introduction: Step 5 - Publish your changes]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Publishing changes]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms features an integrated staging mechanism. This means changes made to the content are not immediately visible to the public. They need to be published first. </p>]]></content>
+      </Text>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

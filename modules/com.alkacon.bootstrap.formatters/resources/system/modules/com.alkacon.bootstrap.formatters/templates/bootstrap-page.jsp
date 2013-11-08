@@ -4,34 +4,35 @@
 --%><%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %><%--
 --%><%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %><%--
 --%><fmt:setLocale value="${cms.locale}" /><!DOCTYPE html>
-<!--[if IE 7]> <html lang="${cms.locale}" class="ie7"> <![endif]-->  
-<!--[if IE 8]> <html lang="${cms.locale}" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="${cms.locale}" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="${cms.locale}"> <!--<![endif]-->  
+<html lang="en">
 <head>
-	<title><cms:info property="opencms.title" /></title>
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta name="description" content="<cms:property name="Description" file="search" default="" />"/>
-	<meta name="keywords" content="<cms:property name="Keywords" file="search" default="" />"/>
-	<meta http-equiv="Content-Type" content="text/html; charset=${cms.requestContext.encoding}"/>
-	<meta name="robots" content="index, follow"/>
-	<meta name="revisit-after" content="7 days"/>
+	<title>OpenCms | <cms:info property="opencms.title" /></title>
+	
+	<meta charset="${cms.requestContext.encoding}">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta name="description" content="<cms:property name="Description" file="search" default="" />">
+	<meta name="keywords" content="<cms:property name="Keywords" file="search" default="" />">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="7 days">
 
-	<c:set var="colortheme"><cms:property name="bs.page.color" file="search" default="red" /></c:set>
-	<c:set var="pagelayout"><cms:property name="bs.page.layout" file="search" default="9" /></c:set>
+	<link rel="shortcut icon" href="favicon.ico"/>
 
 	<cms:enable-ade/>
-
-	<cms:headincludes type="css" closetags="true" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css/bootstrap.min.css:121c4199-3a3b-11e3-a584-000c2943a707)
+	<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css/bootstrap.min.css:121c4199-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/style.css:0f8fcb02-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/responsive.css:0f8c217f-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css:1264956e-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:127bc6fe-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/headers/header1.css:0f415ca7-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/search.css:2e634695-0cb8-11e2-b19e-2b1b08a6835d)" />
-	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/${colortheme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
-	<link href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/headers/header1-${colortheme}.css</cms:link>" rel="stylesheet" type="text/css"></link>
-	<link href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css:52f716c6-20f8-11e3-b4d8-000c297c001d)</cms:link>" rel="stylesheet" type="text/css"></link>
+		
+	<c:set var="colortheme"><cms:property name="bs.page.color" file="search" default="red" /></c:set>
+	<c:set var="pagelayout"><cms:property name="bs.page.layout" file="search" default="9" /></c:set>
+	<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/${colortheme}.css</cms:link>">
+	<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/headers/header1-${colortheme}.css</cms:link>">
+	<link rel="stylesheet" href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css:52f716c6-20f8-11e3-b4d8-000c297c001d)</cms:link>">
 
 	<cms:headincludes type="javascript" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery-1.10.2.min.js:190d730b-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery-migrate-1.2.1.min.js:18ff9052-3a3b-11e3-a584-000c2943a707)
@@ -57,10 +58,8 @@
 <div style="background: lightgray; height: 35px">&nbsp;</div>
 </c:if>
 
-<!--=== Content Part ===-->
-
 <cms:container name="top-wide" type="content-wide" width="1200" maxElements="5" />
-
+<!--=== Content Part ===-->
 <div class="container">
 
     <cms:container name="top" type="content-full" width="1200" />

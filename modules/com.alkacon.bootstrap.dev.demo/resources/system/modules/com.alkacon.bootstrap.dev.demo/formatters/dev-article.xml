@@ -20,6 +20,6 @@
     <Preview>false</Preview>
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
-    <Detail>false</Detail>
+    <Detail>true</Detail>
   </NewFormatter>
 </NewFormatters>

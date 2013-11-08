@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DevDemoArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.dev.demo/schemas/article.xsd">
+  <DevDemoArticle language="en">
+    <Title><![CDATA[Simple collector with detail page]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>This example demonstrate the implementation, configuration and usage of a simple collector to display resources of a specified folder in alist.</p>
+<p>In OpenCms resources are typically searched using Solr. Since Apache Solr is integrated into OpenCms the most common way to get a list of resoruces it to use the JSP-Taglib:</p>
+<p><code>&lt;%-- Collect the resources --%&gt;<br /> &lt;cms:contentload collector="byContext" param="${solrQuery}" preload="true"&gt;</code></p>
+<p>Using the collector "byContext" allows you to search in the Solr index by passing a query in the Solr query syntax:</p>
+<p><code>?fq=type:ddarticle&amp;sort=lastmodified desc</code></p>
+<p>Optionally you're able to append a create path (separated by a pipe symbol) like:</p>
+<p><code><strong>|</strong>createPath=/dev-demo/collector-with-detail-page/.content/articles</code></p>
+<p>This tells OpenCms where to create new resources when the "+"-Symbol of the first listed resource is used.</p>]]></content>
+    </Text>
+    <Image/>
+  </DevDemoArticle>
+</DevDemoArticles>

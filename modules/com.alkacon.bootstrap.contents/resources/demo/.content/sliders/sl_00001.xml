@@ -31,7 +31,7 @@
         <Easing><![CDATA[easeOutSine]]></Easing>
       </Caption>
       <Caption>
-        <Text><![CDATA[OPENCMS 9]]></Text>
+        <Text><![CDATA[WELCOME TO OPENCMS 9]]></Text>
         <Class><![CDATA[caption large_text sfb bg-black-opacity]]></Class>
         <PosX><![CDATA[180]]></PosX>
         <PosY><![CDATA[70]]></PosY>
@@ -76,7 +76,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.galleries/slider/p2.jpg]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/p1.jpg]]></target>
             <uuid>44c8777d-2457-11e3-adc8-000c297c001d</uuid>
           </link>
         </Image>
@@ -90,7 +90,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.galleries/slider/p9.jpg]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/p5.jpg]]></target>
             <uuid>44edb2d9-2457-11e3-adc8-000c297c001d</uuid>
           </link>
         </Image>
@@ -104,7 +104,7 @@
       <Caption>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.galleries/slider/p8.jpg]]></target>
+            <target><![CDATA[/sites/default/.galleries/slider/p2.jpg]]></target>
             <uuid>44e85ba5-2457-11e3-adc8-000c297c001d</uuid>
           </link>
         </Image>
@@ -200,7 +200,7 @@
       <Slots><![CDATA[15]]></Slots>
       <Delay><![CDATA[1500]]></Delay>
       <Caption>
-        <Text><![CDATA[DOWNLOAD OPENCMS 9 TODAY]]></Text>
+        <Text><![CDATA[START USING OPENCMS 9 TODAY]]></Text>
         <Class><![CDATA[caption very_big_white lft ltb]]></Class>
         <PosX><![CDATA[0]]></PosX>
         <PosY><![CDATA[390]]></PosY>

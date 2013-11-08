@@ -36,19 +36,19 @@
                 <div class="thumbnails">
            	 		<c:if test="${item.value.Image.isSet}">
 						<a class=" fancybox-imgrow-button zoomer" data-rel="fancybox-imgrow-button" title="${item.value.Text}" href="<cms:link>${item.value.Image}</cms:link>">
-							<span class="overlay-zoom thumbnail">  
-								<cms:img alt="${item.value.Text}" title="${item.value.Text}" src="${item.value.Image}" scaleType="2" scaleColor="transparent" scaleQuality="75" width="${720}" height="${450}" cssclass="img-responsive" />
+							<div class="overlay-zoom thumbnail">  
+								<cms:img alt="${item.value.Text}" title="${item.value.Text}" src="${item.value.Image}" scaleType="2" scaleColor="transparent" scaleQuality="75" noDim="true" width="${720}" height="${450}" cssclass="img-responsive" />
 								<div class="zoom-icon"></div>                   
-							</span>
+							</div>
 						</a>
 					</c:if>
 
 					<c:choose>
 						<c:when test="${item.value.Headline.isSet && item.value.Link.isSet}">
-							<div class="center"><a class="hover-effect" href="<cms:link>${item.value.Link}</cms:link>" ${item.rdfa.Headline}><strong>${item.value.Headline}</strong></a></div>
+							<div class="center"><p><a class="hover-effect" href="<cms:link>${item.value.Link}</cms:link>" ${item.rdfa.Headline}><strong>${item.value.Headline}</strong></a></p></div>
 						</c:when>
 						<c:when test="${item.value.Headline.isSet}">
-							<div class="center"><strong ${item.rdfa.Headline}>${item.value.Headline}</strong></div>
+							<div class="center"><p><strong ${item.rdfa.Headline}>${item.value.Headline}</strong></p></div>
 						</c:when>
 					</c:choose>
 					<c:if test="${not item.value.Image.isSet and item.value.Link.isSet}"><div style="text-align: right; margin-top: 20px;"><a class="btn-more hover-effect" style="position: relative;" href="<cms:link>${item.value.Link}</cms:link>"><fmt:message key="bootstrap.imagerow.frontend.readmore" /></a></div></c:if>

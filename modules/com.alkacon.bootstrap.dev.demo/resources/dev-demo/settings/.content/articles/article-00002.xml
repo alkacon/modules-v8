@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DevDemoSettingsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.dev.demo/schemas/settings_article.xsd">
+  <DevDemoSettingsArticle language="en">
+    <Title><![CDATA[Settings demo with image]]></Title>
+    <Options>
+      <Html name="Html0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://en.wikipedia.org/]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://en.wikipedia.org/wiki/Tulip]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p> Settings examples of this article:</p>
+<ul>
+<li><strong>name="text" widget="string":</strong> Fills in the text to overwrite the title of this article.</li>
+<li><strong>name="showimage" widget="checkbox": </strong>Controls the visibility of the image<strong>.<br /> </strong></li>
+<li><strong>name="date" widget="datebox":</strong> Defines the date for this article.</li>
+<li><strong>name="format" widget="radio":</strong> Chooses the date format to be shown with or without the time.</li>
+</ul>
+<p>This article uses material from the <a title="Wikipedia" href="%(link0)" target="_self">Wikipedia</a> article <a href="%(link1)" target="_self">Tulip</a> and is licensed under the GNU Free Documentation License.</p>]]></content>
+      </Html>
+    </Options>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/dev-demo/.galleries/images/pic01.jpg]]></target>
+        <uuid>04d07513-c9a2-11e0-b626-e73d0dfd48ec</uuid>
+      </link>
+    </Image>
+  </DevDemoSettingsArticle>
+</DevDemoSettingsArticles>

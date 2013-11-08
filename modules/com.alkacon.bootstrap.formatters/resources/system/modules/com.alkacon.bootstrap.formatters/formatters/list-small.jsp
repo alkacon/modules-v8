@@ -30,7 +30,7 @@
 				<div class="alert"><fmt:message key="bootstrap.list.message.edit" /></div>
 			</c:when>
 			<c:otherwise>
-      
+
 				<c:if test="${not cms.element.settings.hidetitle}">
 					<div class="headline headline-md"><h3 ${rdfa.Title}><c:out value="${con.value.Title}" escapeXml="false" /></h3></div>
 				</c:if>			
@@ -48,24 +48,22 @@
 
 								<!-- entry -->
 								<dl class="dl-horizontal entry">
+								<dt>
+									<c:set var="imageExist" value="false"/>
+									<c:if test="${paragraph.value.Image.exists}">
+										<c:set var="imageExist" value="true"/>
+										<a href="<cms:link>${content.file.rootPath}</cms:link>">
+										<cms:img src="${paragraph.value.Image.value.Image}" alt="${paragraph.value.Image.value.Title}" width="50" scaleColor="transparent" scaleType="0"/>
+										</a>
+									</c:if>
+								</dt>
+								<dd<c:if test="${!imageExist}"> class="noImg"</c:if>>
 									<a href="<cms:link>${content.file.rootPath}</cms:link>">
 										<h4 class="media-heading">${headline}</h4>
+										<p><i><small><fmt:formatDate value="${cms:convertDate(content.value.Date)}" dateStyle="LONG" type="DATE" /></small></i></p>
+										<p>${cms:trimToSize(cms:stripHtml(paragraph.value.Text), wordCount)}</p>
 									</a>
-                  <c:set var="imageExist" value="false"/>
-									<c:if test="${paragraph.value.Image.exists}">
-                    <c:set var="imageExist" value="true"/>
-                    <dt>
-  										<a href="<cms:link>${content.file.rootPath}</cms:link>">
-  											<cms:img src="${paragraph.value.Image.value.Image}" alt="${paragraph.value.Image.value.Title}" width="50" scaleColor="transparent" scaleType="0"/>
-                      </a>
-										</dt>
-                  </c:if>
-									<dd<c:if test="${!imageExist}"> class="noImg"</c:if>>
-										<a href="<cms:link>${content.file.rootPath}</cms:link>">
-											<p><i><small><fmt:formatDate value="${cms:convertDate(content.value.Date)}" dateStyle="LONG" type="DATE" /></small></i></p>
-											<p>${cms:trimToSize(cms:stripHtml(paragraph.value.Text), wordCount)}</p>
-										</a>
-									</dd>
+								</dd>
 								</dl>
 								<!-- // END entry -->
 

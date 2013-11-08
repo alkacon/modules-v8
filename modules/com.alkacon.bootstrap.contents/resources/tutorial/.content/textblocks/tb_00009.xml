@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
+  <BootstrapTextblock language="en">
+    <Title><![CDATA[OpenCms Introduction: Step 3 - Link to Step 4]]></Title>
+    <Paragraph>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The images above provide a quick intro to using the sitemap editor. In the sitemap editor, you can move existing pages around or create new pages by drag and drop, similar to editing content.</p>
+<p>Go ahead and try the sitemap editor. Afterwards, come back and continue the introduction tour with the device preview.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Continue with step 4: Preview in a device]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/introduction/step-4-preview-in-a-device/]]></target>
+            <uuid>f4194261-460a-11e3-b822-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapTextblock>
+</BootstrapTextblocks>

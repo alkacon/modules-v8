@@ -61,7 +61,7 @@
 										<c:if test="${paragraph.value.Image.exists}">
 											<div class="col-md-4 search-img">
 												<cms:img src="${paragraph.value.Image.value.Image}" width="800" cssclass="img-responsive"
-												scaleColor="transparent" scaleType="0" alt="${paragraph.value.Image.value.Title}"
+												scaleColor="transparent" scaleType="0" noDim="true" alt="${paragraph.value.Image.value.Title}"
 												title="${paragraph.value.Image.value.Title}" />
 											</div>
 										</c:if>

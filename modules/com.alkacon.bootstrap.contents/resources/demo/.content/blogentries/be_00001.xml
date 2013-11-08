@@ -2,7 +2,7 @@
 
 <BootstrapBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd">
   <BootstrapBlog language="en">
-    <Title><![CDATA[OpenCms is intuituve]]></Title>
+    <Title><![CDATA[OpenCms is intuitive]]></Title>
     <Date>1383919200000</Date>
     <Paragraph>
       <Text name="Text0">

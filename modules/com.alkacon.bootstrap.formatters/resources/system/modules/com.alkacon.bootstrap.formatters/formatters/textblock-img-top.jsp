@@ -6,7 +6,7 @@
 
 <cms:formatter var="content">
 
-<div<c:if test="${cms.container.type == 'content-wide'}"> class="row"</c:if>>
+<div class="<c:if test="${cms.container.type == 'content-wide'}">row </c:if>margin-bottom-30">
 
 <c:forEach var="paragraph" items="${content.valueList.Paragraph}">
 
@@ -18,7 +18,7 @@
 
 		<c:if test="${paragraph.value.Image.exists}">
 			<div class="thumbnail-kenburn margin-bottom-10"><div class="overflow-hidden">
-				<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="1200" height="300" scaleType="2" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
+				<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="1200" height="300" scaleType="2" noDim="true" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 			</div></div>
 		</c:if>
 		<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>		
