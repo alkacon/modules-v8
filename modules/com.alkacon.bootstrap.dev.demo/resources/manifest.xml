@@ -23,7 +23,7 @@
 		<dependencies>
 			<dependency name="com.alkacon.bootstrap.formatters" version="9.0.0"/>
 			<dependency name="com.alkacon.bootstrap.schemas" version="9.0.0"/>
-			<dependency name="com.alkacon.bootstrap.content" version="9.0.0"/>
+			<dependency name="com.alkacon.bootstrap.contents" version="9.0.0"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
