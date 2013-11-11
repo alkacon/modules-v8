@@ -7,11 +7,13 @@
       <Headline><![CDATA[First you need to log in]]></Headline>
       <Text name="Text0">
         <links>
-          <link name="link0" internal="false" type="A">
-            <target><![CDATA[http://jenkins:8081/dev-content/opencms/demo/login/]]></target>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/demo/login/]]></target>
+            <uuid>e6b2fe3a-274a-11e3-a044-000c29d28104</uuid>
           </link>
-          <link name="link1" internal="false" type="A">
-            <target><![CDATA[http://jenkins:8081/dev-content/opencms/system/login/]]></target>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/system/login/]]></target>
+            <uuid>8247eafb-11b7-11db-91cd-fdbae480bac9</uuid>
           </link>
         </links>
         <content><![CDATA[<p>Before you can edit content with OpenCms, you need to log in. The default login information is displayed in the blue box on the left.</p>
@@ -24,7 +26,7 @@
         <Text><![CDATA[Continue with Step 1: Modify a page]]></Text>
         <URI>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/introduction/step-1-modify-a-page/]]></target>
+            <target><![CDATA[/sites/default/tutorial/step-1-modify-a-page/]]></target>
             <uuid>d15591f0-460a-11e3-b822-000c29d28104</uuid>
           </link>
         </URI>
