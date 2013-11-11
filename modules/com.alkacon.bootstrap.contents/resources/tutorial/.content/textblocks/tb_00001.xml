@@ -19,7 +19,7 @@
       <Image>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-01.png]]></target>
+            <target><![CDATA[/sites/default/tutorial/.galleries/intro-images/tut-01.png]]></target>
             <uuid>798fed0a-47cd-11e3-8474-000c29d28104</uuid>
           </link>
         </Image>

@@ -9,7 +9,7 @@
       <Text><![CDATA[Click here for a guided tour with 5 simple steps that show how to edit content and work with OpenCms.<br />The tour also contains information about how to login.]]></Text>
       <Link>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/introduction/]]></target>
+          <target><![CDATA[/sites/default/tutorial/]]></target>
           <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
         </link>
       </Link>

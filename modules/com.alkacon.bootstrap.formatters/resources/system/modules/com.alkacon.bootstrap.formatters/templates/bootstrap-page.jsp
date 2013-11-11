@@ -17,7 +17,8 @@
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="7 days">
 
-	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/img/favicon_120.png</cms:link>"/>
+	<link rel="shortcut icon" href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/img/favicon_16.png</cms:link>" type="image/png"/>
 
 	<cms:enable-ade/>
 	<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css/bootstrap.min.css:121c4199-3a3b-11e3-a584-000c2943a707)

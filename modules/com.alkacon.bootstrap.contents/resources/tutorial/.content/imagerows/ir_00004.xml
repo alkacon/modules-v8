@@ -8,7 +8,7 @@
       <Text><![CDATA[To open the publish dialog, click 'Publish' in the toolbar.]]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-14.png]]></target>
+          <target><![CDATA[/sites/default/tutorial/.galleries/intro-images/tut-14.png]]></target>
           <uuid>d41d3d2b-47dc-11e3-8474-000c29d28104</uuid>
         </link>
       </Image>
@@ -18,7 +18,7 @@
       <Text><![CDATA[To see all of your recent changes, set the selection to 'My changes'.]]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-15.png]]></target>
+          <target><![CDATA[/sites/default/tutorial/.galleries/intro-images/tut-15.png]]></target>
           <uuid>d3611915-47dc-11e3-8474-000c29d28104</uuid>
         </link>
       </Image>
@@ -28,7 +28,7 @@
       <Text><![CDATA[Start the publication by confirming with the button below. ]]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-16.png]]></target>
+          <target><![CDATA[/sites/default/tutorial/.galleries/intro-images/tut-16.png]]></target>
           <uuid>d3d20358-47dc-11e3-8474-000c29d28104</uuid>
         </link>
       </Image>

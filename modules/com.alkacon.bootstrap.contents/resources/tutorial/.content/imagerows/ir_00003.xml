@@ -8,7 +8,7 @@
       <Text><![CDATA[Click on 'Show menu'.]]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-11.png]]></target>
+          <target><![CDATA[/sites/default/tutorial/.galleries/intro-images/tut-11.png]]></target>
           <uuid>549da646-47d9-11e3-8474-000c29d28104</uuid>
         </link>
       </Image>
@@ -18,7 +18,7 @@
       <Text><![CDATA[Select 'Show in device > Mobile > iphone5 (landscape)']]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-12.png]]></target>
+          <target><![CDATA[/sites/default/tutorial/.galleries/intro-images/tut-12.png]]></target>
           <uuid>541b08c0-47d9-11e3-8474-000c29d28104</uuid>
         </link>
       </Image>
@@ -28,7 +28,7 @@
       <Text><![CDATA[Check the device preview. Click anywhere outside to close.]]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/introduction/.galleries/intro-images/tut-13.png]]></target>
+          <target><![CDATA[/sites/default/tutorial/.galleries/intro-images/tut-13.png]]></target>
           <uuid>546f1c33-47d9-11e3-8474-000c29d28104</uuid>
         </link>
       </Image>

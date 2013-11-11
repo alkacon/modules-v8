@@ -78,9 +78,10 @@
 <li>Full featured user management that supports the concept of "Organizational Units" (OUs).</li>
 <li>Allows management of multiple websites within one installation.</li>
 <li>Contents can be served dynamically or exported to static HTML files.</li>
-<li>Extensions can be added through a flexible module system.</li>
-<li>Integrates Apache SOLR for powerful content searching and noSQL like queries.</li>
+<li>CMIS ans WebDAV access to the OpenCms content repository.</li>
+<li><span style="line-height: 1.6;">Integrates Apache SOLR for powerful content searching and noSQL like queries.</span></li>
 <li>Full text search for web pages as well as in office documents like PDF, MS Office and Open Office.</li>
+<li>Extensions can be added through a flexible module system.</li>
 <li>The "time warp" feature allows to view resources which are expired or not yet released.</li>
 <li>JSP integration for dynamic functionality in templates, dynamic forms etc.</li>
 <li>... and many more</li>
