@@ -23,7 +23,6 @@
 		<dependencies>
 			<dependency name="com.alkacon.bootstrap.formatters" version="9.0.0"/>
 			<dependency name="com.alkacon.bootstrap.schemas" version="9.0.0"/>
-			<dependency name="com.alkacon.bootstrap.contents" version="9.0.0"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
@@ -745,6 +744,39 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Formatter Demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>dev-demo/.content/flexiblecontents</destination>
+			<type>folder</type>
+			<uuidstructure>3bf5496b-4aba-11e3-8363-000c297c001d</uuidstructure>
+			<datelastmodified>Mon, 11 Nov 2013 10:15:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 11 Nov 2013 10:15:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>dev-demo/.content/flexiblecontents/fc_00001.xml</source>
+			<destination>dev-demo/.content/flexiblecontents/fc_00001.xml</destination>
+			<type>bs-flexible</type>
+			<uuidstructure>4a66089d-4aba-11e3-8363-000c297c001d</uuidstructure>
+			<uuidresource>4a66089e-4aba-11e3-8363-000c297c001d</uuidresource>
+			<datelastmodified>Mon, 11 Nov 2013 10:34:39 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 11 Nov 2013 10:16:12 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Header for dev-demo]]></value>
 				</property>
 			</properties>
 			<relations/>
