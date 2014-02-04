@@ -9827,6 +9827,10 @@
 					<name>template</name>
 					<value><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/css/style.css]]></value>
 				</property>
+				<property>
+					<name>template.provider</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=%(templatepath)]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>

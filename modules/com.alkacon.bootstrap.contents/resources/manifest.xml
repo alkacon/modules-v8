@@ -908,7 +908,7 @@
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider]]></value>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2359,7 +2359,7 @@
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -4239,7 +4239,7 @@
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5213,7 +5213,7 @@
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
