@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>9.0.0</opencms_version>
-		<createdate>Fri, 08 Nov 2013 18:04:08 GMT</createdate>
+		<opencms_version>9.0.1</opencms_version>
+		<createdate>Tue, 04 Feb 2014 10:23:55 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,15 +14,15 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap template demo contents.]]></description>
-		<version>9.0.0</version>
+		<version>9.0.1</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
-		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<authoremail/>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="com.alkacon.bootstrap.schemas" version="9.0.0"/>
-			<dependency name="com.alkacon.bootstrap.formatters" version="9.0.0"/>
+			<dependency name="com.alkacon.bootstrap.schemas" version="9.0.1"/>
+			<dependency name="com.alkacon.bootstrap.formatters" version="9.0.1"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
@@ -2323,7 +2323,7 @@
 			<destination>demo</destination>
 			<type>subsitemap</type>
 			<uuidstructure>114934a1-21ee-11e3-b95f-000c29d28104</uuidstructure>
-			<datelastmodified>Fri, 08 Nov 2013 13:37:19 GMT</datelastmodified>
+			<datelastmodified>Tue, 04 Feb 2014 08:23:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 12:13:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2359,7 +2359,7 @@
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider]]></value>
+					<value><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2846,7 +2846,7 @@
 			<type>bs-imagerow</type>
 			<uuidstructure>7c635c13-2529-11e3-91e8-000c29d28104</uuidstructure>
 			<uuidresource>7c635c14-2529-11e3-91e8-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 08:59:16 GMT</datelastmodified>
+			<datelastmodified>Mon, 27 Jan 2014 13:59:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 24 Sep 2013 14:56:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3171,7 +3171,7 @@
 			<type>bs-tabs</type>
 			<uuidstructure>09a2ceec-47a4-11e3-8ae6-000c29d28104</uuidstructure>
 			<uuidresource>09a2ceed-47a4-11e3-8ae6-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 16:19:53 GMT</datelastmodified>
+			<datelastmodified>Mon, 27 Jan 2014 14:01:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 11:59:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3224,7 +3224,7 @@
 			<type>bs-teaserrow</type>
 			<uuidstructure>fc41fa06-3c96-11e3-a99f-000c2943a707</uuidstructure>
 			<uuidresource>fc41fa07-3c96-11e3-a99f-000c2943a707</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 16:23:36 GMT</datelastmodified>
+			<datelastmodified>Mon, 27 Jan 2014 14:00:29 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 10:28:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3317,7 +3317,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>e5fdd292-21de-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>e5fdd293-21de-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 16:26:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 27 Jan 2014 14:02:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 10:24:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3337,7 +3337,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>143c5579-2526-11e3-91e8-000c29d28104</uuidstructure>
 			<uuidresource>143c557a-2526-11e3-91e8-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 07:26:55 GMT</datelastmodified>
+			<datelastmodified>Mon, 27 Jan 2014 13:59:02 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 24 Sep 2013 14:32:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3377,7 +3377,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>adc737e8-2202-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>adc737e9-2202-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 16:25:34 GMT</datelastmodified>
+			<datelastmodified>Mon, 27 Jan 2014 13:59:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 14:41:05 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3397,7 +3397,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>42284920-2529-11e3-91e8-000c29d28104</uuidstructure>
 			<uuidresource>42284921-2529-11e3-91e8-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 08:48:22 GMT</datelastmodified>
+			<datelastmodified>Mon, 27 Jan 2014 13:58:56 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 24 Sep 2013 14:54:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3457,7 +3457,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>58e0b04f-488f-11e3-bd62-000c29d28104</uuidstructure>
 			<uuidresource>58e0b050-488f-11e3-bd62-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 16:28:49 GMT</datelastmodified>
+			<datelastmodified>Mon, 27 Jan 2014 14:02:56 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 08 Nov 2013 16:03:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3919,7 +3919,7 @@
 			<type>containerpage</type>
 			<uuidstructure>c904ca1a-269a-11e3-9ee6-000c29d28104</uuidstructure>
 			<uuidresource>c904ca1b-269a-11e3-9ee6-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 16:24:28 GMT</datelastmodified>
+			<datelastmodified>Tue, 04 Feb 2014 09:49:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 26 Sep 2013 10:59:59 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4127,7 +4127,7 @@
 			<type>containerpage</type>
 			<uuidstructure>c315a9dd-3c94-11e3-a99f-000c2943a707</uuidstructure>
 			<uuidresource>c315a9de-3c94-11e3-a99f-000c2943a707</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 16:32:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 27 Jan 2014 11:01:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 10:12:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4195,7 +4195,7 @@
 			<destination>release</destination>
 			<type>subsitemap</type>
 			<uuidstructure>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuidstructure>
-			<datelastmodified>Fri, 08 Nov 2013 13:38:49 GMT</datelastmodified>
+			<datelastmodified>Tue, 04 Feb 2014 08:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 05 May 2011 12:21:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4239,7 +4239,7 @@
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider]]></value>
+					<value><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5181,7 +5181,7 @@
 			<destination>tutorial</destination>
 			<type>subsitemap</type>
 			<uuidstructure>e2588a5b-4545-11e3-93f3-000c29d28104</uuidstructure>
-			<datelastmodified>Fri, 08 Nov 2013 13:38:09 GMT</datelastmodified>
+			<datelastmodified>Tue, 04 Feb 2014 08:06:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 11:40:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5213,7 +5213,7 @@
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider]]></value>
+					<value><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6646,7 +6646,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f59625c4-4543-11e3-93f3-000c29d28104</uuidstructure>
 			<uuidresource>f59625c5-4543-11e3-93f3-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 16:48:46 GMT</datelastmodified>
+			<datelastmodified>Wed, 29 Jan 2014 14:59:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 11:26:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6662,7 +6662,7 @@
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider]]></value>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6671,10 +6671,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>ee6ff10f-422a-11e3-af03-000c29d28104</uuidstructure>
-			<datelastmodified>Thu, 31 Oct 2013 12:49:50 GMT</datelastmodified>
+			<uuidstructure>4a5399d7-88f3-11e3-9bf2-d33a46a401ac</uuidstructure>
+			<datelastmodified>Wed, 29 Jan 2014 14:40:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 31 Oct 2013 12:49:50 GMT</datecreated>
+			<datecreated>Wed, 29 Jan 2014 14:40:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -6714,7 +6714,7 @@
 			<type>plain</type>
 			<uuidstructure>c9c10d58-25b4-11e3-9fd8-000c29d28104</uuidstructure>
 			<uuidresource>c9c10d59-25b4-11e3-9fd8-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 10:29:02 GMT</datelastmodified>
+			<datelastmodified>Wed, 29 Jan 2014 10:24:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 25 Sep 2013 07:33:36 GMT</datecreated>
 			<usercreated>Admin</usercreated>

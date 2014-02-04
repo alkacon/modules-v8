@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>9.0.0</opencms_version>
-		<createdate>Fri, 08 Nov 2013 17:58:03 GMT</createdate>
+		<opencms_version>9.0.1</opencms_version>
+		<createdate>Tue, 04 Feb 2014 10:25:05 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,14 +14,15 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap XML Schema Definitions.]]></description>
-		<version>9.0.0</version>
+		<version>9.0.1</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
-		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<authoremail/>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
 			<dependency name="org.opencms.ade.config" version="9.0.0"/>
+			<dependency name="com.alkacon.bootstrap.basics" version="9.0.1"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
@@ -136,10 +137,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>ee6ff10f-422a-11e3-af03-000c29d28104</uuidstructure>
-			<datelastmodified>Thu, 31 Oct 2013 12:49:50 GMT</datelastmodified>
+			<uuidstructure>4a5399d7-88f3-11e3-9bf2-d33a46a401ac</uuidstructure>
+			<datelastmodified>Wed, 29 Jan 2014 14:40:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 31 Oct 2013 12:49:50 GMT</datecreated>
+			<datecreated>Wed, 29 Jan 2014 14:40:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -158,10 +159,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>efe21eeb-422a-11e3-af03-000c29d28104</uuidstructure>
-			<datelastmodified>Thu, 31 Oct 2013 12:49:53 GMT</datelastmodified>
+			<uuidstructure>4d475ea3-88f3-11e3-9bf2-d33a46a401ac</uuidstructure>
+			<datelastmodified>Wed, 29 Jan 2014 14:40:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 31 Oct 2013 12:49:53 GMT</datecreated>
+			<datecreated>Wed, 29 Jan 2014 14:40:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

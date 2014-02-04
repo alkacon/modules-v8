@@ -8,7 +8,7 @@
         <links>
           <link name="link6" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
+            <uuid>4d39f11f-88f3-11e3-9bf2-d33a46a401ac</uuid>
           </link>
           <link name="link7" internal="true" type="IMG">
             <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_opencms_png24.png]]></target>
@@ -33,7 +33,7 @@
           </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
+            <uuid>4d39f11f-88f3-11e3-9bf2-d33a46a401ac</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/demo/]]></target>

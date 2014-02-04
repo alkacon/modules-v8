@@ -33,13 +33,10 @@
 					<li><i class="icon-pencil"></i> ${author}</li>
 					</c:if>
 				</ul>
-				<c:if test="${fn:length(content.valueList.Category) > 0}">
+				<c:if test="${content.value.Category.exists}">
 				<ul class="list-unstyled list-inline blog-tags">
 					<li>
-						<i class="icon-tags"></i>
-						<c:forEach var="item" items="${content.valueList.Category}" varStatus="status">
-							<a href="#">${item}</a>
-						</c:forEach>
+						<i class="icon-tags"></i>${content.value.Category}
 					</li>
 				</ul>
 				</c:if>

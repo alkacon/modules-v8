@@ -1,15 +1,28 @@
 {
 	"desktop": {
 		"niceName": "Desktop",
-		"path": "/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp"
+		"path": "%(template)",
+		"variants": {
+			"small": {
+				"niceName": "Small desktop (1024)" ,
+				"width": 1024,
+				"height": 768
+			},		
+			"big": {
+				"niceName": "Big desktop (1280)" ,
+				"width": 1280,
+				"height": 800
+			}				
+		}				
 	},
+	
 
 	"mobile": {
 		"niceName": { 
 			"en": "Mobile",
 			"de": "Mobil"
 		},
-		"path": "/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp",
+		"path": "%(template)",
 		"variants": {
 			"iphone5": {
 				"niceName": "iPhone 5 (portrait)",
@@ -57,7 +70,7 @@
 
 	"tablet": {
 		"niceName": "Tablet", 
-		"path": "/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-page.jsp",
+		"path": "%(template)",
 		"variants": {
 			"ipad": {
 				"niceName": "iPad (portrait)" ,

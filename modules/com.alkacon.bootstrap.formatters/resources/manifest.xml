@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>9.0.0</opencms_version>
-		<createdate>Fri, 08 Nov 2013 18:01:07 GMT</createdate>
+		<opencms_version>9.0.1</opencms_version>
+		<createdate>Tue, 04 Feb 2014 10:24:25 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,14 +14,15 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap template and formatters.]]></description>
-		<version>9.0.0</version>
+		<version>9.0.1</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
-		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<authoremail/>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="com.alkacon.bootstrap.schemas" version="9.0.0"/>
+			<dependency name="com.alkacon.bootstrap.basics" version="9.0.1"/>
+			<dependency name="com.alkacon.bootstrap.schemas" version="9.0.1"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
@@ -33,10 +34,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>ee6ff10f-422a-11e3-af03-000c29d28104</uuidstructure>
-			<datelastmodified>Thu, 31 Oct 2013 12:49:50 GMT</datelastmodified>
+			<uuidstructure>4a5399d7-88f3-11e3-9bf2-d33a46a401ac</uuidstructure>
+			<datelastmodified>Wed, 29 Jan 2014 14:40:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 31 Oct 2013 12:49:50 GMT</datecreated>
+			<datecreated>Wed, 29 Jan 2014 14:40:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -55,10 +56,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>efe21eeb-422a-11e3-af03-000c29d28104</uuidstructure>
-			<datelastmodified>Thu, 31 Oct 2013 12:49:53 GMT</datelastmodified>
+			<uuidstructure>4d475ea3-88f3-11e3-9bf2-d33a46a401ac</uuidstructure>
+			<datelastmodified>Wed, 29 Jan 2014 14:40:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 31 Oct 2013 12:49:53 GMT</datecreated>
+			<datecreated>Wed, 29 Jan 2014 14:40:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -303,7 +304,7 @@
 			<type>jsp</type>
 			<uuidstructure>1c792fa5-4795-11e3-852c-000c29d28104</uuidstructure>
 			<uuidresource>1c792fa6-4795-11e3-852c-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 12:37:43 GMT</datelastmodified>
+			<datelastmodified>Wed, 29 Jan 2014 17:13:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 10:12:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3956,36 +3957,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery-1.10.2.min.js</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery-1.10.2.min.js</destination>
-			<type>plain</type>
-			<uuidstructure>190d730b-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<uuidresource>190d730c-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 04 Nov 2013 16:01:41 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:24 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery-migrate-1.2.1.min.js</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery-migrate-1.2.1.min.js</destination>
-			<type>plain</type>
-			<uuidstructure>18ff9052-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<uuidresource>18ff9053-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:07 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:24 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery.mixitup.min.js</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/jquery.mixitup.min.js</destination>
 			<type>plain</type>
@@ -4039,178 +4010,6 @@
 			<datelastmodified>Mon, 21 Oct 2013 10:26:07 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:25 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap</destination>
-			<type>folder</type>
-			<uuidstructure>121081c2-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:13 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css</destination>
-			<type>folder</type>
-			<uuidstructure>12138f04-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:13 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css/bootstrap.css</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css/bootstrap.css</destination>
-			<type>plain</type>
-			<uuidstructure>12173886-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<uuidresource>12173887-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css/bootstrap.min.css</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/css/bootstrap.min.css</destination>
-			<type>plain</type>
-			<uuidstructure>121c4199-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<uuidresource>121c419a-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/fonts</destination>
-			<type>folder</type>
-			<uuidstructure>1220875c-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:13 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot</destination>
-			<type>plain</type>
-			<uuidstructure>122409ce-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<uuidresource>122409cf-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg</destination>
-			<type>plain</type>
-			<uuidstructure>12284f91-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<uuidresource>12284f92-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf</destination>
-			<type>plain</type>
-			<uuidstructure>122ce374-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<uuidresource>122ce375-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff</destination>
-			<type>plain</type>
-			<uuidstructure>12312937-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<uuidresource>12312938-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/js</destination>
-			<type>folder</type>
-			<uuidstructure>1234d2ba-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:13 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/js/bootstrap.js</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/js/bootstrap.js</destination>
-			<type>plain</type>
-			<uuidstructure>1238a34c-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<uuidresource>1238a34d-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/js/bootstrap.min.js</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bootstrap/js/bootstrap.min.js</destination>
-			<type>plain</type>
-			<uuidstructure>123d101f-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<uuidresource>123d1020-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 21 Oct 2013 10:25:13 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -10010,7 +9809,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>be01129c-1a1a-11e3-9358-000c29f9a2ec</uuidstructure>
 			<uuidresource>be01129d-1a1a-11e3-9358-000c29f9a2ec</uuidresource>
-			<datelastmodified>Mon, 11 Nov 2013 15:53:36 GMT</datelastmodified>
+			<datelastmodified>Wed, 29 Jan 2014 16:39:17 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Sep 2013 13:13:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>

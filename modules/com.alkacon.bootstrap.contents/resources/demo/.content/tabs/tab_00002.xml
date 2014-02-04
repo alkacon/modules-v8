@@ -7,8 +7,8 @@
       <Label><![CDATA[Bigger]]></Label>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Maecenas nec odio et ante tincidunt tempus.</p>
-<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>]]></content>
+        <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+<p>Maecenas nec odio et ante tincidunt tempus.</p>]]></content>
       </Text>
       <Image>
         <link type="WEAK">
@@ -21,8 +21,8 @@
       <Label><![CDATA[Better]]></Label>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Maecenas nec odio et ante tincidunt tempus.</p>
-<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>]]></content>
+        <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Maecenas nec odio et ante tincidunt tempus.</p>]]></content>
       </Text>
       <Image>
         <link type="WEAK">
@@ -35,8 +35,8 @@
       <Label><![CDATA[Faster]]></Label>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Maecenas nec odio et ante tincidunt tempus.</p>
-<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>]]></content>
+        <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+<p>Maecenas nec odio et ante tincidunt tempus. </p>]]></content>
       </Text>
       <Image>
         <link type="WEAK">
