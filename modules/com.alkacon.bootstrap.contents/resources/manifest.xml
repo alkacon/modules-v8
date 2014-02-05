@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.0.1</opencms_version>
-		<createdate>Wed, 05 Feb 2014 11:54:12 GMT</createdate>
+		<createdate>Wed, 05 Feb 2014 16:25:55 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -2755,6 +2755,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>demo/.content/flexiblecontents/fc_00003.xml</source>
+			<destination>demo/.content/flexiblecontents/fc_00003.xml</destination>
+			<type>bs-flexible</type>
+			<uuidstructure>537414e9-8e6e-11e3-8ef1-000c29d28104</uuidstructure>
+			<uuidresource>537414ea-8e6e-11e3-8ef1-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 05 Feb 2014 14:29:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 05 Feb 2014 14:03:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Footer for Welcome page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>demo/.content/imagegalleryshows</destination>
 			<type>folder</type>
 			<uuidstructure>730bb34b-3c7a-11e3-a752-000c2943a707</uuidstructure>
@@ -4683,7 +4703,7 @@
 			<type>bs-textblock</type>
 			<uuidstructure>abd74a83-8e39-11e3-9df1-000c29d28104</uuidstructure>
 			<uuidresource>abd74a84-8e39-11e3-9df1-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 05 Feb 2014 10:33:36 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Feb 2014 13:59:59 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 05 Feb 2014 07:46:49 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6712,7 +6732,7 @@
 			<type>containerpage</type>
 			<uuidstructure>f59625c4-4543-11e3-93f3-000c29d28104</uuidstructure>
 			<uuidresource>f59625c5-4543-11e3-93f3-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 29 Jan 2014 14:59:19 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Feb 2014 15:02:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 04 Nov 2013 11:26:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6737,10 +6757,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>4b6b217f-8df6-11e3-bfb8-000c29d28104</uuidstructure>
-			<datelastmodified>Tue, 04 Feb 2014 23:44:31 GMT</datelastmodified>
+			<uuidstructure>9d04adae-8e64-11e3-a0d5-000c29d28104</uuidstructure>
+			<datelastmodified>Wed, 05 Feb 2014 12:54:13 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 04 Feb 2014 23:44:31 GMT</datecreated>
+			<datecreated>Wed, 05 Feb 2014 12:54:13 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

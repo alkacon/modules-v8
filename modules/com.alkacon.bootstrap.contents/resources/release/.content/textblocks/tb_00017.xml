@@ -11,7 +11,8 @@
             <target><![CDATA[https://github.com/alkacon/opencms-core/pulls]]></target>
           </link>
           <link name="link3" internal="false" type="A">
-            <target><![CDATA[https://github.com/alkacon/opencms-core/issues%20]]></target>
+            <target><![CDATA[https://github.com/alkacon/opencms-core/issues]]></target>
+            <query><![CDATA[state=open]]></query>
           </link>
           <link name="link0" internal="false" type="A">
             <target><![CDATA[http://www.alkacon.com/contact/]]></target>
@@ -112,11 +113,11 @@
 <p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>
 <p>On the database side, we have tested with MySQL, Oracle, PostgreSQL, MS SQL Server, DB2 and HSQLDB.</p>
 <h3>Regarding version numbers and build tags</h3>
-<p>The main OpenCms Git repository is available on Github at <a href="%(link1)">github.com/alkacon/opencms-core</a>.</p>
+<p>The main OpenCms Git repository is available on Github at <a href="%(link1)" target="_blank">github.com/alkacon/opencms-core</a>.</p>
 <p>In case you want to get the most current OpenCms 9 sources from Git, please check out <span class="label label-info">branch_9_0_x</span>. The 9.0.1 release is tagged <span class="label label-info">build_9_0_1</span>.</p>
 <h3>How you can help</h3>
-<p>Contributions to the OpenCms core development are most welcome. <a href="%(link2)">Please send us your pull requests directly on GitHub.</a></p>
-<p>Please report issues found in OpenCms using <a href="%(link3)">our GitHub issue tracker</a>.</p>
+<p>Contributions to the OpenCms core development are most welcome. <a href="%(link2)" target="_blank">Please send us your pull requests directly on GitHub.</a></p>
+<p>Please report issues found in OpenCms using <a href="%(link3)" target="_blank">our GitHub issue tracker</a>.</p>
 <p>Thank you for using OpenCms and have fun with OpenCms 9 :-)</p>]]></content>
       </Text>
     </Paragraph>

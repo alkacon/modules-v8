@@ -26,6 +26,11 @@
       <Widget><![CDATA[checkbox]]></Widget>
     </Setting>
     <Setting>
+      <PropertyName><![CDATA[requireReload]]></PropertyName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.requirereload)]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+    </Setting>
+    <Setting>
       <PropertyName><![CDATA[cssClass]]></PropertyName>
       <DisplayName><![CDATA[%(key.bootstrap.setting.cssclass)]]></DisplayName>
       <Widget><![CDATA[string]]></Widget>

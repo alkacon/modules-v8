@@ -15,7 +15,7 @@
 		</c:when>
 		<c:otherwise>
 			<c:if test="${not cms.element.settings.hideTitle}">
-				<div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div>
+				<div class="headline"><h3 ${rdfa.Title}>${content.value.Title}</h3></div>
 			</c:if>	
 			<c:forEach var="elem" items="${content.subValueList['Choice']}">
 				<c:choose>
@@ -24,7 +24,7 @@
 					</c:when>
 					<c:when test="${elem.name == 'Code'}">
 						<c:choose>
-							<c:when test="${cms.edited}">
+							<c:when test="${cms.element.settings.requireReload && cms.edited}">
 								<div class="alert"><fmt:message key="bootstrap.flexible.message.changed" /></div>
 							</c:when>
 							<c:otherwise>

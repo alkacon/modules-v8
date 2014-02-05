@@ -33,10 +33,10 @@
 					<li><i class="icon-pencil"></i> ${author}</li>
 					</c:if>
 				</ul>
-				<c:if test="${content.value.Category.exists}">
+				<c:if test="${value.Category.exists}">
 				<ul class="list-unstyled list-inline blog-tags">
 					<li>
-						<i class="icon-tags"></i>${content.value.Category}
+						<i class="icon-tags"></i>${value.Category}
 					</li>
 				</ul>
 				</c:if>
