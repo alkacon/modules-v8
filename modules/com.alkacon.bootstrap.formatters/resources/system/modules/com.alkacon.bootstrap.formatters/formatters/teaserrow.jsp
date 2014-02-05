@@ -16,7 +16,7 @@
 	
 	<div class="row servive-block">
 		<c:forEach var="item" items="${content.valueList.Item}" varStatus="status">
-			<div ${item.rdfa.Link} class="${cms:lookup(cms:getListSize(content.valueList.Item), '1:col-xs-12|2:col-sm-6|3:col-sm-4|4:col-md-3 col-sm-6|5:col-md-2 col-sm-6|6:col-md-2 col-sm-4')}">				
+			<div ${item.rdfa.Link} class="${cms:lookup(fn:length(content.valueList.Item), '1:col-xs-12|2:col-sm-6|3:col-sm-4|4:col-md-3 col-sm-6|5:col-md-2 col-sm-6|6:col-md-2 col-sm-4')}">				
 				<div class="servive-block-in<c:if test="${item.value.Color != 'default'}"> servive-block-colored servive-block-${item.value.Color}</c:if>">
 					<c:if test="${item.value.Link.isSet}"><a href="<cms:link>${item.value.Link}</cms:link>"></c:if>
 					<h4 ${item.rdfa.Headline}>${item.value.Headline}</h4>

@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.0.1</opencms_version>
-		<createdate>Tue, 04 Feb 2014 10:24:25 GMT</createdate>
+		<createdate>Wed, 05 Feb 2014 11:54:30 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -34,10 +34,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>4a5399d7-88f3-11e3-9bf2-d33a46a401ac</uuidstructure>
-			<datelastmodified>Wed, 29 Jan 2014 14:40:25 GMT</datelastmodified>
+			<uuidstructure>4b6b217f-8df6-11e3-bfb8-000c29d28104</uuidstructure>
+			<datelastmodified>Tue, 04 Feb 2014 23:44:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 29 Jan 2014 14:40:25 GMT</datecreated>
+			<datecreated>Tue, 04 Feb 2014 23:44:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -56,10 +56,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>4d475ea3-88f3-11e3-9bf2-d33a46a401ac</uuidstructure>
-			<datelastmodified>Wed, 29 Jan 2014 14:40:30 GMT</datelastmodified>
+			<uuidstructure>4daf445b-8df6-11e3-bfb8-000c29d28104</uuidstructure>
+			<datelastmodified>Tue, 04 Feb 2014 23:44:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 29 Jan 2014 14:40:30 GMT</datecreated>
+			<datecreated>Tue, 04 Feb 2014 23:44:35 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -144,54 +144,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Login element]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone-action.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone-action.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>e660113a-2500-11e3-b76c-000c297c001d</uuidstructure>
-			<uuidresource>e660113b-2500-11e3-b76c-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 24 Sep 2013 10:47:50 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 24 Sep 2013 10:05:54 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Module clone page]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/module-clone.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>783fc2d0-2468-11e3-ade6-000c297c001d</uuidstructure>
-			<uuidresource>783fc2d1-2468-11e3-ade6-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 23 Sep 2013 15:59:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 23 Sep 2013 15:54:46 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Module clone page]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -604,7 +556,7 @@
 			<type>jsp</type>
 			<uuidstructure>8049e951-47ca-11e3-8474-000c29d28104</uuidstructure>
 			<uuidresource>8049e952-47ca-11e3-8474-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 12:52:11 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Feb 2014 11:11:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 16:34:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -664,7 +616,7 @@
 			<type>jsp</type>
 			<uuidstructure>07a86e28-1ed6-11e3-89be-000c29f9a2ec</uuidstructure>
 			<uuidresource>07a86e29-1ed6-11e3-89be-000c29f9a2ec</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 15:45:29 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Feb 2014 11:11:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Sep 2013 13:43:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1196,7 +1148,7 @@
 			<type>jsp</type>
 			<uuidstructure>0371f7a4-3c8e-11e3-a99f-000c2943a707</uuidstructure>
 			<uuidresource>0371f7a5-3c8e-11e3-a99f-000c2943a707</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 16:06:18 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Feb 2014 11:06:26 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 09:23:59 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1372,7 +1324,7 @@
 			<type>jsp</type>
 			<uuidstructure>0b8d593a-4782-11e3-ba23-000c29d28104</uuidstructure>
 			<uuidresource>0b8d804b-4782-11e3-ba23-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 15:31:53 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Feb 2014 11:05:53 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 07:56:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1518,30 +1470,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Login form]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/functions/module-clone.xml</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/functions/module-clone.xml</destination>
-			<type>function</type>
-			<uuidstructure>b153e1f4-2468-11e3-ade6-000c297c001d</uuidstructure>
-			<uuidresource>b153e1f5-2468-11e3-ade6-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 23 Sep 2013 15:57:03 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 23 Sep 2013 15:56:22 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Description</name>
-					<value><![CDATA[Clones a module]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Clone a module]]></value>
 				</property>
 			</properties>
 			<relations/>

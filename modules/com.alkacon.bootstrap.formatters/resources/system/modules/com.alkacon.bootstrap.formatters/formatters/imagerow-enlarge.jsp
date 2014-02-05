@@ -32,7 +32,7 @@
 
 	<div class="row">
 		<c:forEach var="item" items="${content.valueList.Item}">
-			<div ${item.rdfa["Link|Image"]} class="${cms:lookup(cms:getListSize(content.valueList.Item), '1:col-xs-12|2:col-sm-6|3:col-sm-4|4:col-md-3 col-sm-6|5:col-md-2 col-sm-6|6:col-md-2 col-sm-4')}">				
+			<div ${item.rdfa["Link|Image"]} class="${cms:lookup(fn:length(content.valueList.Item), '1:col-xs-12|2:col-sm-6|3:col-sm-4|4:col-md-3 col-sm-6|5:col-md-2 col-sm-6|6:col-md-2 col-sm-4')}">				
                 <div class="thumbnails">
            	 		<c:if test="${item.value.Image.isSet}">
 						<a class=" fancybox-imgrow-button zoomer" data-rel="fancybox-imgrow-button" title="${item.value.Text}" href="<cms:link>${item.value.Image}</cms:link>">

@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.0.1</opencms_version>
-		<createdate>Tue, 04 Feb 2014 10:23:55 GMT</createdate>
+		<createdate>Wed, 05 Feb 2014 11:54:12 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -2671,7 +2671,7 @@
 			<type>groupcontainer</type>
 			<uuidstructure>81983ea1-2526-11e3-91e8-000c29d28104</uuidstructure>
 			<uuidresource>81983ea2-2526-11e3-91e8-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 11 Nov 2013 15:27:14 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Feb 2014 11:51:26 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 24 Sep 2013 14:35:06 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2720,7 +2720,7 @@
 			<type>bs-flexible</type>
 			<uuidstructure>9441776c-2526-11e3-91e8-000c29d28104</uuidstructure>
 			<uuidresource>9441776d-2526-11e3-91e8-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 20:25:21 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Feb 2014 11:51:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 24 Sep 2013 14:35:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4678,6 +4678,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>release/.content/textblocks/tb_00017.xml</source>
+			<destination>release/.content/textblocks/tb_00017.xml</destination>
+			<type>bs-textblock</type>
+			<uuidstructure>abd74a83-8e39-11e3-9df1-000c29d28104</uuidstructure>
+			<uuidresource>abd74a84-8e39-11e3-9df1-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 05 Feb 2014 10:33:36 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 05 Feb 2014 07:46:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Release Notes for OpenCms 9.0.1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>release/8.0.0-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>0c655475-7724-11e0-bfd0-1797e684fbbe</uuidstructure>
@@ -5090,6 +5110,52 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[9.0.0 Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>release/9.0.1-release-notes</destination>
+			<type>folder</type>
+			<uuidstructure>02cc731b-8e39-11e3-9df1-000c29d28104</uuidstructure>
+			<datelastmodified>Wed, 05 Feb 2014 07:42:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 05 Feb 2014 07:42:06 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.013750002]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[9.0.1 Release Notes]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[9.0.1 Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>release/9.0.1-release-notes/index.html</source>
+			<destination>release/9.0.1-release-notes/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>02e97100-8e39-11e3-9df1-000c29d28104</uuidstructure>
+			<uuidresource>02e97101-8e39-11e3-9df1-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 05 Feb 2014 07:47:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 05 Feb 2014 07:42:06 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[9.0.1 Release Notes]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6319,10 +6385,10 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>tutorial/login-to-to-opencms</destination>
+			<destination>tutorial/login-to-opencms</destination>
 			<type>folder</type>
 			<uuidstructure>c7247986-4895-11e3-bd62-000c29d28104</uuidstructure>
-			<datelastmodified>Fri, 08 Nov 2013 16:50:04 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Feb 2014 08:37:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 08 Nov 2013 16:49:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6334,19 +6400,19 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Login to to OpenCms]]></value>
+					<value><![CDATA[Login to OpenCms]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Login to to OpenCms]]></value>
+					<value><![CDATA[Login to OpenCms]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>tutorial/login-to-to-opencms/index.html</source>
-			<destination>tutorial/login-to-to-opencms/index.html</destination>
+			<source>tutorial/login-to-opencms/index.html</source>
+			<destination>tutorial/login-to-opencms/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>c738ebeb-4895-11e3-bd62-000c29d28104</uuidstructure>
 			<uuidresource>c738ebec-4895-11e3-bd62-000c29d28104</uuidresource>
@@ -6671,10 +6737,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>4a5399d7-88f3-11e3-9bf2-d33a46a401ac</uuidstructure>
-			<datelastmodified>Wed, 29 Jan 2014 14:40:25 GMT</datelastmodified>
+			<uuidstructure>4b6b217f-8df6-11e3-bfb8-000c29d28104</uuidstructure>
+			<datelastmodified>Tue, 04 Feb 2014 23:44:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 29 Jan 2014 14:40:25 GMT</datecreated>
+			<datecreated>Tue, 04 Feb 2014 23:44:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
