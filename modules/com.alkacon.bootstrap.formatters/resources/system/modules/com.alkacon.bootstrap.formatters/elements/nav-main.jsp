@@ -35,6 +35,9 @@
 		<c:set var="parentItem">false</c:set>
 		<c:if test="${currentLevel == navStartLevel}">
 			<c:set var="parentItem">true</c:set>
+			<c:if test="${elem.navigationLevel && fn:startsWith(cms.requestContext.uri, elem.parentFolderName)}">
+				<c:set var="markItem">true</c:set>
+			</c:if>
 		</c:if>
 
 		<c:set var="listClass" value="" />
