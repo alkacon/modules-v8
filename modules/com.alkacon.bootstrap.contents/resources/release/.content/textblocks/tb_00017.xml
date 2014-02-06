@@ -24,8 +24,8 @@
         <content><![CDATA[<p>February 6, 2014: OpenCms 9.0.1 is a maintenance update for OpenCms 9 that fixes a number of issues and adds some functional enhancements.</p>
 <h2>Improved in OpenCms 9.0.1</h2>
 <ul>
-<li>New 'Add resource type' dialog added to the module management.</li>
-<li>New 'Clone Module' dialog added to the module management.</li>
+<li><span class="label label-warning">#</span> New 'Add resource type' dialog added to the module management.</li>
+<li><span class="label label-warning">#</span> New 'Clone Module' dialog added to the module management.</li>
 <li>Added option to show expired or unreleased resources in content collector lists in the offline project.</li>
 <li>The 'Source search' administration tool has been greatly enhanced.</li>
 <li>Demo template updated to Bootstrap 3.1.0.</li>
@@ -35,7 +35,7 @@
 <li>Detail pages now support permalinks.</li>
 <li>Further improved the publish dialog with better detection of changed dependencies.</li>
 <li>Added several improvements to the JSP EL context beans.</li>
-<li>An instance of  CmsJspStandardContextBean is now automatically available on all JSPs.</li>
+<li>An instance of CmsJspStandardContextBean is now automatically available on all JSPs.</li>
 <li>The classic workplace theme now uses fixed colors that work better in non-windows environments.</li>
 <li>Added more options to the widget combo box for formatter configurations.</li>
 <li>Updated Russian localization.</li>
@@ -66,6 +66,7 @@
 <li>Fixed issue with content mappings to dateReleased / dateExpired attributes for deleted optional values not being reset.</li>
 <li>Fixed issue with links to exported resources pasted in the content editor not being correctly resolved. </li>
 </ul>
+<p>Items marked with <span class="label label-warning">#</span> are considered important improvements in this version.</p>
 <h2>Main new features of OpenCms 9</h2>
 <ul>
 <li>Improved "in place" editing of web pages for text and also for images and other content types.</li>

@@ -6,45 +6,51 @@
     <Choice>
       <Code name="Code0">
         <links>
-          <link name="link4" internal="true" type="A">
-            <target><![CDATA[/sites/default/demo/search-page/]]></target>
-            <uuid>708105f3-4072-11e3-be04-000c297c001d</uuid>
-          </link>
-          <link name="link5" internal="true" type="A">
+          <link name="link6" internal="true" type="A">
             <target><![CDATA[/sites/default/demo/login/]]></target>
             <uuid>e6b2fe3a-274a-11e3-a044-000c29d28104</uuid>
           </link>
-          <link name="link2" internal="true" type="A">
-            <target><![CDATA[/sites/default/dev-demo/]]></target>
-            <uuid>9067a898-77c5-11e0-bf39-cde485e16fbf</uuid>
-          </link>
-          <link name="link3" internal="true" type="A">
+          <link name="link4" internal="true" type="A">
             <target><![CDATA[/sites/default/release/]]></target>
             <uuid>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuid>
           </link>
-          <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/default/tutorial/]]></target>
-            <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
+          <link name="link5" internal="true" type="A">
+            <target><![CDATA[/sites/default/demo/search-page/]]></target>
+            <uuid>708105f3-4072-11e3-be04-000c297c001d</uuid>
           </link>
-          <link name="link1" internal="true" type="A">
+          <link name="link2" internal="true" type="A">
             <target><![CDATA[/sites/default/demo/]]></target>
             <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/default/dev-demo/]]></target>
+            <uuid>9067a898-77c5-11e0-bf39-cde485e16fbf</uuid>
+          </link>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://www.alkacon.com]]></target>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/default/tutorial/]]></target>
+            <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
           </link>
         </links>
         <content><![CDATA[<div class="top">
     <div class="container">
+        <ul class="loginbar pull-left">
+        <li><a href="%(link0)">&copy; Alkacon Software GmbH - The OpenCms experts</a></li>
+        </ul>
         <ul class="loginbar pull-right">
-            <li><a href="%(link0)">Beginners Tutorial</a></li>
+            <li><a href="%(link1)">Beginners Tutorial</a></li>
             <li class="devider"></li>
-            <li><a href="%(link1)">Demo Website</a></li>
+            <li><a href="%(link2)">Demo Website</a></li>
             <li class="devider"></li>
-            <li><a href="%(link2)">Developer Demo</a></li>
+            <li><a href="%(link3)">Developer Demo</a></li>
             <li class="devider"></li>
-            <li><a href="%(link3)">Release notes</a></li>
+            <li><a href="%(link4)">Release notes</a></li>
             <li class="devider"></li>
-            <li><a href="%(link4)">Search</a></li>
+            <li><a href="%(link5)">Search</a></li>
             <li class="devider"></li>
-            <li><a href="%(link5)">Login</a></li>
+            <li><a href="%(link6)">Login</a></li>
 </ul></div>
 </div><!--/top-->]]></content>
       </Code>

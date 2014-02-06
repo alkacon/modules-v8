@@ -9,14 +9,50 @@
 				"height": 768
 			},		
 			"big": {
-				"niceName": "Big desktop (1280)" ,
+				"niceName": "Large desktop (1280)" ,
 				"width": 1280,
 				"height": 800
 			}				
 		}				
+	},	
+
+	"tablet": {
+		"niceName": "Tablet", 
+		"path": "%(template)",
+		"variants": {
+			"ipad": {
+				"niceName": "iPad (portrait)" ,
+				"width": 768,
+				"height": 1024
+			},
+			"ipad-ls": {
+				"niceName": "iPad (landscape)" ,
+				"width": 1024,
+				"height": 768
+			},
+			"kindlefire": {
+				"niceName": "Kindle Fire (portrait)" ,
+				"width": 600,
+				"height": 800
+			},
+			"kindlefire-ls": {
+				"niceName": "Kindle Fire (landscape)" ,
+				"width": 800,
+				"height": 600
+			},
+			"galaxytab": {
+				"niceName": "Galaxy Tab (portrait)" ,
+				"width": 600,
+				"height": 1024
+			},		
+			"galaxytab-ls": {
+				"niceName": "Galaxy Tab (landscape)" ,
+				"width": 1024,
+				"height": 600
+			} 
+		}
 	},
 	
-
 	"mobile": {
 		"niceName": { 
 			"en": "Mobile",
@@ -66,42 +102,5 @@
 			} 					
 		}
 		
-	},
-
-	"tablet": {
-		"niceName": "Tablet", 
-		"path": "%(template)",
-		"variants": {
-			"ipad": {
-				"niceName": "iPad (portrait)" ,
-				"width": 768,
-				"height": 1024
-			},
-			"ipad-ls": {
-				"niceName": "iPad (landscape)" ,
-				"width": 1024,
-				"height": 768
-			},
-			"kindlefire": {
-				"niceName": "Kindle Fire (portrait)" ,
-				"width": 600,
-				"height": 800
-			},
-			"kindlefire-ls": {
-				"niceName": "Kindle Fire (landscape)" ,
-				"width": 800,
-				"height": 600
-			},
-			"galaxytab": {
-				"niceName": "Galaxy Tab (portrait)" ,
-				"width": 1024,
-				"height": 600
-			},		
-			"galaxytab-ls": {
-				"niceName": "Galaxy Tab (landscape)" ,
-				"width": 600,
-				"height": 1024
-			} 
-		}
-	}
+	}	
 }

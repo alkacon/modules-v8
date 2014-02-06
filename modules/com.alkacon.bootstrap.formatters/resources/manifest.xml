@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.0.1</opencms_version>
-		<createdate>Wed, 05 Feb 2014 16:26:07 GMT</createdate>
+		<createdate>Thu, 06 Feb 2014 12:47:38 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -34,10 +34,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>9d04adae-8e64-11e3-a0d5-000c29d28104</uuidstructure>
-			<datelastmodified>Wed, 05 Feb 2014 12:54:13 GMT</datelastmodified>
+			<uuidstructure>76f126d5-8ebf-11e3-900e-000c29d28104</uuidstructure>
+			<datelastmodified>Wed, 05 Feb 2014 23:44:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 05 Feb 2014 12:54:13 GMT</datecreated>
+			<datecreated>Wed, 05 Feb 2014 23:44:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -56,10 +56,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>9f56b43a-8e64-11e3-a0d5-000c29d28104</uuidstructure>
-			<datelastmodified>Wed, 05 Feb 2014 12:54:17 GMT</datelastmodified>
+			<uuidstructure>796cfc81-8ebf-11e3-900e-000c29d28104</uuidstructure>
+			<datelastmodified>Wed, 05 Feb 2014 23:44:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 05 Feb 2014 12:54:17 GMT</datecreated>
+			<datecreated>Wed, 05 Feb 2014 23:44:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -1649,6 +1649,21 @@
 					<value><![CDATA[true]]></value>
 				</property>
 			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/resources/css/style-editor.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/css/style-editor.css</destination>
+			<type>plain</type>
+			<uuidstructure>f15ce875-8f20-11e3-878e-000c29d28104</uuidstructure>
+			<uuidresource>f15ce876-8f20-11e3-878e-000c29d28104</uuidresource>
+			<datelastmodified>Thu, 06 Feb 2014 11:31:42 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 06 Feb 2014 11:22:20 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -9737,7 +9752,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>be01129c-1a1a-11e3-9358-000c29f9a2ec</uuidstructure>
 			<uuidresource>be01129d-1a1a-11e3-9358-000c29f9a2ec</uuidresource>
-			<datelastmodified>Wed, 29 Jan 2014 16:39:17 GMT</datelastmodified>
+			<datelastmodified>Thu, 06 Feb 2014 11:21:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Sep 2013 13:13:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -9753,7 +9768,7 @@
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/css/style.css]]></value>
+					<value><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/css/style-editor.css]]></value>
 				</property>
 				<property>
 					<name>template.provider</name>

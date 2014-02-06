@@ -62,9 +62,9 @@
 <div class="headline"><h3>The OpenCms Mailing List</h3></div>
 <p>The opencms-dev mailing list is the place for all questions, comments and suggestions for OpenCms and the main forum of the OpenCms community. Subscribe to the list by filling out the following form.</p>
 <form class="form-horizontal" method="post" action="http://lists.opencms.org/mailman/subscribe/opencms-dev">
-<div class="margin-bottom-10"><input type="text" name="email" placeholder="Email Address" class="form-control"/></div>
-<div class="margin-bottom-10"><input type="password" name="pw" placeholder="Pick a password" class="form-control"/></div>
-<div class="margin-bottom-10"><input type="password" name="pw-conf" placeholder="Confirm password" class="form-control"/></div>
+<div class="margin-bottom-10"><input type="text" name="email" placeholder="Email Address" class="form-control input-sm"/></div>
+<div class="margin-bottom-10"><input type="password" name="pw" placeholder="Pick a password" class="form-control input-sm"/></div>
+<div class="margin-bottom-10"><input type="password" name="pw-conf" placeholder="Confirm password" class="form-control input-sm"/></div>
 <div class="margin-bottom-10">
 <button type="submit" class="btn-u">Subscribe</button>
 </div>
