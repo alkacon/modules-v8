@@ -4245,7 +4245,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Teaser rows can have 2 to 6 entries]]></value>
+					<value><![CDATA[Teaser rows can have 1 to 6 entries]]></value>
 				</property>
 			</properties>
 			<relations/>
