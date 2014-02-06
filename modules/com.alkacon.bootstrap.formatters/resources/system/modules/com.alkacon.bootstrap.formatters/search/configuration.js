@@ -7,7 +7,7 @@
         "general" : {
             "searchUrl" : '<cms:link>/handleSolrSelect</cms:link>',
             "spellUrl" : '<cms:link>/handleSolrSpell</cms:link>',
-            "titleQuery" : '?wt=json&q=*:*&rows=0&fl=Title_prop&fq=con_locales:*&facet=true&facet.field=Title_exact&facet.limit=1000&fq=parent-folders:"/sites/default/demo/"',
+            "titleQuery" : '?wt=json&q=*:*&rows=0&fl=Title_prop&fq=con_locales:*&facet=true&facet.field=Title_exact&facet.limit=1000&fq=parent-folders:"/sites/default/"',
             "rows" : 5,
             "defaultQuery" : "?wt=json&fq=con_locales:*&q=",
             "defaultSort" : 'lastmodified+desc',
