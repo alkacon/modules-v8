@@ -33,10 +33,13 @@
 					<li><i class="icon-pencil"></i> ${author}</li>
 					</c:if>
 				</ul>
-				<c:if test="${value.Category.exists}">
+				<c:if test="${fn:length(content.valueList.Category) > 0}">
 				<ul class="list-unstyled list-inline blog-tags">
 					<li>
-						<i class="icon-tags"></i>${value.Category}
+						<i class="icon-tags"></i>
+						<c:forEach var="item" items="${fn:split(content.value.Category,',')}" varStatus="status">
+							<a href="#">${cms.vfs.property[item]['Title']}</a>
+						</c:forEach>
 					</li>
 				</ul>
 				</c:if>
@@ -106,4 +109,4 @@
 		</c:forEach><!-- //END paragraphs -->
 	</div>
 </cms:formatter>
-</cms:bundle>
+</cms:bundle> 
