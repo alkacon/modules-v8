@@ -6,7 +6,7 @@
     <Text name="Text0">
       <links/>
       <content><![CDATA[<p><strong>Click this text to edit it!</strong></p>
-<p>These list items are inline formated:</p>
+<p>These list items are inline formatted:</p>
 <ol>
 <li><strong>Bold</strong></li>
 <li><em>Italic</em></li>

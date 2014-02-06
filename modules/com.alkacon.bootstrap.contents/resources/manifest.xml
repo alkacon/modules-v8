@@ -4091,7 +4091,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Full featured faceted search based on SOLR]]></value>
+					<value><![CDATA[Fully featured faceted search based on SOLR]]></value>
 				</property>
 			</properties>
 			<relations/>

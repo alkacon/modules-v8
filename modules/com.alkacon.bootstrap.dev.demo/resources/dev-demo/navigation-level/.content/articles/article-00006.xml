@@ -5,7 +5,7 @@
     <Title><![CDATA[Implementation details]]></Title>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>You can use the new method "navigationLevel" of the CmsJspNavElement to recognize the "Navigation Level" element in the navigation. This can be usefull e.g. for styling.</p>
+      <content><![CDATA[<p>You can use the new method "navigationLevel" of the CmsJspNavElement to recognize the "Navigation Level" element in the navigation. This can be useful e.g. for styling.</p>
 <p>Navigation example snippet with &lt;cms:navigation&gt; tag:</p>
 <pre>&lt;cms:navigation type="treeForFolder" startLevel="1" endLevel="4" var="nav"/&gt;
 &lt;c:forEach items="${nav.items}" var="elem"&gt;

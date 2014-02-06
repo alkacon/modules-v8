@@ -108,7 +108,7 @@
 </ul>
 <h3>Backward compatibility</h3>
 <p>OpenCms 9 is fully backward compatible with all 8.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 9.</p>
-<p><span class="label label-danger">Notice for users of Alkacon OCEE</span> OpenCms 9.0.1 requires an new version of Alkacon OCEE. The update is free for Alkacon customers with a valid OCEE update subscription. <a href="%(link0)" target="_blank">Please contact Alkacon</a> to receive the new version. </p>
+<p><span class="label label-danger">Notice for users of Alkacon OCEE</span> OpenCms 9.0.1 requires a new version of Alkacon OCEE. The update is free for Alkacon customers with a valid OCEE update subscription. <a href="%(link0)" target="_blank">Please contact Alkacon</a> to receive the new version. </p>
 <h3>Compatibility with Java versions, servlet containers and databases</h3>
 <p>OpenCms 9 has been written and tested for Java 6 and 7. We have tested with ORACLEs JDK as well as OpenJDK. OpenCms should run with all compliant JVMs.</p>
 <p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>

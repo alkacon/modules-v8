@@ -2,7 +2,7 @@
 
 <DevDemoArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.dev.demo/schemas/article.xsd">
   <DevDemoArticle language="en">
-    <Title><![CDATA[Image Scaling]]></Title>
+    <Title><![CDATA[Image scaling]]></Title>
     <Text name="Text0">
       <links/>
       <content><![CDATA[<p>Typically images are organized in galleries, that offer a thumbnail collection to the content manager in order to keep the selection as simple as possible. OpenCms from version 6 features integrated image scaling and resizing. This way it's easy to manipulate commonly used image formats like JPEG, GIF, PNG, TIF etc. to make sure the output in a template is always of the required size, to generate thumbnails in overview lists and more. Additional image processing filters like "add drop shadow to image" are also available.</p>]]></content>

@@ -6,8 +6,8 @@
     <Text name="Text0">
       <links/>
       <content><![CDATA[<p> </p>
-<p>This example demonstrates how to scale images. Images can be scaled danamically by using the &lt;cms:image&gt;-Tag within the formatter. In this exmaple the image width is calculated based on the container width.</p>
-<p><strong>Please check following formatter to get more implementation details:</strong></p>
+<p>This example demonstrates how to scale images. Images can be scaled dynamically by using the &lt;cms:image&gt;-Tag within the formatter. In this example the image width is calculated based on the container width.</p>
+<p><strong>Please check the following formatter to get more implementation details:</strong></p>
 <pre>/system/modules/com.alkacon.bootstrap.dev.demo/formatters/dev-article.jsp</pre>]]></content>
     </Text>
     <Image>

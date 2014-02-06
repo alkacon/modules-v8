@@ -5,7 +5,7 @@
     <Title><![CDATA[Navigation Demo]]></Title>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p><strong>Use Case:</strong> A list of pages, e.g. different products, should be displayed in the navigation under "Products". When user clicks on "Products" the first product is directly displayed and marked as selected in the navigation. There is no product overview page.</p>
+      <content><![CDATA[<p><strong>Use Case:</strong> A list of pages, e.g. different products, should be displayed in the navigation below "Products". When user clicks on "Products" the first product is directly displayed and marked as selected in the navigation. There is no product overview page.</p>
 <p>Since OpenCms 8.5.0 there is a new function page <strong>"Navigation Level"</strong> to define a navigation entry point, which automatically links to the first sub page. Use this function page, if you would like to list several pages in the navigation without an overview page.</p>]]></content>
     </Text>
     <Image/>

@@ -11,7 +11,7 @@
 <li>Drop new elements to the element group from the add wizard.</li>
 <li>Save all changes by clicking the ok-button of the element group editor.</li>
 </ol>
-<p><em>Note:</em> All changes on the elements inside of the element group like editing, removing elements, moving elements insider the group as well as changing settings of the element are populated to all pages using this page model.</p>]]></content>
+<p><em>Note:</em> All changes on the elements inside of the element group like editing, removing elements, moving elements inside the group as well as changing settings of the element are populated to all pages using this element group.</p>]]></content>
     </Text>
     <Image/>
   </DevDemoArticle>

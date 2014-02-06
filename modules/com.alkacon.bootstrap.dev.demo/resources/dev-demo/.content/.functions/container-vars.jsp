@@ -43,12 +43,12 @@
     <p><b>Mode:</b> ${cms.edited}</p>
     <c:if test="${cms.edited}">
         <p>Please reload the current page.</p>
-        <p>The element mode is <strong>true</strong>, if the element have been moved or edited, but the page have not been reloaded yet.<br/>
-        The element mode is <strong>false</strong>, if the element have not been changed since the last reload of the page.</p>
+        <p>The element mode is <strong>true</strong>, if the element has been moved or edited, but the page has not been reloaded yet.<br/>
+        The element mode is <strong>false</strong>, if the element has not been changed since the last reload of the page.</p>
     </c:if>
     <c:if test="${!cms.edited}">
-        <p>The element mode is <strong>true</strong>, if the element have been moved or edited, but the page have not been reloaded yet.<br/>
-        The element mode is <strong>false</strong>, if the element have not been changed since the last reload of the page.</p>
+        <p>The element mode is <strong>true</strong>, if the element has been moved or edited, but the page has not been reloaded yet.<br/>
+        The element mode is <strong>false</strong>, if the element has not been changed since the last reload of the page.</p>
     </c:if>
     <c:if test="${cms.container.name == 'centercolumn'}">
         <c:if test="${not empty cms.functionDetail['simplecalculator']}">

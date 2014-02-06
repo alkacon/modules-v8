@@ -11,18 +11,18 @@
         </link>
       </links>
       <content><![CDATA[<p>Since OpenCms 8 a resource type "Dynamic Function" has been introduced. This resource type makes it possible to drag and drop a dynamic content provided by a jsp directly into a containerpage of the website.</p>
-<p><strong>Use Case:</strong> A typical use case is extending of the website by a search or a login functionality.</p>
+<p><strong>Use Case:</strong> A typical use case is extending the website by a search or a login functionality.</p>
 <p><strong>Example:</strong> In this demo example a simple date display is added to a box, which can be dropped in one of the side containers. The <a title="Settings demo" href="%(link0)" target="_self">settings</a> are used to set the format of the date. The locale is provided by a request parameter defined for the dynamic function.</p>
 <p><strong>How to use "Dynamic Function":</strong></p>
 <ul>
-<li>Drop a new resource of type "Dynamic Function" into the containerpage and edit in xmlcontent editor from ADE.</li>
+<li>Drop a new resource of type "Dynamic Function" into the containerpage and edit it in the XML content editor from ADE.</li>
 <li>Set the title to indicate this dynamic function from another in the add wizard in ADE.</li>
-<li>Select the path to the jsp, which provides the required functionality, in the field "Function provider".</li>
+<li>Select the path to the JSP which provides the required functionality in the field "Function provider".</li>
 <li>Add optional request parameters if required in the field "Parameters".</li>
-<li>Optional formatter configuration for this dynamic function element can be set in the field "Formatter options". You can restrict the type of the container as well as its min or max width to control, in which template container this dynamic function resource can be dropped.</li>
+<li>Optional formatter configuration for this dynamic function element can be set in the field "Formatter options". You can restrict the type of the container as well as its min or max width to control in which template container this dynamic function resource can be dropped.</li>
 </ul>
-<p>Additionally define the settings in the second tab directly in the xmlcontent editor. Use the same options as inside of the schema definition for the resource type.</p>
-<p><strong>Important note: </strong>The html output provided by the used jsp should be surrounded by a &lt;div&gt; tag, similar to the formatter jsp.</p>]]></content>
+<p>Additionally define the settings in the second tab directly in the XML content editor. Use the same options as inside the schema definition for the resource type.</p>
+<p><strong>Important note: </strong>The HTML output provided by the used JSP should be surrounded by a &lt;div&gt; tag, similar to the formatter jsp.</p>]]></content>
     </Text>
     <Image/>
   </DevDemoArticle>
