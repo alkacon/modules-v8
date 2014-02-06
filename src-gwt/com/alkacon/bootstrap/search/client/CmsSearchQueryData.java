@@ -442,8 +442,8 @@ public class CmsSearchQueryData implements IsSerializable {
             buf.append(value);
         }
 
-        buf.append(cerateFilterQuery("parent-folders", m_parentFolders, true));
-        buf.append(cerateFilterQuery("type", m_resourceTypes, true));
+        buf.append(createFilterQuery("parent-folders", m_parentFolders, true));
+        buf.append(createFilterQuery("type", m_resourceTypes, true));
 
         //add the facets
         buf.append("&facet=" + m_config.isFacet());
@@ -956,8 +956,8 @@ public class CmsSearchQueryData implements IsSerializable {
             }
         }
 
-        buf.append(cerateFilterQuery("parent-folders", m_parentFolders, true));
-        buf.append(cerateFilterQuery("type", m_resourceTypes, true));
+        buf.append(createFilterQuery("parent-folders", m_parentFolders, true));
+        buf.append(createFilterQuery("type", m_resourceTypes, true));
 
         buf.append("]', Facets:['");
         boolean firstFacet = true;
@@ -1006,7 +1006,7 @@ public class CmsSearchQueryData implements IsSerializable {
      * 
      * @return the fq string
      */
-    private String cerateFilterQuery(String fieldName, List<String> values, boolean or) {
+    private String createFilterQuery(String fieldName, List<String> values, boolean or) {
 
         StringBuffer result = new StringBuffer();
         if ((values != null) && !values.isEmpty()) {
