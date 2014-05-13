@@ -36,6 +36,9 @@
 				<relation element="Paragraph/Image/Image" invalidate="parent" />
 			</relations>
 			<searchsettings containerPageOnly="true"/>
+			<synchronizations> 
+            	<synchronization element="Paragraph/Image/Image" /> 
+        	</synchronizations>
 		</xsd:appinfo>
 	</xsd:annotation>
 
