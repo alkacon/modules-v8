@@ -35,23 +35,24 @@
           </link>
         </links>
         <content><![CDATA[<div class="top">
-    <div class="container">
+    <div class="container topbar">
         <ul class="loginbar pull-left">
         <li><a href="%(link0)">&copy; Alkacon Software GmbH - The OpenCms experts</a></li>
         </ul>
         <ul class="loginbar pull-right">
             <li><a href="%(link1)">Beginners Tutorial</a></li>
-            <li class="devider"></li>
+            <li class="topbar-devider"></li>
             <li><a href="%(link2)">Demo Website</a></li>
-            <li class="devider"></li>
+            <li class="topbar-devider"></li>
             <li><a href="%(link3)">Developer Demo</a></li>
-            <li class="devider"></li>
+            <li class="topbar-devider"></li>
             <li><a href="%(link4)">Release notes</a></li>
-            <li class="devider"></li>
+            <li class="topbar-devider"></li>
             <li><a href="%(link5)">Search</a></li>
-            <li class="devider"></li>
+            <li class="topbar-devider"></li>
             <li><a href="%(link6)">Login</a></li>
-</ul></div>
+     </ul>
+</div>
 </div><!--/top-->]]></content>
       </Code>
     </Choice>
