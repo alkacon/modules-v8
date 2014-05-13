@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapPosts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/post.xsd">
+  <BootstrapPost language="en">
+    <Paragraph>
+      <Headline><![CDATA[Not logged in and still posting - User-generated content in OpenCms]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[Since OpenCms 9.5 XML contents can be edited and added via a JavaScript-API. We call this feature “User generated content”, short UGC. It allows to
+<ul>
+<li>Let users generate/edit content without login</li>
+<li>Add/edit content from the online project</li>
+<li>Provide completely customized ways to fill and edit content</li>
+<li>Use client-side validation of content that goes beyond the validation rules in XSDs</li>
+<li>Build a back-end to an existing form that creates/alters an OpenCms XML content</li>
+</ul>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/samples/31.jpg]]></target>
+            <uuid>b571e789-4785-11e3-ba23-000c29d28104</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Amazing display of fireworks!]]></Title>
+        <Description><![CDATA[Wow!]]></Description>
+      </Image>
+      <Link>
+        <Text><![CDATA[The Alkacon Homepage]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://www.alkacon.com]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+    <Author><![CDATA[Just a guest]]></Author>
+    <AuthorMail><![CDATA[support@alkacon.com]]></AuthorMail>
+  </BootstrapPost>
+</BootstrapPosts>
