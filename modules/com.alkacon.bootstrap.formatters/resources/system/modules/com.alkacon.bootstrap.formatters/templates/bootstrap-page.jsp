@@ -25,19 +25,25 @@
 	<cms:enable-ade/>
 	
 	<c:if test="${not cms.isOnlineProject}">
-		<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/css/bootstrap.css:a37af2b8-8833-11e3-8675-3b52e9337fb8)" />
+		<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/css/bootstrap.css:a37af2b8-8833-11e3-8675-3b52e9337fb8)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/style.css:0f8fcb02-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/app.css:0f3834e2-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/plugins.css:1052a67f-da69-11e3-86a0-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css:1264956e-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/line-icons/line-icons.css:3cdfb75a-da75-11e3-86a0-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:127bc6fe-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/search.css:2e634695-0cb8-11e2-b19e-2b1b08a6835d)" />
 	</c:if>
 	<c:if test="${cms.isOnlineProject}">
-		<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/css/bootstrap.min.css:a383301a-8833-11e3-8675-3b52e9337fb8)" />
+		<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/css/bootstrap.min.css:a383301a-8833-11e3-8675-3b52e9337fb8)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/style.css:0f8fcb02-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/app.css:0f3834e2-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/plugins.css:1052a67f-da69-11e3-86a0-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css:1264956e-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/line-icons/line-icons.css:3cdfb75a-da75-11e3-86a0-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:127bc6fe-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/search.css:2e634695-0cb8-11e2-b19e-2b1b08a6835d)" />
 	</c:if>
-	
-	<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/style.css:0f8fcb02-3a3b-11e3-a584-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/app.css:0f3834e2-3a3b-11e3-a584-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/plugins.css:1052a67f-da69-11e3-86a0-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css:1264956e-3a3b-11e3-a584-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/line-icons/line-icons.css:3cdfb75a-da75-11e3-86a0-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:127bc6fe-3a3b-11e3-a584-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/search.css:2e634695-0cb8-11e2-b19e-2b1b08a6835d)" />
 		
 	<c:set var="colortheme"><cms:property name="bs.page.color" file="search" default="red" /></c:set>
 	<c:set var="pagelayout"><cms:property name="bs.page.layout" file="search" default="9" /></c:set>
@@ -45,20 +51,21 @@
 	<link rel="stylesheet" href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css:52f716c6-20f8-11e3-b4d8-000c297c001d)</cms:link>">
 
 	<c:if test="${not cms.isOnlineProject}">
-		<cms:headincludes type="javascript" defaults="
-			%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.10.2.js:127808be-8834-11e3-8675-3b52e9337fb8)|
-		    %(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-migrate-1.2.1.min.js:4986e200-8834-11e3-8675-3b52e9337fb8)|
-			%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/js/bootstrap.min.js:a35b35b0-8833-11e3-8675-3b52e9337fb8)" />
+		<cms:headincludes type="javascript" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.10.2.js:127808be-8834-11e3-8675-3b52e9337fb8)
+		    |%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-migrate-1.2.1.min.js:4986e200-8834-11e3-8675-3b52e9337fb8)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/js/bootstrap.min.js:a35b35b0-8833-11e3-8675-3b52e9337fb8)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.js:12686601-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js:1908df28-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/app.js:11fe5a44-3a3b-11e3-a584-000c2943a707)" />
 	</c:if>
 	<c:if test="${cms.isOnlineProject}">
-		<cms:headincludes type="javascript" defaults="
-			%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.10.2.min.js:0d41801c-8834-11e3-8675-3b52e9337fb8)|
-		    %(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-migrate-1.2.1.min.js:4986e200-8834-11e3-8675-3b52e9337fb8)|
-			%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/js/bootstrap.min.js:a35b35b0-8833-11e3-8675-3b52e9337fb8)" />
+		<cms:headincludes type="javascript" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.10.2.min.js:0d41801c-8834-11e3-8675-3b52e9337fb8)
+		    |%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-migrate-1.2.1.min.js:4986e200-8834-11e3-8675-3b52e9337fb8)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/js/bootstrap.min.js:a35b35b0-8833-11e3-8675-3b52e9337fb8)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.js:12686601-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js:1908df28-3a3b-11e3-a584-000c2943a707)
+			|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/app.js:11fe5a44-3a3b-11e3-a584-000c2943a707)" />
 	</c:if>
-	<cms:headincludes type="javascript" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.js:12686601-3a3b-11e3-a584-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js:1908df28-3a3b-11e3-a584-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/app.js:11fe5a44-3a3b-11e3-a584-000c2943a707)" />
 
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
