@@ -39,14 +39,13 @@
 
    				<c:set var="layoutvariant"><c:out value="${cms.element.settings.layoutvariant}" default="top" /></c:set>
   				<c:choose>
-  					<c:when test="${layoutvariant == 'top' or layoutvariant == 'left'}">
-  						<c:set var="boxClass">search-blocks-${layoutvariant}-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
-  					</c:when>
-  					<c:otherwise>
-  						<c:set var="boxClass">search-blocks-colored search-blocks-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
-  					</c:otherwise>
-  				</c:choose>
-
+        		<c:when test="${layoutvariant == 'top' or layoutvariant == 'left'}">
+        			<c:set var="boxClass">tag-box tag-box-<c:if test="${layoutvariant == 'top'}">v3</c:if><c:if test="${layoutvariant == 'left'}">v2</c:if> search-blocks-${layoutvariant}-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
+        		</c:when>
+        		<c:otherwise>
+        			<c:set var="boxClass">servive-block servive-block-<c:out value="${cms.element.settings.color}" default="sea" /> search-blocks-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
+        		</c:otherwise>
+        	</c:choose>
 
 					<cms:contentload collector="byContext" param="${collectorParam}" preload="true" >
 						<cms:contentinfo var="info" />
@@ -56,7 +55,7 @@
 					
 								<!-- entry -->
 								<c:set var="paragraph" value="${content.valueList.Paragraph['0']}" />
-								<div class="search-page"><div class="search-blocks ${boxClass}">
+								<div class="search-page"><div class="${boxClass}">
 									<div class="row">
 										<c:if test="${paragraph.value.Image.exists}">
 											<div class="col-md-4 search-img">
@@ -80,6 +79,7 @@
         									<p>${cms:trimToSize(cms:stripHtml(paragraph.value.Text), teaserlength)}</p>
 												</c:otherwise>
 											</c:choose>
+                      <div class="margin-bottom-10"></div>
                       <a href="<cms:link>${content.filename}</cms:link>" class="btn-u btn-u-<c:out value="${cms.element.settings.buttoncolor}" default="red" />"><fmt:message key="bootstrap.list.message.readmore" /></a>
 										</div>
 									</div>                            

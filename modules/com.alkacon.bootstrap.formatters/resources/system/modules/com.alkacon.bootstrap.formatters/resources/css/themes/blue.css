@@ -1,4 +1,13 @@
-p a,
+/* 
+* Version: 1.4
+* Blue Color 		: #003082;
+* Blue Hover Color  : #2050a2;
+*/
+
+a {
+   color: #003082;
+}
+
 a:focus, 
 a:hover, 
 a:active {
@@ -16,6 +25,100 @@ a.read-more:hover {
 .linked:hover {
 	color:#003082;
 }
+
+/*Header v1
+------------------------------------*/
+/*Navber*/
+.header .navbar-default .navbar-nav > .active > a {
+	color: #003082;
+}
+
+/*Navbar Toggle*/
+.navbar-toggle,
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background: #003082;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #2050a2;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background: #2050a2;
+}
+
+/*Responsive Navbar*/
+@media (max-width: 767px) {
+	.header .navbar-default .navbar-nav > li > a:hover {
+		color: #003082;
+	}
+
+	.header .navbar-default .navbar-nav > .active > a,
+	.header .navbar-default .navbar-nav > .active > a:hover,
+	.header .navbar-default .navbar-nav > .active > a:focus {
+		color: #fff;				
+		background: #003082;
+	}
+}
+
+@media (min-width: 767px) {
+	/*Navbar*/
+	.header .navbar-default .navbar-nav > li > a:hover,
+	.header .navbar-default .navbar-nav > .active > a {
+		border-bottom: solid 2px #003082;
+	}
+
+	.header .navbar-default .navbar-nav > .open > a,
+	.header .navbar-default .navbar-nav > .open > a:hover,
+	.header .navbar-default .navbar-nav > .open > a:focus {
+		color: #003082;
+	}
+
+	/*Dropdown Menu*/
+	.header .dropdown-menu { 
+		border-top: solid 2px #003082; 
+	}	
+}
+
+/*Search Box*/
+.header .navbar .nav > li > .search:hover {
+	color: #003082;
+	border-bottom-color: #003082;
+}
+
+@media (max-width: 767px) {
+	.header .navbar .nav > li > .search:hover {
+		background: #2050a2;
+	}
+}
+
+/*Header v2
+------------------------------------*/
+/*Topbar*/
+.topbar-v1 .top-v1-data li a:hover i {
+	color: #003082;
+}
+
+/*Search Box*/
+.header-v1 .navbar .nav > li > .search:hover {
+	background: #003082;
+}
+
+/*Responsive Navbar*/
+@media (min-width: 767px) {
+	.header-v1 .navbar-default .navbar-nav > li > a:hover,
+	.header-v1 .navbar-default .navbar-nav > .active > a {
+		color: #fff;
+		background: #003082 !important;
+	}
+
+	.header-v1 .navbar-default .navbar-nav > .open > a,
+	.header-v1 .navbar-default .navbar-nav > .open > a:hover,
+	.header-v1 .navbar-default .navbar-nav > .open > a:focus {
+		background: #003082;		
+	}
+}	
 
 /*Sliders
 ------------------------------------*/
@@ -42,24 +145,35 @@ a.read-more:hover {
 	background:rgba(52, 152, 219, 0.8);
 }
 
-/*Purchase
-------------------------------------*/
-.purchase a.btn-buy {
-	background:#003082;
-	text-shadow:0 1px 0 #2050a2;
-}
-.purchase a.btn-buy:hover {
-	background:#2050a2;
-} 
-
 /*Buttons
 ------------------------------------*/
 .btn-u {
 	background: #003082;
 }
 
-.btn-u:hover {
+.btn-u:hover, 
+.btn-u:focus, 
+.btn-u:active, 
+.btn-u.active, 
+.open .dropdown-toggle.btn-u {
 	background: #2050a2;
+}
+
+/*Buttons Color*/
+.btn-u-split.dropdown-toggle {
+   border-left: solid 1px #2050a2;
+}
+
+/*Bordered Buttons*/
+.btn-u.btn-brd {
+  border-color: #003082;
+}
+.btn-u.btn-brd:hover {
+  color: #2050a2;
+  border-color: #2050a2;
+}
+.btn-u.btn-brd.btn-brd-hover:hover {
+   background: #2050a2;   
 }
 
 /*Service
@@ -226,54 +340,6 @@ blockquote:hover {
 /*Social Icons*/
 .team ul.team-socail li i:hover {
 	background: #003082;
-}
-
-/*Pricing Page
-------------------------------------*/
-/*Pricing Head*/
-.pricing:hover h4 {
-	color:#003082;
-}
-
-.pricing-head h3 {
-	background:#003082;
-	text-shadow:0 1px 0 #2050a2;
-	border-bottom:solid 1px #2050a2;
-}
-.pricing-head h4 {
-	color:#999;
-	background:#fcfcfc;
-	border-bottom:solid 1px #daf0ff;
-}
-	
-/*Pricing Content*/
-.pricing-content li {
-	border-bottom:solid 1px #daf0ff;
-}
-.pricing-content li i {
-	color:#003082;
-}
-
-/*Pricing Footer*/
-.pricing-footer a,
-.pricing-footer button {
-	background:#003082;
-	text-shadow:0 1px 0 #2050a2;
-	border-bottom:solid 2px #2050a2;
-}
-.pricing-footer a:hover,
-.pricing-footer button:hover {
-	background:#2050a2;
-}
-
-/*Priceing Active*/
-.price-active h4 {
-	color:#003082;
-}
-
-.no-space-pricing .price-active .pricing-head h4,
-.no-space-pricing .pricing:hover .pricing-head h4 {
-	color:#003082;
 }
 
 /*Right Sidebar
@@ -459,4 +525,340 @@ ul.blog-tags a:hover {
 ------------------------------------*/
 .reg-block {
 	border-top: solid 2px #003082;
+}
+
+/*Image Hover
+------------------------------------*/
+/*Image-hover*/
+#effect-2 figure .img-hover {
+	background: #003082;
+}
+
+/*Blog Large Page
+------------------------------------*/
+.blog h2 a:hover {
+	color: #003082;
+}
+
+/*Timeline v1 Page
+------------------------------------*/
+.timeline-v1 > li > .timeline-badge i:hover {
+	color: #003082;
+}
+
+.timeline-v1 .timeline-footer .likes:hover i {
+	color: #003082;
+}
+
+/*Timeline v2 Page
+------------------------------------*/
+/* The icons */
+.timeline-v2 > li .cbp_tmicon {
+	background: #003082;
+}
+
+/*Progress Bar
+------------------------------------*/
+.progress-bar-u {
+  background: #003082;
+}
+
+/*Job Inner Page
+------------------------------------*/
+.job-description .save-job a:hover,
+.block-description .save-job a:hover {
+	color: #003082;
+}
+
+.job-description .p-chart .overflow-h li i,
+.job-description .p-chart .overflow-h li a,
+.block-description .p-chart .overflow-h li i,
+.block-description .p-chart .overflow-h li a {
+	color: #003082;
+}
+
+/*Colorful-ul*/
+.job-description .colorful-ul li a {
+	color: #003082;
+}
+
+/*Search Inner Page
+------------------------------------*/
+.s-results .related-search a:hover {
+	color: #003082;
+}
+
+.s-results .inner-results h3 a:hover {
+	color: #003082;
+}
+
+.s-results .up-ul li a:hover {
+	color: #003082;
+}
+
+.s-results .down-ul li a {
+	color: #003082;
+}
+
+/*Funny Boxes
+------------------------------------*/
+.funny-boxes p a {
+  color: #003082;
+}
+
+.funny-boxes .funny-boxes-img li i {
+  color: #003082;
+}
+
+/*Green Left Bordered Funny Box**/
+.funny-boxes-left-green {
+  border-left: solid 2px #003082;
+}
+
+.funny-boxes-left-green:hover {
+  border-left-color: #003082;
+}
+
+/*Sidebar Sub Navigation
+------------------------------------*/
+.sidebar-nav-v1 ul li:hover a,
+.sidebar-nav-v1 ul li.active a {
+  color: #003082;
+}
+
+/*Blockquote
+------------------------------------*/
+blockquote.bq-green {
+  border-color: #003082;
+}
+
+blockquote:hover,
+blockquote.text-right:hover {
+   border-color: #003082;
+}
+
+/*Testimonials Default
+------------------------------------*/
+/*Testimonials*/
+.testimonials .carousel-arrow i:hover {
+  background: #003082;
+}
+
+/*Testimonials Default*/
+.testimonials-bg-default .item p {
+  background: #003082;
+}
+
+.testimonials.testimonials-bg-default .item p:after,
+.testimonials.testimonials-bg-default .item p:after {
+  border-top-color: #003082;
+}
+
+.testimonials-bg-default .carousel-arrow i {
+  background: #003082;
+}
+
+.testimonials.testimonials-bg-default .carousel-arrow i:hover {
+  background: #2050a2;
+}
+
+/*Promo Page
+------------------------------------*/
+/*Promo Box*/
+.promo-box:hover strong, 
+.promo-box:hover strong a {
+	color: #003082;
+}
+
+/*Typography
+------------------------------------*/
+.dropcap {
+	color: #003082;
+}
+
+.dropcap-bg {
+	color: #fff;
+	background: #003082;
+}
+
+/*Breadcrumbs
+------------------------------------*/ 
+span.label-u,
+span.badge-u {
+  background: #003082;
+}
+
+/*Icons
+------------------------------------*/
+/*Icon Link*/
+.link-icon:hover i {
+  color: #003082;
+  border: solid 1px #003082;
+}
+
+.link-bg-icon:hover i {
+  color: #003082;
+  background: #003082 !important;
+  border-color: #003082;
+}
+
+/*Icons Backgroun Color
+------------------------------------*/ 
+i.icon-color-u {
+   color: #003082;
+   border: solid 1px #003082;
+}
+
+i.icon-bg-u {
+   background: #003082;
+}
+
+/*Line Icon Page
+------------------------------------*/
+.line-icon-page .item:hover {
+	color: #003082;
+}
+
+/*Colored Content Boxes
+------------------------------------*/
+.servive-block-u {
+  background: #003082;
+}
+
+/*Panels (Portlets)
+------------------------------------*/
+.panel-u > .panel-heading {
+   background: #003082;
+}
+
+/*Owl Carousel
+------------------------------------*/
+.owl-btn:hover {
+  background: #003082;
+}
+
+/*Counter
+------------------------------------*/
+.counters span.counter-icon i {
+	background: #003082;
+}
+
+.counters span.counter-icon i:after {
+	border-top: 7px solid #003082;
+}
+
+/*SKy-Forms
+------------------------------------*/
+/*Buttons*/
+.sky-form .button {
+	background: #003082;
+}
+
+/*Rating*/
+.sky-form .rating input:checked ~ label {
+	color: #003082;
+}
+
+/*Pricing Page
+------------------------------------*/
+/*Pricing Head*/
+.pricing:hover h4 {
+	color:#003082;
+}
+
+.pricing-head h3 {
+	background:#003082;
+	text-shadow: 0 1px 0 #2050a2;	
+}
+
+.pricing-head h4 {
+	color:#999;
+	background:#fcfcfc;
+	border-bottom:solid 1px #deeffc;
+}
+	
+/*Pricing Content*/
+.pricing-content li {
+	border-bottom:solid 1px #deeffc;
+}
+.pricing-content li i {
+	color:#003082;
+}
+
+/*Pricing Extra*/
+.sticker-left {
+	background: #003082;
+}
+
+/*Pricing Footer*/
+.pricing-footer a,
+.pricing-footer button {
+	background:#003082;
+}
+.pricing-footer a:hover,
+.pricing-footer button:hover {
+	background:#2050a2;
+}
+
+/*Priceing Active*/
+.price-active h4 {
+	color:#003082;
+}
+
+.no-space-pricing .price-active .pricing-head h4,
+.no-space-pricing .pricing:hover .pricing-head h4 {
+	color:#003082;
+}
+
+
+/*Mega Pricing Tables 
+------------------------------------*/
+.pricing-mega-v1 .pricing-head h3,
+.pricing-mega-v2 .pricing-head h3,
+.pricing-mega-v3 .pricing-head h3 {
+	text-shadow: 0 1px 0 #2050a2;
+}
+
+/*Pricing Table Mega v1 Version
+------------------------------------*/
+.pricing-mega-v1 .pricing:hover h4 i {
+	color:#003082;
+}
+.pricing-mega-v1 .pricing-content li i {
+	color: #003082; 
+}
+
+/*Pricing Table Colored Background Version
+------------------------------------*/
+.pricing-bg-colored .pricing:hover {	
+	background: #003082;
+}
+
+.pricing-bg-colored .pricing-head i {
+	color:#003082;
+}
+
+/*Pricing Table Mega v2 
+------------------------------------*/
+.pricing-mega-v2 .block:hover .bg-color {
+	background: #003082;
+}
+.pricing-mega-v2 .block:hover h3,
+.pricing-mega-v2 .block:hover h4, 
+.pricing-mega-v2 .block:hover li, 
+.pricing-mega-v2 .block:hover li i,
+.pricing-mega-v2 .block:hover h4 i {
+	background: #003082;
+}
+
+/*Pricing Table Mega v3 
+------------------------------------*/
+.pricing-mega-v1 .btn-group .dropdown-menu,
+.pricing-mega-v3 .btn-group .dropdown-menu {
+	background: #003082 !important;
+}
+
+.pricing-mega-v1 .btn-group .dropdown-menu li a:hover,
+.pricing-mega-v3 .btn-group .dropdown-menu li a:hover {
+	background: #2050a2;
 }

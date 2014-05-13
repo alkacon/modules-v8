@@ -12,7 +12,7 @@
 </c:forEach>
 <cms:navigation type="forSite" resource="${navStartFolder}" startLevel="${navStartLevel}" endLevel="${navStartLevel + 1}" var="nav"/>
 <div class="collapse navbar-collapse navbar-responsive-collapse">                                                             
-	<ul class="nav navbar-nav navbar-right">
+	<ul class="nav navbar-nav">
 
 	<c:set var="oldLevel" value="" />
 	<c:forEach items="${nav.items}" var="elem" varStatus="status">
@@ -65,11 +65,11 @@
 
 	<c:forEach begin="${navStartLevel + 1}" end="${oldLevel}"></li></ul></c:forEach>
 	<c:if test="${not empty nav.items}"></li></c:if>
-    <li class="hidden-sm" id="searchButtonHeader"><a class="search"><i class="icon-search search-btn"></i></a></li>                               
-			</ul>
+    <li>
+      <i class="search fa fa-search search-btn"></i>
 			<div class="search-open">
 				<form class="form-inline" name="searchFormHeader" action="${cms.functionDetail['Search page']}" method="post">
-					<div class="input-group" id="searchContentHeader">
+					<div class="input-group animated fadeInDown" id="searchContentHeader">
 						<input type="text" class="form-control" placeholder="Search" id="searchWidgetAutoCompleteHeader" />
 						<span class="input-group-btn">
 							<button class="btn-u" type="button" onclick="this.form.submit(); return false;">Go</button>
@@ -77,4 +77,6 @@
 					</div>
 				</form>
 			</div>
+    </li>
+  </ul>
 </div><!-- /collapse -->

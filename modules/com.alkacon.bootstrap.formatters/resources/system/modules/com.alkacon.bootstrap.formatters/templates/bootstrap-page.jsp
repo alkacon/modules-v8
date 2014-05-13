@@ -4,7 +4,9 @@
 --%><%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %><%--
 --%><%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %><%--
 --%><fmt:setLocale value="${cms.locale}" /><!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 	<title>OpenCms | ${cms.title}</title>
 	
@@ -30,16 +32,16 @@
 	</c:if>
 	
 	<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/style.css:0f8fcb02-3a3b-11e3-a584-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/responsive.css:0f8c217f-3a3b-11e3-a584-000c2943a707)
+		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/app.css:0f3834e2-3a3b-11e3-a584-000c2943a707)
+		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/plugins.css:1052a67f-da69-11e3-86a0-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.css:1264956e-3a3b-11e3-a584-000c2943a707)
+		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/line-icons/line-icons.css:3cdfb75a-da75-11e3-86a0-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/font-awesome/css/font-awesome.css:127bc6fe-3a3b-11e3-a584-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/headers/header1.css:0f415ca7-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/search.css:2e634695-0cb8-11e2-b19e-2b1b08a6835d)" />
 		
 	<c:set var="colortheme"><cms:property name="bs.page.color" file="search" default="red" /></c:set>
 	<c:set var="pagelayout"><cms:property name="bs.page.layout" file="search" default="9" /></c:set>
 	<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/${colortheme}.css</cms:link>">
-	<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/themes/headers/header1-${colortheme}.css</cms:link>">
 	<link rel="stylesheet" href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css:52f716c6-20f8-11e3-b4d8-000c297c001d)</cms:link>">
 
 	<c:if test="${not cms.isOnlineProject}">
@@ -54,8 +56,7 @@
 		    %(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-migrate-1.2.1.min.js:4986e200-8834-11e3-8675-3b52e9337fb8)|
 			%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/js/bootstrap.min.js:a35b35b0-8833-11e3-8675-3b52e9337fb8)" />
 	</c:if>
-	<cms:headincludes type="javascript" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/hover-dropdown.min.js:1903fd25-3a3b-11e3-a584-000c2943a707)
-		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.js:12686601-3a3b-11e3-a584-000c2943a707)
+	<cms:headincludes type="javascript" defaults="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/bxslider/jquery.bxslider.js:12686601-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/back-to-top.js:1908df28-3a3b-11e3-a584-000c2943a707)
 		|%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/js/app.js:11fe5a44-3a3b-11e3-a584-000c2943a707)" />
 
@@ -69,7 +70,7 @@
 	<![endif]-->
 	<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/search/config.jsp:b4a9ffc9-416c-11e3-81ba-000c297c001d)" />
 </head><body>
-<div class="page-wrap">
+<div class="page-wrap wrapper">
 <c:if test="${cms.isEditMode}">
 <!--=== Placeholder for OpenCms toolbar in edit mode ===-->
 <div style="background: lightgray; height: 35px">&nbsp;</div>
@@ -77,7 +78,7 @@
 
 <cms:container name="top-wide" type="content-wide" width="1200" maxElements="5" />
 <!--=== Content Part ===-->
-<div class="container">
+<div class="container content">
 
     <cms:container name="top" type="content-full" width="1200" />
 

@@ -11,15 +11,15 @@
 	<c:set var="layoutvariant"><c:out value="${cms.element.settings.layoutvariant}" default="top" /></c:set>
 	<c:choose>
 		<c:when test="${layoutvariant == 'top' or layoutvariant == 'left'}">
-			<c:set var="boxClass">search-blocks-${layoutvariant}-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
+			<c:set var="boxClass">tag-box tag-box-<c:if test="${layoutvariant == 'top'}">v3</c:if><c:if test="${layoutvariant == 'left'}">v2</c:if> search-blocks-${layoutvariant}-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
 		</c:when>
 		<c:otherwise>
-			<c:set var="boxClass">search-blocks-colored search-blocks-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
+			<c:set var="boxClass">servive-block servive-block-<c:out value="${cms.element.settings.color}" default="sea" /> search-blocks-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
 		</c:otherwise>
 	</c:choose>
 	
 	<c:forEach var="paragraph" items="${content.valueList.Paragraph}">
-	<div class="search-page"><div class="search-blocks ${boxClass}">
+   <div class="${boxClass}">
 		<div class="row">
 
 			<c:set var="imgalign">noimage</c:set>
@@ -35,7 +35,7 @@
 
 			<div class="<c:if test="${imgalign != 'noimage'}">col-md-8 col-sm-10 </c:if>col-xs-12">
 				<c:if test="${paragraph.value.Headline.isSet}">
-				<h2 ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h2>
+				<h3 class="heading-md" ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h3>
 				</c:if>
 				<div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>	
 				<c:if test="${paragraph.value.Link.exists}">
@@ -49,7 +49,7 @@
 				</div>
 			</c:if>
 		</div>                            
-	</div></div>
+	 </div>
 	</c:forEach> 
 	
 </div>
