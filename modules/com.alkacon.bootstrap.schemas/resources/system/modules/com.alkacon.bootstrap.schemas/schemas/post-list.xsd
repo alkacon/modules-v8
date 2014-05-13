@@ -1,0 +1,41 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+		
+	<xsd:element name="BootstrapPostLists" type="OpenCmsBootstrapPostLists"/>
+	
+	<xsd:complexType name="OpenCmsBootstrapPostLists">
+		<xsd:sequence>
+			<xsd:element name="BootstrapPostList" type="OpenCmsBootstrapPostList" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapPostList">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="UgcConfig" type="OpenCmsVfsFile" />
+			<xsd:element name="MaxShown" type="OpenCmsString" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.postlist"/>
+			<mappings>
+				<mapping element="Title" mapto="property:Title" />
+				<mapping element="Title" mapto="urlName" />
+			</mappings>
+			<defaults>
+				<default element="Title" value="%(key.bootstrap.list.default.Title)" />
+				<default element="UgcConfig" value="/system/modules/com.alkacon.bootstrap.formatters/resources/config/post-ugc-config.xml" />
+				<default element="MaxShown" value="6" />
+			</defaults>
+			<validationrules>
+				<rule element="MaxShown" regex="\d{1,}" type="error" message="The maximal number of shown posts must be a natural number." />
+			</validationrules>
+			<searchsettings containerPageOnly="true"/>
+		</xsd:appinfo>
+	</xsd:annotation> 
+
+</xsd:schema>

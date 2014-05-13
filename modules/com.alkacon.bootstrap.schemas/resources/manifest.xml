@@ -51,6 +51,10 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-list_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-navigation.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-navigation_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-post.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-post_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-post-list.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-post-list_big.png"/>			
 		</resources>
 		<parameters/>
 		<resourcetypes>
@@ -89,6 +93,12 @@
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-navigation" id="194">
 				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/navigation.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-post" id="195">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/post.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bs-post-list" id="196">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.schemas/schemas/post-list.xsd</param>
 			</type>
 		</resourcetypes>
 		<explorertypes>
@@ -131,6 +141,12 @@
 			<explorertype name="bs-navigation" key="fileicon.bs-navigation" icon="bs-navigation.png" bigicon="bs-navigation_big.png" reference="xmlcontent">
 				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-navigation" order="500" autosetnavigation="false" autosettitle="false" info="desc.bs-navigation"/>
 			</explorertype>
+			<explorertype name="bs-post" key="fileicon.bs-post" icon="bs-post.png" bigicon="bs-post_big.png" reference="xmlcontent">
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-post" order="10" autosetnavigation="false" autosettitle="false" info="desc.bs-post" key="title.bs-post"/>
+			</explorertype>
+			<explorertype name="bs-post-list" key="fileicon.bs-post-list" icon="bs-post-list.png" bigicon="bs-post-list_big.png" reference="xmlcontent">
+				<newresource page="bs-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bs-post-list" order="10" autosetnavigation="false" autosettitle="false" info="desc.bs-post-list" key="title.bs-post-list"/>
+			</explorertype>			
 		</explorertypes>
 	</module>
 	<files>
@@ -449,6 +465,54 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.post</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.post</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>09ca1770-da98-11e3-b095-c11cc2af282b</uuidstructure>
+			<uuidresource>09ca1771-da98-11e3-b095-c11cc2af282b</uuidresource>
+			<datelastmodified>Tue, 13 May 2014 12:14:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 13 May 2014 12:13:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for post]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.postlist</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.postlist</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>26f6a89b-da98-11e3-b095-c11cc2af282b</uuidstructure>
+			<uuidresource>26f6a89c-da98-11e3-b095-c11cc2af282b</uuidresource>
+			<datelastmodified>Tue, 13 May 2014 12:16:30 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 13 May 2014 12:14:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for post-list]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>		
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.slider</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/i18n/com.alkacon.bootstrap.schemas.slider</destination>
 			<type>xmlvfsbundle</type>
@@ -741,6 +805,46 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/post-list.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/post-list.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>e112afdb-da6f-11e3-9c6c-c11cc2af282b</uuidstructure>
+			<uuidresource>e112afdc-da6f-11e3-9c6c-c11cc2af282b</uuidresource>
+			<datelastmodified>Tue, 13 May 2014 13:57:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 13 May 2014 07:26:20 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD to show a list of user-generable post]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/post.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/post.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>ba233002-da6f-11e3-9c6c-c11cc2af282b</uuidstructure>
+			<uuidresource>ba233003-da6f-11e3-9c6c-c11cc2af282b</uuidresource>
+			<datelastmodified>Tue, 13 May 2014 15:14:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 13 May 2014 07:25:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for (user-generable) posts]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>		
 		<file>
 			<source>system/modules/com.alkacon.bootstrap.schemas/schemas/slider.xsd</source>
 			<destination>system/modules/com.alkacon.bootstrap.schemas/schemas/slider.xsd</destination>
@@ -1443,6 +1547,94 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-post-list.png</source>
+			<destination>system/workplace/resources/filetypes/bs-post-list.png</destination>
+			<type>image</type>
+			<uuidstructure>e129ba4e-da6f-11e3-9c6c-c11cc2af282b</uuidstructure>
+			<uuidresource>8c44b0cc-da99-11e3-b095-c11cc2af282b</uuidresource>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 13 May 2014 12:24:36 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-post-list_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-post-list_big.png</destination>
+			<type>image</type>
+			<uuidstructure>e12cc792-da6f-11e3-9c6c-c11cc2af282b</uuidstructure>
+			<uuidresource>998135bf-da99-11e3-b095-c11cc2af282b</uuidresource>
+			<datelastmodified>Tue, 05 Nov 2013 15:16:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 13 May 2014 12:24:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-post.png</source>
+			<destination>system/workplace/resources/filetypes/bs-post.png</destination>
+			<type>image</type>
+			<uuidstructure>ba680135-da6f-11e3-9c6c-c11cc2af282b</uuidstructure>
+			<uuidresource>ba680136-da6f-11e3-9c6c-c11cc2af282b</uuidresource>
+			<datelastmodified>Mon, 03 Feb 2014 15:58:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 13 May 2014 07:25:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sample-icon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bs-post_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-post_big.png</destination>
+			<type>image</type>
+			<uuidstructure>ba6d3159-da6f-11e3-9c6c-c11cc2af282b</uuidstructure>
+			<uuidresource>ba6d315a-da6f-11e3-9c6c-c11cc2af282b</uuidresource>
+			<datelastmodified>Mon, 03 Feb 2014 15:58:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 13 May 2014 07:25:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sample-icon_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>		
 		<file>
 			<source>system/workplace/resources/filetypes/bs-slider.png</source>
 			<destination>system/workplace/resources/filetypes/bs-slider.png</destination>
