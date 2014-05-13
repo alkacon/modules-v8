@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UserGeneratedContentFormConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.editors.usergenerated/schemas/ugc_form_config.xsd">
+  <UserGeneratedContentFormConfiguration language="en">
+    <ContentType><![CDATA[bs-post]]></ContentType>
+    <ContentPath>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/demo/.content/posts/]]></target>
+        <uuid>f3f31d62-da72-11e3-9c6c-c11cc2af282b</uuid>
+      </link>
+    </ContentPath>
+    <NamePattern><![CDATA[post_ugc_%(number).xml]]></NamePattern>
+    <Locale><![CDATA[en]]></Locale>
+    <UserForGuest><![CDATA[Admin]]></UserForGuest>
+    <ProjectGroup><![CDATA[Administrators]]></ProjectGroup>
+    <UploadPath>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/demo/.content/posts/images/]]></target>
+        <uuid>06617005-da73-11e3-9c6c-c11cc2af282b</uuid>
+      </link>
+    </UploadPath>
+    <AutoPublish>true</AutoPublish>
+    <ValidExtensions><![CDATA[.png;.jpg;.jpeg;.gif]]></ValidExtensions>
+  </UserGeneratedContentFormConfiguration>
+</UserGeneratedContentFormConfigurations>
