@@ -7,8 +7,8 @@
       <Text name="Text0">
         <links/>
         <content><![CDATA[<h4>Default login info</h4>
-<p><span class="btn-u btn-u-red margin-bottom-10">Username: Admin</span></p>
-<p><span class="btn-u btn-u-red margin-bottom-10">Password: admin</span></p>
+<p><span class="btn-u btn-u-red">Username: Admin</span></p>
+<p><span class="btn-u btn-u-red">Password: admin</span></p>
 <p><small>You should change the Admin password as soon as possible. Do this in the OpenCms workplace that you can access through the context menu in the toolbar. OpenCms <em><strong>View &gt; Administration</strong></em> and then select <em><strong>Account Management</strong></em> and <em><strong>User Management</strong></em>.</small></p>]]></content>
       </Text>
     </Paragraph>

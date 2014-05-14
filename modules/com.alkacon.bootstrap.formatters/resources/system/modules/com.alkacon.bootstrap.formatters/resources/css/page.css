@@ -2,10 +2,10 @@
 
 /* Borders have to be squared for all theme components */
 .list-group-item:first-child, .list-group-item:last-child, .jumbotron, .container .jumbotron, .nav-tabs > li > a, .panel-group .panel {
-  border-radius:0;
+	border-radius:0;
 }
 
-/* Red boxes, buttons should always use "OpenCms red" */
+/* Red boxes, buttons should always use "OpenCms red */
 .btn-u-red {
    background: #b31b34 !important;
 }
@@ -13,7 +13,7 @@
    background: #c32b44 !important;
 }
 
-.servive-block-red, i.icon-bg-red {
+.servive-block .servive-block-red {
     background-color: #b31b34;
 }
 
@@ -29,15 +29,6 @@
 
 .nav-side .nav-side-level-2 {
 	padding-left: 30px;
-}
-
-/* Copyright */
-.copyright {
-  background-color: #DDDDDD;
-}
-
-.copyright p {
-  color: #333333;
 }
 
 /* Login element */
@@ -98,12 +89,6 @@
 .search-blocks-top-grey:hover {
     border-top-color: #b5c5c6;
 }
-.search-blocks-top-sea {
-    border-top: 2px solid #1ABC9C;
-}
-.search-blocks-top-sea:hover {
-    border-top-color: #16A085;
-}
 .search-blocks-top-green {
     border-top: 2px solid #72C02C;
 }
@@ -121,12 +106,6 @@
 }
 .search-blocks-top-orange:hover {
     border-top-color: #D35400;
-}
-.search-blocks-top-yellow {
-    border-top: 2px solid #F1C40F;
-}
-.search-blocks-top-yellow:hover {
-    border-top-color: #F39C12;
 }
 
 .search-blocks-left-red {
@@ -147,23 +126,11 @@
 .search-blocks-left-sea:hover {
     border-left-color: #16A085;
 }
-.search-blocks-left-green {
-    border-left: 2px solid #72C02C;
-}
-.search-blocks-left-green:hover {
-    border-left-color: #5FB611;
-}
 .search-blocks-left-blue {
     border-left: 2px solid #3498DB;
 }
 .search-blocks-left-blue:hover {
     border-left-color: #54b8fb;
-}
-.search-blocks-left-orange {
-    border-left: 2px solid #E67E22;
-}
-.search-blocks-left-orange:hover {
-    border-left-color: #D35400;
 }
 .search-blocks-left-yellow {
     border-left: 2px solid #F1C40F;

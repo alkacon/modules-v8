@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
+  <DynamicFunction language="en">
+    <Title><![CDATA[Clone a module]]></Title>
+    <Description><![CDATA[Clones a module]]></Description>
+    <FunctionProvider>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/elements/module-clone.jsp]]></target>
+        <uuid>783fc2d0-2468-11e3-ade6-000c297c001d</uuid>
+      </link>
+    </FunctionProvider>
+  </DynamicFunction>
+</DynamicFunctions>

@@ -7,7 +7,7 @@
     <LogoLink>
       <link internal="true" type="WEAK">
         <target><![CDATA[/sites/default/]]></target>
-        <uuid>70419094-d9e5-11e3-b9cb-000c2943a707</uuid>
+        <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
       </link>
     </LogoLink>
     <Header name="Header0">
@@ -26,7 +26,7 @@
         </link>
         <link name="link0" internal="true" type="A">
           <target><![CDATA[/sites/default/]]></target>
-          <uuid>70419094-d9e5-11e3-b9cb-000c2943a707</uuid>
+          <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
         </link>
         <link name="link1" internal="true" type="A">
           <target><![CDATA[/sites/default/tutorial/]]></target>
@@ -35,13 +35,13 @@
       </links>
       <content><![CDATA[<ul class="loginbar pull-right">
             <li><a href="%(link0)">Welcome</a></li>
-            <li class="topbar-devider"></li>
+            <li class="devider"></li>
             <li><a href="%(link1)">Tutorial</a></li>
-            <li class="topbar-devider"></li>
+            <li class="devider"></li>
             <li><a href="%(link2)">Release notes</a></li>
-            <li class="topbar-devider"></li>
+            <li class="devider"></li>
             <li><a href="%(link3)">Search</a></li>
-            <li class="topbar-devider"></li>
+            <li class="devider"></li>
             <li><a href="%(link4)">Login</a></li>
 </ul>]]></content>
     </Header>

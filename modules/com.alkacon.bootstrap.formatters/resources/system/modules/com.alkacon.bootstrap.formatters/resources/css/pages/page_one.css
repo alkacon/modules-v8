@@ -8,14 +8,9 @@
 .one-page h1,
 .one-page h2 {
 	color: #fff;
-	font-size: 23px;
-	line-height: 28px;
+	font-size: 30px;
 	text-shadow: none;
-	margin-bottom: 25px;
-}
-
-.one-page h3.heading-sm {
-	font-size: 19px;
+	margin-bottom: 20px;
 }
 
 .one-page p {
@@ -32,16 +27,15 @@
 }
 
 .one-page .one-page-inner {
-	padding: 30px 0;
+	padding: 30px 20px;
 	min-height: 300px;
 }
 
 .one-page .one-page-btn {
+	font-size: 20px !important;
+	padding-left: 30px !important;
+	padding-right: 30px !important;  
 	margin-bottom: 15px;
-	font-size: 18px;
-	font-weight: 200;
-	padding-left: 30px;
-	padding-right: 30px;  
 }
 
 .one-page .btn-u {
@@ -52,7 +46,7 @@
 	background: #fff;
 }
 .one-page .one-grey {
-	background: #eee;
+	background: #fafafa;
 }
 .one-page .one-blue {
 	background: #3498db;

@@ -36,10 +36,10 @@
 				</div>
 				<div class="carousel-arrow">
 					<a data-slide="prev" href="#myCarousel-${content.file.structureId}" class="left carousel-control">
-						<i class="fa fa-angle-left"></i>
+						<i class="icon-angle-left"></i>
 					</a>
 					<a data-slide="next" href="#myCarousel-${content.file.structureId}" class="right carousel-control">
-						<i class="fa fa-angle-right"></i>
+						<i class="icon-angle-right"></i>
 					</a>
 				</div>
 			</div>

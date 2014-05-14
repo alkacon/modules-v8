@@ -1,0 +1,49 @@
+/*Menu
+------------------------------------*/
+/*Navbar*/
+.header .navbar-default .navbar-nav > .active > a {
+	color: #b31b34;
+}
+
+/*Navber Toggle*/
+.navbar-toggle,
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background: #b31b34;
+}
+
+.navbar-toggle:hover {
+	background: #c32b44 !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #c32b44;
+}
+
+/*Serach Box*/
+.header .navbar .nav > li > a.search:hover {
+	color: #b31b34;
+	border-bottom-color: #b31b34;
+}
+
+/*Responsive @Media 
+------------------------------------*/
+@media (min-width: 767px) {
+	/*Navbar*/
+	.header .navbar-default .navbar-nav > li > a:hover,
+	.header .navbar-default .navbar-nav > .active > a {
+		border-bottom: solid 2px #b31b34;
+	}
+
+	.header .navbar-default .navbar-nav > .open > a,
+	.header .navbar-default .navbar-nav > .open > a:hover,
+	.header .navbar-default .navbar-nav > .open > a:focus {
+		color: #b31b34;
+	}
+
+	/*Dropdown Menu*/
+	.header .dropdown-menu { 
+		border-top: solid 2px #b31b34; 
+	}
+
+}

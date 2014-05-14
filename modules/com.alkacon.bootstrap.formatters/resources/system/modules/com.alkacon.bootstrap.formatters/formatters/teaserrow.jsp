@@ -14,13 +14,13 @@
 		<div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div>
 	</c:if>
 	
-	<div class="row margin-bottom-10">
+	<div class="row servive-block">
 		<c:forEach var="item" items="${content.valueList.Item}" varStatus="status">
 			<div ${item.rdfa.Link} class="${cms:lookup(fn:length(content.valueList.Item), '1:col-xs-12|2:col-sm-6|3:col-sm-4|4:col-md-3 col-sm-6|5:col-md-2 col-sm-6|6:col-md-2 col-sm-4')}">				
-				<div class="servive-block servive-block-${item.value.Color}">
+				<div class="servive-block-in<c:if test="${item.value.Color != 'default'}"> servive-block-colored servive-block-${item.value.Color}</c:if>">
 					<c:if test="${item.value.Link.isSet}"><a href="<cms:link>${item.value.Link}</cms:link>"></c:if>
-					<h2 class="heading-md" ${item.rdfa.Headline}>${item.value.Headline}</h2>
-					<div><i class="icon-lg icon-bg-${item.value.Color} fa fa-${fn:toLowerCase(item.value.Icon.stringValue)}<c:if test="${fn:endsWith(fn:toLowerCase(item.value.Icon.stringValue), 'lightbulb')}">-o</c:if>"></i></div>
+					<h4 ${item.rdfa.Headline}>${item.value.Headline}</h4>
+					<div><i class="icon-${fn:toLowerCase(item.value.Icon.stringValue)}"></i></div>
 					<p ${item.rdfa.Text}>${item.value.Text}</p>
 					<c:if test="${item.value.Link.isSet}"></a></c:if>
 				</div>
