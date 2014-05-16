@@ -39,7 +39,7 @@
     <HeadIncludeJs>
       <JavascriptLink>
         <link type="WEAK">
-          <target><![CDATA[/system/modules/org.opencms.editors.usergenerated/resources/org.opencms.editors.usergenerated.Form/org.opencms.editors.usergenerated.Form.nocache.js]]></target>
+          <target><![CDATA[/system/modules/org.opencms.editors.usergenerated/resources/form/form.nocache.js]]></target>
           <uuid>b7c20258-d68b-11e3-95bb-1384179d493e</uuid>
         </link>
       </JavascriptLink>
