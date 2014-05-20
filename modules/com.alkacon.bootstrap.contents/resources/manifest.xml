@@ -3731,6 +3731,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>demo/.content/textblocks/tb_00012.xml</source>
+			<destination>demo/.content/textblocks/tb_00012.xml</destination>
+			<type>bs-textblock</type>
+			<uuidstructure>d08652a3-e00c-11e3-b2f0-005056b60ccd</uuidstructure>
+			<uuidresource>d08652a4-e00c-11e3-b2f0-005056b60ccd</uuidresource>
+			<datelastmodified>Tue, 20 May 2014 10:53:05 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 20 May 2014 10:52:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blog page: Create a new blog post]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>demo/.content/ugc_form_config</destination>
 			<type>folder</type>
 			<uuidstructure>9a55570f-da80-11e3-8d7f-c11cc2af282b</uuidstructure>
@@ -3755,6 +3775,34 @@
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
 			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/.content/ugc_form_config/ugc_form_config-00002.xml</source>
+			<destination>demo/.content/ugc_form_config/ugc_form_config-00002.xml</destination>
+			<type>ugc_form_config</type>
+			<uuidstructure>22fefe6b-e00d-11e3-b2f0-005056b60ccd</uuidstructure>
+			<uuidresource>22fefe6c-e00d-11e3-b2f0-005056b60ccd</uuidresource>
+			<datelastmodified>Tue, 20 May 2014 11:27:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 20 May 2014 10:54:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blog UGC form configuration]]></value>
+				</property>
 				<property>
 					<name>locale</name>
 					<value><![CDATA[en]]></value>
@@ -3862,6 +3910,56 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Blog elements can be used to create blogs or news]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>demo/blog-entries/post-a-new-blog-entry</destination>
+			<type>folder</type>
+			<uuidstructure>a6a976fa-e00c-11e3-b2f0-005056b60ccd</uuidstructure>
+			<datelastmodified>Tue, 20 May 2014 10:51:35 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 20 May 2014 10:51:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Post a new blog entry]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Post a new blog entry]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/blog-entries/post-a-new-blog-entry/index.html</source>
+			<destination>demo/blog-entries/post-a-new-blog-entry/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>a6afb890-e00c-11e3-b2f0-005056b60ccd</uuidstructure>
+			<uuidresource>a6afb891-e00c-11e3-b2f0-005056b60ccd</uuidresource>
+			<datelastmodified>Tue, 20 May 2014 11:31:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 20 May 2014 10:51:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Post a new blog entry]]></value>
 				</property>
 			</properties>
 			<relations/>

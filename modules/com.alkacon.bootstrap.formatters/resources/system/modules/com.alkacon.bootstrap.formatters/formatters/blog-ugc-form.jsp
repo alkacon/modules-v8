@@ -1,6 +1,6 @@
-<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" %>
-<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@page buffer="none" session="false" trimDirectiveWhitespaces="true"%>
+<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <cms:formatter var="content">
 	<div>
@@ -22,7 +22,7 @@
 							configPath="${content.filename}" />
 					</c:otherwise>
 				</c:choose>
-				<div id="postFormLoading"></div>
+				<!-- div id="postFormLoading"></div -->
 				<c:set var="backLinkSuccess">
 					<c:choose>
 						<c:when test="${empty param.backLinkSuccess}">
@@ -45,8 +45,8 @@
 					back-link-success="${backLinkSuccess}"
 					back-link-cancel="${backLinkCancel}" method="post">
 					<div class="form-group">
-						<label for="headline">Headline</label> <input type="text"
-							class="form-control" name="headline">
+						<label for="title">Title</label> <input type="text"
+							class="form-control" name="title">
 					</div>
 					<div class="form-group">
 						<label for="text">Text</label>
@@ -70,25 +70,24 @@
 						</label>
 					</div>
 					<div class="form-group">
-						<label for="author">Author</label> <input type="text"
+						<label for="author">Author name</label> <input type="text"
 							class="form-control" name="author">
 					</div>
 					<div class="form-group">
-						<label for="authormail">Email</label> <input type="email"
+						<label for="authormail">Author email</label> <input type="email"
 							class="form-control" name="authormail">
 					</div>
 					<div class="form-group">
-						<label for="webpageurl">Webpage URL</label> <input type="text"
+						<label for="webpageurl">Link</label> <input type="text"
 							class="form-control" name="webpageurl">
 					</div>
 					<div class="form-group">
-						<label for="webpagenice">Webpage nicename</label> <input
+						<label for="webpagenice">Link description</label> <input
 							type="text" class="form-control" name="webpagenice">
 					</div>
 					<input type="submit" style="display: none;">
 					<div class="form-group">
 						<button id="saveButton" type="button" class="btn btn-success">Save</button>
-						<button id="validateButton" type="button" class="btn btn-primary">Validate</button>
 						<button id="cancelButton" type="button" class="btn btn-default">Cancel</button>
 					</div>
 				</form>

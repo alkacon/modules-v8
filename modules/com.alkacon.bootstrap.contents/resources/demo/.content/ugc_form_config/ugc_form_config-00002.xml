@@ -2,15 +2,15 @@
 
 <UserGeneratedContentFormConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.editors.usergenerated/schemas/ugc_form_config.xsd">
   <UserGeneratedContentFormConfiguration language="en">
-    <Title><![CDATA[UGC form configuration for post elements]]></Title>
-    <ContentType><![CDATA[bs-post]]></ContentType>
+    <Title><![CDATA[Blog UGC form configuration]]></Title>
+    <ContentType><![CDATA[bs-blog]]></ContentType>
     <ContentPath>
       <link type="WEAK">
-        <target><![CDATA[/sites/default/demo/.content/posts/]]></target>
-        <uuid>f3f31d62-da72-11e3-9c6c-c11cc2af282b</uuid>
+        <target><![CDATA[/sites/default/demo/.content/blogentries/]]></target>
+        <uuid>0b568055-455d-11e3-8774-000c29d28104</uuid>
       </link>
     </ContentPath>
-    <NamePattern><![CDATA[ugc_post_%(number).xml]]></NamePattern>
+    <NamePattern><![CDATA[be_%(number).xml]]></NamePattern>
     <Locale><![CDATA[en]]></Locale>
     <AutoPublish>true</AutoPublish>
     <UserForGuest><![CDATA[Admin]]></UserForGuest>
