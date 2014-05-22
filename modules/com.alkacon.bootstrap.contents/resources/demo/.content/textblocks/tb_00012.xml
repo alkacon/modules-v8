@@ -7,7 +7,7 @@
       <Headline><![CDATA[Create a new blog post]]></Headline>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>New in OpenCms 9.5: User generated content allows you to conveniently create contents in OpenCms from basic HTML forms.</p>]]></content>
+        <content><![CDATA[<p>New in OpenCms 9.5: User generated content allows you to create XML contents in OpenCms from simple HTML forms on the website.</p>]]></content>
       </Text>
       <Link>
         <Text><![CDATA[Post a new entry]]></Text>
