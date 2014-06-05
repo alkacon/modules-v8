@@ -29,10 +29,9 @@
     <form 
         id="ugcForm" 
         ugc-id="${ugcId}" 
-        back-link="${cms.vfs.link['/demo/blog-entries/']}" 
+        back-link="${cms.typeDetailPage['bs-blog']}"
         method="post" 
         role="form">
-        <!-- TODO: Dynamically generate the value for the back-link from the sitemap -->
         
         <div class="form-group">
             <label for="title">Title</label> 
