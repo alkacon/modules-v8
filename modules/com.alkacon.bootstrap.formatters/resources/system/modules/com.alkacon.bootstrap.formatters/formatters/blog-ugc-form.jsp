@@ -17,14 +17,7 @@
 </c:when>
     
 <c:otherwise>
-    <c:choose>
-        <c:when test="${empty param.fileId}">
-            <cms:initformsession var="ugcId" configPath="${content.filename}" />
-        </c:when>
-        <c:otherwise>
-            <cms:initformsession var="ugcId" editId="${param.fileId}" configPath="${content.filename}" />
-        </c:otherwise>
-    </c:choose>
+    <cms:initformsession var="ugcId" editId="${param.fileId}" configPath="${content.filename}" />
     <div id="postFormLoading" style="display: none"></div>
     <form 
         id="ugcForm" 
