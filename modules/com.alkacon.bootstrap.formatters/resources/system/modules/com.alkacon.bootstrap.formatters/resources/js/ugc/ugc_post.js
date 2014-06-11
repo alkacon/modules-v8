@@ -131,13 +131,13 @@ $(function() {
         }
     }
 
-    window.initUserContentForm = function() {
+    window.initUgc = function() {
         if (ugc.initForm(initMappings)) {
             var sessionId = ugc.getForm().attr("session-id");
             backLinkSuccess = ugc.getForm().attr("back-link-success");
             backLinkCancel = ugc.getForm().attr("back-link-cancel");
-            OpenCmsXmlContentFormApi.setWaitIndicatorCallback(waitCallback);
-            OpenCmsXmlContentFormApi.initFormForSession(sessionId, ugc.form, init, errorHandler);
+            OpenCmsUgc.setWaitIndicatorCallback(waitCallback);
+            OpenCmsUgc.initFormForSession(sessionId, ugc.form, init, errorHandler);
             $("#saveButton").click(save);
             $("#validateButton").click(validate);
             $("#cancelButton").click(cancel)

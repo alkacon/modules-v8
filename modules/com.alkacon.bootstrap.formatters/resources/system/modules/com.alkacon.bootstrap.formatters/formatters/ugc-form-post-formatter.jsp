@@ -14,11 +14,11 @@
 			<c:when test="${empty param.action}">
 				<c:choose>
 					<c:when test="${empty param.fileId}">
-						<cms:initformsession var="sessionId"
+						<cms:ugc var="sessionId"
 							configPath="${content.filename}" />
 					</c:when>
 					<c:otherwise>
-						<cms:initformsession var="sessionId" editId="${param.fileId}"
+						<cms:ugc var="sessionId" editId="${param.fileId}"
 							configPath="${content.filename}" />
 					</c:otherwise>
 				</c:choose>

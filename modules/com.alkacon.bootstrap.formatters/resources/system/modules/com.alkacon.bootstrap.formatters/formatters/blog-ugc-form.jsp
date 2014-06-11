@@ -17,7 +17,7 @@
 </c:when>
     
 <c:otherwise>
-    <cms:initformsession var="ugcId" editId="${param.fileId}" configPath="${content.filename}" />
+    <cms:ugc var="ugcId" editId="${param.fileId}" configPath="${content.filename}" />
     <div id="postFormLoading" style="display: none"></div>
     <form 
         id="ugcForm" 

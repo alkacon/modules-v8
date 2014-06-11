@@ -143,7 +143,7 @@ $(function() {
     }
     
     
-    window.initUserContentForm = function() {
+    window.initUgc = function() {
         if (ugc.initForm()) {
 
             // read the variables from the form HTML
