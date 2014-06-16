@@ -3751,7 +3751,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>demo/.content/ugc_form_config</destination>
+			<destination>demo/.content/ugc_config</destination>
 			<type>folder</type>
 			<uuidstructure>9a55570f-da80-11e3-8d7f-c11cc2af282b</uuidstructure>
 			<datelastmodified>Tue, 13 May 2014 09:26:03 GMT</datelastmodified>
@@ -3764,38 +3764,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>demo/.content/ugc_form_config/ugc_form_config-00001.xml</source>
-			<destination>demo/.content/ugc_form_config/ugc_form_config-00001.xml</destination>
-			<type>ugc_form_config</type>
+			<source>demo/.content/ugc_config/ugc_config-00001.xml</source>
+			<destination>demo/.content/ugc_config/ugc_config-00001.xml</destination>
+			<type>ugc_config</type>
 			<uuidstructure>9a620141-da80-11e3-8d7f-c11cc2af282b</uuidstructure>
 			<uuidresource>9a620142-da80-11e3-8d7f-c11cc2af282b</uuidresource>
 			<datelastmodified>Tue, 13 May 2014 10:12:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 13 May 2014 09:26:03 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>512</flags>
-			<properties>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>demo/.content/ugc_form_config/ugc_form_config-00002.xml</source>
-			<destination>demo/.content/ugc_form_config/ugc_form_config-00002.xml</destination>
-			<type>ugc_form_config</type>
-			<uuidstructure>22fefe6b-e00d-11e3-b2f0-005056b60ccd</uuidstructure>
-			<uuidresource>22fefe6c-e00d-11e3-b2f0-005056b60ccd</uuidresource>
-			<datelastmodified>Tue, 20 May 2014 11:27:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 20 May 2014 10:54:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
 			<properties>
@@ -4565,202 +4541,6 @@
 			<relations/>
 			<accesscontrol/>
 		</file>
-		<file>
-			<destination>demo/user-content-form</destination>
-			<type>folder</type>
-			<uuidstructure>00272136-da75-11e3-9c6c-c11cc2af282b</uuidstructure>
-			<datelastmodified>Tue, 13 May 2014 08:03:40 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 13 May 2014 08:02:59 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[2.1874695]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[User content form]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[User content form]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>demo/user-content-form/index.html</source>
-			<destination>demo/user-content-form/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>003b6c8b-da75-11e3-9c6c-c11cc2af282b</uuidstructure>
-			<uuidresource>003b6c8c-da75-11e3-9c6c-c11cc2af282b</uuidresource>
-			<datelastmodified>Tue, 13 May 2014 12:53:33 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 13 May 2014 08:03:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Demo for "user-generated content" - input form]]></value>
-				</property>
-				<property>
-					<name>bs.page.layout</name>
-					<value><![CDATA[8]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>demo/user-content-list</destination>
-			<type>folder</type>
-			<uuidstructure>4bae9c1a-da75-11e3-9c6c-c11cc2af282b</uuidstructure>
-			<datelastmodified>Tue, 13 May 2014 08:05:27 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 13 May 2014 08:05:06 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[2.2187195]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[User content list]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[User content list]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>demo/user-content-list/index.html</source>
-			<destination>demo/user-content-list/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>4bbfda2f-da75-11e3-9c6c-c11cc2af282b</uuidstructure>
-			<uuidresource>4bbfda30-da75-11e3-9c6c-c11cc2af282b</uuidresource>
-			<datelastmodified>Tue, 13 May 2014 14:35:05 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 13 May 2014 08:05:06 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Demo for "user-generated content" - list of contents]]></value>
-				</property>
-				<property>
-					<name>bs.page.layout</name>
-					<value><![CDATA[9]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>demo/user-content-list/bs-post</destination>
-			<type>folder</type>
-			<uuidstructure>f6107f24-daa2-11e3-b095-c11cc2af282b</uuidstructure>
-			<datelastmodified>Tue, 13 May 2014 14:37:24 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 13 May 2014 13:31:59 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[0.5]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Detailed post view]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Detailed post view]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>demo/user-content-list/bs-post/index.html</source>
-			<destination>demo/user-content-list/bs-post/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>f6236ae9-daa2-11e3-b095-c11cc2af282b</uuidstructure>
-			<uuidresource>f6236aea-daa2-11e3-b095-c11cc2af282b</uuidresource>
-			<datelastmodified>Tue, 13 May 2014 14:37:24 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 13 May 2014 13:32:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Detailed post view]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>demo/user-content-list/edit-post</destination>
-			<type>folder</type>
-			<uuidstructure>8f279b00-da90-11e3-b095-c11cc2af282b</uuidstructure>
-			<datelastmodified>Tue, 13 May 2014 11:20:27 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 13 May 2014 11:20:16 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Edit post]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Edit post]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>demo/user-content-list/edit-post/index.html</source>
-			<destination>demo/user-content-list/edit-post/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>8f37a095-da90-11e3-b095-c11cc2af282b</uuidstructure>
-			<uuidresource>8f37a096-da90-11e3-b095-c11cc2af282b</uuidresource>
-			<datelastmodified>Tue, 13 May 2014 13:47:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 13 May 2014 11:20:16 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Edit an existing post]]></value>
-				</property>
-				<property>
-					<name>bs.page.layout</name>
-					<value><![CDATA[8]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>		
 		<file>
 			<destination>release</destination>
 			<type>subsitemap</type>

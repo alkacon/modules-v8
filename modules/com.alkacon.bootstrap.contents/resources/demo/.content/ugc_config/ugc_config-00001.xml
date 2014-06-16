@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<UserGeneratedContentFormConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.editors.usergenerated/schemas/ugc_form_config.xsd">
+<UserGeneratedContentFormConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ugc/schemas/ugc_config.xsd">
   <UserGeneratedContentFormConfiguration language="en">
     <Title><![CDATA[Blog UGC form configuration]]></Title>
     <ContentType><![CDATA[bs-blog]]></ContentType>
