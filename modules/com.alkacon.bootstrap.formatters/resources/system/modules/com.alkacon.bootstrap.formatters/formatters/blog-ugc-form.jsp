@@ -14,6 +14,7 @@
 <c:when test="${cms.edited}">
     <h2>The form configuration was edited</h2>
     <h3>This page will automatically reload.</h3>
+    ${cms.enableReload}
 </c:when>
     
 <c:otherwise>

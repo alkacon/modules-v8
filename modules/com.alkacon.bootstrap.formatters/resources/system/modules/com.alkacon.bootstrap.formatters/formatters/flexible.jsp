@@ -26,6 +26,7 @@
 						<c:choose>
 							<c:when test="${cms.element.settings.requireReload && cms.edited}">
 								<div class="alert"><fmt:message key="bootstrap.flexible.message.changed" /></div>
+								${cms.enableReload}
 							</c:when>
 							<c:otherwise>
 							${elem}
