@@ -18,6 +18,7 @@
 	</c:when>
 	<c:when test="${cms.edited}">
 		<div class="row"><div class="alert"><fmt:message key="bootstrap.slider.message.edit" /></div></div>
+		${cms.enableReload}
 	</c:when>
 	<c:otherwise>
 
