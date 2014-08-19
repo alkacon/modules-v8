@@ -2,7 +2,6 @@
 
 <BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
   <BootstrapTextblock language="en">
-    <Title><![CDATA[Blog page: Create a new blog post]]></Title>
     <Paragraph>
       <Headline><![CDATA[Create a new blog post]]></Headline>
       <Text name="Text0">

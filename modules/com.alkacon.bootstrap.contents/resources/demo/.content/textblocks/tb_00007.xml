@@ -2,7 +2,6 @@
 
 <BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
   <BootstrapTextblock language="en">
-    <Title><![CDATA[Fancy text block element]]></Title>
     <Paragraph>
       <Headline><![CDATA[OpenCms can create blue boxes]]></Headline>
       <Text name="Text0">

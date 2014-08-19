@@ -13,7 +13,7 @@
 
 	<xsd:complexType name="OpenCmsBootstrapTextblock">
 		<xsd:sequence>
-			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Title" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Paragraph" type="OpenCmsBootstrapParagraph" maxOccurs="5" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
@@ -23,12 +23,12 @@
 		<xsd:appinfo>
 			<resourcebundle name="com.alkacon.bootstrap.schemas.textblock"/>
 			<mappings>
-				<mapping element="Title" mapto="property:Title" />
-				<mapping element="Title" mapto="urlName" />
+				<mapping element="Title" mapto="property:Title" useDefault="true" />
+				<mapping element="Title" mapto="galleryName" useDefault="true" />
 			</mappings>
 			<defaults>
-				<default element="Title" value="%(key.bootstrap.textblock.default.Title)" />
 				<default element="Paragraph/Text" value="%(key.bootstrap.textblock.default.Text)" />
+				<default element="Title" value="%(page_title)%(no_prefix:: )%(value:Paragraph[1]/Headline[1])" resolveMacros="false" />
 			</defaults>
 			<layouts/>
 			<validationrules/>
