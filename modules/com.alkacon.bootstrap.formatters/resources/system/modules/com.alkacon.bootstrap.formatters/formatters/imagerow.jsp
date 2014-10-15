@@ -11,7 +11,7 @@
 <div>
 
 	<c:if test="${not cms.element.settings.hidetitle}">
-		<div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div>
+		<div class="headline"><h2 ${rdfa.Title}>${value.Title}</h2></div>
 	</c:if>
 
 	<div class="row">
@@ -25,10 +25,10 @@
 					<div class="caption">
 						<c:choose>
 							<c:when test="${item.value.Headline.isSet && item.value.Link.isSet}">
-								<h3><a class="hover-effect" href="<cms:link>${item.value.Link}</cms:link>" ${item.rdfa.Headline}>${item.value.Headline}</a></h3>
+								<h2><a class="hover-effect" href="<cms:link>${item.value.Link}</cms:link>" ${item.rdfa.Headline}>${item.value.Headline}</a></h2>
 							</c:when>
 							<c:when test="${item.value.Headline.isSet}">
-								<h3 ${item.rdfa.Headline}>${item.value.Headline}</h3>
+								<h2 ${item.rdfa.Headline}>${item.value.Headline}</h2>
 							</c:when>
 						</c:choose>
 						<p ${item.rdfa.Text}>${item.value.Text}</p>

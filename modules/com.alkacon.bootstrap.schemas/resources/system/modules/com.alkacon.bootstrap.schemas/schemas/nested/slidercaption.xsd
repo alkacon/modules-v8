@@ -32,7 +32,7 @@
 			<layouts>
 				<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat: true}" />
 				<layout element="Text" widget="TextareaWidget" configuration="3" />
-				<layout element="Class" widget="ComboWidget" configuration="caption randomrotate|caption large_text sfb bg-black-opacity|caption big_white lfl stl|caption lft ltb|caption bold_red_text sft stb" />
+				<layout element="Class" widget="ComboWidget" configuration="caption randomrotate|caption mediumthickblackbg blackbgtransparent sfb|caption mediumthickwhitebg lfl stl|caption lft ltb|caption medium_bold_red sft stb" />
 				<layout element="Start" widget="ComboWidget" configuration="600|900|1200|1800|2400|3600" />
 				<layout element="Speed" widget="ComboWidget" configuration="300|600|900|1200|1500" />
 				<layout element="Easing" widget="SelectorWidget" configuration="easeOutBack|easeInQuad|easeOutQuad|easeInOutQuad|easeInCubic|easeOutCubic|easeInOutCubic|easeInQuart|easeOutQuart|easeInOutQuart|easeInQuint|easeOutQuint|easeInOutQuint|easeInSine|easeOutSine|easeInOutSine|easeInExpo|easeOutExpo*|easeInOutExpo|easeInCirc|easeOutCirc|easeInOutCirc|easeInElastic|easeOutElastic|easeInOutElastic|easeInBack|easeOutBack|easeInOutBack|easeInBounce|easeOutBounce|easeInOutBounce" />

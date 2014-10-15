@@ -1,9 +1,9 @@
-/*   
+/*
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio and Blog Theme.
- * Version: 1.3
- * Author: Html Stream
- * Website: http://htmlstream.com/preview/unify
+ * Version: 1.4
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
 */
 
 var App = function () {
@@ -32,26 +32,55 @@ var App = function () {
     }
 
     function handleBootstrap() {
+        /*Bootstrap Carousel*/
         jQuery('.carousel').carousel({
             interval: 15000,
             pause: 'hover'
         });
+
+        /*Tooltips*/
         jQuery('.tooltips').tooltip();
+        jQuery('.tooltips-show').tooltip('show');      
+        jQuery('.tooltips-hide').tooltip('hide');       
+        jQuery('.tooltips-toggle').tooltip('toggle');       
+        jQuery('.tooltips-destroy').tooltip('destroy');       
+
+        /*Popovers*/
         jQuery('.popovers').popover();
+        jQuery('.popovers-show').popover('show');
+        jQuery('.popovers-hide').popover('hide');
+        jQuery('.popovers-toggle').popover('toggle');
+        jQuery('.popovers-destroy').popover('destroy');
     }
 
     function handleSearch() {    
         jQuery('.search').click(function () {
-            if(jQuery('.search-btn').hasClass('icon-search')){
+            if(jQuery('.search-btn').hasClass('fa-search')){
                 jQuery('.search-open').fadeIn(500);
-                jQuery('.search-btn').removeClass('icon-search');
-                jQuery('.search-btn').addClass('icon-remove');
+                jQuery('.search-btn').removeClass('fa-search');
+                jQuery('.search-btn').addClass('fa-times');
             } else {
                 jQuery('.search-open').fadeOut(500);
-                jQuery('.search-btn').addClass('icon-search');
-                jQuery('.search-btn').removeClass('icon-remove');
+                jQuery('.search-btn').addClass('fa-search');
+                jQuery('.search-btn').removeClass('fa-times');
             }   
         }); 
+    }
+
+    function handleToggle() {
+        jQuery('.list-toggle').on('click', function() {
+            jQuery(this).toggleClass('active');
+        });
+
+        /*
+        jQuery('#serviceList').on('shown.bs.collapse'), function() {
+            jQuery(".servicedrop").addClass('glyphicon-chevron-up').removeClass('glyphicon-chevron-down');
+        }
+
+        jQuery('#serviceList').on('hidden.bs.collapse'), function() {
+            jQuery(".servicedrop").addClass('glyphicon-chevron-down').removeClass('glyphicon-chevron-up');
+        }
+        */
     }
 
     function handleSwitcher() {    
@@ -100,17 +129,30 @@ var App = function () {
         });
     }
 
+    function handleHeader() {
+         jQuery(window).scroll(function() {
+            if (jQuery(window).scrollTop()>100){
+                jQuery(".header-fixed .header").addClass("header-fixed-shrink");
+            }
+            else {
+                jQuery(".header-fixed .header").removeClass("header-fixed-shrink");
+            }
+        });
+    }
+
     return {
         init: function () {
             handleBootstrap();
             handleIEFixes();
             handleSearch();
+            handleToggle();
             handleSwitcher();
             handleBoxed();
+            handleHeader();
         },
 
         initSliders: function () {
-            $('#clients-flexslider').flexslider({
+            jQuery('#clients-flexslider').flexslider({
                 animation: "slide",
                 easing: "swing",
                 animationLoop: true,
@@ -123,7 +165,7 @@ var App = function () {
                 move: 2
             });
             
-            $('#clients-flexslider1').flexslider({
+            jQuery('#clients-flexslider1').flexslider({
                 animation: "slide",
                 easing: "swing",
                 animationLoop: true,
@@ -136,7 +178,7 @@ var App = function () {
                 move: 2
             });
             
-            $('#photo-flexslider').flexslider({
+            jQuery('#photo-flexslider').flexslider({
                 animation: "slide",
                 controlNav: false,
                 animationLoop: false,
@@ -144,7 +186,7 @@ var App = function () {
                 itemMargin: 0
             }); 
             
-            $('#testimonal_carousel').collapse({
+            jQuery('#testimonal_carousel').collapse({
                 toggle: false
             });
         },
@@ -161,29 +203,53 @@ var App = function () {
                     }
                 }
             });
+
+            jQuery(".iframe").fancybox({
+                maxWidth    : 800,
+                maxHeight   : 600,
+                fitToView   : false,
+                width       : '70%',
+                height      : '70%',
+                autoSize    : false,
+                closeClick  : false,
+                openEffect  : 'none',
+                closeEffect : 'none'
+            });            
         },
 
         initBxSlider: function () {
-            $('.bxslider').bxSlider({
-                minSlides: 4,
+            jQuery('.bxslider').bxSlider({
                 maxSlides: 4,
-                slideWidth: 360,
-                slideMargin: 10
-            });            
-
-            $('.bxslider1').bxSlider({
-                minSlides: 3,
-                maxSlides: 3,
+                minSlides: 4,
                 slideWidth: 360,
                 slideMargin: 10,
             });            
 
-            $('.bxslider2').bxSlider({
+            jQuery('.bxslider1').bxSlider({
+                minSlides: 3,
+                maxSlides: 3,
+                slideWidth: 360,
+                slideMargin: 10
+            });            
+
+            jQuery('.bxslider2').bxSlider({
                 minSlides: 2,
                 maxSlides: 2,
                 slideWidth: 360,
                 slideMargin: 10
             });            
+        },
+
+        initCounter: function () {
+            jQuery('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        },
+
+        initParallaxBg: function () {
+            jQuery('.parallaxBg').parallax("50%", 0.2);
+            jQuery('.parallaxBg1').parallax("50%", 0.4);
         },
 
     };

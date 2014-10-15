@@ -7,7 +7,7 @@
 <div class="<c:if test="${cms.container.type == 'content-wide'}">row </c:if>margin-bottom-30">
 
 	<c:if test="${not cms.element.settings.hidetitle}">
-		<div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div>
+		<div class="headline"><h2 ${rdfa.Title}>${value.Title}</h2></div>
 	</c:if>
 
 	<div class="tab-v1">

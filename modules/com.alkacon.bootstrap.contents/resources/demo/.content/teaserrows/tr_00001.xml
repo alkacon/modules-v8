@@ -10,7 +10,7 @@
       <Link>
         <link internal="true" type="WEAK">
           <target><![CDATA[/sites/default/]]></target>
-          <uuid>7965344d-8ebf-11e3-900e-000c29d28104</uuid>
+          <uuid>c3616758-47c4-11e4-a64e-005056b61161</uuid>
         </link>
       </Link>
       <Color><![CDATA[grey]]></Color>
@@ -22,7 +22,7 @@
       <Link>
         <link internal="true" type="WEAK">
           <target><![CDATA[/sites/default/]]></target>
-          <uuid>7965344d-8ebf-11e3-900e-000c29d28104</uuid>
+          <uuid>c3616758-47c4-11e4-a64e-005056b61161</uuid>
         </link>
       </Link>
       <Color><![CDATA[yellow]]></Color>
@@ -34,7 +34,7 @@
       <Link>
         <link internal="true" type="WEAK">
           <target><![CDATA[/sites/default/]]></target>
-          <uuid>7965344d-8ebf-11e3-900e-000c29d28104</uuid>
+          <uuid>c3616758-47c4-11e4-a64e-005056b61161</uuid>
         </link>
       </Link>
       <Color><![CDATA[sea]]></Color>

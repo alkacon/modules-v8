@@ -11,7 +11,7 @@
 <c:forEach var="paragraph" items="${content.valueList.Paragraph}">
 
 	<c:if test="${paragraph.value.Headline.isSet}">
-		<div class="headline"><h3 ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h3></div>
+		<div class="headline"><h2 ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h2></div>
 	</c:if>
 
 	<div  ${paragraph.rdfa["Link|Image"]}>

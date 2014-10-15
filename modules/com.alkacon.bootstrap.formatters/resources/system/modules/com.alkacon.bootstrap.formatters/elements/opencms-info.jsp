@@ -1,14 +1,14 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms" %>
 
-<div class="row servive-block">
+<div class="row ">
 	<div class="col-md-12">
-        <div class="servive-block-in">
+        <div class="servive-block servive-block-colored servive-block-default">
             <div>
-                <i class="icon-info-sign"></i>
+                <i class="icon-4x fa fa-info-circle"></i>
             </div>
 			
-			<h4>You have installed OpenCms <cms:info property="opencms.version" /></h4>
+			<h2>You have installed OpenCms <cms:info property="opencms.version" /></h2>
 
     		<p>
                 Running on 

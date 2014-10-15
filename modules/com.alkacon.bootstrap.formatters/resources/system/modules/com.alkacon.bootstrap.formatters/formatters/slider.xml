@@ -21,6 +21,7 @@
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
     <Detail>true</Detail>
+    <NestedContainers>false</NestedContainers>
     <HeadIncludeCss>
       <CssLink>
         <link type="WEAK">
@@ -30,6 +31,12 @@
       </CssLink>
     </HeadIncludeCss>
     <HeadIncludeJs>
+      <JavascriptLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js]]></target>
+          <uuid>901241d6-2839-11e4-96d6-005056b61161</uuid>
+        </link>
+      </JavascriptLink>
       <JavascriptLink>
         <link type="WEAK">
           <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js]]></target>

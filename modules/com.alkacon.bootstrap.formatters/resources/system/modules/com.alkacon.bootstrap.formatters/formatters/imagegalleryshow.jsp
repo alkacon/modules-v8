@@ -27,7 +27,7 @@
 </script>
 
 	<c:if test="${not cms.element.settings.hidetitle}">
-		<div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div>
+		<div class="headline"><h2 ${rdfa.Title}>${value.Title}</h2></div>
 	</c:if>
 
 	<c:choose>

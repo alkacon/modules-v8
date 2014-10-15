@@ -1,4 +1,13 @@
-p a,
+/* 
+* Version: 1.4
+* Blue Color 		: #b31b34;
+* Blue Hover Color  : #c32b44;
+*/
+
+a {
+   color: #b31b34;
+}
+
 a:focus, 
 a:hover, 
 a:active {
@@ -15,6 +24,99 @@ a.read-more:hover {
 
 .linked:hover {
 	color:#b31b34;
+}
+
+/*Header v1
+------------------------------------*/
+/*Navber*/
+.header .navbar-default .navbar-nav > .active > a {
+	color: #b31b34;
+}
+
+/*Navbar Toggle*/
+.navbar-toggle,
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background: #b31b34;
+}
+
+.navbar-toggle:hover {
+	background: #c32b44 !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #c32b44;
+}
+
+/*Responsive Navbar*/
+@media (max-width: 767px) {
+	.header .navbar-default .navbar-nav > li > a:hover {
+		color: #b31b34;
+	}
+
+	.header .navbar-default .navbar-nav > .active > a,
+	.header .navbar-default .navbar-nav > .active > a:hover,
+	.header .navbar-default .navbar-nav > .active > a:focus {
+		background: #b31b34;
+	}
+}
+
+@media (min-width: 767px) {
+	/*Navbar*/
+	.header .navbar-default .navbar-nav > li > a:hover,
+	.header .navbar-default .navbar-nav > .active > a {
+		border-bottom: solid 2px #b31b34;
+	}
+
+	.header .navbar-default .navbar-nav > .open > a,
+	.header .navbar-default .navbar-nav > .open > a:hover,
+	.header .navbar-default .navbar-nav > .open > a:focus {
+		color: #b31b34;
+	}
+
+	/*Dropdown Menu*/
+	.header .dropdown-menu { 
+		border-top: solid 2px #b31b34; 
+	}	
+}
+
+/*Search Box*/
+.header .navbar .nav > li > .search:hover {
+	color: #b31b34;
+	border-bottom-color: #b31b34;
+}
+
+@media (max-width: 767px) {
+	.header .navbar .nav > li > .search:hover {
+		background: #c32b44;
+	}
+}
+
+/*Header v2
+------------------------------------*/
+/*Topbar*/
+.topbar-v1 .top-v1-data li a:hover i {
+	color: #b31b34;
+}
+
+/*Search Box*/
+.header-v1 .navbar .nav > li > .search:hover {
+	background: #b31b34;
+}
+
+/*Responsive Navbar*/
+@media (min-width: 767px) {
+	.header-v1 .navbar-default .navbar-nav > li > a:hover,
+	.header-v1 .navbar-default .navbar-nav > .active > a {
+		color: #fff;
+		background: #b31b34 !important;
+	}
+
+	.header-v1 .navbar-default .navbar-nav > .open > a,
+	.header-v1 .navbar-default .navbar-nav > .open > a:hover,
+	.header-v1 .navbar-default .navbar-nav > .open > a:focus {
+		background: #b31b34;		
+	}
 }
 
 /*Sliders
@@ -42,24 +144,35 @@ a.read-more:hover {
 	background:rgba(231, 76, 60, 0.8);
 }
 
-/*Purchase
-------------------------------------*/
-.purchase a.btn-buy {
-	background:#b31b34;
-	text-shadow:0 1px 0 #c32b44;
-}
-.purchase a.btn-buy:hover {
-	background:#c32b44;
-} 
-
 /*Buttons
 ------------------------------------*/
 .btn-u {
 	background: #b31b34;
 }
 
-.btn-u:hover {
+.btn-u:hover, 
+.btn-u:focus, 
+.btn-u:active, 
+.btn-u.active, 
+.open .dropdown-toggle.btn-u {
 	background: #c32b44;
+}
+
+/*Buttons Color*/
+.btn-u-split.dropdown-toggle {
+   border-left: solid 1px #c32b44;
+}
+
+/*Bordered Buttons*/
+.btn-u.btn-brd {
+  border-color: #b31b34;
+}
+.btn-u.btn-brd:hover {
+  color: #c32b44;
+  border-color: #c32b44;
+}
+.btn-u.btn-brd.btn-brd-hover:hover {
+   background: #c32b44;   
 }
 
 /*Service
@@ -237,20 +350,49 @@ blockquote:hover {
 
 .pricing-head h3 {
 	background:#b31b34;
-	text-shadow:0 1px 0 #d33b54;
-	border-bottom:solid 1px #d33b54;
+	text-shadow:0 1px 0 #c32b44;
+	border-bottom:solid 1px #c32b44;
 }
 .pricing-head h4 {
 	color:#999;
 	background:#fcfcfc;
-	border-bottom:solid 1px #ffe7d1;
+	border-bottom:solid 1px #f9e6e6;
 }
 	
 /*Pricing Content*/
 .pricing-content li {
-	border-bottom:solid 1px #ffe7d1;
+	border-bottom:solid 1px #f9e6e6;
 }
 .pricing-content li i {
+	color:#b31b34;
+}
+
+/*Pricing Extra*/
+.sticker-left {
+	background: #b31b34;
+}
+
+.sticker-right,
+.sticker-left {
+	background: #72c02c;
+}
+
+/*Pricing Table Mega-v1 Version
+------------------------------------*/
+.pricing-mega-v1 .pricing:hover h4 i {
+	color:#b31b34;
+}
+.pricing-mega-v1 .pricing-content li i {
+	color: #b31b34; 
+}
+
+/*Pricing Table Colored Background Version
+------------------------------------*/
+.pricing-bg-colored .pricing:hover {	
+	background: #c32b44; 
+}
+
+.pricing-bg-colored .pricing-head i {
 	color:#b31b34;
 }
 
@@ -259,7 +401,6 @@ blockquote:hover {
 .pricing-footer button {
 	background:#b31b34;
 	text-shadow:0 1px 0 #c32b44;
-	border-bottom:solid 2px #c32b44;
 }
 .pricing-footer a:hover,
 .pricing-footer button:hover {
@@ -283,6 +424,19 @@ blockquote:hover {
 .who li:hover i, 
 .who li:hover a { 
 	color:#b31b34; 
+}
+
+/*Pricing Table Mega-v2 
+------------------------------------*/
+.pricing-mega-v2 .block:hover .bg-color {
+	background: #b31b34;
+}
+.pricing-mega-v2 .block:hover h3,
+.pricing-mega-v2 .block:hover h4, 
+.pricing-mega-v2 .block:hover li, 
+.pricing-mega-v2 .block:hover li i,
+.pricing-mega-v2 .block:hover h4 i {
+	background: #b31b34;
 }
 
 /*Privacy Page
@@ -459,4 +613,236 @@ ul.blog-tags a:hover {
 ------------------------------------*/
 .reg-block {
 	border-top: solid 2px #b31b34;
+}
+
+/*Image Hover
+------------------------------------*/
+/*Image-hover*/
+#effect-2 figure .img-hover {
+	background: #b31b34;
+}
+
+/*Blog Large Page
+------------------------------------*/
+.blog h2 a:hover {
+	color: #b31b34;
+}
+
+/*Timeline v1 Page
+------------------------------------*/
+.timeline-v1 > li > .timeline-badge i:hover {
+	color: #b31b34;
+}
+
+.timeline-v1 .timeline-footer .likes:hover i {
+	color: #b31b34;
+}
+
+/*Timeline v2 Page
+------------------------------------*/
+/* The icons */
+.timeline-v2 > li .cbp_tmicon {
+	background: #b31b34;
+}
+
+/*Progress Bar
+------------------------------------*/
+.progress-bar-u {
+  background: #b31b34;
+}
+
+/*Job Inner Page
+------------------------------------*/
+.job-description .save-job a:hover,
+.block-description .save-job a:hover {
+	color: #b31b34;
+}
+
+.job-description .p-chart .overflow-h li i,
+.job-description .p-chart .overflow-h li a,
+.block-description .p-chart .overflow-h li i,
+.block-description .p-chart .overflow-h li a {
+	color: #b31b34;
+}
+
+/*Colorful-ul*/
+.job-description .colorful-ul li a {
+	color: #b31b34;
+}
+
+/*Search Inner Page
+------------------------------------*/
+.s-results .related-search a:hover {
+	color: #b31b34;
+}
+
+.s-results .inner-results h3 a:hover {
+	color: #b31b34;
+}
+
+.s-results .up-ul li a:hover {
+	color: #b31b34;
+}
+
+.s-results .down-ul li a {
+	color: #b31b34;
+}
+
+/*Funny Boxes
+------------------------------------*/
+.funny-boxes p a {
+  color: #b31b34;
+}
+
+.funny-boxes .funny-boxes-img li i {
+  color: #b31b34;
+}
+
+/*Sidebar Sub Navigation
+------------------------------------*/
+.sidebar-nav-v1 ul li:hover a,
+.sidebar-nav-v1 ul li.active a {
+  color: #b31b34;
+}
+
+/*Blockquote
+------------------------------------*/
+blockquote.bq-green {
+  border-color: #b31b34;
+}
+
+blockquote:hover,
+blockquote.text-right:hover {
+   border-color: #b31b34;
+}
+
+/*Green Left Bordered Funny Box**/
+.funny-boxes-left-green {
+  border-left: solid 2px #b31b34;
+}
+
+.funny-boxes-left-green:hover {
+  border-left-color: #b31b34;
+}
+
+/*Testimonials Default
+------------------------------------*/
+/*Testimonials*/
+.testimonials .carousel-arrow i:hover {
+  background: #b31b34;
+}
+
+/*Testimonials Default*/
+.testimonials-bg-default .item p {
+  background: #b31b34;
+}
+
+.testimonials.testimonials-bg-default .item p:after,
+.testimonials.testimonials-bg-default .item p:after {
+  border-top-color: #b31b34;
+}
+
+.testimonials-bg-default .carousel-arrow i {
+  background: #b31b34;
+}
+
+.testimonials.testimonials-bg-default .carousel-arrow i:hover {
+  background: #c32b44;
+}
+
+/*Promo Page
+------------------------------------*/
+/*Promo Box*/
+.promo-box:hover strong, 
+.promo-box:hover strong a {
+	color: #b31b34;
+}
+
+/*Typography
+------------------------------------*/
+.dropcap {
+	color: #b31b34;
+}
+
+.dropcap-bg {
+	color: #fff;
+	background: #b31b34;
+}
+
+/*Breadcrumbs
+------------------------------------*/ 
+span.label-u,
+span.badge-u {
+  background: #b31b34;
+}
+
+/*Icons
+------------------------------------*/
+/*Icon Link*/
+.link-icon:hover i {
+  color: #b31b34;
+  border: solid 1px #b31b34;
+}
+
+.link-bg-icon:hover i {
+  color: #b31b34;
+  background: #b31b34 !important;
+  border-color: #b31b34;
+}
+
+/*Icons Backgroun Color
+------------------------------------*/ 
+i.icon-color-u {
+   color: #b31b34;
+   border: solid 1px #b31b34;
+}
+
+i.icon-bg-u {
+   background: #b31b34;
+}
+
+/*Line Icon Page
+------------------------------------*/
+.line-icon-page .item:hover {
+	color: #b31b34;
+}
+
+/*Colored Content Boxes
+------------------------------------*/
+.servive-block-u {
+  background: #b31b34;
+}
+
+/*Panels (Portlets)
+------------------------------------*/
+.panel-u > .panel-heading {
+   background: #b31b34;
+}
+
+/*Owl Carousel
+------------------------------------*/
+.owl-btn:hover {
+  background: #b31b34;
+}
+
+/*Counter
+------------------------------------*/
+.counters span.counter-icon i {
+	background: #b31b34;
+}
+
+.counters span.counter-icon i:after {
+	border-top: 7px solid #b31b34;
+}
+
+/*SKy-Forms
+------------------------------------*/
+/*Buttons*/
+.sky-form .button {
+	background: #b31b34;
+}
+
+/*Rating*/
+.sky-form .rating input:checked ~ label {
+	color: #b31b34;
 }

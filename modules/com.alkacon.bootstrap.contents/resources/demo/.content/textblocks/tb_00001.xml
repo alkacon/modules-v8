@@ -2,8 +2,8 @@
 
 <BootstrapTextblocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/textblock.xsd">
   <BootstrapTextblock language="en">
+    <Title><![CDATA[Full width example]]></Title>
     <Paragraph>
-      <Headline><![CDATA[Full width example]]></Headline>
       <Text name="Text0">
         <links/>
         <content><![CDATA[<h1>OpenCms is easy to use</h1>

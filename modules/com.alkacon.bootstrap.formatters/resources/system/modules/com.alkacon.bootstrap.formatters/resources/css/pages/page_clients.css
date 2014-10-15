@@ -1,5 +1,46 @@
 /*Clients Page
 ------------------------------------*/
+.clients-page {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding-bottom: 30px;
+	border-bottom: solid 1px #eee; 
+}
+
+.clients-page ul {
+	margin-bottom: 10px;
+}
+
+.clients-page li {
+	margin: 0 5px 3px 0;
+}
+
+.clients-page h3 {
+	margin-top: 0;
+	font-size: 22px;
+}
+
+.clients-page img {
+	padding: 4px;
+	margin: 5px 0; 
+	border: solid 1px #eee;
+	background: #fafafa;
+}
+
+.clients-page:hover img {
+	border-color: #bbb;
+}
+
+@media (max-width: 992px) { 
+	.clients-page {
+		text-align: center;
+	}
+	.clients-page img {
+		margin: 0 auto 30px;
+	}
+}
+
+/*
 .clients-page { 
 	overflow: hidden;
 }
@@ -32,3 +73,4 @@
 	display: block;
 	position: absolute;
 }
+*/

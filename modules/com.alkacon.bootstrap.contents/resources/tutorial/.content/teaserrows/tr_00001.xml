@@ -19,12 +19,6 @@
       <Headline><![CDATA[OpenCms Developer Demo]]></Headline>
       <Icon><![CDATA[Cog]]></Icon>
       <Text><![CDATA[Technical examples for template developers.]]></Text>
-      <Link>
-        <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/dev-demo/]]></target>
-          <uuid>9067a898-77c5-11e0-bf39-cde485e16fbf</uuid>
-        </link>
-      </Link>
       <Color><![CDATA[grey]]></Color>
     </Item>
     <Item>

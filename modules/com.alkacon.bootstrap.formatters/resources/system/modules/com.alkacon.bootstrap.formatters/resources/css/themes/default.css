@@ -1,11 +1,16 @@
-p a,
+f/* 
+* Version: 1.4
+* Default Color 	  : #72c02c;
+* Default Hover Color : #5fb611;
+*/
+
 a:focus, 
 a:hover, 
 a:active {
 	color: #72c02c;
 }
 
-.color {
+.color-green {
 	color: #72c02c;
 }
 
@@ -16,6 +21,99 @@ a.read-more:hover {
 .linked:hover {
 	color:#72c02c;
 }
+
+/*Header v1
+------------------------------------*/
+/*Navber*/
+.header .navbar-default .navbar-nav > .active > a {
+	color: #72c02c;
+}
+
+/*Navbar Toggle*/
+.navbar-toggle,
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background: #72c02c;
+}
+
+.navbar-toggle:hover {
+	background: #5fb611 !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #5fb611;
+}
+
+/*Responsive Navbar*/
+@media (max-width: 767px) {
+	.header .navbar-default .navbar-nav > li > a:hover {
+		color: #72c02c;
+	}
+
+	.header .navbar-default .navbar-nav > .active > a,
+	.header .navbar-default .navbar-nav > .active > a:hover,
+	.header .navbar-default .navbar-nav > .active > a:focus {
+		background: #72c02c;
+	}
+}
+
+@media (min-width: 767px) {
+	/*Navbar*/
+	.header .navbar-default .navbar-nav > li > a:hover,
+	.header .navbar-default .navbar-nav > .active > a {
+		/*border-bottom: solid 2px #72c02c;*/
+	}
+
+	.header .navbar-default .navbar-nav > .open > a,
+	.header .navbar-default .navbar-nav > .open > a:hover,
+	.header .navbar-default .navbar-nav > .open > a:focus {
+		color: #72c02c;
+	}
+
+	/*Dropdown Menu*/
+	.header .dropdown-menu { 
+		border-top: solid 2px #72c02c; 
+	}	
+}
+
+/*Search Box*/
+.header .navbar .nav > li > .search:hover {
+	color: #72c02c;
+	border-bottom-color: #72c02c;
+}
+
+@media (max-width: 767px) {
+	.header .navbar .nav > li > .search:hover {
+		background: #5fb611;
+	}
+}
+
+/*Header v2
+------------------------------------*/
+/*Topbar*/
+.topbar-v1 .top-v1-data li a:hover i {
+	color: #72c02c;
+}
+
+/*Search Box*/
+.header-v1 .navbar .nav > li > .search:hover {
+	background: #72c02c;
+}
+
+/*Responsive Navbar*/
+@media (min-width: 767px) {
+	.header-v1 .navbar-default .navbar-nav > li > a:hover,
+	.header-v1 .navbar-default .navbar-nav > .active > a {
+		color: #fff;
+		background: #72c02c !important;
+	}
+
+	.header-v1 .navbar-default .navbar-nav > .open > a,
+	.header-v1 .navbar-default .navbar-nav > .open > a:hover,
+	.header-v1 .navbar-default .navbar-nav > .open > a:focus {
+		background: #72c02c;		
+	}
+}	
 
 /*Sliders
 ------------------------------------*/
@@ -41,16 +139,6 @@ a.read-more:hover {
 #sequence-theme .info p {
 	background:rgba(114, 192, 44, 0.8);
 }
-
-/*Purchase
-------------------------------------*/
-.purchase a.btn-buy {
-	background:#72c02c;
-	text-shadow:0 1px 0 #5fb611;
-}
-.purchase a.btn-buy:hover {
-	background:#5fb611;
-} 
 
 /*Buttons
 ------------------------------------*/
@@ -237,7 +325,6 @@ blockquote:hover {
 
 .pricing-head h3 {
 	background:#55c931;
-	text-shadow:0 1px 0 #32a20f;
 	border-bottom:solid 1px #41b91c;
 }
 .pricing-head h4 {
@@ -258,8 +345,6 @@ blockquote:hover {
 .pricing-footer a,
 .pricing-footer button {
 	background:#72c02c;
-	text-shadow:0 1px 0 #38b312;
-	border-bottom:solid 2px #41b91c;
 }
 .pricing-footer a:hover,
 .pricing-footer button:hover {

@@ -32,7 +32,7 @@
 			<c:otherwise>
 
 				<c:if test="${not cms.element.settings.hidetitle}">
-					<div class="headline headline-md"><h3 ${rdfa.Title}><c:out value="${con.value.Title}" escapeXml="false" /></h3></div>
+					<div class="headline headline-md"><h2 ${rdfa.Title}><c:out value="${con.value.Title}" escapeXml="false" /></h2></div>
 				</c:if>			
 
 				<div class="posts lists blog-item margin-bottom-20">

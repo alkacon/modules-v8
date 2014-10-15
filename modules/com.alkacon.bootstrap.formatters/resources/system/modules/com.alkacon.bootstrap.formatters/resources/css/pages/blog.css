@@ -9,15 +9,21 @@
 }
 
 .blog h2 a {
+	color: #585f69;
 	line-height: 32px;
 }
 
 .blog h2 a:hover {
+	color: #72c02c;
 	text-decoration: none;
 }
 
 .blog .blog-img { 
 	margin: 20px 0;
+}
+
+.headline-md {
+	margin-top: 9px;
 }
 
 /*Blog Content Tags*/
@@ -94,7 +100,8 @@
 
 /*Blog Medium
 ------------------------------------*/
-.blog-medium .blog-info li {
+.blog-medium .blog-info li,
+.blog-medium .blog-info li a {
 	color: #777;
 }
 
@@ -107,6 +114,9 @@
 
 /*Blog Full Wisth
 ------------------------------------*/
+.blog-full-width .blog-post-tags {
+	padding: 5px 0;
+}
 .blog-full-width ul.blog-info {
 	margin-bottom: 0;
 }

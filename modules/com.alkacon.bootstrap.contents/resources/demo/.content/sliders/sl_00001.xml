@@ -32,7 +32,7 @@
       </Caption>
       <Caption>
         <Text><![CDATA[WELCOME TO OPENCMS 9]]></Text>
-        <Class><![CDATA[caption large_text sfb bg-black-opacity]]></Class>
+        <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb]]></Class>
         <PosX><![CDATA[180]]></PosX>
         <PosY><![CDATA[70]]></PosY>
         <Start><![CDATA[800]]></Start>
@@ -41,7 +41,7 @@
       </Caption>
       <Caption>
         <Text><![CDATA[CONTENT MANAGEMENT MADE EASY]]></Text>
-        <Class><![CDATA[caption sfb big_black]]></Class>
+        <Class><![CDATA[caption sfb mediumthickwhitebg]]></Class>
         <PosX><![CDATA[220]]></PosX>
         <PosY><![CDATA[130]]></PosY>
         <Start><![CDATA[1200]]></Start>
@@ -66,7 +66,7 @@
       </Link>
       <Caption>
         <Text><![CDATA[MAKE YOUR <span style="color: #ec9637">CONTENT MANAGERS</span> HAPPY!]]></Text>
-        <Class><![CDATA[caption large_text bg-black-opacity sfb ltl]]></Class>
+        <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb ltl]]></Class>
         <PosX><![CDATA[0]]></PosX>
         <PosY><![CDATA[35]]></PosY>
         <Start><![CDATA[800]]></Start>
@@ -157,7 +157,7 @@
       <Caption>
         <Image/>
         <Text><![CDATA[100% OPEN SOURCE]]></Text>
-        <Class><![CDATA[caption sft big_black]]></Class>
+        <Class><![CDATA[caption sft mediumthickwhitebg]]></Class>
         <PosX><![CDATA[75]]></PosX>
         <PosY><![CDATA[330]]></PosY>
         <Start><![CDATA[1200]]></Start>
@@ -166,7 +166,7 @@
       </Caption>
       <Caption>
         <Text><![CDATA[FULL COMMERCIAL SUPPORT AVAILABLE]]></Text>
-        <Class><![CDATA[caption large_text sfb bg-black-opacity]]></Class>
+        <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb]]></Class>
         <PosX><![CDATA[75]]></PosX>
         <PosY><![CDATA[380]]></PosY>
         <Start><![CDATA[1400]]></Start>
@@ -201,7 +201,7 @@
       <Delay><![CDATA[1500]]></Delay>
       <Caption>
         <Text><![CDATA[START USING OPENCMS 9 TODAY]]></Text>
-        <Class><![CDATA[caption very_big_white lft ltb]]></Class>
+        <Class><![CDATA[caption mediumthickgreybg lft ltb]]></Class>
         <PosX><![CDATA[0]]></PosX>
         <PosY><![CDATA[390]]></PosY>
         <Start><![CDATA[200]]></Start>
@@ -212,7 +212,7 @@
       </Caption>
       <Caption>
         <Text><![CDATA[DON'T WAIT]]></Text>
-        <Class><![CDATA[caption big_black lft ltb]]></Class>
+        <Class><![CDATA[caption mediumthickwhitebg lft ltb]]></Class>
         <PosX><![CDATA[0]]></PosX>
         <PosY><![CDATA[343]]></PosY>
         <Start><![CDATA[600]]></Start>

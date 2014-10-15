@@ -35,7 +35,8 @@
           </link>
         </links>
         <content><![CDATA[<div class="top">
-    <div class="container topbar">
+    <div class="topbar">
+      <div class="container">
         <ul class="loginbar pull-left">
         <li><a href="%(link0)">&copy; Alkacon Software GmbH - The OpenCms experts</a></li>
         </ul>
@@ -52,6 +53,7 @@
             <li class="topbar-devider"></li>
             <li><a href="%(link6)">Login</a></li>
      </ul>
+     </div>
 </div>
 </div><!--/top-->]]></content>
       </Code>

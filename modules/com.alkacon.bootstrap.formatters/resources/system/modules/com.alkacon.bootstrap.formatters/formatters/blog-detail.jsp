@@ -26,7 +26,7 @@
     <!-- blog header -->
     <div class="blog-page">
         <div class="blog">
-            <h3 ${rdfa.Title}>${value.Title}</h3>                             
+            <h2 ${rdfa.Title}>${value.Title}</h2>                             
             <ul class="list-unstyled list-inline blog-info">
                 <li><i class="icon-calendar"></i> <fmt:formatDate value="${cms:convertDate(value.Date)}" dateStyle="SHORT" timeStyle="SHORT" type="both" /></li>
                 <c:if test="${author ne ''}">
@@ -109,7 +109,7 @@
     </c:forEach><!-- //END paragraphs -->
     
     <c:if test="${content.isEditable}">
-    <a href="<cms:link>%(link.weak:/demo/blog-entries/post-a-new-blog-entry/)</cms:link>?fileId=${content.id}">
+    <a href="<cms:link>%(link.weak:/demo/blog-entries/post-a-new-blog-entry/:a6a976fa-e00c-11e3-b2f0-005056b60ccd)</cms:link>?fileId=${content.id}">
         <button type="button" class="btn btn-default">Edit this blog entry</button>
     </a>
     </c:if>    

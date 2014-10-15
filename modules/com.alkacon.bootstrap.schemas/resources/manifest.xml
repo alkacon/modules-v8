@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>9.0.1</opencms_version>
-		<createdate>Tue, 04 Feb 2014 10:25:05 GMT</createdate>
+		<opencms_version>9.4.x</opencms_version>
+		<createdate>Wed, 15 Oct 2014 12:46:25 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -137,10 +137,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>4a5399d7-88f3-11e3-9bf2-d33a46a401ac</uuidstructure>
-			<datelastmodified>Wed, 29 Jan 2014 14:40:25 GMT</datelastmodified>
+			<uuidstructure>c1b1bb50-47c4-11e4-a64e-005056b61161</uuidstructure>
+			<datelastmodified>Mon, 29 Sep 2014 10:38:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 29 Jan 2014 14:40:25 GMT</datecreated>
+			<datecreated>Mon, 29 Sep 2014 10:38:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -159,10 +159,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>4d475ea3-88f3-11e3-9bf2-d33a46a401ac</uuidstructure>
-			<datelastmodified>Wed, 29 Jan 2014 14:40:30 GMT</datelastmodified>
+			<uuidstructure>c367a8ec-47c4-11e4-a64e-005056b61161</uuidstructure>
+			<datelastmodified>Mon, 29 Sep 2014 10:38:34 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 29 Jan 2014 14:40:30 GMT</datecreated>
+			<datecreated>Mon, 29 Sep 2014 10:38:34 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -197,7 +197,7 @@
 			<type>module_config</type>
 			<uuidstructure>1a6836da-1aca-11e3-a5c5-000c29f9a2ec</uuidstructure>
 			<uuidresource>1a6836db-1aca-11e3-a5c5-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 09:59:56 GMT</datelastmodified>
+			<datelastmodified>Fri, 12 Sep 2014 06:50:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 11 Sep 2013 10:08:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -216,6 +216,19 @@
 					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.schemas/formatters</destination>
+			<type>folder</type>
+			<uuidstructure>a85ba1c4-277d-11e4-96d6-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 19 Aug 2014 08:48:57 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 08:48:57 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -550,7 +563,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>c9def4ee-1c45-11e3-80da-000c29f9a2ec</uuidstructure>
 			<uuidresource>c9def4ef-1c45-11e3-80da-000c29f9a2ec</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 10:07:58 GMT</datelastmodified>
+			<datelastmodified>Wed, 10 Sep 2014 08:26:34 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 07:26:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -980,7 +993,7 @@
 			<type>plain</type>
 			<uuidstructure>8e6839bd-2206-11e3-8169-000c297c001d</uuidstructure>
 			<uuidresource>8e6839be-2206-11e3-8169-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 23 Sep 2013 10:34:11 GMT</datelastmodified>
+			<datelastmodified>Thu, 21 Aug 2014 09:08:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 15:08:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>

@@ -17,7 +17,7 @@
           </link>
           <link name="link5" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
+            <uuid>c3616758-47c4-11e4-a64e-005056b61161</uuid>
           </link>
           <link name="link2" internal="true" type="A">
             <target><![CDATA[/sites/default/release/]]></target>
@@ -29,7 +29,7 @@
           </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>efd833d7-422a-11e3-af03-000c29d28104</uuid>
+            <uuid>c3616758-47c4-11e4-a64e-005056b61161</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/demo/]]></target>
@@ -37,17 +37,17 @@
           </link>
         </links>
         <content><![CDATA[<!--=== Top ===-->
-<div class="top">
+<div class="topbar">
     <div class="container">
         <ul class="loginbar pull-right">
             <li><a href="%(link0)">Welcome</a></li>
-            <li class="devider"></li>
+            <li class="topbar-devider"></li>
             <li><a href="%(link1)">Demo</a></li>
-            <li class="devider"></li>
+            <li class="topbar-devider"></li>
             <li><a href="%(link2)">Release notes</a></li>
-            <li class="devider"></li>
+            <li class="topbar-devider"></li>
             <li><a href="%(link3)">Search</a></li>
-            <li class="devider"></li>
+            <li class="topbar-devider"></li>
             <li><a href="%(link4)">Login</a></li>
 </ul></div>
 </div><!--/top-->

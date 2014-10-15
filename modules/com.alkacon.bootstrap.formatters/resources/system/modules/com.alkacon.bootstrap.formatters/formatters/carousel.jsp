@@ -17,7 +17,7 @@
 		<c:otherwise>
 		
 			<c:if test="${not cms.element.settings.hidetitle}">
-				<div class="headline"><h3 ${content.rdfa.Title}>${content.value.Title}</h3></div>
+				<div class="headline"><h2 ${content.rdfa.Title}>${content.value.Title}</h2></div>
 			</c:if>
 
 			<div class="carousel slide carousel-v1" id="myCarousel-${content.file.structureId}">
@@ -36,10 +36,10 @@
 				</div>
 				<div class="carousel-arrow">
 					<a data-slide="prev" href="#myCarousel-${content.file.structureId}" class="left carousel-control">
-						<i class="icon-angle-left"></i>
+						<i class="fa fa-angle-left"></i>
 					</a>
 					<a data-slide="next" href="#myCarousel-${content.file.structureId}" class="right carousel-control">
-						<i class="icon-angle-right"></i>
+						<i class="fa fa-angle-right"></i>
 					</a>
 				</div>
 			</div>
