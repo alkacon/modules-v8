@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconGroupContainers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/group_container.xsd">
+  <AlkaconGroupContainer language="en">
+    <GroupContainers>
+      <Title><![CDATA[Footer elements]]></Title>
+      <Description><![CDATA[Contains all elements shown in the footer]]></Description>
+      <Type><![CDATA[full]]></Type>
+      <Element>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/new-demo-new/.content/flexiblecontents/f_00001.xml]]></target>
+            <uuid>4ae7a86b-48af-11e4-9866-005056b61161</uuid>
+          </link>
+        </Uri>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|tablet]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[hideTitle]]></Name>
+          <Value>
+            <String><![CDATA[true]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[element_instance_id]]></Name>
+          <Value>
+            <String><![CDATA[478320aa-48af-11e4-9866-005056b61161]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[requireReload]]></Name>
+          <Value>
+            <String><![CDATA[false]]></String>
+          </Value>
+        </Properties>
+      </Element>
+      <Element>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/new-demo-new/.content/flexiblecontents/f_00002.xml]]></target>
+            <uuid>b5f53f61-48b0-11e4-9866-005056b61161</uuid>
+          </link>
+        </Uri>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[mobile]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[hideTitle]]></Name>
+          <Value>
+            <String><![CDATA[true]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[element_instance_id]]></Name>
+          <Value>
+            <String><![CDATA[f4484be3-48b0-11e4-9866-005056b61161]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[requireReload]]></Name>
+          <Value>
+            <String><![CDATA[false]]></String>
+          </Value>
+        </Properties>
+      </Element>
+    </GroupContainers>
+  </AlkaconGroupContainer>
+</AlkaconGroupContainers>

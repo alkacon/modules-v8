@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.BootstrapTemplateRow.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTemplateRow.Title.help]]></Key>
+      <Value><![CDATA[Der Titel für diese Templatezeile.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTemplateRow.Column]]></Key>
+      <Value><![CDATA[Spalte]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTemplateRow.Column.help]]></Key>
+      <Value><![CDATA[Die Definition einer Spalte der Zeile.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Name]]></Key>
+      <Value><![CDATA[Container Name]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Name.help]]></Key>
+      <Value><![CDATA[Der Name des Containers, der in dieser Spalte erzeugt wird.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Type]]></Key>
+      <Value><![CDATA[Container Typ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Type.help]]></Key>
+      <Value><![CDATA[Der Typ des Containers, der in dieser Spalte erzeugt wird.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Count]]></Key>
+      <Value><![CDATA[Anzahl Elemente]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Count.help]]></Key>
+      <Value><![CDATA[Die maximale Anzahl von Elementen, die der Container enthalten kann.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Editors]]></Key>
+      <Value><![CDATA[Bearbeitbar von]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Editors.help]]></Key>
+      <Value><![CDATA[Stellt die Benutzer ein, die diese Spalte bearbeiten können.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.EmptyText]]></Key>
+      <Value><![CDATA[Text leere Spalte]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.EmptyText.help]]></Key>
+      <Value><![CDATA[Dieser Text wird angezeigt, wenn diese Spalte keine Inhaltselemente enthält.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.XS]]></Key>
+      <Value><![CDATA[XS Span]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.XS.help]]></Key>
+      <Value><![CDATA[Die Anzahl der Rasterspalten, über die sich diese Spalte für extrakleine Geräte erstreckt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.SM]]></Key>
+      <Value><![CDATA[SM Span]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.SM.help]]></Key>
+      <Value><![CDATA[Die Anzahl der Rasterspalten, über die sich diese Spalte für kleine Geräte erstreckt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.MD]]></Key>
+      <Value><![CDATA[MD Span]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.MD.help]]></Key>
+      <Value><![CDATA[Die Anzahl der Rasterspalten, über die sich diese Spalte für mittlere Geräte erstreckt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.LG]]></Key>
+      <Value><![CDATA[LG Span]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.LG.help]]></Key>
+      <Value><![CDATA[Die Anzahl der Rasterspalten, über die sich diese Spalte für große Geräte erstreckt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Detail]]></Key>
+      <Value><![CDATA[Detail Container]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Detail.help]]></Key>
+      <Value><![CDATA[Wenn angekreuzt, wird der erzeugte Container als Detailcontainer verwendet.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLayoutRow.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLayoutRow.Title.help]]></Key>
+      <Value><![CDATA[Der Titel für diese Layoutzeile.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLayoutRow.Column]]></Key>
+      <Value><![CDATA[Spalte]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLayoutRow.Column.help]]></Key>
+      <Value><![CDATA[Die Definition einer Spalte der Layoutzeile.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.default.Title]]></Key>
+      <Value><![CDATA[Neue Templatezeile]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.notset]]></Key>
+      <Value><![CDATA[Nicht gesetzt]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.hidden]]></Key>
+      <Value><![CDATA[Versteckt]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.col]]></Key>
+      <Value><![CDATA[Spalte]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.cols]]></Key>
+      <Value><![CDATA[Spalten]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.editor.elementauthor]]></Key>
+      <Value><![CDATA[Element Autor]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.editor.editor]]></Key>
+      <Value><![CDATA[Sitemap Editor]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.editor.developer]]></Key>
+      <Value><![CDATA[Template Entwickler]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.layoutrow.default.Title]]></Key>
+      <Value><![CDATA[Neue Layoutzeile]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.headline.emptycontainer]]></Key>
+      <Value><![CDATA[Leerer Container]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapTemplateRow.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTemplateRow.Title.help]]></Key>
+      <Value><![CDATA[The title of the template row.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTemplateRow.Column]]></Key>
+      <Value><![CDATA[Column]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTemplateRow.Column.help]]></Key>
+      <Value><![CDATA[The definition of a single column of the template row.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Name]]></Key>
+      <Value><![CDATA[Container Name]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Name.help]]></Key>
+      <Value><![CDATA[The name of the container that is created in this column.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Type]]></Key>
+      <Value><![CDATA[Container Type]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Type.help]]></Key>
+      <Value><![CDATA[The type of the container that is created in this column.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Count]]></Key>
+      <Value><![CDATA[Maximum Elements]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Editors]]></Key>
+      <Value><![CDATA[Editable by]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Editors.help]]></Key>
+      <Value><![CDATA[Sets the users that can edit elements in this column.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.EmptyText]]></Key>
+      <Value><![CDATA[Empty Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.EmptyText.help]]></Key>
+      <Value><![CDATA[This text is shown if the column does not have any content elements.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Count.help]]></Key>
+      <Value><![CDATA[The maximum count of elements that can be placed in the container.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.XS]]></Key>
+      <Value><![CDATA[XS Span]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.XS.help]]></Key>
+      <Value><![CDATA[The amount of grid columns that is used by this column for extra small devices.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.SM]]></Key>
+      <Value><![CDATA[SM Span]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.SM.help]]></Key>
+      <Value><![CDATA[The amount of grid columns that is used by this column for small devices.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.MD]]></Key>
+      <Value><![CDATA[MD Span]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.MD.help]]></Key>
+      <Value><![CDATA[The amount of grid columns that is used by this column for medium devices.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.LG]]></Key>
+      <Value><![CDATA[LG Span]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.LG.help]]></Key>
+      <Value><![CDATA[The amount of grid columns that is used by this column for large devices.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Detail]]></Key>
+      <Value><![CDATA[Detail Container]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Detail.help]]></Key>
+      <Value><![CDATA[If checked, the created container will be used as detail container.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLayoutRow.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLayoutRow.Title.help]]></Key>
+      <Value><![CDATA[The title of the layout row.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLayoutRow.Column]]></Key>
+      <Value><![CDATA[Column]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapLayoutRow.Column.help]]></Key>
+      <Value><![CDATA[The definition of a single column of the layout row.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.default.Title]]></Key>
+      <Value><![CDATA[New template row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.notset]]></Key>
+      <Value><![CDATA[Not set]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.hidden]]></Key>
+      <Value><![CDATA[Hidden]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.col]]></Key>
+      <Value><![CDATA[column]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.cols]]></Key>
+      <Value><![CDATA[columns]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.editor.elementauthor]]></Key>
+      <Value><![CDATA[Element Author]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.editor.editor]]></Key>
+      <Value><![CDATA[Sitemap Manager]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.columns.editor.developer]]></Key>
+      <Value><![CDATA[Template Developer]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.layoutrow.default.Title]]></Key>
+      <Value><![CDATA[New layout row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.headline.emptycontainer]]></Key>
+      <Value><![CDATA[Empty Container]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Title.help]]></Key>
+      <Value><![CDATA[The title is shown above the tabbed content.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Label]]></Key>
+      <Value><![CDATA[Tab Label]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Label.help]]></Key>
+      <Value><![CDATA[The label of this tab.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.default.Title]]></Key>
+      <Value><![CDATA[New tabbed content]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.default.Label]]></Key>
+      <Value><![CDATA[Label]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.emptycontainer.headline]]></Key>
+      <Value><![CDATA[Empty tab]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.emptycontainer.text]]></Key>
+      <Value><![CDATA[Drop a layout row in the tab.]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Title.help]]></Key>
+      <Value><![CDATA[Der Titel wird oberhalb der Reiter angezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Label]]></Key>
+      <Value><![CDATA[Reiter-Name]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.Label.help]]></Key>
+      <Value><![CDATA[Bitte geben Sie einen Namen für den Reiter ein.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.default.Title]]></Key>
+      <Value><![CDATA[Neuer Reiter]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.default.Label]]></Key>
+      <Value><![CDATA[Name]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.emptycontainer.headline]]></Key>
+      <Value><![CDATA[Leerer Reiter]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.emptycontainer.text]]></Key>
+      <Value><![CDATA[Platzieren Sie eine Layoutzeile im Reiter.]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

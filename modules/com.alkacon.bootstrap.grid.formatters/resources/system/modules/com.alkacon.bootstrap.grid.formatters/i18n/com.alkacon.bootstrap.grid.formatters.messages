@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[bootstrap.setting.requirereload]]></Key>
+      <Value><![CDATA[Benötigt Reload]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.image.left]]></Key>
+      <Value><![CDATA[Links vom Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.image.right]]></Key>
+      <Value><![CDATA[Rechts vom Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.image.top]]></Key>
+      <Value><![CDATA[Oben]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.imgalign]]></Key>
+      <Value><![CDATA[Bildausrichtung]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[no.image]]></Key>
+      <Value><![CDATA[Kein Bild vorhanden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.showdate]]></Key>
+      <Value><![CDATA[Zeige Datum]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color]]></Key>
+      <Value><![CDATA[Farbe]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.default]]></Key>
+      <Value><![CDATA[Standard]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.red]]></Key>
+      <Value><![CDATA[Rot]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.sea]]></Key>
+      <Value><![CDATA[Meer]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.grey]]></Key>
+      <Value><![CDATA[Grau]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.green]]></Key>
+      <Value><![CDATA[Gr�n]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.blue]]></Key>
+      <Value><![CDATA[Blau]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.orange]]></Key>
+      <Value><![CDATA[Orange]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.yellow]]></Key>
+      <Value><![CDATA[Gelb]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.layoutvariant]]></Key>
+      <Value><![CDATA[Layout Variante]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.layout.top]]></Key>
+      <Value><![CDATA[Rahmen oben]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.layout.left]]></Key>
+      <Value><![CDATA[Rahmen links]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.layout.box]]></Key>
+      <Value><![CDATA[Box]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.buttoncolor]]></Key>
+      <Value><![CDATA[Button Farbe]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.teaserlength]]></Key>
+      <Value><![CDATA[Teaser L�nge]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.hidetitle]]></Key>
+      <Value><![CDATA[Verstecke Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.cssclass]]></Key>
+      <Value><![CDATA[Wrapper CSS Klasse(n)]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.showbreadcrumb]]></Key>
+      <Value><![CDATA[Zeige Brotkrumennavigation]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[bootstrap.setting.requirereload]]></Key>
+      <Value><![CDATA[Requires reload]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.image.left]]></Key>
+      <Value><![CDATA[Left of text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.image.right]]></Key>
+      <Value><![CDATA[Right of text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.image.top]]></Key>
+      <Value><![CDATA[Top]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.imgalign]]></Key>
+      <Value><![CDATA[Image alignment]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[no.image]]></Key>
+      <Value><![CDATA[No image present.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.showdate]]></Key>
+      <Value><![CDATA[Show date]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color]]></Key>
+      <Value><![CDATA[Color]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.default]]></Key>
+      <Value><![CDATA[Default]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.red]]></Key>
+      <Value><![CDATA[Red]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.sea]]></Key>
+      <Value><![CDATA[Sea]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.grey]]></Key>
+      <Value><![CDATA[Grey]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.green]]></Key>
+      <Value><![CDATA[Green]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.blue]]></Key>
+      <Value><![CDATA[Blue]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.orange]]></Key>
+      <Value><![CDATA[Orange]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.color.yellow]]></Key>
+      <Value><![CDATA[Yellow]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.layoutvariant]]></Key>
+      <Value><![CDATA[Layout Variant]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.layout.top]]></Key>
+      <Value><![CDATA[Border Top]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.layout.left]]></Key>
+      <Value><![CDATA[Border Left]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.layout.box]]></Key>
+      <Value><![CDATA[Colored Box]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.buttoncolor]]></Key>
+      <Value><![CDATA[Button Color]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.teaserlength]]></Key>
+      <Value><![CDATA[Teaser Length]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.hidetitle]]></Key>
+      <Value><![CDATA[Hide Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.cssclass]]></Key>
+      <Value><![CDATA[Wrapper CSS class(es)]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.showbreadcrumb]]></Key>
+      <Value><![CDATA[Show Breadcrumb Navigation]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.your.selection]]></Key>
+      <Value><![CDATA[Your selection]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.search]]></Key>
+      <Value><![CDATA[Search]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.last.changes]]></Key>
+      <Value><![CDATA[Last changes]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.sort.by]]></Key>
+      <Value><![CDATA[Sort by:]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.sort.relevance]]></Key>
+      <Value><![CDATA[Relevance]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.sort.modified]]></Key>
+      <Value><![CDATA[Modified asc, Modified desc]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.sort.created]]></Key>
+      <Value><![CDATA[Created asc, Created desc]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.sort.created]]></Key>
+      <Value><![CDATA[Created asc, Created desc]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.sort.title]]></Key>
+      <Value><![CDATA[Title asc, Title desc]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.show.results]]></Key>
+      <Value><![CDATA[Showing results:]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.reset]]></Key>
+      <Value><![CDATA[Reset selection]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.advice]]></Key>
+      <Value><![CDATA[Share result]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.showMore]]></Key>
+      <Value><![CDATA[Show more]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.showLess]]></Key>
+      <Value><![CDATA[Show less]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.undefined]]></Key>
+      <Value><![CDATA[undefined]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.from]]></Key>
+      <Value><![CDATA[from]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.until]]></Key>
+      <Value><![CDATA[until]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.hits]]></Key>
+      <Value><![CDATA[hits]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.searchedFor]]></Key>
+      <Value><![CDATA[You searched for]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.back]]></Key>
+      <Value><![CDATA[back]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.next]]></Key>
+      <Value><![CDATA[next]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.nothingFoundForQuery]]></Key>
+      <Value><![CDATA[Nothing found for query]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.share.box]]></Key>
+      <Value><![CDATA[Copy this link to share the current result]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.share]]></Key>
+      <Value><![CDATA[Share result]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.loading]]></Key>
+      <Value><![CDATA[loading ...]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.noExcerpt]]></Key>
+      <Value><![CDATA[No search term for generating an excerpt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.didYouMean]]></Key>
+      <Value><![CDATA[Did you mean?]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[de]]></Key>
+      <Value><![CDATA[Deutsch]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[en]]></Key>
+      <Value><![CDATA[English]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

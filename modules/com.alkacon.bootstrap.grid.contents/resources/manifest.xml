@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+	<info>
+		<creator>Admin</creator>
+		<opencms_version>9.4.x</opencms_version>
+		<createdate>Wed, 15 Oct 2014 12:51:48 GMT</createdate>
+		<infoproject>Offline</infoproject>
+		<export_version>7</export_version>
+	</info>
+	<module>
+		<name>com.alkacon.bootstrap.grid.contents</name>
+		<nicename><![CDATA[Bootstrap Grid Template Contents]]></nicename>
+		<group>Bootstrap Grid Template</group>
+		<class/>
+		<description><![CDATA[The OpenCms 9 bootstrap template demo contents.]]></description>
+		<version>9.5.0</version>
+		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies>
+			<dependency name="com.alkacon.bootstrap.grid.formatters" version="9.5.0"/>
+			<dependency name="com.alkacon.bootstrap.grid.schemas" version="9.5.0"/>
+		</dependencies>
+		<exportpoints/>
+		<resources>
+			<resource uri="/grid-demo/"/>
+		</resources>
+		<parameters/>
+	</module>
+	<files>
+		<file>
+			<destination>grid-demo</destination>
+			<type>subsitemap</type>
+			<uuidstructure>0d82626d-276b-11e4-96d6-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 15 Oct 2014 12:41:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 06:35:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[This is the OpenCms grid demo website. OpenCms is the user friendly website CMS brought to you by Alkacon Software.]]></value>
+				</property>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.12]]></value>
+				</property>
+				<property>
+					<name>NavStartLevel</name>
+					<value><![CDATA[1]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Grid Demo Website]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Grid Demo Website]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.grid.formatters/templates/bootstrap-grid-page.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/index.html</source>
+			<destination>grid-demo/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>2dc0d7e3-497d-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>2dc0d7e4-497d-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Wed, 01 Oct 2014 15:12:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 01 Oct 2014 15:11:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Redirect for navigation level]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>5db7fc05-276b-11e4-96d6-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 30 Sep 2014 06:55:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 06:38:01 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Website demo contents]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/.config</source>
+			<destination>grid-demo/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>5db9f7d7-276b-11e4-96d6-005056b61161</uuidstructure>
+			<uuidresource>5db9f7d8-276b-11e4-96d6-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 13:54:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 06:38:01 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sitemap configuration file]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/blogs</destination>
+			<type>folder</type>
+			<uuidstructure>1e7e1f61-4a3d-11e4-9866-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 02 Oct 2014 14:05:09 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 14:05:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/blogs/b_00001.xml</source>
+			<destination>grid-demo/.content/blogs/b_00001.xml</destination>
+			<type>bsg-blog</type>
+			<uuidstructure>4569b1a7-536e-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>4569b1a8-536e-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 14 Oct 2014 06:51:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 14 Oct 2014 06:49:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is intuitive]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/blogs/b_00002.xml</source>
+			<destination>grid-demo/.content/blogs/b_00002.xml</destination>
+			<type>bsg-blog</type>
+			<uuidstructure>45701a4a-536e-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>45701a4b-536e-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 14 Oct 2014 06:51:57 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 14 Oct 2014 06:49:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is just fun]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>b14b31ed-718c-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/color/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>334d8375-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/color/red/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/blogs/b_00003.xml</source>
+			<destination>grid-demo/.content/blogs/b_00003.xml</destination>
+			<type>bsg-blog</type>
+			<uuidstructure>4578a5cd-536e-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>4578a5ce-536e-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 14 Oct 2014 06:52:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 14 Oct 2014 06:49:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is better than ever]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a2182faf-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/05_very_high/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/blogs/b_00004.xml</source>
+			<destination>grid-demo/.content/blogs/b_00004.xml</destination>
+			<type>bsg-blog</type>
+			<uuidstructure>4580e330-536e-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>4580e331-536e-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 14 Oct 2014 06:52:20 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 14 Oct 2014 06:49:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is easy]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/carousels</destination>
+			<type>folder</type>
+			<uuidstructure>89da9f20-3ce9-11e4-af00-005056b61161</uuidstructure>
+			<datelastmodified>Mon, 15 Sep 2014 15:04:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 15 Sep 2014 15:04:06 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/elementgroups</destination>
+			<type>folder</type>
+			<uuidstructure>39404d05-3da9-11e4-ba5b-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 16 Sep 2014 13:56:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 16 Sep 2014 13:56:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/elementgroups/eg_00001.xml</source>
+			<destination>grid-demo/.content/elementgroups/eg_00001.xml</destination>
+			<type>groupcontainer</type>
+			<uuidstructure>43b6fd75-48af-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>43b6fd76-48af-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 14:49:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 14:37:12 GMT</datecreated>
+			<usercreated>editor</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Contains all elements shown in the footer]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Footer elements]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/flexiblecontents</destination>
+			<type>folder</type>
+			<uuidstructure>a5be3efd-3e4d-11e4-bddd-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 17 Sep 2014 09:33:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 09:33:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/flexiblecontents/f_00001.xml</source>
+			<destination>grid-demo/.content/flexiblecontents/f_00001.xml</destination>
+			<type>bsg-flexible</type>
+			<uuidstructure>4ae7a86b-48af-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>4ae7a86c-48af-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 14:44:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 14:37:24 GMT</datecreated>
+			<usercreated>editor</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Desktop Footer]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/flexiblecontents/f_00002.xml</source>
+			<destination>grid-demo/.content/flexiblecontents/f_00002.xml</destination>
+			<type>bsg-flexible</type>
+			<uuidstructure>b5f53f61-48b0-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>b5f53f62-48b0-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 14:48:42 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 14:47:33 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Mobile Footer]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/iconboxes</destination>
+			<type>folder</type>
+			<uuidstructure>9f792d26-3cc5-11e4-bed5-005056b61161</uuidstructure>
+			<datelastmodified>Mon, 15 Sep 2014 10:47:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 15 Sep 2014 10:47:00 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/iconboxes/ib_00001.xml</source>
+			<destination>grid-demo/.content/iconboxes/ib_00001.xml</destination>
+			<type>bsg-iconbox</type>
+			<uuidstructure>3781ce95-4a15-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>3781ce96-4a15-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 09:20:21 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 09:19:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: Open Source]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/iconboxes/ib_00002.xml</source>
+			<destination>grid-demo/.content/iconboxes/ib_00002.xml</destination>
+			<type>bsg-iconbox</type>
+			<uuidstructure>6571c17e-4a15-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>6571c17f-4a15-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 09:37:01 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 09:20:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: Powerful and feature rich CMS]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/imageteasers</destination>
+			<type>folder</type>
+			<uuidstructure>191b21e3-3a5f-11e4-bed5-005056b61161</uuidstructure>
+			<datelastmodified>Fri, 12 Sep 2014 09:28:04 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 09:28:04 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/imageteasers/it_00001.xml</source>
+			<destination>grid-demo/.content/imageteasers/it_00001.xml</destination>
+			<type>bsg-imageteaser</type>
+			<uuidstructure>f87fa480-497a-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>f87fa481-497a-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Wed, 01 Oct 2014 14:55:59 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 01 Oct 2014 14:55:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: Intuitive]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/imageteasers/it_00002.xml</source>
+			<destination>grid-demo/.content/imageteasers/it_00002.xml</destination>
+			<type>bsg-imageteaser</type>
+			<uuidstructure>17c8fb25-497b-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>17c8fb26-497b-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Wed, 01 Oct 2014 14:56:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 01 Oct 2014 14:56:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: Simple]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/imageteasers/it_00003.xml</source>
+			<destination>grid-demo/.content/imageteasers/it_00003.xml</destination>
+			<type>bsg-imageteaser</type>
+			<uuidstructure>28a4039a-497b-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>28a4039b-497b-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Wed, 01 Oct 2014 14:57:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 01 Oct 2014 14:56:43 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: Fun]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/imageteasers/it_00004.xml</source>
+			<destination>grid-demo/.content/imageteasers/it_00004.xml</destination>
+			<type>bsg-imageteaser</type>
+			<uuidstructure>4527f8af-497b-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>4527f8b0-497b-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Wed, 01 Oct 2014 14:57:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 01 Oct 2014 14:57:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: Powerful]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/imageteasers/it_00005.xml</source>
+			<destination>grid-demo/.content/imageteasers/it_00005.xml</destination>
+			<type>bsg-imageteaser</type>
+			<uuidstructure>79dad9dd-4a12-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>79dad9de-4a12-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 10:34:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 08:59:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: Propellers]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/imageteasers/it_00006.xml</source>
+			<destination>grid-demo/.content/imageteasers/it_00006.xml</destination>
+			<type>bsg-imageteaser</type>
+			<uuidstructure>6be86095-4a14-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>6be86096-4a14-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 09:14:09 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 09:13:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: Turbine]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/imageteasers/it_00007.xml</source>
+			<destination>grid-demo/.content/imageteasers/it_00007.xml</destination>
+			<type>bsg-imageteaser</type>
+			<uuidstructure>7faa5c5a-4a14-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>7faa5c5b-4a14-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 09:14:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 09:14:22 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: Looking Glass]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/imageteasers/it_00008.xml</source>
+			<destination>grid-demo/.content/imageteasers/it_00008.xml</destination>
+			<type>bsg-imageteaser</type>
+			<uuidstructure>94b41a5f-4a14-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>94b41a60-4a14-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 09:15:19 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 09:14:58 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: Architecture]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/layoutrows</destination>
+			<type>folder</type>
+			<uuidstructure>7384d90f-38cb-11e4-a560-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 10 Sep 2014 09:18:39 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 10 Sep 2014 09:18:39 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/layoutrows/lr_00001.xml</source>
+			<destination>grid-demo/.content/layoutrows/lr_00001.xml</destination>
+			<type>bsg-layoutrow</type>
+			<uuidstructure>fb522b0d-3dad-11e4-ba5b-005056b61161</uuidstructure>
+			<uuidresource>fb522b0e-3dad-11e4-ba5b-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 09:44:41 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 16 Sep 2014 14:30:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full column]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/layoutrows/lr_00002.xml</source>
+			<destination>grid-demo/.content/layoutrows/lr_00002.xml</destination>
+			<type>bsg-layoutrow</type>
+			<uuidstructure>9f6fb72c-3a79-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>9f6fb72d-3a79-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 09:45:16 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 12:37:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[2 columns: 1/2 + 1/2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/layoutrows/lr_00003.xml</source>
+			<destination>grid-demo/.content/layoutrows/lr_00003.xml</destination>
+			<type>bsg-layoutrow</type>
+			<uuidstructure>7f5f55ce-3db0-11e4-ba5b-005056b61161</uuidstructure>
+			<uuidresource>7f5f55cf-3db0-11e4-ba5b-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 09:45:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 16 Sep 2014 14:48:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[3 columns]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/layoutrows/lr_00004.xml</source>
+			<destination>grid-demo/.content/layoutrows/lr_00004.xml</destination>
+			<type>bsg-layoutrow</type>
+			<uuidstructure>2f04e398-4978-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>2f04e399-4978-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Wed, 01 Oct 2014 14:38:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 01 Oct 2014 14:35:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[4 columns]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/lists</destination>
+			<type>folder</type>
+			<uuidstructure>b84c0556-48a9-11e4-9866-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 30 Sep 2014 13:57:30 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 13:57:30 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/lists/l_00001.xml</source>
+			<destination>grid-demo/.content/lists/l_00001.xml</destination>
+			<type>bsg-list</type>
+			<uuidstructure>9e772aad-52dc-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>9e772aae-52dc-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 14 Oct 2014 14:26:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 13 Oct 2014 13:27:03 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: Test]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/navigations</destination>
+			<type>folder</type>
+			<uuidstructure>cb90be3e-3f03-11e4-a791-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 18 Sep 2014 07:17:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 07:17:06 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/navigations/n_00001.xml</source>
+			<destination>grid-demo/.content/navigations/n_00001.xml</destination>
+			<type>bsg-navigation</type>
+			<uuidstructure>638c55f8-48b1-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>638c55f9-48b1-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 14:55:41 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 14:52:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo main navigation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/sliders</destination>
+			<type>folder</type>
+			<uuidstructure>fc98ecd1-3e6f-11e4-8952-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 17 Sep 2014 13:39:02 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 13:39:02 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/sliders/sl_00001.xml</source>
+			<destination>grid-demo/.content/sliders/sl_00001.xml</destination>
+			<type>bsg-slider</type>
+			<uuidstructure>048594c3-3e70-11e4-8952-005056b61161</uuidstructure>
+			<uuidresource>048594c4-3e70-11e4-8952-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 07:32:57 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 13:39:16 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 9 Promo Slider]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/tabs</destination>
+			<type>folder</type>
+			<uuidstructure>56230a5c-423e-11e4-935a-005056b61161</uuidstructure>
+			<datelastmodified>Mon, 22 Sep 2014 09:53:42 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 22 Sep 2014 09:53:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/templaterows</destination>
+			<type>folder</type>
+			<uuidstructure>d5299a83-38ef-11e4-a560-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 10 Sep 2014 13:39:05 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 10 Sep 2014 13:39:05 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/templaterows/tr_00001.xml</source>
+			<destination>grid-demo/.content/templaterows/tr_00001.xml</destination>
+			<type>bsg-templaterow</type>
+			<uuidstructure>16842bfa-3dab-11e4-ba5b-005056b61161</uuidstructure>
+			<uuidresource>16842bfb-3dab-11e4-ba5b-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 09:24:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 16 Sep 2014 14:09:35 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full Column (TD)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/templaterows/tr_00002.xml</source>
+			<destination>grid-demo/.content/templaterows/tr_00002.xml</destination>
+			<type>bsg-templaterow</type>
+			<uuidstructure>8a46d165-4883-11e4-9a3a-005056b61161</uuidstructure>
+			<uuidresource>8a46d166-4883-11e4-9a3a-005056b61161</uuidresource>
+			<datelastmodified>Wed, 01 Oct 2014 14:53:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 09:24:12 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full Column]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/templaterows/tr_00003.xml</source>
+			<destination>grid-demo/.content/templaterows/tr_00003.xml</destination>
+			<type>bsg-templaterow</type>
+			<uuidstructure>79eeeaa4-3dab-11e4-ba5b-005056b61161</uuidstructure>
+			<uuidresource>79eeeaa5-3dab-11e4-ba5b-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 09:05:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 16 Sep 2014 14:12:22 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[2 Columns: 1/3 (TD) + 2/3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/templaterows/tr_00004.xml</source>
+			<destination>grid-demo/.content/templaterows/tr_00004.xml</destination>
+			<type>bsg-templaterow</type>
+			<uuidstructure>10c9ac7f-4885-11e4-9a3a-005056b61161</uuidstructure>
+			<uuidresource>10c9ac80-4885-11e4-9a3a-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 09:35:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 09:35:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[2 Columns: 2/3 + 1/3 (TD)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/templaterows/tr_00005.xml</source>
+			<destination>grid-demo/.content/templaterows/tr_00005.xml</destination>
+			<type>bsg-templaterow</type>
+			<uuidstructure>42f7e552-4885-11e4-9a3a-005056b61161</uuidstructure>
+			<uuidresource>42f7e553-4885-11e4-9a3a-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 09:37:22 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 09:36:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[2 Columns: 1/4 (TD) + 3/4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/templaterows/tr_00006.xml</source>
+			<destination>grid-demo/.content/templaterows/tr_00006.xml</destination>
+			<type>bsg-templaterow</type>
+			<uuidstructure>e70df805-4885-11e4-9a3a-005056b61161</uuidstructure>
+			<uuidresource>e70df806-4885-11e4-9a3a-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 09:41:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 09:41:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[2 Columns: 3/4 + 1/4 (TD)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.content/texts</destination>
+			<type>folder</type>
+			<uuidstructure>519ad3f8-3a60-11e4-bed5-005056b61161</uuidstructure>
+			<datelastmodified>Fri, 12 Sep 2014 09:36:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 09:36:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/texts/t_00001.xml</source>
+			<destination>grid-demo/.content/texts/t_00001.xml</destination>
+			<type>bsg-text</type>
+			<uuidstructure>f8833195-497b-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>f8833196-497b-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Wed, 01 Oct 2014 15:03:01 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 01 Oct 2014 15:02:32 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: More features than ever]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/texts/t_00002.xml</source>
+			<destination>grid-demo/.content/texts/t_00002.xml</destination>
+			<type>bsg-text</type>
+			<uuidstructure>1f5f776a-497c-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>1f5f776b-497c-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Wed, 01 Oct 2014 15:04:02 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 01 Oct 2014 15:03:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: All new responsive template]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/texts/t_00003.xml</source>
+			<destination>grid-demo/.content/texts/t_00003.xml</destination>
+			<type>bsg-text</type>
+			<uuidstructure>8c53cdd7-4a0d-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>8c53cdd8-4a0d-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 08:25:22 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 08:24:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: About OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/texts/t_00004.xml</source>
+			<destination>grid-demo/.content/texts/t_00004.xml</destination>
+			<type>bsg-text</type>
+			<uuidstructure>f0552992-4a11-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>f0552993-4a11-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 08:56:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 08:56:03 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: OpenCms has all the features]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/texts/t_00005.xml</source>
+			<destination>grid-demo/.content/texts/t_00005.xml</destination>
+			<type>bsg-text</type>
+			<uuidstructure>5533b1b0-4a14-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>5533b1b1-4a14-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 09:13:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 09:13:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: Full control over the created HTML]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/.new</destination>
+			<type>folder</type>
+			<uuidstructure>90d4174d-276b-11e4-96d6-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 19 Aug 2014 06:39:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 06:39:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Model folder]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.new/container-default.html</source>
+			<destination>grid-demo/.new/container-default.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>9ff11c10-276b-11e4-96d6-005056b61161</uuidstructure>
+			<uuidresource>9ff11c11-276b-11e4-96d6-005056b61161</uuidresource>
+			<datelastmodified>Wed, 01 Oct 2014 14:39:02 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 06:39:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo Default Page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/about</destination>
+			<type>folder</type>
+			<uuidstructure>55ab306a-4a0d-11e4-9866-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 02 Oct 2014 08:23:20 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 08:23:06 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[About]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/about/index.html</source>
+			<destination>grid-demo/about/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>55b590af-4a0d-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>55b590b0-4a0d-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Wed, 15 Oct 2014 12:27:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 08:23:06 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>grid-demo/home</destination>
+			<type>folder</type>
+			<uuidstructure>32c5c6c0-4979-11e4-9866-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 02 Oct 2014 08:23:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 01 Oct 2014 14:42:41 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.25]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Home]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/home/index.html</source>
+			<destination>grid-demo/home/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>32ce7955-4979-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>32ce7956-4979-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 10:40:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 01 Oct 2014 14:42:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+	</files>
+</export>

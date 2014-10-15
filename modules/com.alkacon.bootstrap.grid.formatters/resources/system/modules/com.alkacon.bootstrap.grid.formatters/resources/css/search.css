@@ -1,0 +1,80 @@
+.gwt-SuggestBoxPopup {
+	margin-left: -1px;
+	z-index: 1000;
+}
+.gwt-SuggestBoxPopup table {
+	width: 100%;
+}
+.gwt-SuggestBoxPopup .suggestPopupMiddleCenterInner table {
+	background-color: #F5F5F5;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #AAA;
+}
+.gwt-SuggestBoxPopup .item {
+	padding: 5px;
+}
+.gwt-SuggestBoxPopup .item-selected {
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+#alkaconSearch {
+	min-height: 550px;
+}
+#searchWidgetResultCount > div > input {
+	cursor: default;
+}
+#searchWidgetTextFacet ul {
+	cursor: pointer;
+}
+#searchWidgetResultPagination .pager li > a, #searchWidgetResultPagination .pager li > span {
+	border-radius: 0px;
+}
+#leftCol.invisible, #rightCol.invisible, #loading.invisible {
+	visibility: hidden;
+}
+#leftCol.show, #rightCol.show, #loading.visible {
+	visibility: visible;
+}
+#loading {
+	margin: -8px 0 0 20px;
+	background-color: #fff;
+	height: 100%;
+	width: 930px;
+}
+#loading img {
+	border: 0 none;
+	float: left;
+	margin: 10px 0 0 -20px;
+	overflow: hidden;
+	padding: 0;
+}
+#loading p {
+	margin: 0px 0 0 25px;
+	font-size: 32px;
+	font-weight: bold;
+}
+#searchWidgetResultList .entry em {
+	font-weight: bold;
+}
+#searchShareLink {
+	display: none;
+}
+.panel-search {
+	border-color: #b31b34;
+}
+.panel-search > .panel-heading {
+	background-color: #b31b34;
+	color: #fff;
+}
+.btn-search {
+	color: #ffffff;
+	background-color: #b51d36;
+	border-color: #b31b34;
+}
+.btn-search:hover, .btn-search:focus, .btn-search:active, .btn-search.active, .open .dropdown-toggle.btn-search {
+	color: #ffffff;
+	background-color: #b31b34;
+	border-color: #b11932;
+}

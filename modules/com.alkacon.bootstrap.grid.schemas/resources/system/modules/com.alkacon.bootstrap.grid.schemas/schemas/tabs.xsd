@@ -1,0 +1,36 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+		
+	<xsd:element name="BootstrapTabs" type="OpenCmsBootstrapTabs"/>
+	
+	<xsd:complexType name="OpenCmsBootstrapTabs">
+		<xsd:sequence>
+			<xsd:element name="BootstrapTab" type="OpenCmsBootstrapTab" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsBootstrapTab">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Label" type="OpenCmsString" minOccurs="2" maxOccurs="10" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.bootstrap.grid.schemas.tabs"/>
+			<mappings>
+				<mapping element="Title" mapto="property:Title" />
+				<mapping element="Title" mapto="urlName" />
+			</mappings>
+			<defaults>
+				<default element="Title" value="%(key.bootstrap.tabs.default.Title)" />
+				<default element="Label" value="%(key.bootstrap.tabs.default.Label)" />
+			</defaults>
+			<searchsettings containerPageOnly="true"/>
+		</xsd:appinfo>
+	</xsd:annotation> 
+
+</xsd:schema>

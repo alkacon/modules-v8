@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+	<info>
+		<creator>Admin</creator>
+		<opencms_version>9.4.x</opencms_version>
+		<createdate>Wed, 15 Oct 2014 12:46:12 GMT</createdate>
+		<infoproject>Offline</infoproject>
+		<export_version>7</export_version>
+	</info>
+	<module>
+		<name>com.alkacon.bootstrap.grid.schemas</name>
+		<nicename><![CDATA[Bootstrap Grid Template Schemas]]></nicename>
+		<group>Bootstrap Grid Template</group>
+		<class/>
+		<description><![CDATA[The OpenCms 9 bootstrap grid XML Schema Definitions.]]></description>
+		<version>9.5.0</version>
+		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+		<authoremail/>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies>
+			<dependency name="org.opencms.ade.config" version="9.0.1"/>
+			<dependency name="com.alkacon.bootstrap.basics" version="9.0.1"/>
+		</dependencies>
+		<exportpoints/>
+		<resources>
+			<resource uri="/system/modules/com.alkacon.bootstrap.grid.schemas/"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-templaterow.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-templaterow_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-layoutrow.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-layoutrow_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-text.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-text_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-imageteaser.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-imageteaser_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-iconbox.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-iconbox_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-carousel.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-carousel_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-flexible.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-flexible_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-navigation.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-navigation_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-slider.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-slider_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-tabs.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-tabs_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-blog.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-blog_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-list.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bsg-list_big.png"/>
+		</resources>
+		<parameters/>
+		<resourcetypes>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-templaterow" id="400">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/templaterow.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-layoutrow" id="401">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/layoutrow.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-text" id="402">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/text.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-imageteaser" id="403">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/imageteaser.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-iconbox" id="404">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/iconbox.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-carousel" id="405">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/carousel.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-flexible" id="406">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/flexible.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-navigation" id="407">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/navigation.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-slider" id="408">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/slider.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-tabs" id="409">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/tabs.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-blog" id="410">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/blog.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="bsg-list" id="411">
+				<param name="schema">/system/modules/com.alkacon.bootstrap.grid.schemas/schemas/list.xsd</param>
+			</type>
+		</resourcetypes>
+		<explorertypes>
+			<explorertype name="bsg-menu" key="fileicon.bsg-menu" icon="menu.png" reference="xmlcontent">
+				<newresource uri="newresource.jsp?page=bsg-menu" order="13" autosetnavigation="false" autosettitle="false" info="desc.bsg-menu"/>
+			</explorertype>
+			<explorertype name="bsg-templaterow" key="fileicon.bsg-templaterow" icon="bsg-templaterow.png" bigicon="bsg-templaterow_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-templaterow" order="1" autosetnavigation="false" autosettitle="false" info="desc.bsg-templaterow" key="title.bsg-templaterow"/>
+				<accesscontrol>
+					<accessentry principal="ROLE.DEVELOPER" permissions="+r+v+w+c"/>
+					<accessentry principal="ROLE.ELEMENT_AUTHOR" permissions="+r+v-w-c"/>
+				</accesscontrol>
+			</explorertype>
+			<explorertype name="bsg-layoutrow" key="fileicon.bsg-layoutrow" icon="bsg-layoutrow.png" bigicon="bsg-layoutrow_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-layoutrow" order="10" autosetnavigation="false" autosettitle="false" info="desc.bsg-layoutrow" key="title.bsg-layoutrow"/>
+				<accesscontrol>
+					<accessentry principal="ROLE.DEVELOPER" permissions="+r+v+w+c"/>
+					<accessentry principal="ROLE.ELEMENT_AUTHOR" permissions="+r+v-w-c"/>
+				</accesscontrol>
+			</explorertype>
+			<explorertype name="bsg-text" key="fileicon.bsg-text" icon="bsg-text.png" bigicon="bsg-text_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-text" order="20" autosetnavigation="false" autosettitle="false" info="desc.bsg-text" key="title.bsg-text"/>
+			</explorertype>
+			<explorertype name="bsg-imageteaser" key="fileicon.bsg-imageteaser" icon="bsg-imageteaser.png" bigicon="bsg-imageteaser_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-imageteaser" order="30" autosetnavigation="false" autosettitle="false" info="desc.bsg-imageteaser" key="title.bsg-imageteaser"/>
+			</explorertype>
+			<explorertype name="bsg-iconbox" key="fileicon.bsg-iconbox" icon="bsg-iconbox.png" bigicon="bsg-iconbox_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-iconbox" order="40" autosetnavigation="false" autosettitle="false" info="desc.bsg-iconbox" key="title.bsg-iconbox"/>
+			</explorertype>
+			<explorertype name="bsg-carousel" key="fileicon.bsg-carousel" icon="bsg-carousel.png" bigicon="bsg-carousel_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-carousel" order="50" autosetnavigation="false" autosettitle="false" info="desc.bsg-carousel" key="title.bsg-carousel"/>
+			</explorertype>
+			<explorertype name="bsg-flexible" key="fileicon.bsg-flexible" icon="bsg-flexible.png" bigicon="bsg-flexible_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-flexible" order="60" autosetnavigation="false" autosettitle="false" info="desc.bsg-flexible" key="title.bsg-flexible"/>
+			</explorertype>
+			<explorertype name="bsg-navigation" key="fileicon.bsg-navigation" icon="bsg-navigation.png" bigicon="bsg-navigation_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-navigation" order="500" autosetnavigation="false" autosettitle="false" info="desc.bsg-navigation" key="title.bsg-navigation"/>
+			</explorertype>
+			<explorertype name="bsg-slider" key="fileicon.bsg-slider" icon="bsg-slider.png" bigicon="bsg-slider_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-slider" order="80" autosetnavigation="false" autosettitle="false" info="desc.bsg-slider" key="title.bsg-slider"/>
+			</explorertype>
+			<explorertype name="bsg-tabs" key="fileicon.bsg-tabs" icon="bsg-tabs.png" bigicon="bsg-tabs_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-tabs" order="90" autosetnavigation="false" autosettitle="false" info="desc.bsg-tabs" key="title.bsg-tabs"/>
+			</explorertype>
+			<explorertype name="bsg-blog" key="fileicon.bsg-blog" icon="bsg-blog.png" bigicon="bsg-blog_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-blog" order="100" autosetnavigation="false" autosettitle="false" info="desc.bsg-blog" key="title.bsg-blog"/>
+			</explorertype>
+			<explorertype name="bsg-list" key="fileicon.bsg-list" icon="bsg-list.png" bigicon="bsg-list_big.png" reference="xmlcontent">
+				<newresource page="bsg-menu" uri="newresource_xmlcontent.jsp?newresourcetype=bsg-list" order="110" autosetnavigation="false" autosettitle="false" info="desc.bsg-list" key="title.bsg-list"/>
+			</explorertype>
+		</explorertypes>
+	</module>
+	<files>
+		<file>
+			<destination>system</destination>
+			<type>folder</type>
+			<uuidstructure>c1b1bb50-47c4-11e4-a64e-005056b61161</uuidstructure>
+			<datelastmodified>Mon, 29 Sep 2014 10:38:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 29 Sep 2014 10:38:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+					<flags>514</flags>
+					<permissionset>
+						<allowed>1</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
+		</file>
+		<file>
+			<destination>system/modules</destination>
+			<type>folder</type>
+			<uuidstructure>c367a8ec-47c4-11e4-a64e-005056b61161</uuidstructure>
+			<datelastmodified>Mon, 29 Sep 2014 10:38:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 29 Sep 2014 10:38:34 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+					<flags>514</flags>
+					<permissionset>
+						<allowed>5</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas</destination>
+			<type>folder</type>
+			<uuidstructure>7d74c0a8-3983-11e4-a560-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 11 Sep 2014 07:16:03 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:16:03 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/.config</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/.config</destination>
+			<type>module_config</type>
+			<uuidstructure>024aaf35-3a49-11e4-a560-005056b61161</uuidstructure>
+			<uuidresource>024aaf36-3a49-11e4-a560-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 13:36:41 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 06:49:57 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/elementviews</destination>
+			<type>folder</type>
+			<uuidstructure>a58c0fce-448b-11e4-8287-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 25 Sep 2014 08:12:09 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 25 Sep 2014 08:12:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/elementviews/layout.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/elementviews/layout.xml</destination>
+			<type>elementview</type>
+			<uuidstructure>cfaece13-448b-11e4-8287-005056b61161</uuidstructure>
+			<uuidresource>cfaece14-448b-11e4-8287-005056b61161</uuidresource>
+			<datelastmodified>Thu, 25 Sep 2014 08:13:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 25 Sep 2014 08:13:20 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Layout]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>OVERWRITE_ALL</uuidprincipal>
+					<flags>256</flags>
+					<permissionset>
+						<allowed>0</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+				<accessentry>
+					<uuidprincipal>ROLE.EDITOR</uuidprincipal>
+					<flags>512</flags>
+					<permissionset>
+						<allowed>5</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/elementviews/template.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/elementviews/template.xml</destination>
+			<type>elementview</type>
+			<uuidstructure>bac8ebc0-448b-11e4-8287-005056b61161</uuidstructure>
+			<uuidresource>bac8ebc1-448b-11e4-8287-005056b61161</uuidresource>
+			<datelastmodified>Thu, 25 Sep 2014 08:13:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 25 Sep 2014 08:12:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Template]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>OVERWRITE_ALL</uuidprincipal>
+					<flags>256</flags>
+					<permissionset>
+						<allowed>0</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+				<accessentry>
+					<uuidprincipal>ROLE.DEVELOPER</uuidprincipal>
+					<flags>512</flags>
+					<permissionset>
+						<allowed>5</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n</destination>
+			<type>folder</type>
+			<uuidstructure>e16243f5-3983-11e4-a560-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 11 Sep 2014 07:18:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:18:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.blog</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.blog</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>13ecb011-488b-11e4-9a3a-005056b61161</uuidstructure>
+			<uuidresource>13ecb012-488b-11e4-9a3a-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 12:39:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 10:18:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for blog]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.carousel</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.carousel</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>7906d144-3ce3-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>7906d145-3ce3-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Mon, 15 Sep 2014 14:57:30 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 15 Sep 2014 14:20:41 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for carousel element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.flexible</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.flexible</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>d546712b-3e40-11e4-bddd-005056b61161</uuidstructure>
+			<uuidresource>d546712c-3e40-11e4-bddd-005056b61161</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 15:06:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 08:01:30 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization flexible element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.iconbox</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.iconbox</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>6d1de642-3cc4-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>6d1de643-3cc4-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Tue, 16 Sep 2014 07:16:12 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 15 Sep 2014 10:38:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for icon box element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.imageteaser</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.imageteaser</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>f04c1b70-3a58-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>f04c1b71-3a58-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Wed, 24 Sep 2014 10:30:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 08:43:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization image teaser element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.list</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.list</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>04fd720d-488b-11e4-9a3a-005056b61161</uuidstructure>
+			<uuidresource>04fd720e-488b-11e4-9a3a-005056b61161</uuidresource>
+			<datelastmodified>Tue, 14 Oct 2014 12:58:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 10:17:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for list]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.navigation</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.navigation</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>e29e946f-3e40-11e4-bddd-005056b61161</uuidstructure>
+			<uuidresource>e29e9470-3e40-11e4-bddd-005056b61161</uuidresource>
+			<datelastmodified>Thu, 07 Nov 2013 15:02:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 08:01:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization navigation element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.row</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.row</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>13a3c53a-277e-11e4-96d6-005056b61161</uuidstructure>
+			<uuidresource>13a3c53b-277e-11e4-96d6-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 08:13:03 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 08:51:57 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for row element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.slider</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.slider</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>da5cc072-3e68-11e4-bddd-005056b61161</uuidstructure>
+			<uuidresource>da5cc073-3e68-11e4-bddd-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 13:02:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 12:47:58 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization for slider element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.tabs</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.tabs</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>3d6c44fe-3f40-11e4-a791-005056b61161</uuidstructure>
+			<uuidresource>3d6c44ff-3f40-11e4-a791-005056b61161</uuidresource>
+			<datelastmodified>Thu, 25 Sep 2014 07:49:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 14:29:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization tabs element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.text</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.text</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>bb2fdf34-3a62-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>bb2fdf35-3a62-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Mon, 15 Sep 2014 13:58:20 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 09:54:04 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization text element]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.workplace</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/i18n/com.alkacon.bootstrap.grid.schemas.workplace</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>4efb7c29-3a56-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>4efb7c2a-3a56-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 14:22:19 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 08:25:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization workplace]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas</destination>
+			<type>folder</type>
+			<uuidstructure>7d76474a-3983-11e4-a560-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 11 Sep 2014 07:16:03 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:16:03 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/blog.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/blog.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>9634d97f-488a-11e4-9a3a-005056b61161</uuidstructure>
+			<uuidresource>9634d980-488a-11e4-9a3a-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 12:26:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 10:14:39 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a blog entry]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/carousel.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/carousel.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>642ad9fe-3ce3-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>642ad9ff-3ce3-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Mon, 15 Sep 2014 15:08:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 15 Sep 2014 14:20:06 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a carousel]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/flexible.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/flexible.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>178a034f-3e3f-11e4-bddd-005056b61161</uuidstructure>
+			<uuidresource>178a0350-3e3f-11e4-bddd-005056b61161</uuidresource>
+			<datelastmodified>Wed, 17 Sep 2014 07:59:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 07:49:02 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for flexible element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/iconbox.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/iconbox.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>9f689d43-3a52-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>9f689d44-3a52-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Mon, 15 Sep 2014 13:57:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 07:58:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for an icon box]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/imageteaser.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/imageteaser.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>950bb8a0-3a52-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>950bb8a1-3a52-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Mon, 22 Sep 2014 14:27:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 07:58:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for an image teaser]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/layoutrow.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/layoutrow.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>79027ddb-38c0-11e4-b543-005056b61161</uuidstructure>
+			<uuidresource>79027ddc-38c0-11e4-b543-005056b61161</uuidresource>
+			<datelastmodified>Thu, 25 Sep 2014 07:27:02 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 10 Sep 2014 08:00:04 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for layout row]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/list.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/list.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>963dda32-488a-11e4-9a3a-005056b61161</uuidstructure>
+			<uuidresource>963dda33-488a-11e4-9a3a-005056b61161</uuidresource>
+			<datelastmodified>Tue, 14 Oct 2014 12:50:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 10:14:39 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for lists]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/navigation.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/navigation.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>1790e122-3e3f-11e4-bddd-005056b61161</uuidstructure>
+			<uuidresource>1790e123-3e3f-11e4-bddd-005056b61161</uuidresource>
+			<datelastmodified>Wed, 17 Sep 2014 07:58:27 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 07:49:02 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a navigation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/slider.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/slider.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>a57a6419-3e68-11e4-bddd-005056b61161</uuidstructure>
+			<uuidresource>a57a641a-3e68-11e4-bddd-005056b61161</uuidresource>
+			<datelastmodified>Wed, 17 Sep 2014 13:14:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 12:46:30 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a slider]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/tabs.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/tabs.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>23d843e8-3f40-11e4-a791-005056b61161</uuidstructure>
+			<uuidresource>23d843e9-3f40-11e4-a791-005056b61161</uuidresource>
+			<datelastmodified>Mon, 22 Sep 2014 10:19:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 14:29:03 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a Tabs / Accordion]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/templaterow.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/templaterow.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>a84ef789-277d-11e4-96d6-005056b61161</uuidstructure>
+			<uuidresource>a84ef78a-277d-11e4-96d6-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 08:11:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 08:48:57 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for template row]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/text.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/text.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>8c618d0d-3a52-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>8c618d0e-3a52-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Mon, 15 Sep 2014 13:58:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 07:58:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a text]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested</destination>
+			<type>folder</type>
+			<uuidstructure>946455f8-3a47-11e4-a560-005056b61161</uuidstructure>
+			<datelastmodified>Fri, 12 Sep 2014 06:39:43 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 06:39:43 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/availability.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/availability.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>bd05ada5-488a-11e4-9a3a-005056b61161</uuidstructure>
+			<uuidresource>bd05ada6-488a-11e4-9a3a-005056b61161</uuidresource>
+			<datelastmodified>Fri, 13 Sep 2013 14:30:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 10:15:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for availability info]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/carouselitem.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/carouselitem.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>6d535d51-3ce3-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>6d535d52-3ce3-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Mon, 15 Sep 2014 14:23:33 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 15 Sep 2014 14:20:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a carousel item]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/flexiblechoice.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/flexiblechoice.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>330e89c5-3e3f-11e4-bddd-005056b61161</uuidstructure>
+			<uuidresource>330e89c6-3e3f-11e4-bddd-005056b61161</uuidresource>
+			<datelastmodified>Wed, 17 Sep 2014 07:59:42 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 07:49:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for flexible element choice]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/image.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/image.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>33119708-3e3f-11e4-bddd-005056b61161</uuidstructure>
+			<uuidresource>33119709-3e3f-11e4-bddd-005056b61161</uuidresource>
+			<datelastmodified>Wed, 17 Sep 2014 08:00:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 07:49:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a image]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/link.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/link.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>f419de76-3a53-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>f419de77-3a53-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Fri, 12 Sep 2014 10:03:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 08:08:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a link]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/paragraph.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/paragraph.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>bd08e1fa-488a-11e4-9a3a-005056b61161</uuidstructure>
+			<uuidresource>bd08e1fb-488a-11e4-9a3a-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 12:27:22 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 10:15:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a paragraph]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/rowcolumn.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/rowcolumn.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>85480db7-3823-11e4-b543-005056b61161</uuidstructure>
+			<uuidresource>85480db8-3823-11e4-b543-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 08:07:39 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 09 Sep 2014 13:16:33 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a row column]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/slidercaption.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/slidercaption.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>b722ceac-3e68-11e4-bddd-005056b61161</uuidstructure>
+			<uuidresource>b722cead-3e68-11e4-bddd-005056b61161</uuidresource>
+			<datelastmodified>Wed, 17 Sep 2014 13:16:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 12:46:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a slider item caption element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/slideritem.xsd</source>
+			<destination>system/modules/com.alkacon.bootstrap.grid.schemas/schemas/nested/slideritem.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>b725189f-3e68-11e4-bddd-005056b61161</uuidstructure>
+			<uuidresource>b72518a0-3e68-11e4-bddd-005056b61161</uuidresource>
+			<datelastmodified>Wed, 17 Sep 2014 13:15:21 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Sep 2014 12:46:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a slider item]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/workplace</destination>
+			<type>folder</type>
+			<uuidstructure>825afce2-11b7-11db-91cd-fdbae480bac9</uuidstructure>
+			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>content-encoding</name>
+					<value><![CDATA[UTF-8]]></value>
+				</property>
+				<property>
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+				<property>
+					<name>login-form</name>
+					<value><![CDATA[/system/login/index.html]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>ALL_OTHERS</uuidprincipal>
+					<flags>134</flags>
+					<permissionset>
+						<allowed>0</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+				<accessentry>
+					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+					<flags>518</flags>
+					<permissionset>
+						<allowed>5</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
+		</file>
+		<file>
+			<destination>system/workplace/resources</destination>
+			<type>folder</type>
+			<uuidstructure>82c16052-11b7-11db-91cd-fdbae480bac9</uuidstructure>
+			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/workplace/resources/filetypes</destination>
+			<type>folder</type>
+			<uuidstructure>83ca1dcc-11b7-11db-91cd-fdbae480bac9</uuidstructure>
+			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-blog.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-blog.png</destination>
+			<type>image</type>
+			<uuidstructure>1b685e02-489c-11e4-a62e-005056b61161</uuidstructure>
+			<uuidresource>1b685e03-489c-11e4-a62e-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 12:20:04 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 12:20:03 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-blog_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-blog_big.png</destination>
+			<type>image</type>
+			<uuidstructure>1b8d4b25-489c-11e4-a62e-005056b61161</uuidstructure>
+			<uuidresource>1b8d4b26-489c-11e4-a62e-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 12:20:04 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 12:20:04 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-carousel.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-carousel.png</destination>
+			<type>image</type>
+			<uuidstructure>8eaa0d23-3efb-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>8eaa0d24-3efb-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:18:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:18:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-carousel_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-carousel_big.png</destination>
+			<type>image</type>
+			<uuidstructure>8ecfbd96-3efb-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>8ecfbd97-3efb-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:18:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:18:08 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-flexible.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-flexible.png</destination>
+			<type>image</type>
+			<uuidstructure>a3b355f9-3efb-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>a3b355fa-3efb-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:18:43 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:18:43 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-flexible_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-flexible_big.png</destination>
+			<type>image</type>
+			<uuidstructure>a3bf8afc-3efb-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>a3bf8afd-3efb-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:18:43 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:18:43 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-iconbox.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-iconbox.png</destination>
+			<type>image</type>
+			<uuidstructure>224b5367-3efc-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>224b5368-3efc-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:22:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:22:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-iconbox_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-iconbox_big.png</destination>
+			<type>image</type>
+			<uuidstructure>2256ec2a-3efc-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>2257133b-3efc-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:22:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:22:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-imageteaser.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-imageteaser.png</destination>
+			<type>image</type>
+			<uuidstructure>ba52f63f-3efb-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>ba52f640-3efb-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:19:21 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:19:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-imageteaser_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-imageteaser_big.png</destination>
+			<type>image</type>
+			<uuidstructure>ba60b1e2-3efb-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>ba60b1e3-3efb-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:19:21 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:19:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-layoutrow.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-layoutrow.png</destination>
+			<type>image</type>
+			<uuidstructure>f956487b-4557-11e4-a815-005056b61161</uuidstructure>
+			<uuidresource>f956487c-4557-11e4-a815-005056b61161</uuidresource>
+			<datelastmodified>Fri, 26 Sep 2014 08:34:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 26 Sep 2014 08:34:47 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-layoutrow_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-layoutrow_big.png</destination>
+			<type>image</type>
+			<uuidstructure>f96870ee-4557-11e4-a815-005056b61161</uuidstructure>
+			<uuidresource>f96870ef-4557-11e4-a815-005056b61161</uuidresource>
+			<datelastmodified>Fri, 26 Sep 2014 08:34:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 26 Sep 2014 08:34:47 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-list.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-list.png</destination>
+			<type>image</type>
+			<uuidstructure>1b9c3f48-489c-11e4-a62e-005056b61161</uuidstructure>
+			<uuidresource>1b9c3f49-489c-11e4-a62e-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 12:20:04 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 12:20:04 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-list_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-list_big.png</destination>
+			<type>image</type>
+			<uuidstructure>1baba89b-489c-11e4-a62e-005056b61161</uuidstructure>
+			<uuidresource>1baba89c-489c-11e4-a62e-005056b61161</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 12:20:04 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 12:20:04 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-navigation.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-navigation.png</destination>
+			<type>image</type>
+			<uuidstructure>dba03335-3efb-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>dba03336-3efb-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:20:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:20:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-navigation_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-navigation_big.png</destination>
+			<type>image</type>
+			<uuidstructure>dbad5298-3efb-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>dbad5299-3efb-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:20:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:20:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-slider.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-slider.png</destination>
+			<type>image</type>
+			<uuidstructure>dbba71fb-3efb-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>dbba71fc-3efb-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:20:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:20:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-slider_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-slider_big.png</destination>
+			<type>image</type>
+			<uuidstructure>dbc6f51e-3efb-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>dbc6f51f-3efb-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:20:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:20:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-tabs.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-tabs.png</destination>
+			<type>image</type>
+			<uuidstructure>04f0a101-3ffa-11e4-862a-005056b61161</uuidstructure>
+			<uuidresource>04f0a102-3ffa-11e4-862a-005056b61161</uuidresource>
+			<datelastmodified>Fri, 19 Sep 2014 12:39:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 19 Sep 2014 12:39:38 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-tabs_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-tabs_big.png</destination>
+			<type>image</type>
+			<uuidstructure>0513b964-3ffa-11e4-862a-005056b61161</uuidstructure>
+			<uuidresource>0513b965-3ffa-11e4-862a-005056b61161</uuidresource>
+			<datelastmodified>Fri, 19 Sep 2014 12:39:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 19 Sep 2014 12:39:38 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-templaterow.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-templaterow.png</destination>
+			<type>image</type>
+			<uuidstructure>f9720de1-4557-11e4-a815-005056b61161</uuidstructure>
+			<uuidresource>f9720de2-4557-11e4-a815-005056b61161</uuidresource>
+			<datelastmodified>Fri, 26 Sep 2014 08:34:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 26 Sep 2014 08:34:47 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-templaterow_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-templaterow_big.png</destination>
+			<type>image</type>
+			<uuidstructure>f97912c4-4557-11e4-a815-005056b61161</uuidstructure>
+			<uuidresource>f97912c5-4557-11e4-a815-005056b61161</uuidresource>
+			<datelastmodified>Fri, 26 Sep 2014 08:34:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 26 Sep 2014 08:34:47 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-text.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-text.png</destination>
+			<type>image</type>
+			<uuidstructure>050e95a1-3efc-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>050e95a2-3efc-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:21:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:21:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/bsg-text_big.png</source>
+			<destination>system/workplace/resources/filetypes/bsg-text_big.png</destination>
+			<type>image</type>
+			<uuidstructure>051b66e4-3efc-11e4-b97d-005056b61161</uuidstructure>
+			<uuidresource>051b66e5-3efc-11e4-b97d-005056b61161</uuidresource>
+			<datelastmodified>Thu, 18 Sep 2014 06:21:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 06:21:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+	</files>
+</export>

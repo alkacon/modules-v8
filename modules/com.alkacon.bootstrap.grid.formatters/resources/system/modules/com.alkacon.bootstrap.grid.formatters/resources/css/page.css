@@ -1,0 +1,322 @@
+/* CSS for OpenCms special items */
+
+/* Set BS header brand logo explicitly to 40px height without padding */
+.header .navbar-brand {
+  height: 40px;
+  padding: 0;
+}
+
+/* Padding of content wrapper set to 0 */
+.content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Borders have to be squared for all theme components */
+.list-group-item:first-child, .list-group-item:last-child, .jumbotron, .container .jumbotron, .nav-tabs > li > a, .panel-group .panel {
+  border-radius:0;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-radius: 0;
+}
+
+/* Red boxes, buttons should always use "OpenCms red" */
+.btn-u-red {
+   background: #b31b34 !important;
+}
+.btn-u-red:hover {
+   background: #c32b44 !important;
+}
+
+.servive-block-red, i.icon-bg-red {
+    background-color: #b31b34;
+}
+
+/* Carousel caption color */
+.carousel-caption h3 {
+    color: #FFFFFF;
+}
+
+/* Unspecified styles for content alignment */
+.center {
+    text-align: center;
+}
+
+/* Side Navigation level 2 and 3 */
+.nav-side .nav-side-level-1 a {
+	padding-left: 17px;
+}
+
+.nav-side-level-1.list-toggle {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.nav-side-level-1.list-toggle.active:after {
+  color: #777;
+}
+
+.nav-side .nav-side-level-2 a {
+	padding-left: 34px;
+}
+
+/* Copyright */
+.copyright {
+  background-color: #DDDDDD;
+}
+
+.copyright p {
+  color: #333333;
+}
+
+/* Top bar list elements */
+.topbar ul.loginbar {
+	padding: 0;
+}
+
+/* Login element */
+.reg-page {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0 0 3px #EEEEEE;
+    color: #555555;
+	margin: 0 auto;
+    padding: 30px;
+	width: auto;
+}
+.reg-header {
+    border-bottom: 1px solid #EEEEEE;
+    color: #555555;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.reg-header h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.reg-page label {
+    color: #777777;
+}
+
+/* Social icons */
+.social_slideshare {background: url(../img/icons/social/slideshare.png) no-repeat;}
+
+/* Box with left alignment of text */
+.box-leftalign {
+  text-align: left;
+}
+
+/* Service Boxes */
+.servive-block a:hover, .servive-block-in a:hover {
+	text-decoration: none;
+}
+
+.servive-block-colored {
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.servive-block-colored:hover {
+  opacity: 0.8;
+}
+
+.servive-block-colored.servive-block-default:hover {
+  box-shadow: 0 0 8px #DDDDDD;
+}
+
+.servive-block-colored.servive-block-default:hover h2, .servive-block-colored.servive-block-default:hover i {
+  color:    #72c02c;
+}
+
+/* Paragraphs in service blocks should use default margins */
+.tag-box p {
+  margin: 0 0 10px;
+}
+
+/* Blog entries */
+.search-blocks-red {
+    background: none repeat scroll 0 0 #b31b34;
+}
+.search-blocks-grey {
+    background: none repeat scroll 0 0 #95a5a6;
+}
+.search-blocks-sea {
+    background: none repeat scroll 0 0 #1ABC9C;
+}
+.search-blocks-green {
+    background: none repeat scroll 0 0 #72C02C;
+}
+.search-blocks-blue {
+    background: none repeat scroll 0 0 #3498db;
+}
+.search-blocks-orange {
+    background: none repeat scroll 0 0 #E67E22;
+}
+.search-blocks-yellow {
+    background: none repeat scroll 0 0 #F1C40F;
+}
+
+.search-blocks-top-red {
+    border-top: 2px solid #b31b34;
+}
+.search-blocks-top-red:hover {
+    border-top-color: #d33b54;
+}
+.search-blocks-top-grey {
+    border-top: 2px solid #95a5a6;
+}
+.search-blocks-top-grey:hover {
+    border-top-color: #b5c5c6;
+}
+.search-blocks-top-sea {
+    border-top: 2px solid #1ABC9C;
+}
+.search-blocks-top-sea:hover {
+    border-top-color: #16A085;
+}
+.search-blocks-top-green {
+    border-top: 2px solid #72C02C;
+}
+.search-blocks-top-green:hover {
+    border-top-color: #5FB611;
+}
+.search-blocks-top-blue {
+    border-top: 2px solid #3498db;
+}
+.search-blocks-top-blue:hover {
+    border-top-color: #54b8fb;
+}
+.search-blocks-top-orange {
+    border-top: 2px solid #E67E22;
+}
+.search-blocks-top-orange:hover {
+    border-top-color: #D35400;
+}
+.search-blocks-top-yellow {
+    border-top: 2px solid #F1C40F;
+}
+.search-blocks-top-yellow:hover {
+    border-top-color: #F39C12;
+}
+
+.search-blocks-left-red {
+    border-left: 2px solid #b31b34;
+}
+.search-blocks-left-red:hover {
+    border-left-color: #d33b54;
+}
+.search-blocks-left-grey {
+    border-left: 2px solid #95a5a6;
+}
+.search-blocks-left-grey:hover {
+    border-left-color: #b5c5c6;
+}
+.search-blocks-left-sea {
+    border-left: 2px solid #1ABC9C;
+}
+.search-blocks-left-sea:hover {
+    border-left-color: #16A085;
+}
+.search-blocks-left-green {
+    border-left: 2px solid #72C02C;
+}
+.search-blocks-left-green:hover {
+    border-left-color: #5FB611;
+}
+.search-blocks-left-blue {
+    border-left: 2px solid #3498DB;
+}
+.search-blocks-left-blue:hover {
+    border-left-color: #54b8fb;
+}
+.search-blocks-left-orange {
+    border-left: 2px solid #E67E22;
+}
+.search-blocks-left-orange:hover {
+    border-left-color: #D35400;
+}
+.search-blocks-left-yellow {
+    border-left: 2px solid #F1C40F;
+}
+.search-blocks-left-yellow:hover {
+    border-left-color: #F39C12;
+}
+
+/* Lists */
+.lists .entry {
+	margin-bottom: 15px;
+	padding: 3px;
+	background: #fdfdfd;
+	border-right: solid 2px #eee;
+	min-height: 100px;
+}
+.lists .entry:hover {
+	border-right: solid 2px #b31b34;
+}
+.lists dl.entry.dl-horizontal dt a img {
+	border: solid 3px #eee;
+}
+.lists .entry a.textlink {
+	display: inline-block;
+}
+.lists .entry a.headlink {
+	width: 60%;
+	display: inline-block;
+	float: left;
+}
+.lists .entry span.date {
+	color: #777;
+	font-size: 12px;
+	margin-top: 8px;
+	float: right;
+}
+.lists .entry:hover, .lists .entry:hover a, .lists .entry:hover p, .lists .entry:hover img {
+	text-decoration: none;
+	color: #b31b34;
+	border-color: #b31b34;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.lists .dl-horizontal dd.noImg {
+	margin-left: 0;
+}
+
+/* Slider additional styles */
+
+.tp-caption.mediumthickblackbg, .tp-caption.mediumthickgreybg,  .tp-caption.mediumthickwhitebg {
+font-size:36px;
+line-height:36px;
+font-weight:800;
+font-family:"Open Sans";
+text-decoration:none;
+text-shadow:none;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+padding: 0 4px;
+}
+
+.tp-caption.mediumthickblackbg {
+color:rgb(255, 255, 255);
+background-color:rgb(0, 0, 0);
+}
+
+.tp-caption.mediumthickgreybg {
+color:rgb(255, 255, 255);
+background-color:rgb(128, 128, 128);
+}
+
+.tp-caption.blackbgtransparent {
+background-color:rgb(0, 0, 0);
+/* RGBa with 0.6 opacity */
+background-color: rgba(0, 0, 0, 0.5);
+padding:7px;
+}
+
+.tp-caption.mediumthickwhitebg {
+color:rgb(0, 0, 0);
+background-color:rgb(255, 255, 255);
+}

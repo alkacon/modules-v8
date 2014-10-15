@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.Title.help]]></Key>
+      <Value><![CDATA[The title of the flexible element. It can be hidden with a setting.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.Choice]]></Key>
+      <Value><![CDATA[Element]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.Choice.help]]></Key>
+      <Value><![CDATA[Choose the flexible content type to show.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Image.help]]></Key>
+      <Value><![CDATA[An image that is scaled to the maximum column width. ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Text.help]]></Key>
+      <Value><![CDATA[A text that can be edited freely. ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Code]]></Key>
+      <Value><![CDATA[Code]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Code.help]]></Key>
+      <Value><![CDATA[Use this to include HTML-Code or JavaScript. ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.flexible.message.changed]]></Key>
+      <Value><![CDATA[The content has been edited, please reload the page! ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.flexible.message.edit]]></Key>
+      <Value><![CDATA[Please edit this flexible element content.]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.Title.help]]></Key>
+      <Value><![CDATA[Der Titel des flexiblen Inhalts. Er kann mit Hilfe einer Einstellung ausgeblendet werden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.Choice]]></Key>
+      <Value><![CDATA[Element]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.Choice.help]]></Key>
+      <Value><![CDATA[Wählen Sie das anzuzeigende Element.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Image]]></Key>
+      <Value><![CDATA[Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Image.help]]></Key>
+      <Value><![CDATA[Ein Bild, das auf die maximale Spaltenbreite skaliert wird. ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Text.help]]></Key>
+      <Value><![CDATA[Freitext mit HTML Formatierung. ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Code]]></Key>
+      <Value><![CDATA[Code]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElementChoice.Code.help]]></Key>
+      <Value><![CDATA[Hiermit kann HTML-Code oder JavaScript eingebettet werden. ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.flexible.message.changed]]></Key>
+      <Value><![CDATA[Der Inhalt wurde geändert, bitte laden Sie die Seite neu! ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.flexible.message.edit]]></Key>
+      <Value><![CDATA[Bitte bearbeiten Sie das flexible Element.]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>
