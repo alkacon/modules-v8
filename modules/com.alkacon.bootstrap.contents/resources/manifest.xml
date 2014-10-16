@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>9.4.x</opencms_version>
-		<createdate>Wed, 15 Oct 2014 12:45:36 GMT</createdate>
+		<opencms_version>9.4.8</opencms_version>
+		<createdate>Thu, 16 Oct 2014 08:26:44 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -2328,7 +2328,7 @@
 			<destination>demo</destination>
 			<type>subsitemap</type>
 			<uuidstructure>114934a1-21ee-11e3-b95f-000c29d28104</uuidstructure>
-			<datelastmodified>Tue, 04 Feb 2014 08:23:24 GMT</datelastmodified>
+			<datelastmodified>Thu, 16 Oct 2014 07:56:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 12:13:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2336,7 +2336,7 @@
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[This is the OpenCms demo website. OpenCms is the user friendly website CMS brought to you by Alkacon Software.]]></value>
+					<value><![CDATA[A straightforward OpenCms template demo site, brought to you by Alkacon Software.]]></value>
 				</property>
 				<property>
 					<name>NavPos</name>
@@ -2348,11 +2348,11 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Demo Website]]></value>
+					<value><![CDATA[Straight Demo]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms Demo Website]]></value>
+					<value><![CDATA[Straight Demo]]></value>
 				</property>
 				<property>
 					<name>default-file</name>
@@ -2607,6 +2607,21 @@
 					<type>CATEGORY</type>
 				</relation>
 			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>demo/.content/blogentries/be_00005.xml</source>
+			<destination>demo/.content/blogentries/be_00005.xml</destination>
+			<type>bs-blog</type>
+			<uuidstructure>bb33e74b-54fc-11e4-af67-005056b61161</uuidstructure>
+			<uuidresource>bb33e74c-54fc-11e4-af67-005056b61161</uuidresource>
+			<datelastmodified>Thu, 16 Oct 2014 06:21:57 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 16 Oct 2014 06:21:57 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -3300,7 +3315,7 @@
 			<type>bs-tabs</type>
 			<uuidstructure>c8473bca-21dc-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>c8473bcb-21dc-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 16:18:15 GMT</datelastmodified>
+			<datelastmodified>Thu, 16 Oct 2014 08:19:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 10:09:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3320,7 +3335,7 @@
 			<type>bs-tabs</type>
 			<uuidstructure>09a2ceec-47a4-11e3-8ae6-000c29d28104</uuidstructure>
 			<uuidresource>09a2ceed-47a4-11e3-8ae6-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 27 Jan 2014 14:01:33 GMT</datelastmodified>
+			<datelastmodified>Thu, 16 Oct 2014 08:19:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 11:59:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7066,10 +7081,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>c1b1bb50-47c4-11e4-a64e-005056b61161</uuidstructure>
-			<datelastmodified>Mon, 29 Sep 2014 10:38:31 GMT</datelastmodified>
+			<uuidstructure>fa8df23a-5479-11e4-8e91-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 15 Oct 2014 14:46:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 29 Sep 2014 10:38:31 GMT</datecreated>
+			<datecreated>Wed, 15 Oct 2014 14:46:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>9.4.x</opencms_version>
-		<createdate>Wed, 15 Oct 2014 12:51:48 GMT</createdate>
+		<opencms_version>9.4.8</opencms_version>
+		<createdate>Thu, 16 Oct 2014 08:27:11 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -35,7 +35,7 @@
 			<destination>grid-demo</destination>
 			<type>subsitemap</type>
 			<uuidstructure>0d82626d-276b-11e4-96d6-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 15 Oct 2014 12:41:38 GMT</datelastmodified>
+			<datelastmodified>Thu, 16 Oct 2014 07:54:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 19 Aug 2014 06:35:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -43,7 +43,7 @@
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[This is the OpenCms grid demo website. OpenCms is the user friendly website CMS brought to you by Alkacon Software.]]></value>
+					<value><![CDATA[An advanced OpenCms grid template demo site, brought to you by Alkacon Software.]]></value>
 				</property>
 				<property>
 					<name>NavPos</name>
@@ -55,11 +55,11 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Grid Demo Website]]></value>
+					<value><![CDATA[Grid Demo]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Grid Demo Website]]></value>
+					<value><![CDATA[Grid Demo]]></value>
 				</property>
 				<property>
 					<name>default-file</name>
@@ -350,7 +350,7 @@
 			<datelastmodified>Tue, 30 Sep 2014 14:49:38 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 14:37:12 GMT</datecreated>
-			<usercreated>editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -399,7 +399,7 @@
 			<datelastmodified>Tue, 30 Sep 2014 14:44:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 14:37:24 GMT</datecreated>
-			<usercreated>editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -416,7 +416,7 @@
 			<type>bsg-flexible</type>
 			<uuidstructure>b5f53f61-48b0-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>b5f53f62-48b0-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Tue, 30 Sep 2014 14:48:42 GMT</datelastmodified>
+			<datelastmodified>Thu, 16 Oct 2014 07:17:04 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 14:47:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>

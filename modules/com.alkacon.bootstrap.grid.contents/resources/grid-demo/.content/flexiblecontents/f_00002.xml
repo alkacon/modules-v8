@@ -10,8 +10,8 @@
             <target><![CDATA[http://www.alkacon.com]]></target>
           </link>
           <link name="link2" internal="true" type="IMG">
-            <target><![CDATA[/system/modules/com.alkacon.bootstrap.grid.formatters/resources/img/logo/logo_alkacon_png24.png]]></target>
-            <uuid>e688b8d4-3989-11e4-a560-005056b61161</uuid>
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/logo/logo_alkacon_png24.png]]></target>
+            <uuid>a9d4b54a-1abc-11e3-9246-000c29f9a2ec</uuid>
             <query><![CDATA[__scale=w:120,h:39,c:transparent]]></query>
           </link>
           <link name="link3" internal="false" type="A">

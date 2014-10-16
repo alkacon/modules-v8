@@ -21,10 +21,11 @@
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
     <Detail>true</Detail>
+    <NestedContainers>false</NestedContainers>
     <HeadIncludeCss>
       <CssLink>
         <link type="WEAK">
-          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/fancybox/source/jquery.fancybox.css]]></target>
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/fancybox/source/jquery.fancybox.css]]></target>
           <uuid>7b2bb568-3bdd-11e3-a0c9-000c2943a707</uuid>
         </link>
       </CssLink>
@@ -32,7 +33,7 @@
     <HeadIncludeJs>
       <JavascriptLink>
         <link type="WEAK">
-          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/plugins/fancybox/source/jquery.fancybox.pack.js]]></target>
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/fancybox/source/jquery.fancybox.pack.js]]></target>
           <uuid>7b37271e-3bdd-11e3-a0c9-000c2943a707</uuid>
         </link>
       </JavascriptLink>

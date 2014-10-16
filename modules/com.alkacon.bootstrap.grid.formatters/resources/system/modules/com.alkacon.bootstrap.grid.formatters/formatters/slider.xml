@@ -25,22 +25,22 @@
     <HeadIncludeCss>
       <CssLink>
         <link type="WEAK">
-          <target><![CDATA[/system/modules/com.alkacon.bootstrap.grid.formatters/resources/plugins/revolution_slider/rs-plugin/css/settings.css]]></target>
-          <uuid>e8366827-3989-11e4-a560-005056b61161</uuid>
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/css/settings.css]]></target>
+          <uuid>18676eb4-3a3b-11e3-a584-000c2943a707</uuid>
         </link>
       </CssLink>
     </HeadIncludeCss>
     <HeadIncludeJs>
       <JavascriptLink>
         <link type="WEAK">
-          <target><![CDATA[/system/modules/com.alkacon.bootstrap.grid.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js]]></target>
-          <uuid>e850ce18-3989-11e4-a560-005056b61161</uuid>
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js]]></target>
+          <uuid>901241d6-2839-11e4-96d6-005056b61161</uuid>
         </link>
       </JavascriptLink>
       <JavascriptLink>
         <link type="WEAK">
-          <target><![CDATA[/system/modules/com.alkacon.bootstrap.grid.formatters/resources/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js]]></target>
-          <uuid>e85561fc-3989-11e4-a560-005056b61161</uuid>
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js]]></target>
+          <uuid>189e5d51-3a3b-11e3-a584-000c2943a707</uuid>
         </link>
       </JavascriptLink>
     </HeadIncludeJs>

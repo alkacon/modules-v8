@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd">
+  <BootstrapBlog language="en">
+    <Title><![CDATA[New blog entry]]></Title>
+    <Date>1413440517716</Date>
+    <Paragraph>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[Please edit the blog entry text.]]></content>
+      </Text>
+    </Paragraph>
+    <Author><![CDATA[   ]]></Author>
+  </BootstrapBlog>
+</BootstrapBlogs>

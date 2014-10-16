@@ -3,8 +3,47 @@
 <BootstrapTabs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd">
   <BootstrapTab language="en">
     <Title><![CDATA[Accordion Demo Element]]></Title>
-    <Label><![CDATA[Bigger]]></Label>
-    <Label><![CDATA[Better]]></Label>
-    <Label><![CDATA[Faster]]></Label>
+    <Item>
+      <Label><![CDATA[Bigger]]></Label>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+<p>Maecenas nec odio et ante tincidunt tempus.</p>]]></content>
+      </Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/34.jpg]]></target>
+          <uuid>d5ae01bb-4785-11e3-ba23-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Label><![CDATA[Better]]></Label>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Maecenas nec odio et ante tincidunt tempus.</p>]]></content>
+      </Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/14.jpg]]></target>
+          <uuid>c851cf5b-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
+    <Item>
+      <Label><![CDATA[Faster]]></Label>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+<p>Maecenas nec odio et ante tincidunt tempus. </p>]]></content>
+      </Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/09.jpg]]></target>
+          <uuid>c56a66cc-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+    </Item>
   </BootstrapTab>
 </BootstrapTabs>

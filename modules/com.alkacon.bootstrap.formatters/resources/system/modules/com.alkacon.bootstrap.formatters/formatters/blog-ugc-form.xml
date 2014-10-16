@@ -21,6 +21,7 @@
     <SearchContent>false</SearchContent>
     <AutoEnabled>true</AutoEnabled>
     <Detail>false</Detail>
+    <NestedContainers>false</NestedContainers>
     <HeadIncludeCss>
       <CssInline><![CDATA[
 .btn-file {
@@ -67,12 +68,6 @@
         <link type="WEAK">
           <target><![CDATA[/system/modules/org.opencms.ugc/resources/js/ugc-jquery.js]]></target>
           <uuid>b8d5d3fd-e00b-11e3-b2f0-005056b60ccd</uuid>
-        </link>
-      </JavascriptLink>
-      <JavascriptLink>
-        <link type="WEAK">
-          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/js/ugc/ugc-blog.js]]></target>
-          <uuid>d61be08f-e00b-11e3-b2f0-005056b60ccd</uuid>
         </link>
       </JavascriptLink>
     </HeadIncludeJs>

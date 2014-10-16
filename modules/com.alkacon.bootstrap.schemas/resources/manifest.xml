@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>9.4.x</opencms_version>
-		<createdate>Wed, 15 Oct 2014 12:46:25 GMT</createdate>
+		<opencms_version>9.4.8</opencms_version>
+		<createdate>Thu, 16 Oct 2014 08:27:45 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -137,10 +137,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>c1b1bb50-47c4-11e4-a64e-005056b61161</uuidstructure>
-			<datelastmodified>Mon, 29 Sep 2014 10:38:31 GMT</datelastmodified>
+			<uuidstructure>fa8df23a-5479-11e4-8e91-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 15 Oct 2014 14:46:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 29 Sep 2014 10:38:31 GMT</datecreated>
+			<datecreated>Wed, 15 Oct 2014 14:46:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -159,10 +159,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>c367a8ec-47c4-11e4-a64e-005056b61161</uuidstructure>
-			<datelastmodified>Mon, 29 Sep 2014 10:38:34 GMT</datelastmodified>
+			<uuidstructure>fc4f9fa6-5479-11e4-8e91-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 15 Oct 2014 14:46:02 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 29 Sep 2014 10:38:34 GMT</datecreated>
+			<datecreated>Wed, 15 Oct 2014 14:46:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -780,7 +780,7 @@
 			<type>plain</type>
 			<uuidstructure>1fb64d5b-1f81-11e3-8a31-000c29f9a2ec</uuidstructure>
 			<uuidresource>1fb64d5c-1f81-11e3-8a31-000c29f9a2ec</uuidresource>
-			<datelastmodified>Tue, 17 Sep 2013 13:20:13 GMT</datelastmodified>
+			<datelastmodified>Thu, 16 Oct 2014 08:15:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 17 Sep 2013 10:08:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
