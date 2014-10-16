@@ -7,28 +7,30 @@
 <cms:bundle basename="com.alkacon.bootstrap.grid.schemas.row">
 <cms:formatter var="content" val="value">
 
-		<div class="row">
+		<div <c:if test="${cms.element.setting.createrow.value == 'true'}">class="row"</c:if>>
 			<c:forEach var="column" items="${content.valueList.Column}">
 
 				<c:set var="detailAttr" value="false" />
         <c:set var="bssClass" value="" />
 				<c:set var="spacer" value="" />
-				<c:if test="${column.value.XS.stringValue != '-'}">
-					<c:set var="bssClass">${column.value.XS}</c:set>
-					<c:set var="spacer" value=" " />
-				</c:if>
-				<c:if test="${column.value.SM.stringValue != '-'}">
-					<c:set var="bssClass">${bssClass}${spacer}${column.value.SM}</c:set>
-					<c:set var="spacer" value=" " />
-				</c:if>
-				<c:if test="${column.value.MD.stringValue != '-'}">
-					<c:set var="bssClass">${bssClass}${spacer}${column.value.MD}</c:set>
-					<c:set var="spacer" value=" " />
-				</c:if>
-				<c:if test="${column.value.LG.stringValue != '-'}">
-					<c:set var="bssClass">${bssClass}${spacer}${column.value.LG}</c:set>
-					<c:set var="spacer" value=" " />
-				</c:if>
+				<c:if test="${cms.element.setting.createrow.value == 'true'}">
+        	<c:if test="${column.value.XS.stringValue != '-'}">
+						<c:set var="bssClass">${column.value.XS}</c:set>
+						<c:set var="spacer" value=" " />
+					</c:if>
+					<c:if test="${column.value.SM.stringValue != '-'}">
+						<c:set var="bssClass">${bssClass}${spacer}${column.value.SM}</c:set>
+						<c:set var="spacer" value=" " />
+					</c:if>
+					<c:if test="${column.value.MD.stringValue != '-'}">
+						<c:set var="bssClass">${bssClass}${spacer}${column.value.MD}</c:set>
+						<c:set var="spacer" value=" " />
+					</c:if>
+					<c:if test="${column.value.LG.stringValue != '-'}">
+						<c:set var="bssClass">${bssClass}${spacer}${column.value.LG}</c:set>
+						<c:set var="spacer" value=" " />
+					</c:if>
+        </c:if>
 
 				<c:if test="${column.value.Detail.exists}">
 					<c:set var="detailAttr">${column.value.Detail}</c:set> 

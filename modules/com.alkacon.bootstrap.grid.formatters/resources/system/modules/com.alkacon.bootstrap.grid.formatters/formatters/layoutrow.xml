@@ -22,5 +22,12 @@
     <AutoEnabled>true</AutoEnabled>
     <Detail>false</Detail>
     <NestedContainers>true</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[createrow]]></PropertyName>
+      <DisplayName><![CDATA[Create row]]></DisplayName>
+      <Description><![CDATA[If checked, the bootstrap row wrapper will be created.]]></Description>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[true]]></Default>
+    </Setting>
   </NewFormatter>
 </NewFormatters>
