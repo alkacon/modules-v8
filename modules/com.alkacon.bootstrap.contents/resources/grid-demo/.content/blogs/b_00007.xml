@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.grid.schemas/schemas/blog.xsd">
+  <BootstrapBlog language="en">
+    <Title><![CDATA[OpenCms is feature rich]]></Title>
+    <Date>1410811200000</Date>
+    <Paragraph>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+<p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/samples/30.jpg]]></target>
+            <uuid>b4b2b636-4785-11e3-ba23-000c29d28104</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Features]]></Title>
+      </Image>
+    </Paragraph>
+    <Category>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/priority/03_medium/]]></target>
+        <uuid>b5e32c25-7193-11e0-87bc-000c2972a6a4</uuid>
+      </link>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/topic/machines/]]></target>
+        <uuid>caf3e85e-5534-11e4-af67-005056b61161</uuid>
+      </link>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/topic/people/]]></target>
+        <uuid>bbef2688-5534-11e4-af67-005056b61161</uuid>
+      </link>
+    </Category>
+    <Author><![CDATA[Luke Dunphy]]></Author>
+  </BootstrapBlog>
+</BootstrapBlogs>

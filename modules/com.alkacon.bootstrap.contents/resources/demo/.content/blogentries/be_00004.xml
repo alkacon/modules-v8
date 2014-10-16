@@ -28,6 +28,10 @@
         <target><![CDATA[/sites/default/.categories/priority/02_low/]]></target>
         <uuid>bab32ac8-7193-11e0-87bc-000c2972a6a4</uuid>
       </link>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/topic/transportation/]]></target>
+        <uuid>5ce3fc25-5535-11e4-af67-005056b61161</uuid>
+      </link>
     </Category>
     <Author><![CDATA[Arno Admin]]></Author>
   </BootstrapBlog>

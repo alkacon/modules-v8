@@ -11,7 +11,7 @@
       <Text><![CDATA[Read more]]></Text>
       <URI>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/new-demo-new/home/]]></target>
+          <target><![CDATA[/sites/default/grid-demo/home/]]></target>
           <uuid>32c5c6c0-4979-11e4-9866-005056b61161</uuid>
         </link>
       </URI>

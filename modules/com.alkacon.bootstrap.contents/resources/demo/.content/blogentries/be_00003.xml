@@ -33,12 +33,12 @@
     </Paragraph>
     <Category>
       <link type="WEAK">
-        <target><![CDATA[/sites/default/.categories/location/europe/]]></target>
-        <uuid>e73ef9d1-7193-11e0-87bc-000c2972a6a4</uuid>
-      </link>
-      <link type="WEAK">
         <target><![CDATA[/sites/default/.categories/priority/05_very_high/]]></target>
         <uuid>a2182faf-7193-11e0-87bc-000c2972a6a4</uuid>
+      </link>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/topic/machines/]]></target>
+        <uuid>caf3e85e-5534-11e4-af67-005056b61161</uuid>
       </link>
     </Category>
     <Author><![CDATA[Phil Dunphy]]></Author>

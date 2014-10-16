@@ -9,7 +9,7 @@
       <Element>
         <Uri>
           <link type="STRONG">
-            <target><![CDATA[/sites/default/new-demo-new/.content/flexiblecontents/f_00001.xml]]></target>
+            <target><![CDATA[/sites/default/grid-demo/.content/flexiblecontents/f_00001.xml]]></target>
             <uuid>4ae7a86b-48af-11e4-9866-005056b61161</uuid>
           </link>
         </Uri>
@@ -41,7 +41,7 @@
       <Element>
         <Uri>
           <link type="STRONG">
-            <target><![CDATA[/sites/default/new-demo-new/.content/flexiblecontents/f_00002.xml]]></target>
+            <target><![CDATA[/sites/default/grid-demo/.content/flexiblecontents/f_00002.xml]]></target>
             <uuid>b5f53f61-48b0-11e4-9866-005056b61161</uuid>
           </link>
         </Uri>

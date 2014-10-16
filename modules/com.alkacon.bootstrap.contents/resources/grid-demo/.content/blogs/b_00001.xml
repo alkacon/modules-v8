@@ -21,6 +21,16 @@
         <Title><![CDATA[Vanilla]]></Title>
       </Image>
     </Paragraph>
+    <Category>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/priority/03_medium/]]></target>
+        <uuid>b5e32c25-7193-11e0-87bc-000c2972a6a4</uuid>
+      </link>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/topic/machines/]]></target>
+        <uuid>caf3e85e-5534-11e4-af67-005056b61161</uuid>
+      </link>
+    </Category>
     <Author><![CDATA[Jay Pritchett]]></Author>
   </BootstrapBlog>
 </BootstrapBlogs>
