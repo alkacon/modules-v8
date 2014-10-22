@@ -14,12 +14,14 @@
     <Match>
       <Types>
         <ContainerType><![CDATA[content-wide]]></ContainerType>
+        <ContainerType><![CDATA[full]]></ContainerType>
       </Types>
     </Match>
     <Preview>false</Preview>
     <SearchContent>false</SearchContent>
     <AutoEnabled>true</AutoEnabled>
     <Detail>false</Detail>
+    <NestedContainers>false</NestedContainers>
     <Setting>
       <PropertyName><![CDATA[showbreadcrumb]]></PropertyName>
       <DisplayName><![CDATA[%(key.bootstrap.setting.showbreadcrumb)]]></DisplayName>

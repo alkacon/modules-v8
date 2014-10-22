@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapLayoutRows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/layoutrow.xsd">
+  <BootstrapLayoutRow language="en">
+    <Title><![CDATA[4 columns: Wide center]]></Title>
+    <Column>
+      <Name><![CDATA[column1]]></Name>
+      <Type><![CDATA[onequarter]]></Type>
+      <Count><![CDATA[0]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <EmptyText><![CDATA[1st column.]]></EmptyText>
+      <XS><![CDATA[hidden-xs]]></XS>
+      <SM><![CDATA[col-sm-1]]></SM>
+      <MD><![CDATA[col-md-2]]></MD>
+      <LG><![CDATA[-]]></LG>
+    </Column>
+    <Column>
+      <Name><![CDATA[column2]]></Name>
+      <Type><![CDATA[onequarter]]></Type>
+      <Count><![CDATA[5]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <EmptyText><![CDATA[2nd column - please drop content elements here.]]></EmptyText>
+      <XS><![CDATA[col-xs-12]]></XS>
+      <SM><![CDATA[col-sm-5]]></SM>
+      <MD><![CDATA[col-md-4]]></MD>
+      <LG><![CDATA[-]]></LG>
+    </Column>
+    <Column>
+      <Name><![CDATA[column3]]></Name>
+      <Type><![CDATA[onequarter]]></Type>
+      <Count><![CDATA[5]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <EmptyText><![CDATA[3rd column - please drop content elements here.]]></EmptyText>
+      <XS><![CDATA[col-xs-12]]></XS>
+      <SM><![CDATA[col-sm-5]]></SM>
+      <MD><![CDATA[col-md-4]]></MD>
+      <LG><![CDATA[-]]></LG>
+    </Column>
+    <Column>
+      <Name><![CDATA[column4]]></Name>
+      <Type><![CDATA[onequarter]]></Type>
+      <Count><![CDATA[0]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <EmptyText><![CDATA[4th column.]]></EmptyText>
+      <XS><![CDATA[hidden-xs]]></XS>
+      <SM><![CDATA[col-sm-1]]></SM>
+      <MD><![CDATA[col-md-2]]></MD>
+      <LG><![CDATA[-]]></LG>
+    </Column>
+  </BootstrapLayoutRow>
+</BootstrapLayoutRows>

@@ -35,6 +35,14 @@
       <Value><![CDATA[Basic height of the slider in the desktop resolution in pixel.]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[label.BootstrapSlider.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapSlider.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the slider. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[label.BootstrapSlider.Item]]></Key>
       <Value><![CDATA[Slider Item]]></Value>
     </Message>
@@ -223,6 +231,14 @@
     <Message>
       <Key><![CDATA[label.BootstrapSlider.Height.help]]></Key>
       <Value><![CDATA[Basishöhe des Rotators in Desktopauflösung in Pixeln.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapSlider.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapSlider.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel des Sliders für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapSlider.Item]]></Key>

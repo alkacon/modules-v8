@@ -15,6 +15,7 @@
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
 			<xsd:element name="Choice" type="OpenCmsBootstrapFlexibleElementChoice" minOccurs="0" />
+      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -23,8 +24,15 @@
 		<xsd:appinfo>
 			<resourcebundle name="com.alkacon.bootstrap.schemas.flexible"/>
 			<mappings>
-				<mapping element="Title" mapto="property:Title" />
+				<mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
+				<mapping element="GalleryTitle" mapto="urlName" useDefault="true" />
 			</mappings>
+      <defaults>
+        <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Title)" resolveMacros="false" />
+      </defaults>
+      <validationrules>
+        <rule element="Title" regex=".+" type="error" message="The title must not be empty." />
+      </validationrules>  
 			<searchsettings containerPageOnly="true">
 				<searchsetting element="Choice/Code" searchcontent="false"/>
 			</searchsettings>

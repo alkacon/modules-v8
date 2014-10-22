@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Headline.help]]></Key>
+      <Value><![CDATA[The headline of the image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Text.help]]></Key>
+      <Value><![CDATA[The text for the image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Image.help]]></Key>
+      <Value><![CDATA[The image to show.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Link.help]]></Key>
+      <Value><![CDATA[A link pointing to further information, can also be an external link (starting with <b>http://</b>).]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the image. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.default.Headline]]></Key>
+      <Value><![CDATA[New image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.message.new]]></Key>
+      <Value><![CDATA[New image, please edit the content.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.frontend.readmore]]></Key>
+      <Value><![CDATA[read more +]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Headline]]></Key>
+      <Value><![CDATA[Überschrift]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Headline.help]]></Key>
+      <Value><![CDATA[Die Überschrift des Bilds.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Text.help]]></Key>
+      <Value><![CDATA[Der Text des Bilds.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Image]]></Key>
+      <Value><![CDATA[Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Image.help]]></Key>
+      <Value><![CDATA[Das zu zeigende Bild.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.Link.help]]></Key>
+      <Value><![CDATA[Ein Link zu weiterführenden Informationen, kann auch ein externer Link (beginnend mit <b>http://</b>) sein.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImage.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel des Bilds für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.default.Headline]]></Key>
+      <Value><![CDATA[Neues Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.message.new]]></Key>
+      <Value><![CDATA[Neues Bild, bitte bearbeiten Sie den Inhalt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.frontend.readmore]]></Key>
+      <Value><![CDATA[mehr lesen +]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

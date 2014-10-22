@@ -11,16 +11,15 @@
 
 	<c:if test="${'' ne con.value.SortOrder && '' ne con.value.RowCount && '' ne con.value.CreatePath}">
 		<c:set var="solrParamType">&fq=type:bs-blog</c:set>
-		<c:set var="solrParamDirs">&fq=parent-folders:"/sites/default/demo/"</c:set>
+		<c:set var="solrParamDirs">&fq=parent-folders:"/sites/default${cms.subSitePath}"</c:set>
 		<c:set var="solrFilterQue">${con.value.FilterQueries}</c:set>
 		<c:set var="solrParamSort">&sort=collector.priority_prop ${con.value.SortOrder}, newsdate_${cms.locale}_dt ${con.value.SortOrder}</c:set>
 		<c:set var="solrParamRows">&rows=${con.value.RowCount}</c:set>
 		<c:set var="resCreatePath">|createPath=${con.value.CreatePath}</c:set>
 		<c:set var="collectorParam">${solrParamType}${solrParamDirs}${solrFilterQue}${solrParamSort}${solrParamRows}${resCreatePath}</c:set>
 	</c:if>
-	<c:set var="wordCount"><fmt:formatNumber type="number" value="${((cms.container.width + 30) / 100) * 30}" maxFractionDigits="0" /></c:set>
 
-	<div <c:if test="${cms.container.type != 'content'}">class="row"</c:if>>
+		<div <c:if test="${cms.container.type == 'content-full' || cms.container.type == 'content-wide'}">class="row"</c:if>>
 
 		<c:choose>
 			<c:when test="${cms.element.inMemoryOnly}">
@@ -32,69 +31,117 @@
 			<c:otherwise>
       
 				<c:if test="${not cms.element.settings.hidetitle}">
-					<div class="headline headline-md"><h2 ${rdfa.Title}><c:out value="${con.value.Title}" escapeXml="false" /></h2></div>
+					<div class="headline headline-md"><h2 ${rdfa.Headline}><c:out value="${con.value.Headline}" escapeXml="false" /></h2></div>
 				</c:if>			
 
-				<div class="posts lists blog-item margin-bottom-20">
+				<div class="posts lists blog-item">
 
-   				<c:set var="layoutvariant"><c:out value="${cms.element.settings.layoutvariant}" default="top" /></c:set>
-  				<c:choose>
-        		<c:when test="${layoutvariant == 'top' or layoutvariant == 'left'}">
-        			<c:set var="boxClass">tag-box tag-box-<c:if test="${layoutvariant == 'top'}">v3</c:if><c:if test="${layoutvariant == 'left'}">v2</c:if> search-blocks-${layoutvariant}-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
-        		</c:when>
-        		<c:otherwise>
-        			<c:set var="boxClass">box-leftalign servive-block servive-block-<c:out value="${cms.element.settings.color}" default="sea" /> search-blocks-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
-        		</c:otherwise>
-        	</c:choose>
-
-					<cms:contentload collector="byContext" param="${collectorParam}" preload="true" >
+        	<cms:contentload collector="byContext" param="${collectorParam}" preload="true">
 						<cms:contentinfo var="info" />
-						<c:if test="${info.resultSize > 0}">
-							<cms:contentload editable="true">
-								<cms:contentaccess var="content" />
-					
-								<!-- entry -->
-								<c:set var="paragraph" value="${content.valueList.Paragraph['0']}" />
-								<div class="search-page"><div class="${boxClass}">
-									<div class="row">
-										<c:if test="${paragraph.value.Image.exists}">
-											<div class="col-md-4 search-img">
-												<cms:img src="${paragraph.value.Image.value.Image}" width="800" cssclass="img-responsive"
-												scaleColor="transparent" scaleType="0" noDim="true" alt="${paragraph.value.Image.value.Title}"
-												title="${paragraph.value.Image.value.Title}" />
-											</div>
-										</c:if>
-										<div class="col-md-8">
-											<h2><a href="<cms:link>${content.filename}</cms:link>">${content.value.Title}</a></h2>
-        							<c:set var="showdate"><c:out value="${cms.element.settings.showdate}" default="true" /></c:set>
-        							<c:if test="${showdate}">
-                        <p><i><fmt:formatDate value="${cms:convertDate(content.value.Date)}" dateStyle="LONG" timeStyle="SHORT" type="both" /></i></p>
-                      </c:if>
-											<c:choose>
-												<c:when test="${content.value.Teaser.isSet}">
-													<p>${content.value.Teaser}</p>
-												</c:when>
-												<c:otherwise>
-        									<c:set var="teaserlength"><c:out value="${cms.element.settings.teaserlength}" default="250" /></c:set>
-        									<p>${cms:trimToSize(cms:stripHtml(paragraph.value.Text), teaserlength)}</p>
-												</c:otherwise>
-											</c:choose>
-                      <div class="margin-bottom-10"></div>
-                      <a href="<cms:link>${content.filename}</cms:link>" class="btn-u btn-u-<c:out value="${cms.element.settings.buttoncolor}" default="red" />"><fmt:message key="bootstrap.list.message.readmore" /></a>
-										</div>
-									</div>                            
-								</div></div>
-								<!-- // END entry -->
+          </cms:contentload>
 
-							</cms:contentload>
-						</c:if>
-					</cms:contentload>
+          <c:set var="itemsPerPage" value="100" />
+          <c:if test="${con.value.ItemsPerPage.isSet}"><c:set var="itemsPerPage">${con.value.ItemsPerPage}</c:set></c:if>
+          <fmt:parseNumber var="pages" value="${info.resultSize / itemsPerPage}" integerOnly="true" />
+          <c:if test="${(info.resultSize % itemsPerPage) > 0}">
+						<c:set var="pages" value="${pages + 1}" />
+					</c:if>
+          <c:set var="currPage" value="1" />
+					
+						<c:choose>
+            	<c:when test="${info.resultSize > 0}">
+
+              	<div id="list_large_pages">
+        					<div id="list_large_page_1">
+        						<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/list-large-singlepage.jsp:ea05d64f-5452-11e4-9866-005056b61161)">
+        							<cms:param name="pageUri" value="${cms.requestContext.uri}" />
+        							<cms:param name="__locale" value="${cms.locale}" />
+        							<cms:param name="itemsPerPage" value="${itemsPerPage}" />
+        							<cms:param name="collectorParam" value="${collectorParam}" />
+        							<cms:param name="teaserLength"><c:out value="${cms.element.settings.teaserlength}" default="100" /></cms:param>
+                      <cms:param name="showDate"><c:out value="${cms.element.settings.showdate}" default="true" /></cms:param>
+                      <cms:param name="buttonColor"><c:out value="${cms.element.settings.buttoncolor}" default="red" /></cms:param>
+        							<cms:param name="currPage" value="1" />
+        						</cms:include>
+        					</div>
+                </div>
+							</c:when>
+            	<c:otherwise>
+            		<div class="alert alert-warning fade in">
+            			<fmt:message key="bootstrap.list.message.empty" />
+                	<cms:contentload collector="byContext" param="${collectorParam}" editEmpty="true"></cms:contentload>
+								</div>
+            	</c:otherwise>
+            </c:choose>
+
+          <c:if test="${pages > 1}">
+             <ul id="list_large_pagination"></ul>
+          </c:if>
 
 					<c:if test="${con.value.Link.exists}">
 						<p><a class="btn-u btn-u-small" href="<cms:link>${con.value.Link.value.URI}</cms:link>">${con.value.Link.value.Text}</a></p>
 					</c:if>		
-					
+
 				</div>
+
+        <c:if test="${pages > 1}">
+          <script type="text/javascript">
+            var currentLargePage = 1;
+            var lastLargePage = 1;
+
+  					var options = {
+  						bootstrapMajorVersion: 3,
+  						size: "normal",
+  						currentPage: 1,
+  						numberOfPages: 5,
+  						onPageClicked: function(e,originalEvent,type,page){
+  							loadLargeListPage(page);
+  						},
+  						totalPages: ${pages}
+  					}
+
+  					$("#list_large_pagination").bootstrapPaginator(options);
+
+            function loadLargeListPage(page) {
+              lastLargePage = currentLargePage;
+	          currentLargePage = page;
+              if (lastLargePage != currentLargePage) {
+            		if ($('#list_large_page_' + page).length == 0 ) {
+
+            			$.post("<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/list-large-singlepage.jsp:ea05d64f-5452-11e4-9866-005056b61161)</cms:link>", { 
+                  	pageUri: "${cms.requestContext.uri}", 
+                    __locale: "${cms.locale}",
+                    itemsPerPage: "${itemsPerPage}",
+                    collectorParam: '${collectorParam}',
+                    teaserLength: <c:out value="${cms.element.settings.teaserlength}" default="100" />,
+                    showDate: <c:out value="${cms.element.settings.showdate}" default="true" />,
+                    buttonColor: "<c:out value="${cms.element.settings.buttoncolor}" default="red" />",
+                    currPage: currentLargePage, }, function(data){ loadLargeListPage2(data); });
+
+            		} else {
+            			switchLargeListPage();
+            		}
+            	}
+            }
+
+            function loadLargeListPage2(data) {
+            	var singlePage = '<div id="list_large_page_' + currentLargePage + '" style="display: none;"></div>';
+            	$('#list_large_pages').append(singlePage);
+            	var divNode = document.getElementById('list_large_page_' + currentLargePage);
+            	divNode.innerHTML = data;
+            	switchLargeListPage();
+            }
+            
+            function afterSwitchLargeListPage() {
+            	$('#list_large_page_' + lastLargePage).hide();
+            	$('#list_large_page_' + currentLargePage).fadeIn('fast');
+            }
+            
+            function switchLargeListPage() {
+            	$('#list_large_page_' + lastLargePage).fadeOut('fast', afterSwitchLargeListPage);
+            }
+  				</script>
+        </c:if>
 
 			</c:otherwise>
 		</c:choose>

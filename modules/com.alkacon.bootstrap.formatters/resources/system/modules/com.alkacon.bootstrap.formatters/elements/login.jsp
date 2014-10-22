@@ -20,7 +20,11 @@
                           <% login.login ("/"+(String)pageContext.getAttribute ("loginou")+"/" + request.getParameter("name"), request.getParameter("password"), "Offline", request.getParameter("requestedResource")); %>
                         </c:when>
                         <c:otherwise>
-                         <% login.login (request.getParameter("name"), request.getParameter("password"), "Offline", request.getParameter("requestedResource")); %>
+                         <%
+                            String requestedResource = request.getParameter("requestedResource");
+                            if (requestedResource != null && requestedResource.equals("")) requestedResource = null;
+                            login.login (request.getParameter("name"), request.getParameter("password"), "Offline", requestedResource);
+                         %> 
                         </c:otherwise>
                 </c:choose>
         </c:if>

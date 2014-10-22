@@ -15,6 +15,8 @@
       <Types>
         <ContainerType><![CDATA[content-full]]></ContainerType>
         <ContainerType><![CDATA[content-wide]]></ContainerType>
+        <ContainerType><![CDATA[full]]></ContainerType>
+        <ContainerType><![CDATA[wide]]></ContainerType>
       </Types>
     </Match>
     <Preview>false</Preview>

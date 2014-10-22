@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Layout row formatter]]></NiceName>
+    <Type><![CDATA[bs-layoutrow]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/layoutrow.jsp]]></target>
+        <uuid>bfc16b0e-3d8b-11e4-ba5b-005056b61161</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[layoutrowsonly]]></ContainerType>
+        <ContainerType><![CDATA[contentandlayoutrows]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>true</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <NestedContainers>true</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[createrow]]></PropertyName>
+      <DisplayName><![CDATA[Create row]]></DisplayName>
+      <Description><![CDATA[If checked, the bootstrap row wrapper will be created.]]></Description>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[true]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[marginbottom]]></PropertyName>
+      <DisplayName><![CDATA[Bottom Margin]]></DisplayName>
+      <Description><![CDATA[Sets an optional bottom margin of the layout row.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[0]]></Default>
+      <WidgetConfig><![CDATA[0:0|5:5|10:10|20:20|30:30|40:40|50:50|60:60]]></WidgetConfig>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

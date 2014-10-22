@@ -71,7 +71,7 @@
 
 	<c:forEach begin="${navStartLevel + 1}" end="${oldLevel}"></li></ul></c:forEach>
 	<c:if test="${not empty nav.items}"></li></c:if>
-    <li id="searchButtonHeader">
+    <li>
       <i class="search fa fa-search search-btn"></i>
 			<div class="search-open">
 				<form class="form-inline" name="searchFormHeader" action="${cms.functionDetail['Search page']}" method="post">

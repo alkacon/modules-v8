@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTabs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd">
+  <BootstrapTab language="en">
+    <Title><![CDATA[Tabs Demo Element]]></Title>
+    <Label><![CDATA[Robust]]></Label>
+    <Label><![CDATA[Easy]]></Label>
+    <Label><![CDATA[Long Lasting]]></Label>
+  </BootstrapTab>
+</BootstrapTabs>

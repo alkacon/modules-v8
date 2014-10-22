@@ -9,15 +9,15 @@
 <cms:formatter var="content" rdfa="rdfa">
 <div>
 	<c:if test="${not cms.element.settings.hidetitle}">
-		<div class="row"><div class="headline"><h3 ${content.rdfa.Title}>${content.value.Title}</h3></div></div>
+		<c:if test="${empty cms.element.parent}"><div class="row"></c:if><div class="headline"><h3 ${content.rdfa.Title}>${content.value.Title}</h3></div><c:if test="${empty cms.element.parent}"></div></c:if>
 	</c:if>
 
 <c:choose>
 	<c:when test="${cms.element.inMemoryOnly}">
-		<div class="row"><div class="alert"><fmt:message key="bootstrap.slider.message.new" /></div></div>
+		<c:if test="${empty cms.element.parent}"><div class="row"></c:if><div class="alert"><fmt:message key="bootstrap.slider.message.new" /></div><c:if test="${empty cms.element.parent}"></div></c:if>
 	</c:when>
 	<c:when test="${cms.edited}">
-		<div class="row"><div class="alert"><fmt:message key="bootstrap.slider.message.edit" /></div></div>
+		<c:if test="${empty cms.element.parent}"><div class="row"></c:if><div class="alert"><fmt:message key="bootstrap.slider.message.edit" /></div><c:if test="${empty cms.element.parent}"></div></c:if>
 		${cms.enableReload}
 	</c:when>
 	<c:otherwise>

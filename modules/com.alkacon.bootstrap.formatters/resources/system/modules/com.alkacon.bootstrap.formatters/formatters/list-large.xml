@@ -15,6 +15,10 @@
       <Types>
         <ContainerType><![CDATA[content]]></ContainerType>
         <ContainerType><![CDATA[content-full]]></ContainerType>
+        <ContainerType><![CDATA[full]]></ContainerType>
+        <ContainerType><![CDATA[threequarters]]></ContainerType>
+        <ContainerType><![CDATA[twothirds]]></ContainerType>
+        <ContainerType><![CDATA[onehalf]]></ContainerType>
       </Types>
     </Match>
     <Preview>false</Preview>
@@ -30,6 +34,14 @@
         </link>
       </CssLink>
     </HeadIncludeCss>
+    <HeadIncludeJs>
+      <JavascriptLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap-paginator/bootstrap-paginator.min.js]]></target>
+          <uuid>35ab8e6a-5372-11e4-9866-005056b61161</uuid>
+        </link>
+      </JavascriptLink>
+    </HeadIncludeJs>
     <Setting>
       <PropertyName><![CDATA[hidetitle]]></PropertyName>
       <DisplayName><![CDATA[%(key.bootstrap.setting.hidetitle)]]></DisplayName>
@@ -41,20 +53,6 @@
       <DisplayName><![CDATA[%(key.bootstrap.setting.showdate)]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[true]]></Default>
-    </Setting>
-    <Setting>
-      <PropertyName><![CDATA[color]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.setting.color)]]></DisplayName>
-      <Widget><![CDATA[select]]></Widget>
-      <Default><![CDATA[sea]]></Default>
-      <WidgetConfig><![CDATA[red:%(key.bootstrap.setting.color.red)|sea:%(key.bootstrap.setting.color.sea)|grey:%(key.bootstrap.setting.color.grey)|green:%(key.bootstrap.setting.color.green)|blue:%(key.bootstrap.setting.color.blue)|orange:%(key.bootstrap.setting.color.orange)|yellow:%(key.bootstrap.setting.color.yellow)]]></WidgetConfig>
-    </Setting>
-    <Setting>
-      <PropertyName><![CDATA[layoutvariant]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.setting.layoutvariant)]]></DisplayName>
-      <Widget><![CDATA[select]]></Widget>
-      <Default><![CDATA[top]]></Default>
-      <WidgetConfig><![CDATA[top:%(key.bootstrap.setting.layout.top)|left:%(key.bootstrap.setting.layout.left)|box:%(key.bootstrap.setting.layout.box)]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[buttoncolor]]></PropertyName>

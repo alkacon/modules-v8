@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BootstrapImageTeasers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.grid.schemas/schemas/imageteaser.xsd">
-  <BootstrapImageTeaser language="en">
+<BootstrapImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/image.xsd">
+  <BootstrapImage language="en">
     <Headline><![CDATA[Powerful]]></Headline>
     <Text><![CDATA[At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></Text>
     <Image>
@@ -10,5 +10,5 @@
         <uuid>af827d93-4705-11e3-8417-000c29d28104</uuid>
       </link>
     </Image>
-  </BootstrapImageTeaser>
-</BootstrapImageTeasers>
+  </BootstrapImage>
+</BootstrapImages>

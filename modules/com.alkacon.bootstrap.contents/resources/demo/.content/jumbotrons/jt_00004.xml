@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<BootstrapJumbotrons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/jumbotron.xsd">
-  <BootstrapJumbotron language="en">
-    <Title><![CDATA[Column container]]></Title>
-    <Text><![CDATA[Can be 2 to 10 units wide, controlled with a template property. Optional.]]></Text>
-  </BootstrapJumbotron>
-</BootstrapJumbotrons>

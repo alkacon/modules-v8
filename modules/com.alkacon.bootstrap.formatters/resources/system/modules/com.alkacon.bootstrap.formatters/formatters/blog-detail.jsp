@@ -8,7 +8,7 @@
 
 <cms:formatter var="content" val="value" rdfa="rdfa">
 
-<div <c:if test="${cms.container.type != 'content'}"> class="row"</c:if>>
+<div <c:if test="${cms.container.type == 'content-full' || cms.container.type == 'content-wide'}">class="row"</c:if>>
     <%-- create author link --%>
     <c:set var="author" value="${fn:trim(value.Author)}" />
     <c:choose>

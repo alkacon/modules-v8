@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/article.xsd">
+  <BootstrapArticle language="en">
+    <Title><![CDATA[OpenCms Introduction: Step 5 - Link to summary]]></Title>
+    <Paragraph>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To publish changes, click on the <em><strong>Publish</strong></em> icon on the left side of the toolbar. The OpenCms publish dialog appears. Here you can select what you want to publish. The dialog allows publishing of just the current page, or all changes you have made in your current session, or all changes at all. When you have selected something, click the "Publish" button below.</p>
+<p><strong>This concludes this simple tutorial.</strong></p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Continue to: Start exploring OpenCms]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/tutorial/start-exploring-opencms/]]></target>
+            <uuid>78498fa1-46d2-11e3-9325-000c29d28104</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapArticle>
+</BootstrapArticles>

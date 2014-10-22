@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/article.xsd">
+  <BootstrapArticle language="en">
+    <Title><![CDATA[Product page text]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Products]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>This is the product page. Product are currently working best when they are used in a large container ....</p>]]></content>
+      </Text>
+    </Paragraph>
+  </BootstrapArticle>
+</BootstrapArticles>

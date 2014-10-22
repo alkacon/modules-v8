@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/iconbox.xsd">
+  <BootstrapIconBox language="en">
+    <Headline><![CDATA[OpenCms Beginners Tutorial]]></Headline>
+    <Icon><![CDATA[Lightbulb]]></Icon>
+    <Text><![CDATA[Click here for a guided tour that explains in 5 simple steps how to edit content and work with OpenCms. Also contains information about how to login.]]></Text>
+    <Link>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/tutorial/]]></target>
+        <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
+      </link>
+    </Link>
+    <Color><![CDATA[orange]]></Color>
+  </BootstrapIconBox>
+</BootstrapIconBoxs>

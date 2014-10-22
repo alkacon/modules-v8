@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BootstrapLayoutRows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.grid.schemas/schemas/layoutrow.xsd">
+<BootstrapLayoutRows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/layoutrow.xsd">
   <BootstrapLayoutRow language="en">
     <Title><![CDATA[2 columns: 1/2 + 1/2]]></Title>
     <Column>

@@ -48,9 +48,9 @@
         "textFacets" : {
             "id" : 'searchWidgetTextFacet',
             "facets" : [
-                        { "field" : "search.subsite_exact",    "label" : 'Subsite', "alphasort"  : "facetLabelASC",  "showAll" : false, "defaultCount" : 5 },
                          { "field" : "type",           "label" : 'Type',     "alphasort"  : "facetCountDESC", "showAll" : true,  "defaultCount" : 5 },
-                         { "field" : "category_exact", "label" : 'Category', "alphasort"  : "facetLabelASC",  "showAll" : true, "defaultCount" : 5 }
+                         { "field" : "category_exact", "label" : 'Category', "alphasort"  : "facetLabelASC",  "showAll" : true, "defaultCount" : 5 },
+                         { "field" : "con_locales",    "label" : 'Language', "alphasort"  : "facetLabelASC",  "showAll" : false, "defaultCount" : 5 }
                        ]
         },
         "resetFacets" : {

@@ -14,11 +14,15 @@
     <Match>
       <Types>
         <ContainerType><![CDATA[content]]></ContainerType>
+        <ContainerType><![CDATA[onethird]]></ContainerType>
+        <ContainerType><![CDATA[onequarter]]></ContainerType>
+        <ContainerType><![CDATA[contentandlayoutrows]]></ContainerType>
       </Types>
     </Match>
     <Preview>false</Preview>
     <SearchContent>false</SearchContent>
     <AutoEnabled>true</AutoEnabled>
     <Detail>false</Detail>
+    <NestedContainers>false</NestedContainers>
   </NewFormatter>
 </NewFormatters>

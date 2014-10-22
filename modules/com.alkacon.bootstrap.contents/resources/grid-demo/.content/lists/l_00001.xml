@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BootstrapLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.grid.schemas/schemas/list.xsd">
+<BootstrapLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/list.xsd">
   <BootstrapList language="en">
     <Headline><![CDATA[Test]]></Headline>
     <FilterQueries/>
     <SortOrder><![CDATA[desc]]></SortOrder>
     <RowCount><![CDATA[1000]]></RowCount>
     <ItemsPerPage><![CDATA[3]]></ItemsPerPage>
-    <CreatePath><![CDATA[/sites/default/new-demo-new/.content/blogs/b_%(number:5).xml]]></CreatePath>
+    <CreatePath><![CDATA[/sites/default/grid-demo/.content/blogs/b_%(number:5).xml]]></CreatePath>
   </BootstrapList>
 </BootstrapLists>

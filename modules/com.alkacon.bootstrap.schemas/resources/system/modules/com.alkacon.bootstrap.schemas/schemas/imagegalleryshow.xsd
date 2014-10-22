@@ -15,6 +15,7 @@
 			<xsd:element name="Title" type="OpenCmsString" />
 			<xsd:element name="ImageFolder" type="OpenCmsVfsFile" />
 			<xsd:element name="ImageCount" type="OpenCmsString" />
+      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -23,12 +24,13 @@
 		<xsd:appinfo>
 			<resourcebundle name="com.alkacon.bootstrap.schemas.imagegalleryshow"/>
 			<mappings>
-				<mapping element="Title" mapto="property:Title" />
-				<mapping element="Title" mapto="urlName" />
+				<mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
+				<mapping element="GalleryTitle" mapto="urlName" useDefault="true" />
 			</mappings>
 			<defaults>
 				<default element="Title" value="%(key.bootstrap.imagegalleryshow.default.Title)" />
 				<default element="ImageCount" value="4" />
+        <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Title)" resolveMacros="false" />
 			</defaults>
 			<layouts>
 				<layout element="ImageFolder" widget="VfsFileWidget" configuration="{selectabletypes: 'folder'}}" />

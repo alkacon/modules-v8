@@ -19,6 +19,14 @@
       <Value><![CDATA[A tab item has a headline, a text and an optional image.]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the tabbed content. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[label.BootstrapTabItem.Label]]></Key>
       <Value><![CDATA[Label]]></Value>
     </Message>
@@ -83,6 +91,14 @@
     <Message>
       <Key><![CDATA[label.BootstrapTab.Item.help]]></Key>
       <Value><![CDATA[Ein Reiter hat einen Namen, einen Text und ein optionales Bild.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapTab.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel des Reiters für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapTabItem.Label]]></Key>

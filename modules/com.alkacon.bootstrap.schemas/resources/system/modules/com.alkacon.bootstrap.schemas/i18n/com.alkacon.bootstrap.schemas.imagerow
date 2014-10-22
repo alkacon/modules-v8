@@ -19,6 +19,14 @@
       <Value><![CDATA[A row item has a headline, a text and optional image and link.]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[label.BootstrapImagerow.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerow.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the image rowt. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[label.BootstrapImagerowItem.Headline]]></Key>
       <Value><![CDATA[Headline]]></Value>
     </Message>
@@ -79,6 +87,14 @@
     <Message>
       <Key><![CDATA[label.BootstrapImagerow.Item.help]]></Key>
       <Value><![CDATA[Ein Reihenelement hat eine Überschrift, einen Text, ein optionales Bild und einen optionalen Link.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerow.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImagerow.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel der Bildreihe für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapImagerowItem.Headline]]></Key>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapFlexibleElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/flexible.xsd">
+  <BootstrapFlexibleElement language="en">
+    <Title><![CDATA[Footer for Welcome page]]></Title>
+    <Choice>
+      <Code name="Code0">
+        <links>
+          <link name="link6" internal="true" type="A">
+            <target><![CDATA[/sites/default/demo/login/]]></target>
+          </link>
+          <link name="link4" internal="true" type="A">
+            <target><![CDATA[/sites/default/release/]]></target>
+            <uuid>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuid>
+          </link>
+          <link name="link5" internal="true" type="A">
+            <target><![CDATA[/sites/default/documentation/]]></target>
+            <uuid>7afb3d20-02bc-11e4-8167-1305b26fecac</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/default/grid-demo/]]></target>
+            <uuid>0d82626d-276b-11e4-96d6-005056b61161</uuid>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/default/elementary-demo/]]></target>
+            <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
+          </link>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://www.alkacon.com]]></target>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/default/tutorial/]]></target>
+            <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<div class="top">
+    <div class="topbar">
+      <div class="container">
+        <ul class="loginbar pull-left">
+        <li><a href="%(link0)">&copy; Alkacon Software GmbH - The OpenCms experts</a></li>
+        </ul>
+        <ul class="loginbar pull-right">
+            <li><a href="%(link1)">Beginners Tutorial</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="%(link2)">Grid Demo</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="%(link3)">Elementary Demo</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="%(link4)">Release notes</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="%(link5)">Documentation</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="%(link6)">Login</a></li>
+     </ul>
+     </div>
+</div>
+</div><!--/top-->]]></content>
+      </Code>
+    </Choice>
+  </BootstrapFlexibleElement>
+</BootstrapFlexibleElements>

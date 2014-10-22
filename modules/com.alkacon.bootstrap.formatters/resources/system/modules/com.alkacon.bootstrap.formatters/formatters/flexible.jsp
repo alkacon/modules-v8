@@ -34,7 +34,7 @@
 						</c:choose>
 					</c:when>
 					<c:when test="${elem.name == 'Image'}">
-						<cms:img src="${elem.value.Image}" alt="${elem.value.Title}" title="${elem.value.Title}" width="${cms.container.width}" scaleType="0" scaleQuality="70" scaleRendermode="0" />
+						<img src="<cms:link>${elem.value.Image}</cms:link>" alt="${elem.value.Title}" title="${elem.value.Title}" class="img-responsive" />
 					</c:when>
 					<c:otherwise>
 						<div class="alert"><fmt:message key="bootstrap.flexible.message.edit" /></div>

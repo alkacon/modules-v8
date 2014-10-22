@@ -15,28 +15,16 @@
       <Value><![CDATA[Contains all content types belonging to the Bootstrap Template.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[fileicon.bs-jumbotron]]></Key>
-      <Value><![CDATA[Jumbotron]]></Value>
+      <Key><![CDATA[fileicon.bs-article]]></Key>
+      <Value><![CDATA[Article]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[title.newbs-jumbotron]]></Key>
-      <Value><![CDATA[New Jumbotron]]></Value>
+      <Key><![CDATA[title.newbs-article]]></Key>
+      <Value><![CDATA[New Article]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[desc.bs-jumbotron]]></Key>
-      <Value><![CDATA[This component is used to showcase key content. ]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-textblock]]></Key>
-      <Value><![CDATA[Text Block]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-textblock]]></Key>
-      <Value><![CDATA[New Text Block]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-textblock]]></Key>
-      <Value><![CDATA[A Text Block can contain multiple paragraphs with an optional image and link.]]></Value>
+      <Key><![CDATA[desc.bs-article]]></Key>
+      <Value><![CDATA[An article can contain multiple paragraphs with an optional image and link.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-imagegalleryshow]]></Key>
@@ -88,15 +76,15 @@
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-tabs]]></Key>
-      <Value><![CDATA[Tabs Element]]></Value>
+      <Value><![CDATA[Tabs / Accordion]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[title.newbs-tabs]]></Key>
-      <Value><![CDATA[New Tabs Element]]></Value>
+      <Value><![CDATA[New Tabs / Accordion]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-tabs]]></Key>
-      <Value><![CDATA[A content element with multiple tabs, can also be rendered as accordion.]]></Value>
+      <Value><![CDATA[A content with multiple tabs, it can also be rendered as accordion.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-flexible]]></Key>
@@ -112,15 +100,15 @@
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-slider]]></Key>
-      <Value><![CDATA[Image Slider]]></Value>
+      <Value><![CDATA[Animation Slider]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[title.newbs-slider]]></Key>
-      <Value><![CDATA[New Image Slider]]></Value>
+      <Value><![CDATA[New Animation Slider]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-slider]]></Key>
-      <Value><![CDATA[Use this image rotator to create a configurable image slider.]]></Value>
+      <Value><![CDATA[Use this animation slider to create a configurable image show with various effects.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-blog]]></Key>
@@ -148,51 +136,87 @@
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-list]]></Key>
-      <Value><![CDATA[List]]></Value>
+      <Value><![CDATA[Blog List]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[title.newbs-list]]></Key>
-      <Value><![CDATA[New List]]></Value>
+      <Value><![CDATA[New Blog List]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-list]]></Key>
-      <Value><![CDATA[Shows a list of collected resources.]]></Value>
+      <Value><![CDATA[Shows a list of collected blog entries.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[fileicon.bs-post]]></Key>
-      <Value><![CDATA[User generable post]]></Value>
+      <Key><![CDATA[fileicon.bs-text]]></Key>
+      <Value><![CDATA[Text]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[desc.bs-post]]></Key>
-      <Value><![CDATA[A post that can be added and edited directly in the online project]]></Value>
+      <Key><![CDATA[title.newbs-text]]></Key>
+      <Value><![CDATA[New Text]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[title.bs-post]]></Key>
-      <Value><![CDATA[Create a new user generable post]]></Value>
+      <Key><![CDATA[desc.bs-text]]></Key>
+      <Value><![CDATA[A simple text with an optional link.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[desc.bs-post-list]]></Key>
-      <Value><![CDATA[A list that contains posts that are added and edited online directly.]]></Value>
+      <Key><![CDATA[fileicon.bs-image]]></Key>
+      <Value><![CDATA[Image]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[title.bs-post-list]]></Key>
-      <Value><![CDATA[Create a new list of posts]]></Value>
+      <Key><![CDATA[title.newbs-image]]></Key>
+      <Value><![CDATA[New Image]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[fileicon.bs-post-list]]></Key>
-      <Value><![CDATA[List of posts]]></Value>
+      <Key><![CDATA[desc.bs-image]]></Key>
+      <Value><![CDATA[An image shows a box with an image and a description with an optional link to more details.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[desc.bs-newpost]]></Key>
-      <Value><![CDATA[Displays a form to create a post directly in the online project.]]></Value>
+      <Key><![CDATA[fileicon.bs-iconbox]]></Key>
+      <Value><![CDATA[Icon Box]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[title.bs-newpost]]></Key>
-      <Value><![CDATA[Create a form to add usergenerated posts]]></Value>
+      <Key><![CDATA[title.newbs-iconbox]]></Key>
+      <Value><![CDATA[New Icon Box]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[fileicon.bs-newpost]]></Key>
-      <Value><![CDATA[Add usergenerated post form]]></Value>
+      <Key><![CDATA[desc.bs-iconbox]]></Key>
+      <Value><![CDATA[Shows a colored box with icon that can link to more information.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-templaterow]]></Key>
+      <Value><![CDATA[Template Row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-templaterow]]></Key>
+      <Value><![CDATA[New Template Row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-templaterow]]></Key>
+      <Value><![CDATA[Creates a template row that builds the main template layout.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-layoutrow]]></Key>
+      <Value><![CDATA[Layout Row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-layoutrow]]></Key>
+      <Value><![CDATA[New Layout Row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-layoutrow]]></Key>
+      <Value><![CDATA[Creates a layout row that fits in an underlying template row column.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.shape.none]]></Key>
+      <Value><![CDATA[Default]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.shape.rounded]]></Key>
+      <Value><![CDATA[Rounded corners]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.shape.circle]]></Key>
+      <Value><![CDATA[Circle]]></Value>
     </Message>
   </Bundle>
   <Bundle language="de">
@@ -209,28 +233,16 @@
       <Value><![CDATA[Beinhaltet alle Ressourcetypen für das Bootstrap Template.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[fileicon.bs-jumbotron]]></Key>
-      <Value><![CDATA[Jumbotron]]></Value>
+      <Key><![CDATA[fileicon.bs-article]]></Key>
+      <Value><![CDATA[Artikel]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[title.newbs-jumbotron]]></Key>
-      <Value><![CDATA[Neues Jumbotron]]></Value>
+      <Key><![CDATA[title.newbs-article]]></Key>
+      <Value><![CDATA[Neuer Artikel]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[desc.bs-jumbotron]]></Key>
-      <Value><![CDATA[Diese Komponente dient zur Hervorhebung von Schlüsselinhalten. ]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-textblock]]></Key>
-      <Value><![CDATA[Textbaustein]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-textblock]]></Key>
-      <Value><![CDATA[Neuer Textbaustein]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-textblock]]></Key>
-      <Value><![CDATA[Ein Textbaustein kann mehrere Abschnitte mit optionalen Bildern oder Links enthalten.]]></Value>
+      <Key><![CDATA[desc.bs-article]]></Key>
+      <Value><![CDATA[Ein Artikel kann mehrere Textabschnitte mit optionalen Bildern oder Links enthalten.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-imagegalleryshow]]></Key>
@@ -282,15 +294,15 @@
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-tabs]]></Key>
-      <Value><![CDATA[Reiter-Element ]]></Value>
+      <Value><![CDATA[Reiter / Akkordion]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[title.newbs-tabs]]></Key>
-      <Value><![CDATA[Neues Reiter-Element ]]></Value>
+      <Value><![CDATA[Neuer Reiter / Akkordion]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-tabs]]></Key>
-      <Value><![CDATA[Ein Element mit mehreren Reitern, deren Inhalt individuell konfigurierbar ist. Kann auch als Akkordion dargestellt werden.]]></Value>
+      <Value><![CDATA[Ein Inhalt mit mehreren Reitern, deren Inhalt individuell konfigurierbar ist. Kann auch als Akkordion dargestellt werden.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-flexible]]></Key>
@@ -306,15 +318,15 @@
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-slider]]></Key>
-      <Value><![CDATA[Bild Rotator]]></Value>
+      <Value><![CDATA[Animierter Slider]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[title.newbs-slider]]></Key>
-      <Value><![CDATA[Neuer Bild Rotator]]></Value>
+      <Value><![CDATA[Neuer animierter Slider]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-slider]]></Key>
-      <Value><![CDATA[Mit dem Bild Rotator kann ein automatischer Bildwechsel zusammengestellt werden. ]]></Value>
+      <Value><![CDATA[Mit dem animierter Slider kann ein automatischer Bildwechsel mit vielen Effekten zusammengestellt werden. ]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-blog]]></Key>
@@ -342,15 +354,87 @@
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-list]]></Key>
-      <Value><![CDATA[Liste]]></Value>
+      <Value><![CDATA[Blog Liste]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[title.newbs-list]]></Key>
-      <Value><![CDATA[Neue Liste]]></Value>
+      <Value><![CDATA[Neue Blog Liste]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-list]]></Key>
-      <Value><![CDATA[Erzeugt eine Liste von Dateien.]]></Value>
+      <Value><![CDATA[Erzeugt eine Liste von Blog Einträgen.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-text]]></Key>
+      <Value><![CDATA[Neuer Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-text]]></Key>
+      <Value><![CDATA[Ein einfacher Text mit optionalem Link.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-image]]></Key>
+      <Value><![CDATA[Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-image]]></Key>
+      <Value><![CDATA[Neues Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-image]]></Key>
+      <Value><![CDATA[Ein Bild zeigt eine Box mit Bild und einer Beschreibung, mit optionalem Link zu weiterführenden Informationen.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-iconbox]]></Key>
+      <Value><![CDATA[Icon Box]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-iconbox]]></Key>
+      <Value><![CDATA[Neue Icon Box]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-iconbox]]></Key>
+      <Value><![CDATA[Zeigt weine farbige Box mit Icon an, ein optionaler Link führt zu weiteren Informationen.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-templaterow]]></Key>
+      <Value><![CDATA[Templatezeile]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-templaterow]]></Key>
+      <Value><![CDATA[Neue Templatezeile]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-templaterow]]></Key>
+      <Value><![CDATA[Erzeugt eine Templatezeile, die das Seitenlayout des Templates festlegt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.bs-layoutrow]]></Key>
+      <Value><![CDATA[Layoutzeile]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.newbs-layoutrow]]></Key>
+      <Value><![CDATA[Neue Layoutzeile]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.bs-layoutrow]]></Key>
+      <Value><![CDATA[Erzeugt eine Layoutzeile, die eine Spalte einer Templatezeile weiter unterteilt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.shape.none]]></Key>
+      <Value><![CDATA[Standard]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.shape.rounded]]></Key>
+      <Value><![CDATA[Abgerundete Ecken]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.image.shape.circle]]></Key>
+      <Value><![CDATA[Kreis]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

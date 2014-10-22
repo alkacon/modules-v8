@@ -102,6 +102,14 @@
       <Key><![CDATA[bootstrap.setting.showbreadcrumb]]></Key>
       <Value><![CDATA[Zeige Brotkrumennavigation]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.page.headline.emptycontainer]]></Key>
+      <Value><![CDATA[Leerer Seitencontainer]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.page.text.emptycontainer]]></Key>
+      <Value><![CDATA[Bitte ziehen Sie Templatereihen in diesen Container.]]></Value>
+    </Message>
   </Bundle>
   <Bundle language="en">
     <Message>
@@ -319,6 +327,14 @@
     <Message>
       <Key><![CDATA[en]]></Key>
       <Value><![CDATA[English]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.page.headline.emptycontainer]]></Key>
+      <Value><![CDATA[Empty Page Container]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.page.text.emptycontainer]]></Key>
+      <Value><![CDATA[Please drop template rows in this container.]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

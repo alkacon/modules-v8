@@ -1,7 +1,6 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 	
 	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
-	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/nested/tabsitem.xsd"/>
 		
 	<xsd:element name="BootstrapTabs" type="OpenCmsBootstrapTabs"/>
 	
@@ -14,7 +13,8 @@
 	<xsd:complexType name="OpenCmsBootstrapTab">
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
-			<xsd:element name="Item" type="OpenCmsBootstrapTabItem" minOccurs="2" maxOccurs="8" />
+			<xsd:element name="Label" type="OpenCmsString" minOccurs="2" maxOccurs="8" />
+      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -23,20 +23,14 @@
 		<xsd:appinfo>
 			<resourcebundle name="com.alkacon.bootstrap.schemas.tabs"/>
 			<mappings>
-				<mapping element="Title" mapto="property:Title" />
-				<mapping element="Title" mapto="urlName" />
+				<mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
+				<mapping element="GalleryTitle" mapto="urlName" useDefault="true" />
 			</mappings>
 			<defaults>
 				<default element="Title" value="%(key.bootstrap.tabs.default.Title)" />
-				<default element="Item/Label" value="%(key.bootstrap.tabs.default.Label)" />
-				<default element="Item/Headline" value="%(key.bootstrap.tabs.default.Headline)" />
-				<default element="Item/Text" value="%(key.bootstrap.tabs.default.Text)" />
+				<default element="Label" value="%(key.bootstrap.tabs.default.Label)" />
+        <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Title)" resolveMacros="false" />
 			</defaults>
-			<layouts/>
-			<validationrules/>
-			<relations>
-				<relation element="Item/Image" invalidate="node" />
-			</relations>
 			<searchsettings containerPageOnly="true"/>
 		</xsd:appinfo>
 	</xsd:annotation> 

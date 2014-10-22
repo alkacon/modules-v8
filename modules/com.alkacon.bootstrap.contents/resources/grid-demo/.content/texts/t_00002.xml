@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.grid.schemas/schemas/text.xsd">
+<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
   <BootstrapText language="en">
-    <Headline><![CDATA[All new responsive template]]></Headline>
+    <Headline><![CDATA[Great responsive template]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>This demo template features a responsive design based on Bootstrap.<br />Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>]]></content>
+      <content><![CDATA[<p>This demo template features a responsive design based on Bootstrap.</p>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>

@@ -6,7 +6,7 @@
 
 <fmt:setLocale value="${cms.locale}" />
 <cms:bundle basename="com.alkacon.bootstrap.schemas.carousel">
-<cms:formatter var="content">
+<cms:formatter var="content" val="value" rdfa="rdfa">
 
 <div class="<c:if test="${cms.container.type == 'content-wide'}">row </c:if>margin-bottom-30">
 
@@ -17,14 +17,14 @@
 		<c:otherwise>
 		
 			<c:if test="${not cms.element.settings.hidetitle}">
-				<div class="headline"><h2 ${content.rdfa.Title}>${content.value.Title}</h2></div>
+				<div class="headline"><h2 ${rdfa.Headline}>${value.Headline}</h2></div>
 			</c:if>
 
 			<div class="carousel slide carousel-v1" id="myCarousel-${content.file.structureId}">
 				<div class="carousel-inner">
 					<c:forEach var="item" items="${content.valueList.Item}" varStatus="status">
 						<div class="item<c:if test="${status.first}"> active</c:if>">
-							<cms:img alt="" src="${item.value.Image}" scaleType="2" scaleColor="transparent" scaleQuality="75" noDim="true" width="800" />
+							<cms:img alt="" src="${item.value.Image}" scaleType="2" scaleColor="transparent" scaleQuality="75" noDim="true" cssclass="img-responsive"/>
 							<div class="carousel-caption">
 								<c:if test="${item.value.Headline.isSet}">
 									<h3 ${item.rdfa.Headline}>${item.value.Headline}</h3>

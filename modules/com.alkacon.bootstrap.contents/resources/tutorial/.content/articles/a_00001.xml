@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/article.xsd">
+  <BootstrapArticle language="en">
+    <Title><![CDATA[OpenCms Introduction: Step 1 - Modify a page]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Activate the OpenCms Toolbar]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>So you are logged in and wonder where the controls are? Look to the upper rigt corner of the screen. See the OpenCms "bullseye" icon? <strong>Click this to activate the toolbar!</strong></p>
+<h4>Now let's add some content to this page</h4>
+<ul>
+<li><strong>Step 1:</strong> Click on the <em><strong>Add content</strong></em> button in the toolbar. You get a list of the available content types that you can add to the page.</li>
+<li><strong>Step 2:</strong> Click on the first entry "Text Block". You get a list of text blocks that have already been created.</li>
+<li><strong>Step 3:</strong> Move the mouse cursor to the entry called "Demo text element". You may need to scroll down a bit. On the right hand side of the element box you will see some icons appear.</li>
+<li><strong>Step 4:</strong> Move the cursor over the <em><strong>Move to page </strong></em>icon, click and drag the element into the page. Possible target areas will be highlighted. Place the content anywhere you like.</li>
+</ul>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/tutorial/.galleries/intro-images/tut-01.png]]></target>
+            <uuid>798fed0a-47cd-11e3-8474-000c29d28104</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Activate the toolbar]]></Title>
+      </Image>
+    </Paragraph>
+  </BootstrapArticle>
+</BootstrapArticles>

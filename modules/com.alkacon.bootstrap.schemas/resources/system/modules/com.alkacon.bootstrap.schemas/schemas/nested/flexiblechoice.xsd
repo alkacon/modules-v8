@@ -13,7 +13,7 @@
 
 	<xsd:complexType name="OpenCmsBootstrapFlexibleElementChoice">
 		<xsd:choice minOccurs="0" maxOccurs="5">
-			<xsd:element name="Image" type="OpenCmsBootstrapImage" minOccurs="0" />
+			<xsd:element name="Image" type="OpenCmsBootstrapNestedImage" minOccurs="0" />
 			<xsd:element name="Text" type="OpenCmsHtml" minOccurs="0" />
 			<xsd:element name="Code" type="OpenCmsHtml" minOccurs="0" />
 		</xsd:choice>

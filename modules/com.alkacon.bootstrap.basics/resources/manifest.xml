@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
+		<creator>andreas</creator>
 		<opencms_version>9.4.8</opencms_version>
-		<createdate>Thu, 16 Oct 2014 08:26:34 GMT</createdate>
+		<createdate>Wed, 22 Oct 2014 10:09:04 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[Contains raw Bootstrap 3 as well as jQuery and jQuery UI.]]></description>
-		<version>9.0.1</version>
+		<version>9.5.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail/>
 		<datecreated/>
@@ -31,10 +31,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>fa8df23a-5479-11e4-8e91-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 15 Oct 2014 14:46:00 GMT</datelastmodified>
+			<uuidstructure>610b78c0-554a-11e4-8792-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 16 Oct 2014 15:37:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 15 Oct 2014 14:46:00 GMT</datecreated>
+			<datecreated>Thu, 16 Oct 2014 15:37:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -53,10 +53,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>fc4f9fa6-5479-11e4-8e91-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 15 Oct 2014 14:46:02 GMT</datelastmodified>
+			<uuidstructure>62c92e8c-554a-11e4-8792-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 16 Oct 2014 15:37:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 15 Oct 2014 14:46:02 GMT</datecreated>
+			<datecreated>Thu, 16 Oct 2014 15:37:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -5143,7 +5143,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css</destination>
 			<type>folder</type>
 			<uuidstructure>12f08221-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:14 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5153,14 +5153,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/extralayers.css</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/extralayers.css</destination>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/autowidth.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/autowidth.css</destination>
 			<type>plain</type>
-			<uuidstructure>b3cf3c57-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>b3cf3c58-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:07:52 GMT</datelastmodified>
+			<uuidstructure>e4ab914c-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>e4ab914d-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:07:52 GMT</datecreated>
+			<datecreated>Mon, 20 Oct 2014 13:06:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -5168,14 +5168,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/navstylechange.css</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/navstylechange.css</destination>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/fullscreen.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/fullscreen.css</destination>
 			<type>plain</type>
-			<uuidstructure>b3dca9d9-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>b3dca9da-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:07:52 GMT</datelastmodified>
+			<uuidstructure>e4c6ba6e-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>e4c6ba6f-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:07:52 GMT</datecreated>
+			<datecreated>Mon, 20 Oct 2014 13:06:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -5183,14 +5183,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/noneed.css</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/noneed.css</destination>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/fullwidth.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/fullwidth.css</destination>
 			<type>plain</type>
-			<uuidstructure>b3e70a1b-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>b3e70a1c-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:07:52 GMT</datelastmodified>
+			<uuidstructure>e4d623c0-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>e4d623c1-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:07:52 GMT</datecreated>
+			<datecreated>Mon, 20 Oct 2014 13:06:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -5198,14 +5198,29 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/style.css</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/style.css</destination>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/responsive.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/responsive.css</destination>
 			<type>plain</type>
-			<uuidstructure>b3f1b87d-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>b3f1b87e-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:07:53 GMT</datelastmodified>
+			<uuidstructure>e4e47ba2-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>e4e47ba3-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:07:53 GMT</datecreated>
+			<datecreated>Mon, 20 Oct 2014 13:06:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/simple.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/css/simple.css</destination>
+			<type>plain</type>
+			<uuidstructure>e4f396d4-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>e4f396d5-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -5216,7 +5231,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images</destination>
 			<type>folder</type>
 			<uuidstructure>13507cbb-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:15 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 15:55:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -5226,1310 +5241,10 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dbg.jpg</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dbg.jpg</destination>
-			<type>image</type>
-			<uuidstructure>f3390fbf-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f3390fc0-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:39 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:39 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1920,h:700]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_1.png</destination>
-			<type>image</type>
-			<uuidstructure>f37fb5b2-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f37fb5b3-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:39 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:39 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:800,h:700]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_2.png</destination>
-			<type>image</type>
-			<uuidstructure>f38f9435-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f38f9436-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:39 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:39 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:800,h:700]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_3.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_3.png</destination>
-			<type>image</type>
-			<uuidstructure>f39f99c8-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f39f99c9-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:39 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:39 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:800,h:700]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_4.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_4.png</destination>
-			<type>image</type>
-			<uuidstructure>f3af031b-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f3af031c-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:40 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:39 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:800,h:700]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_5.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_5.png</destination>
-			<type>image</type>
-			<uuidstructure>f3beba8e-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f3beba8f-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:40 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:40 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:800,h:700]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_6.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/3dlayer_6.png</destination>
-			<type>image</type>
-			<uuidstructure>f3cdd5c1-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f3cdd5c2-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:40 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:40 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:800,h:700]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/apple.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/apple.png</destination>
-			<type>image</type>
-			<uuidstructure>f3dd1804-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f3dd1805-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:40 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:40 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:21,h:21]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/boat.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/boat.png</destination>
-			<type>image</type>
-			<uuidstructure>f5972423-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f5972424-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:43 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:400,h:400]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/check.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/check.png</destination>
-			<type>image</type>
-			<uuidstructure>f5a491a6-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f5a491a7-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:43 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:34,h:34]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/clock.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/clock.png</destination>
-			<type>image</type>
-			<uuidstructure>f5fac7fc-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f5fac7fd-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:43 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:100,h:102]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/clock2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/clock2.png</destination>
-			<type>image</type>
-			<uuidstructure>f60639af-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f60639b0-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:43 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:100,h:102]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/cloud1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/cloud1.png</destination>
-			<type>image</type>
-			<uuidstructure>f6115d42-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f6115d43-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:43 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:360,h:200]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/cloud2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/cloud2.png</destination>
-			<type>image</type>
-			<uuidstructure>f61d4425-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f61d4426-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:250,h:150]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/cloud3.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/cloud3.png</destination>
-			<type>image</type>
-			<uuidstructure>f62903f8-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f62903f9-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:360,h:200]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/cloud4.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/cloud4.png</destination>
-			<type>image</type>
-			<uuidstructure>f63475ab-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f63475ac-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:250,h:150]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/coconuts.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/coconuts.png</destination>
-			<type>image</type>
-			<uuidstructure>f640f8ce-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f640f8cf-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:50,h:50]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/cycle1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/cycle1.png</destination>
-			<type>image</type>
-			<uuidstructure>f64ba631-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f64ba632-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:32,h:32]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/darkblurbg.jpg</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/darkblurbg.jpg</destination>
-			<type>image</type>
-			<uuidstructure>f656a2b4-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f656a2b5-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1920,h:1080]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/doublearrow2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/doublearrow2.png</destination>
-			<type>image</type>
-			<uuidstructure>f6beb357-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f6beb358-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:45 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:36,h:22]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/dummy.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/dummy.png</destination>
-			<type>image</type>
-			<uuidstructure>f6c8ec8a-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f6c8ec8b-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:45 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:10,h:10]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/glare.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/glare.png</destination>
-			<type>image</type>
-			<uuidstructure>f97fa83e-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f97fa83f-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:49 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:49 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1400,h:500]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/graph.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/graph.png</destination>
-			<type>image</type>
-			<uuidstructure>f991f7c1-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f991f7c2-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:49 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:49 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:104,h:88]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/greenbg.jpg</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/greenbg.jpg</destination>
-			<type>image</type>
-			<uuidstructure>f99d1b54-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>f99d1b55-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:50 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:49 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1920,h:1080]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/greyline.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/greyline.png</destination>
-			<type>image</type>
-			<uuidstructure>fa02baf7-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fa02baf8-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:50 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:50 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:440,h:2]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/hand1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/hand1.png</destination>
-			<type>image</type>
-			<uuidstructure>fa52fde9-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fa52fdea-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:51 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:51 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:604,h:614]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/hill1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/hill1.png</destination>
-			<type>image</type>
-			<uuidstructure>fa601d4c-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fa601d4d-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:51 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:51 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:271,h:44]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/hill2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/hill2.png</destination>
-			<type>image</type>
-			<uuidstructure>fa6af2bf-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fa6af2c0-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:51 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:51 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:215,h:33]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/hill3.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/hill3.png</destination>
-			<type>image</type>
-			<uuidstructure>fa755302-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fa755303-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:51 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:51 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:369,h:75]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/hill4.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/hill4.png</destination>
-			<type>image</type>
-			<uuidstructure>fa802875-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fa802876-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:51 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:51 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:263,h:53]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/icon_photo.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/icon_photo.png</destination>
-			<type>image</type>
-			<uuidstructure>fb06216d-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fb06216e-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:52 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:52 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:100,h:100]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/imac1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/imac1.png</destination>
-			<type>image</type>
-			<uuidstructure>fb120850-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fb120851-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:52 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:52 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:466,h:398]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/ipad2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/ipad2.png</destination>
-			<type>image</type>
-			<uuidstructure>fb2e42e6-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fb2e42e7-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:52 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:52 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:692,h:514]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/ipad_dark.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/ipad_dark.png</destination>
-			<type>image</type>
-			<uuidstructure>fb21bfc3-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fb21bfc4-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:52 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:52 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:692,h:514]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/iphone.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/iphone.png</destination>
-			<type>image</type>
-			<uuidstructure>fb3dd349-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fb3dd34a-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:52 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:52 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:347,h:537]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/island.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/island.png</destination>
-			<type>image</type>
-			<uuidstructure>fb4944fc-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fb4944fd-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:52 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:52 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:500,h:200]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/largegreen.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/largegreen.png</destination>
-			<type>image</type>
-			<uuidstructure>fc854781-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fc854782-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:54 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:54 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:277,h:85]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/logo.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/logo.png</destination>
-			<type>image</type>
-			<uuidstructure>fc904404-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fc904405-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:54 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:54 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:406,h:60]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/lupe_imac.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/lupe_imac.png</destination>
-			<type>image</type>
-			<uuidstructure>fc9af267-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fc9af268-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:54 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:54 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:350,h:300]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/lupe_macbook.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/lupe_macbook.png</destination>
-			<type>image</type>
-			<uuidstructure>fca85fea-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fca85feb-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:55 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:350,h:300]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/macbook2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/macbook2.png</destination>
-			<type>image</type>
-			<uuidstructure>fcb3355d-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fcb3355e-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:55 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:471,h:294]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/newwave1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/newwave1.png</destination>
-			<type>image</type>
-			<uuidstructure>fd1133e3-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fd1133e4-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:55 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1000,h:300]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/newwave2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/newwave2.png</destination>
-			<type>image</type>
-			<uuidstructure>fd1f3da6-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fd1f3da7-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:55 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1000,h:300]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/newwave32.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/newwave32.png</destination>
-			<type>image</type>
-			<uuidstructure>fd2dbc99-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fd2dbc9a-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:55 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1000,h:300]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/newwave4.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/newwave4.png</destination>
-			<type>image</type>
-			<uuidstructure>fd3c629c-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fd3c629d-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1000,h:300]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/palm1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/palm1.png</destination>
-			<type>image</type>
-			<uuidstructure>fd48708f-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fd487090-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:120,h:170]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/palm2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/palm2.png</destination>
-			<type>image</type>
-			<uuidstructure>fd539422-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fd539423-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:120,h:170]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/plate1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/plate1.png</destination>
-			<type>image</type>
-			<uuidstructure>fda55db1-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fda55db2-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:600,h:640]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/plate2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/plate2.png</destination>
-			<type>image</type>
-			<uuidstructure>fdb51524-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fdb51525-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:600,h:640]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/prebg.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/prebg.png</destination>
-			<type>image</type>
-			<uuidstructure>fdc4cc97-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fdc4cc98-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:36,h:32]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/pulse1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/pulse1.png</destination>
-			<type>image</type>
-			<uuidstructure>fdd19dda-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fdd19ddb-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:120,h:120]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/redbg.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/redbg.png</destination>
-			<type>image</type>
-			<uuidstructure>fe08b370-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fe08b371-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:57 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:57 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:121,h:47]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/redbg_big.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/redbg_big.png</destination>
-			<type>image</type>
-			<uuidstructure>fe12c593-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fe12c594-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:57 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:57 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:247,h:85]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/seabg1.jpg</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/seabg1.jpg</destination>
-			<type>image</type>
-			<uuidstructure>fe1e8566-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fe1e8567-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:57 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:57 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1920,h:700]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/slidebg1.jpg</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/slidebg1.jpg</destination>
-			<type>image</type>
-			<uuidstructure>fe68d4d9-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fe68d4da-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:58 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:57 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1920,h:700]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/slidebg1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/slidebg1.png</destination>
-			<type>image</type>
-			<uuidstructure>feb435bc-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>feb435bd-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:58 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:58 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1170,h:500]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/slidebg2.jpg</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/slidebg2.jpg</destination>
-			<type>image</type>
-			<uuidstructure>fec1ca4f-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>fec1ca50-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:58 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:58 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1920,h:700]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/star.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/star.png</destination>
-			<type>image</type>
-			<uuidstructure>ff0cb602-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>ff0cb603-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:59 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:40,h:40]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/sun.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/sun.png</destination>
-			<type>image</type>
-			<uuidstructure>ff1a4a95-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>ff1a4a96-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:59 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:400,h:400]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/trans_tile2.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/trans_tile2.png</destination>
-			<type>image</type>
-			<uuidstructure>ff2769f8-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>ff2769f9-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:59 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:48,h:48]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/transparent.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/transparent.png</destination>
-			<type>image</type>
-			<uuidstructure>ff323f6b-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>ff323f6c-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:59 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:10,h:10]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/tree.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/tree.png</destination>
-			<type>image</type>
-			<uuidstructure>ff3d62fe-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>ff3d62ff-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:09:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:09:59 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:203,h:313]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/videobg1.jpg</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/videobg1.jpg</destination>
-			<type>image</type>
-			<uuidstructure>ffc22364-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>ffc22365-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:10:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:10:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:1170,h:500]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/videoshadow.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/videoshadow.png</destination>
-			<type>image</type>
-			<uuidstructure>ffe73797-2838-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>ffe73798-2838-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:10:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:10:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:640,h:81]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/woman1.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/images/woman1.png</destination>
-			<type>image</type>
-			<uuidstructure>000260bd-2839-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>000260be-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:10:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:10:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:260,h:600]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin</destination>
 			<type>folder</type>
 			<uuidstructure>178fd3ce-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:22 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6542,7 +5257,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets</destination>
 			<type>folder</type>
 			<uuidstructure>17930820-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:22 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6557,7 +5272,7 @@
 			<type>image</type>
 			<uuidstructure>17a6b73d-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17a6b73e-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:00 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6577,7 +5292,7 @@
 			<type>image</type>
 			<uuidstructure>17ab9941-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17ab9942-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6597,7 +5312,7 @@
 			<type>image</type>
 			<uuidstructure>17b07b45-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17b07b46-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6617,7 +5332,7 @@
 			<type>image</type>
 			<uuidstructure>17b55d49-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17b55d4a-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6637,7 +5352,7 @@
 			<type>image</type>
 			<uuidstructure>17ba3f4d-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17ba3f4e-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6657,7 +5372,7 @@
 			<type>image</type>
 			<uuidstructure>17bf2151-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17bf2152-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6677,7 +5392,7 @@
 			<type>image</type>
 			<uuidstructure>179774f2-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>179774f3-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6697,7 +5412,7 @@
 			<type>image</type>
 			<uuidstructure>179ccc26-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>179ccc27-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6717,7 +5432,7 @@
 			<type>plain</type>
 			<uuidstructure>17a1d53a-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17a1d53b-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6732,7 +5447,7 @@
 			<type>image</type>
 			<uuidstructure>17c3dc45-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17c3dc46-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6752,7 +5467,7 @@
 			<type>image</type>
 			<uuidstructure>17c8e559-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17c8e55a-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6772,7 +5487,7 @@
 			<type>image</type>
 			<uuidstructure>17cdc75d-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17cdc75e-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6792,7 +5507,7 @@
 			<type>image</type>
 			<uuidstructure>17e3e77c-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17e3e77d-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:01 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6812,7 +5527,7 @@
 			<type>image</type>
 			<uuidstructure>17d2d071-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17d2d072-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6832,7 +5547,7 @@
 			<type>plain</type>
 			<uuidstructure>17d7d985-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17d7d986-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6847,7 +5562,7 @@
 			<type>image</type>
 			<uuidstructure>17dd7ed8-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17dd7ed9-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6867,7 +5582,7 @@
 			<type>image</type>
 			<uuidstructure>17e9b3e0-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17e9b3e1-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6887,7 +5602,7 @@
 			<type>image</type>
 			<uuidstructure>17f01c84-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17f01c85-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6902,92 +5617,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets/gridtile.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets/gridtile.png</destination>
-			<type>image</type>
-			<uuidstructure>6c5627b0-2839-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>6c5627b1-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:13:02 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:2,h:2]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets/gridtile_3x3.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets/gridtile_3x3.png</destination>
-			<type>image</type>
-			<uuidstructure>6c6060e3-2839-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>6c6060e4-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:13:02 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:3,h:3]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets/gridtile_3x3_white.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets/gridtile_3x3_white.png</destination>
-			<type>image</type>
-			<uuidstructure>6c6ac126-2839-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>6c6ac127-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:13:02 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:3,h:3]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets/gridtile_white.png</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets/gridtile_white.png</destination>
-			<type>image</type>
-			<uuidstructure>6c754879-2839-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>6c75487a-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:13:02 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:2,h:2]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets/large_left.png</source>
 			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/assets/large_left.png</destination>
 			<type>image</type>
 			<uuidstructure>17f60ff8-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17f60ff9-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7007,7 +5642,7 @@
 			<type>image</type>
 			<uuidstructure>17fbdc5c-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>17fbdc5d-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7027,7 +5662,7 @@
 			<type>image</type>
 			<uuidstructure>1801a8c0-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>1801a8c1-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7047,7 +5682,7 @@
 			<type>image</type>
 			<uuidstructure>18079c34-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>18079c35-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7067,7 +5702,7 @@
 			<type>image</type>
 			<uuidstructure>180db6b8-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>180db6b9-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7087,7 +5722,7 @@
 			<type>image</type>
 			<uuidstructure>1813831c-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>1813831d-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7107,7 +5742,7 @@
 			<type>image</type>
 			<uuidstructure>18194e80-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>18194e81-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7127,7 +5762,7 @@
 			<type>image</type>
 			<uuidstructure>181f41f4-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>181f41f5-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7147,7 +5782,7 @@
 			<type>image</type>
 			<uuidstructure>18258388-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>18258389-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7167,7 +5802,7 @@
 			<type>plain</type>
 			<uuidstructure>182a658c-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>182a658d-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7182,7 +5817,7 @@
 			<type>image</type>
 			<uuidstructure>183031ef-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>183031f0-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7202,7 +5837,7 @@
 			<type>image</type>
 			<uuidstructure>18358923-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>18358924-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7222,7 +5857,7 @@
 			<type>image</type>
 			<uuidstructure>183b2e77-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>183b2e78-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7242,7 +5877,7 @@
 			<type>image</type>
 			<uuidstructure>1840d3cb-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>1840d3cc-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7262,7 +5897,7 @@
 			<type>image</type>
 			<uuidstructure>1846791f-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>18467920-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7282,7 +5917,7 @@
 			<type>image</type>
 			<uuidstructure>184bd053-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>184bd054-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7302,7 +5937,7 @@
 			<type>image</type>
 			<uuidstructure>185175a7-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>185175a8-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7322,7 +5957,7 @@
 			<type>image</type>
 			<uuidstructure>1857de4b-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>1857de4c-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7340,7 +5975,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/css</destination>
 			<type>folder</type>
 			<uuidstructure>185ce75f-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:23 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7355,7 +5990,7 @@
 			<type>plain</type>
 			<uuidstructure>18617b41-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>18617b42-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:23 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7370,82 +6005,9 @@
 			<type>plain</type>
 			<uuidstructure>18676eb4-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>18676eb5-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:22 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/font</destination>
-			<type>folder</type>
-			<uuidstructure>7e36e05c-2839-11e4-96d6-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:32 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:13:32 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/font/revicons.eot</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/font/revicons.eot</destination>
-			<type>plain</type>
-			<uuidstructure>7e4c642e-2839-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>7e4c642f-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:32 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:13:32 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/font/revicons.svg</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/font/revicons.svg</destination>
-			<type>plain</type>
-			<uuidstructure>7e56c470-2839-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>7e56c471-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:32 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:13:32 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/font/revicons.ttf</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/font/revicons.ttf</destination>
-			<type>plain</type>
-			<uuidstructure>7e614bc2-2839-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>7e614bc3-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:32 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:13:32 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/font/revicons.woff</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/font/revicons.woff</destination>
-			<type>plain</type>
-			<uuidstructure>7e6bd314-2839-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>7e6bd315-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:13:32 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 20 Aug 2014 07:13:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -7456,7 +6018,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/images</destination>
 			<type>folder</type>
 			<uuidstructure>186c77c7-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:23 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7471,7 +6033,7 @@
 			<type>image</type>
 			<uuidstructure>1871f609-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>1871f60a-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:05 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7491,7 +6053,7 @@
 			<type>image</type>
 			<uuidstructure>1878379d-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>1878379e-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:05 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7511,7 +6073,7 @@
 			<type>image</type>
 			<uuidstructure>187eee61-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>187eee62-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:05 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7529,7 +6091,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/images/gradient</destination>
 			<type>folder</type>
 			<uuidstructure>1886b695-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:24 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7544,7 +6106,7 @@
 			<type>image</type>
 			<uuidstructure>188c34d7-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>188c34d8-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:05 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7564,7 +6126,7 @@
 			<type>image</type>
 			<uuidstructure>189360cb-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>189360cc-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:05 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7582,7 +6144,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/js</destination>
 			<type>folder</type>
 			<uuidstructure>1899061f-3a3b-11e3-a584-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 21 Oct 2013 10:25:24 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7597,7 +6159,7 @@
 			<type>plain</type>
 			<uuidstructure>901241d6-2839-11e4-96d6-005056b61161</uuidstructure>
 			<uuidresource>901241d7-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:14:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 16:07:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 20 Aug 2014 07:14:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7612,7 +6174,7 @@
 			<type>plain</type>
 			<uuidstructure>902c5988-2839-11e4-96d6-005056b61161</uuidstructure>
 			<uuidresource>902c5989-2839-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:14:02 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 16:07:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 20 Aug 2014 07:14:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7627,9 +6189,218 @@
 			<type>plain</type>
 			<uuidstructure>189e5d51-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>189e5d52-3a3b-11e3-a584-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:14:04 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/pluginsources</destination>
+			<type>folder</type>
+			<uuidstructure>f5b990aa-5859-11e4-a786-005056b61161</uuidstructure>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/pluginsources/jquery.themepunch.plugins.min.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/pluginsources/jquery.themepunch.plugins.min.js</destination>
+			<type>plain</type>
+			<uuidstructure>f5d0e93c-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f5d0e93d-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/pluginsources/jquery.themepunch.revolution.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/pluginsources/jquery.themepunch.revolution.js</destination>
+			<type>plain</type>
+			<uuidstructure>f5ed71ee-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f5ed71ef-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs</destination>
+			<type>folder</type>
+			<uuidstructure>f5fc6510-5859-11e4-a786-005056b61161</uuidstructure>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/demo.captions.vtt</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/demo.captions.vtt</destination>
+			<type>plain</type>
+			<uuidstructure>f67d2ddc-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f67d2ddd-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/video-js.min.css</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/video-js.min.css</destination>
+			<type>plain</type>
+			<uuidstructure>f692156e-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f692156f-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/video-js.png</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/video-js.png</destination>
+			<type>image</type>
+			<uuidstructure>f6a1cce0-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f6a1cce1-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:137,h:116]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/video-js.swf</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/video-js.swf</destination>
+			<type>binary</type>
+			<uuidstructure>f6b554e3-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f6b554e4-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/video.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/video.js</destination>
+			<type>plain</type>
+			<uuidstructure>f6ccad75-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f6ccad76-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/font</destination>
+			<type>folder</type>
+			<uuidstructure>f60d2df2-5859-11e4-a786-005056b61161</uuidstructure>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/font/vjs.eot</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/font/vjs.eot</destination>
+			<type>plain</type>
+			<uuidstructure>f6291a64-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f6291a65-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/font/vjs.svg</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/font/vjs.svg</destination>
+			<type>plain</type>
+			<uuidstructure>f63b69e6-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f63b69e7-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/font/vjs.ttf</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/font/vjs.ttf</destination>
+			<type>plain</type>
+			<uuidstructure>f6572f48-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f6572f49-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/font/vjs.woff</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/videojs/font/vjs.woff</destination>
+			<type>plain</type>
+			<uuidstructure>f669ccea-5859-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>f669cceb-5859-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Mon, 20 Oct 2014 13:06:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 13:06:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

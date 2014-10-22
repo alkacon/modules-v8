@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
+		<creator>andreas</creator>
 		<opencms_version>9.4.8</opencms_version>
-		<createdate>Thu, 16 Oct 2014 08:26:58 GMT</createdate>
+		<createdate>Wed, 22 Oct 2014 10:08:32 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,16 +14,16 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap template and formatters.]]></description>
-		<version>9.0.1</version>
+		<version>9.5.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail/>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="com.alkacon.bootstrap.basics" version="9.0.1"/>
-			<dependency name="com.alkacon.bootstrap.schemas" version="9.0.1"/>
 			<dependency name="org.opencms.ugc" version="9.4.0"/>
+			<dependency name="com.alkacon.bootstrap.schemas" version="9.5.0"/>
+			<dependency name="com.alkacon.bootstrap.basics" version="9.5.0"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
@@ -35,10 +35,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>fa8df23a-5479-11e4-8e91-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 15 Oct 2014 14:46:00 GMT</datelastmodified>
+			<uuidstructure>610b78c0-554a-11e4-8792-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 16 Oct 2014 15:37:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 15 Oct 2014 14:46:00 GMT</datecreated>
+			<datecreated>Thu, 16 Oct 2014 15:37:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -57,10 +57,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>fc4f9fa6-5479-11e4-8e91-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 15 Oct 2014 14:46:02 GMT</datelastmodified>
+			<uuidstructure>62c92e8c-554a-11e4-8792-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 16 Oct 2014 15:37:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 15 Oct 2014 14:46:02 GMT</datecreated>
+			<datecreated>Thu, 16 Oct 2014 15:37:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -131,12 +131,68 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/elements/list-large-singlepage.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/list-large-singlepage.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>ea05d64f-5452-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>ea05d650-5452-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 12:49:36 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Wed, 15 Oct 2014 10:06:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Large list AJAX element]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[params=(pageUri,__locale,itemsPerPage,collectorParam,teaserLength,currPage,buttonColor,showDate)]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/elements/list-small-singlepage.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/list-small-singlepage.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>1e5fced7-5436-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>1e5fced8-5436-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Wed, 15 Oct 2014 12:30:36 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 15 Oct 2014 06:40:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Small list AJAX element]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[params=(pageUri,__locale,itemsPerPage,collectorParam,teaserLength,showDate,currPage)]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/elements/login.jsp</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/elements/login.jsp</destination>
 			<type>jsp</type>
 			<uuidstructure>261e9861-2126-11e3-bb06-000c297c001d</uuidstructure>
 			<uuidresource>261e9862-2126-11e3-bb06-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 22 Oct 2013 10:37:57 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 10:41:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 12:22:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -252,12 +308,248 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/article-fancy.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/article-fancy.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>d7fcbebb-47a8-11e3-8ae6-000c29d28104</uuidstructure>
+			<uuidresource>d7fcbebc-47a8-11e3-8ae6-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 07:33:00 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 12:33:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for an article (fancy)]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/article-fancy.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/article-fancy.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>0a6bd11e-47a9-11e3-8ae6-000c29d28104</uuidstructure>
+			<uuidresource>0a6bd11f-47a9-11e3-8ae6-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:56:43 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 12:35:10 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article fancy formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-left.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-left.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>60739184-1c73-11e3-b68b-000c29f9a2ec</uuidstructure>
+			<uuidresource>60739185-1c73-11e3-b68b-000c29f9a2ec</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 07:34:29 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Fri, 13 Sep 2013 12:52:41 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for an article with image left]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-left.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-left.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>4ad8233a-4212-11e3-9920-000c29d28104</uuidstructure>
+			<uuidresource>4ad8233b-4212-11e3-9920-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:54:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 31 Oct 2013 09:53:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article formatter with image left]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-right.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-right.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>0b8d593a-4782-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>0b8d804b-4782-11e3-ba23-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 07:34:49 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 07:56:01 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for an article with image right]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-right.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-right.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>c217d0e0-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>c217d0e1-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:56:42 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 08:22:36 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article formatter with image right]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-top.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-top.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>13f60eff-4782-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>13f60f00-4782-11e3-ba23-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 07:35:08 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 07:56:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for an article with image top]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-top.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/article-img-top.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>dd54c70e-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>dd54c70f-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:56:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 07 Nov 2013 08:23:22 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article formatter with image top]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/blog-detail.jsp</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/blog-detail.jsp</destination>
 			<type>jsp</type>
 			<uuidstructure>1c792fa5-4795-11e3-852c-000c29d28104</uuidstructure>
 			<uuidresource>1c792fa6-4795-11e3-852c-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:57:44 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 13:00:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 10:12:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -285,7 +577,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>fa1811af-4794-11e3-852c-000c29d28104</uuidstructure>
 			<uuidresource>fa1811b0-4794-11e3-852c-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 16 Oct 2014 06:41:44 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 13:00:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 10:11:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -294,6 +586,66 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Blog entry detail formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/blog-grid.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/blog-grid.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>f1e03dfe-4a33-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>f1e03dff-4a33-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Mon, 13 Oct 2014 12:12:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 12:59:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for blog entries]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/blog-grid.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/blog-grid.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>f1e3c073-4a33-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>f1e3c074-4a33-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 16 Oct 2014 07:23:41 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 12:59:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blog entry default formatter]]></value>
 				</property>
 				<property>
 					<name>locale</name>
@@ -341,7 +693,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>dd6850e4-e00b-11e3-b2f0-005056b60ccd</uuidstructure>
 			<uuidresource>dd6850e5-e00b-11e3-b2f0-005056b60ccd</uuidresource>
-			<datelastmodified>Thu, 16 Oct 2014 06:42:10 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 13:01:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 20 May 2014 10:45:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -421,7 +773,7 @@
 			<type>jsp</type>
 			<uuidstructure>68b8480a-3c7e-11e3-a99f-000c2943a707</uuidstructure>
 			<uuidresource>68b8480b-3c7e-11e3-a99f-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 07:58:45 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:10:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 07:32:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -449,7 +801,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>f40b638d-420a-11e3-9920-000c29d28104</uuidstructure>
 			<uuidresource>f40b638e-420a-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 14:55:57 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:10:38 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 Oct 2013 09:00:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -481,7 +833,7 @@
 			<type>jsp</type>
 			<uuidstructure>3496dbbd-210d-11e3-9f67-000c297c001d</uuidstructure>
 			<uuidresource>3496dbbe-210d-11e3-9f67-000c297c001d</uuidresource>
-			<datelastmodified>Wed, 05 Feb 2014 15:02:08 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:07:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 09:23:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -536,6 +888,186 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/iconbox.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/iconbox.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>5548055c-3cc3-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>5548055d-3cc3-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 11:21:51 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Mon, 15 Sep 2014 10:30:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for an icon box]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/iconbox.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/iconbox.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>18709ca6-3cc3-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>18709ca7-3cc3-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:41:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 15 Sep 2014 10:28:55 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Icon box formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/image-simple.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/image-simple.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>2f644002-43b8-11e4-93d3-005056b61161</uuidstructure>
+			<uuidresource>2f644003-43b8-11e4-93d3-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 16:07:07 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Wed, 24 Sep 2014 06:58:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for an image as simple image]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/image-simple.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/image-simple.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>a2234a97-43b9-11e4-93d3-005056b61161</uuidstructure>
+			<uuidresource>a2234a98-43b9-11e4-93d3-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:40:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 24 Sep 2014 07:08:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image as simple image formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/image.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/image.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>0544380d-3a57-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>0544380e-3a57-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 16:07:34 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 08:30:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for an image]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/image.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/image.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>0549dd62-3a57-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>0549dd63-3a57-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:40:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 12 Sep 2014 08:30:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image as box with text formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/imagegalleryshow.jsp</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/imagegalleryshow.jsp</destination>
 			<type>jsp</type>
@@ -569,7 +1101,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>0bb8b86b-420d-11e3-9920-000c29d28104</uuidstructure>
 			<uuidresource>0bb8b86c-420d-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 16 Oct 2014 06:43:37 GMT</datelastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 08:59:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 Oct 2013 09:15:54 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -689,7 +1221,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>8c438511-420d-11e3-9920-000c29d28104</uuidstructure>
 			<uuidresource>8c438512-420d-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 14:58:25 GMT</datelastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 09:01:45 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 Oct 2013 09:19:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -716,20 +1248,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/jumbotron.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/jumbotron.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/layoutrow.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/layoutrow.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>35650c26-1ac9-11e3-a5c5-000c29f9a2ec</uuidstructure>
-			<uuidresource>35650c27-1ac9-11e3-a5c5-000c29f9a2ec</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 14:22:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 11 Sep 2013 10:02:03 GMT</datecreated>
+			<uuidstructure>bfc16b0e-3d8b-11e4-ba5b-005056b61161</uuidstructure>
+			<uuidresource>bfc16b0f-3d8b-11e4-ba5b-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 11:21:06 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Tue, 16 Sep 2014 10:25:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Formatter for a jumbotron]]></value>
+					<value><![CDATA[Formatter for a layout row]]></value>
 				</property>
 				<property>
 					<name>cache</name>
@@ -744,20 +1276,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/jumbotron.xml</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/jumbotron.xml</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/layoutrow.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/layoutrow.xml</destination>
 			<type>formatter_config</type>
-			<uuidstructure>c9e060a7-420d-11e3-9920-000c29d28104</uuidstructure>
-			<uuidresource>c9e060a8-420d-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:15:35 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 31 Oct 2013 09:21:14 GMT</datecreated>
+			<uuidstructure>cb9a8cd7-38ca-11e4-a560-005056b61161</uuidstructure>
+			<uuidresource>cb9a8cd8-38ca-11e4-a560-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 10:38:59 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Wed, 10 Sep 2014 09:13:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Jumbotron default formatter]]></value>
+					<value><![CDATA[Layout row formatter]]></value>
 				</property>
 				<property>
 					<name>locale</name>
@@ -781,7 +1313,7 @@
 			<type>jsp</type>
 			<uuidstructure>556fdf01-46d5-11e3-ae58-000c29d28104</uuidstructure>
 			<uuidresource>556fdf02-46d5-11e3-ae58-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 08:01:45 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:47:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 11:19:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -805,7 +1337,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>a721e9f6-46d6-11e3-ae58-000c29d28104</uuidstructure>
 			<uuidresource>a721e9f7-46d6-11e3-ae58-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 16 Oct 2014 06:44:27 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:24:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 11:29:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -837,7 +1369,7 @@
 			<type>jsp</type>
 			<uuidstructure>caabadf1-21db-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>caabadf2-21db-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 08:02:30 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:46:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 10:02:43 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -861,7 +1393,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>5bd4a97b-45fe-11e3-945d-000c29d28104</uuidstructure>
 			<uuidresource>5bd4a97c-45fe-11e3-945d-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 14:58:13 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:28:15 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 09:40:51 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -921,7 +1453,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>d3ab4632-46bc-11e3-8fa9-000c29d28104</uuidstructure>
 			<uuidresource>d3ab4633-46bc-11e3-8fa9-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 15:34:02 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:02:36 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 08:24:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -981,7 +1513,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>269a0c58-46bd-11e3-8fa9-000c29d28104</uuidstructure>
 			<uuidresource>269a0c59-46bd-11e3-8fa9-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 11:47:46 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:03:38 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 08:26:36 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1013,7 +1545,7 @@
 			<type>jsp</type>
 			<uuidstructure>5e9a18fa-241f-11e3-adc8-000c297c001d</uuidstructure>
 			<uuidresource>5e9a18fb-241f-11e3-adc8-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 05 Nov 2013 16:41:29 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 11:58:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 23 Sep 2013 07:11:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1041,7 +1573,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>9a7941b3-420e-11e3-9920-000c29d28104</uuidstructure>
 			<uuidresource>9a7941b4-420e-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 16 Oct 2014 06:45:58 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 11:40:34 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 Oct 2013 09:27:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1073,7 +1605,7 @@
 			<type>jsp</type>
 			<uuidstructure>faf4bfdc-47a0-11e3-8ae6-000c29d28104</uuidstructure>
 			<uuidresource>faf4bfdd-47a0-11e3-8ae6-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 16 Oct 2014 08:16:15 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 07:58:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 11:37:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1101,7 +1633,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>4ca40121-47a1-11e3-8ae6-000c29d28104</uuidstructure>
 			<uuidresource>4ca40122-47a1-11e3-8ae6-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 16 Oct 2014 08:16:49 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 08:06:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 11:39:45 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1128,12 +1660,132 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-grid-accordion.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-grid-accordion.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>50192742-3f40-11e4-a791-005056b61161</uuidstructure>
+			<uuidresource>50192743-3f40-11e4-a791-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 12:12:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 14:30:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for a tabs content as accordion]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-grid-accordion.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-grid-accordion.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>501cd0c7-3f40-11e4-a791-005056b61161</uuidstructure>
+			<uuidresource>501cd0c8-3f40-11e4-a791-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 12:35:07 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 14:30:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Tabs formatter as accordion]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-grid-standard.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-grid-standard.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>5020533d-3f40-11e4-a791-005056b61161</uuidstructure>
+			<uuidresource>5020533e-3f40-11e4-a791-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 12:12:01 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 14:30:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for a tabs content as tabs]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-grid-standard.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-grid-standard.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>50231262-3f40-11e4-a791-005056b61161</uuidstructure>
+			<uuidresource>50231263-3f40-11e4-a791-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 12:35:33 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Thu, 18 Sep 2014 14:30:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Tabs standard formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-standard.jsp</source>
 			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-standard.jsp</destination>
 			<type>jsp</type>
 			<uuidstructure>fc5081f5-1f86-11e3-8a31-000c29f9a2ec</uuidstructure>
 			<uuidresource>fc5081f6-1f86-11e3-8a31-000c29f9a2ec</uuidresource>
-			<datelastmodified>Thu, 16 Oct 2014 08:16:35 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 07:58:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 17 Sep 2013 10:50:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1161,7 +1813,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>e5ca9be9-420f-11e3-9920-000c29d28104</uuidstructure>
 			<uuidresource>e5ca9bea-420f-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 16 Oct 2014 08:17:32 GMT</datelastmodified>
+			<datelastmodified>Mon, 20 Oct 2014 08:06:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 Oct 2013 09:36:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1188,20 +1840,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/teaserrow.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/teaserrow.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/templaterow.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/templaterow.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>0371f7a4-3c8e-11e3-a99f-000c2943a707</uuidstructure>
-			<uuidresource>0371f7a5-3c8e-11e3-a99f-000c2943a707</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 08:10:22 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 24 Oct 2013 09:23:59 GMT</datecreated>
+			<uuidstructure>a85cb336-277d-11e4-96d6-005056b61161</uuidstructure>
+			<uuidresource>a85cb337-277d-11e4-96d6-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 11:20:16 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 08:48:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Formatter for a teaser row]]></value>
+					<value><![CDATA[Formatter for a template row]]></value>
 				</property>
 				<property>
 					<name>cache</name>
@@ -1216,20 +1868,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/teaserrow.xml</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/teaserrow.xml</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/templaterow.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/templaterow.xml</destination>
 			<type>formatter_config</type>
-			<uuidstructure>27dcabef-4210-11e3-9920-000c29d28104</uuidstructure>
-			<uuidresource>27dcabf0-4210-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 14:57:20 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 31 Oct 2013 09:38:10 GMT</datecreated>
+			<uuidstructure>a85f9969-277d-11e4-96d6-005056b61161</uuidstructure>
+			<uuidresource>a85f996a-277d-11e4-96d6-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 10:39:15 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 08:48:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Teaser row default formatter]]></value>
+					<value><![CDATA[Template row formatter]]></value>
 				</property>
 				<property>
 					<name>locale</name>
@@ -1248,20 +1900,24 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-fancy.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-fancy.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/text-headline.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/text-headline.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>d7fcbebb-47a8-11e3-8ae6-000c29d28104</uuidstructure>
-			<uuidresource>d7fcbebc-47a8-11e3-8ae6-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 08:11:14 GMT</datelastmodified>
+			<uuidstructure>7b392b56-4a0a-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>7b392b57-4a0a-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 08:08:56 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 07 Nov 2013 12:33:45 GMT</datecreated>
+			<datecreated>Thu, 02 Oct 2014 08:02:40 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Blog entry inline formatter (no detail link)]]></value>
+					<value><![CDATA[Formatter for a text as headline]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -1272,20 +1928,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-fancy.xml</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-fancy.xml</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/text-headline.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/text-headline.xml</destination>
 			<type>formatter_config</type>
-			<uuidstructure>0a6bd11e-47a9-11e3-8ae6-000c29d28104</uuidstructure>
-			<uuidresource>0a6bd11f-47a9-11e3-8ae6-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 16 Oct 2014 06:47:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 07 Nov 2013 12:35:10 GMT</datecreated>
+			<uuidstructure>71e7c340-4a0a-11e4-9866-005056b61161</uuidstructure>
+			<uuidresource>71e7c341-4a0a-11e4-9866-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 10:39:40 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 08:02:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Textblock fancy formatter]]></value>
+					<value><![CDATA[Text as headline formatter]]></value>
 				</property>
 				<property>
 					<name>locale</name>
@@ -1304,20 +1960,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-left.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-left.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/text-jumbotron.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/text-jumbotron.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>60739184-1c73-11e3-b68b-000c29f9a2ec</uuidstructure>
-			<uuidresource>60739185-1c73-11e3-b68b-000c29f9a2ec</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 08:11:43 GMT</datelastmodified>
+			<uuidstructure>c42f1a1b-3cd1-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>c42f1a1c-3cd1-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Mon, 15 Sep 2014 12:18:41 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 13 Sep 2013 12:52:41 GMT</datecreated>
+			<datecreated>Mon, 15 Sep 2014 12:13:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Formatter for a textblock with image left]]></value>
+					<value><![CDATA[Formatter for a text as jumbotron]]></value>
 				</property>
 				<property>
 					<name>cache</name>
@@ -1332,20 +1988,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-left.xml</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-left.xml</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/text-jumbotron.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/text-jumbotron.xml</destination>
 			<type>formatter_config</type>
-			<uuidstructure>4ad8233a-4212-11e3-9920-000c29d28104</uuidstructure>
-			<uuidresource>4ad8233b-4212-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 08:21:53 GMT</datelastmodified>
+			<uuidstructure>e1ea56b0-3cd1-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>e1ea56b1-3cd1-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:52:01 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 31 Oct 2013 09:53:28 GMT</datecreated>
+			<datecreated>Mon, 15 Sep 2014 12:14:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Textblock formatter with image left]]></value>
+					<value><![CDATA[Text as Jumbotron formatter]]></value>
 				</property>
 				<property>
 					<name>locale</name>
@@ -1364,20 +2020,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-right.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-right.jsp</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/text.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/text.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>0b8d593a-4782-11e3-ba23-000c29d28104</uuidstructure>
-			<uuidresource>0b8d804b-4782-11e3-ba23-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 08:12:04 GMT</datelastmodified>
+			<uuidstructure>aaede9c2-3a5f-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>aaede9c3-3a5f-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 13:57:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 07 Nov 2013 07:56:01 GMT</datecreated>
+			<datecreated>Fri, 12 Sep 2014 09:32:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Formatter for a textblock with image right]]></value>
+					<value><![CDATA[Formatter for a text (default)]]></value>
 				</property>
 				<property>
 					<name>cache</name>
@@ -1392,80 +2048,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-right.xml</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-right.xml</destination>
+			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/text.xml</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/text.xml</destination>
 			<type>formatter_config</type>
-			<uuidstructure>c217d0e0-4785-11e3-ba23-000c29d28104</uuidstructure>
-			<uuidresource>c217d0e1-4785-11e3-ba23-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 08:23:02 GMT</datelastmodified>
+			<uuidstructure>98ee376c-3a5f-11e4-bed5-005056b61161</uuidstructure>
+			<uuidresource>98ee376d-3a5f-11e4-bed5-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 15:20:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 07 Nov 2013 08:22:36 GMT</datecreated>
+			<datecreated>Fri, 12 Sep 2014 09:31:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Textblock formatter with image right]]></value>
-				</property>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-top.jsp</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-top.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>13f60eff-4782-11e3-ba23-000c29d28104</uuidstructure>
-			<uuidresource>13f60f00-4782-11e3-ba23-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 20 Aug 2014 08:12:20 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 07 Nov 2013 07:56:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Formatter for a textblock with image top]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[container-element;locale]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-top.xml</source>
-			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters/textblock-img-top.xml</destination>
-			<type>formatter_config</type>
-			<uuidstructure>dd54c70e-4785-11e3-ba23-000c29d28104</uuidstructure>
-			<uuidresource>dd54c70f-4785-11e3-ba23-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 08:23:41 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 07 Nov 2013 08:23:22 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Textblock formatter with image top]]></value>
+					<value><![CDATA[Text default formatter]]></value>
 				</property>
 				<property>
 					<name>locale</name>
@@ -1587,7 +2183,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>926e8abb-4194-11e3-b99c-5404a6b6dfe8</uuidstructure>
 			<uuidresource>926e8abc-4194-11e3-b99c-5404a6b6dfe8</uuidresource>
-			<datelastmodified>Wed, 05 Feb 2014 15:10:35 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 10:35:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Oct 2013 18:53:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1638,8 +2234,8 @@
 			<type>plain</type>
 			<uuidstructure>52f716c6-20f8-11e3-b4d8-000c297c001d</uuidstructure>
 			<uuidresource>52f716c7-20f8-11e3-b4d8-000c297c001d</uuidresource>
-			<datelastmodified>Thu, 21 Aug 2014 10:30:06 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 09:16:49 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 06:54:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1786,6 +2382,38 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-grid-page.jsp</source>
+			<destination>system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-grid-page.jsp</destination>
+			<type>containerpage_template</type>
+			<uuidstructure>c8a951f8-3989-11e4-a560-005056b61161</uuidstructure>
+			<uuidresource>c8a951f9-3989-11e4-a560-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 09:17:30 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 08:01:06 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Grid Bootstrap Page]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[uri;locale]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/css/style-editor.css]]></value>
+				</property>
+				<property>
+					<name>template.provider</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=%(templatepath)]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>

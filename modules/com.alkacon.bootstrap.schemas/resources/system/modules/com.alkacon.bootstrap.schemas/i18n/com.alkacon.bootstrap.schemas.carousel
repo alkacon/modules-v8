@@ -3,12 +3,12 @@
 <XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
   <Bundle language="en">
     <Message>
-      <Key><![CDATA[label.BootstrapCarousel.Title]]></Key>
-      <Value><![CDATA[Title]]></Value>
+      <Key><![CDATA[label.BootstrapCarousel.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapCarousel.Title.help]]></Key>
-      <Value><![CDATA[The title of the carousel can be hidden with an element setting.]]></Value>
+      <Key><![CDATA[label.BootstrapCarousel.Headline.help]]></Key>
+      <Value><![CDATA[The headline of the carousel can be hidden with an element setting.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapCarousel.Item]]></Key>
@@ -43,7 +43,15 @@
       <Value><![CDATA[The caption text is shown in an overlay.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[bootstrap.carousel.default.Title]]></Key>
+      <Key><![CDATA[label.BootstrapCarousel.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarousel.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the carousel. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.carousel.default.Headline]]></Key>
       <Value><![CDATA[New Carousel]]></Value>
     </Message>
     <Message>
@@ -57,12 +65,12 @@
   </Bundle>
   <Bundle language="de">
     <Message>
-      <Key><![CDATA[label.BootstrapCarousel.Title]]></Key>
-      <Value><![CDATA[Titel]]></Value>
+      <Key><![CDATA[label.BootstrapCarousel.Headline]]></Key>
+      <Value><![CDATA[Überschrift]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapCarousel.Title.help]]></Key>
-      <Value><![CDATA[Der Titel des Karussells kann mit einer Elementeinstellung verborgen werden.]]></Value>
+      <Key><![CDATA[label.BootstrapCarousel.Headline.help]]></Key>
+      <Value><![CDATA[Die Überschrift des Karussells kann mit einer Elementeinstellung verborgen werden.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapCarousel.Item]]></Key>
@@ -97,7 +105,15 @@
       <Value><![CDATA[Der Bildtext wird mit einem Overlay angezeigt.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[bootstrap.carousel.default.Title]]></Key>
+      <Key><![CDATA[label.BootstrapCarousel.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapCarousel.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel des Karussells für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.carousel.default.Headline]]></Key>
       <Value><![CDATA[Neues Karussell]]></Value>
     </Message>
     <Message>

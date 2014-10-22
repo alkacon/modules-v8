@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/iconbox.xsd">
+  <BootstrapIconBox language="en">
+    <Headline><![CDATA[Inline Editing]]></Headline>
+    <Icon><![CDATA[Heart]]></Icon>
+    <Text><![CDATA[Just click on a text to edit it - directly in the page.]]></Text>
+    <Color><![CDATA[yellow]]></Color>
+  </BootstrapIconBox>
+</BootstrapIconBoxs>

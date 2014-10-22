@@ -7,7 +7,7 @@
       <Code name="Code0">
         <links>
           <link name="link6" internal="true" type="IMG">
-            <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_opencms_png24.png]]></target>
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/logo/logo_opencms_png24.png]]></target>
             <uuid>aa1519ad-1abc-11e3-9246-000c29f9a2ec</uuid>
             <query><![CDATA[__scale=w:165,h:40,t:2,c:transparent]]></query>
           </link>
@@ -17,7 +17,7 @@
           </link>
           <link name="link5" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>c3616758-47c4-11e4-a64e-005056b61161</uuid>
+            <uuid>62c250b8-554a-11e4-8792-005056b61161</uuid>
           </link>
           <link name="link2" internal="true" type="A">
             <target><![CDATA[/sites/default/release/]]></target>
@@ -29,7 +29,7 @@
           </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>c3616758-47c4-11e4-a64e-005056b61161</uuid>
+            <uuid>62c250b8-554a-11e4-8792-005056b61161</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/demo/]]></target>

@@ -26,7 +26,7 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <a class="navbar-brand" href="<cms:link>${value.LogoLink}</cms:link>">
-                    <cms:img scaleType="2" scaleColor="transparent" height="40" id="logo-header" src="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/resources/img/logo/logo_opencms_png24.png:aa1519ad-1abc-11e3-9246-000c29f9a2ec)" alt="Logo"/>
+                    <cms:img scaleType="2" scaleColor="transparent" height="40" id="logo-header" src="%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/logo/logo_opencms_png24.png:aa1519ad-1abc-11e3-9246-000c29f9a2ec)" alt="Logo"/>
                 </a>
             </div>
 			<!-- Menu -->       

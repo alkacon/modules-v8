@@ -27,6 +27,14 @@
       <Value><![CDATA[The number of images that are shown in each row.]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[label.BootstrapImageGalleryShow.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImageGalleryShow.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the image gallery show. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[bootstrap.imagegalleryshow.default.Title]]></Key>
       <Value><![CDATA[New Image Gallery Show]]></Value>
     </Message>
@@ -63,6 +71,14 @@
     <Message>
       <Key><![CDATA[label.BootstrapImageGalleryShow.ImageCount.help]]></Key>
       <Value><![CDATA[Die Anzahl der Bilder pro Reihe.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImageGalleryShow.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapImageGalleryShow.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel der Bilderschau für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.imagegalleryshow.default.Title]]></Key>

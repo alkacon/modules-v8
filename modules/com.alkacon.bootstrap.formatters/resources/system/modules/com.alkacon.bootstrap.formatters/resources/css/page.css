@@ -17,6 +17,10 @@
   border-radius:0;
 }
 
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-radius: 0;
+}
+
 /* Red boxes, buttons should always use "OpenCms red" */
 .btn-u-red {
    background: #b31b34 !important;

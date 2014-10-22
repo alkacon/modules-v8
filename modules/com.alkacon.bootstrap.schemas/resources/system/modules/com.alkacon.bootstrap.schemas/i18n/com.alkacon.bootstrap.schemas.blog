@@ -71,6 +71,14 @@
       <Value><![CDATA[General]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[label.BootstrapBlog.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapBlog.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the blog. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[bootstrap.blog.default.Text]]></Key>
       <Value><![CDATA[Please edit the blog entry text.]]></Value>
     </Message>
@@ -147,6 +155,14 @@
     <Message>
       <Key><![CDATA[label.BootstrapBlog.General]]></Key>
       <Value><![CDATA[Allgemein]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapBlog.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapBlog.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel des Blogs für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.blog.default.Text]]></Key>

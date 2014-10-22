@@ -16,7 +16,7 @@
 		<xsd:sequence>
 			<xsd:element name="Headline" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Text" type="OpenCmsHtml" />
-			<xsd:element name="Image" type="OpenCmsBootstrapImage" minOccurs="0" />
+			<xsd:element name="Image" type="OpenCmsBootstrapNestedImage" minOccurs="0" />
 			<xsd:element name="Link" type="OpenCmsBootstrapLink" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>

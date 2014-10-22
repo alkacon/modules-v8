@@ -21,7 +21,7 @@
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
     <Detail>true</Detail>
-    <NestedContainers>false</NestedContainers>
+    <NestedContainers>true</NestedContainers>
     <Setting>
       <PropertyName><![CDATA[hidetitle]]></PropertyName>
       <DisplayName><![CDATA[%(key.bootstrap.setting.hidetitle)]]></DisplayName>

@@ -13,12 +13,14 @@
 
 	<xsd:complexType name="OpenCmsBootstrapList">
 		<xsd:sequence>
-			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Headline" type="OpenCmsString" />
 			<xsd:element name="FilterQueries" type="OpenCmsString" />
 			<xsd:element name="SortOrder" type="OpenCmsString" />
 			<xsd:element name="RowCount" type="OpenCmsString" />
+      <xsd:element name="ItemsPerPage" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="CreatePath" type="OpenCmsString" />
 			<xsd:element name="Link" type="OpenCmsBootstrapLink" minOccurs="0" />
+      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" /> 
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -27,11 +29,13 @@
 		<xsd:appinfo>
 			<resourcebundle name="com.alkacon.bootstrap.schemas.list"/>
 			<mappings>
-				<mapping element="Title" mapto="property:Title" />
-				<mapping element="Title" mapto="urlName" />
+				<mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
+				<mapping element="GalleryTitle" mapto="urlName" useDefault="true" />
 			</mappings>
 			<defaults>
-				<default element="Title" value="%(key.bootstrap.list.default.Title)" />
+				<default element="Headline" value="%(key.bootstrap.list.default.Headline)" />
+        		<default element="ItemsPerPage" value="5" />
+            <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Headline)" resolveMacros="false" />
 			</defaults>
 			<layouts>
 				<layout element="SortOrder" widget="SelectorWidget" configuration="asc:%(key.bootstrap.list.value.asc)|desc:%(key.bootstrap.list.value.desc)"/>
