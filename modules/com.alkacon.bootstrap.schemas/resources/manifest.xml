@@ -1751,6 +1751,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/workplace/resources/filetypes/bs-navigation_big.png</source>
+			<destination>system/workplace/resources/filetypes/bs-navigation_big.png</destination>
+			<type>image</type>
+			<uuidstructure>cb0afb09-46c6-11e3-8fa9-000c29d28104</uuidstructure>
+			<uuidresource>cb0afb0a-46c6-11e3-8fa9-000c29d28104</uuidresource>
+			<datelastmodified>Wed, 06 Nov 2013 13:17:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Nov 2013 09:35:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>		
+		<file>
 			<source>system/workplace/resources/filetypes/bs-slider.png</source>
 			<destination>system/workplace/resources/filetypes/bs-slider.png</destination>
 			<type>image</type>
