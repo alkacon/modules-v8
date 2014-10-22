@@ -16,7 +16,7 @@
 	<div class="tab-v1">
 		<ul class="nav nav-tabs">
 			<c:forEach var="label" items="${content.valueList.Label}" varStatus="status">
-				<li class="${status.first? 'active':''}"><a href="#${cms.container.name}-${cms.element.instanceId}-tab-container${status.count}" data-toggle="tab">${label}</a></li>
+				<li class="${status.first? 'active':''}"><a href="#${cms.element.instanceId}-tab-container${status.count}" data-toggle="tab">${label}</a></li>
 			</c:forEach>
 		</ul>
 

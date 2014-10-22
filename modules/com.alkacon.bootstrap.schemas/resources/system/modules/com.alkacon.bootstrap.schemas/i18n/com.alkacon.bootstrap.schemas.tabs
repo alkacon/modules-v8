@@ -74,6 +74,14 @@
       <Key><![CDATA[bootstrap.tabs.default.Text]]></Key>
       <Value><![CDATA[Please edit the tab item text.]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.emptycontainer.headline]]></Key>
+      <Value><![CDATA[Empty tab]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.emptycontainer.text]]></Key>
+      <Value><![CDATA[Please drag a layout row here.]]></Value>
+    </Message>
   </Bundle>
   <Bundle language="de">
     <Message>
@@ -147,6 +155,14 @@
     <Message>
       <Key><![CDATA[bootstrap.tabs.default.Text]]></Key>
       <Value><![CDATA[Bitte bearbeiten Sie den Text des Reiters.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.emptycontainer.headline]]></Key>
+      <Value><![CDATA[Leerer Reiter]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.tabs.emptycontainer.text]]></Key>
+      <Value><![CDATA[Bitte ziehen Sie eine Layoutzeile in den Reiter.]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

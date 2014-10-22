@@ -60,7 +60,7 @@
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-carousel]]></Key>
-      <Value><![CDATA[This component cycles through images like a carousel.]]></Value>
+      <Value><![CDATA[This cycles through images like a carousel.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-teaserrow]]></Key>
@@ -84,7 +84,7 @@
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-tabs]]></Key>
-      <Value><![CDATA[A content with multiple tabs, it can also be rendered as accordion.]]></Value>
+      <Value><![CDATA[Creates multiple tabs, it can also be rendered as accordion.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-flexible]]></Key>
@@ -278,7 +278,7 @@
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-carousel]]></Key>
-      <Value><![CDATA[Diese Komponente durchläuft Bilder wie ein Karussell.]]></Value>
+      <Value><![CDATA[Dies durchläuft Bilder wie ein Karussell.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-teaserrow]]></Key>
@@ -302,7 +302,7 @@
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-tabs]]></Key>
-      <Value><![CDATA[Ein Inhalt mit mehreren Reitern, deren Inhalt individuell konfigurierbar ist. Kann auch als Akkordion dargestellt werden.]]></Value>
+      <Value><![CDATA[Erzeugt mehrere Reiter, deren Inhalt individuell konfigurierbar ist. Kann auch als Akkordion dargestellt werden.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-flexible]]></Key>
@@ -398,7 +398,7 @@
     </Message>
     <Message>
       <Key><![CDATA[desc.bs-iconbox]]></Key>
-      <Value><![CDATA[Zeigt weine farbige Box mit Icon an, ein optionaler Link führt zu weiteren Informationen.]]></Value>
+      <Value><![CDATA[Zeigt eine farbige Box mit Icon an, ein optionaler Link führt zu weiteren Informationen.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-templaterow]]></Key>
