@@ -12,27 +12,27 @@
             <query><![CDATA[__scale=w:165,h:40,t:2,c:transparent]]></query>
           </link>
           <link name="link4" internal="true" type="A">
-            <target><![CDATA[/sites/default/demo/login/]]></target>
-            <uuid>e6b2fe3a-274a-11e3-a044-000c29d28104</uuid>
+            <target><![CDATA[/sites/default/login/]]></target>
+            <uuid>d87f4764-58f1-11e4-903d-005056b61161</uuid>
           </link>
           <link name="link5" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>62c250b8-554a-11e4-8792-005056b61161</uuid>
+            <uuid>43f232f8-59e0-11e4-9939-005056b61161</uuid>
           </link>
           <link name="link2" internal="true" type="A">
             <target><![CDATA[/sites/default/release/]]></target>
             <uuid>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuid>
           </link>
           <link name="link3" internal="true" type="A">
-            <target><![CDATA[/sites/default/demo/search-page/]]></target>
+            <target><![CDATA[/sites/default/elementary-demo/search-page/]]></target>
             <uuid>708105f3-4072-11e3-be04-000c297c001d</uuid>
           </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>62c250b8-554a-11e4-8792-005056b61161</uuid>
+            <uuid>43f232f8-59e0-11e4-9939-005056b61161</uuid>
           </link>
           <link name="link1" internal="true" type="A">
-            <target><![CDATA[/sites/default/demo/]]></target>
+            <target><![CDATA[/sites/default/elementary-demo/]]></target>
             <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
           </link>
         </links>

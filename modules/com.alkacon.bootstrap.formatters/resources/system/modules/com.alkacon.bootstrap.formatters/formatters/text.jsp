@@ -12,10 +12,10 @@
 		<div class="headline"><h2 ${rdfa.Headline}>${value.Headline}</h2></div>
 	</c:if>
 	
-	<div ${rdfa.Link}>
+	<div <c:if test="${not value.Link.exists}">${rdfa.Link}</c:if>>
 		<div ${rdfa.Text}>${value.Text}</div>		
 		<c:if test="${value.Link.exists}">
-			<p><a class="btn-u btn-u-small" href="<cms:link>${value.Link.value.URI}</cms:link>">${value.Link.value.Text}</a></p>
+			<p ${rdfa.Link}><a class="btn-u btn-u-small" href="<cms:link>${value.Link.value.URI}</cms:link>">${value.Link.value.Text}</a></p>
 		</c:if>		
 	</div>	
 	

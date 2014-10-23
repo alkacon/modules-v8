@@ -38,6 +38,11 @@
     color: #FFFFFF;
 }
 
+/* Jumbotron headline */
+.jumbotron h1, .jumbotron .h1 {
+  line-height: 1.0;
+}
+
 /* Unspecified styles for content alignment */
 .center {
     text-align: center;

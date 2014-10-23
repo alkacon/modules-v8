@@ -51,7 +51,8 @@
         	</script>
         </c:if>
       
-			 <div class="${cssShadow}" ${rdfa.Image}>
+			 <div class="${cssShadow} <c:if test="${cms.element.setting.zoom.value != 'true' and cms.element.setting.shape.value == 'none'}">thumbnails thumbnail-style thumbnail-kenburn</c:if>">
+        <c:if test="${cms.element.setting.zoom.value != 'true' and cms.element.setting.shape.value == 'none'}"><div class="overflow-hidden"></c:if>
         <c:choose>
         <c:when test="${cms.element.setting.zoom.value == 'true'}">
           <a class="fancybox-button zoomer" href="<cms:link>${value.Image}</cms:link>" title="${value.Headline}" data-rel="fancybox-button" id="fancyboxzoom${cms.element.id}">
@@ -61,7 +62,7 @@
           <a href="<cms:link>${value.Link}</cms:link>">
         </c:when>
         </c:choose>				
-				  <img src="<cms:link>${value.Image}</cms:link>" class="${cssShape} img-responsive ${cssBorder}" alt="${value.Headline}" />
+				  <span ${rdfa.Image}><img src="<cms:link>${value.Image}</cms:link>" class="${cssShape} img-responsive ${cssBorder}" alt="${value.Headline}" /></span>
         <c:choose>
         <c:when test="${cms.element.setting.zoom.value == 'true'}">
           <span class="zoom-icon"></span>
@@ -71,7 +72,8 @@
         <c:when test="${value.Link.isSet}">
           </a>
         </c:when>
-        </c:choose>	
+        </c:choose>
+        <c:if test="${cms.element.setting.zoom.value != 'true' and cms.element.setting.shape.value == 'none'}"></div></c:if>	
 			 </div>
        <c:if test="${cms.element.setting.showtext.value == 'true'}">
         <p ${rdfa.Text}>${value.Text}</p>

@@ -28,14 +28,14 @@
             	</c:if>
 
 				<c:if test="${imgalign == 'left'}">
-					<div class="col-md-4 col-sm-2 hidden-xs">
+					<div class="col-md-4 col-sm-2 hidden-xs" ${value.Paragraph.rdfa.Image}>
 						<cms:img src="${value.Paragraph.value.Image.value.Image}" width="800" cssclass="img-responsive"
 							scaleColor="transparent" scaleType="0" noDim="true" alt="${paragraph.value.Image.value.Title}"
 							title="${paragraph.value.Image.value.Title}" />
 					</div>
 				</c:if>
 
-				<div class="col-md-8 col-sm-10 col-xs-12">
+				<div class="<c:if test="${imgalign != 'noimage'}">col-md-8 col-sm-10 </c:if>col-xs-12" <c:if test="${imgalign == 'noimage'}">${value.Paragraph.rdfa.Image}</c:if>>
 					<h2><a href="<cms:link>${content.filename}</cms:link>" ${rdfa.Title}>${value.Title}</a></h2>
 					<c:set var="showdate"><c:out value="${cms.element.settings.showdate}" default="true" /></c:set>
 					<c:if test="${showdate}">
@@ -55,7 +55,7 @@
 				</div>
 
                 <c:if test="${imgalign == 'right'}">
-					<div class="col-md-4 col-sm-2 hidden-xs">
+					<div class="col-md-4 col-sm-2 hidden-xs" ${value.Paragraph.rdfa.Image}>
 						<cms:img src="${value.Paragraph.value.Image.value.Image}" width="800" cssclass="img-responsive"
 							scaleColor="transparent" scaleType="0" noDim="true" alt="${paragraph.value.Image.value.Title}"
 							title="${paragraph.value.Image.value.Title}" />

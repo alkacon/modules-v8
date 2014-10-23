@@ -91,7 +91,7 @@
       <Value><![CDATA[Yellow]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[bootstrap.teaserrow.message.new]]></Key>
+      <Key><![CDATA[bootstrap.iconbox.message.new]]></Key>
       <Value><![CDATA[<strong>New Icon Box</strong>, please edit the content.]]></Value>
     </Message>
   </Bundle>

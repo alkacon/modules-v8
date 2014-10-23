@@ -7,14 +7,14 @@
     <LogoLink>
       <link internal="true" type="WEAK">
         <target><![CDATA[/sites/default/]]></target>
-        <uuid>62c250b8-554a-11e4-8792-005056b61161</uuid>
+        <uuid>43f232f8-59e0-11e4-9939-005056b61161</uuid>
       </link>
     </LogoLink>
     <Header name="Header0">
       <links>
         <link name="link4" internal="true" type="A">
-          <target><![CDATA[/sites/default/elementary-demo/login/]]></target>
-          <uuid>e6b2fe3a-274a-11e3-a044-000c29d28104</uuid>
+          <target><![CDATA[/sites/default/login/]]></target>
+          <uuid>d87f4764-58f1-11e4-903d-005056b61161</uuid>
         </link>
         <link name="link2" internal="true" type="A">
           <target><![CDATA[/sites/default/release/]]></target>
@@ -26,7 +26,7 @@
         </link>
         <link name="link0" internal="true" type="A">
           <target><![CDATA[/sites/default/]]></target>
-          <uuid>62c250b8-554a-11e4-8792-005056b61161</uuid>
+          <uuid>43f232f8-59e0-11e4-9939-005056b61161</uuid>
         </link>
         <link name="link1" internal="true" type="A">
           <target><![CDATA[/sites/default/tutorial/]]></target>

@@ -8,9 +8,9 @@
 <cms:bundle basename="com.alkacon.bootstrap.schemas.image">
 <cms:formatter var="content" val="value" rdfa="rdfa">
 
-	<div ${content.rdfa["Link|Image"]}>				
-		<div class="thumbnails thumbnail-style thumbnail-kenburn">
-			<c:if test="${value.Image.isSet}"><div class="thumbnail-img">
+	<div>				
+		<div class="thumbnails thumbnail-style thumbnail-kenburn" <c:if test="${not value.Image.isSet}">${rdfa.Image}</c:if>>
+			<c:if test="${value.Image.isSet}"><div class="thumbnail-img" ${rdfa.Image}>
 				<div class="overflow-hidden"><img src="<cms:link>${value.Image}</cms:link>" class="img-responsive" alt="" /></div>
 				<c:if test="${value.Link.isSet}"><a class="btn-more hover-effect" href="<cms:link>${value.Link}</cms:link>"><fmt:message key="bootstrap.image.frontend.readmore" /></a></c:if>
 				</div></c:if>

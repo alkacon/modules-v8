@@ -148,7 +148,7 @@
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.row.columns.editor.editor]]></Key>
-      <Value><![CDATA[Sitemap Editor]]></Value>
+      <Value><![CDATA[Redakteur]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.row.columns.editor.developer]]></Key>
@@ -161,6 +161,10 @@
     <Message>
       <Key><![CDATA[bootstrap.row.headline.emptycontainer]]></Key>
       <Value><![CDATA[Leerer Container]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.restricted]]></Key>
+      <Value><![CDATA[Begrenzt]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.row.headline.detailonlycontainer]]></Key>
@@ -314,7 +318,7 @@
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.row.columns.editor.editor]]></Key>
-      <Value><![CDATA[Sitemap Manager]]></Value>
+      <Value><![CDATA[Editor]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.row.columns.editor.developer]]></Key>
@@ -327,6 +331,10 @@
     <Message>
       <Key><![CDATA[bootstrap.row.headline.emptycontainer]]></Key>
       <Value><![CDATA[Empty Container]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.row.restricted]]></Key>
+      <Value><![CDATA[Restricted]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.row.headline.detailonlycontainer]]></Key>

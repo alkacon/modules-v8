@@ -7,7 +7,8 @@
       <Code name="Code0">
         <links>
           <link name="link6" internal="true" type="A">
-            <target><![CDATA[/sites/default/demo/login/]]></target>
+            <target><![CDATA[/sites/default/login/]]></target>
+            <uuid>d87f4764-58f1-11e4-903d-005056b61161</uuid>
           </link>
           <link name="link4" internal="true" type="A">
             <target><![CDATA[/sites/default/release/]]></target>

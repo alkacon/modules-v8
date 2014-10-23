@@ -12,7 +12,7 @@
 			<h2 ${rdfa.Headline}>${value.Headline}</h2>
 		</c:when>
 		<c:otherwise>
-			<h2>----------</h2>
+			<h2 ${rdfa.Headline}>----------</h2>
 		</c:otherwise>
 		</c:choose>
 	</div>

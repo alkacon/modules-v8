@@ -87,7 +87,7 @@
             </c:when>
 
             <c:when test="${imgalign == 'right'}">
-                <div class="row-fluid">
+                <div class="row">
                     <div class="col-md-8">
                         <div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>       
                         <c:if test="${paragraph.value.Link.exists}">

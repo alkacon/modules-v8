@@ -28,12 +28,12 @@
 			</c:if>
 
 			<c:if test="${imgalign == 'left'}">
-				<div class="col-md-4 col-sm-2 hidden-xs">
+				<div class="col-md-4 col-sm-2 hidden-xs" ${paragraph.rdfa.Image}>
 					<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" noDim="true" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 				</div>
 			</c:if>
 
-			<div class="<c:if test="${imgalign != 'noimage'}">col-md-8 col-sm-10 </c:if>col-xs-12">
+			<div class="<c:if test="${imgalign != 'noimage'}">col-md-8 col-sm-10 </c:if>col-xs-12" <c:if test="${imgalign == 'noimage'}">${paragraph.rdfa.Image}</c:if>>
 				<c:if test="${paragraph.value.Headline.isSet}">
 				<h2 class="heading-md" ${paragraph.rdfa.Headline}>${paragraph.value.Headline}</h2>
 				</c:if>
@@ -44,7 +44,7 @@
 			</div>
 
 			<c:if test="${imgalign == 'right'}">
-				<div class="col-md-4 col-sm-2 hidden-xs">
+				<div class="col-md-4 col-sm-2 hidden-xs" ${paragraph.rdfa.Image}>
 					<cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" noDim="true" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
 				</div>
 			</c:if>

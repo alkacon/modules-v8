@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/article.xsd">
+  <BootstrapArticle language="en">
+    <Paragraph>
+      <Headline><![CDATA[Top questions]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li>Is OpenCms open source?</li>
+<li>Where can I download OpenCms?</li>
+<li>Can I download OpenCms multiple times?</li>
+<li>Which hardware is required for OpenCms?</li>
+<li>Which components are required by OpenCms?</li>
+<li>Can I use OpenCms for my company?</li>
+</ul>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/cliparts/15.png]]></target>
+            <uuid>f0c238b4-55fb-11e4-8db5-005056b61161</uuid>
+          </link>
+        </Image>
+        <Title/>
+      </Image>
+    </Paragraph>
+  </BootstrapArticle>
+</BootstrapArticles>

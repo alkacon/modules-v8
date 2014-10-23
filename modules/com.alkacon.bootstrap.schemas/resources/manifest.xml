@@ -4,7 +4,7 @@
 	<info>
 		<creator>andreas</creator>
 		<opencms_version>9.4.8</opencms_version>
-		<createdate>Wed, 22 Oct 2014 10:08:45 GMT</createdate>
+		<createdate>Thu, 23 Oct 2014 10:55:30 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -46,7 +46,7 @@
 			<resource uri="/system/workplace/resources/filetypes/bs-list.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-list_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-navigation.png"/>
-			<resource uri="/system/workplace/Resources/filetypes/bs-navigation_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/bs-navigation_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-templaterow.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-templaterow_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/bs-layoutrow.png"/>
@@ -169,10 +169,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>610b78c0-554a-11e4-8792-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 16 Oct 2014 15:37:47 GMT</datelastmodified>
+			<uuidstructure>4251a220-59e0-11e4-9939-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 22 Oct 2014 11:40:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 16 Oct 2014 15:37:47 GMT</datecreated>
+			<datecreated>Wed, 22 Oct 2014 11:40:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -191,10 +191,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>62c92e8c-554a-11e4-8792-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 16 Oct 2014 15:37:50 GMT</datelastmodified>
+			<uuidstructure>43f8748c-59e0-11e4-9939-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 22 Oct 2014 11:40:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 16 Oct 2014 15:37:50 GMT</datecreated>
+			<datecreated>Wed, 22 Oct 2014 11:40:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -230,7 +230,7 @@
 			<uuidstructure>1a6836da-1aca-11e3-a5c5-000c29f9a2ec</uuidstructure>
 			<uuidresource>1a6836db-1aca-11e3-a5c5-000c29f9a2ec</uuidresource>
 			<datelastmodified>Wed, 22 Oct 2014 08:05:40 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 11 Sep 2013 10:08:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -453,7 +453,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>6d1de642-3cc4-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>6d1de643-3cc4-11e4-bed5-005056b61161</uuidresource>
-			<datelastmodified>Tue, 16 Sep 2014 07:16:12 GMT</datelastmodified>
+			<datelastmodified>Thu, 23 Oct 2014 07:30:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 15 Sep 2014 10:38:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -621,10 +621,10 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>ac532d8b-5908-11e4-903d-005056b61161</uuidstructure>
 			<uuidresource>ac532d8c-5908-11e4-903d-005056b61161</uuidresource>
-			<datelastmodified>Mon, 20 Oct 2014 10:56:45 GMT</datelastmodified>
+			<datelastmodified>Thu, 23 Oct 2014 08:30:51 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 09:57:31 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -757,7 +757,7 @@
 			<datelastmodified>Wed, 22 Oct 2014 09:22:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 22 Oct 2014 06:52:47 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -834,8 +834,8 @@
 			<type>plain</type>
 			<uuidstructure>9f689d43-3a52-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>9f689d44-3a52-11e4-bed5-005056b61161</uuidresource>
-			<datelastmodified>Tue, 21 Oct 2014 10:03:39 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 23 Oct 2014 10:46:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 12 Sep 2014 07:58:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -855,7 +855,7 @@
 			<uuidstructure>950bb8a0-3a52-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>950bb8a1-3a52-11e4-bed5-005056b61161</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 15:52:00 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 12 Sep 2014 07:58:29 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -915,7 +915,7 @@
 			<uuidstructure>79027ddb-38c0-11e4-b543-005056b61161</uuidstructure>
 			<uuidresource>79027ddc-38c0-11e4-b543-005056b61161</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 10:04:47 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 08:00:04 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1015,7 +1015,7 @@
 			<uuidstructure>a84ef789-277d-11e4-96d6-005056b61161</uuidstructure>
 			<uuidresource>a84ef78a-277d-11e4-96d6-005056b61161</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 10:05:59 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 19 Aug 2014 08:48:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1035,7 +1035,7 @@
 			<uuidstructure>8c618d0d-3a52-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>8c618d0e-3a52-11e4-bed5-005056b61161</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 10:06:16 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 12 Sep 2014 07:58:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1108,7 +1108,7 @@
 			<uuidstructure>17c0012a-210c-11e3-9f67-000c297c001d</uuidstructure>
 			<uuidresource>17c0012b-210c-11e3-9f67-000c297c001d</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 15:46:48 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 09:15:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1128,7 +1128,7 @@
 			<uuidstructure>774833e0-1c62-11e3-80da-000c29f9a2ec</uuidstructure>
 			<uuidresource>774833e1-1c62-11e3-80da-000c29f9a2ec</uuidresource>
 			<datelastmodified>Wed, 22 Oct 2014 07:25:14 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 10:51:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1188,7 +1188,7 @@
 			<uuidstructure>349d2a1d-1c60-11e3-80da-000c29f9a2ec</uuidstructure>
 			<uuidresource>349d2a1e-1c60-11e3-80da-000c29f9a2ec</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 15:47:17 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 10:35:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1339,7 +1339,7 @@
 			<datelastmodified>Wed, 22 Oct 2014 08:33:24 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 22 Oct 2014 06:48:26 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">
@@ -1359,7 +1359,7 @@
 			<datelastmodified>Wed, 22 Oct 2014 08:33:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 22 Oct 2014 06:48:46 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">
@@ -1769,7 +1769,7 @@
 			</properties>
 			<relations/>
 			<accesscontrol/>
-		</file>		
+		</file>
 		<file>
 			<source>system/workplace/resources/filetypes/bs-slider.png</source>
 			<destination>system/workplace/resources/filetypes/bs-slider.png</destination>

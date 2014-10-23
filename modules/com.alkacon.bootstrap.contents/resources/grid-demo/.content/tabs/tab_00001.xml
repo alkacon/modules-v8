@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTabs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/tabs.xsd">
+  <BootstrapTab language="en">
+    <Title><![CDATA[Popular topics]]></Title>
+    <Label><![CDATA[What is a responsive template?]]></Label>
+    <Label><![CDATA[How to customize the page?]]></Label>
+    <Label><![CDATA[Can I use the demo template for my website?]]></Label>
+    <Label><![CDATA[How can I edit contents?]]></Label>
+    <Label><![CDATA[Is it safe to update?]]></Label>
+  </BootstrapTab>
+</BootstrapTabs>

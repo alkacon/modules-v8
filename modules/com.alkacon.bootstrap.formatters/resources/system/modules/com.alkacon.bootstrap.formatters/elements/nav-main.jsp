@@ -73,16 +73,17 @@
 	<c:if test="${not empty nav.items}"></li></c:if>
     <li id="searchButtonHeader">
       <i class="search fa fa-search search-btn"></i>
-			<div class="search-open">
-				<form class="form-inline" name="searchFormHeader" action="${cms.functionDetail['Search page']}" method="post">
-					<div class="input-group animated fadeInDown" id="searchContentHeader">
-						<input type="text" class="form-control" placeholder="Search" id="searchWidgetAutoCompleteHeader" />
-						<span class="input-group-btn">
-							<button class="btn-u" type="button" onclick="this.form.submit(); return false;">Go</button>
-						</span>
-					</div>
-				</form>
-			</div>
     </li>
   </ul>
+	<div class="search-open">
+		<form class="form-inline" name="searchFormHeader" action="${cms.functionDetail['Search page']}" method="post">
+			<div class="input-group animated fadeInDown" id="searchContentHeader">
+				<input type="text" class="form-control" placeholder="Search" id="searchWidgetAutoCompleteHeader" />
+				<span class="input-group-btn">
+					<button class="btn-u" type="button" onclick="this.form.submit(); return false;">Go</button>
+				</span>
+			</div>
+		</form>
+	</div>
+
 </div><!-- /collapse -->
