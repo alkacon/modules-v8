@@ -8,7 +8,7 @@
       <Type><![CDATA[layoutrowsonly]]></Type>
       <Count><![CDATA[50]]></Count>
       <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
-      <EmptyText><![CDATA[Full column. Drop a layout row in this container.]]></EmptyText>
+      <EmptyText><![CDATA[Full template column. Drop a layout row in this container.]]></EmptyText>
       <XS><![CDATA[col-xs-12]]></XS>
       <SM><![CDATA[-]]></SM>
       <MD><![CDATA[-]]></MD>

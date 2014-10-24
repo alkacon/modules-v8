@@ -76,9 +76,9 @@
       <PropertyName><![CDATA[shape]]></PropertyName>
       <DisplayName><![CDATA[Shape]]></DisplayName>
       <Description><![CDATA[Select an optional shape for the image.]]></Description>
-      <Widget><![CDATA[radio]]></Widget>
+      <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[none]]></Default>
-      <WidgetConfig><![CDATA[none:%(key.bootstrap.image.shape.none)|rounded:%(key.bootstrap.image.shape.rounded)|circle:%(key.bootstrap.image.shape.circle)]]></WidgetConfig>
+      <WidgetConfig><![CDATA[none:%(key.bootstrap.image.shape.none)|zoom:Animation effect|rounded:%(key.bootstrap.image.shape.rounded)|circle:%(key.bootstrap.image.shape.circle)]]></WidgetConfig>
     </Setting>
   </NewFormatter>
 </NewFormatters>

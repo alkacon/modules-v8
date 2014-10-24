@@ -109,7 +109,7 @@
     </c:forEach><!-- //END paragraphs -->
     
     <c:if test="${content.isEditable}">
-    <a href="<cms:link>%(link.weak:/demo/blog-entries/post-a-new-blog-entry/)</cms:link>?fileId=${content.id}">
+    <a href="<cms:link>${cms.subSitePath}blog-entries/post-a-new-blog-entry/</cms:link>?fileId=${content.id}">
         <button type="button" class="btn btn-default">Edit this blog entry</button>
     </a>
     </c:if>    

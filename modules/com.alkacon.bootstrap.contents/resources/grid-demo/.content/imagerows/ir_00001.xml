@@ -2,7 +2,7 @@
 
 <BootstrapImagerows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd">
   <BootstrapImagerow language="en">
-    <Title><![CDATA[Other team members]]></Title>
+    <Title><![CDATA[Team members]]></Title>
     <Item>
       <Headline><![CDATA[Consultant]]></Headline>
       <Text><![CDATA[Haley Dunphy]]></Text>
@@ -18,8 +18,8 @@
       <Text><![CDATA[Mitchell Pritchett]]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.galleries/people/09.jpg]]></target>
-          <uuid>b6b6f931-4705-11e3-8417-000c29d28104</uuid>
+          <target><![CDATA[/sites/default/.galleries/people/20.jpg]]></target>
+          <uuid>34d7aeac-590b-11e4-903d-005056b61161</uuid>
         </link>
       </Image>
     </Item>
@@ -38,8 +38,8 @@
       <Text><![CDATA[Pepper Saltzman]]></Text>
       <Image>
         <link type="WEAK">
-          <target><![CDATA[/sites/default/.galleries/people/05.jpg]]></target>
-          <uuid>b3d8df75-4705-11e3-8417-000c29d28104</uuid>
+          <target><![CDATA[/sites/default/.galleries/people/09.jpg]]></target>
+          <uuid>b6b6f931-4705-11e3-8417-000c29d28104</uuid>
         </link>
       </Image>
     </Item>

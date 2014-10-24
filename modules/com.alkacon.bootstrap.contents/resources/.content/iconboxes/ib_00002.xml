@@ -7,10 +7,9 @@
     <Text><![CDATA[Information about the new features in this OpenCms release version.]]></Text>
     <Link>
       <link internal="true" type="WEAK">
-        <target><![CDATA[/sites/default/tutorial/]]></target>
-        <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
+        <target><![CDATA[/sites/default/release/]]></target>
+        <uuid>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuid>
       </link>
     </Link>
-    <Color><![CDATA[blue]]></Color>
   </BootstrapIconBox>
 </BootstrapIconBoxs>

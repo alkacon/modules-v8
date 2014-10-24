@@ -2,13 +2,13 @@
 
 <BootstrapTemplateRows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/templaterow.xsd">
   <BootstrapTemplateRow language="en">
-    <Title><![CDATA[Full Column (TD)]]></Title>
+    <Title><![CDATA[Full Column (Restricted)]]></Title>
     <Column>
       <Name><![CDATA[fullcolumn]]></Name>
       <Type><![CDATA[layoutrowsonly]]></Type>
       <Count><![CDATA[5]]></Count>
       <Editors><![CDATA[ROLE.DEVELOPER]]></Editors>
-      <EmptyText><![CDATA[Full column. Drop a layout row in this container.]]></EmptyText>
+      <EmptyText><![CDATA[Full template column. Drop a layout row in this container.]]></EmptyText>
       <XS><![CDATA[col-xs-12]]></XS>
       <SM><![CDATA[-]]></SM>
       <MD><![CDATA[-]]></MD>

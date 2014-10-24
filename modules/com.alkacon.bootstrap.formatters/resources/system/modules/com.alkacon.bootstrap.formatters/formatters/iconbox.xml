@@ -20,6 +20,7 @@
         <ContainerType><![CDATA[onethird]]></ContainerType>
         <ContainerType><![CDATA[twothirds]]></ContainerType>
         <ContainerType><![CDATA[onequarter]]></ContainerType>
+        <ContainerType><![CDATA[threequarters]]></ContainerType>
       </Types>
     </Match>
     <Preview>true</Preview>

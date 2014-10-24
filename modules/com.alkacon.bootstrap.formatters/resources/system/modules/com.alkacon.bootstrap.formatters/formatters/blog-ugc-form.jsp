@@ -51,8 +51,8 @@
             </div>
             <div class="checkbox">
                 <label>
-                    Remove current image
                     <input type="checkbox" name="imageremove">
+                    Remove current image
                 </label>
             </div>   
         </div>

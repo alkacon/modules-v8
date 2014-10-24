@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
+  <BootstrapText language="en">
+    <Headline><![CDATA[More modification options]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Have you already noticed the grey "bullseye" icon that appears on the right corner over some elements that you see on the page? Move the mouse over one of these icons and you will see a list of options.</p>
+<ul>
+<li>For example, you can move an element around in the page with the <em><strong>Move in page</strong></em> icon.</li>
+<li>You can change the appearance of an element in the dialog that appears when you click on <strong><em>Settings</em></strong> .</li>
+<li>And of course you can edit the element. You will see how this works on the next page of this introduction.</li>
+</ul>]]></content>
+    </Text>
+    <Link>
+      <Text><![CDATA[Continue to step 2: Edit content]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/tutorial-new/step-2-edit-content/]]></target>
+          <uuid>b8747a69-5ae1-11e4-955d-005056b61161</uuid>
+        </link>
+      </URI>
+    </Link>
+  </BootstrapText>
+</BootstrapTexts>

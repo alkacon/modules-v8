@@ -48,6 +48,23 @@
     text-align: center;
 }
 
+/* Main navigation active background color, hover color */
+@media (max-width: 992px) {
+  .header .navbar-default .navbar-nav > .active > a, .header .navbar-default .navbar-nav > .active > a:hover, .header .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #b31b34;
+  }
+  
+  .header .navbar-default .navbar-nav > li > a:hover {
+    color: #b31b34;
+  }
+}
+
+/* Side navigation border color */
+.sidebar-nav-v1 > li.active, .sidebar-nav-v1 > li.active:hover {
+	/* border-color: #717984; */
+  border-color: #ddd;
+}
+
 /* Side Navigation level 2 and 3 */
 .nav-side .nav-side-level-1 a {
 	padding-left: 17px;

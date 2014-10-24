@@ -35,8 +35,7 @@
         </c:if>
 </jsp:useBean>
 
-<div class="row">
-<form class="reg-page" <c:if test="${cms.container.type == 'content-full'}">style="width: 400px"</c:if> action="<cms:link>${cms.requestContext.uri}</cms:link>" method="get">
+<form class="reg-page" action="<cms:link>${cms.requestContext.uri}</cms:link>" method="get">
 
 <input type="hidden" name="requestedResource" value="${param.requestedResource}" />
 
@@ -60,9 +59,9 @@
 		</div>   
 	</c:when>
 	<c:otherwise>
-		<div class="reg-header">
+		<div class="reg-header contex-bg">
 			<h3><fmt:message key="bootstrap.login.title.loggedin" /></h3>
-			<p><fmt:message key="bootstrap.login.message.loggedin" />: <b>${cms.requestContext.currentUser.name}</b></p>
+			<p class="bg-warning rounded-4x"><fmt:message key="bootstrap.login.message.loggedin" />: <span class="badge badge-red rounded-2x">${cms.requestContext.currentUser.name}</span></p>
 		</div>
 
 		<div class="controls form-inline">
@@ -79,6 +78,5 @@
 </c:if>
                
 </form>  
-</div>
 
 </cms:bundle> 

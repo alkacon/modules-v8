@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
+  <BootstrapText language="en">
+    <Headline><![CDATA[Using the form based editor]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>All content in OpenCms is stored in structured fields. You can open the full form based editor by either clicking the pen icon that is shown on the "bullseye" edit point menu that appears on the upper right of an element, or by clicking the pen icon in the toolbar while you edit content inline.</p>
+<p>Using either the form based editor or the inline editor is a matter of preference.</p>]]></content>
+    </Text>
+    <Link>
+      <Text><![CDATA[Continue with step 3: Work with the sitemap]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/tutorial-new/step-3-work-with-the-sitemap/]]></target>
+          <uuid>c7b5f723-5ae1-11e4-955d-005056b61161</uuid>
+        </link>
+      </URI>
+    </Link>
+  </BootstrapText>
+</BootstrapTexts>

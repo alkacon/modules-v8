@@ -64,7 +64,7 @@
 		</c:if>
 
 		<li ${listClass}>
-		<a href="<c:choose><c:when test="${elem.navigationLevel && nextElemDeeper}">javacript:void(0);</c:when><c:otherwise><cms:link>${elem.resourceName}</cms:link></c:otherwise></c:choose>"
+		<a href="<cms:link>${elem.resourceName}</cms:link>"
     <c:if test="${parentItem and nextElemDeeper}"> class="dropdown-toggle" data-toggle="dropdown"</c:if>>${elem.navText}</a>
 		<c:set var="oldLevel" value="${currentLevel}" />
 	</c:forEach>

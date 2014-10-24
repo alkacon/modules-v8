@@ -6,7 +6,7 @@
 
 <cms:formatter var="content" val="value" rdfa="rdfa">
 
-<div class="margin-bottom-30 <c:out value="${cms.element.settings.wrapperclass}" default="" />">
+<div class="margin-bottom-30 <c:out value="${cms.element.settings.wrapperclass}" default="" /> <c:out value="${cms.element.settings.boxlayout}" default="" />">
 
 	<c:if test="${not cms.element.settings.hidetitle and value.Headline.isSet}">
 		<div class="headline"><h2 ${rdfa.Headline}>${value.Headline}</h2></div>

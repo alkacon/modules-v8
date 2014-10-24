@@ -19,10 +19,10 @@
 	<c:set var="oldLevel" value="" />
 	<c:forEach items="${nav.items}" var="elem" varStatus="status">
 		<c:set var="currentLevel" value="${elem.navTreeLevel}" />
-
-		<c:choose>
+    
+    <c:choose>
 			<c:when test="${empty oldLevel}"></c:when>
-			<c:when test="${currentLevel > oldLevel}"><ul class="collapse" id="collapse-${subIdCounter}"><c:set var="subIdCounter">${subIdCounter + 1}</c:set></c:when>
+			<c:when test="${currentLevel > oldLevel}"><ul class="collapse <c:if test="${fn:startsWith(elem.resourceName, cms.requestContext.folderUri) || (elem.navigationLevel && fn:startsWith(cms.requestContext.uri, elem.parentFolderName))}">in</c:if>" id="collapse-${subIdCounter}"><c:set var="subIdCounter">${subIdCounter + 1}</c:set></c:when>
 			<c:when test="${currentLevel == oldLevel}"></li></c:when>
 			<c:when test="${oldLevel > currentLevel}">
 				<c:forEach begin="${currentLevel + 1}" end="${oldLevel}"></li></ul></c:forEach>
@@ -31,7 +31,7 @@
 
 		<c:set var="markItem">false</c:set>
 		<c:if test="${fn:startsWith(cms.requestContext.uri, elem.resourceName) || (elem.navigationLevel && fn:startsWith(cms.requestContext.uri, elem.parentFolderName))}">
-			<c:set var="markItem">true</c:set>
+				<c:set var="markItem">true</c:set>
 		</c:if>
 
 		<c:set var="listClass" value="" />

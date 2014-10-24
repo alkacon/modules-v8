@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
+  <BootstrapText language="en">
+    <Headline><![CDATA[Working with the sitemap]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>To create new pages or change the navigation structure of existing pages OpenCms offers the sitemap editor. To open the sitemap, click on the sitemap icon located on the right of the toolbar.</p>]]></content>
+    </Text>
+  </BootstrapText>
+</BootstrapTexts>

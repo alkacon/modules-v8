@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/article.xsd">
+  <BootstrapArticle language="en">
+    <Title><![CDATA[Blog page: Create a new blog post]]></Title>
+    <Paragraph>
+      <Headline><![CDATA[Create a new blog post]]></Headline>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>New in OpenCms 9.5: User generated content allows you to create XML contents in OpenCms from simple HTML forms on the website.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Post a new entry]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/grid-demo/blog-entries/post-a-new-blog-entry/]]></target>
+            <uuid>a78e3b80-5abe-11e4-955d-005056b61161</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Paragraph>
+  </BootstrapArticle>
+</BootstrapArticles>

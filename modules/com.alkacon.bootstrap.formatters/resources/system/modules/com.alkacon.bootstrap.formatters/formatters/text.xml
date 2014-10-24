@@ -36,6 +36,14 @@
       <Default><![CDATA[false]]></Default>
     </Setting>
     <Setting>
+      <PropertyName><![CDATA[boxlayout]]></PropertyName>
+      <DisplayName><![CDATA[Box layout]]></DisplayName>
+      <Description><![CDATA[Optional Box layout variants for the text.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[none]]></Default>
+      <WidgetConfig><![CDATA[none:None|tag-box tag-box-v1:Colored border top|tag-box tag-box-v2:Colored border left (Grey background)|tag-box tag-box-v7:Colored border bottom|tag-box tag-box-v3:Framed Box|tag-box tag-box-v6:Grey background box|tag-box tag-box-v4:Dotted box|tag-box tag-box-v5:Dotted box (centered)]]></WidgetConfig>
+    </Setting>
+    <Setting>
       <PropertyName><![CDATA[wrapperclass]]></PropertyName>
       <DisplayName><![CDATA[Wrapper CSS class]]></DisplayName>
       <Description><![CDATA[Optional CSS class name for the outer <div> element.]]></Description>

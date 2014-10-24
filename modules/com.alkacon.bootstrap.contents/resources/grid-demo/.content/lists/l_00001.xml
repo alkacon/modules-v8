@@ -2,7 +2,7 @@
 
 <BootstrapLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/list.xsd">
   <BootstrapList language="en">
-    <Headline><![CDATA[Test]]></Headline>
+    <Headline><![CDATA[Latest entries]]></Headline>
     <FilterQueries/>
     <SortOrder><![CDATA[desc]]></SortOrder>
     <RowCount><![CDATA[1000]]></RowCount>

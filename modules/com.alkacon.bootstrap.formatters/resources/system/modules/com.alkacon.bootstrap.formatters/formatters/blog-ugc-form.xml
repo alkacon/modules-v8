@@ -74,6 +74,12 @@
           <uuid>b8d5d3fd-e00b-11e3-b2f0-005056b60ccd</uuid>
         </link>
       </JavascriptLink>
+      <JavascriptLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/resources/js/ugc/ugc-blog.js]]></target>
+          <uuid>d5f4ecaa-5abb-11e4-955d-005056b61161</uuid>
+        </link>
+      </JavascriptLink>
     </HeadIncludeJs>
   </NewFormatter>
 </NewFormatters>
