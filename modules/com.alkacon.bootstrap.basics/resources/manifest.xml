@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>andreas</creator>
-		<opencms_version>9.4.8</opencms_version>
-		<createdate>Thu, 23 Oct 2014 10:54:53 GMT</createdate>
+		<opencms_version>9.4.9</opencms_version>
+		<createdate>Mon, 27 Oct 2014 11:45:35 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -31,10 +31,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>4251a220-59e0-11e4-9939-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 22 Oct 2014 11:40:44 GMT</datelastmodified>
+			<uuidstructure>1d02a78b-5b72-11e4-869a-005056b61161</uuidstructure>
+			<datelastmodified>Fri, 24 Oct 2014 11:37:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 22 Oct 2014 11:40:44 GMT</datecreated>
+			<datecreated>Fri, 24 Oct 2014 11:37:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -53,10 +53,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>43f8748c-59e0-11e4-9939-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 22 Oct 2014 11:40:47 GMT</datelastmodified>
+			<uuidstructure>1eb2a1b7-5b72-11e4-869a-005056b61161</uuidstructure>
+			<datelastmodified>Fri, 24 Oct 2014 11:37:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 22 Oct 2014 11:40:47 GMT</datecreated>
+			<datecreated>Fri, 24 Oct 2014 11:37:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -3722,7 +3722,7 @@
 			<uuidstructure>1908df28-3a3b-11e3-a584-000c2943a707</uuidstructure>
 			<uuidresource>1908df29-3a3b-11e3-a584-000c2943a707</uuidresource>
 			<datelastmodified>Wed, 20 Aug 2014 07:01:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Mon, 21 Oct 2013 10:25:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>

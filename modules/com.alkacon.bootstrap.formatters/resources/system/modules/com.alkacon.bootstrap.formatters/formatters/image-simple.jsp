@@ -22,74 +22,48 @@
 			</c:if>
             <c:set var="cssShape"></c:set>
 			<c:if test="${cms.element.setting.shape.isSet and cms.element.setting.shape.value != 'none'}">
-                <c:choose>
-                    <c:when test="${cms.element.setting.shape.value == 'rounded'}">
-                        <c:set var="cssShape">rounded-2x</c:set>
-                    </c:when>
-                    <c:when test="${cms.element.setting.shape.value == 'circle'}">
-                        <c:set var="cssShape">rounded-x</c:set>
-                    </c:when>
-                </c:choose>
+                <c:set var="cssShape">${cms.element.setting.shape.value}</c:set>
 			</c:if>
-            
+
             <div class="margin-bottom-20">
-      
-            <c:if test="${cms.element.setting.zoom.value == 'true'}">
-                <script type="text/javascript">
-                    jQuery(document).ready(function() {
-                        jQuery("#fancyboxzoom${cms.element.id}").fancybox({
-                            groupAttr: 'data-rel',
-                            prevEffect: 'none',
-                            nextEffect: 'none',
-                            closeBtn: true,
-                            helpers: {
-                                title: {
-                                    type: 'inside'
-                                    }
-                                }
-                            });
-                    });
-                </script>
+
+            <c:if test="${cms.element.setting.showheadline.value == 'top'}">
+                <div class="headline"><h2 ${rdfa.Headline}>${value.Headline}</h2></div>
             </c:if>
-      
-			<div class="${cssShadow} <c:if test="${cms.element.setting.zoom.value != 'true' and cms.element.setting.shape.value == 'zoom'}">thumbnails thumbnail-style thumbnail-kenburn</c:if>">
-             
-            <c:if test="${cms.element.setting.zoom.value != 'true' and cms.element.setting.shape.value == 'zoom'}"><div class="overflow-hidden"></c:if>
-            <c:choose>
-                <c:when test="${cms.element.setting.zoom.value == 'true'}">
-                    <a class="fancybox-button zoomer" href="<cms:link>${value.Image}</cms:link>" title="${value.Headline}" data-rel="fancybox-button" id="fancyboxzoom${cms.element.id}">
-                    <span class="overlay-zoom">
-                </c:when>
-                <c:when test="${value.Link.isSet}">
-                  <a href="<cms:link>${value.Link}</cms:link>">
-                </c:when>
-            </c:choose>				
-            
+
+			<div class="${cssShadow}">
+
+            <c:if test="${value.Link.isSet and cms.element.setting.showlink.value == 'image'}">
+              <a href="<cms:link>${value.Link}</cms:link>">
+            </c:if>
+
 			<span ${rdfa.Image}>
                 <img src="<cms:link>${value.Image}</cms:link>" class="${cssShape} img-responsive ${cssBorder}" alt="${value.Headline}" />
             </span>
-            
-            <c:choose>
-                <c:when test="${cms.element.setting.zoom.value == 'true'}">
-                    <span class="zoom-icon"></span>
-                    </span>
-                    </a>
-                </c:when>
-                <c:when test="${value.Link.isSet}">
-                    </a>
-                </c:when>
-            </c:choose>
-            
-            <c:if test="${cms.element.setting.zoom.value != 'true' and cms.element.setting.shape.value == 'zoom'}"></div></c:if>	
-            
-			</div>
-            
-            <c:if test="${cms.element.setting.showtext.value == 'true'}">
-                <p ${rdfa.Text}>${value.Text}</p>
-                <c:if test="${cms.element.setting.zoom.value == 'true' and value.Link.isSet}"><p><a class="btn-u btn-u-small" href="<cms:link>${value.Link}</cms:link>"><fmt:message key="bootstrap.image.frontend.readmore" /></a></p></c:if>
+
+            <c:if test="${value.Link.isSet and cms.element.setting.showlink.value == 'image'}">
+              </a>
             </c:if>
             
-            </div>
+			</div>
+       
+            <c:choose>
+                <c:when test="${cms.element.setting.showheadline.value == 'bottom'}">
+                    <div class="headline"><h2 ${rdfa.Headline}>${value.Headline}</h2></div>
+                </c:when>
+                <c:when test="${cms.element.setting.showheadline.value == 'bottomcenter'}">
+                    <div class="center"><div class="margin-bottom-20"></div><p><strong ${rdfa.Headline}>${value.Headline}</strong></p></div>
+                </c:when>
+            </c:choose>
+            <c:if test="${cms.element.setting.showtext.value == 'true'}">
+                <p ${rdfa.Text}>${value.Text}</p>
+            </c:if>        
+
+            <c:if test="${value.Link.isSet and  cms.element.setting.showlink.value == 'button'}">
+                <p><a class="btn-u btn-u-small" href="<cms:link>${value.Link}</cms:link>"><fmt:message key="bootstrap.image.frontend.readmore" /></a></p>
+            </c:if>
+
+            </div>               
 		</c:otherwise>
 	</c:choose>
 

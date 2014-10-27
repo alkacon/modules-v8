@@ -7,7 +7,7 @@
     <LogoLink>
       <link internal="true" type="WEAK">
         <target><![CDATA[/sites/default/]]></target>
-        <uuid>51d6d08f-5aaa-11e4-a98c-005056b61161</uuid>
+        <uuid>1eac6023-5b72-11e4-869a-005056b61161</uuid>
       </link>
     </LogoLink>
     <Header name="Header0">
@@ -18,7 +18,7 @@
         </link>
         <link name="link2" internal="true" type="A">
           <target><![CDATA[/sites/default/tutorial/]]></target>
-          <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
+          <uuid>e839825e-5ade-11e4-955d-005056b61161</uuid>
         </link>
         <link name="link3" internal="true" type="A">
           <target><![CDATA[/sites/default/grid-demo/search-demo/]]></target>
@@ -26,7 +26,7 @@
         </link>
         <link name="link0" internal="true" type="A">
           <target><![CDATA[/sites/default/]]></target>
-          <uuid>51d6d08f-5aaa-11e4-a98c-005056b61161</uuid>
+          <uuid>1eac6023-5b72-11e4-869a-005056b61161</uuid>
         </link>
         <link name="link1" internal="true" type="A">
           <target><![CDATA[/sites/default/grid-demo/]]></target>

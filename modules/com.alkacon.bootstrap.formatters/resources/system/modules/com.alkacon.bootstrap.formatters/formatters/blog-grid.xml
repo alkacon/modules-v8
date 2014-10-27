@@ -6,7 +6,7 @@
     <Type><![CDATA[bsg-blog]]></Type>
     <Jsp>
       <link type="WEAK">
-        <target><![CDATA[/system/modules/com.alkacon.bootstrap.grid.formatters/formatters/blog.jsp]]></target>
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/blog-grid.jsp]]></target>
         <uuid>f1e03dfe-4a33-11e4-9866-005056b61161</uuid>
       </link>
     </Jsp>

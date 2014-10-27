@@ -2,7 +2,7 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
-    <NiceName><![CDATA[Image as simple image formatter]]></NiceName>
+    <NiceName><![CDATA[Standard formatter]]></NiceName>
     <Type><![CDATA[bs-image]]></Type>
     <Jsp>
       <link type="WEAK">
@@ -28,35 +28,37 @@
     <AutoEnabled>true</AutoEnabled>
     <Detail>false</Detail>
     <NestedContainers>false</NestedContainers>
-    <HeadIncludeCss>
-      <CssLink>
-        <link type="WEAK">
-          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/fancybox/source/jquery.fancybox.css]]></target>
-          <uuid>7b2bb568-3bdd-11e3-a0c9-000c2943a707</uuid>
-        </link>
-      </CssLink>
-    </HeadIncludeCss>
-    <HeadIncludeJs>
-      <JavascriptLink>
-        <link type="WEAK">
-          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/fancybox/source/jquery.fancybox.js]]></target>
-          <uuid>7b30e58b-3bdd-11e3-a0c9-000c2943a707</uuid>
-        </link>
-      </JavascriptLink>
-    </HeadIncludeJs>
     <Setting>
-      <PropertyName><![CDATA[showtext]]></PropertyName>
-      <DisplayName><![CDATA[Show Text]]></DisplayName>
-      <Description><![CDATA[if checked, the text will be shown as subtitle.]]></Description>
-      <Widget><![CDATA[checkbox]]></Widget>
+      <PropertyName><![CDATA[showheadline]]></PropertyName>
+      <DisplayName><![CDATA[Headline display]]></DisplayName>
+      <Description><![CDATA[Select how the headline will be shown.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[false]]></Default>
+      <WidgetConfig><![CDATA[false:Don't show the headline|top:Headline above the image, left aligned|bottom:Headline below, left aligned|bottomcenter:Small Headline below, centered]]></WidgetConfig>
     </Setting>
     <Setting>
-      <PropertyName><![CDATA[zoom]]></PropertyName>
-      <DisplayName><![CDATA[Zoom Image]]></DisplayName>
-      <Description><![CDATA[if checked, the image can be zoomed.]]></Description>
-      <Widget><![CDATA[checkbox]]></Widget>
+      <PropertyName><![CDATA[showtext]]></PropertyName>
+      <DisplayName><![CDATA[Text display]]></DisplayName>
+      <Description><![CDATA[Select how text will be shown.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[false]]></Default>
+      <WidgetConfig><![CDATA[false:Don't show the text|true:Text below, left aligned]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[showlink]]></PropertyName>
+      <DisplayName><![CDATA[Link display]]></DisplayName>
+      <Description><![CDATA[Select how the link will be shown.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[false]]></Default>
+      <WidgetConfig><![CDATA[false:Don't show the link|image:Image link|button:Show a link button below the image]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[shape]]></PropertyName>
+      <DisplayName><![CDATA[Shape]]></DisplayName>
+      <Description><![CDATA[Select an optional shape for the image.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[none]]></Default>
+      <WidgetConfig><![CDATA[none:Square|rounded:%(key.bootstrap.image.shape.rounded) (4px)|rounded-2x:%(key.bootstrap.image.shape.rounded) (10px)|rounded-3x:%(key.bootstrap.image.shape.rounded) (15px)|rounded-4x:%(key.bootstrap.image.shape.rounded) (20px)|rounded-x:%(key.bootstrap.image.shape.circle)]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[border]]></PropertyName>
@@ -71,14 +73,6 @@
       <Description><![CDATA[If checked, a shadow is added shadow to the image.]]></Description>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[false]]></Default>
-    </Setting>
-    <Setting>
-      <PropertyName><![CDATA[shape]]></PropertyName>
-      <DisplayName><![CDATA[Shape]]></DisplayName>
-      <Description><![CDATA[Select an optional shape for the image.]]></Description>
-      <Widget><![CDATA[select]]></Widget>
-      <Default><![CDATA[none]]></Default>
-      <WidgetConfig><![CDATA[none:%(key.bootstrap.image.shape.none)|zoom:Animation effect|rounded:%(key.bootstrap.image.shape.rounded)|circle:%(key.bootstrap.image.shape.circle)]]></WidgetConfig>
     </Setting>
   </NewFormatter>
 </NewFormatters>

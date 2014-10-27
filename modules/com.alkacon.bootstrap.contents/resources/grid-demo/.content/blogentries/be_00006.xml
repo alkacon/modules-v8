@@ -3,7 +3,7 @@
 <BootstrapBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd">
   <BootstrapBlog language="en">
     <Title><![CDATA[OpenCms is simple to use]]></Title>
-    <Date>1415091600000</Date>
+    <Date>1409817600000</Date>
     <Paragraph>
       <Text name="Text0">
         <links/>
@@ -21,6 +21,10 @@
       </Image>
     </Paragraph>
     <Category>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/location/asia/]]></target>
+        <uuid>0825108d-7194-11e0-87bc-000c2972a6a4</uuid>
+      </link>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.categories/priority/05_very_high/]]></target>
         <uuid>a2182faf-7193-11e0-87bc-000c2972a6a4</uuid>

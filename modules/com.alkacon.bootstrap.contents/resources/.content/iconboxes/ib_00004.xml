@@ -2,15 +2,14 @@
 
 <BootstrapIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/iconbox.xsd">
   <BootstrapIconBox language="en">
-    <Headline><![CDATA[Elementary Demo]]></Headline>
+    <Headline><![CDATA[Basic Demo]]></Headline>
     <Icon><![CDATA[Globe]]></Icon>
-    <Text><![CDATA[Another example website using a more elementary template.]]></Text>
+    <Text><![CDATA[Another example for a basic, fixed template that does not allow dynamic layouts.]]></Text>
     <Link>
       <link internal="true" type="WEAK">
-        <target><![CDATA[/sites/default/elementary-demo/]]></target>
+        <target><![CDATA[/sites/default/basic-demo/]]></target>
         <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
       </link>
     </Link>
-    <Color><![CDATA[red]]></Color>
   </BootstrapIconBox>
 </BootstrapIconBoxs>

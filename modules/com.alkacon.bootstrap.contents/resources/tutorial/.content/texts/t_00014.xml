@@ -12,7 +12,7 @@
       <Text><![CDATA[Continue to: Start exploring OpenCms]]></Text>
       <URI>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/tutorial-new/start-exploring-opencms/]]></target>
+          <target><![CDATA[/sites/default/tutorial/start-exploring-opencms/]]></target>
           <uuid>f02957d1-5ae1-11e4-955d-005056b61161</uuid>
         </link>
       </URI>

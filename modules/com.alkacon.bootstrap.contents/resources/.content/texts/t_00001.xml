@@ -5,11 +5,12 @@
     <Headline><![CDATA[Default login information]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<h4>Default login info</h4>
+      <content><![CDATA[<h4>Administrator login info</h4>
 <p><span class="btn-u btn-u-red">Username: Admin</span></p>
 <p><span class="btn-u btn-u-red">Password: admin</span></p>
-<p>You should change the Admin password as soon as possible! Do this in the OpenCms workplace that you can access through the "Advanced" context menu in the toolbar.</p>
-<p>Open <em><strong>View &gt; Administration</strong></em> and then select <em><strong>Account Management</strong></em> and <em><strong>User Management</strong></em>.</p>]]></content>
+<p>The Admin user has full permissions in the system. <strong>You should change the Admin password as soon as possible!</strong> Do this in the OpenCms workplace that you can access through the "Advanced" context menu in the toolbar.</p>
+<p>Open <em><strong>View &gt; Administration</strong></em> and then select <em><strong>Account Management</strong></em> and <em><strong>User Management</strong></em>.</p>
+<p>Note that for this demo the users <strong>Author</strong>, <strong>Editor</strong>, <strong>Gallator</strong> and <strong>Templator</strong> have been created as well. You should also change their passwords or disable / delete these users completely. </p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>

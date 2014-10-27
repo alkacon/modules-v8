@@ -32,10 +32,10 @@
     <Setting>
       <PropertyName><![CDATA[marginbottom]]></PropertyName>
       <DisplayName><![CDATA[Bottom Margin]]></DisplayName>
-      <Description><![CDATA[Sets an optional bottom margin of the layout row.]]></Description>
+      <Description><![CDATA[Sets an optional bottom margin below the layout row.]]></Description>
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[0]]></Default>
-      <WidgetConfig><![CDATA[0:0|5:5|10:10|20:20|30:30|40:40|50:50|60:60]]></WidgetConfig>
+      <WidgetConfig><![CDATA[0:0 (Default)|5:5|10:10|20:20|30:30|40:40|50:50|60:60]]></WidgetConfig>
     </Setting>
   </NewFormatter>
 </NewFormatters>

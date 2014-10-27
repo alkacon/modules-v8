@@ -24,14 +24,13 @@
           </link>
           <link name="link3" internal="true" type="A">
             <target><![CDATA[/sites/default/elementary-demo/]]></target>
-            <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
           </link>
           <link name="link0" internal="false" type="A">
             <target><![CDATA[http://www.alkacon.com]]></target>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/tutorial/]]></target>
-            <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
+            <uuid>e839825e-5ade-11e4-955d-005056b61161</uuid>
           </link>
         </links>
         <content><![CDATA[<div class="top">

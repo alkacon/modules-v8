@@ -2,12 +2,12 @@
 
 <BootstrapImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/image.xsd">
   <BootstrapImage language="en">
-    <Headline><![CDATA[Project Manager]]></Headline>
-    <Text><![CDATA[Claire Dunphy]]></Text>
+    <Headline><![CDATA[Team Manager]]></Headline>
+    <Text><![CDATA[Manuel Delgado]]></Text>
     <Image>
       <link type="WEAK">
-        <target><![CDATA[/sites/default/.galleries/people/12.jpg]]></target>
-        <uuid>af827d93-4705-11e3-8417-000c29d28104</uuid>
+        <target><![CDATA[/sites/default/.galleries/people/09.jpg]]></target>
+        <uuid>b6b6f931-4705-11e3-8417-000c29d28104</uuid>
       </link>
     </Image>
   </BootstrapImage>

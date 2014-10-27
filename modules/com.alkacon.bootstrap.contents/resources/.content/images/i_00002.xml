@@ -6,8 +6,9 @@
     <Text/>
     <Image>
       <link type="WEAK">
-        <target><![CDATA[/sites/default/tutorial-new/.galleries/intro-images/tut-01.png]]></target>
+        <target><![CDATA[/sites/default/tutorial/.galleries/tutorial-images/tut-01.png]]></target>
         <uuid>798fed0a-47cd-11e3-8474-000c29d28104</uuid>
+        <query><![CDATA[__scale=h:300,w:300]]></query>
       </link>
     </Image>
   </BootstrapImage>

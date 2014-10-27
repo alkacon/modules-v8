@@ -5,7 +5,7 @@
     <Headline><![CDATA[More modification options]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>Have you already noticed the grey "bullseye" icon that appears on the right corner over some elements that you see on the page? Move the mouse over one of these icons and you will see a list of options.</p>
+      <content><![CDATA[<p>Have you already noticed the grey "edit point" icon that appears on the right corner over some elements that you see on the page? Move the mouse over one of these icons and you will see a list of options.</p>
 <ul>
 <li>For example, you can move an element around in the page with the <em><strong>Move in page</strong></em> icon.</li>
 <li>You can change the appearance of an element in the dialog that appears when you click on <strong><em>Settings</em></strong> .</li>
@@ -16,7 +16,7 @@
       <Text><![CDATA[Continue to step 2: Edit content]]></Text>
       <URI>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/tutorial-new/step-2-edit-content/]]></target>
+          <target><![CDATA[/sites/default/tutorial/step-2-edit-content/]]></target>
           <uuid>b8747a69-5ae1-11e4-955d-005056b61161</uuid>
         </link>
       </URI>

@@ -2,11 +2,13 @@
 
 <BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
   <BootstrapText language="en">
-    <Headline><![CDATA[First you need to log in]]></Headline>
+    <Headline><![CDATA[Welcome to the OpenCms 9.5 tutorial]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>Before you can edit content with OpenCms, you need to log in. The default login information is displayed in the blue box on the left.</p>
-<p>Use the form below to log in:</p>]]></content>
+      <content><![CDATA[<p>This little tutorial tries to guide your first steps in OpenCms. It will eplain how to edit content and create new pages.</p>
+<h3>First you need to log in</h3>
+<p>Before you can edit content with OpenCms, you need to log in. Start with the "Editor" user. The default login information for the "Editor" is displayed in the blue box on the left.</p>
+<p>Enter the information from the box on the left in the login form below and press "Login":</p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>

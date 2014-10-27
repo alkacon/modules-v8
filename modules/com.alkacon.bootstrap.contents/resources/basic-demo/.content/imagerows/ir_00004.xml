@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapImagerows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/imagerow.xsd">
+  <BootstrapImagerow language="en">
+    <Title><![CDATA[Image row with 6 items]]></Title>
+    <Item>
+      <Headline><![CDATA[Great]]></Headline>
+      <Text><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/02.jpg]]></target>
+          <uuid>c0ac6977-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/basic-demo/]]></target>
+          <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
+        </link>
+      </Link>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Product]]></Headline>
+      <Text><![CDATA[Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut repellat.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/16.jpg]]></target>
+          <uuid>c9486461-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/basic-demo/]]></target>
+          <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
+        </link>
+      </Link>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Buy Now]]></Headline>
+      <Text><![CDATA[At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/13.jpg]]></target>
+          <uuid>c7ee2b88-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/basic-demo/]]></target>
+          <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
+        </link>
+      </Link>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Better]]></Headline>
+      <Text><![CDATA[Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/06.jpg]]></target>
+          <uuid>c33e8613-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/basic-demo/]]></target>
+          <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
+        </link>
+      </Link>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Super]]></Headline>
+      <Text><![CDATA[At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/20.jpg]]></target>
+          <uuid>cb7ecc6d-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/basic-demo/]]></target>
+          <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
+        </link>
+      </Link>
+    </Item>
+    <Item>
+      <Headline><![CDATA[Don't Wait]]></Headline>
+      <Text><![CDATA[Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.]]></Text>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/14.jpg]]></target>
+          <uuid>c851cf5b-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/basic-demo/]]></target>
+          <uuid>114934a1-21ee-11e3-b95f-000c29d28104</uuid>
+        </link>
+      </Link>
+    </Item>
+  </BootstrapImagerow>
+</BootstrapImagerows>

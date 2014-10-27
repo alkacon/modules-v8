@@ -6,7 +6,7 @@
     <FilterQueries/>
     <SortOrder><![CDATA[desc]]></SortOrder>
     <RowCount><![CDATA[1000]]></RowCount>
-    <ItemsPerPage><![CDATA[3]]></ItemsPerPage>
-    <CreatePath><![CDATA[/sites/default/grid-demo/.content/blogs/b_%(number:5).xml]]></CreatePath>
+    <ItemsPerPage><![CDATA[4]]></ItemsPerPage>
+    <CreatePath><![CDATA[/sites/default/grid-demo/.content/blogentries/be_%(number:5).xml]]></CreatePath>
   </BootstrapList>
 </BootstrapLists>

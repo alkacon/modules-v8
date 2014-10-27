@@ -79,7 +79,7 @@
 <div style="background: lightgray; height: 35px">&nbsp;</div>
 </c:if>
 
-<cms:container name="top-wide" type="content-wide" width="1200" maxElements="5" />
+<cms:container name="top-wide" type="content-wide" width="1200" maxElements="5" editableby="ROLE.DEVELOPER" />
 <!--=== Content Part ===-->
 <div class="container content">
 
@@ -111,7 +111,7 @@
 <!--=== End Content Part ===-->
 
 <!--=== Foot ===-->
-<cms:container name="foot" type="content-wide" width="1200" maxElements="5" />
+<cms:container name="foot" type="content-wide" width="1200" maxElements="5" editableby="ROLE.DEVELOPER" />
 <!--=== End Foot ===-->
 
 </div><!--/page-wrap-->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
+  <BootstrapText language="en">
+    <Headline><![CDATA[Default login info]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<h4>Default login info</h4>
+<p><span class="btn-u btn-u-red">Username: Editor</span></p>
+<p><span class="btn-u btn-u-red">Password: password</span></p>
+<p><small>You should change the Admin password as soon as possible. Do this in the OpenCms workplace that you can access through the context menu in the toolbar. OpenCms <em><strong>View &gt; Administration</strong></em> and then select <em><strong>Account Management</strong></em> and <em><strong>User Management</strong></em>.</small></p>]]></content>
+    </Text>
+  </BootstrapText>
+</BootstrapTexts>

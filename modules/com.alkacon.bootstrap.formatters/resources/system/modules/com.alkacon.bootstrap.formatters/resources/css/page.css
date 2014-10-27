@@ -130,6 +130,140 @@
   text-align: left;
 }
 
+
+/* Colored boxes */
+
+/*
+green: #72c02c;   
+blue: #3498db;
+red: #e74c3c;   
+sea: #1abc9c;
+orange: #e67e22;
+yellow: #f1c40f;
+purple: #9b6bcc;   
+aqua: #27d7e7;
+brown: #9c8061;   
+dark-blue: #4765a0;
+light-green: #79d5b3;
+dark: #555;
+light: #ecf0f1;
+white: #fff;
+*/
+
+.colored-box {
+  overflow: hidden;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+}
+
+.colored-box-light {
+    color: #555;
+}
+
+.colored-box p, 
+.colored-box h1, 
+.colored-box h2, 
+.colored-box h3, 
+.colored-box h4,  
+.colored-box h5, 
+.colored-box h6 {
+    color: #fff;
+}
+
+.colored-box-light p, 
+.colored-box-light h1, 
+.colored-box-light h2, 
+.colored-box-light h3, 
+.colored-box-light h4,  
+.colored-box-light h5, 
+.colored-box-light h6 {
+    color: #555;
+}
+
+/* Backround color */
+
+.colored-box-red {
+  background: #b31b43;
+}
+
+.colored-box-blue {
+  background: #3498db;
+}
+
+.colored-box-white {
+  background: #fff;
+}
+
+.colored-box-lightgrey {
+  background: #f7f7f7;
+}
+
+/* Border style */
+
+.colored-box-border-style-none {
+    border-style: none;
+}
+
+.colored-box-border-style-dotted {
+    border-style: dotted;
+}
+
+.colored-box-border-style-dashed {
+    border-style: dashed;
+}
+
+.colored-box-border-style-solid {
+    border-style: solid;
+}
+
+/* Border position */
+
+.colored-box-border-top {
+    border-width: 0px;
+    border-top-width: 2px;
+}
+
+.colored-box-border-bottom {
+    border-width: 0px;
+    border-bottom-width: 2px;
+}
+
+.colored-box-border-left {
+    border-width: 0px;
+    border-left-width: 2px;
+}
+
+.colored-box-border-right {
+    border-width: 0px;
+    border-right-width: 2px;
+}
+
+.colored-box-border-box {
+    border-width: 2px;
+}
+
+
+/* Border color */
+
+.colored-box-border-color-red {
+  border-color: #b31b43;
+}
+
+.colored-box-border-color-blue {
+  border-color: #3498db;
+}
+
+.colored-box-border-color-white {
+  border-color: #fff;
+}
+
+.colored-box-border-color-lightgrey{
+  border-color: ##f7f7f7;
+}
+
+
+
+
 /* Service Boxes */
 .servive-block a:hover, .servive-block-in a:hover {
 	text-decoration: none;

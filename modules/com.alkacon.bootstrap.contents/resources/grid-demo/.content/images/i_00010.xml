@@ -3,12 +3,18 @@
 <BootstrapImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/image.xsd">
   <BootstrapImage language="en">
     <Headline><![CDATA[Egg holders]]></Headline>
-    <Text><![CDATA[Egg holders]]></Text>
+    <Text><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr.]]></Text>
     <Image>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.galleries/samples/10.jpg]]></target>
         <uuid>c64906ff-4705-11e3-8417-000c29d28104</uuid>
       </link>
     </Image>
+    <Link>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/grid-demo/element-pages/image-elements/]]></target>
+        <uuid>cbea659f-5b43-11e4-955d-005056b61161</uuid>
+      </link>
+    </Link>
   </BootstrapImage>
 </BootstrapImages>

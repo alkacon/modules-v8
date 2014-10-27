@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Colored text box]]></NiceName>
+    <Type><![CDATA[bs-text]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/text-colored.jsp]]></target>
+        <uuid>feb0233c-5db4-11e4-8211-005056b61161</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[900]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[content]]></ContainerType>
+        <ContainerType><![CDATA[content-full]]></ContainerType>
+        <ContainerType><![CDATA[full]]></ContainerType>
+        <ContainerType><![CDATA[onehalf]]></ContainerType>
+        <ContainerType><![CDATA[onethird]]></ContainerType>
+        <ContainerType><![CDATA[twothirds]]></ContainerType>
+        <ContainerType><![CDATA[onequarter]]></ContainerType>
+        <ContainerType><![CDATA[threequarters]]></ContainerType>
+        <ContainerType><![CDATA[contentandlayoutrows]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>true</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[hidetitle]]></PropertyName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.hidetitle)]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[backgroundcolor]]></PropertyName>
+      <DisplayName><![CDATA[Background color]]></DisplayName>
+      <Description><![CDATA[The background color of the box.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[default]]></Default>
+      <WidgetConfig><![CDATA[default:Light gray (Default)|white colored-box-light:White|grey:Medium grey|dark:Dark grey|red:Red|purple:Purple|blue:Blue|dark-blue:Dark blue|aqua:Aqua|sea:Turquoise|green:Green|light-green:Light green|yellow:Yellow|orange:Orange|brown:Brown]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[borderpos]]></PropertyName>
+      <DisplayName><![CDATA[Border position]]></DisplayName>
+      <Description><![CDATA[The border position.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[box]]></Default>
+      <WidgetConfig><![CDATA[box:Complete box (Default)|top:Line on top|left:Line left|right:Line right|bottom:Line on bottom]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[bordercolor]]></PropertyName>
+      <DisplayName><![CDATA[Border color]]></DisplayName>
+      <Description><![CDATA[The border color of the box.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[none]]></Default>
+      <WidgetConfig><![CDATA[none:None|default:Light gray (Default)|grey:Medium grey|dark:Dark grey|red:Red|purple:Purple|blue:Blue|dark-blue:Dark blue|aqua:Aqua|sea:Turquoise|green:Green|light-green:Light green|yellow:Yellow|orange:Orange|brown:Brown]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[borderstyle]]></PropertyName>
+      <DisplayName><![CDATA[Border style]]></DisplayName>
+      <Description><![CDATA[The border style of the box.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[none]]></Default>
+      <WidgetConfig><![CDATA[none:None (Default)|solid:Solid|dotted:Dotted|dashed:Dashed]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[marginbottom]]></PropertyName>
+      <DisplayName><![CDATA[Bottom Margin]]></DisplayName>
+      <Description><![CDATA[Sets the bottom margin below the text.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[30]]></Default>
+      <WidgetConfig><![CDATA[5:5|10:10|20:20|30:30 (Default)|40:40|50:50|60:60]]></WidgetConfig>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

@@ -3,12 +3,13 @@
 <BootstrapBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd">
   <BootstrapBlog language="en">
     <Title><![CDATA[OpenCms is just fun]]></Title>
-    <Date>1400137200000</Date>
+    <Date>1413356400000</Date>
     <Paragraph>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. </p>]]></content>
+        <content><![CDATA[<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
+<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>]]></content>
       </Text>
       <Image>
         <Image>
@@ -29,6 +30,10 @@
       </Text>
     </Paragraph>
     <Category>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/location/europe/]]></target>
+        <uuid>e73ef9d1-7193-11e0-87bc-000c2972a6a4</uuid>
+      </link>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.categories/priority/02_low/]]></target>
         <uuid>bab32ac8-7193-11e0-87bc-000c2972a6a4</uuid>

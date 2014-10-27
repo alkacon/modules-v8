@@ -12,7 +12,7 @@
       <Text><![CDATA[Continue with step 5: Publish your changes]]></Text>
       <URI>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/tutorial-new/step-5-publish-your-changes/]]></target>
+          <target><![CDATA[/sites/default/tutorial/step-5-publish-your-changes/]]></target>
           <uuid>e46b0e67-5ae1-11e4-955d-005056b61161</uuid>
         </link>
       </URI>

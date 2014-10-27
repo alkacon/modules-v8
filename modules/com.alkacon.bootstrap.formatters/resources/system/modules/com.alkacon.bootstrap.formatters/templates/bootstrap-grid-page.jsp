@@ -80,12 +80,12 @@
 </c:if>
 
 <cms:container name="page-complete" type="page" width="1200" maxElements="15" editableby="ROLE.DEVELOPER">
-  <cms:bundle basename="com.alkacon.bootstrap.formatters.messages">
-  <div class="alert alert-warning fade in">
-		<h4><fmt:message key="bootstrap.page.headline.emptycontainer"/></h4>
-    <p><fmt:message key="bootstrap.page.text.emptycontainer"/></p>           
-	</div>
-  </cms:bundle>
+    <cms:bundle basename="com.alkacon.bootstrap.formatters.messages">
+        <div class="servive-block rounded-3x servive-block-red">
+            <h2 class="heading-md"><fmt:message key="bootstrap.page.headline.emptycontainer"/></h4>
+            <p><fmt:message key="bootstrap.page.text.emptycontainer"/></p>           
+        </div>
+    </cms:bundle>
 </cms:container>
 
 </div><!--/page-wrap-->

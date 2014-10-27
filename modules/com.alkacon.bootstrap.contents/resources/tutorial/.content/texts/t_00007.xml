@@ -2,11 +2,11 @@
 
 <BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
   <BootstrapText language="en">
-    <Headline><![CDATA[Changing an image or a link inline]]></Headline>
+    <Headline><![CDATA[Inline editing of optional or special content]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>If you edit text inline, you will notice a row of symbols that is shown to the right hand side of the element being edited. These controls allow you to add optional fields that are not yet enabled, as well as modify content that are not well suited for direct inline editing such as images. You will get a small form displayed where you can enter or modify the content.</p>
-<p>To try, click <strong>here</strong> and then move your mouse over the plus symbol on the right hand side to add an optional link to this content element.</p>]]></content>
+      <content><![CDATA[<p>If you edit text inline, you may notice a row of symbols that is shown to the right hand side of the element being edited. These controls allow you to add optional content, e.g. extra "read more..." links that are not yet enabled, as well as special content that is not well suited for direct inline editing such as images. You will get a small form displayed where you can enter or modify the content.</p>
+<p>To add a extra link box to this text, click <strong>here</strong> and then move your mouse over the plus symbol on the right hand side to add an optional link to this content element. To edit the image on the right side, just click on the image.</p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>

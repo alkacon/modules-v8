@@ -17,7 +17,7 @@
           </link>
           <link name="link5" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>51d6d08f-5aaa-11e4-a98c-005056b61161</uuid>
+            <uuid>1eac6023-5b72-11e4-869a-005056b61161</uuid>
           </link>
           <link name="link2" internal="true" type="A">
             <target><![CDATA[/sites/default/release/]]></target>
@@ -29,7 +29,7 @@
           </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>51d6d08f-5aaa-11e4-a98c-005056b61161</uuid>
+            <uuid>1eac6023-5b72-11e4-869a-005056b61161</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/grid-demo/]]></target>

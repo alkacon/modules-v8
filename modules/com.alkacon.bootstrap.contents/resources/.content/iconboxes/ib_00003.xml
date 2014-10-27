@@ -4,13 +4,12 @@
   <BootstrapIconBox language="en">
     <Headline><![CDATA[Grid Demo]]></Headline>
     <Icon><![CDATA[Exclamation]]></Icon>
-    <Text><![CDATA[Example responsive website using an advanced, gid based template.]]></Text>
+    <Text><![CDATA[Example responsive website using a grid layout template based on Bootstrap.]]></Text>
     <Link>
       <link internal="true" type="WEAK">
         <target><![CDATA[/sites/default/grid-demo/]]></target>
         <uuid>0d82626d-276b-11e4-96d6-005056b61161</uuid>
       </link>
     </Link>
-    <Color><![CDATA[red]]></Color>
   </BootstrapIconBox>
 </BootstrapIconBoxs>

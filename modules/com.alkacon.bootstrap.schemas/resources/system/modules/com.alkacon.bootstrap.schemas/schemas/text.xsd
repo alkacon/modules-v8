@@ -16,22 +16,22 @@
 			<xsd:element name="Headline" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Text" type="OpenCmsHtml" />
 			<xsd:element name="Link" type="OpenCmsBootstrapLink" minOccurs="0" />
-      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
 
 	<xsd:annotation>
 		<xsd:appinfo>
-      <resourcebundle name="com.alkacon.bootstrap.schemas.text"/>
+			<resourcebundle name="com.alkacon.bootstrap.schemas.text"/>
 			<mappings>
 				<mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
 				<mapping element="GalleryTitle" mapto="urlName" useDefault="true" />
 			</mappings>
 			<defaults>
 				<default element="Headline" value="%(key.bootstrap.text.default.Headline)" />
-        <default element="Text" value="%(key.bootstrap.text.default.Text)" />
-        <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Headline)" resolveMacros="false" />
+				<default element="Text" value="%(key.bootstrap.text.default.Text)" />
+				<default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Headline)" resolveMacros="false" />
 			</defaults>
 			<layouts>
 				<layout element="Text" widget="HtmlWidget" configuration="height:400px,link,anchor,source,downloadgallery,formatselect"/>

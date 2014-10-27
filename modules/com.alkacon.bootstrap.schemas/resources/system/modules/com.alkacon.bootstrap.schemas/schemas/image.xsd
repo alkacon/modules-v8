@@ -30,7 +30,7 @@
 			</mappings>
 			<defaults>
 				<default element="Headline" value="%(key.bootstrap.image.default.Headline)" />
-        <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Headline)" resolveMacros="false" />
+                <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Headline)" resolveMacros="false" />
 			</defaults>
 			<layouts>
 				<layout element="Text" widget="TextareaWidget" configuration="3"/>

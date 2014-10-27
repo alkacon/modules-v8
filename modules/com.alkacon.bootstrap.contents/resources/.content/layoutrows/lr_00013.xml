@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapLayoutRows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/layoutrow.xsd">
+  <BootstrapLayoutRow language="en">
+    <Title><![CDATA[Full column (Restricted to Editor)]]></Title>
+    <Column>
+      <Name><![CDATA[fullcolumn]]></Name>
+      <Type><![CDATA[full]]></Type>
+      <Count><![CDATA[20]]></Count>
+      <Editors><![CDATA[ROLE.EDITOR]]></Editors>
+      <EmptyText><![CDATA[Full column - please drop content elements here.]]></EmptyText>
+      <XS><![CDATA[col-xs-12]]></XS>
+      <SM><![CDATA[-]]></SM>
+      <MD><![CDATA[-]]></MD>
+      <LG><![CDATA[-]]></LG>
+      <Detail>false</Detail>
+    </Column>
+  </BootstrapLayoutRow>
+</BootstrapLayoutRows>

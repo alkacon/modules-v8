@@ -4,13 +4,12 @@
   <BootstrapIconBox language="en">
     <Headline><![CDATA[OpenCms Beginners Tutorial]]></Headline>
     <Icon><![CDATA[Lightbulb]]></Icon>
-    <Text><![CDATA[Click here for a guided tour that explains in 5 simple steps how to edit content and work with OpenCms. Also contains information about how to login.]]></Text>
+    <Text><![CDATA[Click here for a guided tour that explains in 5 simple steps how to edit content, create pages and work with OpenCms. Also contains information about how to login. This is a good introduction if you are new to OpenCms.]]></Text>
     <Link>
       <link internal="true" type="WEAK">
         <target><![CDATA[/sites/default/tutorial/]]></target>
-        <uuid>e2588a5b-4545-11e3-93f3-000c29d28104</uuid>
+        <uuid>e839825e-5ade-11e4-955d-005056b61161</uuid>
       </link>
     </Link>
-    <Color><![CDATA[orange]]></Color>
   </BootstrapIconBox>
 </BootstrapIconBoxs>

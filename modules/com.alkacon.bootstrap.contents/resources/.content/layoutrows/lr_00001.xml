@@ -2,28 +2,18 @@
 
 <BootstrapLayoutRows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/layoutrow.xsd">
   <BootstrapLayoutRow language="en">
-    <Title><![CDATA[2 columns: 2/3 - 1/3]]></Title>
+    <Title><![CDATA[Full column (Restricted to Template Developer)]]></Title>
     <Column>
-      <Name><![CDATA[1]]></Name>
-      <Type><![CDATA[onethird]]></Type>
-      <Count><![CDATA[10]]></Count>
-      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
-      <EmptyText><![CDATA[1st column - please drop content elements here.]]></EmptyText>
+      <Name><![CDATA[fullcolumn]]></Name>
+      <Type><![CDATA[full]]></Type>
+      <Count><![CDATA[20]]></Count>
+      <Editors><![CDATA[ROLE.DEVELOPER]]></Editors>
+      <EmptyText><![CDATA[Full column - please drop content elements here.]]></EmptyText>
       <XS><![CDATA[col-xs-12]]></XS>
-      <SM><![CDATA[col-sm-8]]></SM>
+      <SM><![CDATA[-]]></SM>
       <MD><![CDATA[-]]></MD>
       <LG><![CDATA[-]]></LG>
-    </Column>
-    <Column>
-      <Name><![CDATA[2]]></Name>
-      <Type><![CDATA[onethird]]></Type>
-      <Count><![CDATA[10]]></Count>
-      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
-      <EmptyText><![CDATA[2nd column - please drop content elements here.]]></EmptyText>
-      <XS><![CDATA[col-xs-12]]></XS>
-      <SM><![CDATA[col-sm-4]]></SM>
-      <MD><![CDATA[-]]></MD>
-      <LG><![CDATA[-]]></LG>
+      <Detail>false</Detail>
     </Column>
   </BootstrapLayoutRow>
 </BootstrapLayoutRows>

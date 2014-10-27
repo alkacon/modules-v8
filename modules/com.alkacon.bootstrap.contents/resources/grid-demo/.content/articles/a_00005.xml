@@ -13,7 +13,7 @@
         <Text><![CDATA[Post a new entry]]></Text>
         <URI>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/grid-demo/blog-entries/post-a-new-blog-entry/]]></target>
+            <target><![CDATA[/sites/default/grid-demo/blog/post-a-new-blog-entry/]]></target>
             <uuid>a78e3b80-5abe-11e4-955d-005056b61161</uuid>
           </link>
         </URI>

@@ -9,6 +9,7 @@
 	<c:set var="pathparts" value="${fn:split(cms.requestContext.folderUri, '/')}" />
   <c:set var="navStartLevel">${param.startlevel + 1}</c:set>
   <c:set var="navStartFolder" value="/" />
+  <c:set var="lastItem" value=""/>
   <c:forEach var="folderName" items="${pathparts}" varStatus="status">
 	 <c:if test="${status.count <= navStartLevel}">
 		<c:set var="navStartFolder">${navStartFolder}${folderName}/</c:set>
@@ -22,7 +23,7 @@
     
     <c:choose>
 			<c:when test="${empty oldLevel}"></c:when>
-			<c:when test="${currentLevel > oldLevel}"><ul class="collapse <c:if test="${fn:startsWith(elem.resourceName, cms.requestContext.folderUri) || (elem.navigationLevel && fn:startsWith(cms.requestContext.uri, elem.parentFolderName))}">in</c:if>" id="collapse-${subIdCounter}"><c:set var="subIdCounter">${subIdCounter + 1}</c:set></c:when>
+			<c:when test="${currentLevel > oldLevel}"><ul class="collapse <c:if test="${fn:startsWith(lastItem.resourceName, cms.requestContext.uri) || (lastItem.navigationLevel && fn:startsWith(cms.requestContext.uri, lastItem.parentFolderName))}">in</c:if>" id="collapse-${subIdCounter}"><c:set var="subIdCounter">${subIdCounter + 1}</c:set></c:when>
 			<c:when test="${currentLevel == oldLevel}"></li></c:when>
 			<c:when test="${oldLevel > currentLevel}">
 				<c:forEach begin="${currentLevel + 1}" end="${oldLevel}"></li></ul></c:forEach>
@@ -64,6 +65,7 @@
 		<li class="${listClass} nav-side-level-${elem.navTreeLevel - navStartLevel}">
 		<a <c:choose><c:when test="${nextElemDeeper}">class="accordion-toggle" href="#collapse-${subIdCounter}" data-toggle="collapse"</c:when><c:otherwise>href="<cms:link>${elem.resourceName}</cms:link>"</c:otherwise></c:choose>>${elem.navText}</a>
 		<c:set var="oldLevel" value="${currentLevel}" />
+    <c:set var="lastItem" value="${elem}" />
 	</c:forEach>
 
 	<c:forEach begin="${navStartLevel + 1}" end="${oldLevel}"></li></ul></c:forEach>

@@ -2,7 +2,7 @@
 
 <BootstrapFlexibleElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/flexible.xsd">
   <BootstrapFlexibleElement language="en">
-    <Title><![CDATA[Header for tutorial / introduction]]></Title>
+    <Title><![CDATA[Header for tutorial]]></Title>
     <Choice>
       <Code name="Code0">
         <links>
@@ -17,7 +17,7 @@
           </link>
           <link name="link5" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>51d6d08f-5aaa-11e4-a98c-005056b61161</uuid>
+            <uuid>1eac6023-5b72-11e4-869a-005056b61161</uuid>
           </link>
           <link name="link2" internal="true" type="A">
             <target><![CDATA[/sites/default/release/]]></target>
@@ -29,7 +29,7 @@
           </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>51d6d08f-5aaa-11e4-a98c-005056b61161</uuid>
+            <uuid>1eac6023-5b72-11e4-869a-005056b61161</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/grid-demo/]]></target>
@@ -65,5 +65,6 @@
 </div>]]></content>
       </Code>
     </Choice>
+    <GalleryTitle><![CDATA[%(value:Title)]]></GalleryTitle>
   </BootstrapFlexibleElement>
 </BootstrapFlexibleElements>

@@ -12,7 +12,7 @@
       <Text><![CDATA[Continue with step 4: Preview in a device]]></Text>
       <URI>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/tutorial-new/step-4-preview-in-a-device/]]></target>
+          <target><![CDATA[/sites/default/tutorial/step-4-preview-in-a-device/]]></target>
           <uuid>db990f7d-5ae1-11e4-955d-005056b61161</uuid>
         </link>
       </URI>

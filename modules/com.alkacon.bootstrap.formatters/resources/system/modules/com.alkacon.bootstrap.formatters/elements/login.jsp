@@ -61,11 +61,10 @@
 	<c:otherwise>
 		<div class="reg-header contex-bg">
 			<h3><fmt:message key="bootstrap.login.title.loggedin" /></h3>
-			<p class="bg-warning rounded-4x"><fmt:message key="bootstrap.login.message.loggedin" />: <span class="badge badge-red rounded-2x">${cms.requestContext.currentUser.name}</span></p>
 		</div>
-
+		<div class="tag-box tag-box-v3"><fmt:message key="bootstrap.login.message.loggedin" />: <span class="badge badge-dark-blue rounded">${cms.requestContext.currentUser.name}</span></div>
 		<div class="controls form-inline">
-			<button class="btn-u btn-u-blue" type="submit" name="action" value="logoff" ><fmt:message key="bootstrap.login.label.logoff" /></button>
+			<button class="btn-u btn-u-red" type="submit" name="action" value="logoff" ><fmt:message key="bootstrap.login.label.logoff" /></button>
 		</div>   
 	</c:otherwise>
 </c:choose>

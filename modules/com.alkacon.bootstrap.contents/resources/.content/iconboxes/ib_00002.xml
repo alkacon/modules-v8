@@ -4,7 +4,7 @@
   <BootstrapIconBox language="en">
     <Headline><![CDATA[Release Notes]]></Headline>
     <Icon><![CDATA[Bullhorn]]></Icon>
-    <Text><![CDATA[Information about the new features in this OpenCms release version.]]></Text>
+    <Text><![CDATA[Detailed information about the new features in this OpenCms release version.]]></Text>
     <Link>
       <link internal="true" type="WEAK">
         <target><![CDATA[/sites/default/release/]]></target>
