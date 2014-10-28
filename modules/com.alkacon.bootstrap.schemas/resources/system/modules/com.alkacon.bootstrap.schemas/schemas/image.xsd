@@ -14,7 +14,8 @@
 		<xsd:sequence>
 			<xsd:element name="Headline" type="OpenCmsString" />
 			<xsd:element name="Text" type="OpenCmsString" />
-			<xsd:element name="Image" type="OpenCmsVfsFile" minOccurs="0" />
+			<xsd:element name="Image" type="OpenCmsVfsFile" />
+			<xsd:element name="Copyright" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />
       		<xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
@@ -38,6 +39,17 @@
 			</layouts>
 			<validationrules/>
 			<searchsettings containerPageOnly="true"/>
+			<synchronizations> 
+            	<synchronization element="Image" />
+        	</synchronizations>
+		  	<visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
+			<editorchangehandlers>
+				<editorchangehandler 
+					class="org.opencms.ade.contenteditor.CmsEditorChangeHandlerProperty" 
+					scope="Image" configuration="Copyright|../Copyright" />
+			</editorchangehandlers>
 		</xsd:appinfo>
 	</xsd:annotation>  
 </xsd:schema>

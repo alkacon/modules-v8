@@ -7,7 +7,7 @@
 <cms:formatter var="content" val="value" rdfa="rdfa">
 
 <c:if test="${cms.element.settings.bordercolor != 'none'}"> 
-    <c:set var="borderstyle" value="colored-box-border-${cms.element.settings.borderpos} colored-box-border-style-${cms.element.settings.borderstyle} colored-box-border-color-${cms.element.settings.bordercolor}" />
+    <c:set var="borderstyle" value="colored-box-border-style-${cms.element.settings.borderstyle} colored-box-line-${cms.element.settings.linepos}-color-${cms.element.settings.linecolor} " />
 </c:if>
 <c:set var="boxclass" value="colored-box ${borderstyle} colored-box-${cms.element.settings.backgroundcolor}" />
 

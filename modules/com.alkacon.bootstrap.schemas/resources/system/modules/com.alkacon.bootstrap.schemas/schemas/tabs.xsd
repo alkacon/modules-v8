@@ -14,7 +14,7 @@
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
 			<xsd:element name="Label" type="OpenCmsString" minOccurs="2" maxOccurs="8" />
-      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
+      		<xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -32,6 +32,9 @@
         <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Title)" resolveMacros="false" />
 			</defaults>
 			<searchsettings containerPageOnly="true"/>
+		  	<visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
 		</xsd:appinfo>
 	</xsd:annotation> 
 

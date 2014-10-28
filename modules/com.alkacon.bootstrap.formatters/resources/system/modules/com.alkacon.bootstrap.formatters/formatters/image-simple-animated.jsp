@@ -18,16 +18,12 @@
 			</c:if>
             <c:set var="cssBorder"></c:set>
 			<c:if test="${cms.element.setting.border.value == 'true'}">
-				<c:set var="cssBorder">img-bordered</c:set>
-			</c:if>
-            <c:set var="cssShape"></c:set>
-			<c:if test="${cms.element.setting.shape.isSet and cms.element.setting.shape.value != 'none'}">
-                <c:set var="cssShape">${cms.element.setting.shape.value}</c:set>
+				<c:set var="cssBorder">div-bordered</c:set>
 			</c:if>
             <c:set var="copyright"></c:set>
  			<c:if test="${value.Copyright.isSet}">
                 <c:set var="copyright">&#13;&copy; ${value.Copyright}</c:set>
-			</c:if>
+			</c:if>            
 
             <div class="margin-bottom-20">
 
@@ -35,18 +31,20 @@
                 <div class="headline"><h2 ${rdfa.Headline}>${value.Headline}</h2></div>
             </c:if>
 
-			<div class="${cssShadow}">
+			<div class="<c:out value='${cssShadow} ${cssBorder}' />">
 
             <c:if test="${value.Link.isSet and cms.element.setting.showlink.value == 'image'}">
               <a href="<cms:link>${value.Link}</cms:link>">
             </c:if>
 
 			<span ${rdfa.Image}>
+                <div class="thumbnail-kenburn overflow-hidden">
                 <img 
                     src="<cms:link>${value.Image}</cms:link>" 
-                    class="${cssShape} img-responsive ${cssBorder}" 
+                    class="img-responsive" 
                     alt="${value.Headline}" 
                     title="<c:out value='${value.Headline} ${copyright}' escapeXml='false' />" />
+                </div>
             </span>
 
             <c:if test="${value.Link.isSet and cms.element.setting.showlink.value == 'image'}">

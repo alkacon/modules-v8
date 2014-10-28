@@ -24,6 +24,10 @@
 			<c:if test="${cms.element.setting.shape.isSet and cms.element.setting.shape.value != 'none'}">
                 <c:set var="cssShape">${cms.element.setting.shape.value}</c:set>
 			</c:if>
+            <c:set var="copyright"></c:set>
+ 			<c:if test="${value.Copyright.isSet}">
+                <c:set var="copyright">&#13;&copy; ${value.Copyright}</c:set>
+			</c:if>                 
             
             <div class="margin-bottom-20">
       
@@ -51,7 +55,11 @@
 			<div class="${cssShadow}">
                 <a class="fancybox-button zoomer" href="<cms:link>${value.Image}</cms:link>" title="${value.Headline}" data-rel="fancybox-button" id="fancyboxzoom${cms.element.id}">
                     <span class="overlay-zoom">
-                        <img src="<cms:link>${value.Image}</cms:link>" class="${cssShape} img-responsive ${cssBorder}" alt="${value.Headline}" />
+                        <img 
+                        src="<cms:link>${value.Image}</cms:link>" 
+                        class="${cssShape} img-responsive ${cssBorder}" 
+                        alt="${value.Headline}" 
+                        title="<c:out value='${value.Headline} ${copyright}' escapeXml='false' />" />
                         <span class="zoom-icon"></span>
                     </span>
                 </a>

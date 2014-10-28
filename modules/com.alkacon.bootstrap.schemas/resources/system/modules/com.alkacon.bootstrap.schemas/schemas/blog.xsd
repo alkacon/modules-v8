@@ -66,6 +66,9 @@
                     <solrfield targetfield="newsdate" sourcefield="*_dt" />
                 </searchsetting>
             </searchsettings>
+		  	<visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
         </xsd:appinfo>
     </xsd:annotation>
 

@@ -107,9 +107,12 @@
     </div>
 
     </c:forEach><!-- //END paragraphs -->
-    
+   
+   <!-- pdf generator -->
+   <img src="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/img/icons/pdf.png</cms:link>"/>
+   
     <c:if test="${content.isEditable}">
-    <a href="<cms:link>${cms.subSitePath}blog-entries/post-a-new-blog-entry/</cms:link>?fileId=${content.id}">
+    <a href="<cms:link>${cms.subSitePath}blog/post-a-new-blog-entry/</cms:link>?fileId=${content.id}">
         <button type="button" class="btn btn-default">Edit this blog entry</button>
     </a>
     </c:if>    

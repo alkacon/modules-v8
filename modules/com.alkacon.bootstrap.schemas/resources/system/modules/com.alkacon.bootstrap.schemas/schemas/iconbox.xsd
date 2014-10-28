@@ -28,16 +28,19 @@
 				<layout element="Icon" widget="ComboWidget" configuration="Bell|Bookmark|Bullhorn|Comments|Comments-AltEnvelope|Envelope-Alt|Exclamation|Globe|Heart|Key|Lightbulb|Mobile|Phone|Smile|Star|Thumbs-Up|Time|Unlock|EUR|USD" />
 				<layout element="Text" widget="TextareaWidget" configuration="3"/>
 			</layouts>
-      <mappings>
-          <mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
-          <mapping element="GalleryTitle" mapto="urlName" useDefault="true" />
-      </mappings>
-      <defaults>
-          <default element="Headline" value="%(key.bootstrap.iconbox.default.Headline)" />
-          <default element="Text" value="%(key.bootstrap.iconbox.default.Text)" />
-          <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Headline)" resolveMacros="false" />
-      </defaults>
-      <searchsettings containerPageOnly="true"/>
+			  <mappings>
+				  <mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
+				  <mapping element="GalleryTitle" mapto="urlName" useDefault="true" />
+			  </mappings>
+			  <defaults>
+				  <default element="Headline" value="%(key.bootstrap.iconbox.default.Headline)" />
+				  <default element="Text" value="%(key.bootstrap.iconbox.default.Text)" />
+				  <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Headline)" resolveMacros="false" />
+			  </defaults>
+			  <searchsettings containerPageOnly="true"/>
+			  <visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
 		</xsd:appinfo>
 	</xsd:annotation>  
 </xsd:schema>

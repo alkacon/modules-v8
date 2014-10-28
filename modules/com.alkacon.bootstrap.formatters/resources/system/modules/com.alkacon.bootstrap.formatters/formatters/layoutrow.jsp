@@ -54,10 +54,10 @@
     
     <c:set var="alert" value="" />
     <c:if test="${column.value.Editors == 'ROLE.EDITOR'}">
-        <c:set var="alert"><span> </span><span class="label rounded label-warning">Restricted</span></i></c:set>
+        <c:set var="alert"><span> </span><span class="label rounded label-warning">Restricted</span></c:set>
     </c:if>    
     <c:if test="${column.value.Editors == 'ROLE.DEVELOPER'}">
-        <c:set var="alert"><span> </span><span class="label rounded label-danger">Restricted</span></i></c:set>
+        <c:set var="alert"><span> </span><span class="label rounded label-danger">Restricted</span></c:set>
     </c:if>      
     
     <c:choose>
@@ -75,7 +75,7 @@
                 editableby="${column.value.Editors}">
                 
             <div class="servive-block rounded-3x servive-block-light">
-                <h2 class="heading-md"><fmt:message key="bootstrap.row.headline.emptycontainer"/> ${alert}</h4>
+                <h2 class="heading-md"><fmt:message key="bootstrap.row.headline.emptycontainer"/> ${alert}</h2>
                 <p>${column.value.EmptyText}</p>                        
             </div>                  
         </cms:container>

@@ -64,7 +64,7 @@
 		</div>
 		<div class="tag-box tag-box-v3"><fmt:message key="bootstrap.login.message.loggedin" />: <span class="badge badge-dark-blue rounded">${cms.requestContext.currentUser.name}</span></div>
 		<div class="controls form-inline">
-			<button class="btn-u btn-u-red" type="submit" name="action" value="logoff" ><fmt:message key="bootstrap.login.label.logoff" /></button>
+			<button class="btn-u btn-u-orange" type="submit" name="action" value="logoff" ><fmt:message key="bootstrap.login.label.logoff" /></button>
 		</div>   
 	</c:otherwise>
 </c:choose>

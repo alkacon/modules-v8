@@ -38,6 +38,12 @@
 				<relation element="Item/Image" invalidate="node" />
 			</relations>
 			<searchsettings containerPageOnly="true"/>
+			<synchronizations> 
+            	<synchronization element="Item/Image" /> 
+        	</synchronizations>
+		  	<visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
 		</xsd:appinfo>
 	</xsd:annotation>
 

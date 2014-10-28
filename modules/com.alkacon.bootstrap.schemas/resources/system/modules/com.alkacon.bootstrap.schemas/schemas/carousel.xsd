@@ -36,6 +36,9 @@
 			<relations/>
 			<searchsettings containerPageOnly="true"/>
 			<headincludes/>
+		  	<visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
 		</xsd:appinfo>
 	</xsd:annotation>
 

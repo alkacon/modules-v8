@@ -17,7 +17,7 @@
 			<xsd:element name="Duration" type="OpenCmsString" />
 			<xsd:element name="Width" type="OpenCmsString" />
 			<xsd:element name="Height" type="OpenCmsString" />
-      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
+      		<xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Item" type="OpenCmsBootstrapSliderItem" minOccurs="2" maxOccurs="50" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
@@ -65,6 +65,9 @@
 				<searchsetting element="Item/Caption/End" searchcontent="false"/>
 				<searchsetting element="Item/Caption/EndEasing" searchcontent="false"/>
 			</searchsettings>
+		  	<visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
 		</xsd:appinfo>
 	</xsd:annotation>
 

@@ -15,7 +15,7 @@
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
 			<xsd:element name="Choice" type="OpenCmsBootstrapFlexibleElementChoice" minOccurs="0" />
-      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
+      		<xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -36,6 +36,9 @@
 			<searchsettings containerPageOnly="true">
 				<searchsetting element="Choice/Code" searchcontent="false"/>
 			</searchsettings>
+		  	<visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
 		</xsd:appinfo>
 	</xsd:annotation>
 

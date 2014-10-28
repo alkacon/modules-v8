@@ -11,10 +11,11 @@
         <query><![CDATA[__scale=h:400,w:400,cx:217,cy:0,ch:766,cw:766]]></query>
       </link>
     </Image>
+    <Copyright><![CDATA[Copyright info here!]]></Copyright>
     <Link>
       <link internal="true" type="WEAK">
         <target><![CDATA[/sites/default/]]></target>
-        <uuid>1eac6023-5b72-11e4-869a-005056b61161</uuid>
+        <uuid>2d7922ee-5dd8-11e4-93f9-005056b61161</uuid>
       </link>
     </Link>
   </BootstrapImage>

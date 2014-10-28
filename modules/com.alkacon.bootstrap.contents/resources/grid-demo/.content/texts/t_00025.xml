@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
+  <BootstrapText language="en">
+    <Headline><![CDATA[English text page]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>This page is part of the multi language demo. The contents are in english. </p>
+<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>]]></content>
+    </Text>
+  </BootstrapText>
+  <BootstrapText language="de">
+    <Headline><![CDATA[Deutsche Textseite]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Diese Seite ist Teil der Sprachdemo. Der Inhalt der Seite ist in deutsch.</p>
+<p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans.</p>]]></content>
+    </Text>
+  </BootstrapText>
+</BootstrapTexts>

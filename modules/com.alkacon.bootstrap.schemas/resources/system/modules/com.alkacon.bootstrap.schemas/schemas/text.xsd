@@ -38,6 +38,9 @@
 			</layouts>
 			<validationrules/>
 			<searchsettings containerPageOnly="true"/>
+		  	<visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
 		</xsd:appinfo>
 	</xsd:annotation>  
 </xsd:schema>

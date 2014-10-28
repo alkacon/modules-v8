@@ -4,8 +4,13 @@
   <BootstrapText language="en">
     <Headline><![CDATA[Text in different flavours]]></Headline>
     <Text name="Text0">
-      <links/>
-      <content><![CDATA[<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>]]></content>
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/grid-demo/]]></target>
+          <uuid>0d82626d-276b-11e4-96d6-005056b61161</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. <a href="%(link0)">Read more...</a></p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>
