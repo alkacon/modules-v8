@@ -2,8 +2,8 @@
 
 <BootstrapImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/image.xsd">
   <BootstrapImage language="en">
-    <Headline><![CDATA[Egg holders (Cropped)]]></Headline>
-    <Text><![CDATA[Egg holders (Cropped)]]></Text>
+    <Headline><![CDATA[Egg holders (Streched)]]></Headline>
+    <Text><![CDATA[Egg holders (Streched)]]></Text>
     <Image>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.galleries/samples/10.jpg]]></target>
@@ -11,5 +11,6 @@
         <query><![CDATA[__scale=h:284,w:884,cx:53,cy:249,ch:284,cw:884]]></query>
       </link>
     </Image>
+    <Copyright><![CDATA[pixabay.com]]></Copyright>
   </BootstrapImage>
 </BootstrapImages>

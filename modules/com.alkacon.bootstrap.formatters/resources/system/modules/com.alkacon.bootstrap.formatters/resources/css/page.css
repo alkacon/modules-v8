@@ -146,7 +146,8 @@ brown: #9c8061;
 dark-blue: #4765a0;
 light-green: #79d5b3;
 dark: #555;
-light (medium grey): #ecf0f1;
+lightgrey (medium grey): #ecf0f1;
+mediumgrey: #ddd;
 white: #fff;
 */
 
@@ -160,6 +161,7 @@ white: #fff;
 }
 
 .colored-box p, 
+.colored-box li, 
 .colored-box h1, 
 .colored-box h2, 
 .colored-box h3, 
@@ -169,6 +171,8 @@ white: #fff;
     color: #fff;
 }
 
+
+
 .colored-box a {
     color: #ffc0c0;
 }
@@ -177,7 +181,13 @@ white: #fff;
     color: #b31b34;
 }
 
+.colored-box  a.btn-u,
+.colored-box-light  a.btn-u  {
+    color: #fff;
+}
+
 .colored-box-light p, 
+.colored-box-light li, 
 .colored-box-light h1, 
 .colored-box-light h2, 
 .colored-box-light h3, 
@@ -189,14 +199,6 @@ white: #fff;
 
 /* Backround color */
 
-.colored-box-red {
-  background: #b31b43;
-}
-
-.colored-box-blue {
-  background: #3498db;
-}
-
 .colored-box-white {
   background: #fff;
 }
@@ -207,6 +209,18 @@ white: #fff;
 
 .colored-box-mediumgrey {
   background: #ddd;
+}
+
+.colored-box-dark {
+  background: #555;
+}
+
+.colored-box-red {
+  background: #b31b43;
+}
+
+.colored-box-blue {
+  background: #3498db;
 }
 
 .colored-box-green {
@@ -245,10 +259,6 @@ white: #fff;
   background: #79d5b3;
 }
 
-.colored-box-dark {
-  background: #555;
-}
-
 /* Border style */
 
 .colored-box-border-style-none {
@@ -259,19 +269,19 @@ white: #fff;
 .colored-box-border-style-dotted {
     border-style: dotted;
     border-width: 1px;
-    border-color: #bbb;
+    border-color: #ddd;
 }
 
 .colored-box-border-style-dashed {
     border-style: dashed;
     border-width: 1px;
-    border-color: #bbb;
+    border-color: #ddd;
 }
 
 .colored-box-border-style-solid {
     border-style: solid;
     border-width: 1px;
-    border-color: #bbb;
+    border-color: #ddd;
 }
 
 /* Line position and color */
@@ -389,19 +399,19 @@ white: #fff;
 }
 
 .colored-box-line-none-color-red {
-    border-color: #bbb;
+    border-color: #ddd;
 }
 
 .colored-box-line-none-color-blue {
-    border-color: #bbb;
+    border-color: #ddd;
 }
 
 .colored-box-line-none-color-dark {
-    border-color: #bbb;
+    border-color: #ddd;
 }
 
 .colored-box-line-none-color-lightgrey {
-    border-color: #bbb;
+    border-color: #ddd;
 }
 
 /* Border div (for simple image animation formatter) */
@@ -410,8 +420,14 @@ div.div-bordered {
     border: solid 1px #eee;
 }
 
-/* Margin top */
+/* Superscript for user name in nav */
+.superscript {
+    top: -9px; 
+    left: 4px; 
+    position: relative
+}
 
+/* Margin top */
 .margin-top-0 { margin-top: 0px; }
 .margin-top-5 { margin-top: 5px; }
 .margin-top-10 { margin-top: 10px; }

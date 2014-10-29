@@ -57,6 +57,7 @@
             <validationrules>
                 <rule element="Author" regex="\w{3,}.{0,}" type="error" message="Author name must start with at least 3 characters."/>
                 <rule element="Title" regex=".+" type="error" message="Title must not be empty." />
+				<rule element="AuthorMail" regex="[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})" type="error" message="The email address is not valid." />
             </validationrules>
             <relations>
                 <relation element="Paragraph/Image/Image" invalidate="parent" />

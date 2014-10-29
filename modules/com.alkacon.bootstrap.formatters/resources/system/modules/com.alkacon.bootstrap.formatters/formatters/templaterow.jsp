@@ -36,6 +36,9 @@
             <c:set var="spacer" value=" " />
         </c:if>
     </c:if>
+    <c:if test="${column.value.Modifier.isSet and cms.element.setting.usemodifier.value == 'true'}">
+        <c:set var="bssClass">${bssClass}${spacer}${column.value.Modifier}</c:set>
+    </c:if>
 
     <c:if test="${column.value.Detail.exists}">
         <c:set var="detailAttr">${column.value.Detail}</c:set> 

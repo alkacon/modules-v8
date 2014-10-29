@@ -48,5 +48,12 @@
       <Description><![CDATA[CSS class name for an optional wrapper <div> element.]]></Description>
       <Widget><![CDATA[string]]></Widget>
     </Setting>
+    <Setting>
+      <PropertyName><![CDATA[usemodifier]]></PropertyName>
+      <DisplayName><![CDATA[Use modifier]]></DisplayName>
+      <Description><![CDATA[If checked, the optional modifier class will be used.]]></Description>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+    </Setting>
   </NewFormatter>
 </NewFormatters>

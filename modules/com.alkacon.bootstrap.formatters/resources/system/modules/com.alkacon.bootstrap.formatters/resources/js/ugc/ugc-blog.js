@@ -64,7 +64,7 @@ $(function() {
     
     function updateValues(uploadResults) {
 
-        // fill the content in the UCG object with the values of the form
+        // fill the content in the UGC object with the values of the form
         ugc.setContent();
 
         // check if we have upload results, if not set value to null

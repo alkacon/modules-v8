@@ -55,7 +55,7 @@
        
             <c:choose>
                 <c:when test="${cms.element.setting.showheadline.value == 'bottom'}">
-                    <div class="headline"><h2 ${rdfa.Headline}>${value.Headline}</h2></div>
+                    <h2 ${rdfa.Headline}>${value.Headline}</h2>
                 </c:when>
                 <c:when test="${cms.element.setting.showheadline.value == 'bottomcenter'}">
                     <div class="center"><div class="margin-bottom-20"></div><p><strong ${rdfa.Headline}>${value.Headline}</strong></p></div>

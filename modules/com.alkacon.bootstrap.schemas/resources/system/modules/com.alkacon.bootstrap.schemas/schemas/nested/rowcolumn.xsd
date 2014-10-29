@@ -17,10 +17,11 @@
       <xsd:element name="Count" type="OpenCmsString" />
       <xsd:element name="Editors" type="OpenCmsString" />
       <xsd:element name="EmptyText" type="OpenCmsString" />
-			<xsd:element name="XS" type="OpenCmsString" />
-			<xsd:element name="SM" type="OpenCmsString" />
-			<xsd:element name="MD" type="OpenCmsString" />
+      <xsd:element name="XS" type="OpenCmsString" />
+      <xsd:element name="SM" type="OpenCmsString" />
+      <xsd:element name="MD" type="OpenCmsString" />
       <xsd:element name="LG" type="OpenCmsString" />
+      <xsd:element name="Modifier" type="OpenCmsString" minOccurs="0" />
       <xsd:element name="Detail" type="OpenCmsBoolean" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>

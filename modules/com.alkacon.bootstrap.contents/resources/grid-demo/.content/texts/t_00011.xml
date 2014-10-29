@@ -5,8 +5,8 @@
     <Headline><![CDATA[FAQ text 2]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>]]></content>
+      <content><![CDATA[<h2>YES!</h2>
+<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>

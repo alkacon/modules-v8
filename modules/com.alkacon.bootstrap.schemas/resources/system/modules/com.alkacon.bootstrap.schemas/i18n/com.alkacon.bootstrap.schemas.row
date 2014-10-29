@@ -91,6 +91,14 @@
       <Value><![CDATA[Die Anzahl der Rasterspalten, über die sich diese Spalte für große Geräte erstreckt.]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Modifier]]></Key>
+      <Value><![CDATA[Modifier Klasse]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Modifier.help]]></Key>
+      <Value><![CDATA[Optionale CSS Klasse, die z.B. zum Ändern der Reihenfolge der Spalte verwendet werden kann. Die Verwendung muss in den Elementeinstellungen aktiviert werden.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[label.BootstrapRowColumn.Detail]]></Key>
       <Value><![CDATA[Detail Container]]></Value>
     </Message>
@@ -259,6 +267,14 @@
     <Message>
       <Key><![CDATA[label.BootstrapRowColumn.LG.help]]></Key>
       <Value><![CDATA[The amount of grid columns that is used by this column for large devices.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Modifier]]></Key>
+      <Value><![CDATA[Modifier Class]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapRowColumn.Modifier.help]]></Key>
+      <Value><![CDATA[Optional CSS class that can be used e.g. for changing the column order. The usage has to be activated explicitly in the element settings.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapRowColumn.Detail]]></Key>

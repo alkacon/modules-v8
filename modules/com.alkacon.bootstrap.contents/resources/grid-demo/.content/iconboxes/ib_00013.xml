@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<BootstrapIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/iconbox.xsd">
-  <BootstrapIconBox language="en">
-    <Headline><![CDATA[Professional Support]]></Headline>
-    <Icon><![CDATA[Exclamation]]></Icon>
-    <Text><![CDATA[Professional support for OpenCms can be purchased from Alkacon Software GmbH, An der Wachsfabrik 13, 50996 Cologne, Germany]]></Text>
-  </BootstrapIconBox>
-</BootstrapIconBoxs>

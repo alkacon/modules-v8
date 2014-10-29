@@ -53,7 +53,13 @@
             </c:if>
 
 			<div class="${cssShadow}">
-                <a class="fancybox-button zoomer" href="<cms:link>${value.Image}</cms:link>" title="${value.Headline}" data-rel="fancybox-button" id="fancyboxzoom${cms.element.id}">
+                <a 
+                    class="fancybox-button zoomer" 
+                    href="<cms:link>${value.Image}</cms:link>" 
+                    title="<c:out value='${value.Headline} ${copyright}' escapeXml='false' />" 
+                    data-rel="fancybox-button" 
+                    id="fancyboxzoom${cms.element.id}">
+                    
                     <span class="overlay-zoom">
                         <img 
                         src="<cms:link>${value.Image}</cms:link>" 

@@ -5,13 +5,12 @@
     <Headline><![CDATA[Our services]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p> Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</p>
+      <content><![CDATA[<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Aenean vulputate eleifend tellus:</p>
 <ul>
 <li>Quisque rutrum</li>
 <li>Nam eget dui</li>
 <li>Etiam rhoncus</li>
-</ul>
-<p> Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>]]></content>
+</ul>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>

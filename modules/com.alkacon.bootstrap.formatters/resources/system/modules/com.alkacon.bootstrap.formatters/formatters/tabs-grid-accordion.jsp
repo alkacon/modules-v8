@@ -16,25 +16,37 @@
 	<div class="panel-group acc-v2" id="accordion${cms.element.instanceId}">
 		<c:forEach var="label" items="${content.valueList.Label}" varStatus="status">
 			<div class="panel panel-default">
-			  <div class="panel-heading">
-			  	<h4 class="panel-title">
-					<a class="accordion-toggle ${status.first? 'active':''}" data-toggle="collapse" data-parent="#accordion${cms.element.instanceId}" href="#collapse${cms.element.instanceId}-${status.count}">
-					  ${label}
-					</a>
-				</h4>
-			  </div>
-			  <div id="collapse${cms.element.instanceId}-${status.count}" class="panel-collapse collapse ${status.first? 'in':''}" style="height: ${status.first?'auto':'0px'};">
-				<cms:container name="tab-container${status.count}" type="layoutrowsonly" tagClass="panel-body" maxElements="2">
-        	<div class="alert alert-warning fade in">
-						<h4><fmt:message key="bootstrap.tabs.emptycontainer.headline"/></h4>
-						<p><fmt:message key="bootstrap.tabs.emptycontainer.text"/></p>           
-					</div>     
-        </cms:container>
-			  </div>
-			</div><!--/accordion-group-->
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a 
+                            class="accordion-toggle ${status.first? 'active':''}" 
+                            data-toggle="collapse" 
+                            data-parent="#accordion${cms.element.instanceId}" 
+                            href="#collapse${cms.element.instanceId}-${status.count}">
+                            ${label}
+                        </a>
+                    </h4>
+                </div>
+                <div 
+                    id="collapse${cms.element.instanceId}-${status.count}" 
+                    class="panel-collapse collapse ${status.first? 'in':''}" 
+                    style="height: ${status.first?'auto':'0px'};">
+                    
+                    <cms:container 
+                        name="tab-container${status.count}" 
+                        type="layoutrowsonly" 
+                        tagClass="panel-body" 
+                        maxElements="2">
+                        
+                        <div class="servive-block rounded-3x servive-block-aqua">
+                            <h2 class="heading-md"><fmt:message key="bootstrap.tabs.emptycontainer.headline"/></h2>
+                            <p><fmt:message key="bootstrap.tabs.emptycontainer.text"/></p>           
+                        </div>     
+                    </cms:container>
+                </div>
+			</div>
 		</c:forEach>	
-	</div><!--/accordion-->
-
+	</div>
 </div>
 
 </cms:formatter>

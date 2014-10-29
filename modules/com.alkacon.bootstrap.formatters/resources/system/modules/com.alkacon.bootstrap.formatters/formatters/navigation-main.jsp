@@ -46,8 +46,8 @@
 	<div class="container">
         <h1 class="pull-left">
 			${cms.title}
-            <c:if test="${not cms.isOnlineProject}">
-            <span style="top: -6px; right: -2px; position: relative" class="badge badge-dark-blue rounded">${cms.requestContext.currentUser.name}</span>
+            <c:if test="${cms.isEditMode}">
+            <span class="badge badge-dark-blue rounded superscript">${cms.requestContext.currentUser.name}</span>
             </c:if>
 		</h1>
         <cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp:6f6f2ea3-1bb3-11e3-a120-000c29f9a2ec)">

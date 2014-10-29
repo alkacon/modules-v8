@@ -3,7 +3,7 @@
 <BootstrapImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/image.xsd">
   <BootstrapImage language="en">
     <Headline><![CDATA[Powerful yet simple]]></Headline>
-    <Text><![CDATA[Some text]]></Text>
+    <Text/>
     <Image>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.galleries/people/15.jpg]]></target>
@@ -11,5 +11,6 @@
         <query><![CDATA[__scale=h:600,w:600,cx:0,cy:24,ch:767,cw:767]]></query>
       </link>
     </Image>
+    <Copyright><![CDATA[publicdomainpictures.net]]></Copyright>
   </BootstrapImage>
 </BootstrapImages>

@@ -109,7 +109,9 @@
     </c:forEach><!-- //END paragraphs -->
    
    <!-- pdf generator -->
+   <a href="<cms:pdf format='/system/modules/com.alkacon.bootstrap.formatters/pages/blog-pdf.jsp' content='${content.filename}' locale='en'/>" target="pdf">
    <img src="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/img/icons/pdf.png</cms:link>"/>
+   </a>
    
     <c:if test="${content.isEditable}">
     <a href="<cms:link>${cms.subSitePath}blog/post-a-new-blog-entry/</cms:link>?fileId=${content.id}">

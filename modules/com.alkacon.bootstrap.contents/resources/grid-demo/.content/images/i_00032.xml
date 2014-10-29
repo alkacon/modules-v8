@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/image.xsd">
+  <BootstrapImage language="en">
+    <Headline><![CDATA[Consultant]]></Headline>
+    <Text><![CDATA[Haley Dunphy]]></Text>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/people/10.jpg]]></target>
+        <uuid>aed0448d-4705-11e3-8417-000c29d28104</uuid>
+      </link>
+    </Image>
+    <Copyright><![CDATA[publicdomainpictures.net]]></Copyright>
+  </BootstrapImage>
+</BootstrapImages>

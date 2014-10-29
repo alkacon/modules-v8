@@ -17,7 +17,7 @@
     <ProjectGroup><![CDATA[Administrators]]></ProjectGroup>
     <UploadPath>
       <link type="WEAK">
-        <target><![CDATA[/sites/default/grid-demo/.content/posts/images/]]></target>
+        <target><![CDATA[/sites/default/grid-demo/.content/blogentries/images-ugc/]]></target>
         <uuid>fbe655bc-5abe-11e4-955d-005056b61161</uuid>
       </link>
     </UploadPath>

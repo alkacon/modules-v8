@@ -41,7 +41,7 @@
       <Description><![CDATA[The background color of the box.]]></Description>
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[blue]]></Default>
-      <WidgetConfig><![CDATA[white colored-box-light:White|lightgrey colored-box-light:Light gray|mediumgrey colored-box-light:Medium grey|dark:Dark grey|red:Red|purple:Purple|blue:Blue (Default)|dark-blue:Dark blue|aqua colored-box-light:Aqua|sea:Turquoise|green colored-box-light:Green|light-green colored-box-light:Light green|yellow colored-box-light:Yellow|orange:Orange|brown:Brown]]></WidgetConfig>
+      <WidgetConfig><![CDATA[white colored-box-light:White|lightgrey colored-box-light:Light grey|mediumgrey colored-box-light:Medium grey|dark:Dark grey|red:Red|purple:Purple|blue:Blue (Default)|dark-blue:Dark blue|aqua colored-box-light:Aqua|sea:Turquoise|green colored-box-light:Green|light-green colored-box-light:Light green|yellow colored-box-light:Yellow|orange:Orange|brown:Brown]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[borderstyle]]></PropertyName>
@@ -65,7 +65,7 @@
       <Description><![CDATA[The color of the (optional) line.]]></Description>
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[red]]></Default>
-      <WidgetConfig><![CDATA[red:Red (Default)|blue:Blue|dark: Dark grey|lightgrey:Light gray]]></WidgetConfig>
+      <WidgetConfig><![CDATA[red:Red (Default)|blue:Blue|dark: Dark grey|lightgrey:Light grey]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[marginbottom]]></PropertyName>
