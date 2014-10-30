@@ -83,7 +83,7 @@
         <Easing><![CDATA[easeOutExpo]]></Easing>
       </Caption>
       <Caption>
-        <Text><![CDATA[GRID BASED, RESPONSIVE TEMPLATES]]></Text>
+        <Text><![CDATA[GRID BASED, RESPONSIVE TEMPLATE GENERATOR]]></Text>
         <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb]]></Class>
         <PosX><![CDATA[10]]></PosX>
         <PosY><![CDATA[100]]></PosY>

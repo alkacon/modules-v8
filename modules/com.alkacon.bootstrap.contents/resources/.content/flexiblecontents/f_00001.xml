@@ -6,24 +6,21 @@
     <Choice>
       <Code name="Code0">
         <links>
-          <link name="link6" internal="true" type="A">
-            <target><![CDATA[/sites/default/login/]]></target>
-            <uuid>d87f4764-58f1-11e4-903d-005056b61161</uuid>
-          </link>
           <link name="link4" internal="true" type="A">
-            <target><![CDATA[/sites/default/release/]]></target>
-            <uuid>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuid>
-          </link>
-          <link name="link5" internal="true" type="A">
             <target><![CDATA[/sites/default/documentation/]]></target>
             <uuid>7afb3d20-02bc-11e4-8167-1305b26fecac</uuid>
+          </link>
+          <link name="link5" internal="true" type="A">
+            <target><![CDATA[/sites/default/login/]]></target>
+            <uuid>d87f4764-58f1-11e4-903d-005056b61161</uuid>
           </link>
           <link name="link2" internal="true" type="A">
             <target><![CDATA[/sites/default/grid-demo/]]></target>
             <uuid>0d82626d-276b-11e4-96d6-005056b61161</uuid>
           </link>
           <link name="link3" internal="true" type="A">
-            <target><![CDATA[/sites/default/elementary-demo/]]></target>
+            <target><![CDATA[/sites/default/release/]]></target>
+            <uuid>b1768d9a-600f-11e4-b7a7-005056b61161</uuid>
           </link>
           <link name="link0" internal="false" type="A">
             <target><![CDATA[http://www.alkacon.com]]></target>
@@ -42,15 +39,13 @@
         <ul class="loginbar pull-right">
             <li><a href="%(link1)">Beginners Tutorial</a></li>
             <li class="topbar-devider"></li>
-            <li><a href="%(link2)">Grid Demo</a></li>
+            <li><a href="%(link2)">Demo</a></li>
             <li class="topbar-devider"></li>
-            <li><a href="%(link3)">Elementary Demo</a></li>
+            <li><a href="%(link3)">Release notes</a></li>
             <li class="topbar-devider"></li>
-            <li><a href="%(link4)">Release notes</a></li>
+            <li><a href="%(link4)">Documentation</a></li>
             <li class="topbar-devider"></li>
-            <li><a href="%(link5)">Documentation</a></li>
-            <li class="topbar-devider"></li>
-            <li><a href="%(link6)">Login</a></li>
+            <li><a href="%(link5)">Login</a></li>
      </ul>
      </div>
 </div>

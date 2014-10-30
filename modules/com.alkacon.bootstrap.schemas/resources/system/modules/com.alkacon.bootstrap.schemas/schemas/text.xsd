@@ -13,7 +13,7 @@
 
 	<xsd:complexType name="OpenCmsBootstrapText">
 		<xsd:sequence>
-			<xsd:element name="Headline" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="Headline" type="OpenCmsString" />
 			<xsd:element name="Text" type="OpenCmsHtml" />
 			<xsd:element name="Link" type="OpenCmsBootstrapLink" minOccurs="0" />
 			<xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />

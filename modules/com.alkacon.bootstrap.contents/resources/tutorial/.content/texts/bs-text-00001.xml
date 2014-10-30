@@ -5,8 +5,7 @@
     <Headline><![CDATA[Default login info]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<h3>Default login info</h3>
-<p><span class="badge badge-orange rounded">Username: Editor</span></p>
+      <content><![CDATA[<p><span class="badge badge-orange rounded">Username: Editor</span></p>
 <p><span class="badge badge-orange rounded">Password: password</span></p>
 <p><em>Please note: This is one of several users created only for this demo. You should make sure to disable / delete these users in a live installation later.</em></p>]]></content>
     </Text>

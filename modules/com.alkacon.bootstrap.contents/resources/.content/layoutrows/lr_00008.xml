@@ -13,6 +13,7 @@
       <SM><![CDATA[col-sm-4]]></SM>
       <MD><![CDATA[col-md-3]]></MD>
       <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-xs-4 col-md-3]]></Modifier>
     </Column>
     <Column>
       <Name><![CDATA[2]]></Name>
@@ -24,6 +25,7 @@
       <SM><![CDATA[col-sm-8]]></SM>
       <MD><![CDATA[col-md-9]]></MD>
       <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-xs-8 col-md-9]]></Modifier>
     </Column>
   </BootstrapLayoutRow>
 </BootstrapLayoutRows>

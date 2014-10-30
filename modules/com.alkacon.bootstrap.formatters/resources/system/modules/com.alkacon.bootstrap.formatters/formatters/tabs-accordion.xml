@@ -7,20 +7,24 @@
     <Jsp>
       <link type="WEAK">
         <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-accordion.jsp]]></target>
-        <uuid>faf4bfdc-47a0-11e3-8ae6-000c29d28104</uuid>
+        <uuid>50192742-3f40-11e4-a791-005056b61161</uuid>
       </link>
     </Jsp>
     <Rank><![CDATA[900]]></Rank>
     <Match>
       <Types>
-        <ContainerType><![CDATA[content]]></ContainerType>
-        <ContainerType><![CDATA[content-full]]></ContainerType>
+        <ContainerType><![CDATA[full]]></ContainerType>
+        <ContainerType><![CDATA[onehalf]]></ContainerType>
+        <ContainerType><![CDATA[onethird]]></ContainerType>
+        <ContainerType><![CDATA[twothirds]]></ContainerType>
+        <ContainerType><![CDATA[onequarter]]></ContainerType>
+        <ContainerType><![CDATA[threequarters]]></ContainerType>
       </Types>
     </Match>
     <Preview>false</Preview>
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
-    <Detail>true</Detail>
+    <Detail>false</Detail>
     <NestedContainers>true</NestedContainers>
     <Setting>
       <PropertyName><![CDATA[hidetitle]]></PropertyName>

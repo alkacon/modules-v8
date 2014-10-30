@@ -5,7 +5,7 @@
     <Headline><![CDATA[Working with the sitemap]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>To create new pages or change the navigation structure of existing pages OpenCms offers the sitemap editor. To open the sitemap, click on the sitemap icon located on the right of the toolbar.</p>]]></content>
+      <content><![CDATA[<p>To create new pages or change the navigation structure of existing pages OpenCms offers the sitemap editor. To open the sitemap, click on the sitemap icon located on the right of the toolbar. Then drag a page template from the list offered and drop it anywhere in the sitemap tree.</p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>

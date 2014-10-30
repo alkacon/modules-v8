@@ -4,11 +4,11 @@
   <Bundle language="de">
     <Message>
       <Key><![CDATA[bootstrap.list.message.new]]></Key>
-      <Value><![CDATA[Neue Liste, bitte editieren!]]></Value>
+      <Value><![CDATA[<strong>Neue Liste</strong>, bitte bearbeiten Sie den Inhalt!]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.list.message.edit]]></Key>
-      <Value><![CDATA[Fehlende Konfigurationseinstellungen, bitte editieren!]]></Value>
+      <Value><![CDATA[<strong>Fehlende Konfigurationseinstellungen</strong>, bitte bearbeiten Sie den Inhalt!]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.list.message.empty]]></Key>
@@ -118,11 +118,11 @@
   <Bundle language="en">
     <Message>
       <Key><![CDATA[bootstrap.list.message.new]]></Key>
-      <Value><![CDATA[New list, please edit!]]></Value>
+      <Value><![CDATA[<strong>New list</strong>, please edit the content!]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.list.message.edit]]></Key>
-      <Value><![CDATA[Missing configuration options, please edit!]]></Value>
+      <Value><![CDATA[<strong>Missing configuration options</strong>, please edit the content!]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.list.message.empty]]></Key>

@@ -58,7 +58,7 @@
       					</c:otherwise>
       				</c:choose>
                 </c:if>
-				<c:if test="${cms.element.setting.showtext.value == 'true'}">
+				<c:if test="${value.Text.isSet and cms.element.setting.showtext.value == 'true'}">
                     <p ${rdfa.Text}>${value.Text}</p>
                 </c:if>
 				<c:if test="${value.Link.isSet and cms.element.setting.showlink.value == 'button'}"><div style="text-align: right; margin-top: 20px;"><a class="btn-more hover-effect" style="position: relative;" href="<cms:link>${value.Link}</cms:link>"><fmt:message key="bootstrap.image.frontend.readmore" /></a></div></c:if>

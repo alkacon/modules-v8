@@ -7,63 +7,52 @@
 <cms:bundle basename="com.alkacon.bootstrap.schemas.blog">
 
 <cms:formatter var="content" val="value" rdfa="rdfa">
+<div class="row margin-bottom-20">
+    <c:choose>
+		<c:when test="${cms.element.inMemoryOnly}">
+			<div class="alert"><fmt:message key="bootstrap.blog.message.edit" /></div>
+		</c:when>
+		<c:otherwise>
+			<c:set var="imgalign">noimage</c:set>
+        	<c:if test="${value.Paragraph.value.Image.exists}">
+        		<c:set var="imgalign"><cms:elementsetting name="imgalign" default="left" /></c:set>
+        	</c:if>
 
-	<div <c:if test="${cms.container.type != 'content'}"> class="row"</c:if>>
-
-		<c:set var="layoutvariant"><c:out value="${cms.element.settings.layoutvariant}" default="top" /></c:set>
-		<c:choose>
-			<c:when test="${layoutvariant == 'top' or layoutvariant == 'left'}">
-				<c:set var="boxClass">search-blocks-${layoutvariant}-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
-			</c:when>
-			<c:otherwise>
-				<c:set var="boxClass">search-blocks-colored search-blocks-<c:out value="${cms.element.settings.color}" default="sea" /></c:set>
-			</c:otherwise>
-		</c:choose>
-		<div class="search-page"><div class="search-blocks ${boxClass}">
-			<div class="row">
-
-                <c:set var="imgalign">noimage</c:set>
-            	<c:if test="${value.Paragraph.value.Image.exists}">
-            		<c:set var="imgalign"><cms:elementsetting name="imgalign" default="left" /></c:set>
-            	</c:if>
-
-				<c:if test="${imgalign == 'left'}">
-					<div class="col-md-4 col-sm-2 hidden-xs" ${value.Paragraph.rdfa.Image}>
-						<cms:img src="${value.Paragraph.value.Image.value.Image}" width="800" cssclass="img-responsive"
-							scaleColor="transparent" scaleType="0" noDim="true" alt="${paragraph.value.Image.value.Title}"
-							title="${paragraph.value.Image.value.Title}" />
-					</div>
-				</c:if>
-
-				<div class="<c:if test="${imgalign != 'noimage'}">col-md-8 col-sm-10 </c:if>col-xs-12" <c:if test="${imgalign == 'noimage'}">${value.Paragraph.rdfa.Image}</c:if>>
-					<h2><a href="<cms:link>${content.filename}</cms:link>" ${rdfa.Title}>${value.Title}</a></h2>
-					<c:set var="showdate"><c:out value="${cms.element.settings.showdate}" default="true" /></c:set>
-					<c:if test="${showdate}">
-						<p><i><fmt:formatDate value="${cms:convertDate(value.Date)}" dateStyle="LONG" timeStyle="SHORT" type="both" /></i></p>
-					</c:if>
-					<c:choose>
-						<c:when test="${value.Teaser.isSet}">
-							<p ${rdfa.Teaser}>${value.Teaser}</p>
-						</c:when>
-						<c:otherwise>
-							<c:set var="teaserlength"><c:out value="${cms.element.settings.teaserlength}" default="250" /></c:set>
-							<p>${cms:trimToSize(cms:stripHtml(value.Paragraph.value.Text), teaserlength)}</p>
-						</c:otherwise>
-					</c:choose>
-					
-					<a href="<cms:link>${content.filename}</cms:link>" class="btn-u btn-u-<c:out value="${cms.element.settings.buttoncolor}" default="red" />"><fmt:message key="bootstrap.blog.message.readmore" /></a>
+			<c:if test="${imgalign == 'left'}">
+				<div class="col-md-4 col-sm-2 hidden-xs" ${value.Paragraph.rdfa.Image}>
+					<cms:img src="${value.Paragraph.value.Image.value.Image}" width="800" cssclass="img-responsive"
+						scaleColor="transparent" scaleType="0" noDim="true" alt="${paragraph.value.Image.value.Title}"
+						title="${paragraph.value.Image.value.Title}" />
 				</div>
+			</c:if>
 
-                <c:if test="${imgalign == 'right'}">
-					<div class="col-md-4 col-sm-2 hidden-xs" ${value.Paragraph.rdfa.Image}>
-						<cms:img src="${value.Paragraph.value.Image.value.Image}" width="800" cssclass="img-responsive"
-							scaleColor="transparent" scaleType="0" noDim="true" alt="${paragraph.value.Image.value.Title}"
-							title="${paragraph.value.Image.value.Title}" />
-					</div>
+			<div class="<c:if test="${imgalign != 'noimage'}">col-md-8 col-sm-10 </c:if>col-xs-12" <c:if test="${imgalign == 'noimage'}">${value.Paragraph.rdfa.Image}</c:if>>
+				<h2><a href="<cms:link>${content.filename}</cms:link>" ${rdfa.Title}>${value.Title}</a></h2>
+				<c:set var="showdate"><c:out value="${cms.element.settings.showdate}" default="true" /></c:set>
+				<c:if test="${showdate}">
+					<p><i><fmt:formatDate value="${cms:convertDate(value.Date)}" dateStyle="LONG" timeStyle="SHORT" type="both" /></i></p>
 				</c:if>
-			</div>                            
-		</div></div>
+				<c:choose>
+					<c:when test="${value.Teaser.isSet}">
+						<p ${rdfa.Teaser}>${value.Teaser}</p>
+					</c:when>
+					<c:otherwise>
+						<c:set var="teaserlength"><c:out value="${cms.element.settings.teaserlength}" default="250" /></c:set>
+						<p>${cms:trimToSize(cms:stripHtml(value.Paragraph.value.Text), teaserlength)}</p>
+					</c:otherwise>
+				</c:choose>
+            	<a href="<cms:link>${content.filename}</cms:link>" class="btn-u btn-u-<c:out value="${cms.element.settings.buttoncolor}" default="red" />"><fmt:message key="bootstrap.blog.message.readmore" /></a>
+			</div>
 
-	</div>
+        	<c:if test="${imgalign == 'right'}">
+				<div class="col-md-4 col-sm-2 hidden-xs" ${value.Paragraph.rdfa.Image}>
+					<cms:img src="${value.Paragraph.value.Image.value.Image}" width="800" cssclass="img-responsive"
+						scaleColor="transparent" scaleType="0" noDim="true" alt="${paragraph.value.Image.value.Title}"
+						title="${paragraph.value.Image.value.Title}" />
+				</div>
+			</c:if>
+        </c:otherwise>
+	</c:choose>
+</div>                            
 </cms:formatter>
 </cms:bundle>

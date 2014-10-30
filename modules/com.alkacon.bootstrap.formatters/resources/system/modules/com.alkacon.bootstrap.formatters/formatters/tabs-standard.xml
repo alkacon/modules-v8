@@ -7,14 +7,18 @@
     <Jsp>
       <link type="WEAK">
         <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/tabs-standard.jsp]]></target>
-        <uuid>fc5081f5-1f86-11e3-8a31-000c29f9a2ec</uuid>
+        <uuid>5020533d-3f40-11e4-a791-005056b61161</uuid>
       </link>
     </Jsp>
     <Rank><![CDATA[1000]]></Rank>
     <Match>
       <Types>
-        <ContainerType><![CDATA[content]]></ContainerType>
-        <ContainerType><![CDATA[content-full]]></ContainerType>
+        <ContainerType><![CDATA[full]]></ContainerType>
+        <ContainerType><![CDATA[onehalf]]></ContainerType>
+        <ContainerType><![CDATA[onethird]]></ContainerType>
+        <ContainerType><![CDATA[twothirds]]></ContainerType>
+        <ContainerType><![CDATA[onequarter]]></ContainerType>
+        <ContainerType><![CDATA[threequarters]]></ContainerType>
       </Types>
     </Match>
     <Preview>false</Preview>

@@ -52,11 +52,11 @@
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.flexible.message.changed]]></Key>
-      <Value><![CDATA[The content has been edited, please reload the page! ]]></Value>
+      <Value><![CDATA[The content has been edited, the page will reload now.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.flexible.message.edit]]></Key>
-      <Value><![CDATA[Please edit this flexible element content.]]></Value>
+      <Value><![CDATA[<strong>New flexible content</strong>, please edit the content.]]></Value>
     </Message>
   </Bundle>
   <Bundle language="de">
@@ -90,7 +90,7 @@
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapFlexibleElementChoice.Image.help]]></Key>
-      <Value><![CDATA[Ein Bild, das auf die maximale Spaltenbreite skaliert wird. ]]></Value>
+      <Value><![CDATA[Ein Bild, das auf die maximale Spaltenbreite skaliert wird.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapFlexibleElementChoice.Text]]></Key>
@@ -98,7 +98,7 @@
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapFlexibleElementChoice.Text.help]]></Key>
-      <Value><![CDATA[Freitext mit HTML Formatierung. ]]></Value>
+      <Value><![CDATA[Freitext mit HTML Formatierung.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapFlexibleElementChoice.Code]]></Key>
@@ -106,15 +106,15 @@
     </Message>
     <Message>
       <Key><![CDATA[label.BootstrapFlexibleElementChoice.Code.help]]></Key>
-      <Value><![CDATA[Hiermit kann HTML-Code oder JavaScript eingebettet werden. ]]></Value>
+      <Value><![CDATA[Hiermit kann HTML-Code oder JavaScript eingebettet werden.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.flexible.message.changed]]></Key>
-      <Value><![CDATA[Der Inhalt wurde geändert, bitte laden Sie die Seite neu! ]]></Value>
+      <Value><![CDATA[Der Inhalt wurde geändert, die Seite wird jetzt neu geladen.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.flexible.message.edit]]></Key>
-      <Value><![CDATA[Bitte bearbeiten Sie das flexible Element.]]></Value>
+      <Value><![CDATA[<strong>Neuer flexibler Inhalt</strong>, bitte bearbeiten Sie den Inhalt.]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

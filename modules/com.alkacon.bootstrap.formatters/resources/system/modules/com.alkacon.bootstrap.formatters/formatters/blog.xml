@@ -6,18 +6,21 @@
     <Type><![CDATA[bs-blog]]></Type>
     <Jsp>
       <link type="WEAK">
-        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/blog.jsp]]></target>
-        <uuid>66a4bb4f-4557-11e3-84e1-000c29d28104</uuid>
+        <target><![CDATA[/system/modules/com.alkacon.bootstrap.formatters/formatters/blog-grid.jsp]]></target>
+        <uuid>f1e03dfe-4a33-11e4-9866-005056b61161</uuid>
       </link>
     </Jsp>
     <Rank><![CDATA[1000]]></Rank>
     <Match>
       <Types>
-        <ContainerType><![CDATA[content]]></ContainerType>
-        <ContainerType><![CDATA[content-full]]></ContainerType>
+        <ContainerType><![CDATA[full]]></ContainerType>
+        <ContainerType><![CDATA[threequarters]]></ContainerType>
+        <ContainerType><![CDATA[twothirds]]></ContainerType>
+        <ContainerType><![CDATA[onethird]]></ContainerType>
+        <ContainerType><![CDATA[onehalf]]></ContainerType>
       </Types>
     </Match>
-    <Preview>false</Preview>
+    <Preview>true</Preview>
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
     <Detail>false</Detail>
@@ -41,20 +44,6 @@
       <DisplayName><![CDATA[%(key.bootstrap.setting.showdate)]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[true]]></Default>
-    </Setting>
-    <Setting>
-      <PropertyName><![CDATA[color]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.setting.color)]]></DisplayName>
-      <Widget><![CDATA[select]]></Widget>
-      <Default><![CDATA[sea]]></Default>
-      <WidgetConfig><![CDATA[red:%(key.bootstrap.setting.color.red)|sea:%(key.bootstrap.setting.color.sea)|grey:%(key.bootstrap.setting.color.grey)|green:%(key.bootstrap.setting.color.green)|blue:%(key.bootstrap.setting.color.blue)|orange:%(key.bootstrap.setting.color.orange)|yellow:%(key.bootstrap.setting.color.yellow)]]></WidgetConfig>
-    </Setting>
-    <Setting>
-      <PropertyName><![CDATA[layoutvariant]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.setting.layoutvariant)]]></DisplayName>
-      <Widget><![CDATA[select]]></Widget>
-      <Default><![CDATA[top]]></Default>
-      <WidgetConfig><![CDATA[top:%(key.bootstrap.setting.layout.top)|left:%(key.bootstrap.setting.layout.left)|box:%(key.bootstrap.setting.layout.box)]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[buttoncolor]]></PropertyName>

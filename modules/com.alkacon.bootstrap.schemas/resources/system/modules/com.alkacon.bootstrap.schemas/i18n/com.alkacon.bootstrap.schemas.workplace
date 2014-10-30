@@ -15,18 +15,6 @@
       <Value><![CDATA[Contains all content types belonging to the Bootstrap Template.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[fileicon.bs-article]]></Key>
-      <Value><![CDATA[Article]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-article]]></Key>
-      <Value><![CDATA[New Article]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-article]]></Key>
-      <Value><![CDATA[An article can contain multiple paragraphs with an optional image and link.]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[fileicon.bs-imagegalleryshow]]></Key>
       <Value><![CDATA[Image Gallery Show]]></Value>
     </Message>
@@ -37,18 +25,6 @@
     <Message>
       <Key><![CDATA[desc.bs-imagegalleryshow]]></Key>
       <Value><![CDATA[Shows thumbnails of all images of a specific folder.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-imagerow]]></Key>
-      <Value><![CDATA[Image Row]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-imagerow]]></Key>
-      <Value><![CDATA[New Image Row]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-imagerow]]></Key>
-      <Value><![CDATA[An image row shows 3 or 4 columns with images and a description with links to more details.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-carousel]]></Key>
@@ -207,6 +183,62 @@
       <Value><![CDATA[Creates a layout row that fits in an underlying template row column.]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Headline.help]]></Key>
+      <Value><![CDATA[The optional headline of the paragraph.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Text.help]]></Key>
+      <Value><![CDATA[The paragraph text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Image.help]]></Key>
+      <Value><![CDATA[An image that can be aligned in different ways.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Link.help]]></Key>
+      <Value><![CDATA[A link pointing to further information, can also be an external link (starting with <b>http://</b>).]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Image]]></Key>
+      <Value><![CDATA[Image URI]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Image.help]]></Key>
+      <Value><![CDATA[The absolute path to the image to use.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Title.help]]></Key>
+      <Value><![CDATA[The image title is displayed when hovering the image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Description]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Description.help]]></Key>
+      <Value><![CDATA[The image description is used as alternative text for the image.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[bootstrap.image.shape.none]]></Key>
       <Value><![CDATA[Default]]></Value>
     </Message>
@@ -233,18 +265,6 @@
       <Value><![CDATA[Beinhaltet alle Ressourcetypen für das Bootstrap Template.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[fileicon.bs-article]]></Key>
-      <Value><![CDATA[Artikel]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-article]]></Key>
-      <Value><![CDATA[Neuer Artikel]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-article]]></Key>
-      <Value><![CDATA[Ein Artikel kann mehrere Textabschnitte mit optionalen Bildern oder Links enthalten.]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[fileicon.bs-imagegalleryshow]]></Key>
       <Value><![CDATA[Bilderschau]]></Value>
     </Message>
@@ -255,18 +275,6 @@
     <Message>
       <Key><![CDATA[desc.bs-imagegalleryshow]]></Key>
       <Value><![CDATA[Zeigt eine Übersicht der Bilder eines Ordners an.]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[fileicon.bs-imagerow]]></Key>
-      <Value><![CDATA[Bild Reihe]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[title.newbs-imagerow]]></Key>
-      <Value><![CDATA[Neue Bild Reihe]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.bs-imagerow]]></Key>
-      <Value><![CDATA[Eine Bild Reihe zeigt 3 oder 4 Spalten mit Bildern und einer Beschreibung mit Links zu weiterführenden Informationen.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.bs-carousel]]></Key>
@@ -423,6 +431,62 @@
     <Message>
       <Key><![CDATA[desc.bs-layoutrow]]></Key>
       <Value><![CDATA[Erzeugt eine Layoutzeile, die eine Spalte einer Templatezeile weiter unterteilt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Headline]]></Key>
+      <Value><![CDATA[Überschrift]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Headline.help]]></Key>
+      <Value><![CDATA[Die optionale Überschrift des Absatzes.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Text.help]]></Key>
+      <Value><![CDATA[Der Absatztext.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Image]]></Key>
+      <Value><![CDATA[Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Image.help]]></Key>
+      <Value><![CDATA[Ein Bild, das auf unterschiedliche Weise ausgerichtet werden kann.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapParagraph.Link.help]]></Key>
+      <Value><![CDATA[Ein weiterführender Link, kann auch ein externer Link (beginnend mit <b>http://</b>) sein.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Image]]></Key>
+      <Value><![CDATA[Bild URI]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Image.help]]></Key>
+      <Value><![CDATA[Der absolute Pfad des anzuzeigenden Bildes..]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Title.help]]></Key>
+      <Value><![CDATA[Der Bildtitel wird beim Überfahren des Bildes mit der Maus gezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Description]]></Key>
+      <Value><![CDATA[Beschreibung]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapNestedImage.Description.help]]></Key>
+      <Value><![CDATA[Die Bildbeschreibung wird als alternativer Text des Bildes verwendet.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.image.shape.none]]></Key>

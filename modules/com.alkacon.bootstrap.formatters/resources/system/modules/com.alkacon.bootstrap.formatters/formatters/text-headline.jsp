@@ -7,16 +7,8 @@
 
 <div class="margin-bottom-30">
 	<div class="headline">
-		<c:choose>
-		<c:when test="${value.Headline.isSet}">
-			<h2 ${rdfa.Headline}>${value.Headline}</h2>
-		</c:when>
-		<c:otherwise>
-			<h2 ${rdfa.Headline}>----------</h2>
-		</c:otherwise>
-		</c:choose>
+		<h2 ${rdfa.Headline}>${value.Headline}</h2>
 	</div>
-
 </div>
 
 </cms:formatter>

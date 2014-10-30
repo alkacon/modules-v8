@@ -434,6 +434,20 @@ div.div-bordered {
 .margin-top-20 { margin-top: 20px; }
 .margin-top-20 { margin-top: 30px; }
 
+/* Floater */
+.float-row:before, 
+.float-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-col {
+    float: left; 
+    min-height: 1px; 
+    padding-right: 10px; 
+}
+
 /* Service Boxes */
 .servive-block a:hover, .servive-block-in a:hover {
 	text-decoration: none;

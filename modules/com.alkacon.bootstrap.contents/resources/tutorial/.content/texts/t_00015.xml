@@ -10,11 +10,10 @@
           <uuid>0d82626d-276b-11e4-96d6-005056b61161</uuid>
         </link>
       </links>
-      <content><![CDATA[<p>You have just learned the basic skills to manage contents in OpenCms. Of course, there is a lot more to discover. OpenCms is a full featured website CMS that allows creation of the most demanding websites.</p>
-<h4>There is a lot more to discover</h4>
-<p>To get an impression about what else is available in OpenCms, click the <em><strong>Show menu</strong></em> on the toolbar and select <em><strong>Show workplace</strong></em>. This will bring up the OpenCms Workplace, our "power user" interface. There you can see the internal file structure of the pages that have been created, modify permissions and maintain other system aspects.</p>
+      <content><![CDATA[<h4>Congratulations!</h4>
+<p>Now you know how to manage contents in OpenCms. Of course, there are many more possibilities. OpenCms is a full featured website CMS that allows creation of the most demanding websites.</p>
 <h4>Click on any of the boxes below to continue exploring</h4>
-<p>The <strong><em>Release Notes</em></strong> contain information about what is new this OpenCms release. The <em><strong>Developer Demo</strong></em> contains basic technical examples for template developers, but is not very nice to look at.</p>
+<p>The <strong><em>Release Notes</em></strong> contain information about what is new this OpenCms release. Our <em><strong>Documentation</strong></em> contains in depth information about how to manage and develop websites with OpenCms.</p>
 <p>We recommend you start with the <a href="%(link0)"><em><strong>OpenCms Demo Website</strong></em></a>, which provides a full featured, nice looking example.</p>]]></content>
     </Text>
   </BootstrapText>

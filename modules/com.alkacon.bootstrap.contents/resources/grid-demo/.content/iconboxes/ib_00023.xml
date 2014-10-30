@@ -2,7 +2,7 @@
 
 <BootstrapIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/iconbox.xsd">
   <BootstrapIconBox language="en">
-    <Headline><![CDATA[Responsive Design]]></Headline>
+    <Headline><![CDATA[Responsive Design]]></Headline>
     <Icon><![CDATA[Thumbs-Up]]></Icon>
     <Text><![CDATA[Powerful, Bootstrap 3 based default template.]]></Text>
   </BootstrapIconBox>

@@ -16,7 +16,7 @@
 <c:if test="${cms.element.setting.marginbottom.value != '0'}"><c:set var="rowClass">${rowClass} margin-bottom-${cms.element.setting.marginbottom.value}</c:set></c:if>
 
 <div <c:if test="${detailOnlyAttr == 'false' or (detailOnlyAttr == 'true' and cms.detailRequest)}">class="${rowClass}"</c:if>>
-    
+ 
 <c:if test="${cms.isEditMode and detailOnlyAttr == 'true' and not cms.detailRequest}">
     <div class="servive-block rounded-3x servive-block-light">
         <h4><fmt:message key="bootstrap.row.headline.detailonlycontainer"/></h4>           
@@ -48,7 +48,7 @@
         </c:if>
     </c:if>
     <c:if test="${column.value.Modifier.isSet and cms.element.setting.usemodifier.value == 'true'}">
-        <c:set var="bssClass">${bssClass}${spacer}${column.value.Modifier}</c:set>
+        <c:set var="bssClass">${column.value.Modifier}</c:set>
     </c:if>
 
     <c:if test="${column.value.Detail.exists}">

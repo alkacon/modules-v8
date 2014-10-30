@@ -7,10 +7,9 @@
 <cms:bundle basename="com.alkacon.bootstrap.schemas.row">
 <cms:formatter var="content" val="value">
 
-<c:if test="${cms.element.setting.wrapperclass.isSet}"><div class="${cms.element.setting.wrapperclass.value}"></c:if>
 <c:if test="${cms.element.setting.createcontainerandrow.value == 'true'}">
     <div class="<c:if test="${cms.element.setting.addcontentclass.value == 'true'}">content </c:if>container<c:if test="${cms.element.setting.full.value == 'true'}">-fluid</c:if>">
-    <div class="row">
+    <div class="row">   
 </c:if>
 
 <c:forEach var="column" items="${content.valueList.Column}">
@@ -37,7 +36,7 @@
         </c:if>
     </c:if>
     <c:if test="${column.value.Modifier.isSet and cms.element.setting.usemodifier.value == 'true'}">
-        <c:set var="bssClass">${bssClass}${spacer}${column.value.Modifier}</c:set>
+        <c:set var="bssClass">${column.value.Modifier}</c:set>
     </c:if>
 
     <c:if test="${column.value.Detail.exists}">
@@ -58,7 +57,8 @@
         tagClass="${bssClass}" 
         maxElements="${column.value.Count}" 
         detailview="${detailAttr}" 
-        editableby="${column.value.Editors}">
+        editableby="${column.value.Editors}"
+        param="Blaues-Licht">
         
     <div class="servive-block rounded-3x servive-block-dark-blue">
         <h2 class="heading-md"><fmt:message key="bootstrap.row.headline.emptycontainer"/>  ${alert}</h2>
@@ -72,8 +72,6 @@
     </div>
     </div>
 </c:if>
-
-<c:if test="${cms.element.setting.wrapperclass.isSet}"></div></c:if>
 
 </cms:formatter>
 </cms:bundle>

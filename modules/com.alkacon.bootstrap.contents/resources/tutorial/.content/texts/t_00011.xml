@@ -5,7 +5,7 @@
     <Headline><![CDATA[Preview a page in different devices]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>Our demo template (the one used for this introduction) is based on the popular Bootstrap HTML framework. As a result, it is also a responsive template that adujsts to the size of the device.</p>]]></content>
+      <content><![CDATA[<p>Our demo template (which is used for this introduction) is based on the popular Bootstrap HTML framework. As a result, it is also a responsive template that adujsts to the size of the device.</p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>

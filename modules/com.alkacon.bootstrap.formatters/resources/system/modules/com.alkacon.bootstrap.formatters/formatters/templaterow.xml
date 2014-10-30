@@ -36,22 +36,16 @@
       <Default><![CDATA[true]]></Default>
     </Setting>
     <Setting>
-      <PropertyName><![CDATA[addcontentclass]]></PropertyName>
-      <DisplayName><![CDATA[Add content CSS wrapper class]]></DisplayName>
-      <Description><![CDATA[If checked, the content CSS class is added to the container element (for padding).]]></Description>
+      <PropertyName><![CDATA[usemodifier]]></PropertyName>
+      <DisplayName><![CDATA[Use CSS modifier]]></DisplayName>
+      <Description><![CDATA[If checked, only the optional CSS modifier class will be used.]]></Description>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[false]]></Default>
     </Setting>
     <Setting>
-      <PropertyName><![CDATA[wrapperclass]]></PropertyName>
-      <DisplayName><![CDATA[Wrapper CSS class]]></DisplayName>
-      <Description><![CDATA[CSS class name for an optional wrapper <div> element.]]></Description>
-      <Widget><![CDATA[string]]></Widget>
-    </Setting>
-    <Setting>
-      <PropertyName><![CDATA[usemodifier]]></PropertyName>
-      <DisplayName><![CDATA[Use modifier]]></DisplayName>
-      <Description><![CDATA[If checked, the optional modifier class will be used.]]></Description>
+      <PropertyName><![CDATA[addcontentclass]]></PropertyName>
+      <DisplayName><![CDATA[Add padding on top]]></DisplayName>
+      <Description><![CDATA[If checked, the content CSS class is added to the container element (for padding).]]></Description>
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[false]]></Default>
     </Setting>

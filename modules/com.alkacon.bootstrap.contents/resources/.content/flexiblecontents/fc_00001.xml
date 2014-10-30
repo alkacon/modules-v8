@@ -6,30 +6,22 @@
     <Choice>
       <Code name="Code0">
         <links>
-          <link name="link6" internal="true" type="IMG">
+          <link name="link4" internal="true" type="IMG">
             <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/logo/logo_opencms_png24.png]]></target>
             <uuid>aa1519ad-1abc-11e3-9246-000c29f9a2ec</uuid>
             <query><![CDATA[__scale=w:165,h:40,t:2,c:transparent]]></query>
           </link>
-          <link name="link4" internal="true" type="A">
-            <target><![CDATA[/sites/default/login/]]></target>
-            <uuid>d87f4764-58f1-11e4-903d-005056b61161</uuid>
-          </link>
-          <link name="link5" internal="true" type="A">
-            <target><![CDATA[/sites/default/]]></target>
-            <uuid>1eac6023-5b72-11e4-869a-005056b61161</uuid>
-          </link>
           <link name="link2" internal="true" type="A">
-            <target><![CDATA[/sites/default/release/]]></target>
-            <uuid>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuid>
-          </link>
-          <link name="link3" internal="true" type="A">
             <target><![CDATA[/sites/default/grid-demo/search-demo/]]></target>
             <uuid>d5244004-5ac4-11e4-955d-005056b61161</uuid>
           </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/default/]]></target>
+            <uuid>d952e285-5f69-11e4-82c0-005056b61161</uuid>
+          </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>1eac6023-5b72-11e4-869a-005056b61161</uuid>
+            <uuid>d952e285-5f69-11e4-82c0-005056b61161</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/grid-demo/]]></target>
@@ -44,21 +36,17 @@
             <li class="topbar-devider"></li>
             <li><a href="%(link1)">Demo</a></li>
             <li class="topbar-devider"></li>
-            <li><a href="%(link2)">Release notes</a></li>
-            <li class="topbar-devider"></li>
-            <li><a href="%(link3)">Search</a></li>
-            <li class="topbar-devider"></li>
-            <li><a href="%(link4)">Login</a></li>
+            <li><a href="%(link2)">Search</a></li>
 </ul></div>
 </div><!--/top-->
 <!--=== End Top ===-->
 
 <div class="container">
 <div class="row">
-<div class="col-md-3"><a class="navbar-brand" href="%(link5)"> <img id="logo-header" src="%(link6)" alt="Logo" width="165" height="40" /></a></div>
-<div class="col-md-9">
+<div class="col-sm-3"><a href="%(link3)"> <img id="logo-header" src="%(link4)" alt="Logo" width="165" height="40" /></a></div>
+<div class="col-sm-9">
 <div class="headline">
-<h1>Getting started: A beginners tutorial</h1>
+<h1>Beginners tutorial</h1>
 </div>
 </div>
 </div>

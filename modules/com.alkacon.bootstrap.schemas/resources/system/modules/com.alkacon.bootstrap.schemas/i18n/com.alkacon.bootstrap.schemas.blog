@@ -83,6 +83,10 @@
       <Value><![CDATA[Please edit the blog entry text.]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[bootstrap.blog.message.edit]]></Key>
+      <Value><![CDATA[<strong>New blog entry</strong>, please edit the content.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[bootstrap.blog.message.readmore]]></Key>
       <Value><![CDATA[read more]]></Value>
     </Message>
@@ -167,6 +171,10 @@
     <Message>
       <Key><![CDATA[bootstrap.blog.default.Text]]></Key>
       <Value><![CDATA[Bitte bearbeiten Sie den Blogtext.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.blog.message.edit]]></Key>
+      <Value><![CDATA[<strong>Neuer Blog Eintrag</strong>, bitte bearbeiten Sie den Inhalt.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.blog.message.readmore]]></Key>

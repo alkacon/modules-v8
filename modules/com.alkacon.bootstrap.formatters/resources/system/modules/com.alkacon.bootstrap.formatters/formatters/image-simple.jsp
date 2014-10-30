@@ -63,7 +63,7 @@
                     <div class="center"><div class="margin-bottom-20"></div><p><strong ${rdfa.Headline}>${value.Headline}</strong></p></div>
                 </c:when>
             </c:choose>
-            <c:if test="${cms.element.setting.showtext.value == 'true'}">
+            <c:if test="${value.Text.isSet and cms.element.setting.showtext.value == 'true'}">
                 <p class="margin-top-10" ${rdfa.Text}>${value.Text}</p>
             </c:if>        
 

@@ -2,14 +2,12 @@
 
 <BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
   <BootstrapText language="en">
-    <Headline><![CDATA[Default login information]]></Headline>
+    <Headline><![CDATA[Administrator login info]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<h4>Administrator login info</h4>
-<p><span class="btn-u btn-u-red">Username: Admin</span></p>
-<p><span class="btn-u btn-u-red">Password: admin</span></p>
-<p>The Admin user has full permissions in the system. <strong>You should change the Admin password as soon as possible!</strong> Do this in the OpenCms workplace that you can access through the "Advanced" context menu in the toolbar.</p>
-<p>Open <em><strong>View &gt; Administration</strong></em> and then select <em><strong>Account Management</strong></em> and <em><strong>User Management</strong></em>.</p>
+      <content><![CDATA[<p><span class="badge badge-orange rounded">Username: Admin</span></p>
+<p><span class="badge badge-orange rounded">Password: admin</span></p>
+<p><em>You should change the Admin password as soon as possible! </em>Do this in the OpenCms workplace that you can access through the "Advanced" context menu in the toolbar.</p>
 <p>Note that for this demo the users <strong>Author</strong>, <strong>Editor</strong>, <strong>Gallator</strong> and <strong>Templator</strong> have been created as well. You should also change their passwords or disable / delete these users completely. </p>]]></content>
     </Text>
   </BootstrapText>

@@ -9,10 +9,11 @@
       <Count><![CDATA[10]]></Count>
       <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
       <EmptyText><![CDATA[1st column - please drop content elements here.]]></EmptyText>
-      <XS><![CDATA[col-xs-6]]></XS>
+      <XS><![CDATA[col-xs-12]]></XS>
       <SM><![CDATA[col-sm-6]]></SM>
       <MD><![CDATA[col-md-3]]></MD>
       <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-xs-6 col-md-3]]></Modifier>
     </Column>
     <Column>
       <Name><![CDATA[column2]]></Name>
@@ -20,10 +21,11 @@
       <Count><![CDATA[10]]></Count>
       <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
       <EmptyText><![CDATA[2nd column - please drop content elements here.]]></EmptyText>
-      <XS><![CDATA[col-xs-6]]></XS>
+      <XS><![CDATA[col-xs-12]]></XS>
       <SM><![CDATA[col-sm-6]]></SM>
       <MD><![CDATA[col-md-3]]></MD>
       <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-xs-6 col-md-3]]></Modifier>
     </Column>
     <Column>
       <Name><![CDATA[column3]]></Name>
@@ -31,10 +33,11 @@
       <Count><![CDATA[10]]></Count>
       <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
       <EmptyText><![CDATA[3rd column - please drop content elements here.]]></EmptyText>
-      <XS><![CDATA[col-xs-6]]></XS>
+      <XS><![CDATA[col-xs-12]]></XS>
       <SM><![CDATA[col-sm-6]]></SM>
       <MD><![CDATA[col-md-3]]></MD>
       <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-xs-6 col-md-3]]></Modifier>
     </Column>
     <Column>
       <Name><![CDATA[column4]]></Name>
@@ -42,10 +45,11 @@
       <Count><![CDATA[10]]></Count>
       <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
       <EmptyText><![CDATA[4th column - please drop content elements here.]]></EmptyText>
-      <XS><![CDATA[col-xs-6]]></XS>
+      <XS><![CDATA[col-xs-12]]></XS>
       <SM><![CDATA[col-sm-6]]></SM>
       <MD><![CDATA[col-md-3]]></MD>
       <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-xs-6 col-md-3]]></Modifier>
     </Column>
   </BootstrapLayoutRow>
 </BootstrapLayoutRows>

@@ -196,7 +196,7 @@
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.slider.message.edit]]></Key>
-      <Value><![CDATA[<strong>The slider has been changed</strong>, please reload the page to display the slider.]]></Value>
+      <Value><![CDATA[<strong>The slider has been changed</strong>, the page will reload now to display the slider.]]></Value>
     </Message>
   </Bundle>
   <Bundle language="de">
@@ -394,7 +394,7 @@
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.slider.message.edit]]></Key>
-      <Value><![CDATA[<strong>Der Rotator wurde geändert</strong>,bitte laden Sie zum Anzeigen die Seite neu.]]></Value>
+      <Value><![CDATA[<strong>Der Rotator wurde geändert</strong>, die Seite wird zur Anzeige neu geladen.]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

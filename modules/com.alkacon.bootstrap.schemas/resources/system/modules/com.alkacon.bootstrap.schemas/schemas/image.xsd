@@ -13,7 +13,7 @@
 	<xsd:complexType name="OpenCmsBootstrapImage">
 		<xsd:sequence>
 			<xsd:element name="Headline" type="OpenCmsString" />
-			<xsd:element name="Text" type="OpenCmsString" />
+			<xsd:element name="Text" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Image" type="OpenCmsVfsFile" />
 			<xsd:element name="Copyright" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />

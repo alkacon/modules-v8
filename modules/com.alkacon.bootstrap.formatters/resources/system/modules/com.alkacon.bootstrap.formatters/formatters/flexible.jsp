@@ -7,7 +7,6 @@
 <cms:bundle basename="com.alkacon.bootstrap.schemas.flexible">
 
 <cms:formatter var="content">
-	<c:if test="${cms.container.type == 'content-full'}"><div class="row"></c:if>
 	<div<c:if test="${not empty cms.element.settings.cssClass}"> class="${cms.element.settings.cssClass}"</c:if>>
 	<c:choose>
 		<c:when test="${cms.element.inMemoryOnly}">
@@ -44,7 +43,6 @@
 		</c:otherwise>
 	</c:choose>
 	</div>
-	<c:if test="${cms.container.type == 'content-full'}"></div></c:if>
 </cms:formatter>
 
 </cms:bundle>

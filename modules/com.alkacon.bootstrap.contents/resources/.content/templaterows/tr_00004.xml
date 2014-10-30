@@ -6,7 +6,7 @@
     <Column>
       <Name><![CDATA[thirds1]]></Name>
       <Type><![CDATA[layoutrowsonly]]></Type>
-      <Count><![CDATA[5]]></Count>
+      <Count><![CDATA[50]]></Count>
       <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
       <EmptyText><![CDATA[Left template column, drop layout rows in this container.]]></EmptyText>
       <XS><![CDATA[col-xs-12]]></XS>
@@ -17,7 +17,7 @@
     <Column>
       <Name><![CDATA[thirds2]]></Name>
       <Type><![CDATA[layoutrowsonly]]></Type>
-      <Count><![CDATA[5]]></Count>
+      <Count><![CDATA[50]]></Count>
       <Editors><![CDATA[ROLE.DEVELOPER]]></Editors>
       <EmptyText><![CDATA[Right template column.]]></EmptyText>
       <XS><![CDATA[col-xs-12]]></XS>

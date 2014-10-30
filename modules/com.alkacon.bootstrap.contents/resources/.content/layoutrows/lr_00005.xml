@@ -24,7 +24,7 @@
       <SM><![CDATA[col-sm-5]]></SM>
       <MD><![CDATA[col-md-4]]></MD>
       <LG><![CDATA[-]]></LG>
-      <Modifier><![CDATA[col-sm-push-5 col-md-push-4]]></Modifier>
+      <Modifier><![CDATA[col-sm-5 col-md-4 col-sm-push-5 col-md-push-4]]></Modifier>
     </Column>
     <Column>
       <Name><![CDATA[column3]]></Name>
@@ -36,7 +36,7 @@
       <SM><![CDATA[col-sm-5]]></SM>
       <MD><![CDATA[col-md-4]]></MD>
       <LG><![CDATA[-]]></LG>
-      <Modifier><![CDATA[col-sm-pull-5 col-md-pull-4]]></Modifier>
+      <Modifier><![CDATA[col-sm-5 col-md-4 col-sm-pull-5 col-md-pull-4]]></Modifier>
     </Column>
     <Column>
       <Name><![CDATA[column4]]></Name>

@@ -4,7 +4,7 @@
 	<info>
 		<creator>andreas</creator>
 		<opencms_version>9.4.9</opencms_version>
-		<createdate>Tue, 28 Oct 2014 11:52:17 GMT</createdate>
+		<createdate>Thu, 30 Oct 2014 12:35:24 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -31,10 +31,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>2bd8b926-5dd8-11e4-93f9-005056b61161</uuidstructure>
-			<datelastmodified>Mon, 27 Oct 2014 12:52:55 GMT</datelastmodified>
+			<uuidstructure>d7941b4d-5f69-11e4-82c0-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 29 Oct 2014 12:48:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 27 Oct 2014 12:52:55 GMT</datecreated>
+			<datecreated>Wed, 29 Oct 2014 12:48:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -53,10 +53,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>2d7f8b92-5dd8-11e4-93f9-005056b61161</uuidstructure>
-			<datelastmodified>Mon, 27 Oct 2014 12:52:58 GMT</datelastmodified>
+			<uuidstructure>d958fd09-5f69-11e4-82c0-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 29 Oct 2014 12:48:15 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 27 Oct 2014 12:52:58 GMT</datecreated>
+			<datecreated>Wed, 29 Oct 2014 12:48:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
