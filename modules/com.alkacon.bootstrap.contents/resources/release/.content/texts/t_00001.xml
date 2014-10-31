@@ -19,7 +19,7 @@
           <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>November 4, 2014: Step up to OpenCms 9.5! This version brings template creation without the need to code, plus other features like user generated content, on-the-fly PDF generation, greatly improved documentation and much more - all presented in a responsive demo website based on Bootstrap.</p>
+      <content><![CDATA[<p>November 3, 2014: Step up to OpenCms 9.5! This version brings template creation without the need to code, plus other features like user generated content, on-the-fly PDF generation, greatly improved documentation and much more - all presented in a responsive demo website based on Bootstrap.</p>
 <h2>New in OpenCms 9.5</h2>
 <ul>
 <li><span class="label label-warning">#</span> Drag &amp; drop template and layout creation with nested containers.</li>
