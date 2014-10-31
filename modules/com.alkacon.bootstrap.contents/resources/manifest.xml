@@ -4,7 +4,7 @@
 	<info>
 		<creator>andreas</creator>
 		<opencms_version>9.4.9</opencms_version>
-		<createdate>Thu, 30 Oct 2014 12:35:33 GMT</createdate>
+		<createdate>Fri, 31 Oct 2014 09:20:51 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -15,6 +15,7 @@
 		<class/>
 		<import-script>writeProperty '/' 'Title' 'Demo Content'
 writeProperty '/' 'Description' 'The OpenCms demo, brought to you by Alkacon Software.'
+writeProperty '/' 'NavText' 'Overview'
 writeProperty '/' 'template' 'provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-grid-page.jsp'
 
 createUser 'Author' 'password' 'Sample author user'
@@ -53,7 +54,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<resource uri="/login/"/>
 			<resource uri="/release/"/>
 			<resource uri="/tutorial/"/>
-			<resource uri="/welcome/"/>
+			<resource uri="/overview/"/>
 			<resource uri="/index.html"/>
 			<resource uri="/system/shared/templatecontexts.json"/>
 		</resources>
@@ -463,7 +464,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>d8be96fd-21d0-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>d8be96fe-21d0-11e3-b95f-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 08:14:05 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 08:44:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
@@ -546,8 +547,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-flexible</type>
 			<uuidstructure>798daaa4-58f0-11e4-903d-005056b61161</uuidstructure>
 			<uuidresource>798daaa5-58f0-11e4-903d-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 09:14:39 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 18:09:28 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 07:04:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -567,7 +568,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>c91be4f8-5ae0-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>c91be4f9-5ae0-11e4-955d-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 12:12:16 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:17:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -587,7 +588,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>da5efe0f-5ae0-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>da5efe10-5ae0-11e4-955d-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 07:57:06 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:17:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -639,8 +640,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-iconbox</type>
 			<uuidstructure>97d9f279-5848-11e4-a786-005056b61161</uuidstructure>
 			<uuidresource>97d9f27a-5848-11e4-a786-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 18:05:02 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Mon, 20 Oct 2014 11:02:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -660,7 +661,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>b0e8be00-5848-11e4-a786-005056b61161</uuidstructure>
 			<uuidresource>b0e8be01-5848-11e4-a786-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 07:01:00 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 20 Oct 2014 11:03:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -680,7 +681,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>e168aa97-5848-11e4-a786-005056b61161</uuidstructure>
 			<uuidresource>e168aa98-5848-11e4-a786-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 07:00:41 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 20 Oct 2014 11:04:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -826,33 +827,13 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>.content/layoutrows/lr_00001.xml</source>
-			<destination>.content/layoutrows/lr_00001.xml</destination>
-			<type>bs-layoutrow</type>
-			<uuidstructure>fb522b0d-3dad-11e4-ba5b-005056b61161</uuidstructure>
-			<uuidresource>fb522b0e-3dad-11e4-ba5b-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 16 Sep 2014 14:30:18 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Full column (Restricted to Template Developer)]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>.content/layoutrows/lr_00002.xml</source>
 			<destination>.content/layoutrows/lr_00002.xml</destination>
 			<type>bs-layoutrow</type>
 			<uuidstructure>9f6fb72c-3a79-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>9f6fb72d-3a79-11e4-bed5-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 11:18:31 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 12 Sep 2014 12:37:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -892,7 +873,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>2f04e398-4978-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>2f04e399-4978-11e4-9866-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 11:27:45 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 01 Oct 2014 14:35:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -912,7 +893,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>c4119a75-55ef-11e4-8db5-005056b61161</uuidstructure>
 			<uuidresource>c4119a76-55ef-11e4-8db5-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 11:13:23 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 17 Oct 2014 11:21:40 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -926,33 +907,13 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>.content/layoutrows/lr_00006.xml</source>
-			<destination>.content/layoutrows/lr_00006.xml</destination>
-			<type>bs-layoutrow</type>
-			<uuidstructure>d9b51fff-583e-11e4-8db5-005056b61161</uuidstructure>
-			<uuidresource>d9b52000-583e-11e4-8db5-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 20 Oct 2014 09:52:49 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Full column (Detail view - Restricted to Template Developer)]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>.content/layoutrows/lr_00007.xml</source>
 			<destination>.content/layoutrows/lr_00007.xml</destination>
 			<type>bs-layoutrow</type>
 			<uuidstructure>ad965411-5a93-11e4-99ba-005056b61161</uuidstructure>
 			<uuidresource>ad965412-5a93-11e4-99ba-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 16:21:33 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 09:05:04 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -972,7 +933,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>50c6483b-5a9b-11e4-99ba-005056b61161</uuidstructure>
 			<uuidresource>50c6483c-5a9b-11e4-99ba-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 11:33:54 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 09:59:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1006,46 +967,6 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>.content/layoutrows/lr_00010.xml</source>
-			<destination>.content/layoutrows/lr_00010.xml</destination>
-			<type>bs-layoutrow</type>
-			<uuidstructure>da249d7f-5ac4-11e4-955d-005056b61161</uuidstructure>
-			<uuidresource>da249d80-5ac4-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 23 Oct 2014 14:57:04 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[3 columns: 1/4 (Restricted) - 2/4 - 1/4 (Restricted)]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>.content/layoutrows/lr_00011.xml</source>
-			<destination>.content/layoutrows/lr_00011.xml</destination>
-			<type>bs-layoutrow</type>
-			<uuidstructure>3a129c58-5ac6-11e4-955d-005056b61161</uuidstructure>
-			<uuidresource>3a129c59-5ac6-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 23 Oct 2014 15:06:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Full column (detail view)]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>.content/layoutrows/lr_00012.xml</source>
 			<destination>.content/layoutrows/lr_00012.xml</destination>
 			<type>bs-layoutrow</type>
@@ -1066,40 +987,20 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>.content/layoutrows/lr_00013.xml</source>
-			<destination>.content/layoutrows/lr_00013.xml</destination>
-			<type>bs-layoutrow</type>
-			<uuidstructure>542d4f15-5b89-11e4-8211-005056b61161</uuidstructure>
-			<uuidresource>542d4f16-5b89-11e4-8211-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Fri, 24 Oct 2014 14:23:30 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Full column (Restricted to Editor)]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>.content/layoutrows/lr_00014.xml</source>
 			<destination>.content/layoutrows/lr_00014.xml</destination>
 			<type>bs-layoutrow</type>
 			<uuidstructure>6f09608c-5b89-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>6f09608d-5b89-11e4-8211-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:25:00 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 14:24:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Full column (Unrestricted)]]></value>
+					<value><![CDATA[Full column]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1236,8 +1137,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-templaterow</type>
 			<uuidstructure>79eeeaa4-3dab-11e4-ba5b-005056b61161</uuidstructure>
 			<uuidresource>79eeeaa5-3dab-11e4-ba5b-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 18:21:26 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Tue, 16 Sep 2014 14:12:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1257,7 +1158,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>10c9ac7f-4885-11e4-9a3a-005056b61161</uuidstructure>
 			<uuidresource>10c9ac80-4885-11e4-9a3a-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 11:43:27 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 09:35:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1277,7 +1178,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>42f7e552-4885-11e4-9a3a-005056b61161</uuidstructure>
 			<uuidresource>42f7e553-4885-11e4-9a3a-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 12:15:39 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 09:36:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1350,7 +1251,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>1656025c-58f3-11e4-903d-005056b61161</uuidstructure>
 			<uuidresource>1656025d-58f3-11e4-903d-005056b61161</uuidresource>
 			<datelastmodified>Wed, 29 Oct 2014 14:40:31 GMT</datelastmodified>
-			<userlastmodified>alex</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 07:23:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3775,7 +3676,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>subsitemap</type>
 			<uuidstructure>0d82626d-276b-11e4-96d6-005056b61161</uuidstructure>
 			<datelastmodified>Thu, 30 Oct 2014 06:55:26 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 19 Aug 2014 06:35:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3876,8 +3777,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>sitemap_config</type>
 			<uuidstructure>5db9f7d7-276b-11e4-96d6-005056b61161</uuidstructure>
 			<uuidresource>5db9f7d8-276b-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 07:40:22 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 08:01:11 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Tue, 19 Aug 2014 06:38:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
@@ -3926,7 +3827,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>e475991a-59f1-11e4-99ba-005056b61161</uuidstructure>
 			<uuidresource>e475991b-59f1-11e4-99ba-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:42:42 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:18:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 22 Oct 2014 13:46:58 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3950,7 +3851,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>9ff11c10-276b-11e4-96d6-005056b61161</uuidstructure>
 			<uuidresource>9ff11c11-276b-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:42:42 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 19 Aug 2014 06:39:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3974,7 +3875,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>4e892518-5b41-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>4e892519-5b41-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:42:42 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 05:47:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3998,7 +3899,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>d8163bde-5adf-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>d8163bdf-5adf-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Mon, 27 Oct 2014 19:13:04 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:10:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4022,10 +3923,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>016a3557-6008-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>016a3558-6008-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:33:58 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:07 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 07:40:22 GMT</datecreated>
-			<usercreated>Templator</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -4251,8 +4152,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-blog</type>
 			<uuidstructure>2af672fd-591f-11e4-9013-005056b61161</uuidstructure>
 			<uuidresource>2af672fe-591f-11e4-9013-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:42:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 18:48:11 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 12:38:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -4562,6 +4463,39 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>grid-demo/.content/blogentries/.detailContainers</destination>
+			<type>folder</type>
+			<uuidstructure>cdb00298-604d-11e4-831e-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 30 Oct 2014 16:00:00 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
+			<datecreated>Thu, 30 Oct 2014 16:00:00 GMT</datecreated>
+			<usercreated>Templator</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/blogentries/.detailContainers/be_00005.xml</source>
+			<destination>grid-demo/.content/blogentries/.detailContainers/be_00005.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>cdb336eb-604d-11e4-831e-005056b61161</uuidstructure>
+			<uuidresource>cdb336ec-604d-11e4-831e-005056b61161</uuidresource>
+			<datelastmodified>Thu, 30 Oct 2014 16:30:03 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
+			<datecreated>Thu, 30 Oct 2014 16:00:00 GMT</datecreated>
+			<usercreated>Templator</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>grid-demo/.content/blogentries/images-ugc</destination>
 			<type>imagegallery</type>
 			<uuidstructure>fbe655bc-5abe-11e4-955d-005056b61161</uuidstructure>
@@ -4576,32 +4510,6 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 					<value><![CDATA[Images uploaded for posts by UGC]]></value>
 				</property>
 			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>grid-demo/.content/bs-article</destination>
-			<type>folder</type>
-			<uuidstructure>8e219164-601d-11e4-a412-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 10:14:38 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 30 Oct 2014 10:14:38 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>grid-demo/.content/bs-imagerow</destination>
-			<type>folder</type>
-			<uuidstructure>8e27abe6-601d-11e4-a412-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 10:14:38 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 30 Oct 2014 10:14:38 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -4659,19 +4567,6 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>grid-demo/.content/elementgroup</destination>
-			<type>folder</type>
-			<uuidstructure>329950a9-5c68-11e4-be15-9d7b419ff3cf</uuidstructure>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Sat, 25 Oct 2014 16:58:52 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>grid-demo/.content/elementgroups</destination>
 			<type>folder</type>
 			<uuidstructure>39404d05-3da9-11e4-ba5b-005056b61161</uuidstructure>
@@ -4685,8 +4580,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>grid-demo/.content/elementgroups/eg_00001.xml</source>
-			<destination>grid-demo/.content/elementgroups/eg_00001.xml</destination>
+			<source>grid-demo/.content/elementgroups/elementgroup_00001.xml</source>
+			<destination>grid-demo/.content/elementgroups/elementgroup_00001.xml</destination>
 			<type>groupcontainer</type>
 			<uuidstructure>43b6fd75-48af-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>43b6fd76-48af-11e4-9866-005056b61161</uuidresource>
@@ -4833,7 +4728,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>b30310a4-55ed-11e4-8db5-005056b61161</uuidstructure>
 			<uuidresource>b30310a5-55ed-11e4-8db5-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 06:58:13 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 17 Oct 2014 11:06:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -4892,8 +4787,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-iconbox</type>
 			<uuidstructure>5a793e55-55ee-11e4-8db5-005056b61161</uuidstructure>
 			<uuidresource>5a793e56-55ee-11e4-8db5-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:42:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 18:12:04 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Fri, 17 Oct 2014 11:11:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -5213,7 +5108,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>e6575ce7-5c58-11e4-be15-9d7b419ff3cf</uuidstructure>
 			<uuidresource>e6575ce8-5c58-11e4-be15-9d7b419ff3cf</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 11:03:25 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 25 Oct 2014 15:09:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -5311,15 +5206,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-image</type>
 			<uuidstructure>f55fb577-5a93-11e4-99ba-005056b61161</uuidstructure>
 			<uuidresource>f55fb578-5a93-11e4-99ba-005056b61161</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 13:49:53 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 18:15:25 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 09:07:05 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Introduction to the team: A message from our CEO]]></value>
+					<value><![CDATA[Introduction to the team: Message from the CEO]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5972,7 +5867,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>d33ad354-5ea5-11e4-ad55-005056b61161</uuidstructure>
 			<uuidresource>d33ad355-5ea5-11e4-ad55-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 11:36:42 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 28 Oct 2014 13:25:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -6231,7 +6126,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>638c55f8-48b1-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>638c55f9-48b1-11e4-9866-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 11:05:34 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 14:52:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -6284,7 +6179,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>048594c3-3e70-11e4-8952-005056b61161</uuidstructure>
 			<uuidresource>048594c4-3e70-11e4-8952-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 07:02:58 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 17 Sep 2014 13:39:16 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -7050,14 +6945,34 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>77aeef1b-600a-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>77aeef1c-600a-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 08:10:41 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 07:58:00 GMT</datecreated>
-			<usercreated>Templator</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Grid Template: Release notes: Release Notes for OpenCms X]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/texts/t_00037.xml</source>
+			<destination>grid-demo/.content/texts/t_00037.xml</destination>
+			<type>bs-text</type>
+			<uuidstructure>cd8dad84-604d-11e4-831e-005056b61161</uuidstructure>
+			<uuidresource>cd8dad85-604d-11e4-831e-005056b61161</uuidresource>
+			<datelastmodified>Thu, 30 Oct 2014 16:27:35 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
+			<datecreated>Thu, 30 Oct 2014 16:00:00 GMT</datecreated>
+			<usercreated>Templator</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Website demo contents: Special detail content]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -7136,7 +7051,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>55b590af-4a0d-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>55b590b0-4a0d-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:08:22 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 08:10:03 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 02 Oct 2014 08:23:06 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7244,8 +7159,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>4e9ce8bd-583e-11e4-8db5-005056b61161</uuidstructure>
 			<uuidresource>4e9ce8be-583e-11e4-8db5-005056b61161</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 16:55:48 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 16:30:13 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Mon, 20 Oct 2014 09:48:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -7290,7 +7205,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>a7989bc5-5abe-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>a7989bc6-5abe-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:00 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:07 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 14:12:43 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7402,8 +7317,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>dce44366-5b47-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>dce44367-5b47-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Mon, 27 Oct 2014 09:27:06 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 18:26:30 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 06:34:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -7448,8 +7363,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>cbf6c1b6-5b43-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>cbf6c1b7-5b43-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Mon, 27 Oct 2014 10:22:35 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 18:21:53 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 06:05:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -7498,8 +7413,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>cd850579-5b47-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>cd85057a-5b47-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 14:30:32 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 18:19:59 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 06:34:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -7544,7 +7459,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>3fd70f0d-5a8b-11e4-99ba-005056b61161</uuidstructure>
 			<uuidresource>3fd70f0e-5a8b-11e4-99ba-005056b61161</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 16:05:55 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 08:04:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7590,8 +7505,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>78512d6a-5a8a-11e4-99ba-005056b61161</uuidstructure>
 			<uuidresource>78512d6b-5a8a-11e4-99ba-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 08:08:41 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 07:59:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -7636,8 +7551,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>32ce7955-4979-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>32ce7956-4979-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 11:29:37 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:09 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 01 Oct 2014 14:42:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -7682,7 +7597,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>c9c07477-5ab9-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>c9c07478-5ab9-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:00 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 13:37:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7790,7 +7705,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>4c521c6c-5e0e-11e4-b480-005056b61161</uuidstructure>
 			<uuidresource>4c521c6d-5e0e-11e4-b480-005056b61161</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 17:12:57 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Oct 2014 19:20:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7839,7 +7754,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>dd126ff6-5e13-11e4-b480-005056b61161</uuidstructure>
 			<uuidresource>4c521c6d-5e0e-11e4-b480-005056b61161</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 17:12:57 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Oct 2014 19:20:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7885,8 +7800,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>1bb8d994-5a9a-11e4-99ba-005056b61161</uuidstructure>
 			<uuidresource>1bb8d995-5a9a-11e4-99ba-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 11:48:31 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 09:51:06 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -7931,8 +7846,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>d5304dfa-5ac4-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>d5304dfb-5ac4-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 16:27:54 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 14:56:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -7977,8 +7892,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>81942769-5a93-11e4-99ba-005056b61161</uuidstructure>
 			<uuidresource>8194276a-5a93-11e4-99ba-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 11:35:28 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 09:03:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -8023,7 +7938,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>7233b9b8-5a85-11e4-99ba-005056b61161</uuidstructure>
 			<uuidresource>7233b9b9-5a85-11e4-99ba-005056b61161</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 17:11:50 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 07:23:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -8069,8 +7984,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>5cb3e870-5c54-11e4-be15-9d7b419ff3cf</uuidstructure>
 			<uuidresource>5cb3e871-5c54-11e4-be15-9d7b419ff3cf</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 11:55:44 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 25 Oct 2014 14:36:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -8119,8 +8034,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>d8905e69-58f1-11e4-903d-005056b61161</uuidstructure>
 			<uuidresource>d8905e6a-58f1-11e4-903d-005056b61161</uuidresource>
-			<datelastmodified>Wed, 29 Oct 2014 14:40:36 GMT</datelastmodified>
-			<userlastmodified>alex</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 08:08:28 GMT</datelastmodified>
+			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 07:14:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -8134,13 +8049,67 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>overview</destination>
+			<type>folder</type>
+			<uuidstructure>c4709ed4-5845-11e4-a786-005056b61161</uuidstructure>
+			<datelastmodified>Fri, 31 Oct 2014 07:43:24 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 10:42:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavInfo</name>
+					<value><![CDATA[ignoreInDefaultNav]]></value>
+				</property>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.057499997]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Overview]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-grid-page.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>overview/index.html</source>
+			<destination>overview/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>c4827929-5845-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>c482792a-5845-11e4-a786-005056b61161</uuidresource>
+			<datelastmodified>Fri, 31 Oct 2014 07:43:24 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
+			<datecreated>Mon, 20 Oct 2014 10:42:20 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>release</destination>
 			<type>subsitemap</type>
 			<uuidstructure>b1768d9a-600f-11e4-b7a7-005056b61161</uuidstructure>
 			<datelastmodified>Thu, 30 Oct 2014 10:40:41 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:35:24 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8176,7 +8145,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<datelastmodified>Sat, 25 Oct 2014 17:41:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:37:38 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8200,9 +8169,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>content_folder</type>
 			<uuidstructure>2ae68155-6010-11e4-b7a7-005056b61161</uuidstructure>
 			<datelastmodified>Thu, 30 Oct 2014 08:38:48 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:38:48 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -8215,9 +8184,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>2ae7e0e7-6010-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>2ae7e0e8-6010-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 12:23:41 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:38:48 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>512</flags>
 			<properties>
 				<property>
@@ -8298,10 +8267,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-text</type>
 			<uuidstructure>4cfee138-6011-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>4cfee139-6011-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:19:50 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 08:56:04 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:46:55 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8319,9 +8288,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>b09542c5-6011-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>b09542c6-6011-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 08:50:03 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:49:42 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8339,9 +8308,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>0f2d1ca7-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>0f2d1ca8-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 08:58:36 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:52:20 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8359,9 +8328,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>3d828829-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>3d82882a-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 08:59:29 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:53:38 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8379,9 +8348,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>49e2b6e6-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>49e2b6e7-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:00:06 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:53:59 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8399,9 +8368,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>52e4c683-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>52e4c684-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:00:47 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:54:14 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8419,9 +8388,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>5fd5eaa3-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>5fd5eaa4-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:01:46 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:54:36 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8439,9 +8408,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>69922282-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>69922283-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:02:28 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:54:52 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8459,9 +8428,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>724d16ff-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>724d1700-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:03:19 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:55:07 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8479,9 +8448,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>7bf3f21c-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>7bf3f21d-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:03:55 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:55:23 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8499,9 +8468,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>b4274e48-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>b4274e49-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:04:37 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:56:57 GMT</datecreated>
-			<usercreated>Editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8519,9 +8488,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>bf8b69c5-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>bf8b69c6-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:05:31 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:57:16 GMT</datecreated>
-			<usercreated>Editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8539,9 +8508,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>cab22e22-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>cab22e23-6012-11e4-b7a7-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:06:22 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:57:35 GMT</datecreated>
-			<usercreated>Editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8556,10 +8525,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/8.0.0-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>b417bde3-6012-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:57:06 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:59:23 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:56:57 GMT</datecreated>
-			<usercreated>Editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8568,11 +8537,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[8.0.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.0]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.0.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.0]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8584,15 +8553,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>b4357f1b-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>b4357f1c-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:31:10 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:59:23 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:56:57 GMT</datecreated>
-			<usercreated>Editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.0.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.0]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8602,10 +8571,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/8.0.1-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>7beaca57-6012-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:55:30 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:59:16 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:55:23 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8614,11 +8583,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[8.0.1 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.1]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.0.1 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.1]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8630,15 +8599,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>7bfcf2cf-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>7bfcf2d0-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:30:47 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:59:16 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:55:23 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.0.1 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.1]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8648,10 +8617,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/8.0.2-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>72448b7a-6012-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:55:16 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:59:11 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:55:07 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8660,11 +8629,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[8.0.2 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.2]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.0.2 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.2]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8676,15 +8645,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>72572922-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>72572923-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:30:23 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:59:11 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:55:07 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.0.2 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.2]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8694,10 +8663,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/8.0.3-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>698a333d-6012-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:55:00 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:59:03 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:54:52 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8706,11 +8675,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[8.0.3 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.3]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.0.3 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.3]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8722,15 +8691,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>699c0d95-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>699c0d96-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:30:01 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:59:03 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:54:52 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.0.3 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.3]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8740,10 +8709,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/8.0.4-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>5fcdfb5e-6012-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:54:45 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:55 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:54:36 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8752,11 +8721,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[8.0.4 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.4]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.0.4 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.4]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8768,15 +8737,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>5fde9d36-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>5fde9d37-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:29:27 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:55 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:54:36 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.0.4 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.0.4]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8786,10 +8755,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/8.5.0-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>52dd737e-6012-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:54:22 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:49 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:54:14 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8798,11 +8767,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[8.5.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.5.0]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.5.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.5.0]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8814,15 +8783,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>52edc736-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>52edc737-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:29:02 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:49 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:54:14 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.5.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.5.0]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8832,10 +8801,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/8.5.1-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>49db3cd1-6012-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:54:08 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:43 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:53:59 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8844,11 +8813,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[8.5.1 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.5.1]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.5.1 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.5.1]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8860,15 +8829,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>49eb9089-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>49eb908a-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:28:36 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:43 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:53:59 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.5.1 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.5.1]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8878,10 +8847,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/8.5.2-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>3d791244-6012-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:53:52 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:30 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:53:38 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8890,11 +8859,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[8.5.2 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.5.2]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.5.2 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.5.2]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8906,15 +8875,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>3d8b88dc-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>3d8b88dd-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:28:13 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:30 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:53:38 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[8.5.2 Release Notes]]></value>
+					<value><![CDATA[OpenCms 8.5.2]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8924,10 +8893,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/9.0.0-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>0f21f912-6012-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:52:52 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:24 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:52:20 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8936,11 +8905,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[9.0.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 9.0.0]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[9.0.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 9.0.0]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8952,15 +8921,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>0f392a9a-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>0f392a9b-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:27:15 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:24 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:52:20 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[9.0.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 9.0.0]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8970,10 +8939,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/9.0.1-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>4cf54441-6011-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:51:58 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:18 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:46:54 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8982,11 +8951,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[9.0.1 Release Notes]]></value>
+					<value><![CDATA[OpenCms 9.0.1]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[9.0.1 Release Notes]]></value>
+					<value><![CDATA[OpenCms 9.0.1]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8998,15 +8967,15 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>4d08cc4b-6011-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>4d08cc4c-6011-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:27:26 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:18 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:46:55 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[9.0.1 Release Notes]]></value>
+					<value><![CDATA[OpenCms 9.0.1]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -9016,10 +8985,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<destination>release/9.5.0-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>5787d430-6010-11e4-b7a7-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 08:51:46 GMT</datelastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:58:10 GMT</datelastmodified>
 			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:40:03 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -9028,11 +8997,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[9.5.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 9.5.0]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[9.5.0 Release Notes]]></value>
+					<value><![CDATA[OpenCms 9.5.0]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -9044,10 +9013,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>bff44fd6-6010-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>bff44fd7-6010-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:26:25 GMT</datelastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 17:13:24 GMT</datelastmodified>
 			<userlastmodified>Templator</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:42:58 GMT</datecreated>
-			<usercreated>andreas</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -9067,9 +9036,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>folder</type>
 			<uuidstructure>bf7dfc40-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<datelastmodified>Thu, 30 Oct 2014 08:57:24 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:57:16 GMT</datecreated>
-			<usercreated>Editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -9094,10 +9063,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>bf9813f8-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>bf9813f9-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:31:19 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:57:16 GMT</datecreated>
-			<usercreated>Editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -9113,9 +9082,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>folder</type>
 			<uuidstructure>caa4998d-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<datelastmodified>Thu, 30 Oct 2014 08:57:41 GMT</datelastmodified>
-			<userlastmodified>Editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:57:35 GMT</datecreated>
-			<usercreated>Editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -9140,10 +9109,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>cabeff65-6012-11e4-b7a7-005056b61161</uuidstructure>
 			<uuidresource>cabeff66-6012-11e4-b7a7-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:31:28 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 08:57:35 GMT</datecreated>
-			<usercreated>Editor</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -9159,7 +9128,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>subsitemap</type>
 			<uuidstructure>e839825e-5ade-11e4-955d-005056b61161</uuidstructure>
 			<datelastmodified>Thu, 30 Oct 2014 10:41:15 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:03:35 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -9537,7 +9506,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>4af30865-5b9a-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>4af30866-5b9a-11e4-8211-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:10:12 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 16:24:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -9557,7 +9526,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>53a941ec-5b9a-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>53a941ed-5b9a-11e4-8211-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:19:21 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 16:25:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -9577,7 +9546,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>6fcc0438-5b9a-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>6fcc0439-5b9a-11e4-8211-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:19:54 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 16:25:58 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -9597,7 +9566,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>77aaf08f-5b9a-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>77aaf090-5b9a-11e4-8211-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:21:12 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 16:26:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -9617,7 +9586,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>51d6135f-5b9b-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>51d61360-5b9b-11e4-8211-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:31:54 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 16:32:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -9677,7 +9646,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>e1b129ea-5b9b-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>e1b129eb-5b9b-11e4-8211-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:54:47 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 16:36:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -9697,7 +9666,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>e5069681-5b9b-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>e5069682-5b9b-11e4-8211-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 10:20:29 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 16:36:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -9783,7 +9752,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>c4760eb1-5c83-11e4-aac2-9d7b419ff3cf</uuidstructure>
 			<uuidresource>c4760eb2-5c83-11e4-aac2-9d7b419ff3cf</uuidresource>
 			<datelastmodified>Wed, 29 Oct 2014 14:40:55 GMT</datelastmodified>
-			<userlastmodified>alex</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Sat, 25 Oct 2014 20:16:13 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -9803,9 +9772,9 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>e36d0526-6020-11e4-a412-005056b61161</uuidstructure>
 			<uuidresource>e36d0527-6020-11e4-a412-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 12:19:00 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 30 Oct 2014 10:38:29 GMT</datecreated>
-			<usercreated>Templator</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -9963,7 +9932,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>a9498349-5b61-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>a949834a-5b61-11e4-955d-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:22:19 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 09:39:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10003,7 +9972,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>0bf33bea-5b62-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>0bf33beb-5b62-11e4-955d-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:42:28 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 09:42:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10023,7 +9992,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>2f0ab195-5b62-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>2f0ab196-5b62-11e4-955d-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:43:06 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 09:43:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10083,7 +10052,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>eea460c4-5b62-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>eea460c5-5b62-11e4-955d-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 10:38:14 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 24 Oct 2014 09:48:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10299,7 +10268,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>c6d8b166-47d6-11e3-8474-000c29d28104</uuidstructure>
 			<uuidresource>c6d8b167-47d6-11e3-8474-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:30:35 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 18:02:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10319,7 +10288,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>c64bdaad-47d6-11e3-8474-000c29d28104</uuidstructure>
 			<uuidresource>c64bdaae-47d6-11e3-8474-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:11:01 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 18:02:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10339,7 +10308,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>c66c8210-47d6-11e3-8474-000c29d28104</uuidstructure>
 			<uuidresource>c66c8211-47d6-11e3-8474-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:11:46 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 18:02:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10359,7 +10328,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>c6a32273-47d6-11e3-8474-000c29d28104</uuidstructure>
 			<uuidresource>c6a32274-47d6-11e3-8474-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:20:56 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 18:02:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10379,7 +10348,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>549da646-47d9-11e3-8474-000c29d28104</uuidstructure>
 			<uuidresource>549da647-47d9-11e3-8474-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:09:05 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 18:20:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10399,7 +10368,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>541b08c0-47d9-11e3-8474-000c29d28104</uuidstructure>
 			<uuidresource>541b08c1-47d9-11e3-8474-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:31:02 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 18:20:49 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10419,7 +10388,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>546f1c33-47d9-11e3-8474-000c29d28104</uuidstructure>
 			<uuidresource>546f1c34-47d9-11e3-8474-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:41:41 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 18:20:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10459,7 +10428,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>d3611915-47dc-11e3-8474-000c29d28104</uuidstructure>
 			<uuidresource>d3611916-47dc-11e3-8474-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 10:17:55 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 18:45:51 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10479,7 +10448,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>d3d20358-47dc-11e3-8474-000c29d28104</uuidstructure>
 			<uuidresource>d3d20359-47dc-11e3-8474-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 10:19:20 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 18:45:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10604,8 +10573,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>6cf1454a-5ae1-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>6cf1454b-5ae1-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:16:03 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:21:36 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10650,8 +10619,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>f02f7256-5ae1-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>f02f7257-5ae1-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:20:17 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:25:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10696,8 +10665,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>aa2bb594-5ae1-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>aa2bb595-5ae1-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:17:57 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:23:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10742,8 +10711,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>b87a1fbe-5ae1-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>b87a1fbf-5ae1-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:18:09 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:23:43 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10788,8 +10757,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>c7bc5fc8-5ae1-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>c7bc5fc9-5ae1-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:17:08 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:24:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10834,8 +10803,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>dba14ce2-5ae1-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>dba14ce3-5ae1-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:17:21 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:24:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10880,8 +10849,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>e471770c-5ae1-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>e471770d-5ae1-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 12:17:33 GMT</datelastmodified>
-			<userlastmodified>andreas</userlastmodified>
+			<datelastmodified>Thu, 30 Oct 2014 14:21:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:24:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10895,67 +10864,13 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>welcome</destination>
-			<type>folder</type>
-			<uuidstructure>c4709ed4-5845-11e4-a786-005056b61161</uuidstructure>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 20 Oct 2014 10:42:19 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavInfo</name>
-					<value><![CDATA[ignoreInDefaultNav]]></value>
-				</property>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[0.057499997]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Welcome]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Welcome]]></value>
-				</property>
-				<property>
-					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-grid-page.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>welcome/index.html</source>
-			<destination>welcome/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>c4827929-5845-11e4-a786-005056b61161</uuidstructure>
-			<uuidresource>c482792a-5845-11e4-a786-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 07:27:53 GMT</datelastmodified>
-			<userlastmodified>Templator</userlastmodified>
-			<datecreated>Mon, 20 Oct 2014 10:42:20 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Welcome]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>index.html</source>
 			<destination>index.html</destination>
 			<type>htmlredirect</type>
 			<uuidstructure>37a44795-5ab9-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>37a44796-5ab9-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:41:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Fri, 31 Oct 2014 07:43:49 GMT</datelastmodified>
+			<userlastmodified>andreas</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 13:33:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -10970,11 +10885,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Redirect to welcome page]]></value>
+					<value><![CDATA[Redirect to overview page]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Redirect to welcome page]]></value>
+					<value><![CDATA[Redirect to overview page]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
@@ -10995,10 +10910,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>d7941b4d-5f69-11e4-82c0-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 29 Oct 2014 12:48:12 GMT</datelastmodified>
+			<uuidstructure>af9f06f1-6037-11e4-b66b-005056b61161</uuidstructure>
+			<datelastmodified>Thu, 30 Oct 2014 13:21:41 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 29 Oct 2014 12:48:12 GMT</datecreated>
+			<datecreated>Thu, 30 Oct 2014 13:21:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -11039,7 +10954,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<uuidstructure>c9c10d58-25b4-11e3-9fd8-000c29d28104</uuidstructure>
 			<uuidresource>c9c10d59-25b4-11e3-9fd8-000c29d28104</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 09:00:54 GMT</datelastmodified>
-			<userlastmodified>michael</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 25 Sep 2013 07:33:36 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>

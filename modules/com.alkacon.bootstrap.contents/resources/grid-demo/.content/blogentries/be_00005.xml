@@ -20,6 +20,15 @@
         </Image>
         <Title><![CDATA[Power]]></Title>
       </Image>
+      <Link>
+        <Text><![CDATA[Show me more...]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/documentation/]]></target>
+            <uuid>7afb3d20-02bc-11e4-8167-1305b26fecac</uuid>
+          </link>
+        </URI>
+      </Link>
     </Paragraph>
     <Category>
       <link type="WEAK">

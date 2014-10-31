@@ -13,17 +13,19 @@
       <SM><![CDATA[col-sm-4]]></SM>
       <MD><![CDATA[-]]></MD>
       <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-md-4]]></Modifier>
     </Column>
     <Column>
       <Name><![CDATA[thirds2]]></Name>
       <Type><![CDATA[layoutrowsonly]]></Type>
       <Count><![CDATA[50]]></Count>
-      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <Editors><![CDATA[ROLE.EDITOR]]></Editors>
       <EmptyText><![CDATA[Right template column, drop layout rows in this container.]]></EmptyText>
       <XS><![CDATA[col-xs-12]]></XS>
       <SM><![CDATA[col-sm-8]]></SM>
       <MD><![CDATA[-]]></MD>
       <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-md-8]]></Modifier>
     </Column>
   </BootstrapTemplateRow>
 </BootstrapTemplateRows>

@@ -37,6 +37,14 @@
       <Default><![CDATA[false]]></Default>
     </Setting>
     <Setting>
+      <PropertyName><![CDATA[detail]]></PropertyName>
+      <DisplayName><![CDATA[Detail page settings]]></DisplayName>
+      <Description><![CDATA[Set the use of the container(s) on detail pages.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[none]]></Default>
+      <WidgetConfig><![CDATA[none:No special detail page settings (Default)|view:Use first container as detail view|only:Show container(s) only on detail pages]]></WidgetConfig>
+    </Setting>
+    <Setting>
       <PropertyName><![CDATA[marginbottom]]></PropertyName>
       <DisplayName><![CDATA[Bottom Margin]]></DisplayName>
       <Description><![CDATA[Sets an optional bottom margin below the layout row.]]></Description>

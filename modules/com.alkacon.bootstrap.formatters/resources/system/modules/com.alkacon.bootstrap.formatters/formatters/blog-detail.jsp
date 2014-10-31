@@ -8,7 +8,7 @@
 
 <cms:formatter var="content" val="value" rdfa="rdfa">
 
-<div>
+<div class="margin-bottom-20">
 <c:choose>
 		<c:when test="${cms.element.inMemoryOnly}">
 			<div class="alert"><fmt:message key="bootstrap.blog.message.edit" /></div>
@@ -31,7 +31,20 @@
           <!-- blog header -->
           <div class="blog-page">
               <div class="blog">
-                  <h2 ${rdfa.Title}>${value.Title}</h2>                             
+                  <div class="hidden-xs pull-right">
+                        <a class=" btn-u btn-u-xs btn-u-red" href="<cms:pdf format='%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/pages/blog-pdf.jsp:3a5d13ef-5e8f-11e4-b480-005056b61161)' content='${content.filename}' locale='en'/>" target="pdf">
+                            <i class="fa fa-file-pdf-o"></i> Download PDF
+                        </a>
+                  </div>                 
+
+                  <div class="headline"><h2 ${rdfa.Title}>${value.Title}</h2></div>                             
+                 
+                  <div class="visible-xs margin-bottom-20">
+                        <a class=" btn-u btn-u-red" href="<cms:pdf format='%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/pages/blog-pdf.jsp:3a5d13ef-5e8f-11e4-b480-005056b61161)' content='${content.filename}' locale='en'/>" target="pdf">
+                            <i class="fa fa-file-pdf-o"></i> Download PDF
+                        </a>
+                  </div>  
+                  
                   <ul class="list-unstyled list-inline blog-info">
                       <li><i class="icon-calendar"></i> <fmt:formatDate value="${cms:convertDate(value.Date)}" dateStyle="SHORT" timeStyle="SHORT" type="both" /></li>
                       <c:if test="${author ne ''}">
@@ -39,11 +52,11 @@
                       </c:if>
                   </ul>
                   <c:if test="${fn:length(content.valueList.Category) > 0}">
-                  <ul class="list-unstyled list-inline blog-tags">
+                  <ul class="pull-left list-unstyled list-inline blog-tags">
                       <li>
-                          <i class="icon-tags"></i>
+                          <i class="glyphicon glyphicon-tags"></i>&nbsp;
                           <c:forEach var="item" items="${fn:split(content.value.Category,',')}" varStatus="status">
-                              <a href="#">${cms.vfs.property[item]['Title']}</a>
+                              <span class="label rounded label-light">${cms.vfs.property[item]['Title']}</span>
                           </c:forEach>
                       </li>
                   </ul>
@@ -112,11 +125,6 @@
           </div>
       
           </c:forEach><!-- //END paragraphs -->
-         
-         <!-- pdf generator -->
-         <a href="<cms:pdf format='/system/modules/com.alkacon.bootstrap.formatters/pages/blog-pdf.jsp' content='${content.filename}' locale='en'/>" target="pdf">
-         <img src="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/img/icons/pdf.png</cms:link>"/>
-         </a>
          
           <c:if test="${content.isEditable}">
           <a href="<cms:link>${cms.subSitePath}blog/post-a-new-blog-entry/</cms:link>?fileId=${content.id}">

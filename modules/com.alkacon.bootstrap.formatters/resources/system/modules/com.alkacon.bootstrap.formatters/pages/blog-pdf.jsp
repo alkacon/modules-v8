@@ -6,55 +6,43 @@
 <head>
 <title>${content.value.Title}</title>
 <link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/css/bootstrap.min.css</cms:link>" type="text/css" />
-<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/css/style.css</cms:link>" type="text/css" />	
-<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/css/app.css</cms:link>" type="text/css" />	
-<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/line-icons/line-icons.css</cms:link>" type="text/css" />	
-<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/font-awesome/css/font-awesome.css</cms:link>" type="text/css" />			 
-<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/css/themes/red.css</cms:link>" type="text/css" />		  
 <link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css</cms:link>" type="text/css" />		 	
 </head>
 <body>
 <div class="blog-page">
-    <%-- create author link --%>
     <c:set var="author" value="${fn:trim(content.value.Author)}" />
-    <c:choose>
-        <c:when test="${fn:length(author) > 3 && content.value.AuthorMail.exists}">
-            <c:set var="author"><a href="mailto:${content.value.AuthorMail}" title="${author}">${author}</a></c:set>
-        </c:when>
-        <c:when test="${fn:length(author) > 3}">
-            <c:set var="author">${author}</c:set>
-        </c:when>
-        <c:when test="${content.value.AuthorMail.exists}">
-            <c:set var="author"><a href="mailto:${content.value.AuthorMail}" title="${content.value.AuthorMail}">${content.value.AuthorMail}</a></c:set>
-        </c:when><c:otherwise><c:set var="author" value=""></c:set></c:otherwise>
-    </c:choose>
-
-	<div class="blog">
-	<h2>${content.value.Title}</h2>  
-	<ul class="list-unstyled list-inline  blog-tags">
-    	<li><fmt:formatDate value="${cms:convertDate(content.value.Date)}" dateStyle="SHORT" timeStyle="SHORT" type="both" /></li>
+  
+    <div class="pull-right">
+        <cms:img src="/sites/default/.galleries/slider/opencms_logo.png" scaleColor="transparent" width="300" scaleType="0" />
+    </div>
+    
+	<div class="margin-top-10">
+        <h2>${content.value.Title}</h2>  
         <c:if test="${author ne ''}">
-        	<li>${author}</li>
-         </c:if>
-    </ul>
+        	<div class="margin-top-5"><i>By ${author}</i></div>
+        </c:if> 
+        <div>        
+            <small><fmt:formatDate value="${cms:convertDate(content.value.Date)}" dateStyle="LONG" timeStyle="SHORT" type="both" /></small>
+        </div>
+    </div>
+    
  	<c:if test="${fn:length(content.valueList.Category) > 0}">
-   		<ul class="list-unstyled list-inline blog-tags">
-    		<li>
-        	<c:forEach var="item" items="${fn:split(content.value.Category,',')}" varStatus="status">
-            	${cms.vfs.property[item]['Title']}
-				<c:if test="${not status.last}">, </c:if>
+	<div class="margin-top-10">
+        <ul class="list-unstyled list-inline blog-tags">
+            <li>
+            <c:forEach var="item" items="${fn:split(content.value.Category,',')}" varStatus="status">
+                <span class="label">${cms.vfs.property[item]['Title']}</span>
+                <c:if test="${not status.last}"> </c:if>
             </c:forEach>
-          	</li>
-    	</ul>
+            </li>
+        </ul>
+    </div>
   	</c:if>	
-  </div>
 </div>
 
 
-  <!-- paragraphs -->
-    <c:forEach var="paragraph" items="${content.valueList.Paragraph}" varStatus="status">
-
-    <div class="paragraph margin-bottom-20">
+<c:forEach var="paragraph" items="${content.valueList.Paragraph}" varStatus="status">
+    <div class="paragraph margin-top-20">
 
         <c:set var="imgalign">noimage</c:set>
         <c:if test="${paragraph.value.Image.exists}">
@@ -68,7 +56,6 @@
         <c:choose>
 
             <c:when test="${imgalign == 'noimage'}">
-                <span></span>
                 <div>${paragraph.value.Text}</div>       
                 <c:if test="${paragraph.value.Link.exists}">
                     <p><a class="btn-u btn-u-small" href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a></p>
@@ -76,28 +63,23 @@
             </c:when>
 
             <c:when test="${imgalign == 'left'}">       
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail-kenburn"><div class="overflow-hidden">
-                            <cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" cssclass="img-responsive" alt="${paragraph.value.Image.value.Title}" title="${paragraph.value.Image.value.Title}" />
-                        </div></div>        
-                    </div>
-                    <div class="col-md-8">
-                        <div>${paragraph.value.Text}</div>       
-                        <c:if test="${paragraph.value.Link.exists}">
-                            <p><a class="btn-u btn-u-small" href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a></p>
-                        </c:if>     
-                    </div>
-                </div>      
+                <div>
+                    <cms:img src="${paragraph.value.Image.value.Image}" scaleColor="transparent" width="400" scaleType="0" />
+                </div>       
+                <div class="margin-top-20">
+                    ${paragraph.value.Text}
+                </div>                  
+                <c:if test="${paragraph.value.Link.exists}">
+                    <button type="button" class="btn btn-danger">
+                        <a href="<cms:link>${paragraph.value.Link.value.URI}</cms:link>">${paragraph.value.Link.value.Text}</a>
+                    </button>
+                </c:if>
             </c:when>
 
-          
         </c:choose> 
 
     </div>
-  </c:forEach><!-- //END paragraphs -->
-
-
+</c:forEach>
 
 </cms:contentload>
 </body>

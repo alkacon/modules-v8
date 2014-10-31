@@ -19,7 +19,7 @@ $(function() {
         // arg 3: (optionl) indicate if this is OPTIONAL or an UPLOAD
         //        values marked OPTIONAL will case the field to be removed in the XML content if the form value is empty
         //        UPLOAD is required for all form elements that are of type <input type="file"> 
-        ugc.map("title", "Title[1]", ugc.OPTIONAL);
+        ugc.map("title", "Title[1]");
         ugc.map("text", "Paragraph[1]/Text[1]");
         ugc.map("imagefile", "Paragraph[1]/Image[1]/Image[1]", ugc.UPLOAD);
         ugc.map("imagetitle", "Paragraph[1]/Image[1]/Title[1]", ugc.OPTIONAL);

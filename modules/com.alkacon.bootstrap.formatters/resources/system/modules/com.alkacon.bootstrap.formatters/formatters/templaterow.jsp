@@ -58,7 +58,7 @@
         maxElements="${column.value.Count}" 
         detailview="${detailAttr}" 
         editableby="${column.value.Editors}"
-        param="Blaues-Licht">
+        param="${column.value.Editors}">
         
     <div class="servive-block rounded-3x servive-block-dark-blue">
         <h2 class="heading-md"><fmt:message key="bootstrap.row.headline.emptycontainer"/>  ${alert}</h2>

@@ -4,11 +4,11 @@
   <BootstrapIconBox language="en">
     <Headline><![CDATA[Release Notes]]></Headline>
     <Icon><![CDATA[Bullhorn]]></Icon>
-    <Text><![CDATA[Detailed information about the new features in this OpenCms release version.]]></Text>
+    <Text><![CDATA[Detailed information about new features and improvements in this OpenCms release.]]></Text>
     <Link>
       <link internal="true" type="WEAK">
         <target><![CDATA[/sites/default/release/]]></target>
-        <uuid>3f6dc54d-7712-11e0-bfd0-1797e684fbbe</uuid>
+        <uuid>b1768d9a-600f-11e4-b7a7-005056b61161</uuid>
       </link>
     </Link>
   </BootstrapIconBox>
