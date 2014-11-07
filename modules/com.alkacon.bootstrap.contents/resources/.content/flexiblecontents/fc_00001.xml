@@ -17,11 +17,11 @@
           </link>
           <link name="link3" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>d952e285-5f69-11e4-82c0-005056b61161</uuid>
+            <uuid>d87d1c09-64c5-11e4-8d01-005056b61161</uuid>
           </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>d952e285-5f69-11e4-82c0-005056b61161</uuid>
+            <uuid>d87d1c09-64c5-11e4-8d01-005056b61161</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/grid-demo/]]></target>
@@ -32,7 +32,7 @@
 <div class="topbar">
     <div class="container">
         <ul class="loginbar pull-right">
-            <li><a href="%(link0)">Welcome</a></li>
+            <li><a href="%(link0)">Overview</a></li>
             <li class="topbar-devider"></li>
             <li><a href="%(link1)">Demo</a></li>
             <li class="topbar-devider"></li>

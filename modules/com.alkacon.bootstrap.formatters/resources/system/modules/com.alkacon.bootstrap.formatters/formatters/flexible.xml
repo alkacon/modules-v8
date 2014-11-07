@@ -12,14 +12,21 @@
     </Jsp>
     <Rank><![CDATA[1000]]></Rank>
     <Match>
-      <Width>
-        <Width><![CDATA[-1]]></Width>
-      </Width>
+      <Types>
+        <ContainerType><![CDATA[full]]></ContainerType>
+        <ContainerType><![CDATA[onehalf]]></ContainerType>
+        <ContainerType><![CDATA[onethird]]></ContainerType>
+        <ContainerType><![CDATA[twothirds]]></ContainerType>
+        <ContainerType><![CDATA[onequarter]]></ContainerType>
+        <ContainerType><![CDATA[threequarters]]></ContainerType>
+        <ContainerType><![CDATA[contentandlayoutrows]]></ContainerType>
+      </Types>
     </Match>
     <Preview>false</Preview>
     <SearchContent>false</SearchContent>
     <AutoEnabled>true</AutoEnabled>
     <Detail>true</Detail>
+    <NestedContainers>false</NestedContainers>
     <Setting>
       <PropertyName><![CDATA[hideTitle]]></PropertyName>
       <DisplayName><![CDATA[%(key.bootstrap.setting.hidetitle)]]></DisplayName>

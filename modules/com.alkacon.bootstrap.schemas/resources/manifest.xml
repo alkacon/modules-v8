@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>andreas</creator>
-		<opencms_version>9.4.9</opencms_version>
-		<createdate>Fri, 31 Oct 2014 09:21:16 GMT</createdate>
+		<opencms_version>9.5.0</opencms_version>
+		<createdate>Fri, 07 Nov 2014 10:20:05 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -153,10 +153,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>af9f06f1-6037-11e4-b66b-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 13:21:41 GMT</datelastmodified>
+			<uuidstructure>d6b29501-64c5-11e4-8d01-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 05 Nov 2014 08:29:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 30 Oct 2014 13:21:41 GMT</datecreated>
+			<datecreated>Wed, 05 Nov 2014 08:29:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -175,10 +175,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>b163255d-6037-11e4-b66b-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 13:21:44 GMT</datelastmodified>
+			<uuidstructure>d8835d9d-64c5-11e4-8d01-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 05 Nov 2014 08:29:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 30 Oct 2014 13:21:44 GMT</datecreated>
+			<datecreated>Wed, 05 Nov 2014 08:29:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -557,7 +557,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>ac532d8b-5908-11e4-903d-005056b61161</uuidstructure>
 			<uuidresource>ac532d8c-5908-11e4-903d-005056b61161</uuidresource>
-			<datelastmodified>Wed, 29 Oct 2014 10:20:54 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Nov 2014 10:16:46 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 09:57:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -810,7 +810,7 @@
 			<type>plain</type>
 			<uuidstructure>79027ddb-38c0-11e4-b543-005056b61161</uuidstructure>
 			<uuidresource>79027ddc-38c0-11e4-b543-005056b61161</uuidresource>
-			<datelastmodified>Tue, 21 Oct 2014 10:04:47 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Nov 2014 10:14:34 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 08:00:04 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1083,7 +1083,7 @@
 			<type>plain</type>
 			<uuidstructure>85480db7-3823-11e4-b543-005056b61161</uuidstructure>
 			<uuidresource>85480db8-3823-11e4-b543-005056b61161</uuidresource>
-			<datelastmodified>Wed, 29 Oct 2014 09:47:46 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Nov 2014 10:07:54 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 09 Sep 2014 13:16:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>

@@ -12,7 +12,7 @@
 
 	<xsd:complexType name="OpenCmsBootstrapRowColumn">
 		<xsd:sequence>
-			<xsd:element name="Name" type="OpenCmsString" />
+      <xsd:element name="Name" type="OpenCmsString" />
       <xsd:element name="Type" type="OpenCmsString" />
       <xsd:element name="Count" type="OpenCmsString" />
       <xsd:element name="Editors" type="OpenCmsString" />
@@ -22,7 +22,6 @@
       <xsd:element name="MD" type="OpenCmsString" />
       <xsd:element name="LG" type="OpenCmsString" />
       <xsd:element name="Modifier" type="OpenCmsString" minOccurs="0" />
-      <xsd:element name="Detail" type="OpenCmsBoolean" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
 	</xsd:complexType>

@@ -14,7 +14,6 @@
 	<xsd:complexType name="OpenCmsBootstrapLayoutRow">
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
-      <xsd:element name="DetailOnly" type="OpenCmsBoolean" minOccurs="0" />
 			<xsd:element name="Column" type="OpenCmsBootstrapRowColumn" maxOccurs="12" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>

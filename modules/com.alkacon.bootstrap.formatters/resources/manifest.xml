@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>andreas</creator>
-		<opencms_version>9.4.9</opencms_version>
-		<createdate>Fri, 31 Oct 2014 09:21:04 GMT</createdate>
+		<opencms_version>9.5.0</opencms_version>
+		<createdate>Fri, 07 Nov 2014 10:19:52 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -35,10 +35,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>af9f06f1-6037-11e4-b66b-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 13:21:41 GMT</datelastmodified>
+			<uuidstructure>d6b29501-64c5-11e4-8d01-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 05 Nov 2014 08:29:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 30 Oct 2014 13:21:41 GMT</datecreated>
+			<datecreated>Wed, 05 Nov 2014 08:29:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -57,10 +57,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>b163255d-6037-11e4-b66b-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 30 Oct 2014 13:21:44 GMT</datelastmodified>
+			<uuidstructure>d8835d9d-64c5-11e4-8d01-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 05 Nov 2014 08:29:23 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 30 Oct 2014 13:21:44 GMT</datecreated>
+			<datecreated>Wed, 05 Nov 2014 08:29:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -565,7 +565,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>a97ba455-420c-11e3-9920-000c29d28104</uuidstructure>
 			<uuidresource>a97ba456-420c-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 05 Feb 2014 15:12:22 GMT</datelastmodified>
+			<datelastmodified>Wed, 05 Nov 2014 08:49:54 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 Oct 2013 09:13:10 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2020,7 +2020,7 @@
 			<uuidstructure>d5f4ecaa-5abb-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>d5f4ecab-5abb-11e4-955d-005056b61161</uuidresource>
 			<datelastmodified>Thu, 30 Oct 2014 14:58:31 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 13:52:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
