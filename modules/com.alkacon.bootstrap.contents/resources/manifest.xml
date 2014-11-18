@@ -56,7 +56,6 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<resource uri="/tutorial/"/>
 			<resource uri="/overview/"/>
 			<resource uri="/index.html"/>
-			<resource uri="/system/shared/templatecontexts.json"/>
 		</resources>
 		<parameters/>
 	</module>
