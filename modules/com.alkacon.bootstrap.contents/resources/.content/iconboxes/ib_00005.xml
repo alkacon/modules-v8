@@ -4,11 +4,10 @@
   <BootstrapIconBox language="en">
     <Headline><![CDATA[Documentation]]></Headline>
     <Icon><![CDATA[Cog]]></Icon>
-    <Text><![CDATA[In depth documentation explaining how to manage and develop websites with OpenCms.]]></Text>
+    <Text><![CDATA[The central documentation source on the web, including a detailed HTML documentation.]]></Text>
     <Link>
-      <link internal="true" type="WEAK">
-        <target><![CDATA[/sites/default/documentation/]]></target>
-        <uuid>7afb3d20-02bc-11e4-8167-1305b26fecac</uuid>
+      <link internal="false" type="WEAK">
+        <target><![CDATA[http://documentation.opencms.org/]]></target>
       </link>
     </Link>
   </BootstrapIconBox>
