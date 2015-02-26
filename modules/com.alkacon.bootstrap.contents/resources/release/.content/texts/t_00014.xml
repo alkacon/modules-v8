@@ -23,8 +23,8 @@
 <h2>New&nbsp;in OpenCms 9.5.1</h2>
 <ul>
 <li><span class="label label-warning">#</span> Added "DependentSelectWidget" that obtains values depending on other content fields.</li>
-<li><span class="label label-warning">#</span> Added alternative login handler to authorize users with a cookie.</li>
-<li><span class="label label-warning">#</span> Added option to search for expired / unreleased resources to all gallery dialogs.</li>
+<li>Added alternative login handler to authorize users with a cookie.</li>
+<li>Added option to search for expired / unreleased resources to all gallery dialogs.</li>
 <li>Added option "galleryselect" to select a gallery to file selector widget.</li>
 <li>Added further configuration options for OpenCms auto-setup.</li>
 <li>Added option to use permanent instead of temporary redirects from a non-secure to a secure server.</li>
@@ -93,7 +93,7 @@
 </ul>
 <h3>Backward compatibility</h3>
 <p>OpenCms 9.5.1 is fully backward compatible with all 8.x and 9.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 9.5.1.</p>
-<p><span class="label label-danger">Notice for users of Alkacon OCEE</span>&nbsp;OpenCms&nbsp;9.5.1 requires a new version of Alkacon OCEE. The&nbsp;update is free for Alkacon customers with a valid OCEE update subscription. <a href="%(link0)" target="_blank">Please contact Alkacon</a>to receive the new version.&nbsp;</p>
+<p><span class="label label-danger">Notice for users of Alkacon OCEE</span>&nbsp;OpenCms&nbsp;9.5.1 requires a new version of Alkacon OCEE. The&nbsp;update is free for Alkacon customers with a valid OCEE update subscription. <a href="%(link0)" target="_blank">Please contact Alkacon</a> to receive the new version.</p>
 <h3>Compatibility with Java versions, servlet containers and databases</h3>
 <p>OpenCms&nbsp;9.5.1 has been written and tested for Java 6 and 7. We have tested with ORACLEs JDK as well as OpenJDK. OpenCms should run with all compliant JVMs.</p>
 <p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>
