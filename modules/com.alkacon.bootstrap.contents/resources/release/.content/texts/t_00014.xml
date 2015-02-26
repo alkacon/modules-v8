@@ -24,7 +24,7 @@
 <ul>
 <li><span class="label label-warning">#</span> Added "DependentSelectWidget" that obtains values depending on other content fields.</li>
 <li><span class="label label-warning">#</span> Added alternative login handler to authorize users with a cookie.</li>
-<li><span class="label label-warning">#</span> Added option to search for expired resources to all gallery dialogs.</li>
+<li><span class="label label-warning">#</span> Added option to search for expired / unreleased resources to all gallery dialogs.</li>
 <li>Added option "galleryselect" to select a gallery to file selector widget.</li>
 <li>Added further configuration options for OpenCms auto-setup.</li>
 <li>Added option to use permanent instead of temporary redirects from a non-secure to a secure server.</li>
