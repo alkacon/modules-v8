@@ -56,7 +56,7 @@ Phone: +49 2236 / 3826 - 0<br />
 
 <a href="%(link1)"><img id="logo-footer" src="%(link2)" class="pull-right" alt="Alkacon Software GmbH" /></a>
 
-<p>Build with <a href="%(link3)">OpenCms</a> from <a href="%(link4)">Alkacon Software </a></p>
+<p>Built with <a href="%(link3)">OpenCms</a> from <a href="%(link4)">Alkacon Software </a></p>
 
 
 </div>
