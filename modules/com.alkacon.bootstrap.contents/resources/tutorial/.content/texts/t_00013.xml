@@ -5,7 +5,7 @@
     <Headline><![CDATA[Publishing changes]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>OpenCms features an integrated staging mechanism. This means changes made to the content are not immediately visible to the public. They need to be published first</p>]]></content>
+      <content><![CDATA[<p>OpenCms features an integrated staging mechanism. This means changes made to the content are not immediately visible to the public. They need to be published first.</p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>

@@ -6,7 +6,7 @@
     <Text name="Text0">
       <links/>
       <content><![CDATA[<p>If you edit text inline, you may notice a row of symbols that is shown to the right hand side of the element being edited. These controls allow you to add optional content, e.g. extra "read more..." links that are not yet enabled, as well as special content that is not well suited for direct inline editing such as images. You will get a small form displayed where you can enter or modify the content.</p>
-<p>To add a extra link box to this text, click <strong>here</strong> and then move your mouse over the plus symbol on the right hand side to add an optional link to this content element. To edit the image on the right side, just click on the image.</p>]]></content>
+<p>To add an extra link box to this text, click <strong>here</strong> and then move your mouse over the plus symbol on the right hand side to add an optional link to this content element. To edit the image on the right side, just click on the image.</p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>
