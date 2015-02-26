@@ -3,7 +3,7 @@
 <export>
 	<info>
 		<creator>andreas</creator>
-		<opencms_version>9.5.0</opencms_version>
+		<opencms_version>9.5.1</opencms_version>
 		<createdate>Fri, 07 Nov 2014 10:20:05 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
@@ -14,14 +14,14 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[The OpenCms 9 bootstrap XML Schema Definitions.]]></description>
-		<version>9.5.0</version>
+		<version>9.5.1</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail/>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="org.opencms.ade.config" version="9.0.0"/>
+			<dependency name="org.opencms.ade.config" version="9.5.0"/>
 			<dependency name="com.alkacon.bootstrap.basics" version="9.5.0"/>
 		</dependencies>
 		<exportpoints/>

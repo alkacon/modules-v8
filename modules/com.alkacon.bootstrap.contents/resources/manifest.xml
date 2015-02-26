@@ -42,8 +42,8 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="com.alkacon.bootstrap.schemas" version="9.0.1"/>
-			<dependency name="com.alkacon.bootstrap.formatters" version="9.0.1"/>
+			<dependency name="com.alkacon.bootstrap.schemas" version="9.5.1"/>
+			<dependency name="com.alkacon.bootstrap.formatters" version="9.5.1"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
