@@ -5,7 +5,7 @@
     <Headline><![CDATA[Extreme Grid Example :)]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>This page demonstrate a flexible grid layout. It contains a lot of containers, most of them empty. To see the container grid, you need to log in first.</p>]]></content>
+      <content><![CDATA[<p>This page demonstrates a flexible grid layout. It contains a lot of containers, most of them empty. To see the container grid, you need to log in first.</p>]]></content>
     </Text>
     <Link>
       <Text><![CDATA[To the login page...]]></Text>
