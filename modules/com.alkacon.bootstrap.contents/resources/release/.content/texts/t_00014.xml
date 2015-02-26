@@ -19,8 +19,8 @@
           <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>February 26, 2015: OpenCms 9.5.1 is a maintenance update for OpenCms 9.5 that fixes a number of issues and adds some&nbsp;functional enhancements.</p>
-<h2>New&nbsp;in OpenCms 9.5.1</h2>
+      <content><![CDATA[<p>March 2, 2015: OpenCms 9.5.1 is a maintenance update for OpenCms 9.5 that fixes a number of issues and adds some&nbsp;functional enhancements.</p>
+<h2>New in OpenCms 9.5.1</h2>
 <ul>
 <li><span class="label label-warning">#</span> Added "DependentSelectWidget" that obtains values depending on other content fields.</li>
 <li>Added alternative login handler to authorize users with a cookie.</li>
@@ -31,7 +31,7 @@
 <li>Added Solr "rows" parameter in workplace's source search.</li>
 </ul>
 <p>Items marked with <span class="label label-warning">#</span> are considered important improvements in this version.</p>
-<h2>Improved in&nbsp;OpenCms 9.5.1</h2>
+<h2>Improved in OpenCms 9.5.1</h2>
 <ul>
 <li>Fixed issue #197 with static export links being generated even if the static export was disabled.</li>
 <li>Fixed issue #240 with malfunctioning "invalid date" error message in date select widget.</li>
@@ -99,11 +99,11 @@
 <p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>
 <p>On the database side, we have tested with MySQL, Oracle, PostgreSQL, MS SQL Server, DB2 and HSQLDB.</p>
 <h3>Regarding version numbers and build tags</h3>
-<p>The main OpenCms Git repository is available on Github at&nbsp;<a href="%(link1)" target="_blank">github.com/alkacon/opencms-core</a>.</p>
-<p>In case you want to get the most current OpenCms 9.5.1&nbsp;sources from Git, please check out <span class="label label-info">branch_9_5_x</span>. The 9.5.1 release is tagged <span class="label label-info">build_9_5_1</span>.</p>
+<p>The main OpenCms Git repository is available on Github at <a href="%(link1)" target="_blank">github.com/alkacon/opencms-core</a>.</p>
+<p>In case you want to get the most current OpenCms 9.5.1 sources from Git, please check out <span class="label label-info">branch_9_5_x</span>. The 9.5.1 release is tagged <span class="label label-info">build_9_5_1</span>.</p>
 <h3>How you can help</h3>
 <p>Contributions to the OpenCms core development are most welcome. <a href="%(link2)" target="_blank">Please send us your pull requests directly on GitHub.</a></p>
-<p>Please report issues found in OpenCms using&nbsp;<a href="%(link3)" target="_blank">our GitHub issue tracker</a>.</p>
+<p>Please report issues found in OpenCms using <a href="%(link3)" target="_blank">our GitHub issue tracker</a>.</p>
 <p>Thank you for using OpenCms and have fun with OpenCms 9.5.1 :-)</p>]]></content>
     </Text>
   </BootstrapText>
