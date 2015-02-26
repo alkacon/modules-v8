@@ -29,6 +29,7 @@
 <li>Added further configuration options for OpenCms auto-setup.</li>
 <li>Added option to use permanent instead of temporary redirects from a non-secure to a secure server.</li>
 <li>Added Solr "rows" parameter in workplace's source search.</li>
+<li>Demo template updated to Bootstrap 3.3.2.</li>
 </ul>
 <p>Items marked with <span class="label label-warning">#</span> are considered important improvements in this version.</p>
 <h2>Improved in OpenCms 9.5.1</h2>
