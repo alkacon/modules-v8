@@ -34,11 +34,11 @@
   			</div>
         </c:if>
 
-        <c:if test="${value.Image.isSet}"><div <c:if test="${showTextBelow}">class="thumbnail-img"</c:if> ${rdfa.Image}>
+        <c:if test="${value.Image.isSet}"><div <c:if test="${showTextBelow}">class="thumbnail-img"</c:if> ${rdfa.Image} ${content.imageDnd['Image']}>
             <div class="overflow-hidden">
                 <img 
                     src="<cms:link>${value.Image}</cms:link>" 
-                    class="img-responsive"                         
+                    class="img-responsive"  
                     alt="${value.Headline}" 
                     title="<c:out value='${value.Headline} ${copyright}' escapeXml='false' />" />
             </div>

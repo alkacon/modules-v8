@@ -40,7 +40,8 @@
 			<span ${rdfa.Image}>
                 <div class="thumbnail-kenburn overflow-hidden">
                 <img 
-                    src="<cms:link>${value.Image}</cms:link>" 
+                    src="<cms:link>${value.Image}</cms:link>"
+                    ${content.imageDnd['Image']} 
                     class="img-responsive" 
                     alt="${value.Headline}" 
                     title="<c:out value='${value.Headline} ${copyright}' escapeXml='false' />" />

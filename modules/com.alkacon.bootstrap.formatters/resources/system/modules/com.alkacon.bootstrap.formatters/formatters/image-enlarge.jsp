@@ -55,11 +55,11 @@
 			<div class="${cssShadow}">
                 <a 
                     class="fancybox-button zoomer" 
-                    href="<cms:link>${value.Image}</cms:link>" 
+                    href="<cms:link>${value.Image}</cms:link>"
                     title="<c:out value='${value.Headline} ${copyright}' escapeXml='false' />" 
-                    data-rel="fancybox-button" 
+                    data-rel="fancybox-button"
+                    ${content.imageDnd['Image']} 
                     id="fancyboxzoom${cms.element.id}">
-                    
                     <span class="overlay-zoom">
                         <img 
                         src="<cms:link>${value.Image}</cms:link>" 
