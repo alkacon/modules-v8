@@ -95,6 +95,10 @@
       <Value><![CDATA[Hide Title]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[bootstrap.setting.showimgtitle]]></Key>
+      <Value><![CDATA[Show image sub title]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[bootstrap.setting.cssclass]]></Key>
       <Value><![CDATA[Wrapper CSS class(es)]]></Value>
     </Message>
@@ -319,6 +323,10 @@
     <Message>
       <Key><![CDATA[bootstrap.setting.hidetitle]]></Key>
       <Value><![CDATA[Verstecke Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[bootstrap.setting.showimgtitle]]></Key>
+      <Value><![CDATA[Zeige Bilduntertitel]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[bootstrap.setting.cssclass]]></Key>

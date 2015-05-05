@@ -57,7 +57,7 @@
                                 <div class="zoom-icon"></div>
                             </div>                                 
 						</a>
-						<c:if test="${value.ShowTitle == 'true'}"><div>
+						<c:if test="${cms.element.settings.showimgtitle}"><div>
 							<h5 class="heading">${res.property['Title']}</h5>
 						</div></c:if>
 					</div>

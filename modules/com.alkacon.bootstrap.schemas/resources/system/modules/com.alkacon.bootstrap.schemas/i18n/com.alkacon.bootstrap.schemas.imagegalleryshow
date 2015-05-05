@@ -27,14 +27,6 @@
       <Value><![CDATA[The number of images that are shown in each row.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.BootstrapImageGalleryShow.ShowTitle]]></Key>
-      <Value><![CDATA[Show image title]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[label.BootstrapImageGalleryShow.ShowTitle.help]]></Key>
-      <Value><![CDATA[If checked, the image title is shown in the overview.]]></Value>
-    </Message>
-    <Message>
       <Key><![CDATA[label.BootstrapImageGalleryShow.GalleryTitle]]></Key>
       <Value><![CDATA[Gallery Title]]></Value>
     </Message>

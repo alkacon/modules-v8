@@ -52,5 +52,11 @@
       <Widget><![CDATA[checkbox]]></Widget>
       <Default><![CDATA[false]]></Default>
     </Setting>
+    <Setting>
+      <PropertyName><![CDATA[showimgtitle]]></PropertyName>
+      <DisplayName><![CDATA[%(key.bootstrap.setting.showimgtitle)]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+    </Setting>
   </NewFormatter>
 </NewFormatters>
