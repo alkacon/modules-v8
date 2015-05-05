@@ -72,9 +72,6 @@
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
 			App.init();
-            try {
-                FancyBox.initFancybox();
-            } catch (e) {};
 		});
 	</script>
 	<!--[if lt IE 9]>
