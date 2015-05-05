@@ -11,7 +11,8 @@ Dark Blue:   	#4765a0    rgba(71,101,160, 1);
 Light Green: 	#79d5b3    rgba(121,213,179, 1);
 */
 
-	/*Pricing Page New
+
+/*Pricing Page New
 ------------------------------------*/
 .pricing-table-v1 .sticker-right,
 .pricing-table-v1 .sticker-left {
@@ -94,6 +95,11 @@ Light Green: 	#79d5b3    rgba(121,213,179, 1);
 	margin-bottom: 30px;
 
 }
+
+.pricing-table-v1 .pricing-v1:hover li {
+	background: #fff;
+}
+
 .pricing-table-v1 .pricing-v1-head {
 	padding: 1px 0;
 	background: #74C52C;
@@ -144,6 +150,9 @@ Light Green: 	#79d5b3    rgba(121,213,179, 1);
 .pricing-table-v1 .pricing-v1-content li i {
 	margin-right: 10px;
 	color: #74C52C;
+}
+.pricing-table-v1 .pricing-v1-green .btn-u {
+    background: #72c02c !important;
 }
 
 .pricing-table-v1 .pricing-v1-blue .pricing-v1-head {
@@ -301,10 +310,6 @@ Light Green: 	#79d5b3    rgba(121,213,179, 1);
 	.pricing-table-v1 .pricing-v1:hover {
 		-webkit-transform: scale(1.04);
 		-moz-transform: scale(1.04);
-	}
-
-	.pricing-table-v1 .pricing-v1:hover li{
-		background: #fff;
 	}
 }
 

@@ -33,8 +33,8 @@
     <HeadIncludeJs>
       <JavascriptLink>
         <link type="WEAK">
-          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js]]></target>
-          <uuid>901241d6-2839-11e4-96d6-005056b61161</uuid>
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.tools.min.js]]></target>
+          <uuid>dc3ef96d-f244-11e4-91e2-000c2943a707</uuid>
         </link>
       </JavascriptLink>
       <JavascriptLink>

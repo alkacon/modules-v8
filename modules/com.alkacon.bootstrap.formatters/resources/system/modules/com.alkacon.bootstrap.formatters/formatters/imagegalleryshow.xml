@@ -39,6 +39,12 @@
           <uuid>7b37271e-3bdd-11e3-a0c9-000c2943a707</uuid>
         </link>
       </JavascriptLink>
+      <JavascriptLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/js/plugins/fancy-box.js]]></target>
+          <uuid>f524131f-f243-11e4-91e2-000c2943a707</uuid>
+        </link>
+      </JavascriptLink>
     </HeadIncludeJs>
     <Setting>
       <PropertyName><![CDATA[hidetitle]]></PropertyName>

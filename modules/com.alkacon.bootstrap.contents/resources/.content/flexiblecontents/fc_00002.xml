@@ -21,7 +21,8 @@
             <target><![CDATA[http://www.alkacon.com]]></target>
           </link>
         </links>
-        <content><![CDATA[<!--=== Copyright ===-->
+        <content><![CDATA[<div class="footer-default">
+<!--=== Copyright ===-->
 <div class="copyright">
 <div class="container">
 <div class="row">
@@ -40,7 +41,8 @@ Alkacon and the OpenCms logo are registered trademarks owned by Alkacon Software
 </div>
 </div>
 </div>
-<!--=== End Copyright ===-->]]></content>
+<!--=== End Copyright ===-->
+</div>]]></content>
       </Code>
     </Choice>
   </BootstrapFlexibleElement>

@@ -4,8 +4,19 @@ var Index = function () {
         
         //Parallax Slider
         initParallaxSlider: function () {
-			$(function() {
-				$('#da-slider').cslider();
+			$('#da-slider').cslider({
+			    current     : 0,    
+			    // index of current slide
+			     
+			    bgincrement : 50,  
+			    // increment the background position 
+			    // (parallax effect) when sliding
+			     
+			    autoplay    : false,
+			    // slideshow on / off
+			     
+			    interval    : 4000  
+			    // time between transitions
 			});
         },
 
@@ -37,4 +48,4 @@ var Index = function () {
         }
 
     };
-}();
+}();        

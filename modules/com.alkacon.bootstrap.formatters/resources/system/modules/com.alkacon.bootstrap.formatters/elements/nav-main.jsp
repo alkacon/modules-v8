@@ -11,7 +11,8 @@
 	</c:if>
 </c:forEach>
 <cms:navigation type="forSite" resource="${navStartFolder}" startLevel="${navStartLevel}" endLevel="${navStartLevel + 3}" var="nav"/>
-<div class="collapse navbar-collapse navbar-responsive-collapse">                                                             
+<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+  <div class="container">                                                             
 	<ul class="nav navbar-nav">
 
 	<c:set var="oldLevel" value="" />
@@ -73,9 +74,7 @@
 	<c:if test="${not empty nav.items}"></li></c:if>
     <li id="searchButtonHeader">
       <i class="search fa fa-search search-btn"></i>
-    </li>
-  </ul>
-	<div class="search-open">
+      <div class="search-open">
 		<form class="form-inline" name="searchFormHeader" action="${cms.functionDetail['Search page']}" method="post">
 			<div class="input-group animated fadeInDown" id="searchContentHeader">
 				<input type="text" class="form-control" placeholder="Search" id="searchWidgetAutoCompleteHeader" />
@@ -84,6 +83,11 @@
 				</span>
 			</div>
 		</form>
-	</div>
+	  </div>
+    </li>
+  </ul>
+</div><!--/end container-->
+
+	
 
 </div><!-- /collapse -->

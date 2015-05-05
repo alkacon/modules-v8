@@ -38,7 +38,7 @@
                         tagClass="panel-body" 
                         maxElements="2">
                         
-                        <div class="servive-block rounded-3x servive-block-aqua">
+                        <div class="service-block rounded-3x service-block-aqua">
                             <h2 class="heading-md"><fmt:message key="bootstrap.tabs.emptycontainer.headline"/></h2>
                             <p><fmt:message key="bootstrap.tabs.emptycontainer.text"/></p>           
                         </div>     

@@ -17,32 +17,35 @@
           </link>
           <link name="link3" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>d87d1c09-64c5-11e4-8d01-005056b61161</uuid>
+            <uuid>35499d12-f236-11e4-bc69-000c2943a707</uuid>
           </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>d87d1c09-64c5-11e4-8d01-005056b61161</uuid>
+            <uuid>35499d12-f236-11e4-bc69-000c2943a707</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/grid-demo/]]></target>
             <uuid>0d82626d-276b-11e4-96d6-005056b61161</uuid>
           </link>
         </links>
-        <content><![CDATA[<!--=== Top ===-->
-<div class="topbar">
-    <div class="container">
-        <ul class="loginbar pull-right">
+        <content><![CDATA[<div class="header">
+ <div class="container">
+<!--=== Top ===-->
+<div class="topbar margin-bottom-20">
+  <ul class="loginbar pull-right">
             <li><a href="%(link0)">Overview</a></li>
             <li class="topbar-devider"></li>
             <li><a href="%(link1)">Demo</a></li>
             <li class="topbar-devider"></li>
             <li><a href="%(link2)">Search</a></li>
-</ul></div>
-</div><!--/top-->
+</ul></div><!--/top-->
 <!--=== End Top ===-->
+</div>
+</div>
 
+
+<div class="row margin-top-20">
 <div class="container">
-<div class="row">
 <div class="col-sm-3"><a href="%(link3)"> <img id="logo-header" src="%(link4)" alt="Logo" width="165" height="40" /></a></div>
 <div class="col-sm-9">
 <div class="headline">
@@ -50,7 +53,8 @@
 </div>
 </div>
 </div>
-</div>]]></content>
+</div>
+]]></content>
       </Code>
     </Choice>
   </BootstrapFlexibleElement>

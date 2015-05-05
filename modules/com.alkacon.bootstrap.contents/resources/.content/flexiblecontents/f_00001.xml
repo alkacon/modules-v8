@@ -13,7 +13,7 @@
             <target><![CDATA[http://www.opencms.org]]></target>
           </link>
         </links>
-        <content><![CDATA[<div class="top">
+        <content><![CDATA[<div class="header">
     <div class="topbar">
       <div class="container">
         <ul class="loginbar pull-left">

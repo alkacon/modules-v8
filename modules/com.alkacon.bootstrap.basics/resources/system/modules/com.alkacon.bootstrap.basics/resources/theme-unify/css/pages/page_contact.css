@@ -22,3 +22,15 @@
 .map-box-space1 {
 	margin-top: 7px;
 }
+
+/*Custom Sky Forms (Advanced Contacts Page)*/
+.sky-changes-3.sky-form,
+.sky-changes-3.sky-form footer {
+  border: none; 
+}
+
+.sky-changes-3.sky-form footer,
+.sky-changes-3.sky-form fieldset {
+	padding: 0;
+	background: none;
+}

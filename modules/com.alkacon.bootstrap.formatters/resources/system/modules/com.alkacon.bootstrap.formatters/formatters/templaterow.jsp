@@ -60,7 +60,7 @@
         editableby="${column.value.Editors}"
         param="${column.value.Editors}">
         
-    <div class="servive-block rounded-3x servive-block-dark-blue">
+    <div class="service-block rounded-3x service-block-dark-blue">
         <h2 class="heading-md"><fmt:message key="bootstrap.row.headline.emptycontainer"/>  ${alert}</h2>
         <p>${column.value.EmptyText}</p>          
     </div>                  

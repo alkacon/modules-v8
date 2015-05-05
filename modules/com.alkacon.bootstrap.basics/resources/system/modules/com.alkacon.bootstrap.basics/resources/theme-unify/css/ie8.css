@@ -1,3 +1,11 @@
+/*   
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+ * Version: 1.7
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+*/
+
 /*Header Fixed
 ------------------------------------*/
 .ie8 .header-fixed .header.header-fixed-shrink {
@@ -54,7 +62,7 @@
 }
 
 /*Background Opacity*/
-.ie8 .servive-block-v2 .servive-block-in {
+.ie8 .service-block-v2 .service-block-in {
 	background: url(../img/transparent/white.png) repeat;
 }
 

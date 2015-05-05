@@ -24,6 +24,7 @@
 	line-height:normal;
 	font-weight:bold;
 }
+
 .pricing-bg-colored .pricing p {
 	padding-top: 10px;
 	font-size: 11px;
@@ -84,14 +85,12 @@
 }
 
 /*Pricing Extra*/
-
 .pricing-bg-colored .bg-color {
 	background-color: #f9f9f9;	
 }
 .pricing-bg-colored .no-space-pricing {
 	padding: 0 15px;
 }
-
 .pricing-bg-colored .sticker-right,
 .pricing-bg-colored .sticker-left {
   	color: #fff;
@@ -159,8 +158,12 @@
 	border-radius: 0 0 3px 3px;
 	border-bottom: 1px solid #F5F9E7;
 }
-.pricing-bg-colored h3 {
-	border-bottom: 1px solid #fff;
+
+.pricing-bg-colored ul {
+	margin-top: -8px;
+}
+.pricing-bg-colored .pricing-footer {
+	padding: 2px 0px 19px;
 }
 .pricing-bg-colored .pricing-footer h4 {
 	color: #999;
@@ -188,9 +191,6 @@
 	font-size: 14px;
 	font-style: normal;
 	position: relative;
-}
-.pricing-bg-colored .pricing-footer {
-	padding: 2px 0px 19px;
 }
 
 

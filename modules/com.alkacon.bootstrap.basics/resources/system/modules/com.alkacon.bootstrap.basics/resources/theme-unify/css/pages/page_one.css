@@ -22,6 +22,10 @@
 	color: #fff;
 }
 
+.one-grey hr {
+	border-color: #bbb;
+}
+
 .one-page .one-default p,
 .one-page .one-default h1,
 .one-page .one-default h2,

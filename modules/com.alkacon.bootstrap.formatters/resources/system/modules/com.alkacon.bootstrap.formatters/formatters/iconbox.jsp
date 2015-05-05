@@ -7,7 +7,7 @@
 <fmt:setLocale value="${cms.locale}" />
 <cms:bundle basename="com.alkacon.bootstrap.schemas.iconbox">
 <cms:formatter var="content" val="value" rdfa="rdfa">
-	<div class="servive-block ${cms.element.setting.rounded} servive-block-${cms.element.setting.color}" ${rdfa.Link}>
+	<div class="service-block ${cms.element.setting.rounded} service-block-${cms.element.setting.color}" ${rdfa.Link}>
     <c:choose>
     	<c:when test="${cms.element.inMemoryOnly}">
     		<p><fmt:message key="bootstrap.iconbox.message.new" /></p>

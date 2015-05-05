@@ -32,6 +32,12 @@
           </Value>
         </Properties>
         <Properties>
+          <Name><![CDATA[cssClass]]></Name>
+          <Value>
+            <String><![CDATA[footer-default]]></String>
+          </Value>
+        </Properties>
+        <Properties>
           <Name><![CDATA[requireReload]]></Name>
           <Value>
             <String><![CDATA[false]]></String>
@@ -61,6 +67,12 @@
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
             <String><![CDATA[f4484be3-48b0-11e4-9866-005056b61161]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[cssClass]]></Name>
+          <Value>
+            <String><![CDATA[footer-default]]></String>
           </Value>
         </Properties>
         <Properties>

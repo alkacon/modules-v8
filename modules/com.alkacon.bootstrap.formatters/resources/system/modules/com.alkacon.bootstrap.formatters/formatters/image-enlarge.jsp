@@ -32,9 +32,9 @@
             <div class="margin-bottom-20">
       
 
-            <script type="text/javascript">
+           <script type="text/javascript">
                 jQuery(document).ready(function() {
-                    jQuery("#fancyboxzoom${cms.element.id}").fancybox({
+                    jQuery("#fancyboxzoom${cms.element.instanceId}").fancybox({
                         groupAttr: 'data-rel',
                         prevEffect: 'none',
                         nextEffect: 'none',
@@ -54,12 +54,12 @@
 
 			<div class="${cssShadow}">
                 <a 
-                    class="fancybox-button zoomer" 
+                    class="fancybox zoomer" 
                     href="<cms:link>${value.Image}</cms:link>"
                     title="<c:out value='${value.Headline} ${copyright}' escapeXml='false' />" 
-                    data-rel="fancybox-button"
+                    data-rel="fancybox-button-${cms.element.instanceId}"
                     ${content.imageDnd['Image']} 
-                    id="fancyboxzoom${cms.element.id}">
+                    id="fancyboxzoom${cms.element.instanceId}">
                     <span class="overlay-zoom">
                         <img 
                         src="<cms:link>${value.Image}</cms:link>" 

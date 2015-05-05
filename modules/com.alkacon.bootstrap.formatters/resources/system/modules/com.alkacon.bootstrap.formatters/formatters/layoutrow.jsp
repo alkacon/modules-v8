@@ -82,7 +82,7 @@
 
     <c:if test="${showDetailOnly}">
         <div class="${bssClass}">
-            <div class="servive-block rounded-3x servive-block-light">
+            <div class="service-block rounded-3x service-block-light">
                 <h2 class="heading-md">
                     Detail container 
                     <span class="label rounded label-danger">Blocked</span>
@@ -108,7 +108,7 @@
                 editableby="${role}"
                 param="${role}">
                 
-            <div class="servive-block rounded-3x servive-block-light">
+            <div class="service-block rounded-3x service-block-light">
                 <h2 class="heading-md"><fmt:message key="bootstrap.row.headline.emptycontainer"/> ${alert}</h2>
                 <p>${column.value.EmptyText}</p>                        
             </div>                  

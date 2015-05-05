@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>andreas</creator>
-		<opencms_version>9.5.1</opencms_version>
-		<createdate>Wed, 25 Feb 2015 15:35:14 GMT</createdate>
+		<creator>Admin</creator>
+		<opencms_version>9.7.x</opencms_version>
+		<createdate>Tue, 05 May 2015 07:34:20 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -546,7 +546,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-flexible</type>
 			<uuidstructure>798daaa4-58f0-11e4-903d-005056b61161</uuidstructure>
 			<uuidresource>798daaa5-58f0-11e4-903d-005056b61161</uuidresource>
-			<datelastmodified>Wed, 25 Feb 2015 15:33:48 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 May 2015 13:57:34 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 07:04:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -566,7 +566,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-flexible</type>
 			<uuidstructure>c91be4f8-5ae0-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>c91be4f9-5ae0-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Wed, 05 Nov 2014 08:47:19 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 May 2015 13:53:05 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:17:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -586,7 +586,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-flexible</type>
 			<uuidstructure>da5efe0f-5ae0-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>da5efe10-5ae0-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Wed, 25 Feb 2015 15:33:18 GMT</datelastmodified>
+			<datelastmodified>Tue, 05 May 2015 07:26:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 18:17:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4584,7 +4584,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>groupcontainer</type>
 			<uuidstructure>43b6fd75-48af-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>43b6fd76-48af-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:42:44 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 May 2015 12:20:06 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 14:37:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -4633,7 +4633,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-flexible</type>
 			<uuidstructure>4ae7a86b-48af-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>4ae7a86c-48af-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Sat, 25 Oct 2014 17:42:44 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 May 2015 10:17:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 14:37:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -7145,7 +7145,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>4e9ce8bd-583e-11e4-8db5-005056b61161</uuidstructure>
 			<uuidresource>4e9ce8be-583e-11e4-8db5-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 16:30:13 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 May 2015 13:07:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 20 Oct 2014 09:48:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -8074,7 +8074,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>c4827929-5845-11e4-a786-005056b61161</uuidstructure>
 			<uuidresource>c482792a-5845-11e4-a786-005056b61161</uuidresource>
-			<datelastmodified>Fri, 31 Oct 2014 07:43:24 GMT</datelastmodified>
+			<datelastmodified>Mon, 04 May 2015 13:57:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 20 Oct 2014 10:42:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>

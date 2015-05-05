@@ -8,6 +8,7 @@ var ContactPage = function () {
 			$(document).ready(function(){
 			  map = new GMaps({
 				div: '#map',
+				scrollwheel: false,				
 				lat: 40.748866,
 				lng: -73.988366
 			  });

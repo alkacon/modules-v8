@@ -13,7 +13,7 @@
         </link>
         <link name="link1" internal="true" type="A">
           <target><![CDATA[/sites/default/release/mailing-list/index.html]]></target>
-          <uuid>8fed4658-7722-11e0-bfd0-1797e684fbbe</uuid>
+          <uuid>cabeff65-6012-11e4-b7a7-005056b61161</uuid>
         </link>
       </links>
       <content><![CDATA[<p>November 16, 2011: This is the release of OpenCms 8.0.3. With OpenCms 8.0.3, many important and useful additional features and improvements have been added to the core system and a number of issues that persisted in the 8.0.2 release have been fixed.</p>

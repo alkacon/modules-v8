@@ -29,7 +29,7 @@
    background: #c32b44 !important;
 }
 
-.servive-block-red, i.icon-bg-red {
+.service-block-red, i.icon-bg-red {
     background-color: #b31b34;
 }
 
@@ -86,10 +86,14 @@
 
 /* Copyright */
 .copyright {
+    border-top: 1px solid #777;
+}
+
+.footer-default .copyright {
   background-color: #DDDDDD;
 }
 
-.copyright p {
+.footer-default .copyright p {
   color: #333333;
 }
 
@@ -123,11 +127,42 @@
 }
 
 /* Social icons */
-.social_slideshare {background: url(../img/icons/social/slideshare.png) no-repeat;}
+.social_slideshare {
+    background: url("../img/icons/social/slideshare.png") no-repeat;
+}
 
 /* Box with left alignment of text */
 .box-leftalign {
   text-align: left;
+}
+
+/* Fancybox additions for zoom effect */
+.zoomer:hover .overlay-zoom .zoom-icon {
+    opacity: 0.4;
+    transform: scale(1);
+}
+.overlay-zoom {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    position: relative;
+    transition: all 0.1s ease-in-out 0s;
+    width: 100%;
+    z-index: 90;
+}
+.overlay-zoom .zoom-icon {
+    background-color: #000;
+    background-image: url("../img/overlay-icon.png");
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    height: inherit;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(0);
+    transition: all 0.4s ease-in-out 0s;
+    width: inherit;
+    z-index: 100;
 }
 
 
@@ -449,23 +484,23 @@ div.div-bordered {
 }
 
 /* Service Boxes */
-.servive-block a:hover, .servive-block-in a:hover {
+.service-block a:hover, .service-block-in a:hover {
 	text-decoration: none;
 }
 
-.servive-block-colored {
+.service-block-colored {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.servive-block-colored:hover {
+.service-block-colored:hover {
   opacity: 0.8;
 }
 
-.servive-block-colored.servive-block-default:hover {
+.service-block-colored.service-block-default:hover {
   box-shadow: 0 0 8px #DDDDDD;
 }
 
-.servive-block-colored.servive-block-default:hover h2, .servive-block-colored.servive-block-default:hover i {
+.service-block-colored.service-block-default:hover h2, .service-block-colored.service-block-default:hover i {
   color:    #72c02c;
 }
 
