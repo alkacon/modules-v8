@@ -15,7 +15,8 @@
 			<xsd:element name="Title" type="OpenCmsString" />
 			<xsd:element name="ImageFolder" type="OpenCmsVfsFile" />
 			<xsd:element name="ImageCount" type="OpenCmsString" />
-      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="ShowTitle" type="OpenCmsBoolean" minOccurs="0" />
+			<xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -30,10 +31,11 @@
 			<defaults>
 				<default element="Title" value="%(key.bootstrap.imagegalleryshow.default.Title)" />
 				<default element="ImageCount" value="4" />
+				<default element="ShowTitle" value="true" />
         <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Title)" resolveMacros="false" />
 			</defaults>
 			<layouts>
-				<layout element="ImageFolder" widget="VfsFileWidget" configuration="{selectabletypes: 'folder'}}" />
+				<layout element="ImageFolder" widget="VfsFileWidget" configuration="galleryselect" />
 				<layout element="ImageCount" widget="SelectorWidget" configuration="2|3|4|6" />
 			</layouts>
 			<validationrules/>
