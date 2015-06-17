@@ -16,18 +16,20 @@
 	<div class="tab-v1">
 		<ul class="nav nav-tabs">
 			<c:forEach var="label" items="${content.valueList.Label}" varStatus="status">
-				<li class="${status.first? 'active':''}"><a href="#${cms.element.instanceId}-tab-container${status.count}" data-toggle="tab">${label}</a></li>
+				<li class="${status.first? 'active':''}"><a href="#${cms.element.instanceId}-tab-${status.count}" data-toggle="tab">${label}</a></li>
 			</c:forEach>
 		</ul>
 
 		<div class="tab-content">
 			<c:forEach var="label" items="${content.valueList.Label}" varStatus="status">
-				<cms:container name="tab-container${status.count}" type="layoutrowsonly" tagClass="tab-pane ${status.first? 'active':''}" maxElements="2">
-					<div class="alert alert-warning fade in">
-						<h4><fmt:message key="bootstrap.tabs.emptycontainer.headline"/></h4>
-						<p><fmt:message key="bootstrap.tabs.emptycontainer.text"/></p>           
-					</div>     
-        </cms:container>
+				<div id="${cms.element.instanceId}-tab-${status.count}" class="tab-pane ${status.first? 'active':''}">
+					<cms:container name="tab-container${status.count}" type="layoutrowsonly" maxElements="2">
+						<div class="alert alert-warning fade in">
+							<h4><fmt:message key="bootstrap.tabs.emptycontainer.headline"/></h4>
+							<p><fmt:message key="bootstrap.tabs.emptycontainer.text"/></p>           
+						</div>     				
+					</cms:container>
+				</div>
 			</c:forEach>
 		</div><!--/tab-content-->
 	</div><!--/tab-v1-->
