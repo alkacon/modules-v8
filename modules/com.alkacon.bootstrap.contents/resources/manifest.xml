@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>andreas</creator>
-		<opencms_version>9.5.1</opencms_version>
-		<createdate>Wed, 25 Feb 2015 15:35:14 GMT</createdate>
+		<creator>Admin</creator>
+		<opencms_version>9.5.2</opencms_version>
+		<createdate>Wed, 17 Jun 2015 14:42:01 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -546,7 +546,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>bs-flexible</type>
 			<uuidstructure>798daaa4-58f0-11e4-903d-005056b61161</uuidstructure>
 			<uuidresource>798daaa5-58f0-11e4-903d-005056b61161</uuidresource>
-			<datelastmodified>Wed, 25 Feb 2015 15:33:48 GMT</datelastmodified>
+			<datelastmodified>Wed, 17 Jun 2015 14:36:34 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 07:04:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -8522,6 +8522,26 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>release/.content/texts/t_00015.xml</source>
+			<destination>release/.content/texts/t_00015.xml</destination>
+			<type>bs-text</type>
+			<uuidstructure>a8ae1137-14ee-11e5-9b67-000c2943a707</uuidstructure>
+			<uuidresource>a8ae1138-14ee-11e5-9b67-000c2943a707</uuidresource>
+			<datelastmodified>Wed, 17 Jun 2015 12:54:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Jun 2015 12:44:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 9.5.2: Release Notes for OpenCms 9.5.2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>release/8.0.0-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>b417bde3-6012-11e4-b7a7-005056b61161</uuidstructure>
@@ -9072,6 +9092,52 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[OpenCms 9.5.1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>release/9.5.2-release-notes</destination>
+			<type>folder</type>
+			<uuidstructure>a88cf4a2-14ee-11e5-9b67-000c2943a707</uuidstructure>
+			<datelastmodified>Wed, 17 Jun 2015 12:45:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Jun 2015 12:44:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[80.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[OpenCms 9.5.2]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 9.5.2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>release/9.5.2-release-notes/index.html</source>
+			<destination>release/9.5.2-release-notes/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>a8d0b46a-14ee-11e5-9b67-000c2943a707</uuidstructure>
+			<uuidresource>a8d0b46b-14ee-11e5-9b67-000c2943a707</uuidresource>
+			<datelastmodified>Wed, 17 Jun 2015 12:45:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 17 Jun 2015 12:44:57 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 9.5.2]]></value>
 				</property>
 			</properties>
 			<relations/>
