@@ -39,6 +39,16 @@
 				<layout element="End" widget="ComboWidget" configuration="1500|2000|3500|4500|8500" />
 				<layout element="EndEasing" widget="SelectorWidget" configuration="easeOutBack|easeInQuad|easeOutQuad|easeInOutQuad|easeInCubic|easeOutCubic|easeInOutCubic|easeInQuart|easeOutQuart|easeInOutQuart|easeInQuint|easeOutQuint|easeInOutQuint|easeInSine|easeOutSine|easeInOutSine|easeInExpo|easeOutExpo*|easeInOutExpo|easeInCirc|easeOutCirc|easeInOutCirc|easeInElastic|easeOutElastic|easeInOutElastic|easeInBack|easeOutBack|easeInOutBack|easeInBounce|easeOutBounce|easeInOutBounce" />
 			</layouts>
+			<searchsettings>
+				<searchsetting element="Class" searchcontent="false"/>
+				<searchsetting element="PosX" searchcontent="false"/>
+				<searchsetting element="PosY" searchcontent="false"/>
+				<searchsetting element="Start" searchcontent="false"/>
+				<searchsetting element="Speed" searchcontent="false"/>
+				<searchsetting element="Easing" searchcontent="false"/>
+				<searchsetting element="End" searchcontent="false"/>
+				<searchsetting element="EndEasing" searchcontent="false"/>
+			</searchsettings>
 		</xsd:appinfo>
 	</xsd:annotation>  
 </xsd:schema>

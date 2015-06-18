@@ -27,6 +27,9 @@
 				<layout element="Text" widget="HtmlWidget" configuration="image,link,anchor,imagegallery,downloadgallery,formatselect,source,table,fullpage" />
 				<layout element="Code" widget="TextareaWidget" configuration="12" />
 			</layouts>
+			<searchsettings>
+				<searchsetting element="Code" searchcontent="false"/>
+			</searchsettings>
 		</xsd:appinfo>
 	</xsd:annotation>  
 </xsd:schema>

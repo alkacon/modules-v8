@@ -38,7 +38,10 @@
 				<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat: true}" />
 			</layouts>
 			<validationrules/>
-			<searchsettings containerPageOnly="true"/>
+			<searchsettings containerPageOnly="true">
+			  	<searchsetting element="Copyright" searchcontent="false"/>			
+			  	<searchsetting element="GalleryTitle" searchcontent="false"/>
+			</searchsettings>
 			<synchronizations> 
             	<synchronization element="Image" />
         	</synchronizations>

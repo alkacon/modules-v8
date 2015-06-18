@@ -37,7 +37,9 @@
 				<layout element="Text" widget="HtmlWidget" configuration="height:400px,link,anchor,source,downloadgallery,formatselect"/>
 			</layouts>
 			<validationrules/>
-			<searchsettings containerPageOnly="true"/>
+			<searchsettings containerPageOnly="true">
+			  	<searchsetting element="GalleryTitle" searchcontent="false"/>
+			</searchsettings>
 		  	<visibilities>
                 <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
             </visibilities>

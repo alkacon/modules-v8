@@ -31,7 +31,9 @@
 				<default element="Label" value="%(key.bootstrap.tabs.default.Label)" />
         <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Title)" resolveMacros="false" />
 			</defaults>
-			<searchsettings containerPageOnly="true"/>
+			<searchsettings containerPageOnly="true">
+			  	<searchsetting element="GalleryTitle" searchcontent="false"/>			
+			</searchsettings>
 		  	<visibilities>
                 <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
             </visibilities>

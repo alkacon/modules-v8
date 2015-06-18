@@ -32,6 +32,12 @@
 				<layout element="Slots" widget="SelectorWidget" configuration="2|3|4|5*|6|7|8|9|10|12|15|18|20" />
 				<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat: true}" />
 			</layouts>
+			<searchsettings>
+				<searchsetting element="Effect" searchcontent="false"/>
+				<searchsetting element="Slots" searchcontent="false"/>
+				<searchsetting element="Delay" searchcontent="false"/>
+				<searchsetting element="Link" searchcontent="false"/>
+			</searchsettings>
 		</xsd:appinfo>
 	</xsd:annotation>  
 </xsd:schema>

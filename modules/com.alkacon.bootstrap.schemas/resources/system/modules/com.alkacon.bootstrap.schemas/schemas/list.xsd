@@ -17,7 +17,7 @@
 			<xsd:element name="FilterQueries" type="OpenCmsString" />
 			<xsd:element name="SortOrder" type="OpenCmsString" />
 			<xsd:element name="RowCount" type="OpenCmsString" />
-      <xsd:element name="ItemsPerPage" type="OpenCmsString" minOccurs="0" />
+      		<xsd:element name="ItemsPerPage" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="CreatePath" type="OpenCmsString" />
 			<xsd:element name="Link" type="OpenCmsBootstrapLink" minOccurs="0" />
       <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" /> 
@@ -41,7 +41,14 @@
 				<layout element="SortOrder" widget="SelectorWidget" configuration="asc:%(key.bootstrap.list.value.asc)|desc:%(key.bootstrap.list.value.desc)"/>
 			</layouts>
 			<validationrules/>
-			<searchsettings containerPageOnly="true"/>
+			<searchsettings containerPageOnly="true">
+			  	<searchsetting element="FilterQueries" searchcontent="false"/>
+			  	<searchsetting element="SortOrder" searchcontent="false"/>
+			  	<searchsetting element="RowCount" searchcontent="false"/>
+			  	<searchsetting element="ItemsPerPage" searchcontent="false"/>
+			  	<searchsetting element="CreatePath" searchcontent="false"/>
+			  	<searchsetting element="GalleryTitle" searchcontent="false"/>				
+			</searchsettings>
 		  	<visibilities>
                 <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
             </visibilities>

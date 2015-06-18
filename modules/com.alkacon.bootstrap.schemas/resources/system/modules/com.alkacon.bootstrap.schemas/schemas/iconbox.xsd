@@ -16,7 +16,7 @@
 			<xsd:element name="Icon" type="OpenCmsString" />
 			<xsd:element name="Text" type="OpenCmsString" />
 			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />
-      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
+      		<xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -37,7 +37,10 @@
 				  <default element="Text" value="%(key.bootstrap.iconbox.default.Text)" />
 				  <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Headline)" resolveMacros="false" />
 			  </defaults>
-			  <searchsettings containerPageOnly="true"/>
+			  <searchsettings containerPageOnly="true">
+			  	<searchsetting element="Icon" searchcontent="false"/>			  
+			  	<searchsetting element="GalleryTitle" searchcontent="false"/>
+			  </searchsettings>
 			  <visibilities>
                 <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
             </visibilities>

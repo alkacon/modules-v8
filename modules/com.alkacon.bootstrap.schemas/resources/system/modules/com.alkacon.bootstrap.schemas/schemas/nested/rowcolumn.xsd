@@ -94,6 +94,18 @@
           |col-lg-12:12 %(key.bootstrap.row.columns.cols)
           " />
 			</layouts>
+			<searchsettings>
+				<searchsetting element="Name" searchcontent="false" />
+				<searchsetting element="Type" searchcontent="false" />
+				<searchsetting element="Count" searchcontent="false" />
+				<searchsetting element="Editors" searchcontent="false" />
+				<searchsetting element="EmptyText" searchcontent="false" />
+				<searchsetting element="XS" searchcontent="false" />
+				<searchsetting element="SM" searchcontent="false" />
+				<searchsetting element="MD" searchcontent="false" />
+				<searchsetting element="LG" searchcontent="false" />
+				<searchsetting element="Modifier" searchcontent="false" />
+			</searchsettings>
 		</xsd:appinfo>
 	</xsd:annotation>  
 </xsd:schema>

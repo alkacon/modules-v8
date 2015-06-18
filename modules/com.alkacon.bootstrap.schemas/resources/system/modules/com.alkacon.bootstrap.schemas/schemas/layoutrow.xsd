@@ -33,7 +33,9 @@
 			</defaults>
 			<layouts/>
 			<validationrules/>
-			<searchsettings containerPageOnly="true"/>
+			<searchsettings containerPageOnly="true">
+				<searchsetting element="Title" searchcontent="false" />
+			</searchsettings>
 		</xsd:appinfo>
 	</xsd:annotation> 
 
