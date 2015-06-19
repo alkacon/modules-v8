@@ -19,7 +19,7 @@
           <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>June 22nd, 2015: OpenCms 9.5.2 is an important update that fixes several issues that persisted in the 9.5.1 release. This version also contains security improvements against XSS attacks .</p>
+      <content><![CDATA[<p>June 22nd, 2015: OpenCms 9.5.2 is an important update that fixes several issues that persisted in the 9.5.1 release. This version also contains security improvements against XSS attacks.</p>
 <h2>New&nbsp;in OpenCms 9.5.2</h2>
 <ul>
 <li><span class="label label-warning">#</span>&nbsp;Added Japanese localization (provided by Yuta Aoki).</li>
