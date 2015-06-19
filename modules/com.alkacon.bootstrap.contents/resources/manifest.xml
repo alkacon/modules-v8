@@ -2,7 +2,7 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
+		<creator>andreas</creator>
 		<opencms_version>9.5.2</opencms_version>
 		<createdate>Wed, 17 Jun 2015 14:42:01 GMT</createdate>
 		<infoproject>Offline</infoproject>
@@ -35,7 +35,7 @@ createUser 'Templator' 'password' 'Sample user with template development permiss
 addUserToGroup 'Templator' 'Users'
 addUserToRole 'Templator' 'DEVELOPER'</import-script>
 		<description><![CDATA[The OpenCms 9 bootstrap template demo contents.]]></description>
-		<version>9.5.1</version>
+		<version>9.5.2</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail/>
 		<datecreated/>
