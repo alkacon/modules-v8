@@ -19,18 +19,48 @@
           <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>June 22nd, 2015: OpenCms 9.5.2 is available.</p>
+      <content><![CDATA[<p>June 22nd, 2015: OpenCms 9.5.2 is an important update that fixes several issues that persisted in the 9.5.1 release. This version also contains security improvements against XSS attacks .</p>
 <h2>New&nbsp;in OpenCms 9.5.2</h2>
 <ul>
-<li><span class="label label-warning">#</span>&nbsp;Very important new feature</li>
-<li>New feature or enhancement.</li>
-<li>Fixed issue&nbsp;#9999 from Github&nbsp;</li>
+<li><span class="label label-warning">#</span>&nbsp;Added Japanese localization (provided by Yuta Aoki).</li>
+<li><span class="label label-warning">#</span>&nbsp;Added Czech localization (pull request #255, provided by Filip Kratochvil).</li>
+<li>Improved loading times for VfsFileWidget (and other widgets based on the gallery dialog).</li>
+<li>Changed HtmlWidget to list styles from the content CSS in the style select box.</li>
+<li>Demo template updated to Bootstrap 3.3.5.</li>
 </ul>
 <p>Items marked with <span class="label label-warning">#</span> are considered important improvements in this version.</p>
 <h2>Improved in&nbsp;OpenCms 9.5.2</h2>
 <ul>
-<li>New feature 1</li>
-<li>New feature 2</li>
+<li>Updated Spanish localization (pull request #235, provided by Sergio Raposo Vargas).</li>
+<li>Updated Russian localization (pull request #316, provided by Iliya Makarov).</li>
+<li>Add use pages to Javadocs (pull request #311, provided by Alberto Gallardo).</li>
+<li>Improved 'This page' option in publish dialog to show changed contents of detail containers.</li>
+<li>Improved availability handling in conjunction with the sitemap editor and navigation builder.</li>
+<li>Fixed issue #278 with mangled javadocs when compiling with JDK 8.</li>
+<li>Fixed issue #236 with wrong localization of "Direct Edit" in the workplace's preferences "Start with view" drop down (provided by rohtake).</li>
+<li>Fixed issue #304 to resolve some XSS vulnerabilities.</li>
+<li>Fixed issue #312 with modified MySQL create tables to support innodb (provided by Enrico Marongiu).</li>
+<li>Fixed setup with JPA supported DBMSs (pull request #314 from Smyatkin Maxim).</li>
+<li>Fixed issue #315 with workplace search not working when selecting specific site.</li>
+<li>Fixed issues #320 and #313 with the demo pages standard tabs formatter.</li>
+<li>Fixed issue where the list of types in the container page editor's 'Add' menu was not updated after changes to nested containers in the page.</li>
+<li>Fixed issue where the lock information for locked images was copied into the title attribute when selecting images in the WYSIWYG editor.</li>
+<li>Fixed issue with the toolbar being blocked by an overlay when using the model selection dialog in the page editor.</li>
+<li>Fixed issue in the publish dialog where sometimes publishing resources in the root folder caused an error.</li>
+<li>Fixed stack overflow error caused by incomplete preference configuration after running the updater.</li>
+<li>Fixed issue with message bundle caching where sometimes XML message bundles were not found.</li>
+<li>Fixed issue where links in an error page for a request to a secure server referred to the non-secure server instead to the secure server.</li>
+<li>Fixed issue with workplace search not working for indexes other than the Gallery index.</li>
+<li>Fixed issue where detail container pages failed to be unlocked after editing.</li>
+<li>Fixed issue with Lucene index for container pages where content for locales other than "en" was not indexed.</li>
+<li>Fixed issue where registering change listeners in custom content editor widgets could cause a stack overflow.</li>
+<li>Fixed doctype for workplace dialogs to avoid compatibility mode in IE.</li>
+<li>Fixed corrupted images in updater.</li>
+<li>Fixed issue where the resource info dialog crashed when reading a relation whose source did not exist anymore.</li>
+<li>Fixed issue where the category folder name configured on /system/categories was ignored by the sitemap editor's category editing mode.</li>
+<li>Fixed IE browser mode issue which sometimes caused problems with the upload dialog.</li>
+<li>Fixed some XSS issues in the workplace.</li>
+<li>Fixed issue with legacy direct edit text button provider not showing localized messages.</li>
 </ul>
 <h2>General OpenCms features</h2>
 <ul>
