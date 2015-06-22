@@ -24,6 +24,7 @@
 <ul>
 <li><span class="label label-warning">#</span>&nbsp;Added Japanese localization (provided by Yuta Aoki).</li>
 <li><span class="label label-warning">#</span>&nbsp;Added Czech localization (provided by Filip Kratochvil).</li>
+<li>Added additional search settings in XSD for mapping of Solr fields to container pages.</li>
 <li>Improved loading times for VfsFileWidget (and other widgets based on the gallery dialog).</li>
 <li>Changed HtmlWidget to list styles from the content CSS in the style select box.</li>
 <li>Demo template updated to Bootstrap 3.3.5.</li>
