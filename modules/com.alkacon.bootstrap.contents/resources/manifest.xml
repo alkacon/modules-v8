@@ -3,10 +3,10 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>9.7.x</opencms_version>
-		<createdate>Tue, 05 May 2015 07:34:20 GMT</createdate>
+		<opencms_version>9.9.x</opencms_version>
+		<createdate>Thu, 27 Aug 2015 15:15:50 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>7</export_version>
+		<export_version>10</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.bootstrap.contents</name>
@@ -34,6 +34,8 @@ addUserToRole 'Gallator' 'GALLERY_EDITOR'
 createUser 'Templator' 'password' 'Sample user with template development permissions'
 addUserToGroup 'Templator' 'Users'
 addUserToRole 'Templator' 'DEVELOPER'</import-script>
+		<import-site>/sites/default/</import-site>
+		<export-mode name="default"/>
 		<description><![CDATA[The OpenCms 9 bootstrap template demo contents.]]></description>
 		<version>9.5.1</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -57,6 +59,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<resource uri="/overview/"/>
 			<resource uri="/index.html"/>
 		</resources>
+		<excluderesources/>
 		<parameters/>
 	</module>
 	<files>
