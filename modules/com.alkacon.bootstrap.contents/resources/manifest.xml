@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.9.x</opencms_version>
-		<createdate>Thu, 27 Aug 2015 15:15:50 GMT</createdate>
+		<createdate>Mon, 31 Aug 2015 14:12:02 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -6063,6 +6063,39 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>grid-demo/.content/jsp-search</destination>
+			<type>folder</type>
+			<uuidstructure>bed36e89-4fcf-11e5-a67e-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 31 Aug 2015 11:02:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 31 Aug 2015 11:02:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>grid-demo/.content/jsp-search/jsp-search-00001.xml</source>
+			<destination>grid-demo/.content/jsp-search/jsp-search-00001.xml</destination>
+			<type>jsp-search</type>
+			<uuidstructure>bed7180b-4fcf-11e5-a67e-0242ac11002b</uuidstructure>
+			<uuidresource>bed7180c-4fcf-11e5-a67e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 31 Aug 2015 11:29:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 31 Aug 2015 11:02:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Demo Search Configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>grid-demo/.content/lists</destination>
 			<type>folder</type>
 			<uuidstructure>b84c0556-48a9-11e4-9866-005056b61161</uuidstructure>
@@ -7835,7 +7868,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>d5304dfa-5ac4-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>d5304dfb-5ac4-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 16:27:54 GMT</datelastmodified>
+			<datelastmodified>Mon, 31 Aug 2015 11:30:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 14:56:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
