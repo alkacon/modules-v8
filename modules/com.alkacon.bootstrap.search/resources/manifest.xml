@@ -2,17 +2,15 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
-		<opencms_version>9.0.1</opencms_version>
-		<createdate>Wed, 30 Oct 2013 10:22:03 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>7</export_version>
+		<export_version>10</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.bootstrap.search</name>
 		<nicename><![CDATA[Bootstrap Search]]></nicename>
 		<group>Bootstrap Template</group>
 		<class/>
+		<export-mode name="reduced"/>
 		<description><![CDATA[The OpenCms 9 bootstrap search.]]></description>
 		<version>9.5.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -27,61 +25,25 @@
 		<resources>
 			<resource uri="/system/modules/com.alkacon.bootstrap.search/"/>
 		</resources>
+		<excluderesources/>
 		<parameters/>
 	</module>
 	<files>
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>a862a91b-407b-11e3-85e0-000c297c001d</uuidstructure>
-			<datelastmodified>Tue, 29 Oct 2013 09:22:40 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 01 Jan 1970 00:00:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol>
-				<accessentry>
-					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
-					<flags>514</flags>
-					<permissionset>
-						<allowed>1</allowed>
-						<denied>0</denied>
-					</permissionset>
-				</accessentry>
-			</accesscontrol>
 		</file>
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>aad9c3d7-407b-11e3-85e0-000c297c001d</uuidstructure>
-			<datelastmodified>Tue, 29 Oct 2013 09:22:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 29 Oct 2013 09:22:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol>
-				<accessentry>
-					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
-					<flags>514</flags>
-					<permissionset>
-						<allowed>5</allowed>
-						<denied>0</denied>
-					</permissionset>
-				</accessentry>
-			</accesscontrol>
 		</file>
 		<file>
 			<destination>system/modules/com.alkacon.bootstrap.search</destination>
 			<type>folder</type>
 			<uuidstructure>8f865630-0bc3-11e2-809c-09acdb80abab</uuidstructure>
-			<datelastmodified>Mon, 01 Oct 2012 12:28:52 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 01 Oct 2012 12:28:52 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -91,10 +53,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.search/resources</destination>
 			<type>folder</type>
 			<uuidstructure>32b5c7a2-0caf-11e2-a9e2-2b1b08a6835d</uuidstructure>
-			<datelastmodified>Mon, 08 Oct 2012 13:37:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 02 Oct 2012 16:35:38 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -109,10 +68,120 @@
 			<destination>system/modules/com.alkacon.bootstrap.search/resources/search</destination>
 			<type>folder</type>
 			<uuidstructure>3908bcc4-0caf-11e2-a9e2-2b1b08a6835d</uuidstructure>
-			<datelastmodified>Tue, 02 Oct 2012 16:35:49 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 02 Oct 2012 16:35:49 GMT</datecreated>
-			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/search/2C1683DFFE7A2EAE864B13B65BBABE49.cache.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/search/2C1683DFFE7A2EAE864B13B65BBABE49.cache.js</destination>
+			<type>plain</type>
+			<uuidstructure>0ed436c4-50a6-11e5-9b87-ed348d0afa02</uuidstructure>
+			<uuidresource>0ed484e5-50a6-11e5-9b87-ed348d0afa02</uuidresource>
+			<datecreated>Tue, 01 Sep 2015 12:36:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/search/2F9AEAC6735A9A2D8C0B16239D8AE053.cache.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/search/2F9AEAC6735A9A2D8C0B16239D8AE053.cache.js</destination>
+			<type>plain</type>
+			<uuidstructure>0ecc477e-50a6-11e5-9b87-ed348d0afa02</uuidstructure>
+			<uuidresource>0ecc6e8f-50a6-11e5-9b87-ed348d0afa02</uuidresource>
+			<datecreated>Tue, 01 Sep 2015 12:36:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/search/3AFC094DC7496B161D3E427C5731B88D.cache.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/search/3AFC094DC7496B161D3E427C5731B88D.cache.js</destination>
+			<type>plain</type>
+			<uuidstructure>0ec6f04a-50a6-11e5-9b87-ed348d0afa02</uuidstructure>
+			<uuidresource>0ec7175b-50a6-11e5-9b87-ed348d0afa02</uuidresource>
+			<datecreated>Tue, 01 Sep 2015 12:36:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/search/46AD7B3675BC3A822A36340059A0F7DB.cache.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/search/46AD7B3675BC3A822A36340059A0F7DB.cache.js</destination>
+			<type>plain</type>
+			<uuidstructure>0ed19eb2-50a6-11e5-9b87-ed348d0afa02</uuidstructure>
+			<uuidresource>0ed1c5c3-50a6-11e5-9b87-ed348d0afa02</uuidresource>
+			<datecreated>Tue, 01 Sep 2015 12:36:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/search/clear.cache.gif</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/search/clear.cache.gif</destination>
+			<type>image</type>
+			<uuidstructure>0ebc68f4-50a6-11e5-9b87-ed348d0afa02</uuidstructure>
+			<uuidresource>0ebcb715-50a6-11e5-9b87-ed348d0afa02</uuidresource>
+			<datecreated>Tue, 01 Sep 2015 12:36:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1,h:1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/search/compilation-mappings.txt</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/search/compilation-mappings.txt</destination>
+			<type>plain</type>
+			<uuidstructure>0ec28378-50a6-11e5-9b87-ed348d0afa02</uuidstructure>
+			<uuidresource>0ec36dd9-50a6-11e5-9b87-ed348d0afa02</uuidresource>
+			<datecreated>Tue, 01 Sep 2015 12:36:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/search/F07E85F300052453D0A6FCEB827FD1E9.cache.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/search/F07E85F300052453D0A6FCEB827FD1E9.cache.js</destination>
+			<type>plain</type>
+			<uuidstructure>0ecedf90-50a6-11e5-9b87-ed348d0afa02</uuidstructure>
+			<uuidresource>0ecf06a1-50a6-11e5-9b87-ed348d0afa02</uuidresource>
+			<datecreated>Tue, 01 Sep 2015 12:36:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/search/search.devmode.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/search/search.devmode.js</destination>
+			<type>plain</type>
+			<uuidstructure>0ebf7636-50a6-11e5-9b87-ed348d0afa02</uuidstructure>
+			<uuidresource>0ebf9d47-50a6-11e5-9b87-ed348d0afa02</uuidresource>
+			<datecreated>Tue, 01 Sep 2015 12:36:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.bootstrap.search/resources/search/search.nocache.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.search/resources/search/search.nocache.js</destination>
+			<type>binary</type>
+			<uuidstructure>0ec9af6c-50a6-11e5-9b87-ed348d0afa02</uuidstructure>
+			<uuidresource>0ec9d67d-50a6-11e5-9b87-ed348d0afa02</uuidresource>
+			<datecreated>Tue, 01 Sep 2015 12:36:24 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
