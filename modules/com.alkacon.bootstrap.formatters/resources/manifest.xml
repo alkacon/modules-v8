@@ -2,17 +2,15 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
-		<opencms_version>9.7.x</opencms_version>
-		<createdate>Tue, 05 May 2015 07:34:48 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>7</export_version>
+		<export_version>10</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.bootstrap.formatters</name>
 		<nicename><![CDATA[Bootstrap Template Formatters]]></nicename>
 		<group>Bootstrap Template</group>
 		<class/>
+		<export-mode name="reduced"/>
 		<description><![CDATA[The OpenCms 9 bootstrap template and formatters.]]></description>
 		<version>9.5.1</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -29,61 +27,25 @@
 		<resources>
 			<resource uri="/system/modules/com.alkacon.bootstrap.formatters/"/>
 		</resources>
+		<excluderesources/>
 		<parameters/>
 	</module>
 	<files>
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>312854ca-f236-11e4-bc69-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 04 May 2015 08:18:49 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 04 May 2015 08:18:49 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol>
-				<accessentry>
-					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
-					<flags>514</flags>
-					<permissionset>
-						<allowed>1</allowed>
-						<denied>0</denied>
-					</permissionset>
-				</accessentry>
-			</accesscontrol>
 		</file>
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>355312f6-f236-11e4-bc69-000c2943a707</uuidstructure>
-			<datelastmodified>Mon, 04 May 2015 08:18:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 04 May 2015 08:18:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol>
-				<accessentry>
-					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
-					<flags>514</flags>
-					<permissionset>
-						<allowed>5</allowed>
-						<denied>0</denied>
-					</permissionset>
-				</accessentry>
-			</accesscontrol>
 		</file>
 		<file>
 			<destination>system/modules/com.alkacon.bootstrap.formatters</destination>
 			<type>folder</type>
 			<uuidstructure>ac117cb6-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 12:08:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Sep 2013 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -95,10 +57,7 @@
 			<type>module_config</type>
 			<uuidstructure>f2d8e594-1c57-11e3-80da-000c29f9a2ec</uuidstructure>
 			<uuidresource>f2d8e595-1c57-11e3-80da-000c29f9a2ec</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 11:46:50 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 13 Sep 2013 09:36:21 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -121,10 +80,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/elements</destination>
 			<type>folder</type>
 			<uuidstructure>ac1d639a-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 12:08:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Sep 2013 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -136,10 +92,7 @@
 			<type>jsp</type>
 			<uuidstructure>ea05d64f-5452-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>ea05d650-5452-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Thu, 23 Oct 2014 13:25:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Oct 2014 10:06:21 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -164,10 +117,7 @@
 			<type>jsp</type>
 			<uuidstructure>1e5fced7-5436-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>1e5fced8-5436-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Wed, 15 Oct 2014 12:30:36 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Oct 2014 06:40:14 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -192,10 +142,7 @@
 			<type>jsp</type>
 			<uuidstructure>261e9861-2126-11e3-bb06-000c297c001d</uuidstructure>
 			<uuidresource>261e9862-2126-11e3-bb06-000c297c001d</uuidresource>
-			<datelastmodified>Mon, 27 Oct 2014 16:53:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 12:22:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -216,10 +163,7 @@
 			<type>jsp</type>
 			<uuidstructure>6f6f2ea3-1bb3-11e3-a120-000c29f9a2ec</uuidstructure>
 			<uuidresource>6f6f2ea4-1bb3-11e3-a120-000c29f9a2ec</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 11:31:14 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 12 Sep 2013 13:58:43 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -244,10 +188,7 @@
 			<type>jsp</type>
 			<uuidstructure>f6dcd82c-1a24-11e3-9358-000c29f9a2ec</uuidstructure>
 			<uuidresource>f6dcd82d-1a24-11e3-9358-000c29f9a2ec</uuidresource>
-			<datelastmodified>Mon, 04 May 2015 10:38:48 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Sep 2013 14:26:21 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -272,10 +213,7 @@
 			<type>jsp</type>
 			<uuidstructure>d168d316-47b4-11e3-8ae6-000c29d28104</uuidstructure>
 			<uuidresource>d168d317-47b4-11e3-8ae6-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:34:28 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 13:59:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -298,10 +236,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/formatters</destination>
 			<type>folder</type>
 			<uuidstructure>ac221e8c-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 12:08:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Sep 2013 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -313,10 +248,7 @@
 			<type>jsp</type>
 			<uuidstructure>1c792fa5-4795-11e3-852c-000c29d28104</uuidstructure>
 			<uuidresource>1c792fa6-4795-11e3-852c-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 19:19:23 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 10:12:30 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -341,10 +273,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>fa1811af-4794-11e3-852c-000c29d28104</uuidstructure>
 			<uuidresource>fa1811b0-4794-11e3-852c-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 08:14:22 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 10:11:32 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -373,10 +302,7 @@
 			<type>jsp</type>
 			<uuidstructure>dd5f5031-e00b-11e3-b2f0-005056b60ccd</uuidstructure>
 			<uuidresource>dd5f5032-e00b-11e3-b2f0-005056b60ccd</uuidresource>
-			<datelastmodified>Thu, 23 Oct 2014 14:22:29 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 20 May 2014 10:45:31 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -397,10 +323,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>dd6850e4-e00b-11e3-b2f0-005056b60ccd</uuidstructure>
 			<uuidresource>dd6850e5-e00b-11e3-b2f0-005056b60ccd</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:01:54 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 20 May 2014 10:45:31 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -417,10 +340,7 @@
 			<type>jsp</type>
 			<uuidstructure>f1e03dfe-4a33-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>f1e03dff-4a33-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 08:08:58 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 02 Oct 2014 12:59:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -445,10 +365,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>f1e3c073-4a33-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>f1e3c074-4a33-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 08:21:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 02 Oct 2014 12:59:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -477,10 +394,7 @@
 			<type>jsp</type>
 			<uuidstructure>68b8480a-3c7e-11e3-a99f-000c2943a707</uuidstructure>
 			<uuidresource>68b8480b-3c7e-11e3-a99f-000c2943a707</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 09:59:24 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 24 Oct 2013 07:32:17 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -505,10 +419,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>f40b638d-420a-11e3-9920-000c29d28104</uuidstructure>
 			<uuidresource>f40b638e-420a-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:03:14 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 Oct 2013 09:00:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -537,10 +448,7 @@
 			<type>jsp</type>
 			<uuidstructure>3496dbbd-210d-11e3-9f67-000c297c001d</uuidstructure>
 			<uuidresource>3496dbbe-210d-11e3-9f67-000c297c001d</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 09:59:11 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 09:23:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -565,10 +473,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>a97ba455-420c-11e3-9920-000c29d28104</uuidstructure>
 			<uuidresource>a97ba456-420c-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Wed, 05 Nov 2014 08:49:54 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 Oct 2013 09:13:10 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -597,10 +502,7 @@
 			<type>jsp</type>
 			<uuidstructure>5548055c-3cc3-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>5548055d-3cc3-11e4-bed5-005056b61161</uuidresource>
-			<datelastmodified>Mon, 04 May 2015 10:51:11 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 15 Sep 2014 10:30:37 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -625,10 +527,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>18709ca6-3cc3-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>18709ca7-3cc3-11e4-bed5-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:03:05 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 15 Sep 2014 10:28:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -657,10 +556,7 @@
 			<type>jsp</type>
 			<uuidstructure>0544380d-3a57-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>0544380e-3a57-11e4-bed5-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 07:53:04 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 12 Sep 2014 08:30:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -685,10 +581,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>0549dd62-3a57-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>0549dd63-3a57-11e4-bed5-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:02:58 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 12 Sep 2014 08:30:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -717,10 +610,7 @@
 			<type>jsp</type>
 			<uuidstructure>dd3fd1c0-5dad-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>dd3fd1c1-5dad-11e4-8211-005056b61161</uuidresource>
-			<datelastmodified>Tue, 05 May 2015 07:19:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Oct 2014 07:50:05 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -745,10 +635,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>e66e96a5-5dad-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>e66e96a6-5dad-11e4-8211-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:02:51 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Oct 2014 07:50:20 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -777,10 +664,7 @@
 			<type>jsp</type>
 			<uuidstructure>070c758b-5e02-11e4-b480-005056b61161</uuidstructure>
 			<uuidresource>070c758c-5e02-11e4-b480-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 07:52:12 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Oct 2014 17:52:32 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -801,10 +685,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>433c539f-5e02-11e4-b480-005056b61161</uuidstructure>
 			<uuidresource>433c53a0-5e02-11e4-b480-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:02:30 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Oct 2014 17:54:13 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -833,10 +714,7 @@
 			<type>jsp</type>
 			<uuidstructure>2f644002-43b8-11e4-93d3-005056b61161</uuidstructure>
 			<uuidresource>2f644003-43b8-11e4-93d3-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 07:52:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 24 Sep 2014 06:58:27 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -861,10 +739,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>a2234a97-43b9-11e4-93d3-005056b61161</uuidstructure>
 			<uuidresource>a2234a98-43b9-11e4-93d3-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:02:36 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 24 Sep 2014 07:08:49 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -893,10 +768,7 @@
 			<type>jsp</type>
 			<uuidstructure>41f1544e-3bde-11e3-a0c9-000c2943a707</uuidstructure>
 			<uuidresource>41f1544f-3bde-11e3-a0c9-000c2943a707</uuidresource>
-			<datelastmodified>Tue, 05 May 2015 07:04:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 23 Oct 2013 12:25:52 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -921,10 +793,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>0bb8b86b-420d-11e3-9920-000c29d28104</uuidstructure>
 			<uuidresource>0bb8b86c-420d-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Tue, 05 May 2015 06:55:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 Oct 2013 09:15:54 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -953,10 +822,7 @@
 			<type>jsp</type>
 			<uuidstructure>bfc16b0e-3d8b-11e4-ba5b-005056b61161</uuidstructure>
 			<uuidresource>bfc16b0f-3d8b-11e4-ba5b-005056b61161</uuidresource>
-			<datelastmodified>Mon, 04 May 2015 12:41:05 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 16 Sep 2014 10:25:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -981,10 +847,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>cb9a8cd7-38ca-11e4-a560-005056b61161</uuidstructure>
 			<uuidresource>cb9a8cd8-38ca-11e4-a560-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 15:00:28 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 09:13:57 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1013,10 +876,7 @@
 			<type>jsp</type>
 			<uuidstructure>556fdf01-46d5-11e3-ae58-000c29d28104</uuidstructure>
 			<uuidresource>556fdf02-46d5-11e3-ae58-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:00:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 11:19:42 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1037,10 +897,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>a721e9f6-46d6-11e3-ae58-000c29d28104</uuidstructure>
 			<uuidresource>a721e9f7-46d6-11e3-ae58-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:04:39 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 11:29:09 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1069,10 +926,7 @@
 			<type>jsp</type>
 			<uuidstructure>caabadf1-21db-11e3-b95f-000c29d28104</uuidstructure>
 			<uuidresource>caabadf2-21db-11e3-b95f-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:01:29 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 20 Sep 2013 10:02:43 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1093,10 +947,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>5bd4a97b-45fe-11e3-945d-000c29d28104</uuidstructure>
 			<uuidresource>5bd4a97c-45fe-11e3-945d-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:04:33 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 Nov 2013 09:40:51 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1125,10 +976,7 @@
 			<type>jsp</type>
 			<uuidstructure>731ab443-46bd-11e3-8fa9-000c29d28104</uuidstructure>
 			<uuidresource>731ab444-46bd-11e3-8fa9-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 04 May 2015 10:42:33 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 08:28:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1153,10 +1001,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>d3ab4632-46bc-11e3-8fa9-000c29d28104</uuidstructure>
 			<uuidresource>d3ab4633-46bc-11e3-8fa9-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:04:26 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 08:24:17 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1185,10 +1030,7 @@
 			<type>jsp</type>
 			<uuidstructure>65d30bbe-46bd-11e3-8fa9-000c29d28104</uuidstructure>
 			<uuidresource>65d30bbf-46bd-11e3-8fa9-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 24 Oct 2014 13:07:42 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 08:28:22 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1213,10 +1055,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>269a0c58-46bd-11e3-8fa9-000c29d28104</uuidstructure>
 			<uuidresource>269a0c59-46bd-11e3-8fa9-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:04:18 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 08:26:36 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1245,10 +1084,7 @@
 			<type>jsp</type>
 			<uuidstructure>5e9a18fa-241f-11e3-adc8-000c297c001d</uuidstructure>
 			<uuidresource>5e9a18fb-241f-11e3-adc8-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 21 Oct 2014 11:58:50 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 23 Sep 2013 07:11:30 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1273,10 +1109,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>9a7941b3-420e-11e3-9920-000c29d28104</uuidstructure>
 			<uuidresource>9a7941b4-420e-11e3-9920-000c29d28104</uuidresource>
-			<datelastmodified>Mon, 04 May 2015 12:02:19 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 31 Oct 2013 09:27:03 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1305,10 +1138,7 @@
 			<type>jsp</type>
 			<uuidstructure>50192742-3f40-11e4-a791-005056b61161</uuidstructure>
 			<uuidresource>50192743-3f40-11e4-a791-005056b61161</uuidresource>
-			<datelastmodified>Mon, 04 May 2015 12:42:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 18 Sep 2014 14:30:18 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1333,10 +1163,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>501cd0c7-3f40-11e4-a791-005056b61161</uuidstructure>
 			<uuidresource>501cd0c8-3f40-11e4-a791-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:07:04 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 18 Sep 2014 14:30:18 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1365,10 +1192,7 @@
 			<type>jsp</type>
 			<uuidstructure>5020533d-3f40-11e4-a791-005056b61161</uuidstructure>
 			<uuidresource>5020533e-3f40-11e4-a791-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:07:04 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 18 Sep 2014 14:30:18 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1393,10 +1217,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>50231262-3f40-11e4-a791-005056b61161</uuidstructure>
 			<uuidresource>50231263-3f40-11e4-a791-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:07:05 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 18 Sep 2014 14:30:18 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1425,10 +1246,7 @@
 			<type>jsp</type>
 			<uuidstructure>a85cb336-277d-11e4-96d6-005056b61161</uuidstructure>
 			<uuidresource>a85cb337-277d-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Mon, 04 May 2015 12:41:23 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 19 Aug 2014 08:48:57 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1453,10 +1271,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>a85f9969-277d-11e4-96d6-005056b61161</uuidstructure>
 			<uuidresource>a85f996a-277d-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 11:16:14 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 19 Aug 2014 08:48:57 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1485,10 +1300,7 @@
 			<type>jsp</type>
 			<uuidstructure>feb0233c-5db4-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>feb0233d-5db4-11e4-8211-005056b61161</uuidresource>
-			<datelastmodified>Mon, 27 Oct 2014 15:28:53 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Oct 2014 08:41:07 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1509,10 +1321,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>05bbb9ff-5db5-11e4-8211-005056b61161</uuidstructure>
 			<uuidresource>05bbba00-5db5-11e4-8211-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:03:58 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Oct 2014 08:41:19 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1529,10 +1338,7 @@
 			<type>jsp</type>
 			<uuidstructure>7b392b56-4a0a-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>7b392b57-4a0a-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 07:50:26 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 02 Oct 2014 08:02:40 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1557,10 +1363,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>71e7c340-4a0a-11e4-9866-005056b61161</uuidstructure>
 			<uuidresource>71e7c341-4a0a-11e4-9866-005056b61161</uuidresource>
-			<datelastmodified>Mon, 27 Oct 2014 16:15:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 02 Oct 2014 08:02:24 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1589,10 +1392,7 @@
 			<type>jsp</type>
 			<uuidstructure>c42f1a1b-3cd1-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>c42f1a1c-3cd1-11e4-bed5-005056b61161</uuidresource>
-			<datelastmodified>Wed, 22 Oct 2014 12:45:12 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 15 Sep 2014 12:13:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1617,10 +1417,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>e1ea56b0-3cd1-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>e1ea56b1-3cd1-11e4-bed5-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:03:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 15 Sep 2014 12:14:46 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1649,10 +1446,7 @@
 			<type>jsp</type>
 			<uuidstructure>aaede9c2-3a5f-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>aaede9c3-3a5f-11e4-bed5-005056b61161</uuidresource>
-			<datelastmodified>Fri, 24 Oct 2014 07:40:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 12 Sep 2014 09:32:09 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1677,10 +1471,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>98ee376c-3a5f-11e4-bed5-005056b61161</uuidstructure>
 			<uuidresource>98ee376d-3a5f-11e4-bed5-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 10:04:03 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Fri, 12 Sep 2014 09:31:39 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1707,10 +1498,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/functions</destination>
 			<type>folder</type>
 			<uuidstructure>06b09465-2068-11e3-b5aa-000c297c001d</uuidstructure>
-			<datelastmodified>Wed, 18 Sep 2013 13:41:31 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 18 Sep 2013 13:41:31 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -1722,10 +1510,7 @@
 			<type>function</type>
 			<uuidstructure>17dc02c5-2133-11e3-bb06-000c297c001d</uuidstructure>
 			<uuidresource>17dc02c6-2133-11e3-bb06-000c297c001d</uuidresource>
-			<datelastmodified>Thu, 19 Sep 2013 13:56:13 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 13:55:07 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1746,10 +1531,7 @@
 			<type>function</type>
 			<uuidstructure>68049f7a-47b6-11e3-831e-000c29d28104</uuidstructure>
 			<uuidresource>68049f7b-47b6-11e3-831e-000c29d28104</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 14:14:16 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Nov 2013 14:10:50 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1770,10 +1552,7 @@
 			<type>function</type>
 			<uuidstructure>92b7732c-4197-11e3-b6f1-5404a6b6dfe8</uuidstructure>
 			<uuidresource>92b7732d-4197-11e3-b6f1-5404a6b6dfe8</uuidresource>
-			<datelastmodified>Wed, 30 Oct 2013 19:15:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Oct 2013 19:15:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1792,10 +1571,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/i18n</destination>
 			<type>folder</type>
 			<uuidstructure>7ce00c59-4194-11e3-b99c-5404a6b6dfe8</uuidstructure>
-			<datelastmodified>Wed, 30 Oct 2013 18:52:55 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Oct 2013 18:52:55 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -1807,10 +1583,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>926e8abb-4194-11e3-b99c-5404a6b6dfe8</uuidstructure>
 			<uuidresource>926e8abc-4194-11e3-b99c-5404a6b6dfe8</uuidresource>
-			<datelastmodified>Thu, 23 Oct 2014 08:17:32 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Oct 2013 18:53:31 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1825,10 +1598,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/pages</destination>
 			<type>folder</type>
 			<uuidstructure>3107db4d-5e8f-11e4-b480-005056b61161</uuidstructure>
-			<datelastmodified>Tue, 28 Oct 2014 10:43:02 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 28 Oct 2014 10:43:02 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -1840,10 +1610,7 @@
 			<type>jsp</type>
 			<uuidstructure>3a5d13ef-5e8f-11e4-b480-005056b61161</uuidstructure>
 			<uuidresource>3a5d13f0-5e8f-11e4-b480-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 19:13:10 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 28 Oct 2014 10:43:18 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1862,10 +1629,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources</destination>
 			<type>folder</type>
 			<uuidstructure>ac27008e-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 12:08:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Sep 2013 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1880,10 +1644,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/css</destination>
 			<type>folder</type>
 			<uuidstructure>0b25a3de-1b95-11e3-a120-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Thu, 12 Sep 2013 10:21:10 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 12 Sep 2013 10:21:10 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -1895,10 +1656,7 @@
 			<type>plain</type>
 			<uuidstructure>52f716c6-20f8-11e3-b4d8-000c297c001d</uuidstructure>
 			<uuidresource>52f716c7-20f8-11e3-b4d8-000c297c001d</uuidresource>
-			<datelastmodified>Tue, 05 May 2015 07:21:50 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 19 Sep 2013 06:54:26 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -1908,10 +1666,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/img</destination>
 			<type>folder</type>
 			<uuidstructure>956ff516-59e6-11e4-99ba-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 22 Oct 2014 12:26:01 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 22 Oct 2014 12:26:01 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -1923,10 +1678,7 @@
 			<type>image</type>
 			<uuidstructure>a6cbe5cd-f2f4-11e4-bb9d-000c2943a707</uuidstructure>
 			<uuidresource>a6cbe5ce-f2f4-11e4-bb9d-000c2943a707</uuidresource>
-			<datelastmodified>Mon, 21 Oct 2013 10:26:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 05 May 2015 07:02:11 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">
@@ -1941,10 +1693,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/img/icons</destination>
 			<type>folder</type>
 			<uuidstructure>a32b6e09-59e6-11e4-99ba-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 22 Oct 2014 12:26:24 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 22 Oct 2014 12:26:24 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -1956,10 +1705,7 @@
 			<type>image</type>
 			<uuidstructure>ca4548b4-5e8f-11e4-b480-005056b61161</uuidstructure>
 			<uuidresource>ca4548b5-5e8f-11e4-b480-005056b61161</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 10:47:31 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 28 Oct 2014 10:47:19 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1978,10 +1724,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/img/icons/social</destination>
 			<type>folder</type>
 			<uuidstructure>a565f4bb-59e6-11e4-99ba-005056b61161</uuidstructure>
-			<datelastmodified>Wed, 22 Oct 2014 12:26:28 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 22 Oct 2014 12:26:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -1993,10 +1736,7 @@
 			<type>image</type>
 			<uuidstructure>a8b1010d-59e6-11e4-99ba-005056b61161</uuidstructure>
 			<uuidresource>a8b1010e-59e6-11e4-99ba-005056b61161</uuidresource>
-			<datelastmodified>Wed, 22 Oct 2014 12:26:33 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 22 Oct 2014 12:26:33 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">
@@ -2011,10 +1751,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/js</destination>
 			<type>folder</type>
 			<uuidstructure>c9da0456-5abb-11e4-955d-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 23 Oct 2014 13:52:11 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 13:52:11 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -2024,10 +1761,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/resources/js/ugc</destination>
 			<type>folder</type>
 			<uuidstructure>cbb09918-5abb-11e4-955d-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 23 Oct 2014 13:52:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 13:52:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -2039,10 +1773,7 @@
 			<type>plain</type>
 			<uuidstructure>d5f4ecaa-5abb-11e4-955d-005056b61161</uuidstructure>
 			<uuidresource>d5f4ecab-5abb-11e4-955d-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 14:58:31 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 23 Oct 2014 13:52:32 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -2052,10 +1783,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/search</destination>
 			<type>folder</type>
 			<uuidstructure>acf8da37-416c-11e3-81ba-000c297c001d</uuidstructure>
-			<datelastmodified>Wed, 30 Oct 2013 14:07:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Oct 2013 14:07:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -2067,10 +1795,7 @@
 			<type>jsp</type>
 			<uuidstructure>b4a9ffc9-416c-11e3-81ba-000c297c001d</uuidstructure>
 			<uuidresource>b4a9ffca-416c-11e3-81ba-000c297c001d</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 18:03:55 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Oct 2013 14:08:09 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -2091,10 +1816,7 @@
 			<type>jsp</type>
 			<uuidstructure>e3fb6d55-0e64-11e2-8968-2b1b08a6835d</uuidstructure>
 			<uuidresource>e3fb6d56-0e64-11e2-8968-2b1b08a6835d</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 18:04:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 04 Oct 2012 20:48:45 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -2115,10 +1837,7 @@
 			<type>jsp</type>
 			<uuidstructure>be6d941f-46f9-11e3-9436-000c29d28104</uuidstructure>
 			<uuidresource>be6d9420-46f9-11e3-9436-000c29d28104</uuidresource>
-			<datelastmodified>Fri, 08 Nov 2013 10:12:10 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Nov 2013 15:40:20 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -2139,10 +1858,7 @@
 			<type>jsp</type>
 			<uuidstructure>d2f20f93-1370-11e2-b821-2b1b08a6835d</uuidstructure>
 			<uuidresource>d2f20f94-1370-11e2-b821-2b1b08a6835d</uuidresource>
-			<datelastmodified>Thu, 07 Nov 2013 18:05:37 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 11 Oct 2012 06:56:47 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -2163,10 +1879,7 @@
 			<type>jsp</type>
 			<uuidstructure>9dbf1580-0bc3-11e2-809c-09acdb80abab</uuidstructure>
 			<uuidresource>9dbf1581-0bc3-11e2-809c-09acdb80abab</uuidresource>
-			<datelastmodified>Wed, 06 Nov 2013 15:53:12 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 01 Oct 2012 12:29:16 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">
@@ -2181,10 +1894,7 @@
 			<destination>system/modules/com.alkacon.bootstrap.formatters/templates</destination>
 			<type>folder</type>
 			<uuidstructure>ac18a8a8-1a11-11e3-9358-000c29f9a2ec</uuidstructure>
-			<datelastmodified>Tue, 10 Sep 2013 12:08:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Sep 2013 12:08:15 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -2196,10 +1906,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>c8a951f8-3989-11e4-a560-005056b61161</uuidstructure>
 			<uuidresource>c8a951f9-3989-11e4-a560-005056b61161</uuidresource>
-			<datelastmodified>Mon, 04 May 2015 14:52:33 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 11 Sep 2014 08:01:06 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
