@@ -17,11 +17,11 @@
           </link>
           <link name="link3" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>25d34064-4fe3-11e5-af7d-0242ac11002b</uuid>
+            <uuid>677fc731-5093-11e5-8213-0242ac11002b</uuid>
           </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>25d34064-4fe3-11e5-af7d-0242ac11002b</uuid>
+            <uuid>677fc731-5093-11e5-8213-0242ac11002b</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/grid-demo/]]></target>
