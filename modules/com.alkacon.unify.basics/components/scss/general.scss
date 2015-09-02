@@ -1,0 +1,153 @@
+//
+// Alkacon Unify SCSS.
+// 
+// Generic helpers. 
+//
+
+/* Generic helpers.
+----------------------------------------------------------------------------- */
+
+$line-sizes: (1, 2);
+$radiuses: (2, 5, 10);
+
+// borders
+@each $line-size in $line-sizes {    
+    %border-size-#{""+$line-size}  {    
+        border: #{""+$line-size}px solid;       
+    }       
+}
+@each $radius in $radiuses {        
+    %border-radius-#{""+$radius} {
+        -webkit-border-radius: #{""+$radius}px;
+        -moz-border-radius: #{""+$radius}px;
+        border-radius: #{""+$radius}px;                  
+    }
+} 
+
+@each $radius in $radiuses {    
+.border-radius-#{""+$radius}  {
+        @extend %border-radius-#{""+$radius}; 
+            
+        border: 0 solid;       
+    }
+}
+
+$spacers: (0, 1, 2, 3, 4, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 500, 1000, 2000);
+
+@each $space in $spacers {
+
+	.pl-#{$space} {
+	    padding-left: #{$space}px;
+	}
+    .pr-#{$space} {
+        padding-right: #{$space}px;
+    }
+    .pt-#{$space} {
+        padding-top: #{$space}px;
+    }       
+    .pb-#{$space} {
+        padding-bottom: #{$space}px;
+    }    
+	.mt-#{$space} {
+	    margin-top: #{$space}px;
+	}    	
+    .mb-#{$space} {
+        margin-bottom: #{$space}px;
+    }
+    .mr-#{$space} {
+        margin-right: #{$space}px;
+    }       
+    .ml-#{$space} {
+        margin-left: #{$space}px;
+    }
+    .mv-#{$space} {
+        margin-top: #{$space}px;
+        margin-bottom: #{$space}px;
+    }	
+    .pv-#{$space} {
+        padding-top: #{$space}px;
+        padding-bottom: #{$space}px;
+    }   
+    .mh-#{$space} {
+        margin-left: #{$space}px;
+        margin-right: #{$space}px;
+    }   
+    .ph-#{$space} {
+        padding-left: #{$space}px;
+        padding-right: #{$space}px;
+    }
+    .p-#{$space} {
+        padding: #{$space}px;
+    }
+    .m-#{$space} {
+        margin: #{$space}px;
+    }  
+}
+
+$fontsizes: (6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30, 36, 48, 72);
+
+@each $fontsize in $fontsizes {
+
+    .fs-#{$fontsize} {
+        font-size: #{$fontsize}px;
+    } 
+}
+
+$lineheights: ((10, 1.0), (11, 1.1), (12, 1.2), (13, 1.3), (14, 1.4), (15, 1.5), (16, 1.6), (17, 1.7), (18, 1.8), (19, 1.9), (20, 2.0));
+
+@each $heightid, $lineheight in $lineheights {
+
+    .lh-#{$heightid} {
+        line-height: #{$lineheight};
+    } 
+}
+
+/* Social color helpers.
+----------------------------------------------------------------------------- */
+
+// Social general colors
+$social-links-bg: transparent;
+$social-links-border: #737373;
+$social-links-text: #d6d6d6;
+$social-links-text-hover: #ffffff;
+
+// Fixed social colors
+$color-facebook:    #3b5998;
+$color-googleplus:  #dd4b39;
+$color-youtube:     #b31217;
+$color-twitter:     #55acee;
+$color-linkedin:    #0976b4;
+$color-github:      #777777;
+$color-slideshare:  #e98325;
+$color-xing:        #126567;
+$color-rss:         #ee802f;
+
+// Map to generate the social icon styles with
+$social-links:  (facebook, $color-facebook),  
+                (googleplus, $color-googleplus), 
+                (youtube, $color-youtube), 
+                (twitter, $color-twitter), 
+                (github, $color-github),
+                (xing, $color-xing),
+                (rss, $color-rss),
+                (slideshare, $color-slideshare);
+                
+.social-links li a {
+    color: $social-links-text;
+    background-color: transparent;
+    border-color: $social-links-border;
+}
+.social-links li a:hover {
+    color: $social-links-text-hover;
+    background-color: $social-links-border;
+    border-color: $social-links-border;
+}
+
+@each $social-link, $social-color in $social-links {
+.social-links li.#{$social-link} a:hover,
+.colored.social-links li.#{$social-link} a {
+        background-color: $social-color;
+        border-color: $social-color;
+        color: $social-links-text-hover;
+    }
+}

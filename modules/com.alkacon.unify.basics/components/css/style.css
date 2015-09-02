@@ -1,0 +1,228 @@
+/*
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+ * Version: 1.8
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+*/
+
+/*Import Global Compulsory CSS Files*/
+@import url(ie8.css);
+@import url(blocks.css);
+@import url(plugins.css);
+@import url(app.css);
+
+/*Import CSS Plugins*/
+@import url(plugins/style-switcher.css);
+
+body { 
+   color: #333; 
+   font-size: 13px;
+   line-height: 1.6;
+}
+
+body.header-fixed-space {
+  padding-top: 94px;
+}
+body.header-fixed-space-v2 {
+	padding-top: 135px;
+}
+
+@media (max-width: 991px) {
+	body.header-fixed-space,
+	body.header-fixed-space-v2 {
+		padding-top: 0;
+	}
+}
+
+p, 
+li,
+li a,
+label { 
+   color: #555;
+}
+
+a {
+   color: #72c02c;
+   text-decoration: none;  
+}
+
+a,
+a:focus, 
+a:hover, 
+a:active {
+   outline: 0 !important;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover {
+   color: #72c02c;
+   text-decoration: underline;
+}
+
+/*Boxed Layout
+------------------------------------*/
+.wrapper {
+  background: #fff;
+}
+
+.boxed-layout {
+  padding: 0;
+  box-shadow: 0 0 5px #ccc;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: url(../img/patterns/15.png) repeat;
+}
+
+/*Main Styles
+------------------------------------*/
+
+
+/*Other Footer Common Classes
+------------------------------------*/
+/*Thumb Headline*/
+.thumb-headline h2 {
+	color: #eee;
+	font-size: 16px;
+}
+
+/*Footer Logo*/
+.footer-logo {
+	margin: 17px 0 20px;
+}
+
+/*Latest List*/
+.latest-list li {
+	padding: 8px 0;
+	border-top: 1px solid #353535;
+}
+
+.latest-list li:first-child {
+	padding-top: 0;
+	border-top: none;
+}
+
+.latest-list li a {
+	color: #eee;
+}
+
+.latest-list small {
+	color: #999;
+	display: block;
+}
+
+/*Link List*/
+.link-list li {
+	border-top: solid 1px #353535;
+}
+
+.link-list li:first-child {
+	border-top: none !important;
+}
+
+.link-list a {
+	color: #eee;
+	font-size: 11px;
+	padding: 6px 0px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.link-list li i {
+	color: #bbb;
+	float: right;
+	margin-top: 10px;
+}
+
+
+
+/*Social Icons*/
+.social-icons {
+	margin-top: 5px;
+}
+
+.social-icons li {
+	margin: 0; 
+}
+
+.social-icons li a {
+	margin: 0 3px;
+}
+
+/*Thumbnails
+------------------------------------*/
+a.thumbnail {
+	padding: 0;
+	border: none;
+	margin-bottom: 15px;
+}
+
+.thumbnail-style { 
+	padding: 7px;
+	margin-bottom: 20px; 
+}
+.thumbnail-style:hover { 
+	box-shadow: 0 0 8px #ddd; 
+    -webkit-transition: box-shadow 0.2s ease-in-out;
+    -moz-transition: box-shadow 0.2s ease-in-out;
+    -o-transition: box-shadow 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.thumbnail h3,
+.thumbnail-style h3 {
+	margin: 6px 0 8px 0;
+}
+
+.thumbnail h3 a,
+.thumbnail-style h3 a {
+	color: #585f69;
+	font-size: 18px;
+}
+
+.thumbnail h3 a:hover,
+.thumbnail-style h3 a:hover {
+	color: #72c02c;
+	text-decoration: none;
+}
+
+.thumbnail-style .thumbnail-img {
+	position: relative;
+	margin-bottom: 11px;
+}
+
+.thumbnail-style a.btn-more {
+	right: -10px;
+	bottom: 10px;
+	color: #fff;
+	padding: 1px 6px;
+	position: absolute;
+	background: #72c02c;
+	display: inline-block; 
+}
+.thumbnail-style a.btn-more:hover {
+	text-decoration: none;
+	box-shadow: 0 0 0 2px #5fb611;
+}
+.thumbnail-style:hover a.btn-more {
+	right: 10px;
+}
+
+.thumbnail-kenburn img {
+	left: 10px;
+	margin-left: -10px;
+	position: relative;
+   -webkit-transition: all 0.8s ease-in-out;
+   -moz-transition: all 0.8s ease-in-out;
+   -o-transition: all 0.8s ease-in-out;
+   -ms-transition: all 0.8s ease-in-out;
+   transition: all 0.8s ease-in-out;
+}
+.thumbnail-kenburn:hover img {
+   -webkit-transform: scale(1.2) rotate(2deg);
+   -moz-transform: scale(1.2) rotate(2deg);
+   -o-transform: scale(1.2) rotate(2deg);
+   -ms-transform: scale(1.2) rotate(2deg);
+   transform: scale(1.2) rotate(2deg);
+}

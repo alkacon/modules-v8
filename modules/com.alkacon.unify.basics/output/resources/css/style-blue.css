@@ -1,0 +1,3309 @@
+/*
+ * Alkacon Unify CSS - BLUE theme
+ *
+ * -----------------------------------------------------------------------------
+ * 
+ * Alkacon Software - The OpenCms experts. 
+ *
+ * http://www.alkacon.com
+ * http://www.opencms.org
+ */
+/* Generic helpers.
+----------------------------------------------------------------------------- */
+/* line 20, ../../../components/scss/general.scss */
+.border-radius-2 {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px; }
+
+/* line 20, ../../../components/scss/general.scss */
+.border-radius-5 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 20, ../../../components/scss/general.scss */
+.border-radius-10 {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+
+/* line 28, ../../../components/scss/general.scss */
+.border-radius-2 {
+  border: 0 solid; }
+
+/* line 28, ../../../components/scss/general.scss */
+.border-radius-5 {
+  border: 0 solid; }
+
+/* line 28, ../../../components/scss/general.scss */
+.border-radius-10 {
+  border: 0 solid; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-0 {
+  padding-left: 0px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-0 {
+  padding-right: 0px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-0 {
+  padding-top: 0px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-0 {
+  padding-bottom: 0px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-0 {
+  margin-top: 0px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-0 {
+  margin-bottom: 0px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-0 {
+  margin-right: 0px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-0 {
+  margin-left: 0px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-0 {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-0 {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-0 {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-0 {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-0 {
+  padding: 0px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-0 {
+  margin: 0px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-1 {
+  padding-left: 1px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-1 {
+  padding-right: 1px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-1 {
+  padding-top: 1px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-1 {
+  padding-bottom: 1px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-1 {
+  margin-top: 1px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-1 {
+  margin-bottom: 1px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-1 {
+  margin-right: 1px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-1 {
+  margin-left: 1px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-1 {
+  margin-top: 1px;
+  margin-bottom: 1px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-1 {
+  padding-top: 1px;
+  padding-bottom: 1px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-1 {
+  margin-left: 1px;
+  margin-right: 1px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-1 {
+  padding-left: 1px;
+  padding-right: 1px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-1 {
+  padding: 1px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-1 {
+  margin: 1px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-2 {
+  padding-left: 2px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-2 {
+  padding-right: 2px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-2 {
+  padding-top: 2px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-2 {
+  padding-bottom: 2px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-2 {
+  margin-top: 2px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-2 {
+  margin-bottom: 2px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-2 {
+  margin-right: 2px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-2 {
+  margin-left: 2px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-2 {
+  margin-top: 2px;
+  margin-bottom: 2px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-2 {
+  padding-top: 2px;
+  padding-bottom: 2px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-2 {
+  margin-left: 2px;
+  margin-right: 2px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-2 {
+  padding-left: 2px;
+  padding-right: 2px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-2 {
+  padding: 2px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-2 {
+  margin: 2px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-3 {
+  padding-left: 3px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-3 {
+  padding-right: 3px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-3 {
+  padding-top: 3px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-3 {
+  padding-bottom: 3px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-3 {
+  margin-top: 3px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-3 {
+  margin-bottom: 3px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-3 {
+  margin-right: 3px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-3 {
+  margin-left: 3px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-3 {
+  margin-top: 3px;
+  margin-bottom: 3px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-3 {
+  padding-top: 3px;
+  padding-bottom: 3px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-3 {
+  margin-left: 3px;
+  margin-right: 3px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-3 {
+  padding-left: 3px;
+  padding-right: 3px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-3 {
+  padding: 3px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-3 {
+  margin: 3px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-4 {
+  padding-left: 4px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-4 {
+  padding-right: 4px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-4 {
+  padding-top: 4px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-4 {
+  padding-bottom: 4px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-4 {
+  margin-top: 4px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-4 {
+  margin-bottom: 4px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-4 {
+  margin-right: 4px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-4 {
+  margin-left: 4px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-4 {
+  margin-top: 4px;
+  margin-bottom: 4px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-4 {
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-4 {
+  margin-left: 4px;
+  margin-right: 4px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-4 {
+  padding-left: 4px;
+  padding-right: 4px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-4 {
+  padding: 4px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-4 {
+  margin: 4px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-5 {
+  padding-left: 5px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-5 {
+  padding-right: 5px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-5 {
+  padding-top: 5px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-5 {
+  padding-bottom: 5px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-5 {
+  margin-top: 5px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-5 {
+  margin-bottom: 5px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-5 {
+  margin-right: 5px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-5 {
+  margin-left: 5px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-5 {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-5 {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-5 {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-5 {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-5 {
+  padding: 5px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-5 {
+  margin: 5px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-10 {
+  padding-left: 10px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-10 {
+  padding-right: 10px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-10 {
+  padding-top: 10px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-10 {
+  padding-bottom: 10px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-10 {
+  margin-top: 10px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-10 {
+  margin-bottom: 10px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-10 {
+  margin-right: 10px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-10 {
+  margin-left: 10px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-10 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-10 {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-10 {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-10 {
+  padding: 10px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-10 {
+  margin: 10px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-15 {
+  padding-left: 15px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-15 {
+  padding-right: 15px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-15 {
+  padding-top: 15px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-15 {
+  padding-bottom: 15px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-15 {
+  margin-top: 15px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-15 {
+  margin-bottom: 15px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-15 {
+  margin-right: 15px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-15 {
+  margin-left: 15px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-15 {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-15 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-15 {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-15 {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-15 {
+  padding: 15px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-15 {
+  margin: 15px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-20 {
+  padding-left: 20px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-20 {
+  padding-right: 20px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-20 {
+  padding-top: 20px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-20 {
+  padding-bottom: 20px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-20 {
+  margin-top: 20px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-20 {
+  margin-bottom: 20px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-20 {
+  margin-right: 20px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-20 {
+  margin-left: 20px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-20 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-20 {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-20 {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-20 {
+  padding: 20px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-20 {
+  margin: 20px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-25 {
+  padding-left: 25px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-25 {
+  padding-right: 25px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-25 {
+  padding-top: 25px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-25 {
+  padding-bottom: 25px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-25 {
+  margin-top: 25px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-25 {
+  margin-bottom: 25px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-25 {
+  margin-right: 25px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-25 {
+  margin-left: 25px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-25 {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-25 {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-25 {
+  margin-left: 25px;
+  margin-right: 25px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-25 {
+  padding-left: 25px;
+  padding-right: 25px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-25 {
+  padding: 25px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-25 {
+  margin: 25px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-30 {
+  padding-left: 30px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-30 {
+  padding-right: 30px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-30 {
+  padding-top: 30px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-30 {
+  padding-bottom: 30px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-30 {
+  margin-top: 30px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-30 {
+  margin-bottom: 30px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-30 {
+  margin-right: 30px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-30 {
+  margin-left: 30px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-30 {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-30 {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-30 {
+  margin-left: 30px;
+  margin-right: 30px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-30 {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-30 {
+  padding: 30px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-30 {
+  margin: 30px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-35 {
+  padding-left: 35px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-35 {
+  padding-right: 35px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-35 {
+  padding-top: 35px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-35 {
+  padding-bottom: 35px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-35 {
+  margin-top: 35px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-35 {
+  margin-bottom: 35px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-35 {
+  margin-right: 35px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-35 {
+  margin-left: 35px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-35 {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-35 {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-35 {
+  margin-left: 35px;
+  margin-right: 35px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-35 {
+  padding-left: 35px;
+  padding-right: 35px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-35 {
+  padding: 35px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-35 {
+  margin: 35px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-40 {
+  padding-left: 40px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-40 {
+  padding-right: 40px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-40 {
+  padding-top: 40px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-40 {
+  padding-bottom: 40px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-40 {
+  margin-top: 40px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-40 {
+  margin-bottom: 40px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-40 {
+  margin-right: 40px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-40 {
+  margin-left: 40px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-40 {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-40 {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-40 {
+  margin-left: 40px;
+  margin-right: 40px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-40 {
+  padding-left: 40px;
+  padding-right: 40px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-40 {
+  padding: 40px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-40 {
+  margin: 40px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-45 {
+  padding-left: 45px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-45 {
+  padding-right: 45px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-45 {
+  padding-top: 45px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-45 {
+  padding-bottom: 45px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-45 {
+  margin-top: 45px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-45 {
+  margin-bottom: 45px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-45 {
+  margin-right: 45px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-45 {
+  margin-left: 45px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-45 {
+  margin-top: 45px;
+  margin-bottom: 45px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-45 {
+  padding-top: 45px;
+  padding-bottom: 45px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-45 {
+  margin-left: 45px;
+  margin-right: 45px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-45 {
+  padding-left: 45px;
+  padding-right: 45px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-45 {
+  padding: 45px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-45 {
+  margin: 45px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-50 {
+  padding-left: 50px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-50 {
+  padding-right: 50px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-50 {
+  padding-top: 50px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-50 {
+  padding-bottom: 50px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-50 {
+  margin-top: 50px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-50 {
+  margin-bottom: 50px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-50 {
+  margin-right: 50px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-50 {
+  margin-left: 50px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-50 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-50 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-50 {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-50 {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-50 {
+  padding: 50px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-50 {
+  margin: 50px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-60 {
+  padding-left: 60px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-60 {
+  padding-right: 60px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-60 {
+  padding-top: 60px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-60 {
+  padding-bottom: 60px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-60 {
+  margin-top: 60px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-60 {
+  margin-bottom: 60px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-60 {
+  margin-right: 60px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-60 {
+  margin-left: 60px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-60 {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-60 {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-60 {
+  margin-left: 60px;
+  margin-right: 60px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-60 {
+  padding-left: 60px;
+  padding-right: 60px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-60 {
+  padding: 60px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-60 {
+  margin: 60px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-70 {
+  padding-left: 70px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-70 {
+  padding-right: 70px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-70 {
+  padding-top: 70px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-70 {
+  padding-bottom: 70px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-70 {
+  margin-top: 70px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-70 {
+  margin-bottom: 70px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-70 {
+  margin-right: 70px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-70 {
+  margin-left: 70px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-70 {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-70 {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-70 {
+  margin-left: 70px;
+  margin-right: 70px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-70 {
+  padding-left: 70px;
+  padding-right: 70px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-70 {
+  padding: 70px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-70 {
+  margin: 70px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-80 {
+  padding-left: 80px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-80 {
+  padding-right: 80px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-80 {
+  padding-top: 80px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-80 {
+  padding-bottom: 80px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-80 {
+  margin-top: 80px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-80 {
+  margin-bottom: 80px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-80 {
+  margin-right: 80px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-80 {
+  margin-left: 80px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-80 {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-80 {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-80 {
+  margin-left: 80px;
+  margin-right: 80px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-80 {
+  padding-left: 80px;
+  padding-right: 80px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-80 {
+  padding: 80px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-80 {
+  margin: 80px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-90 {
+  padding-left: 90px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-90 {
+  padding-right: 90px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-90 {
+  padding-top: 90px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-90 {
+  padding-bottom: 90px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-90 {
+  margin-top: 90px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-90 {
+  margin-bottom: 90px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-90 {
+  margin-right: 90px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-90 {
+  margin-left: 90px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-90 {
+  margin-top: 90px;
+  margin-bottom: 90px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-90 {
+  padding-top: 90px;
+  padding-bottom: 90px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-90 {
+  margin-left: 90px;
+  margin-right: 90px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-90 {
+  padding-left: 90px;
+  padding-right: 90px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-90 {
+  padding: 90px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-90 {
+  margin: 90px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-100 {
+  padding-left: 100px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-100 {
+  padding-right: 100px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-100 {
+  padding-top: 100px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-100 {
+  padding-bottom: 100px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-100 {
+  margin-top: 100px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-100 {
+  margin-bottom: 100px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-100 {
+  margin-right: 100px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-100 {
+  margin-left: 100px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-100 {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-100 {
+  margin-left: 100px;
+  margin-right: 100px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-100 {
+  padding-left: 100px;
+  padding-right: 100px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-100 {
+  padding: 100px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-100 {
+  margin: 100px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-500 {
+  padding-left: 500px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-500 {
+  padding-right: 500px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-500 {
+  padding-top: 500px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-500 {
+  padding-bottom: 500px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-500 {
+  margin-top: 500px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-500 {
+  margin-bottom: 500px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-500 {
+  margin-right: 500px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-500 {
+  margin-left: 500px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-500 {
+  margin-top: 500px;
+  margin-bottom: 500px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-500 {
+  padding-top: 500px;
+  padding-bottom: 500px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-500 {
+  margin-left: 500px;
+  margin-right: 500px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-500 {
+  padding-left: 500px;
+  padding-right: 500px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-500 {
+  padding: 500px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-500 {
+  margin: 500px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-1000 {
+  padding-left: 1000px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-1000 {
+  padding-right: 1000px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-1000 {
+  padding-top: 1000px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-1000 {
+  padding-bottom: 1000px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-1000 {
+  margin-top: 1000px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-1000 {
+  margin-bottom: 1000px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-1000 {
+  margin-right: 1000px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-1000 {
+  margin-left: 1000px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-1000 {
+  margin-top: 1000px;
+  margin-bottom: 1000px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-1000 {
+  padding-top: 1000px;
+  padding-bottom: 1000px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-1000 {
+  margin-left: 1000px;
+  margin-right: 1000px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-1000 {
+  padding-left: 1000px;
+  padding-right: 1000px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-1000 {
+  padding: 1000px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-1000 {
+  margin: 1000px; }
+
+/* line 39, ../../../components/scss/general.scss */
+.pl-2000 {
+  padding-left: 2000px; }
+
+/* line 42, ../../../components/scss/general.scss */
+.pr-2000 {
+  padding-right: 2000px; }
+
+/* line 45, ../../../components/scss/general.scss */
+.pt-2000 {
+  padding-top: 2000px; }
+
+/* line 48, ../../../components/scss/general.scss */
+.pb-2000 {
+  padding-bottom: 2000px; }
+
+/* line 51, ../../../components/scss/general.scss */
+.mt-2000 {
+  margin-top: 2000px; }
+
+/* line 54, ../../../components/scss/general.scss */
+.mb-2000 {
+  margin-bottom: 2000px; }
+
+/* line 57, ../../../components/scss/general.scss */
+.mr-2000 {
+  margin-right: 2000px; }
+
+/* line 60, ../../../components/scss/general.scss */
+.ml-2000 {
+  margin-left: 2000px; }
+
+/* line 63, ../../../components/scss/general.scss */
+.mv-2000 {
+  margin-top: 2000px;
+  margin-bottom: 2000px; }
+
+/* line 67, ../../../components/scss/general.scss */
+.pv-2000 {
+  padding-top: 2000px;
+  padding-bottom: 2000px; }
+
+/* line 71, ../../../components/scss/general.scss */
+.mh-2000 {
+  margin-left: 2000px;
+  margin-right: 2000px; }
+
+/* line 75, ../../../components/scss/general.scss */
+.ph-2000 {
+  padding-left: 2000px;
+  padding-right: 2000px; }
+
+/* line 79, ../../../components/scss/general.scss */
+.p-2000 {
+  padding: 2000px; }
+
+/* line 82, ../../../components/scss/general.scss */
+.m-2000 {
+  margin: 2000px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-6 {
+  font-size: 6px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-7 {
+  font-size: 7px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-8 {
+  font-size: 8px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-9 {
+  font-size: 9px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-10 {
+  font-size: 10px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-11 {
+  font-size: 11px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-12 {
+  font-size: 12px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-13 {
+  font-size: 13px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-14 {
+  font-size: 14px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-15 {
+  font-size: 15px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-16 {
+  font-size: 16px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-18 {
+  font-size: 18px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-20 {
+  font-size: 20px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-22 {
+  font-size: 22px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-24 {
+  font-size: 24px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-26 {
+  font-size: 26px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-28 {
+  font-size: 28px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-30 {
+  font-size: 30px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-36 {
+  font-size: 36px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-48 {
+  font-size: 48px; }
+
+/* line 91, ../../../components/scss/general.scss */
+.fs-72 {
+  font-size: 72px; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-10 {
+  line-height: 1; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-11 {
+  line-height: 1.1; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-12 {
+  line-height: 1.2; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-13 {
+  line-height: 1.3; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-14 {
+  line-height: 1.4; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-15 {
+  line-height: 1.5; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-16 {
+  line-height: 1.6; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-17 {
+  line-height: 1.7; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-18 {
+  line-height: 1.8; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-19 {
+  line-height: 1.9; }
+
+/* line 100, ../../../components/scss/general.scss */
+.lh-20 {
+  line-height: 2; }
+
+/* Social color helpers.
+----------------------------------------------------------------------------- */
+/* line 135, ../../../components/scss/general.scss */
+.social-links li a {
+  color: #d6d6d6;
+  background-color: transparent;
+  border-color: #737373; }
+
+/* line 140, ../../../components/scss/general.scss */
+.social-links li a:hover {
+  color: #ffffff;
+  background-color: #737373;
+  border-color: #737373; }
+
+/* line 147, ../../../components/scss/general.scss */
+.social-links li.facebook a:hover,
+.colored.social-links li.facebook a {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  color: #ffffff; }
+
+/* line 147, ../../../components/scss/general.scss */
+.social-links li.googleplus a:hover,
+.colored.social-links li.googleplus a {
+  background-color: #dd4b39;
+  border-color: #dd4b39;
+  color: #ffffff; }
+
+/* line 147, ../../../components/scss/general.scss */
+.social-links li.youtube a:hover,
+.colored.social-links li.youtube a {
+  background-color: #b31217;
+  border-color: #b31217;
+  color: #ffffff; }
+
+/* line 147, ../../../components/scss/general.scss */
+.social-links li.twitter a:hover,
+.colored.social-links li.twitter a {
+  background-color: #55acee;
+  border-color: #55acee;
+  color: #ffffff; }
+
+/* line 147, ../../../components/scss/general.scss */
+.social-links li.github a:hover,
+.colored.social-links li.github a {
+  background-color: #777777;
+  border-color: #777777;
+  color: #ffffff; }
+
+/* line 147, ../../../components/scss/general.scss */
+.social-links li.xing a:hover,
+.colored.social-links li.xing a {
+  background-color: #126567;
+  border-color: #126567;
+  color: #ffffff; }
+
+/* line 147, ../../../components/scss/general.scss */
+.social-links li.rss a:hover,
+.colored.social-links li.rss a {
+  background-color: #ee802f;
+  border-color: #ee802f;
+  color: #ffffff; }
+
+/* line 147, ../../../components/scss/general.scss */
+.social-links li.slideshare a:hover,
+.colored.social-links li.slideshare a {
+  background-color: #e98325;
+  border-color: #e98325;
+  color: #ffffff; }
+
+/* 
+* Version: 1.7
+* Main Color: $main-theme; 
+* Main Hover Color: $main-theme-hover; 
+* Additional color: $main-theme-additional;
+* rgba(52, 152, 219, 1);
+*/
+/* line 9, ../../../components/scss/theme.scss */
+a {
+  color: #003374; }
+
+/* line 12, ../../../components/scss/theme.scss */
+a:focus,
+a:hover,
+a:active {
+  color: #003374; }
+
+/* line 17, ../../../components/scss/theme.scss */
+.color-green {
+  color: #003374; }
+
+/* line 20, ../../../components/scss/theme.scss */
+a.read-more:hover {
+  color: #003374; }
+
+/* line 23, ../../../components/scss/theme.scss */
+.linked:hover {
+  color: #003374; }
+
+/* Headers Default
+------------------------------------*/
+/* line 29, ../../../components/scss/theme.scss */
+.header .navbar-nav > .active > a {
+  color: #003374; }
+
+/* line 32, ../../../components/scss/theme.scss */
+.header .navbar-nav > .active > a {
+  border-color: #003374; }
+
+/* line 35, ../../../components/scss/theme.scss */
+.header .dropdown-menu {
+  border-top: solid 2px #003374; }
+
+/* line 38, ../../../components/scss/theme.scss */
+.header .navbar-nav > li:hover > a {
+  color: #4195ff; }
+
+/* line 41, ../../../components/scss/theme.scss */
+.header .nav > li > .search:hover {
+  border-bottom-color: #4195ff;
+  color: #4195ff; }
+
+/* line 45, ../../../components/scss/theme.scss */
+.header .navbar-nav > li > a:hover,
+.header .navbar-nav > .active > a {
+  border-bottom-color: #003374; }
+
+/* line 49, ../../../components/scss/theme.scss */
+.header .navbar-toggle {
+  border-color: #4195ff; }
+
+/* line 52, ../../../components/scss/theme.scss */
+.header .navbar-toggle,
+.header .navbar-toggle:hover,
+.header .navbar-toggle:focus {
+  background: #003374; }
+
+/* line 57, ../../../components/scss/theme.scss */
+.header .navbar-toggle:hover {
+  background: #4195ff !important; }
+
+/* line 60, ../../../components/scss/theme.scss */
+.header .navbar-nav > .open > a,
+.header .navbar-nav > .open > a:hover,
+.header .navbar-nav > .open > a:focus {
+  color: #003374; }
+
+/* Design for max-width: 991px */
+@media (max-width: 991px) {
+  /* line 68, ../../../components/scss/theme.scss */
+  .header .navbar-nav > .active > a,
+  .header .navbar-nav > .active > a:hover,
+  .header .navbar-nav > .active > a:focus {
+    background: #003374;
+    color: #fff !important; }
+
+  /* line 74, ../../../components/scss/theme.scss */
+  .header .navbar-nav > .active > a {
+    border-color: #eee; }
+
+  /* line 77, ../../../components/scss/theme.scss */
+  .header .nav > li > .search:hover {
+    background: #003374; } }
+/* Headers v1
+------------------------------------*/
+/* line 84, ../../../components/scss/theme.scss */
+.header-v1 .navbar-default .navbar-nav > .active > a,
+.header-v1 .navbar-default .navbar-nav > li > a:hover,
+.header-v1 .navbar-default .navbar-nav > li > a:focus {
+  color: #003374; }
+
+/* line 89, ../../../components/scss/theme.scss */
+.header-v1 .dropdown-menu {
+  border-color: #003374; }
+
+/* line 92, ../../../components/scss/theme.scss */
+.header-v1 .navbar-default .navbar-nav > li:hover > a {
+  color: #003374; }
+
+/* line 95, ../../../components/scss/theme.scss */
+.header-v1 .navbar .nav > li > .search:hover {
+  color: #003374; }
+
+/* line 98, ../../../components/scss/theme.scss */
+.header-v1 .navbar .nav > li > .search:hover {
+  color: #003374; }
+
+/* line 101, ../../../components/scss/theme.scss */
+.header-v1 .navbar-default .navbar-toggle {
+  border-color: #4195ff; }
+
+/* line 104, ../../../components/scss/theme.scss */
+.header-v1 .navbar-toggle,
+.header-v1 .navbar-default .navbar-toggle:hover,
+.header-v1 .navbar-default .navbar-toggle:focus {
+  background: #003374; }
+
+/* line 109, ../../../components/scss/theme.scss */
+.header-v1 .navbar-toggle:hover {
+  background: #4195ff !important; }
+
+/* Design for max-width: 991px */
+@media (max-width: 991px) {
+  /* line 115, ../../../components/scss/theme.scss */
+  .header-v1 .navbar-default .navbar-nav > li:hover > a {
+    border-color: #eee; }
+
+  /* line 118, ../../../components/scss/theme.scss */
+  .header-v1 .navbar-default .navbar-nav > .active > a,
+  .header-v1 .navbar-default .navbar-nav > .active > a:hover,
+  .header-v1 .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #003374; }
+
+  /* line 123, ../../../components/scss/theme.scss */
+  .header-v1 .navbar-default .navbar-nav > .active > a {
+    border-color: #eee; }
+
+  /* line 126, ../../../components/scss/theme.scss */
+  .header-v1 .navbar .nav > li > .search:hover {
+    background-color: #003374; } }
+/* Headers v2
+------------------------------------*/
+/* line 133, ../../../components/scss/theme.scss */
+.header-v2 .dropdown-menu {
+  border-color: #003374; }
+
+/* line 136, ../../../components/scss/theme.scss */
+.header-v2 .navbar-default .navbar-toggle {
+  border-color: #4195ff; }
+
+/* line 139, ../../../components/scss/theme.scss */
+.header-v2 .navbar-toggle,
+.header-v2 .navbar-default .navbar-toggle:hover,
+.header-v2 .navbar-default .navbar-toggle:focus {
+  background: #003374; }
+
+/* line 144, ../../../components/scss/theme.scss */
+.header-v2 .navbar-toggle:hover {
+  background: #4195ff !important; }
+
+/* Design for max-width: 991px */
+@media (max-width: 991px) {
+  /* line 150, ../../../components/scss/theme.scss */
+  .header-v2 .navbar-default .navbar-nav > .active > a,
+  .header-v2 .navbar-default .navbar-nav > .active > a:hover,
+  .header-v2 .navbar-default .navbar-nav > .active > a:focus {
+    background: #003374;
+    color: #fff !important; }
+
+  /* line 156, ../../../components/scss/theme.scss */
+  .header-v2 .navbar-default .navbar-nav > li > a:hover {
+    color: #003374; } }
+/* Headers v3
+------------------------------------*/
+/* line 163, ../../../components/scss/theme.scss */
+.header-v3 .navbar-default .navbar-nav > .active > a {
+  color: #003374; }
+
+/* line 166, ../../../components/scss/theme.scss */
+.header-v3 .navbar-default .navbar-nav > li:hover > a {
+  color: #4195ff; }
+
+/* line 169, ../../../components/scss/theme.scss */
+.header-v3 .dropdown-menu {
+  border-color: #003374; }
+
+/* line 172, ../../../components/scss/theme.scss */
+.header-v3 .navbar-default .navbar-toggle {
+  border-color: #4195ff; }
+
+/* line 175, ../../../components/scss/theme.scss */
+.header-v3 .navbar-toggle,
+.header-v3 .navbar-default .navbar-toggle:hover,
+.header-v3 .navbar-default .navbar-toggle:focus {
+  background: #003374; }
+
+/* line 180, ../../../components/scss/theme.scss */
+.header-v3 .navbar-toggle:hover {
+  background: #4195ff !important; }
+
+/* line 183, ../../../components/scss/theme.scss */
+.header-v3 .navbar .nav > li > .search:hover {
+  background: inherit;
+  color: #003374; }
+
+/* Design for max-width: 991px */
+@media (max-width: 991px) {
+  /* line 191, ../../../components/scss/theme.scss */
+  .header-v3 .navbar-default .navbar-nav > .active > a,
+  .header-v3 .navbar-default .navbar-nav > .active > a:hover,
+  .header-v3 .navbar-default .navbar-nav > .active > a:focus {
+    background: #003374;
+    color: #fff !important; }
+
+  /* line 197, ../../../components/scss/theme.scss */
+  .header-v3 .navbar-default .navbar-nav > .active > a {
+    border-color: #eee; }
+
+  /* line 200, ../../../components/scss/theme.scss */
+  .header-v3 .navbar .nav > li > .search:hover {
+    background: #003374; } }
+/* Headers v4
+------------------------------------*/
+/* line 207, ../../../components/scss/theme.scss */
+.header-v4 .navbar-default .navbar-nav > li > a:hover,
+.header-v4 .navbar-default .navbar-nav > .active > a {
+  border-color: #003374; }
+
+/* line 211, ../../../components/scss/theme.scss */
+.header-v4 .navbar-default .navbar-nav > .active > a {
+  color: #003374; }
+
+/* line 214, ../../../components/scss/theme.scss */
+.header-v4 .navbar-default .navbar-nav > li:hover > a {
+  border-color: #003374;
+  color: #4195ff; }
+
+/* line 218, ../../../components/scss/theme.scss */
+.header-v4 .navbar .nav > li > .search:hover {
+  color: #003374; }
+
+/* line 221, ../../../components/scss/theme.scss */
+.header-v4 .navbar-default .navbar-nav > .open > a,
+.header-v4 .navbar-default .navbar-nav > .open > a:hover,
+.header-v4 .navbar-default .navbar-nav > .open > a:focus {
+  color: #003374; }
+
+/* Design for max-width: 991px */
+@media (max-width: 991px) {
+  /* line 229, ../../../components/scss/theme.scss */
+  .header-v4 .navbar-default .navbar-nav > li:hover > a {
+    border-color: #eee; }
+
+  /* line 232, ../../../components/scss/theme.scss */
+  .header-v4 .navbar-default .navbar-nav > .active > a,
+  .header-v4 .navbar-default .navbar-nav > .active > a:hover,
+  .header-v4 .navbar-default .navbar-nav > .active > a:focus {
+    color: #003374 !important; }
+
+  /* line 237, ../../../components/scss/theme.scss */
+  .header-v4 .navbar-default .navbar-nav > .active > a {
+    border-color: #eee; }
+
+  /* line 240, ../../../components/scss/theme.scss */
+  .header-v4 .navbar .nav > li > .search:hover {
+    background: #003374; } }
+/* Headers v5
+------------------------------------*/
+/* line 247, ../../../components/scss/theme.scss */
+.header-v5 .navbar-default .navbar-nav > li > a:hover,
+.header-v5 .navbar-default .navbar-nav > .active > a {
+  border-top: 2px solid #003374; }
+
+/* line 251, ../../../components/scss/theme.scss */
+.header-v5 .navbar-default .navbar-nav > .active > a {
+  color: #003374; }
+
+/* line 254, ../../../components/scss/theme.scss */
+.header-v5 .navbar-default .navbar-nav > li:hover > a {
+  color: #003374; }
+
+/* line 257, ../../../components/scss/theme.scss */
+.header-v5 .navbar-default .navbar-nav > .open > a,
+.header-v5 .navbar-default .navbar-nav > .open > a:hover,
+.header-v5 .navbar-default .navbar-nav > .open > a:focus {
+  color: #003374; }
+
+/* line 262, ../../../components/scss/theme.scss */
+.header-v5 .dropdown-menu li > a:hover {
+  background: #003374; }
+
+/* line 265, ../../../components/scss/theme.scss */
+.header-v5 .dropdown-menu .active > a,
+.header-v5 .dropdown-menu li > a:hover {
+  background: #003374; }
+
+/* line 269, ../../../components/scss/theme.scss */
+.header-v5 .dropdown-menu {
+  border-color: #003374; }
+
+/* line 272, ../../../components/scss/theme.scss */
+.header-v5 .dropdown-menu li.dropdown-submenu:hover > a {
+  background: #003374; }
+
+/* line 275, ../../../components/scss/theme.scss */
+.header-v5 .dropdown-menu .style-list li > a:hover {
+  background: none; }
+
+/* line 278, ../../../components/scss/theme.scss */
+.header-v5 .style-list li a:hover {
+  color: #003374; }
+
+/* Shopping cart
+------------------------------------*/
+/* line 284, ../../../components/scss/theme.scss */
+.header-v5 .shop-badge.badge-icons i {
+  color: #003374; }
+
+/* line 287, ../../../components/scss/theme.scss */
+.header-v5 .shop-badge span.badge-sea {
+  background: #003374; }
+
+/* line 290, ../../../components/scss/theme.scss */
+.header-v5 .badge-open {
+  border-top: 2px solid #003374;
+  box-shadow: 0 5px 5px 0 rgba(52, 152, 219, 0.075); }
+
+/* Header v6
+------------------------------------*/
+/* Search */
+/* line 298, ../../../components/scss/theme.scss */
+.header-v6 .shopping-cart .shopping-cart-open {
+  border-top-color: #003374 !important; }
+
+/* line 301, ../../../components/scss/theme.scss */
+.header-v6 li.menu-icons span.badge {
+  background: #003374; }
+
+/* Dropdown Menu */
+/* line 305, ../../../components/scss/theme.scss */
+.header-v6 .dropdown-menu {
+  border-top-color: #003374; }
+
+/* Media Queries */
+@media (max-width: 991px) {
+  /* Navbar Nav */
+  /* line 312, ../../../components/scss/theme.scss */
+  .header-v6 .navbar-nav > .active > a,
+  .header-v6 .navbar-nav > .active > a:hover,
+  .header-v6 .navbar-nav > .active > a:focus {
+    color: #003374 !important; }
+
+  /* line 317, ../../../components/scss/theme.scss */
+  .header-v6 .nav .open > a,
+  .header-v6 .nav .open > a:hover,
+  .header-v6 .nav .open > a:focus {
+    border-color: #eee; }
+
+  /* line 322, ../../../components/scss/theme.scss */
+  .header-v6 .navbar-nav > li > a:hover,
+  .header-v6 .navbar-nav .open .dropdown-menu > li > a:hover,
+  .header-v6 .navbar-nav .open .dropdown-menu > li > a:focus,
+  .header-v6 .navbar-nav .open .dropdown-menu > .active > a,
+  .header-v6 .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .header-v6 .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #003374 !important; }
+
+  /* line 330, ../../../components/scss/theme.scss */
+  .header-v6 .mega-menu .equal-height-list li a:hover {
+    color: #003374 !important; }
+
+  /* Classic Dark */
+  /* line 335, ../../../components/scss/theme.scss */
+  .header-v6 .mega-menu .equal-height-list li a:hover {
+    color: #003374; }
+
+  /* Dark Responsive Navbar */
+  /* line 340, ../../../components/scss/theme.scss */
+  .header-v6.header-dark-res-nav .navbar-nav > li a:hover,
+  .header-v6.header-dark-res-nav .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #003374; }
+
+  /* line 344, ../../../components/scss/theme.scss */
+  .header-v6.header-dark-res-nav .nav .open > a,
+  .header-v6.header-dark-res-nav .nav .open > a:hover,
+  .header-v6.header-dark-res-nav .nav .open > a:focus {
+    border-color: #555; } }
+@media (min-width: 992px) {
+  /* Default Style */
+  /* line 353, ../../../components/scss/theme.scss */
+  .header-fixed .header-v6.header-fixed-shrink .navbar-nav .active > a,
+  .header-fixed .header-v6.header-fixed-shrink .navbar-nav li > a:hover {
+    color: #003374 !important; }
+
+  /* line 357, ../../../components/scss/theme.scss */
+  .header-v6 .dropdown-menu .active > a,
+  .header-v6 .dropdown-menu li > a:hover,
+  .header-fixed .header-v6.header-fixed-shrink .dropdown-menu .active > a,
+  .header-fixed .header-v6.header-fixed-shrink .dropdown-menu li > a:hover {
+    color: #003374 !important; }
+
+  /* line 363, ../../../components/scss/theme.scss */
+  .header-fixed .header-v6.header-fixed-shrink .navbar-nav .active > a,
+  .header-fixed .header-v6.header-fixed-shrink .navbar-nav li > a:hover {
+    color: #003374; }
+
+  /* Classic White */
+  /* line 369, ../../../components/scss/theme.scss */
+  .header-fixed .header-v6.header-classic-white .navbar-nav .active > a,
+  .header-fixed .header-v6.header-classic-white .navbar-nav li > a:hover {
+    color: #003374; }
+
+  /* Classic Dark */
+  /* line 375, ../../../components/scss/theme.scss */
+  .header-v6.header-classic-dark .navbar-nav .active > a,
+  .header-v6.header-classic-dark .navbar-nav li > a:hover,
+  .header-fixed .header-v6.header-classic-dark.header-fixed-shrink .navbar-nav .active > a,
+  .header-fixed .header-v6.header-classic-dark.header-fixed-shrink .navbar-nav li > a:hover {
+    color: #003374; }
+
+  /* line 381, ../../../components/scss/theme.scss */
+  .header-v6.header-classic-dark .dropdown-menu .active > a,
+  .header-v6.header-classic-dark .dropdown-menu li > a:hover {
+    color: #003374 !important; }
+
+  /* Dark Dropdown */
+  /* line 387, ../../../components/scss/theme.scss */
+  .header-v6.header-dark-dropdown .dropdown-menu .active > a,
+  .header-v6.header-dark-dropdown .dropdown-menu li > a:hover {
+    color: #003374; }
+
+  /* Dark Scroll */
+  /* line 393, ../../../components/scss/theme.scss */
+  .header-fixed .header-v6.header-dark-scroll.header-fixed-shrink .navbar-nav .active > a,
+  .header-fixed .header-v6.header-dark-scroll.header-fixed-shrink .navbar-nav li > a:hover {
+    color: #003374; } }
+/* Header v7
+------------------------------------*/
+/* line 401, ../../../components/scss/theme.scss */
+.header-v7 .navbar-default .navbar-nav > li > a:hover,
+.header-v7 .navbar-default .navbar-nav > li.active > a {
+  color: #003374 !important; }
+
+/* line 405, ../../../components/scss/theme.scss */
+.header-v7 .dropdown-menu .active > a,
+.header-v7 .dropdown-menu li > a:focus,
+.header-v7 .dropdown-menu li > a:hover {
+  color: #003374 !important; }
+
+/* line 410, ../../../components/scss/theme.scss */
+.header-v7 .navbar-default .navbar-nav > li > a:hover,
+.header-v7 .navbar-default .navbar-nav > li > a:focus,
+.header-v7 .navbar-default .navbar-nav > .active > a,
+.header-v7 .navbar-default .navbar-nav > .active > a:hover,
+.header-v7 .navbar-default .navbar-nav > .active > a:focus {
+  color: #003374; }
+
+/* line 417, ../../../components/scss/theme.scss */
+.header-socials li a:hover {
+  color: #003374; }
+
+/* Sliders
+------------------------------------*/
+/* Main Parallax Sldier */
+/* line 424, ../../../components/scss/theme.scss */
+.da-slide h2 i {
+  background-color: rgba(52, 152, 219, 0.8); }
+
+/* Sequence Parallax Sldier */
+/* line 429, ../../../components/scss/theme.scss */
+.sequence-inner {
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#a7ceff));
+  background: -webkit-linear-gradient(#fff, #a7ceff);
+  background: -moz-linear-gradient(#fff, #a7ceff);
+  background: -ms-linear-gradient(#fff, #a7ceff);
+  background: -o-linear-gradient(#fff, #a7ceff);
+  background: linear-gradient(#fff, #a7ceff); }
+
+/* line 437, ../../../components/scss/theme.scss */
+#sequence-theme h2 {
+  background: rgba(52, 152, 219, 0.8); }
+
+/* line 440, ../../../components/scss/theme.scss */
+#sequence-theme .info p {
+  background: rgba(52, 152, 219, 0.8); }
+
+/* Buttons
+------------------------------------*/
+/* line 446, ../../../components/scss/theme.scss */
+.btn-u {
+  background: #003374; }
+
+/* line 449, ../../../components/scss/theme.scss */
+.btn-u:hover,
+.btn-u:focus,
+.btn-u:active,
+.btn-u.active,
+.open .dropdown-toggle.btn-u {
+  background: #4195ff;
+  color: #fff; }
+
+/* Buttons Color */
+/* line 459, ../../../components/scss/theme.scss */
+.btn-u-split.dropdown-toggle {
+  border-left: solid 1px #4195ff; }
+
+/* Bordered Buttons */
+/* line 464, ../../../components/scss/theme.scss */
+.btn-u.btn-brd {
+  border-color: #003374; }
+
+/* line 467, ../../../components/scss/theme.scss */
+.btn-u.btn-brd:hover {
+  color: #4195ff;
+  border-color: #4195ff; }
+
+/* line 471, ../../../components/scss/theme.scss */
+.btn-u.btn-brd.btn-brd-hover:hover {
+  background: #4195ff; }
+
+/* Service
+------------------------------------*/
+/* line 477, ../../../components/scss/theme.scss */
+.service .service-icon {
+  color: #003374; }
+
+/* Service Blocks */
+/* line 482, ../../../components/scss/theme.scss */
+.service-alternative .service:hover {
+  background: #003374; }
+
+/* Thumbnail (Recent Work)
+------------------------------------*/
+/* line 488, ../../../components/scss/theme.scss */
+.thumbnail-style h3 a:hover {
+  color: #003374; }
+
+/* line 491, ../../../components/scss/theme.scss */
+.thumbnail-style a.btn-more {
+  background: #003374; }
+
+/* line 494, ../../../components/scss/theme.scss */
+.thumbnail-style a.btn-more:hover {
+  box-shadow: 0 0 0 2px #4195ff; }
+
+/* Typography
+------------------------------------*/
+/* Heading */
+/* line 501, ../../../components/scss/theme.scss */
+.headline h2,
+.headline h3,
+.headline h4 {
+  border-bottom: 2px solid #003374; }
+
+/* Blockquote */
+/* line 508, ../../../components/scss/theme.scss */
+blockquote:hover {
+  border-left-color: #003374; }
+
+/* line 511, ../../../components/scss/theme.scss */
+.hero {
+  border-left-color: #003374; }
+
+/* line 514, ../../../components/scss/theme.scss */
+blockquote.hero.hero-default {
+  background: #003374; }
+
+/* line 517, ../../../components/scss/theme.scss */
+blockquote.hero.hero-default:hover {
+  background: #4195ff; }
+
+/* Carousel
+------------------------------------*/
+/* line 523, ../../../components/scss/theme.scss */
+.carousel-arrow a.carousel-control:hover {
+  color: #003374; }
+
+/* Footer
+------------------------------------*/
+/* line 529, ../../../components/scss/theme.scss */
+.footer a,
+.copyright a,
+.footer a:hover,
+.copyright a:hover {
+  color: #003374; }
+
+/* Footer Blog */
+/* line 537, ../../../components/scss/theme.scss */
+.footer .dl-horizontal a:hover {
+  color: #003374 !important; }
+
+/* Blog Posts
+------------------------------------*/
+/* line 543, ../../../components/scss/theme.scss */
+.posts .dl-horizontal a:hover {
+  color: #003374; }
+
+/* line 546, ../../../components/scss/theme.scss */
+.posts .dl-horizontal:hover dt img,
+.posts .dl-horizontal:hover dd a {
+  color: #003374;
+  border-color: #003374 !important; }
+
+/* Post Comment */
+/* line 553, ../../../components/scss/theme.scss */
+.post-comment h3,
+.blog-item .media h3,
+.blog-item .media h4.media-heading span a {
+  color: #003374; }
+
+/* Tabs
+------------------------------------*/
+/* Tabs v1 */
+/* line 562, ../../../components/scss/theme.scss */
+.tab-v1 .nav-tabs {
+  border-bottom: solid 2px #003374; }
+
+/* line 565, ../../../components/scss/theme.scss */
+.tab-v1 .nav-tabs > .active > a,
+.tab-v1 .nav-tabs > .active > a:hover,
+.tab-v1 .nav-tabs > .active > a:focus {
+  background: #003374; }
+
+/* line 570, ../../../components/scss/theme.scss */
+.tab-v1 .nav-tabs > li > a:hover {
+  background: #003374; }
+
+/* Tabs v2 */
+/* line 575, ../../../components/scss/theme.scss */
+.tab-v2 .nav-tabs li.active a {
+  border-top: solid 2px #003374; }
+
+/* Tabs v3 */
+/* line 580, ../../../components/scss/theme.scss */
+.tab-v3 .nav-pills li a:hover,
+.tab-v3 .nav-pills li.active a {
+  background: #003374;
+  border: solid 1px #4195ff; }
+
+/* Accardion
+------------------------------------*/
+/* line 588, ../../../components/scss/theme.scss */
+.acc-home a.active,
+.acc-home a.accordion-toggle:hover {
+  color: #003374; }
+
+/* line 592, ../../../components/scss/theme.scss */
+.acc-home .collapse.in {
+  border-bottom: solid 1px #003374; }
+
+/* Testimonials
+------------------------------------*/
+/* line 598, ../../../components/scss/theme.scss */
+.testimonials .testimonial-info {
+  color: #003374; }
+
+/* line 601, ../../../components/scss/theme.scss */
+.testimonials .carousel-arrow i:hover {
+  background: #003374; }
+
+/* Info Blocks
+------------------------------------*/
+/* line 607, ../../../components/scss/theme.scss */
+.info-blocks:hover i.icon-info-blocks {
+  color: #003374; }
+
+/* Breadcrumb
+------------------------------------*/
+/* line 613, ../../../components/scss/theme.scss */
+.breadcrumb li.active,
+.breadcrumb li a:hover {
+  color: #003374; }
+
+/* About Page
+------------------------------------*/
+/* line 620, ../../../components/scss/theme.scss */
+.team .thumbnail-style:hover h3 a {
+  color: #003374 !important; }
+
+/* Social Icons */
+/* line 625, ../../../components/scss/theme.scss */
+.team ul.team-socail li i:hover {
+  background: #003374; }
+
+/* Right Sidebar
+------------------------------------*/
+/* Right Sidebar */
+/* line 632, ../../../components/scss/theme.scss */
+.who li i,
+.who li:hover i,
+.who li:hover a {
+  color: #003374; }
+
+/* Privacy Page
+------------------------------------*/
+/* line 640, ../../../components/scss/theme.scss */
+.privacy a:hover {
+  color: #003374; }
+
+/* Portfolio Page
+------------------------------------*/
+/* Portfolio v1 */
+/* line 647, ../../../components/scss/theme.scss */
+.view a.info:hover {
+  background: #003374; }
+
+/* Portfolio v2 */
+/* line 652, ../../../components/scss/theme.scss */
+.sorting-block .sorting-nav li.active {
+  color: #003374;
+  border-bottom: solid 1px #003374; }
+
+/* line 656, ../../../components/scss/theme.scss */
+.sorting-block .sorting-grid li a:hover span.sorting-cover {
+  background: #003374; }
+
+/* Blog Page
+------------------------------------*/
+/* line 662, ../../../components/scss/theme.scss */
+.blog h3 {
+  color: #003374; }
+
+/* line 665, ../../../components/scss/theme.scss */
+.blog li a:hover {
+  color: #003374; }
+
+/* Blog Tags */
+/* line 670, ../../../components/scss/theme.scss */
+ul.blog-tags a:hover {
+  background: #003374; }
+
+/* line 673, ../../../components/scss/theme.scss */
+.blog-post-tags ul.blog-tags a:hover {
+  background: #003374; }
+
+/* Blog Photos */
+/* line 678, ../../../components/scss/theme.scss */
+.blog-photos li img:hover {
+  box-shadow: 0 0 0 2px #003374; }
+
+/* Blog Latest Tweets */
+/* line 683, ../../../components/scss/theme.scss */
+.blog-twitter .blog-twitter-inner:hover {
+  border-color: #003374;
+  border-top-color: #003374; }
+
+/* line 687, ../../../components/scss/theme.scss */
+.blog-twitter .blog-twitter-inner:hover:after {
+  border-top-color: #003374; }
+
+/* line 690, ../../../components/scss/theme.scss */
+.blog-twitter .blog-twitter-inner a {
+  color: #003374; }
+
+/* Blog Item Page
+------------------------------------*/
+/* line 696, ../../../components/scss/theme.scss */
+.blog-item h4.media-heading span a {
+  color: #003374; }
+
+/* Coming Soon Page
+------------------------------------*/
+/* line 702, ../../../components/scss/theme.scss */
+.coming-soon-border {
+  border-top: solid 3px #003374; }
+
+/* Search Page
+------------------------------------*/
+/* line 708, ../../../components/scss/theme.scss */
+.booking-blocks p a {
+  color: #003374; }
+
+/* Icons Page
+------------------------------------*/
+/* line 714, ../../../components/scss/theme.scss */
+.icon-page li:hover {
+  color: #003374; }
+
+/* Glyphicons */
+/* line 719, ../../../components/scss/theme.scss */
+.glyphicons-demo a:hover {
+  color: #003374;
+  text-decoration: none; }
+
+/* Social Icons
+------------------------------------*/
+/* line 726, ../../../components/scss/theme.scss */
+.social-icons-v1 i:hover {
+  color: #fff;
+  background: #003374; }
+
+/* Magazine Page
+------------------------------------*/
+/* Magazine News */
+/* line 734, ../../../components/scss/theme.scss */
+.magazine-news .by-author strong {
+  color: #003374; }
+
+/* line 738, ../../../components/scss/theme.scss */
+.magazine-news a.read-more {
+  color: #003374; }
+
+/* Magazine Mini News */
+/* line 743, ../../../components/scss/theme.scss */
+.magazine-mini-news .post-author strong {
+  color: #003374; }
+
+/* line 746, ../../../components/scss/theme.scss */
+.news-read-more i {
+  background: #003374; }
+
+/* Sidebar Features */
+/* line 751, ../../../components/scss/theme.scss */
+.magazine-page h3 a:hover {
+  color: #003374; }
+
+/* Page Features
+------------------------------------*/
+/* Tag Boxes v1 */
+/* line 758, ../../../components/scss/theme.scss */
+.tag-box-v1 {
+  border-top: solid 2px #003374; }
+
+/* Tag Boxes v2 */
+/* line 763, ../../../components/scss/theme.scss */
+.tag-box-v2 {
+  border-left: solid 2px #003374; }
+
+/* Tag Boxes v7 */
+/* line 768, ../../../components/scss/theme.scss */
+.tag-box-v7 {
+  border-bottom: solid 2px #003374; }
+
+/* Font Awesome Icon Page Style */
+/* line 773, ../../../components/scss/theme.scss */
+.fa-icons li:hover {
+  color: #003374; }
+
+/* line 776, ../../../components/scss/theme.scss */
+.fa-icons li:hover i {
+  background: #003374; }
+
+/* GLYPHICONS Icons Page Style */
+/* line 781, ../../../components/scss/theme.scss */
+.bs-glyphicons li:hover {
+  color: #003374; }
+
+/* Navigation
+------------------------------------*/
+/* Pagination */
+/* line 788, ../../../components/scss/theme.scss */
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #003374;
+  border-color: #003374; }
+
+/* line 797, ../../../components/scss/theme.scss */
+.pagination li a:hover {
+  background: #4195ff;
+  border-color: #4195ff; }
+
+/* Pager */
+/* line 803, ../../../components/scss/theme.scss */
+.pager li > a:hover,
+.pager li > a:focus {
+  background: #4195ff;
+  border-color: #4195ff; }
+
+/* line 808, ../../../components/scss/theme.scss */
+.pager.pager-v2 li > a:hover,
+.pager.pager-v2 li > a:focus,
+.pager.pager-v3 li > a:hover,
+.pager.pager-v3 li > a:focus {
+  color: #fff;
+  background: #003374; }
+
+/* Registration and Login Page v2
+------------------------------------*/
+/* line 818, ../../../components/scss/theme.scss */
+.reg-block {
+  border-top: solid 2px #003374; }
+
+/*Image Hover
+------------------------------------*/
+/* Image-hover */
+/* line 825, ../../../components/scss/theme.scss */
+#effect-2 figure .img-hover {
+  background: #003374; }
+
+/* Blog Large Page
+------------------------------------*/
+/* line 831, ../../../components/scss/theme.scss */
+.blog h2 a:hover {
+  color: #003374; }
+
+/* Timeline v1 Page
+------------------------------------*/
+/* line 837, ../../../components/scss/theme.scss */
+.timeline-v1 > li > .timeline-badge i:hover {
+  color: #003374; }
+
+/* line 840, ../../../components/scss/theme.scss */
+.timeline-v1 .timeline-footer .likes:hover i {
+  color: #003374; }
+
+/* Timeline v2 Page
+------------------------------------*/
+/* The icons */
+/* line 847, ../../../components/scss/theme.scss */
+.timeline-v2 > li .cbp_tmicon {
+  background: #003374; }
+
+/* Progress Bar
+------------------------------------*/
+/* line 853, ../../../components/scss/theme.scss */
+.progress-bar-u {
+  background: #003374; }
+
+/* Job Inner Page
+------------------------------------*/
+/* line 859, ../../../components/scss/theme.scss */
+.job-description .save-job a:hover,
+.block-description .save-job a:hover {
+  color: #003374; }
+
+/* line 864, ../../../components/scss/theme.scss */
+.job-description .p-chart .overflow-h li i,
+.job-description .p-chart .overflow-h li a,
+.block-description .p-chart .overflow-h li i,
+.block-description .p-chart .overflow-h li a {
+  color: #003374; }
+
+/* Colorful-ul */
+/* line 872, ../../../components/scss/theme.scss */
+.job-description .colorful-ul li a {
+  color: #003374; }
+
+/* Search Inner Page
+------------------------------------*/
+/* line 878, ../../../components/scss/theme.scss */
+.s-results .related-search a:hover {
+  color: #003374; }
+
+/* line 881, ../../../components/scss/theme.scss */
+.s-results .inner-results h3 a:hover {
+  color: #003374; }
+
+/* line 884, ../../../components/scss/theme.scss */
+.s-results .up-ul li a:hover {
+  color: #003374; }
+
+/* line 887, ../../../components/scss/theme.scss */
+.s-results .down-ul li a {
+  color: #003374; }
+
+/* Funny Boxes
+------------------------------------*/
+/* line 893, ../../../components/scss/theme.scss */
+.funny-boxes p a {
+  color: #003374; }
+
+/* line 896, ../../../components/scss/theme.scss */
+.funny-boxes .funny-boxes-img li i {
+  color: #003374; }
+
+/* line 899, ../../../components/scss/theme.scss */
+.funny-boxes-colored p, .funny-boxes-colored h2 a, .funny-boxes-colored .funny-boxes-img li, .funny-boxes-colored .funny-boxes-img li i {
+  color: #fff; }
+
+/* Sidebar Sub Navigation
+------------------------------------*/
+/* line 905, ../../../components/scss/theme.scss */
+.sidebar-nav-v1 ul li:hover a,
+.sidebar-nav-v1 ul li.active a {
+  color: #003374; }
+
+/* Blockquote
+------------------------------------*/
+/* line 912, ../../../components/scss/theme.scss */
+blockquote.bq-green {
+  border-color: #003374; }
+
+/* line 915, ../../../components/scss/theme.scss */
+blockquote:hover,
+blockquote.text-right:hover {
+  border-color: #003374; }
+
+/* line 919, ../../../components/scss/theme.scss */
+.quote-v1 p::before {
+  color: #003374; }
+
+/* Green Left Bordered Funny Box */
+/* line 924, ../../../components/scss/theme.scss */
+.funny-boxes-left-green {
+  border-left: solid 2px #003374; }
+
+/* line 927, ../../../components/scss/theme.scss */
+.funny-boxes-left-green:hover {
+  border-left-color: #003374; }
+
+/* Testimonials Default
+------------------------------------*/
+/* Testimonials */
+/* line 934, ../../../components/scss/theme.scss */
+.testimonials .carousel-arrow i:hover {
+  background: #003374; }
+
+/* Testimonials Default */
+/* line 939, ../../../components/scss/theme.scss */
+.testimonials-bg-default .item p {
+  background: #003374; }
+
+/* line 942, ../../../components/scss/theme.scss */
+.testimonials.testimonials-bg-default .item p:after,
+.testimonials.testimonials-bg-default .item p:after {
+  border-top-color: #003374; }
+
+/* line 946, ../../../components/scss/theme.scss */
+.testimonials-bg-default .carousel-arrow i {
+  background: #003374; }
+
+/* line 949, ../../../components/scss/theme.scss */
+.testimonials.testimonials-bg-default .carousel-arrow i:hover {
+  background: #4195ff; }
+
+/* Promo Page
+------------------------------------*/
+/* Promo Box */
+/* line 956, ../../../components/scss/theme.scss */
+.promo-box:hover strong,
+.promo-box:hover strong a {
+  color: #003374; }
+
+/* Typography
+------------------------------------*/
+/* line 963, ../../../components/scss/theme.scss */
+.dropcap {
+  color: #003374; }
+
+/* line 967, ../../../components/scss/theme.scss */
+.dropcap-bg {
+  color: #fff;
+  background: #003374; }
+
+/* Breadcrumbs
+------------------------------------*/
+/* line 974, ../../../components/scss/theme.scss */
+span.label-u,
+span.badge-u {
+  background: #003374; }
+
+/* Icons
+------------------------------------*/
+/* Icon Link*/
+/* line 982, ../../../components/scss/theme.scss */
+.link-icon:hover i {
+  color: #003374;
+  border: solid 1px #003374; }
+
+/* line 987, ../../../components/scss/theme.scss */
+.link-bg-icon:hover i {
+  color: #003374;
+  background: #003374 !important;
+  border-color: #003374; }
+
+/* Icons Backgroun Color
+------------------------------------*/
+/* line 995, ../../../components/scss/theme.scss */
+i.icon-color-u {
+  color: #003374;
+  border: solid 1px #003374; }
+
+/* line 999, ../../../components/scss/theme.scss */
+i.icon-bg-u {
+  background: #003374; }
+
+/* Line Icon Page
+------------------------------------*/
+/* line 1005, ../../../components/scss/theme.scss */
+.line-icon-page .item:hover {
+  color: #003374; }
+
+/* Colored Content Boxes
+------------------------------------*/
+/* line 1011, ../../../components/scss/theme.scss */
+.service-block-u {
+  background: #003374; }
+
+/* Panels (Portlets)
+------------------------------------*/
+/* line 1017, ../../../components/scss/theme.scss */
+.panel-u {
+  border-color: #003374; }
+
+/* line 1020, ../../../components/scss/theme.scss */
+.panel-u > .panel-heading {
+  background: #003374; }
+
+/* Owl Carousel
+------------------------------------*/
+/* line 1026, ../../../components/scss/theme.scss */
+.owl-btn:hover {
+  background: #003374; }
+
+/* Counter
+------------------------------------*/
+/* line 1032, ../../../components/scss/theme.scss */
+.counters span.counter-icon i {
+  background: #003374; }
+
+/* line 1035, ../../../components/scss/theme.scss */
+.counters span.counter-icon i:after {
+  border-top: 7px solid #003374; }
+
+/* SKy-Forms
+------------------------------------*/
+/* Buttons */
+/* line 1042, ../../../components/scss/theme.scss */
+.sky-form .button {
+  background: #003374; }
+
+/* Rating */
+/* line 1047, ../../../components/scss/theme.scss */
+.sky-form .rating input:checked ~ label {
+  color: #003374; }
+
+/* Message */
+/* line 1052, ../../../components/scss/theme.scss */
+.sky-form .message {
+  color: #003374; }
+
+/* line 1055, ../../../components/scss/theme.scss */
+.sky-form .message i {
+  border-color: #003374; }
+
+/* Profile
+------------------------------------*/
+/* line 1061, ../../../components/scss/theme.scss */
+.profile .profile-post:hover span.profile-post-numb {
+  color: #003374; }
+
+/* line 1064, ../../../components/scss/theme.scss */
+.profile .date-formats {
+  background: #003374; }
+
+/* line 1067, ../../../components/scss/theme.scss */
+.profile .name-location span i,
+.profile .name-location span a:hover {
+  color: #003374; }
+
+/* line 1071, ../../../components/scss/theme.scss */
+.share-list li i {
+  color: #003374; }
+
+/* line 1074, ../../../components/scss/theme.scss */
+.profile .comment-list-v2 li:hover i,
+.profile .comment-list li:hover i {
+  color: #003374; }
+
+/* line 1078, ../../../components/scss/theme.scss */
+.profile .profile-post.color-one {
+  border-color: #003374; }
+
+/* Pricing Page
+------------------------------------*/
+/* Pricing Head */
+/* line 1085, ../../../components/scss/theme.scss */
+.pricing:hover h4 {
+  color: #003374; }
+
+/* line 1088, ../../../components/scss/theme.scss */
+.pricing-head h3 {
+  background: #003374;
+  text-shadow: 0 1px 0 #4195ff; }
+
+/* line 1092, ../../../components/scss/theme.scss */
+.pricing-head h4 {
+  color: #999;
+  background: #fcfcfc;
+  border-bottom: solid 1px #a7ceff; }
+
+/* Pricing Content */
+/* line 1099, ../../../components/scss/theme.scss */
+.pricing-content li {
+  border-bottom: solid 1px #a7ceff; }
+
+/* line 1102, ../../../components/scss/theme.scss */
+.pricing-content li i {
+  color: #003374; }
+
+/* Pricing Extra */
+/* line 1107, ../../../components/scss/theme.scss */
+.sticker-left {
+  background: #003374; }
+
+/* Pricing Footer */
+/* line 1112, ../../../components/scss/theme.scss */
+.pricing-footer a:hover,
+.pricing-footer button:hover {
+  background: #4195ff; }
+
+/* Pricing Active */
+/* line 1118, ../../../components/scss/theme.scss */
+.price-active h4 {
+  color: #003374; }
+
+/* line 1121, ../../../components/scss/theme.scss */
+.no-space-pricing .price-active .pricing-head h4,
+.no-space-pricing .pricing:hover .pricing-head h4 {
+  color: #003374; }
+
+/* Mega Pricing Tables 
+------------------------------------*/
+/* line 1128, ../../../components/scss/theme.scss */
+.pricing-mega-v1 .pricing-head h3,
+.pricing-mega-v2 .pricing-head h3,
+.pricing-mega-v3 .pricing-head h3 {
+  text-shadow: 0 1px 0 #4195ff; }
+
+/* Pricing Table Mega v1 Version
+------------------------------------*/
+/* line 1136, ../../../components/scss/theme.scss */
+.pricing-mega-v1 .pricing:hover h4 i {
+  color: #003374; }
+
+/* line 1139, ../../../components/scss/theme.scss */
+.pricing-mega-v1 .pricing-content li i {
+  color: #003374; }
+
+/* Pricing Table Colored Background Version
+------------------------------------*/
+/* line 1145, ../../../components/scss/theme.scss */
+.pricing-bg-colored .pricing:hover {
+  background: #003374; }
+
+/* line 1148, ../../../components/scss/theme.scss */
+.pricing-bg-colored .pricing-head i {
+  color: #003374; }
+
+/* line 1151, ../../../components/scss/theme.scss */
+.pricing-bg-colored .pricing-footer .btn-u {
+  border: 1px solid #fff; }
+
+/* line 1154, ../../../components/scss/theme.scss */
+.pricing-bg-colored .pricing-head p {
+  border-bottom: 1px solid #a7ceff; }
+
+/* Pricing Table Mega v2 
+------------------------------------*/
+/* line 1160, ../../../components/scss/theme.scss */
+.pricing-mega-v2 .block:hover .bg-color {
+  background: #003374; }
+
+/* line 1163, ../../../components/scss/theme.scss */
+.pricing-mega-v2 .block:hover h3,
+.pricing-mega-v2 .block:hover h4,
+.pricing-mega-v2 .block:hover li,
+.pricing-mega-v2 .block:hover li i,
+.pricing-mega-v2 .block:hover h4 i {
+  background: #003374; }
+
+/* Pricing Table Mega v3 
+------------------------------------*/
+/* line 1173, ../../../components/scss/theme.scss */
+.pricing-mega-v1 .btn-group .dropdown-menu,
+.pricing-mega-v3 .btn-group .dropdown-menu {
+  background: #003374 !important; }
+
+/* line 1178, ../../../components/scss/theme.scss */
+.pricing-mega-v1 .btn-group .dropdown-menu li a:hover,
+.pricing-mega-v3 .btn-group .dropdown-menu li a:hover {
+  background: #4195ff; }
+
+/* Grid Block v2 
+------------------------------------*/
+/* line 1185, ../../../components/scss/theme.scss */
+.grid-block-v2 li:hover .grid-block-v2-info {
+  border-color: #003374; }
+
+/* Testimonials v3 Title 
+------------------------------------*/
+/* line 1191, ../../../components/scss/theme.scss */
+.testimonials-v3 .testimonials-v3-title p {
+  color: #003374; }
+
+/* line 1195, ../../../components/scss/theme.scss */
+.testimonials-v3 .owl-buttons .owl-prev:hover,
+.testimonials-v3 .owl-buttons .owl-next:hover {
+  background: #003374; }
+
+/* Content Boxes v4 
+------------------------------------*/
+/* line 1202, ../../../components/scss/theme.scss */
+.content-boxes-v4 i {
+  color: #003374; }
+
+/* Thumbnails v1 
+------------------------------------*/
+/* line 1208, ../../../components/scss/theme.scss */
+.thumbnails-v1 .read-more {
+  color: #003374; }
+
+/* Thumbnails v6 
+------------------------------------*/
+/* line 1214, ../../../components/scss/theme.scss */
+.testimonials-v6 .testimonials-info:hover {
+  border-color: #003374; }
+
+/* Team v1 
+------------------------------------*/
+/* line 1220, ../../../components/scss/theme.scss */
+.team-v1 li:hover > p:before {
+  background: #003374; }
+
+/* Team v4
+------------------------------------*/
+/* line 1226, ../../../components/scss/theme.scss */
+.team-v4 .team-social-v4 a:hover {
+  color: #003374; }
+
+/* Team v5 & v6 & v7
+------------------------------------*/
+/* line 1232, ../../../components/scss/theme.scss */
+.team-v5 small,
+.team-v6 small,
+.team-v7 .team-v7-position {
+  color: #003374; }
+
+/* Headliner Center
+------------------------------------*/
+/* line 1240, ../../../components/scss/theme.scss */
+.headline-center h2:after {
+  background: #003374; }
+
+/* Headliner Left
+------------------------------------*/
+/* line 1246, ../../../components/scss/theme.scss */
+.headline-left .headline-brd:after {
+  background: #003374; }
+
+/* Portfolio Box
+------------------------------------*/
+/* line 1252, ../../../components/scss/theme.scss */
+.portfolio-box .portfolio-box-in i {
+  background: #003374; }
+
+/* Flat Background Block v1
+------------------------------------*/
+/* line 1258, ../../../components/scss/theme.scss */
+.flat-bg-block-v1 .checked-list i {
+  color: #003374; }
+
+/* Owl Carousel v5
+------------------------------------*/
+/* line 1264, ../../../components/scss/theme.scss */
+.owl-carousel-v5 .owl-controls .owl-page.active span,
+.owl-carousel-v5 .owl-controls.clickable .owl-page:hover span {
+  background: #003374; }
+
+/* Content Boxes v5
+------------------------------------*/
+/* line 1271, ../../../components/scss/theme.scss */
+.content-boxes-v5:hover i {
+  background: #003374; }
+
+/* Block Grid v1
+------------------------------------*/
+/* line 1277, ../../../components/scss/theme.scss */
+.block-grid-v1:hover {
+  border-color: #003374; }
+
+/* Block Grid v2
+------------------------------------*/
+/* line 1283, ../../../components/scss/theme.scss */
+.block-grid-v2 li:hover .block-grid-v2-info {
+  border-color: #003374; }
+
+/* Content Boxes v6
+------------------------------------*/
+/* line 1289, ../../../components/scss/theme.scss */
+.content-boxes-v6:hover i:after {
+  border-color: #003374; }
+
+/* line 1292, ../../../components/scss/theme.scss */
+.content-boxes-v6:hover i {
+  background: #003374; }
+
+/* Portfolio Box-v2
+------------------------------------*/
+/* line 1298, ../../../components/scss/theme.scss */
+.portfolio-box-v2 .portfolio-box-v2-in i {
+  background: rgba(52, 152, 219, 0.8); }
+
+/* line 1301, ../../../components/scss/theme.scss */
+.portfolio-box-v2 .portfolio-box-v2-in i:hover {
+  background: #003374; }
+
+/* Service Block v1
+------------------------------------*/
+/* line 1307, ../../../components/scss/theme.scss */
+.service-block-v1 i {
+  background: #003374; }
+
+/* Service Block v4
+------------------------------------*/
+/* line 1313, ../../../components/scss/theme.scss */
+.service-block-v4 .service-desc i {
+  color: #003374; }
+
+/* Service Block v7
+------------------------------------*/
+/* line 1319, ../../../components/scss/theme.scss */
+.service-block-v7 i {
+  background: #003374; }
+
+/* Service Block v8
+------------------------------------*/
+/* line 1325, ../../../components/scss/theme.scss */
+.service-block-v8 .service-block-desc h3::after {
+  background: #003374; }
+
+/* Testimonials bs
+------------------------------------*/
+/* line 1331, ../../../components/scss/theme.scss */
+.testimonials-bs .carousel-control-v2 i:hover {
+  border-color: #003374;
+  color: #003374; }
+
+/* Fusion Portfolio
+------------------------------------*/
+/* line 1338, ../../../components/scss/theme.scss */
+.fusion-portfolio #filters-container .cbp-filter-item-active {
+  background: #003374;
+  border-color: #003374; }
+
+/* line 1343, ../../../components/scss/theme.scss */
+.fusion-portfolio #filters-container .cbp-filter-item:hover {
+  color: #003374; }
+
+/* line 1347, ../../../components/scss/theme.scss */
+.blog_masonry_3col h3 a:hover {
+  color: #003374; }
+
+/* Cube Portfolio
+------------------------------------*/
+/* line 1353, ../../../components/scss/theme.scss */
+.cube-portfolio .cbp-l-filters-text .cbp-filter-item.cbp-filter-item-active, .cube-portfolio .cbp-l-filters-text .cbp-filter-item:hover {
+  color: #003374; }
+
+/* line 1356, ../../../components/scss/theme.scss */
+.cube-portfolio .link-captions li i:hover {
+  color: #fff;
+  background: #003374; }
+
+/* line 1360, ../../../components/scss/theme.scss */
+.cube-portfolio .cbp-caption-activeWrap.default-transparent-hover {
+  background: rgba(52, 152, 219, 0.9) !important; }
+
+/* Recent Works
+------------------------------------*/
+/* line 1366, ../../../components/scss/theme.scss */
+.owl-work-v1 .item a:hover span {
+  border-bottom-color: #003374; }
+
+/* Footer Default
+------------------------------------*/
+/* line 1372, ../../../components/scss/theme.scss */
+.footer-default .footer .dl-horizontal a:hover {
+  color: #003374 !important; }
+
+/* line 1375, ../../../components/scss/theme.scss */
+.footer-default .footer a {
+  color: #003374; }
+
+/* line 1378, ../../../components/scss/theme.scss */
+.footer-default .footer a:hover {
+  color: #4195ff; }
+
+/* line 1381, ../../../components/scss/theme.scss */
+.footer-default .copyright a {
+  color: #003374; }
+
+/* line 1384, ../../../components/scss/theme.scss */
+.footer-default .copyright a:hover {
+  color: #4195ff; }
+
+/* Footer v4
+------------------------------------*/
+/* line 1390, ../../../components/scss/theme.scss */
+.footer-v4 .copyright a {
+  color: #003374; }
+
+/* Title v1
+------------------------------------*/
+/* line 1396, ../../../components/scss/theme.scss */
+.title-v1 h1:after, .title-v1 h2:after {
+  background-color: #003374; }
+
+/* Copyright Section
+------------------------------------*/
+/* line 1402, ../../../components/scss/theme.scss */
+.copyright-section i.back-to-top:hover {
+  color: #003374; }
+
+/* Top Control
+------------------------------------*/
+/* line 1408, ../../../components/scss/theme.scss */
+#topcontrol:hover {
+  background-color: #003374; }
+
+/* News Info
+------------------------------------*/
+/* line 1414, ../../../components/scss/theme.scss */
+.news-v1 .news-v1-info li a:hover {
+  color: #003374; }
+
+/* line 1417, ../../../components/scss/theme.scss */
+.news-v1 h3 a:hover {
+  color: #003374; }
+
+/* line 1420, ../../../components/scss/theme.scss */
+.news-v2 .news-v2-desc h3 a:hover {
+  color: #003374 !important; }
+
+/* line 1423, ../../../components/scss/theme.scss */
+.news-v3 .post-shares li span {
+  background: #003374; }
+
+/* line 1426, ../../../components/scss/theme.scss */
+.news-v3 .posted-info li a:hover {
+  color: #003374 !important; }
+
+/* line 1429, ../../../components/scss/theme.scss */
+.news-v3 h2 a:hover {
+  color: #003374 !important; }
+
+/* Blog Trending
+------------------------------------*/
+/* line 1435, ../../../components/scss/theme.scss */
+.blog-trending small a:hover {
+  color: #003374; }
+
+/* Blog Masonry
+------------------------------------*/
+/* line 1441, ../../../components/scss/theme.scss */
+.blog_masonry_3col ul.grid-boxes-news li a:hover {
+  color: #003374; }
+
+/* List v1
+------------------------------------*/
+/* line 1447, ../../../components/scss/theme.scss */
+.lists-v1 i {
+  background: #003374; }
+
+/* List v2
+------------------------------------*/
+/* line 1453, ../../../components/scss/theme.scss */
+.lists-v2 i {
+  color: #003374; }
+
+/* Process v1
+------------------------------------*/
+/* line 1459, ../../../components/scss/theme.scss */
+.process-v1 .process-in > li i {
+  background: #003374; }
+
+/* Featured Blog
+------------------------------------*/
+/* line 1465, ../../../components/scss/theme.scss */
+.featured-blog h2::after {
+  background: #003374; }
+
+/* line 1468, ../../../components/scss/theme.scss */
+.featured-blog .featured-img i:hover {
+  color: #fff;
+  background: #003374; }
+
+/* line 1473, ../../../components/scss/theme.scss */
+.rgba-default {
+  background-color: #27d7e7; }
+
+/* Blog Latest Posts
+------------------------------------*/
+/* line 1479, ../../../components/scss/theme.scss */
+.blog-latest-posts h3 a:hover {
+  color: #003374 !important; }
+
+/* Blog Trending
+------------------------------------*/
+/* line 1485, ../../../components/scss/theme.scss */
+.blog-trending h3 a:hover {
+  color: #003374 !important; }
+
+/* Navigation colors.
+----------------------------------------------------------------------------- */
+/* line 12, ../../../components/scss/navigation.scss */
+.header .navbar-nav > .active > a, .header .navbar-nav > .active > a:hover {
+  border-bottom-color: #BEAA41;
+  color: #BEAA41; }
+
+/* line 17, ../../../components/scss/navigation.scss */
+.header .navbar-nav > li > a:hover {
+  border-bottom-color: #BEAA41;
+  color: #BEAA41; }
+
+/* line 22, ../../../components/scss/navigation.scss */
+.header .navbar-nav > li:hover > a {
+  color: #BEAA41; }
+
+/* line 28, ../../../components/scss/navigation.scss */
+.header .dropdown-menu {
+  border-bottom: solid 2px #BEAA41;
+  border-bottom-color: #BEAA41;
+  border-top: solid 2px #BEAA41;
+  border-top-color: #BEAA41; }
+
+/* line 35, ../../../components/scss/navigation.scss */
+.header .navbar-nav .mega-menu-fullwidth ul.dropdown-menu,
+.header .navbar-nav .dropdown-menu li a {
+  background-color: #BEAA41;
+  color: #FFF; }
+
+/* line 41, ../../../components/scss/navigation.scss */
+.header .navbar-nav .dropdown-menu li a:hover {
+  background-color: #F0EBCC !important;
+  color: #BEAA41; }
+
+/* line 46, ../../../components/scss/navigation.scss */
+.header .navbar-nav .dropdown-menu li.active a {
+  background-color: #F0EBCC !important;
+  color: #003374; }
+
+/* line 54, ../../../components/scss/navigation.scss */
+.sidebar-nav-v1 li {
+  background-color: #F0EBCC; }
+
+/* line 58, ../../../components/scss/navigation.scss */
+.sidebar-nav-v1 li a,
+.sidebar-nav-v1 .list-toggle:after {
+  color: #003374; }
+
+/* line 63, ../../../components/scss/navigation.scss */
+.sidebar-nav-v1 li:hover {
+  background-color: #BEAA41; }
+
+/* line 67, ../../../components/scss/navigation.scss */
+.sidebar-nav-v1 li:hover a {
+  color: #FFF; }
+
+/* line 71, ../../../components/scss/navigation.scss */
+.sidebar-nav-v1 > li.active, .sidebar-nav-v1 > li.active:hover {
+  background-color: #FFF; }
+
+/* line 75, ../../../components/scss/navigation.scss */
+.sidebar-nav-v1 > li.active a, .sidebar-nav-v1 > li.active:hover a,
+.sidebar-nav-v1 .list-toggle.active:after {
+  color: #BEAA41; }
+
+/* line 80, ../../../components/scss/navigation.scss */
+.sidebar-nav-v1 > li.active li.active a, .sidebar-nav-v1 > li.active:hover li.active a {
+  color: #003374; }
+
+/* line 84, ../../../components/scss/navigation.scss */
+.sidebar-nav-v1 > li.active li a, .sidebar-nav-v1 > li.active:hover li a {
+  color: #BEAA41; }
+
+/* line 88, ../../../components/scss/navigation.scss */
+.sidebar-nav-v1 > li.active li:hover a {
+  color: #003374; }
+
+/* line 92, ../../../components/scss/navigation.scss */
+.sidebar-nav-v1 li ul, .sidebar-nav-v1 li.active ul a {
+  background-color: #f5f5f5; }
+
+/*# sourceMappingURL=style-blue.css.map */

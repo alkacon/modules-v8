@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "name": "Alkacon-Unify-Template",
+  "dependencies": {
+    "grunt-contrib-watch": "0.5.1"
+  },
+  "description": "The Alkacon OpenCms Unify Template.",
+  "license": "GNU Lesser General Public License",
+  "repository": "cust-ebk",
+  "scripts": {
+    "postinstall": "grunt install"
+  },
+  "devDependencies": {
+    "grunt-contrib-sass": "~0.9.2",
+    "grunt-contrib-cssmin": "~0.12.2",
+    "grunt-contrib-uglify": "~0.8.0",
+    "grunt-contrib-copy": "~0.8.0"
+  }
+}

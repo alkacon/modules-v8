@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+	<info>
+		<infoproject>Offline</infoproject>
+		<export_version>10</export_version>
+	</info>
+	<module>
+		<name>com.alkacon.unify.formatters</name>
+		<nicename><![CDATA[Unify Template Formatters]]></nicename>
+		<group>Unify Template</group>
+		<class/>
+		<export-mode name="reduced"/>
+		<description><![CDATA[The OpenCms 10 unify template and formatters.]]></description>
+		<version>10.0.0</version>
+		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+		<authoremail/>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies/>
+		<exportpoints/>
+		<resources>
+			<resource uri="/system/modules/com.alkacon.unify.formatters/"/>
+		</resources>
+		<excluderesources/>
+		<parameters/>
+	</module>
+	<files>
+		<file>
+			<destination>system</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/modules</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.formatters</destination>
+			<type>folder</type>
+			<uuidstructure>258cd7aa-5157-11e5-abeb-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 02 Sep 2015 09:44:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/.config</source>
+			<destination>system/modules/com.alkacon.unify.formatters/.config</destination>
+			<type>module_config</type>
+			<uuidstructure>34189fea-515f-11e5-abeb-0242ac11002b</uuidstructure>
+			<uuidresource>34189feb-515f-11e5-abeb-0242ac11002b</uuidresource>
+			<datecreated>Wed, 02 Sep 2015 10:41:44 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.formatters/elements</destination>
+			<type>folder</type>
+			<uuidstructure>25927cfe-5157-11e5-abeb-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 02 Sep 2015 09:44:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters</destination>
+			<type>folder</type>
+			<uuidstructure>2593b580-5157-11e5-abeb-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 02 Sep 2015 09:44:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.formatters/functions</destination>
+			<type>folder</type>
+			<uuidstructure>905c1ee6-515e-11e5-abeb-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 02 Sep 2015 10:37:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.formatters/i18n</destination>
+			<type>folder</type>
+			<uuidstructure>801232e4-515e-11e5-abeb-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 02 Sep 2015 10:36:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/i18n/com.alkacon.unify.formatters.messages</source>
+			<destination>system/modules/com.alkacon.unify.formatters/i18n/com.alkacon.unify.formatters.messages</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>3c3865cf-515f-11e5-abeb-0242ac11002b</uuidstructure>
+			<uuidresource>3c3865d0-515f-11e5-abeb-0242ac11002b</uuidresource>
+			<datecreated>Wed, 02 Sep 2015 10:41:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.formatters/pages</destination>
+			<type>folder</type>
+			<uuidstructure>9bca2568-515e-11e5-abeb-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 02 Sep 2015 10:37:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.formatters/templates</destination>
+			<type>folder</type>
+			<uuidstructure>25916b8c-5157-11e5-abeb-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 02 Sep 2015 09:44:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/templates/unify-page.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/templates/unify-page.jsp</destination>
+			<type>containerpage_template</type>
+			<uuidstructure>fe140e08-5162-11e5-abeb-0242ac11002b</uuidstructure>
+			<uuidresource>fe140e09-5162-11e5-abeb-0242ac11002b</uuidresource>
+			<datecreated>Wed, 02 Sep 2015 11:08:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Page]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[uri;locale]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.unify.basics/resources/css/style-editor.css]]></value>
+				</property>
+				<property>
+					<name>template.provider</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=%(templatepath)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+	</files>
+</export>

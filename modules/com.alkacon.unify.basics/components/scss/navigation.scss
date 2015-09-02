@@ -1,0 +1,94 @@
+//
+// Alkacon Unify SCSS.
+// 
+// Sets navigation colors. 
+//
+
+/* Navigation colors.
+----------------------------------------------------------------------------- */
+
+// Main menu
+
+.header .navbar-nav>.active>a, .header .navbar-nav>.active>a:hover {
+  border-bottom-color: $nav-main-color-active;
+  color: $nav-main-color-active;
+}
+
+.header .navbar-nav>li>a:hover {
+  border-bottom-color: $nav-main-color-hover;
+  color: $nav-main-color-hover;
+}
+
+.header .navbar-nav>li:hover>a {
+	color: $nav-main-color-hover;
+}
+
+// Sub menu
+
+.header .dropdown-menu {
+  border-bottom: solid 2px $nav-main-color-active;
+  border-bottom-color: $nav-main-color-active;
+  border-top: solid 2px $nav-main-color-active;
+  border-top-color: $nav-main-color-active;
+}
+
+.header .navbar-nav .mega-menu-fullwidth ul.dropdown-menu,
+.header .navbar-nav .dropdown-menu li a {
+	background-color: $nav-sub-bg;
+	color: $nav-sub-color;
+}
+
+.header .navbar-nav .dropdown-menu li a:hover {
+	background-color: $nav-sub-bg-hover !important;
+	color: $nav-sub-color-hover;
+}
+
+.header .navbar-nav .dropdown-menu li.active a {
+	background-color: $nav-sub-bg-active !important;
+	color: $nav-sub-color-active;
+}
+
+// Side menu
+
+
+.sidebar-nav-v1 li {
+	background-color: $nav-left-bg;
+}
+
+.sidebar-nav-v1 li a,
+.sidebar-nav-v1 .list-toggle:after {
+	color: $nav-left-color;
+}
+
+.sidebar-nav-v1 li:hover {
+	background-color: $nav-left-bg-hover;
+}
+
+.sidebar-nav-v1 li:hover a {
+	color: $nav-left-color-hover;
+}
+
+.sidebar-nav-v1 > li.active, .sidebar-nav-v1 > li.active:hover {
+	background-color: $nav-left-bg-active;
+}
+
+.sidebar-nav-v1 > li.active a, .sidebar-nav-v1 > li.active:hover a,
+.sidebar-nav-v1 .list-toggle.active:after {
+	color: $nav-left-color-active;
+}
+
+.sidebar-nav-v1 > li.active li.active a, .sidebar-nav-v1 > li.active:hover li.active a {
+	color: $nav-left-sub-color-active;
+}
+
+.sidebar-nav-v1 > li.active li a, .sidebar-nav-v1 > li.active:hover li a {
+	color: $nav-left-sub-color;
+}
+
+.sidebar-nav-v1 > li.active li:hover a {
+	color: $nav-left-sub-color-hover;
+}
+
+.sidebar-nav-v1 li ul, .sidebar-nav-v1 li.active ul a {
+	background-color: $nav-left-sub-bg;
+}

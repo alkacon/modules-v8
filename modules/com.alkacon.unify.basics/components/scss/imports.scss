@@ -1,0 +1,14 @@
+//
+// Alkacon Unify SCSS.
+// 
+// Common import file
+//
+
+// general generic styles
+@import 'general';
+
+// theme based styles
+@import 'theme';
+
+// import the modified navigation
+@import 'navigation';
