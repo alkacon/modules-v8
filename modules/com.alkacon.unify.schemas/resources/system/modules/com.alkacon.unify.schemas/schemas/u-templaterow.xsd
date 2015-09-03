@@ -1,0 +1,56 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/nested/rowcolumn.xsd"/>
+
+	<xsd:element name="UnifyTemplateRows" type="OpenCmsUnifyTemplateRows"/>
+
+	<xsd:complexType name="OpenCmsUnifyTemplateRows">
+		<xsd:sequence>
+			<xsd:element name="UnifyTemplateRow" type="OpenCmsUnifyTemplateRow" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsUnifyTemplateRow">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="PreMarkup" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="PostMarkup" type="OpenCmsString" minOccurs="0" />            
+			<xsd:element name="Container" type="OpenCmsString" minOccurs="0" /> 
+			<xsd:element name="Defaults" type="OpenCmsWebsiteRowColumn" minOccurs="0" />
+			<xsd:element name="Column" type="OpenCmsUnifyRowColumn" maxOccurs="12" /> 
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.unify.schemas.row"/>
+			<mappings>
+				<mapping element="Title" mapto="property:Title" />
+				<mapping element="Title" mapto="urlName" />
+			</mappings>
+			<defaults>
+				<default element="Title" value="%(key.website.row.default.Title)" />
+				<default element="Defaults/Count" value="50" />
+				<default element="Defaults/Editors" value="ROLE.AUTHOR" />
+				<default element="Defaults/Grid" value="col-xs-12" />
+				<default element="Column/Count" value="50" />
+				<default element="Column/Editors" value="ROLE.AUTHOR" />
+				<default element="Column/Grid" value="col-xs-12" />
+			</defaults>
+			<layouts>
+				<layout element="PreMarkup" widget="TextareaWidget" configuration="5" />
+				<layout element="PostMarkup" widget="TextareaWidget" configuration="5" />
+			</layouts>            
+			<validationrules/>
+			<searchsettings containerPageOnly="true">
+				<searchsetting element="Title" searchcontent="false" />
+				<searchsetting element="PreMarkup" searchcontent="false" />
+				<searchsetting element="PostMarkup" searchcontent="false" />
+				<searchsetting element="Container" searchcontent="false" />
+			</searchsettings> 
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>

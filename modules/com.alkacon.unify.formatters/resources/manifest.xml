@@ -83,12 +83,129 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.formatters/elements/container-box.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/elements/container-box.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>49d1a304-5243-11e5-9495-0242ac11002b</uuidstructure>
+			<uuidresource>49d1a305-5243-11e5-9495-0242ac11002b</uuidresource>
+			<datecreated>Thu, 03 Sep 2015 13:54:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Container Box]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/elements/model-box-end.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/elements/model-box-end.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>8550f5cc-5243-11e5-9495-0242ac11002b</uuidstructure>
+			<uuidresource>8550f5cd-5243-11e5-9495-0242ac11002b</uuidresource>
+			<datecreated>Thu, 03 Sep 2015 13:56:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Model Box End]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/elements/model-box-start.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/elements/model-box-start.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>704c8ef8-5243-11e5-9495-0242ac11002b</uuidstructure>
+			<uuidresource>704c8ef9-5243-11e5-9495-0242ac11002b</uuidresource>
+			<datecreated>Thu, 03 Sep 2015 13:55:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Model Box Start]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.unify.formatters/formatters</destination>
 			<type>folder</type>
 			<uuidstructure>2593b580-5157-11e5-abeb-0242ac11002b</uuidstructure>
 			<datecreated>Wed, 02 Sep 2015 09:44:03 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/templaterow-config.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/templaterow-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>d65670f0-523d-11e5-9495-0242ac11002b</uuidstructure>
+			<uuidresource>d65670f1-523d-11e5-9495-0242ac11002b</uuidresource>
+			<datecreated>Thu, 03 Sep 2015 13:15:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Template row formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/templaterow.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/templaterow.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>d652a05d-523d-11e5-9495-0242ac11002b</uuidstructure>
+			<uuidresource>d652a05e-523d-11e5-9495-0242ac11002b</uuidresource>
+			<datecreated>Thu, 03 Sep 2015 13:15:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter JSP for Template Row]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>

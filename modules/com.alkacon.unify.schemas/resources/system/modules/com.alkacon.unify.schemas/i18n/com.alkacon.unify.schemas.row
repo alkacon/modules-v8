@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.UnifyTemplateRow.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTemplateRow.Title.help]]></Key>
+      <Value><![CDATA[Der Titel für diese Templatezeile.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTemplateRow.Column]]></Key>
+      <Value><![CDATA[Spalte]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTemplateRow.Column.help]]></Key>
+      <Value><![CDATA[Die Definition einer Spalte der Zeile.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Name]]></Key>
+      <Value><![CDATA[Container Name]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Name.help]]></Key>
+      <Value><![CDATA[Der Name des Containers, der in dieser Spalte erzeugt wird.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Type]]></Key>
+      <Value><![CDATA[Container Typ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Type.help]]></Key>
+      <Value><![CDATA[Der Typ des Containers, der in dieser Spalte erzeugt wird.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Count]]></Key>
+      <Value><![CDATA[Anzahl Elemente]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Count.help]]></Key>
+      <Value><![CDATA[Die maximale Anzahl von Elementen, die der Container enthalten kann.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Editors]]></Key>
+      <Value><![CDATA[Bearbeitbar von]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Editors.help]]></Key>
+      <Value><![CDATA[Stellt die Benutzer ein, die diese Spalte bearbeiten können.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.EmptyText]]></Key>
+      <Value><![CDATA[Text leere Spalte]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.EmptyText.help]]></Key>
+      <Value><![CDATA[Dieser Text wird angezeigt, wenn diese Spalte keine Inhaltselemente enthält.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Grid]]></Key>
+      <Value><![CDATA[Grid Klasse]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Grid.help]]></Key>
+      <Value><![CDATA[CSS Klasse zur Definition des Bootstrap Grid Systems.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Modifier]]></Key>
+      <Value><![CDATA[Modifier Klasse]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Modifier.help]]></Key>
+      <Value><![CDATA[Optionale CSS Klasse, die z.B. zum Ändern der Reihenfolge der Spalte verwendet werden kann. Die Verwendung muss in den Elementeinstellungen aktiviert werden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyLayoutRow.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyLayoutRow.Title.help]]></Key>
+      <Value><![CDATA[Der Titel für diese Layoutzeile.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyLayoutRow.Column]]></Key>
+      <Value><![CDATA[Spalte]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyLayoutRow.Column.help]]></Key>
+      <Value><![CDATA[Die Definition einer Spalte der Layoutzeile.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMultiLayoutRow.Row.help]]></Key>
+      <Value><![CDATA[Eine Definition einer Zeile.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.default.Title]]></Key>
+      <Value><![CDATA[Neue Templatezeile]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.notset]]></Key>
+      <Value><![CDATA[Nicht gesetzt]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.hidden]]></Key>
+      <Value><![CDATA[Versteckt]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.col]]></Key>
+      <Value><![CDATA[Spalte]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.cols]]></Key>
+      <Value><![CDATA[Spalten]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.editor.elementauthor]]></Key>
+      <Value><![CDATA[Element Autor]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.editor.editor]]></Key>
+      <Value><![CDATA[Redakteur]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.editor.developer]]></Key>
+      <Value><![CDATA[Template Entwickler]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.layoutrow.default.Title]]></Key>
+      <Value><![CDATA[Neue Layoutzeile]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.headline.emptycontainer]]></Key>
+      <Value><![CDATA[Leerer Container]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.restricted]]></Key>
+      <Value><![CDATA[Begrenzt]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.headline.detailonlycontainer]]></Key>
+      <Value><![CDATA[Zur Info: Diese Layoutzeile wird nur auf Typen Detailseiten angezeigt.]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.UnifyTemplateRow.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTemplateRow.Title.help]]></Key>
+      <Value><![CDATA[The title of the template row.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTemplateRow.Column]]></Key>
+      <Value><![CDATA[Column]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTemplateRow.Column.help]]></Key>
+      <Value><![CDATA[The definition of a single column of the template row.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Name]]></Key>
+      <Value><![CDATA[Container Name]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Name.help]]></Key>
+      <Value><![CDATA[The name of the container that is created in this column.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Type]]></Key>
+      <Value><![CDATA[Container Type]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Type.help]]></Key>
+      <Value><![CDATA[The type of the container that is created in this column.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Count]]></Key>
+      <Value><![CDATA[Maximum Elements]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Editors]]></Key>
+      <Value><![CDATA[Editable by]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Editors.help]]></Key>
+      <Value><![CDATA[Sets the users that can edit elements in this column.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.EmptyText]]></Key>
+      <Value><![CDATA[Empty Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.EmptyText.help]]></Key>
+      <Value><![CDATA[This text is shown if the column does not have any content elements.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Count.help]]></Key>
+      <Value><![CDATA[The maximum count of elements that can be placed in the container.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Grid]]></Key>
+      <Value><![CDATA[Grid Class]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Grid.help]]></Key>
+      <Value><![CDATA[CSS class to create the Bootstrap grid system.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Modifier]]></Key>
+      <Value><![CDATA[Modifier Class]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyRowColumn.Modifier.help]]></Key>
+      <Value><![CDATA[Optional CSS class that can be used e.g. for changing the column order. The usage has to be activated explicitly in the element settings.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyLayoutRow.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyLayoutRow.Title.help]]></Key>
+      <Value><![CDATA[The title of the layout row.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyLayoutRow.Column]]></Key>
+      <Value><![CDATA[Column]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyLayoutRow.Column.help]]></Key>
+      <Value><![CDATA[The definition of a single column of the layout row.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.default.Title]]></Key>
+      <Value><![CDATA[New template row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.notset]]></Key>
+      <Value><![CDATA[Not set]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.hidden]]></Key>
+      <Value><![CDATA[Hidden]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.col]]></Key>
+      <Value><![CDATA[column]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.cols]]></Key>
+      <Value><![CDATA[columns]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.editor.elementauthor]]></Key>
+      <Value><![CDATA[Element Author]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.editor.editor]]></Key>
+      <Value><![CDATA[Editor]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.columns.editor.developer]]></Key>
+      <Value><![CDATA[Template Developer]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.layoutrow.default.Title]]></Key>
+      <Value><![CDATA[New layout row]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.headline.emptycontainer]]></Key>
+      <Value><![CDATA[Empty Container]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.restricted]]></Key>
+      <Value><![CDATA[Restricted]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.row.headline.detailonlycontainer]]></Key>
+      <Value><![CDATA[Please note: this layout row is only shown on type detail pages.]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Template row formatter]]></NiceName>
+    <Type><![CDATA[u-templaterow]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/templaterow.jsp]]></target>
+        <uuid>d652a05d-523d-11e5-9495-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[page]]></ContainerType>
+        <ContainerType><![CDATA[mainsection]]></ContainerType>
+        <ContainerType><![CDATA[footsection]]></ContainerType>
+        <ContainerType><![CDATA[container]]></ContainerType>
+        <ContainerType><![CDATA[template]]></ContainerType>
+        <ContainerType><![CDATA[element]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>true</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <NestedContainers>true</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[param]]></PropertyName>
+      <DisplayName><![CDATA[Param]]></DisplayName>
+      <Description><![CDATA[Optional parameter for the pre-HTML markup.]]></Description>
+      <Widget><![CDATA[string]]></Widget>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[link]]></PropertyName>
+      <DisplayName><![CDATA[Link]]></DisplayName>
+      <Description><![CDATA[Optional link to be used in the pre-HTML markup.]]></Description>
+      <Widget><![CDATA[string]]></Widget>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[cssHints]]></PropertyName>
+      <DisplayName><![CDATA[CSS Hints]]></DisplayName>
+      <Description><![CDATA[Optional CSS classes, usually for child elements.]]></Description>
+      <Widget><![CDATA[string]]></Widget>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

@@ -24,7 +24,7 @@
 	
 	<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.alkacon.unify.basics/resources/css/styles-main.min.css:0fa43d45-5155-11e5-abeb-0242ac11002b)" />
 
-	<c:set var="colortheme"><cms:property name="unify.page.color" file="search" default="blue" /></c:set>
+	<c:set var="colortheme"><cms:property name="unify.theme" file="search" default="blue" /></c:set>
 	<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.unify.basics/resources/css/style-${colortheme}.min.css</cms:link>">
 
 	
@@ -37,11 +37,11 @@
 
 <cms:container name="page-complete" type="page" width="1200" maxElements="15" editableby="ROLE.DEVELOPER">
     <cms:bundle basename="com.alkacon.unify.formatters.messages">
-        <div class="service-block rounded-3x service-block-red">
-            <h2 class="heading-md">
+        <div class="oc-container-jsp"> 
+            <h1>
 				<fmt:message key="unify.page.headline.emptycontainer"/>
 				<div class="oc-label-developer">DEVELOPER</div>
-			</h2>
+			</h1>
             <p><fmt:message key="unify.page.text.emptycontainer"/></p>           
         </div>
     </cms:bundle>
