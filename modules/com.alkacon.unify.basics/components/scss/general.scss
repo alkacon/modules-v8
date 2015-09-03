@@ -4,6 +4,85 @@
 // Generic helpers. 
 //
 
+/* Empty container markers.
+----------------------------------------------------------------------------- */
+
+// OpenCms roles and their matching colors  
+$oc-container-types:
+(
+ (jsp, $red-lighter),        
+ (template, $orange-lighter),         
+ (layout, $gray-light),         
+ (detailonly, $blue-lighter),         
+); 
+
+$oc-container-labels:
+(
+ (developer, $red),         
+ (editor, $orange),         
+ (author, $blue),         
+ (detail, $cyan),         
+ (special, $red-light),         
+); 
+
+%oc-container-type {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;  
+    
+    h1 {
+        font-size: 22px;
+        font-weight: 400;
+        margin: 5px;
+    }  
+    p {
+        margin: 5px;
+        font-size: 14px;        
+    } 
+}
+
+%oc-container-label {
+    display: inline;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    top: -5px;
+    padding: 2px 5px;
+    margin-left: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;  
+    color: $white;             
+} 
+
+@each $type-name, $bg-color in $oc-container-types {
+    .oc-container-#{""+$type-name} {
+        @extend %oc-container-type;        
+        background-color: rgba($bg-color, 0.75);      
+    }
+}
+
+@each $role-name, $label-color in $oc-container-labels {      
+	.oc-label-#{""+$role-name} {
+	    @extend %oc-container-label;  
+	    background-color: $label-color;        
+	}  
+}
+
+.oc-modelinfo {
+    border: 2px solid $gray;  
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.oc-modelinfo .alert {
+    margin: 0 0 10px 0;   
+}
+
 /* Generic helpers.
 ----------------------------------------------------------------------------- */
 

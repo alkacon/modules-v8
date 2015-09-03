@@ -14,6 +14,9 @@
  * http://www.alkacon.com
  * http://www.opencms.org
  */
+ 
+// Import default colors
+@import 'defaultcolors'; 
 
 // Color values
 $theme-primary: #003374;
@@ -24,7 +27,6 @@ $theme-secondary: #BEAA41;
 $theme-secondary-light: #F0EBCC;
 
 // Main theme colors
-
 $main-theme: $theme-primary;
 $main-theme-hover: $theme-primary-light;
 $main-theme-additional: $theme-primary-lighter;
@@ -58,5 +60,5 @@ $nav-left-sub-color-active: $theme-primary;
 $nav-left-sub-color-hover: $theme-primary;
 $nav-left-sub-bg: #f5f5f5;
 
-// import the other files
+// Import the other files
 @import 'imports';
