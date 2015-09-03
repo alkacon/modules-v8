@@ -1,0 +1,9 @@
+dependencies {
+    compile group: 'javax.servlet', name: 'jsp-api', version: '2.0'
+    compile group: 'javax.servlet', name: 'servlet-api', version: '2.4'
+    compile group: 'org.opencms', name: 'opencms-core', version: opencms_version
+    compile group: 'org.opencms', name: 'opencms-components', version: opencms_version
+
+    testCompile group: 'org.opencms', name: 'opencms-test', version: opencms_version
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
