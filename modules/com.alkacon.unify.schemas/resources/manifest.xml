@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+	<info>
+		<infoproject>Offline</infoproject>
+		<export_version>10</export_version>
+	</info>
+	<module>
+		<name>com.alkacon.unify.schemas</name>
+		<nicename><![CDATA[Unify Template Schemas]]></nicename>
+		<group>Unify Template</group>
+		<class/>
+		<export-mode name="reduced"/>
+		<description><![CDATA[The OpenCms 10 Unify XML Schema Definitions.]]></description>
+		<version>10.0.0</version>
+		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+		<authoremail/>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies/>
+		<exportpoints/>
+		<resources>
+			<resource uri="/system/modules/com.alkacon.unify.schemas/"/>
+		</resources>
+		<excluderesources/>
+		<parameters/>
+	</module>
+	<files>
+		<file>
+			<destination>system</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/modules</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.schemas</destination>
+			<type>folder</type>
+			<uuidstructure>86603be6-5216-11e5-8e22-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 03 Sep 2015 08:34:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas</destination>
+			<type>folder</type>
+			<uuidstructure>866bad98-5216-11e5-8e22-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 03 Sep 2015 08:34:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+	</files>
+</export>
