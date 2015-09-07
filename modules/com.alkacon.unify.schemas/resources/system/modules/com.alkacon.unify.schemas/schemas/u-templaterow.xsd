@@ -17,7 +17,7 @@
 			<xsd:element name="PreMarkup" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="PostMarkup" type="OpenCmsString" minOccurs="0" />            
 			<xsd:element name="Container" type="OpenCmsString" minOccurs="0" /> 
-			<xsd:element name="Defaults" type="OpenCmsWebsiteRowColumn" minOccurs="0" />
+			<xsd:element name="Defaults" type="OpenCmsUnifyRowColumn" minOccurs="0" />
 			<xsd:element name="Column" type="OpenCmsUnifyRowColumn" maxOccurs="12" /> 
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
@@ -31,7 +31,7 @@
 				<mapping element="Title" mapto="urlName" />
 			</mappings>
 			<defaults>
-				<default element="Title" value="%(key.website.row.default.Title)" />
+				<default element="Title" value="%(key.unify.row.default.Title)" />
 				<default element="Defaults/Count" value="50" />
 				<default element="Defaults/Editors" value="ROLE.AUTHOR" />
 				<default element="Defaults/Grid" value="col-xs-12" />

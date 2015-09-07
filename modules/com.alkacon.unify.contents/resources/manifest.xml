@@ -18,7 +18,10 @@
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
-		<dependencies/>
+		<dependencies>
+			<dependency name="com.alkacon.unify.formatters" version="10.0.0"/>
+			<dependency name="com.alkacon.unify.schemas" version="10.0.0"/>
+		</dependencies>
 		<exportpoints/>
 		<resources>
 			<resource uri="/unify-demo/"/>

@@ -1,4 +1,4 @@
-<c:set var="label" value="${content.value.Title} - ${column.value.Name}" /> 
+<c:set var="label">${content.value.Title}<c:if test="${column.value.Name.isSet}"> - ${column.value.Name}</c:if></c:set> 
 <c:set var="parent_role" value="${cms.container.param}" /> 
 
 <c:choose>

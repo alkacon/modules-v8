@@ -12,7 +12,7 @@
 		<c:set var="resTypeName" value="u-templaterow" /> 
 		<c:set var="modelGroupElement" value="${cms.modelGroupElement}" />
 		
-		<%@include file="%(link.weak:/system/modules/com.alkacon.unify.formatters/elements/model-box-start.jsp:704c8ef8-5243-11e5-9495-0242ac11002b)" %>
+		<%@include file="%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/model-box-start.jsp:704c8ef8-5243-11e5-9495-0242ac11002b)" %>
 		
 		<c:if test="${content.value.PreMarkup.isSet}">
 			<c:set var="preMarkup" value="${fn:replace(content.value.PreMarkup, '$(param)', cms.element.setting.param.value)}" />
@@ -37,7 +37,7 @@
 				editableby="${role}"
 				param="${role}">
 			  
-				<%@include file="%(link.weak:/system/modules/com.alkacon.unify.formatters/elements/container-box.jsp:49d1a304-5243-11e5-9495-0242ac11002b)" %>
+				<%@include file="%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/container-box.jsp:49d1a304-5243-11e5-9495-0242ac11002b)" %>
 			  
 			</cms:container>
 		
@@ -49,7 +49,7 @@
 		${content.value.PostMarkup}
 		</c:if>
 		
-		<%@include file="%(link.weak:/system/modules/com.alkacon.unify.formatters/elements/model-box-end.jsp:8550f5cc-5243-11e5-9495-0242ac11002b)" %>
+		<%@include file="%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/model-box-end.jsp:8550f5cc-5243-11e5-9495-0242ac11002b)" %>
 	
 	</c:when>
 	<c:otherwise>
