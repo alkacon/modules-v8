@@ -63,7 +63,6 @@
       <Label><![CDATA[Category]]></Label>
       <MinCount><![CDATA[1]]></MinCount>
       <Limit><![CDATA[5]]></Limit>
-      <Order><![CDATA[index]]></Order>
     </FieldFacet>
     <Highlighting>
       <Field><![CDATA[content_en]]></Field>
