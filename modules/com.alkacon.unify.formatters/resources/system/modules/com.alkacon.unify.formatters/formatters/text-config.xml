@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Text formatter ]]></NiceName>
+    <Type><![CDATA[u-text]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/text.jsp]]></target>
+        <uuid>77ab762d-5578-11e5-8d6b-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[default]]></ContainerType>
+        <ContainerType><![CDATA[text]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[showelements]]></PropertyName>
+      <DisplayName><![CDATA[Show elements]]></DisplayName>
+      <Description><![CDATA[Sets the elements to display.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[all]]></Default>
+      <WidgetConfig><![CDATA[all:All|headline:Only Headline|text:Only Text|]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[wrapperclass]]></PropertyName>
+      <DisplayName><![CDATA[Wrapper CSS class]]></DisplayName>
+      <Description><![CDATA[Optional CSS class name for the outer <div> element.]]></Description>
+      <Widget><![CDATA[string]]></Widget>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[anchor]]></PropertyName>
+      <DisplayName><![CDATA[Anchor ID]]></DisplayName>
+      <Description><![CDATA[Anchor to place befor the element.]]></Description>
+      <Widget><![CDATA[string]]></Widget>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>
