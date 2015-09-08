@@ -228,7 +228,7 @@
     </Message>
     <Message>
       <Key><![CDATA[unify.page.text.emptycontainer]]></Key>
-      <Value><![CDATA[Please drop layout rows in this container.]]></Value>
+      <Value><![CDATA[Please drop template rows in this container.]]></Value>
     </Message>
   </Bundle>
   <Bundle language="de">
@@ -342,7 +342,7 @@
     </Message>
     <Message>
       <Key><![CDATA[unify.page.text.emptycontainer]]></Key>
-      <Value><![CDATA[Bitte ziehen Sie Layoutreihen in diesen Container.]]></Value>
+      <Value><![CDATA[Bitte ziehen Sie Templatereihen in diesen Container.]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

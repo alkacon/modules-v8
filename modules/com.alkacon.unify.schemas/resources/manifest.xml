@@ -24,27 +24,47 @@
 		<exportpoints/>
 		<resources>
 			<resource uri="/system/modules/com.alkacon.unify.schemas/"/>
+			<resource uri="/system/workplace/resources/filetypes/u-menu.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-templaterow.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-templaterow_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-navigation.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-navigation_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-text.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-text_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-flexible.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-flexible_big.png"/>
 		</resources>
 		<excluderesources/>
 		<parameters/>
 		<resourcetypes>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-templaterow" id="450">
-				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/u-templaterow.xsd</param>
+				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/templaterow.xsd</param>
 			</type>
-			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-text" id="451">
-				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/u-text.xsd</param>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-navigation" id="451">
+				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/navigation.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-text" id="452">
+				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/text.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-flexible" id="453">
+				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/flexible.xsd</param>
 			</type>
 		</resourcetypes>
 		<explorertypes>
+			<explorertype name="u-menu" key="fileicon.u-menu" icon="u-menu.png" reference="xmlcontent">
+				<newresource uri="newresource.jsp?page=u-menu" order="12" autosetnavigation="false" autosettitle="false" info="desc.u-menu"/>
+			</explorertype>
 			<explorertype name="u-templaterow" key="fileicon.u-templaterow" icon="u-templaterow.png" bigicon="u-templaterow_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=u-templaterow" order="10" autosetnavigation="false" autosettitle="false" info="desc.u-templaterow" key="title.u-templaterow"/>
+				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-templaterow" order="10" autosetnavigation="false" autosettitle="false" info="desc.u-templaterow" key="title.u-templaterow"/>
+			</explorertype>
+			<explorertype name="u-navigation" key="fileicon.u-navigation" icon="u-navigation.png" bigicon="u-navigation_big.png" reference="xmlcontent">
+				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-navigation" order="100" autosetnavigation="false" autosettitle="false" info="desc.u-navigation" key="title.u-navigation"/>
 			</explorertype>
 			<explorertype name="u-text" key="fileicon.u-text" icon="u-text.png" bigicon="u-text_big.png" reference="xmlcontent">
-				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=u-text" order="10" autosetnavigation="false" autosettitle="false" info="desc.u-text" key="title.u-text"/>
+				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-text" order="10" autosetnavigation="false" autosettitle="false" info="desc.u-text" key="title.u-text"/>
+			</explorertype>
+			<explorertype name="u-flexible" key="fileicon.u-flexible" icon="u-flexible.png" bigicon="u-flexible_big.png" reference="xmlcontent">
+				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-flexible" order="20" autosetnavigation="false" autosettitle="false" info="desc.u-flexible" key="title.u-flexible"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -144,6 +164,40 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.flexible</source>
+			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.flexible</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>50bb5d35-5610-11e5-b868-0242ac11002b</uuidstructure>
+			<uuidresource>50bb5d36-5610-11e5-b868-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 09:59:37 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.navigation</source>
+			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.navigation</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>35a21d4e-5605-11e5-b868-0242ac11002b</uuidstructure>
+			<uuidresource>35a21d4f-5605-11e5-b868-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 08:40:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.row</source>
 			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.row</destination>
 			<type>xmlvfsbundle</type>
@@ -205,8 +259,25 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.unify.schemas/schemas/u-navigation.xsd</source>
-			<destination>system/modules/com.alkacon.unify.schemas/schemas/u-navigation.xsd</destination>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/flexible.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/flexible.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>9c72c9cf-560d-11e5-b868-0242ac11002b</uuidstructure>
+			<uuidresource>9c72c9d0-560d-11e5-b868-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 09:40:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a flexible element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/navigation.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/navigation.xsd</destination>
 			<type>plain</type>
 			<uuidstructure>24a32b13-5600-11e5-8d6b-0242ac11002b</uuidstructure>
 			<uuidresource>24a32b14-5600-11e5-8d6b-0242ac11002b</uuidresource>
@@ -222,8 +293,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.unify.schemas/schemas/u-templaterow.xsd</source>
-			<destination>system/modules/com.alkacon.unify.schemas/schemas/u-templaterow.xsd</destination>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/templaterow.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/templaterow.xsd</destination>
 			<type>plain</type>
 			<uuidstructure>d636b3db-523d-11e5-9495-0242ac11002b</uuidstructure>
 			<uuidresource>d636b3dc-523d-11e5-9495-0242ac11002b</uuidresource>
@@ -239,8 +310,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.unify.schemas/schemas/u-text.xsd</source>
-			<destination>system/modules/com.alkacon.unify.schemas/schemas/u-text.xsd</destination>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/text.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/text.xsd</destination>
 			<type>plain</type>
 			<uuidstructure>7771c880-5578-11e5-8d6b-0242ac11002b</uuidstructure>
 			<uuidresource>7771c881-5578-11e5-8d6b-0242ac11002b</uuidresource>
@@ -262,6 +333,40 @@
 			<datecreated>Thu, 03 Sep 2015 13:28:31 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/nested/flexiblechoice.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/nested/flexiblechoice.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>cde2d0ff-560f-11e5-b868-0242ac11002b</uuidstructure>
+			<uuidresource>cde2d100-560f-11e5-b868-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 09:55:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for flexible element choice]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/nested/image.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/nested/image.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>01197822-5610-11e5-b868-0242ac11002b</uuidstructure>
+			<uuidresource>01197823-5610-11e5-b868-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 09:57:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for an image]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -308,6 +413,74 @@
 			<destination>system/workplace/resources</destination>
 			<type>folder</type>
 			<properties/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-flexible.png</source>
+			<destination>system/workplace/resources/filetypes/u-flexible.png</destination>
+			<type>image</type>
+			<uuidstructure>9c862ac2-560d-11e5-b868-0242ac11002b</uuidstructure>
+			<uuidresource>c1194408-560d-11e5-b868-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 09:41:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-flexible_big.png</source>
+			<destination>system/workplace/resources/filetypes/u-flexible_big.png</destination>
+			<type>image</type>
+			<uuidstructure>9c8a9796-560d-11e5-b868-0242ac11002b</uuidstructure>
+			<uuidresource>c98925bd-560d-11e5-b868-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 09:41:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-navigation.png</source>
+			<destination>system/workplace/resources/filetypes/u-navigation.png</destination>
+			<type>image</type>
+			<uuidstructure>bba660f0-5600-11e5-8d6b-0242ac11002b</uuidstructure>
+			<uuidresource>bba660f1-5600-11e5-8d6b-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 08:08:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-navigation_big.png</source>
+			<destination>system/workplace/resources/filetypes/u-navigation_big.png</destination>
+			<type>image</type>
+			<uuidstructure>c77684a5-5600-11e5-8d6b-0242ac11002b</uuidstructure>
+			<uuidresource>c77684a6-5600-11e5-8d6b-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 08:08:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
 		</file>
 		<file>
 			<source>system/workplace/resources/filetypes/u-templaterow.png</source>

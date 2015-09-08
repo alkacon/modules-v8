@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[ Flexible Content formatter]]></NiceName>
+    <Type><![CDATA[u-flexible]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/flexible.jsp]]></target>
+        <uuid>9c98ef7c-560d-11e5-b868-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[default]]></ContainerType>
+        <ContainerType><![CDATA[flexible]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>false</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>true</Detail>
+    <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[hideTitle]]></PropertyName>
+      <DisplayName><![CDATA[%(key.unify.setting.hidetitle)]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[requireReload]]></PropertyName>
+      <DisplayName><![CDATA[%(key.unify.setting.requirereload)]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[cssClass]]></PropertyName>
+      <DisplayName><![CDATA[%(key.unify.setting.cssclass)]]></DisplayName>
+      <Widget><![CDATA[string]]></Widget>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>
