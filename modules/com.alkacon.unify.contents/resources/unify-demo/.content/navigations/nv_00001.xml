@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyNavigations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/navigation.xsd">
+  <UnifyNavigation language="en">
+    <Title><![CDATA[Unify Demo main navigation]]></Title>
+    <NavStartLevel><![CDATA[0]]></NavStartLevel>
+    <LogoLink>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/overview/]]></target>
+        <uuid>c4709ed4-5845-11e4-a786-005056b61161</uuid>
+      </link>
+    </LogoLink>
+    <Header name="Header0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/grid-demo/search-demo/]]></target>
+          <uuid>d5244004-5ac4-11e4-955d-005056b61161</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/login/]]></target>
+          <uuid>d87f4764-58f1-11e4-903d-005056b61161</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<ul class="loginbar pull-right">
+            <li><a href="%(link0)">Search</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="%(link1)">Login</a></li>
+</ul>]]></content>
+    </Header>
+  </UnifyNavigation>
+</UnifyNavigations>

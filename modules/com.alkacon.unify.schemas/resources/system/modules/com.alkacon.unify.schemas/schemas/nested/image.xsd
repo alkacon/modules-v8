@@ -21,7 +21,7 @@
 
 	<xsd:annotation>
 		<xsd:appinfo>
-			<resourcebundle name=com.alkacon.unify.schemas.workplace"/>
+			<resourcebundle name="com.alkacon.unify.schemas.workplace"/>
 			<layouts>
 				<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat:true}" />
 			</layouts>

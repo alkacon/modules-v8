@@ -10,6 +10,7 @@
 		<nicename><![CDATA[Unify Template Contents]]></nicename>
 		<group>Unify Template</group>
 		<class/>
+		<import-site>/sites/default/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The OpenCms 10 Unify template demo contents.]]></description>
 		<version>10.0.0</version>
@@ -117,12 +118,291 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/.content/.modelgroups</destination>
+			<type>folder</type>
+			<uuidstructure>c2827481-562b-11e5-bfd9-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 08 Sep 2015 13:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/.modelgroups/modelgroup_0001.html</source>
+			<destination>unify-demo/.content/.modelgroups/modelgroup_0001.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>c297aa34-562b-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>c297aa35-562b-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 13:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Contains all default page models]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Default page models]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/.content/.templates</destination>
+			<type>folder</type>
+			<uuidstructure>fb8957d4-562c-11e5-bfd9-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 08 Sep 2015 13:24:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/.templates/templatemodel_0001.html</source>
+			<destination>unify-demo/.content/.templates/templatemodel_0001.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>fb947b67-562c-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>fb947b68-562c-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 13:24:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[efault Unify template page with head and foot and one single center column]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify template: Default page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/.content/flexiblecontents</destination>
+			<type>folder</type>
+			<uuidstructure>f316855b-562b-11e5-bfd9-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 08 Sep 2015 13:17:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/flexiblecontents/fc_00001.xml</source>
+			<destination>unify-demo/.content/flexiblecontents/fc_00001.xml</destination>
+			<type>u-flexible</type>
+			<uuidstructure>3013294d-562c-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>3013294e-562c-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 13:19:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Desktop Footer]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/flexiblecontents/fc_00002.xml</source>
+			<destination>unify-demo/.content/flexiblecontents/fc_00002.xml</destination>
+			<type>u-flexible</type>
+			<uuidstructure>5f7bd980-562c-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>5f7bd981-562c-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 13:20:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Mobile Footer]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/.content/modelgroup</destination>
+			<type>folder</type>
+			<uuidstructure>5fea2add-5637-11e5-bfd9-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 08 Sep 2015 14:39:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/modelgroup/modelgroup-00001.xml</source>
+			<destination>unify-demo/.content/modelgroup/modelgroup-00001.xml</destination>
+			<type>modelgroup</type>
+			<uuidstructure>5ff5275f-5637-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>5ff52760-5637-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 14:39:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Generates the default page footer.]]></value>
+				</property>
+				<property type="shared">
+					<name>Description</name>
+					<value><![CDATA[Generates the default page footer.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Demo Footer]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[Unify Demo Footer]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/modelgroup/modelgroup-00002.xml</source>
+			<destination>unify-demo/.content/modelgroup/modelgroup-00002.xml</destination>
+			<type>modelgroup</type>
+			<uuidstructure>b146c2e4-5638-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>b146c2e5-5638-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 14:48:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Generates the default page header.]]></value>
+				</property>
+				<property type="shared">
+					<name>Description</name>
+					<value><![CDATA[Generates the default page header.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Demo Header]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[Unify Demo Header]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/.content/navigations</destination>
+			<type>folder</type>
+			<uuidstructure>fe480c7d-5638-11e5-bfd9-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 08 Sep 2015 14:50:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/navigations/nv_00001.xml</source>
+			<destination>unify-demo/.content/navigations/nv_00001.xml</destination>
+			<type>u-navigation</type>
+			<uuidstructure>fe51343f-5638-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>fe513440-5638-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 14:50:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Demo main navigation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/templaterows</destination>
 			<type>folder</type>
 			<uuidstructure>b41271b2-5609-11e5-b868-0242ac11002b</uuidstructure>
 			<datecreated>Tue, 08 Sep 2015 09:12:18 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00001.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00001.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>2db2879c-562d-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>2db2879d-562d-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 13:26:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Main page section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00002.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00002.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>9537d791-562d-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>9537d792-562d-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 13:29:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Container (Standard)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00003.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00003.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>13f27815-562e-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>13f27816-562e-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 13:32:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Footer (V1)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00004.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00004.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>78b6a0d1-5638-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>78b6a0d2-5638-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 08 Sep 2015 14:47:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Header]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
