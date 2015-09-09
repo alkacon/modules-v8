@@ -373,6 +373,18 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/css/style-red.min.css</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/css/style-red.min.css</destination>
+			<type>plain</type>
+			<uuidstructure>8729d975-56c9-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>8729d976-56c9-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 08:05:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.basics/resources/css/styles-main.min.css</source>
 			<destination>system/modules/com.alkacon.unify.basics/resources/css/styles-main.min.css</destination>
 			<type>plain</type>
@@ -1991,6 +2003,976 @@
 			<uuidstructure>0fc90357-5155-11e5-abeb-0242ac11002b</uuidstructure>
 			<uuidresource>0fc90358-5155-11e5-abeb-0242ac11002b</uuidresource>
 			<datecreated>Wed, 02 Sep 2015 09:29:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify</destination>
+			<type>folder</type>
+			<uuidstructure>ba0a9420-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 10:15:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins</destination>
+			<type>folder</type>
+			<uuidstructure>c04f0a52-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 10:15:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider</destination>
+			<type>folder</type>
+			<uuidstructure>c4441244-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 10:15:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin</destination>
+			<type>folder</type>
+			<uuidstructure>c45fb098-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 10:15:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets</destination>
+			<type>folder</type>
+			<uuidstructure>c4a54522-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 10:16:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_large_left.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_large_left.png</destination>
+			<type>image</type>
+			<uuidstructure>c5fc49cc-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c5fc49cd-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:46,h:92]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_large_right.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_large_right.png</destination>
+			<type>image</type>
+			<uuidstructure>c625077f-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c6250780-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:46,h:92]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_left.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_left.png</destination>
+			<type>image</type>
+			<uuidstructure>c63ef822-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c63ef823-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:26,h:52]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_left2.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_left2.png</destination>
+			<type>image</type>
+			<uuidstructure>c64dc535-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c64dc536-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:12,h:34]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_right.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_right.png</destination>
+			<type>image</type>
+			<uuidstructure>c66285b8-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c66285b9-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:26,h:52]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_right2.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrow_right2.png</destination>
+			<type>image</type>
+			<uuidstructure>c675988b-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c675988c-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:12,h:34]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrowleft.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrowleft.png</destination>
+			<type>image</type>
+			<uuidstructure>c688362e-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c688362f-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:9,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrowright.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrowright.png</destination>
+			<type>image</type>
+			<uuidstructure>c6a448b1-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c6a448b2-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:9,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrows.psd</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/arrows.psd</destination>
+			<type>plain</type>
+			<uuidstructure>c6bfe704-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c6bfe705-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/black50.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/black50.png</destination>
+			<type>image</type>
+			<uuidstructure>c6d6f176-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c6d6f177-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:100,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/boxed_bgtile.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/boxed_bgtile.png</destination>
+			<type>image</type>
+			<uuidstructure>c6eb8ae9-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c6eb8aea-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:100,h:40]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/bullet.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/bullet.png</destination>
+			<type>image</type>
+			<uuidstructure>c70665ec-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c70665ed-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:40]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/bullet_boxed.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/bullet_boxed.png</destination>
+			<type>image</type>
+			<uuidstructure>c71e5abf-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c71e5ac0-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:18,h:38]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/bullets.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/bullets.png</destination>
+			<type>image</type>
+			<uuidstructure>c7331b42-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c7331b43-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:23,h:46]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/bullets.psd</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/bullets.psd</destination>
+			<type>plain</type>
+			<uuidstructure>c7436ef5-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c7436ef6-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/bullets2.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/bullets2.png</destination>
+			<type>image</type>
+			<uuidstructure>c7519fc7-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c7519fc8-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:19,h:38]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/coloredbg.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/coloredbg.png</destination>
+			<type>image</type>
+			<uuidstructure>c7621a8a-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c7621a8b-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:5,h:5]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/grain.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/grain.png</destination>
+			<type>image</type>
+			<uuidstructure>c773a6bd-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c773a6be-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:100,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/gridtile.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/gridtile.png</destination>
+			<type>image</type>
+			<uuidstructure>c786e0a0-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c786e0a1-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:2,h:2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/gridtile_3x3.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/gridtile_3x3.png</destination>
+			<type>image</type>
+			<uuidstructure>c7973453-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c7973454-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:3,h:3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/gridtile_3x3_white.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/gridtile_3x3_white.png</destination>
+			<type>image</type>
+			<uuidstructure>c7a9aae6-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c7a9aae7-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:3,h:3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/gridtile_white.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/gridtile_white.png</destination>
+			<type>image</type>
+			<uuidstructure>c7bc4889-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c7bc488a-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:2,h:2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/large_left.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/large_left.png</destination>
+			<type>image</type>
+			<uuidstructure>c7cbd8ec-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c7cbd8ed-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:40,h:80]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/large_right.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/large_right.png</destination>
+			<type>image</type>
+			<uuidstructure>c7e4df2f-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c7e4df30-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:40,h:80]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/loader.gif</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/loader.gif</destination>
+			<type>image</type>
+			<uuidstructure>c7fcacf2-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c7fcacf3-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/loader2.gif</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/loader2.gif</destination>
+			<type>image</type>
+			<uuidstructure>c811e2a5-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c811e2a6-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/navigdots.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/navigdots.png</destination>
+			<type>image</type>
+			<uuidstructure>c81f7738-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c81f7739-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:15,h:30]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/navigdots_bgtile.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/navigdots_bgtile.png</destination>
+			<type>image</type>
+			<uuidstructure>c830190b-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c830190c-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:10,h:35]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/shadow1.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/shadow1.png</destination>
+			<type>image</type>
+			<uuidstructure>c844b27e-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c844b27f-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:900,h:30]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/shadow2.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/shadow2.png</destination>
+			<type>image</type>
+			<uuidstructure>c85442e1-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c85442e2-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:900,h:60]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/shadow3.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/shadow3.png</destination>
+			<type>image</type>
+			<uuidstructure>c8688e34-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c8688e35-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:900,h:60]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/small_arrows.psd</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/small_arrows.psd</destination>
+			<type>plain</type>
+			<uuidstructure>c87893c7-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c87893c8-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/small_left.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/small_left.png</destination>
+			<type>image</type>
+			<uuidstructure>c8919a09-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c8919a0a-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:19,h:28]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/small_left_boxed.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/small_left_boxed.png</destination>
+			<type>image</type>
+			<uuidstructure>c8a0671c-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c8a0671d-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:30]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/small_right.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/small_right.png</destination>
+			<type>image</type>
+			<uuidstructure>c8af342f-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c8af3430-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:19,h:28]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/small_right_boxed.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/small_right_boxed.png</destination>
+			<type>image</type>
+			<uuidstructure>c8c02422-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c8c02423-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:30]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/timer.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/timer.png</destination>
+			<type>image</type>
+			<uuidstructure>c8d3d335-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c8d3d336-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1,h:10]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/timerdot.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/timerdot.png</destination>
+			<type>image</type>
+			<uuidstructure>c8e81e88-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c8e81e89-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1,h:10]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/transparent.jpg</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/transparent.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c8fc69db-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c8fc69dc-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:10,h:10]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/white50.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/assets/white50.png</destination>
+			<type>image</type>
+			<uuidstructure>c912b0fe-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c912b0ff-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:100,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/css</destination>
+			<type>folder</type>
+			<uuidstructure>c4af7e54-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 10:16:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/css/settings-ie8.css</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/css/settings-ie8.css</destination>
+			<type>plain</type>
+			<uuidstructure>c925c3d1-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c925c3d2-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/css/settings.css</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/css/settings.css</destination>
+			<type>plain</type>
+			<uuidstructure>c93728f3-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c93728f4-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/font</destination>
+			<type>folder</type>
+			<uuidstructure>c4ba2cb6-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 10:16:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/font/revicons.eot</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/font/revicons.eot</destination>
+			<type>plain</type>
+			<uuidstructure>c9495165-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c9495166-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/font/revicons.svg</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/font/revicons.svg</destination>
+			<type>plain</type>
+			<uuidstructure>c9549c07-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c9549c08-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/font/revicons.ttf</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/font/revicons.ttf</destination>
+			<type>plain</type>
+			<uuidstructure>c96bcd89-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c96bcd8a-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/font/revicons.woff</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/font/revicons.woff</destination>
+			<type>plain</type>
+			<uuidstructure>c97e923b-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c97e923c-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images</destination>
+			<type>folder</type>
+			<uuidstructure>c4c5c578-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 10:16:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/decor_inside.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/decor_inside.png</destination>
+			<type>image</type>
+			<uuidstructure>c98ac73d-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c98ac73e-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:4,h:4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/decor_inside_white.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/decor_inside_white.png</destination>
+			<type>image</type>
+			<uuidstructure>c9a2bc10-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c9a2bc11-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:4,h:4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/decor_testimonial.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/decor_testimonial.png</destination>
+			<type>image</type>
+			<uuidstructure>c9b69233-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c9b69234-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:10,h:4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/gradient</destination>
+			<type>folder</type>
+			<uuidstructure>c9ca6856-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 10:16:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/gradient/g30.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/gradient/g30.png</destination>
+			<type>image</type>
+			<uuidstructure>cb2f4fbb-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>cb2f4fbc-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1,h:60]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/gradient/g40.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/images/gradient/g40.png</destination>
+			<type>image</type>
+			<uuidstructure>cb45bdee-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>cb45bdef-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1,h:80]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/js</destination>
+			<type>folder</type>
+			<uuidstructure>c4d2bdca-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 10:16:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.enablelog.js</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.enablelog.js</destination>
+			<type>plain</type>
+			<uuidstructure>c9d69d58-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c9d69d59-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js</destination>
+			<type>plain</type>
+			<uuidstructure>c9e25d2a-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c9e25d2b-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js</destination>
+			<type>plain</type>
+			<uuidstructure>c9f066ec-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c9f066ed-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/unify/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js</destination>
+			<type>plain</type>
+			<uuidstructure>ca0379be-56db-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>ca0379bf-56db-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 10:16:09 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>

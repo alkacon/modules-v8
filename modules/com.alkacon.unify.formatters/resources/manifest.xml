@@ -371,6 +371,60 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/slider-config.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/slider-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>9e37d8fa-56ce-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>9e37d8fb-56ce-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 08:41:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Animation Slider formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/slider.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/slider.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>9e325ab7-56ce-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>9e325ab8-56ce-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 08:41:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter JSP for slider]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.formatters/formatters/templaterow-config.xml</source>
 			<destination>system/modules/com.alkacon.unify.formatters/formatters/templaterow-config.xml</destination>
 			<type>formatter_config</type>

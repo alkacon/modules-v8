@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifySliders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/slider.xsd">
+  <UnifySlider language="en">
+    <Title><![CDATA[OpenCms 9.5 Promo Slider]]></Title>
+    <Duration><![CDATA[6000]]></Duration>
+    <Width><![CDATA[900]]></Width>
+    <Height><![CDATA[500]]></Height>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/slider/bg_sl_05.jpg]]></target>
+          <uuid>d520dc78-5861-11e4-a786-005056b61161</uuid>
+        </link>
+      </Image>
+      <Effect><![CDATA[slotzoom-horizontal]]></Effect>
+      <Slots><![CDATA[12]]></Slots>
+      <Delay><![CDATA[600]]></Delay>
+      <Caption>
+        <Text><![CDATA[OPENCMS 9.5]]></Text>
+        <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb]]></Class>
+        <PosX><![CDATA[180]]></PosX>
+        <PosY><![CDATA[200]]></PosY>
+        <Start><![CDATA[800]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Text><![CDATA[CONTENT MANAGEMENT MADE EASY]]></Text>
+        <Class><![CDATA[caption mediumthickwhitebg sfb]]></Class>
+        <PosX><![CDATA[180]]></PosX>
+        <PosY><![CDATA[260]]></PosY>
+        <Start><![CDATA[1200]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/p5.jpg]]></target>
+            <uuid>44edb2d9-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[475]]></PosX>
+        <PosY><![CDATA[110]]></PosY>
+        <Start><![CDATA[1800]]></Start>
+        <Speed><![CDATA[2000]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+    </Item>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/slider/bg_sl_06.jpg]]></target>
+          <uuid>00610d7a-586c-11e4-a786-005056b61161</uuid>
+        </link>
+      </Image>
+      <Effect><![CDATA[slideleft]]></Effect>
+      <Slots><![CDATA[2]]></Slots>
+      <Delay><![CDATA[300]]></Delay>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/shapes.png]]></target>
+            <uuid>570ddf2c-5867-11e4-a786-005056b61161</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption lfl]]></Class>
+        <PosX><![CDATA[-180]]></PosX>
+        <PosY><![CDATA[200]]></PosY>
+        <Start><![CDATA[500]]></Start>
+        <Speed><![CDATA[1000]]></Speed>
+        <Easing><![CDATA[easeInOutBounce]]></Easing>
+      </Caption>
+      <Caption>
+        <Text><![CDATA[NEW IN 9.5:]]></Text>
+        <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb]]></Class>
+        <PosX><![CDATA[10]]></PosX>
+        <PosY><![CDATA[40]]></PosY>
+        <Start><![CDATA[600]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Text><![CDATA[GRID BASED, RESPONSIVE TEMPLATE GENERATOR]]></Text>
+        <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb]]></Class>
+        <PosX><![CDATA[10]]></PosX>
+        <PosY><![CDATA[100]]></PosY>
+        <Start><![CDATA[900]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/p6.jpg]]></target>
+            <uuid>1552ecde-58f7-11e4-903d-005056b61161</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[10]]></PosX>
+        <PosY><![CDATA[180]]></PosY>
+        <Start><![CDATA[1200]]></Start>
+        <Speed><![CDATA[900]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+    </Item>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/slider/bg_sl_04.jpg]]></target>
+          <uuid>9a39c079-24ea-11e3-9bbf-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Effect><![CDATA[3dcurtain-vertical]]></Effect>
+      <Slots><![CDATA[10]]></Slots>
+      <Delay><![CDATA[300]]></Delay>
+      <Caption>
+        <Image/>
+        <Text><![CDATA[100% OPEN SOURCE]]></Text>
+        <Class><![CDATA[caption sft mediumthickwhitebg]]></Class>
+        <PosX><![CDATA[75]]></PosX>
+        <PosY><![CDATA[330]]></PosY>
+        <Start><![CDATA[1200]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Text><![CDATA[COMMERCIAL SUPPORT AVAILABLE]]></Text>
+        <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb]]></Class>
+        <PosX><![CDATA[75]]></PosX>
+        <PosY><![CDATA[380]]></PosY>
+        <Start><![CDATA[1400]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+        <End><![CDATA[8000]]></End>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/osi_logo.png]]></target>
+            <uuid>393462f4-2507-11e3-9bbf-000c29d28104</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[595]]></PosX>
+        <PosY><![CDATA[130]]></PosY>
+        <Start><![CDATA[900]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+    </Item>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/slider/bg_sl_02.jpg]]></target>
+          <uuid>278e816f-24e8-11e3-9bbf-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Effect><![CDATA[curtain-2]]></Effect>
+      <Slots><![CDATA[10]]></Slots>
+      <Delay><![CDATA[300]]></Delay>
+      <Link>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://www.opencms.org]]></target>
+        </link>
+      </Link>
+      <Caption>
+        <Text><![CDATA[MAKE YOUR <span style="color: #d31d34">CONTENT MANAGERS</span> HAPPY!]]></Text>
+        <Class><![CDATA[caption mediumthickgreybg sfb ltl]]></Class>
+        <PosX><![CDATA[0]]></PosX>
+        <PosY><![CDATA[35]]></PosY>
+        <Start><![CDATA[800]]></Start>
+        <Speed><![CDATA[300]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/p1.jpg]]></target>
+            <uuid>44c8777d-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[0]]></PosX>
+        <PosY><![CDATA[120]]></PosY>
+        <Start><![CDATA[1200]]></Start>
+        <Speed><![CDATA[2000]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/p5.jpg]]></target>
+            <uuid>44edb2d9-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[190]]></PosX>
+        <PosY><![CDATA[120]]></PosY>
+        <Start><![CDATA[1100]]></Start>
+        <Speed><![CDATA[1500]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/p2.jpg]]></target>
+            <uuid>44e85ba5-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[380]]></PosX>
+        <PosY><![CDATA[120]]></PosY>
+        <Start><![CDATA[1300]]></Start>
+        <Speed><![CDATA[1200]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/p3.jpg]]></target>
+            <uuid>44cdf5c1-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[570]]></PosX>
+        <PosY><![CDATA[120]]></PosY>
+        <Start><![CDATA[1400]]></Start>
+        <Speed><![CDATA[1500]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/p4.jpg]]></target>
+            <uuid>44d325e5-2457-11e3-adc8-000c297c001d</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption randomrotate]]></Class>
+        <PosX><![CDATA[760]]></PosX>
+        <PosY><![CDATA[120]]></PosY>
+        <Start><![CDATA[1500]]></Start>
+        <Speed><![CDATA[2500]]></Speed>
+        <Easing><![CDATA[easeOutExpo]]></Easing>
+      </Caption>
+    </Item>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/slider/bg_sl_01.jpg]]></target>
+          <uuid>275f340b-24e8-11e3-9bbf-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Effect><![CDATA[papercut]]></Effect>
+      <Slots><![CDATA[15]]></Slots>
+      <Delay><![CDATA[1500]]></Delay>
+      <Caption>
+        <Text><![CDATA[START USING OPENCMS TODAY]]></Text>
+        <Class><![CDATA[caption mediumthickgreybg lft ltb]]></Class>
+        <PosX><![CDATA[0]]></PosX>
+        <PosY><![CDATA[390]]></PosY>
+        <Start><![CDATA[200]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutElastic]]></Easing>
+        <End><![CDATA[9100]]></End>
+        <EndEasing><![CDATA[easeInSine]]></EndEasing>
+      </Caption>
+      <Caption>
+        <Text><![CDATA[DON'T WAIT]]></Text>
+        <Class><![CDATA[caption mediumthickwhitebg lft ltb]]></Class>
+        <PosX><![CDATA[0]]></PosX>
+        <PosY><![CDATA[343]]></PosY>
+        <Start><![CDATA[600]]></Start>
+        <Speed><![CDATA[600]]></Speed>
+        <Easing><![CDATA[easeOutElastic]]></Easing>
+        <End><![CDATA[8800]]></End>
+        <EndEasing><![CDATA[easeInSine]]></EndEasing>
+      </Caption>
+      <Caption>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/opencms_logo.png]]></target>
+            <uuid>90db6440-2508-11e3-91e8-000c29d28104</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption lft ltb]]></Class>
+        <PosX><![CDATA[0]]></PosX>
+        <PosY><![CDATA[225]]></PosY>
+        <Start><![CDATA[1000]]></Start>
+        <Speed><![CDATA[900]]></Speed>
+        <Easing><![CDATA[easeOutElastic]]></Easing>
+      </Caption>
+    </Item>
+  </UnifySlider>
+</UnifySliders>

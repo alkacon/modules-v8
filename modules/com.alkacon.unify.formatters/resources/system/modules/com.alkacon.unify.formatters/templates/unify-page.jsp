@@ -24,7 +24,7 @@
 	
 	<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.alkacon.unify.basics/resources/css/styles-main.min.css:0fa43d45-5155-11e5-abeb-0242ac11002b)" />
 
-	<c:set var="colortheme"><cms:property name="unify.theme" file="search" default="blue" /></c:set>
+	<c:set var="colortheme"><cms:property name="unify.theme" file="search" default="red" /></c:set>
 	<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.unify.basics/resources/css/style-${colortheme}.min.css</cms:link>">
 
 	
@@ -54,6 +54,9 @@
 <script type="text/javascript">
     jQuery(document).ready(function() {
       	App.init();
+      	try {
+      		createBanner();
+      	} catch(e) {}
     });
 </script>
 <!--[if lt IE 9]>

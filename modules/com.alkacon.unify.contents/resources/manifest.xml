@@ -179,7 +179,7 @@
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[efault Unify template page with head and foot and one single center column]]></value>
+					<value><![CDATA[Default Unify template page with head and foot and one single center column]]></value>
 				</property>
 				<property>
 					<name>Title</name>
@@ -329,6 +329,33 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/.content/sliders</destination>
+			<type>folder</type>
+			<uuidstructure>018532c2-56d4-11e5-946f-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 09:20:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/sliders/sl_00001.xml</source>
+			<destination>unify-demo/.content/sliders/sl_00001.xml</destination>
+			<type>u-slider</type>
+			<uuidstructure>018bc274-56d4-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>018bc275-56d4-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 09:20:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Demo: OpenCms 9.5 Promo Slider]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/templaterows</destination>
 			<type>folder</type>
 			<uuidstructure>b41271b2-5609-11e5-b868-0242ac11002b</uuidstructure>
@@ -383,7 +410,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Footer (V1)]]></value>
+					<value><![CDATA[Footer (Default)]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -401,6 +428,108 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Header]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00005.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00005.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>5f667d20-56cb-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>5f667d21-56cb-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 08:18:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[1 Column Row (12 - Full)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00006.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00006.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>99a73563-56cb-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>99a73564-56cb-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 08:20:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[2 Columns Row (4 - 8)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00007.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00007.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>bc400526-56cb-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>bc400527-56cb-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 08:21:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[2 Columns Row (6 - 6)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00008.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00008.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>222a42b9-56cc-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>222a42ba-56cc-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 08:24:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[3 Columns Row (4 - 4 - 4)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00009.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00009.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>4fe6063c-56cc-11e5-bfd9-0242ac11002b</uuidstructure>
+			<uuidresource>4fe6063d-56cc-11e5-bfd9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 08:25:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[3 Columns Row (3 - 3 - 6)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00010.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00010.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>65d0d0e0-56d3-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>65d0d0e1-56d3-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 09:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Container (Fluid)]]></value>
 				</property>
 			</properties>
 			<relations/>

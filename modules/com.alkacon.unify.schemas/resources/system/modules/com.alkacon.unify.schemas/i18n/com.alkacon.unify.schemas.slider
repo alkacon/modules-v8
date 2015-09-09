@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Title.help]]></Key>
+      <Value><![CDATA[The title of the slider. It can be hidden using an element setting.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Duration]]></Key>
+      <Value><![CDATA[Duration]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Duration.help]]></Key>
+      <Value><![CDATA[The time one slide stays on the screen in seconds.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Width]]></Key>
+      <Value><![CDATA[Width]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Width.help]]></Key>
+      <Value><![CDATA[Basic width of the slider in the desktop resolution in pixel.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Height]]></Key>
+      <Value><![CDATA[Height]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Height.help]]></Key>
+      <Value><![CDATA[Basic height of the slider in the desktop resolution in pixel.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the slider. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Item]]></Key>
+      <Value><![CDATA[Slider Item]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Item.help]]></Key>
+      <Value><![CDATA[Definition of a single slider item.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Image.height]]></Key>
+      <Value><![CDATA[The slider item main image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Effect]]></Key>
+      <Value><![CDATA[Transition]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Effect.help]]></Key>
+      <Value><![CDATA[The appearance transition of this slide.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Slots]]></Key>
+      <Value><![CDATA[Slot Amount]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Slots.help]]></Key>
+      <Value><![CDATA[The number of slots or boxes the slide is divided into.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Delay]]></Key>
+      <Value><![CDATA[Delay]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Delay.help]]></Key>
+      <Value><![CDATA[The delay value for the slide.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Link.help]]></Key>
+      <Value><![CDATA[ An optional link on the complete slide image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Caption]]></Key>
+      <Value><![CDATA[Caption]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Caption.help]]></Key>
+      <Value><![CDATA[Captions are containers which can be customized via CSS, classes for the start animation and some data options.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Image.help]]></Key>
+      <Value><![CDATA[Caption Image that is shown.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Text.help]]></Key>
+      <Value><![CDATA[An optional caption text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Class]]></Key>
+      <Value><![CDATA[Animation Class]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Class.help]]></Key>
+      <Value><![CDATA[Sets the animation class for the caption. Example: sft - Short from Top, lfr - Long from Right.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.PosX]]></Key>
+      <Value><![CDATA[Position X]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.PosX.help]]></Key>
+      <Value><![CDATA[The horizontal position in the standard screen size.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.PosY]]></Key>
+      <Value><![CDATA[Position Y]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.PosY.help]]></Key>
+      <Value><![CDATA[The vertical position in the standard screen size.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Start]]></Key>
+      <Value><![CDATA[Start Delay]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Start.help]]></Key>
+      <Value><![CDATA[After how many milliseconds should this caption start to show.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Speed]]></Key>
+      <Value><![CDATA[Speed]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Speed.help]]></Key>
+      <Value><![CDATA[Duration of the animation in milliseconds.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Easing]]></Key>
+      <Value><![CDATA[Easing]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Easing.help]]></Key>
+      <Value><![CDATA[Special easing effect of the animation.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.End]]></Key>
+      <Value><![CDATA[End Time]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.End.help]]></Key>
+      <Value><![CDATA[After how many milliseconds should this caption start to hide.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.EndEasing]]></Key>
+      <Value><![CDATA[End Easing]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.EndEasing.help]]></Key>
+      <Value><![CDATA[Special easing effect of the end animation.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.TabGeneral]]></Key>
+      <Value><![CDATA[General Settings]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.TabItems]]></Key>
+      <Value><![CDATA[Slider Items]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.slider.default.Title]]></Key>
+      <Value><![CDATA[New Slider]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.slider.message.new]]></Key>
+      <Value><![CDATA[<strong>New Slider</strong>, please edit the content.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.slider.message.edit]]></Key>
+      <Value><![CDATA[<strong>The slider has been changed</strong>, the page will reload now to display the slider.]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Title.help]]></Key>
+      <Value><![CDATA[Der Titel des Bildrotators. Er kann mit einer Elementeinstellung versteckt werden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Duration]]></Key>
+      <Value><![CDATA[Dauer]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Duration.help]]></Key>
+      <Value><![CDATA[Die Zeit in Sekunden, die ein Element angzeigt wird.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Width]]></Key>
+      <Value><![CDATA[Breite]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Width.help]]></Key>
+      <Value><![CDATA[Basisbreite des Rotators in Desktopauflösung in Pixeln.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Height]]></Key>
+      <Value><![CDATA[Höhe]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Height.help]]></Key>
+      <Value><![CDATA[Basishöhe des Rotators in Desktopauflösung in Pixeln.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel des Sliders für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Item]]></Key>
+      <Value><![CDATA[Rotator Element]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.Item.help]]></Key>
+      <Value><![CDATA[Definition eines einzelnen Rotator Elements.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Image]]></Key>
+      <Value><![CDATA[Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Image.height]]></Key>
+      <Value><![CDATA[Das Hauptbild des Elements.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Effect]]></Key>
+      <Value><![CDATA[Übergang]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Effect.help]]></Key>
+      <Value><![CDATA[Der Übergangseffekt bei Erscheinen des Elements.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Slots]]></Key>
+      <Value><![CDATA[Slot Anzahl]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Slots.help]]></Key>
+      <Value><![CDATA[Die Anzahl der Slots oder Boxen, in das das Element unterteilt wird.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Delay]]></Key>
+      <Value><![CDATA[Verzögerung]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Delay.help]]></Key>
+      <Value><![CDATA[Der Verzögerungswert für das Element.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Link.help]]></Key>
+      <Value><![CDATA[Ein optionaler Link für das komplette Rotator Element.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Caption]]></Key>
+      <Value><![CDATA[Unterelement]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderItem.Caption.help]]></Key>
+      <Value><![CDATA[Unterelemente sind Container, die mit CSS, Klassen für die Start Animation und anderen Optionen definiert werden können.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Image]]></Key>
+      <Value><![CDATA[Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Image.help]]></Key>
+      <Value><![CDATA[Das Bild eines Unterelements.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Text.help]]></Key>
+      <Value><![CDATA[Ein optionaler Text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Class]]></Key>
+      <Value><![CDATA[Animationsklasse]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Class.help]]></Key>
+      <Value><![CDATA[Setzt die Animationsklasse des Unterelements. Beispiel: sft - Short from Top, lfr - Long from Right.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.PosX]]></Key>
+      <Value><![CDATA[Position X]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.PosX.help]]></Key>
+      <Value><![CDATA[Die horizontale Position in der Standard Bildschirmgröße.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.PosY]]></Key>
+      <Value><![CDATA[Position Y]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.PosY.help]]></Key>
+      <Value><![CDATA[Die vertikale Position in der Standard Bildschirmgröße.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Start]]></Key>
+      <Value><![CDATA[Start Verzögerung]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Start.help]]></Key>
+      <Value><![CDATA[Nach wie vielen Millisekunden soll dieses Unterelement angezeigt werden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Speed]]></Key>
+      <Value><![CDATA[Geschwindigkeit]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Speed.help]]></Key>
+      <Value><![CDATA[Dauer der Animation in Millisekunden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Easing]]></Key>
+      <Value><![CDATA[Effekt]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.Easing.help]]></Key>
+      <Value><![CDATA[Spezieller Effekt der Animation.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.End]]></Key>
+      <Value><![CDATA[End Zeit]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.End.help]]></Key>
+      <Value><![CDATA[Nach wie vielen Millisekunden soll dieses Unterelement ausgeblendet werden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.EndEasing]]></Key>
+      <Value><![CDATA[End Effekt]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySliderCaption.EndEasing.help]]></Key>
+      <Value><![CDATA[Spezieller Effekt der End Animation.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.TabGeneral]]></Key>
+      <Value><![CDATA[Allgemeine Einstellungen]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifySlider.TabItems]]></Key>
+      <Value><![CDATA[Rotator Elemente]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.slider.default.Title]]></Key>
+      <Value><![CDATA[Neuer Bild Rotator]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.slider.message.new]]></Key>
+      <Value><![CDATA[<strong>Neuer Bild Rotator</strong>, bitte bearbeiten Sie den Inhalt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.slider.message.edit]]></Key>
+      <Value><![CDATA[<strong>Der Rotator wurde geändert</strong>, die Seite wird zur Anzeige neu geladen.]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>
