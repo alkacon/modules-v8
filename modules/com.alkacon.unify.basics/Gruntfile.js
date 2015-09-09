@@ -34,7 +34,15 @@ module.exports = function(grunt) {
 	    	  src: ['style-blue.scss'],
 	    	  dest: 'output/resources/css',
 	    	  ext: '.css'
-	      }]
+	      	},
+	      	{
+	    	  expand: true,
+	    	  cwd: 'components/scss',
+	    	  src: ['style-red.scss'],
+	    	  dest: 'output/resources/css',
+	    	  ext: '.css'
+	      	}
+	      ]
 	    }
 	  },
 
@@ -52,11 +60,18 @@ module.exports = function(grunt) {
 		  ]
 		},
 		{
+			  'output/resources/css/style-red.min.css': [
+				'output/resources/css/style-red.css', 
+				'!output/resources/css/*.min.css'
+			  ]
+		},
+		{
 			'output/resources/css/styles-main.min.css': [
 				'components/css/fonts.css',
 				'components/plugins/bootstrap/css/bootstrap.min.css', 
 				'components/css/style.css',
 				'components/css/headers/header-default.css',
+				'components/css/footers/footer-default.css',
 				'components/css/footers/footer-v1.css',
 				'components/plugins/animate.css',
 	    		'components/plugins/line-icons/line-icons.css',
@@ -85,9 +100,7 @@ module.exports = function(grunt) {
 				'components/plugins/parallax-slider/js/modernizr.js',
 				'components/plugins/parallax-slider/js/jquery.cslider.js',
 				'components/plugins/owl-carousel/owl-carousel/owl.carousel.js',
-				'components/js/app.js',
-				'components/js/plugins/owl-carousel.js',
-				'components/js/plugins/parallax-slider.js'
+				'components/js/app.js'
 			]
 		  }
 		}

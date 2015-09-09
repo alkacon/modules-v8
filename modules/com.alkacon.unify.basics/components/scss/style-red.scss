@@ -1,11 +1,11 @@
 //
 // Alkacon Unify SCSS.
 // 
-// Main file - BLUE theme 
+// Main file - RED theme 
 //
 
 /*
- * Alkacon Unify CSS - BLUE theme
+ * Alkacon Unify CSS - RED theme
  *
  * -----------------------------------------------------------------------------
  * 
@@ -19,11 +19,11 @@
 @import 'defaultcolors'; 
 
 // Color values
-$theme-primary: $alkacon-blue;
+$theme-primary: $alkacon-red;
 $theme-primary-light: lighten($theme-primary, 40%);
 $theme-primary-lighter: lighten($theme-primary, 60%);
 
-$theme-secondary: $alkacon-blue;
+$theme-secondary: $alkacon-red;
 $theme-secondary-light: lighten($theme-secondary, 40%);
 $theme-secondary-lighter: lighten($theme-secondary, 60%);
 

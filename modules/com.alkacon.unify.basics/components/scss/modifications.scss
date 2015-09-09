@@ -1,7 +1,7 @@
 //
 // Alkacon Unify SCSS.
 // 
-// Sets navigation colors. 
+// Modifications to the common styles. 
 //
 
 /* Navigation colors.
@@ -91,4 +91,53 @@
 
 .sidebar-nav-v1 li ul, .sidebar-nav-v1 li.active ul a {
 	background-color: $nav-left-sub-bg;
+}
+
+/* Footer colors.
+----------------------------------------------------------------------------- */
+
+.footer-default .copyright {
+    background-color: #dddddd; //$gray;
+}
+
+.footer-default .copyright p {
+    color: #333333; //$text-dark;
+}
+
+/* Slider additional styles.
+----------------------------------------------------------------------------- */
+
+.tp-caption.mediumthickblackbg, .tp-caption.mediumthickgreybg,  .tp-caption.mediumthickwhitebg {
+font-size:36px;
+line-height:36px;
+font-weight:800;
+font-family:"Open Sans";
+text-decoration:none;
+text-shadow:none;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+padding: 0 4px;
+}
+
+.tp-caption.mediumthickblackbg {
+color:rgb(255, 255, 255);
+background-color:rgb(0, 0, 0);
+}
+
+.tp-caption.mediumthickgreybg {
+color:rgb(255, 255, 255);
+background-color:rgb(128, 128, 128);
+}
+
+.tp-caption.blackbgtransparent {
+background-color:rgb(0, 0, 0);
+/* RGBa with 0.6 opacity */
+background-color: rgba(0, 0, 0, 0.5);
+padding:7px;
+}
+
+.tp-caption.mediumthickwhitebg {
+color:rgb(0, 0, 0);
+background-color:rgb(255, 255, 255);
 }
