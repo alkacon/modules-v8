@@ -35,6 +35,8 @@
 			<resource uri="/system/workplace/resources/filetypes/u-flexible_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-slider.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-slider_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-tabs.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-tabs_big.png"/>
 		</resources>
 		<excluderesources/>
 		<parameters/>
@@ -53,6 +55,9 @@
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-slider" id="454">
 				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/slider.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-tabs" id="455">
+				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/tabs.xsd</param>
 			</type>
 		</resourcetypes>
 		<explorertypes>
@@ -73,6 +78,9 @@
 			</explorertype>
 			<explorertype name="u-slider" key="fileicon.u-slider" icon="u-slider.png" bigicon="u-slider_big.png" reference="xmlcontent">
 				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-slider" order="30" autosetnavigation="false" autosettitle="false" info="desc.u-slider" key="title.u-slider"/>
+			</explorertype>
+			<explorertype name="u-tabs" key="fileicon.u-tabs" icon="u-tabs.png" bigicon="u-tabs_big.png" reference="xmlcontent">
+				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-tabs" order="40" autosetnavigation="false" autosettitle="false" info="desc.u-tabs" key="title.u-tabs"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -245,6 +253,18 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.tabs</source>
+			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.tabs</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>1739d8ec-56e3-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>1739d8ed-56e3-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 11:08:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.text</source>
 			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.text</destination>
 			<type>xmlvfsbundle</type>
@@ -334,6 +354,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[XSD for a slider]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/tabs.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/tabs.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>20af6007-56e2-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>20af6008-56e2-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 11:01:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a tabs / accordion]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -604,6 +641,40 @@
 			<uuidstructure>9e2402d1-56ce-11e5-bfd9-0242ac11002b</uuidstructure>
 			<uuidresource>bfe3d7d8-56ce-11e5-bfd9-0242ac11002b</uuidresource>
 			<datecreated>Wed, 09 Sep 2015 08:42:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-tabs.png</source>
+			<destination>system/workplace/resources/filetypes/u-tabs.png</destination>
+			<type>image</type>
+			<uuidstructure>20be542a-56e2-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>b67b4e7e-56e2-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 11:05:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-tabs_big.png</source>
+			<destination>system/workplace/resources/filetypes/u-tabs_big.png</destination>
+			<type>image</type>
+			<uuidstructure>20c5f54e-56e2-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>c05806a3-56e2-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 11:05:59 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">

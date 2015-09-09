@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.UnifyTab.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTab.Title.help]]></Key>
+      <Value><![CDATA[The title is shown above the tabbed content.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTab.Item]]></Key>
+      <Value><![CDATA[Tab Item]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTab.Item.help]]></Key>
+      <Value><![CDATA[A tab item has a headline, a text and an optional image.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.BootstrapFlexibleElement.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the tabbed content. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Label]]></Key>
+      <Value><![CDATA[Label]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Label.help]]></Key>
+      <Value><![CDATA[The label of this tab.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Headline.help]]></Key>
+      <Value><![CDATA[The headline of this tab.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Text.help]]></Key>
+      <Value><![CDATA[The item text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Image.help]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Image.help]]></Key>
+      <Value><![CDATA[The image of the item.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.default.Title]]></Key>
+      <Value><![CDATA[New tabbed content]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.default.Label]]></Key>
+      <Value><![CDATA[Label]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.default.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.default.Text]]></Key>
+      <Value><![CDATA[Please edit the tab item text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.emptycontainer.headline]]></Key>
+      <Value><![CDATA[Empty tab]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.emptycontainer.text]]></Key>
+      <Value><![CDATA[Please drag a template row here.]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.UnifyTab.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTab.Title.help]]></Key>
+      <Value><![CDATA[Der Titel wird oberhalb der Reiter angezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTab.Item]]></Key>
+      <Value><![CDATA[Reiter]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTab.Item.help]]></Key>
+      <Value><![CDATA[Ein Reiter hat einen Namen, einen Text und ein optionales Bild.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTab.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTab.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel des Reiters für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Label]]></Key>
+      <Value><![CDATA[Reiter-Name]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Label.help]]></Key>
+      <Value><![CDATA[Bitte geben Sie einen Namen für den Reiter ein.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Headline]]></Key>
+      <Value><![CDATA[Überschrift]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Headline.help]]></Key>
+      <Value><![CDATA[Optionale Überschrift für den Reitertext.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Text.help]]></Key>
+      <Value><![CDATA[Ein Fließtext für den Reiter.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Image.help]]></Key>
+      <Value><![CDATA[Bild]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyTabItem.Image.help]]></Key>
+      <Value><![CDATA[Der absolute Pfad des anzuzeigenden Bildes. ]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.default.Title]]></Key>
+      <Value><![CDATA[Neuer Reiter]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.default.Label]]></Key>
+      <Value><![CDATA[Name]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.default.Headline]]></Key>
+      <Value><![CDATA[Überschrift]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.default.Text]]></Key>
+      <Value><![CDATA[Bitte bearbeiten Sie den Text des Reiters.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.emptycontainer.headline]]></Key>
+      <Value><![CDATA[Leerer Reiter]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.tabs.emptycontainer.text]]></Key>
+      <Value><![CDATA[Bitte ziehen Sie eine Templatezeile in den Reiter.]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

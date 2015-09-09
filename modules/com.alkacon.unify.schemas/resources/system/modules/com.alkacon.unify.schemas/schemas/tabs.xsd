@@ -1,0 +1,41 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+		
+	<xsd:element name="UnifyTabs" type="OpenCmsUnifyTabs"/>
+	
+	<xsd:complexType name="OpenCmsUnifyTabs">
+		<xsd:sequence>
+			<xsd:element name="UnifyTab" type="OpenCmsUnifyTab" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsUnifyTab">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Label" type="OpenCmsString" minOccurs="2" maxOccurs="8" />
+      		<xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.unify.schemas.tabs"/>
+			<mappings>
+				<mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
+				<mapping element="GalleryTitle" mapto="urlName" useDefault="true" />
+			</mappings>
+			<defaults>
+				<default element="Title" value="%(key.unify.tabs.default.Title)" />
+				<default element="Label" value="%(key.unify.tabs.default.Label)" />
+        <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Title)" resolveMacros="false" />
+			</defaults>
+			<searchsettings containerPageOnly="true"/>
+		  	<visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
+		</xsd:appinfo>
+	</xsd:annotation> 
+
+</xsd:schema>

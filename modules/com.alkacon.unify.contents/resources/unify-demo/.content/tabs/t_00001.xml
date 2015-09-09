@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTabs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/tabs.xsd">
+  <UnifyTab language="en">
+    <Title><![CDATA[Add a new title here]]></Title>
+    <Label><![CDATA[Label 1]]></Label>
+    <Label><![CDATA[Label 2]]></Label>
+  </UnifyTab>
+</UnifyTabs>

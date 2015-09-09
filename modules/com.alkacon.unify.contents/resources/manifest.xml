@@ -356,6 +356,33 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/.content/tabs</destination>
+			<type>folder</type>
+			<uuidstructure>42495612-56e5-11e5-aad7-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 11:23:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/tabs/t_00001.xml</source>
+			<destination>unify-demo/.content/tabs/t_00001.xml</destination>
+			<type>u-tabs</type>
+			<uuidstructure>4252a4e4-56e5-11e5-aad7-0242ac11002b</uuidstructure>
+			<uuidresource>4252a4e5-56e5-11e5-aad7-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 11:23:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Demo: Add a new title here]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/templaterows</destination>
 			<type>folder</type>
 			<uuidstructure>b41271b2-5609-11e5-b868-0242ac11002b</uuidstructure>

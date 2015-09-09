@@ -425,6 +425,114 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/tabs-accordion-config.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/tabs-accordion-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>f5c79265-56e3-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>f5c79266-56e3-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 11:14:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Tabs as accordion formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/tabs-accordion.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/tabs-accordion.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>ffcce12b-56e3-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>ffcce12c-56e3-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 11:14:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter JSP for tabs as accordion]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/tabs-standard-config.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/tabs-standard-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>20d8e115-56e2-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>20d8e116-56e2-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 11:01:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Tabs standard formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/tabs-standard.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/tabs-standard.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>20d49b52-56e2-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>20d49b53-56e2-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 11:01:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter JSP for tabs as standard tabs]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.formatters/formatters/templaterow-config.xml</source>
 			<destination>system/modules/com.alkacon.unify.formatters/formatters/templaterow-config.xml</destination>
 			<type>formatter_config</type>
