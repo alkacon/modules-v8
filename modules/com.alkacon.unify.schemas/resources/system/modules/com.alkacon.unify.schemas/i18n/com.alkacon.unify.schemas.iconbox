@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Headline.help]]></Key>
+      <Value><![CDATA[The headline of the box.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Icon]]></Key>
+      <Value><![CDATA[Icon]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Icon.help]]></Key>
+      <Value><![CDATA[The icon to show below the headline.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Text.help]]></Key>
+      <Value><![CDATA[The teaser text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Link.help]]></Key>
+      <Value><![CDATA[An optional link, can also be an external link starting with <strong>http://</strong>.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Color]]></Key>
+      <Value><![CDATA[Color]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Color.help]]></Key>
+      <Value><![CDATA[The background color of the icon box.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the icon box. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.default.Headline]]></Key>
+      <Value><![CDATA[New Icon Box]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.default.Text]]></Key>
+      <Value><![CDATA[Enter a text for the box.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.default]]></Key>
+      <Value><![CDATA[Default]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.red]]></Key>
+      <Value><![CDATA[Red]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.sea]]></Key>
+      <Value><![CDATA[Sea]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.grey]]></Key>
+      <Value><![CDATA[Grey]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.green]]></Key>
+      <Value><![CDATA[Green]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.blue]]></Key>
+      <Value><![CDATA[Blue]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.orange]]></Key>
+      <Value><![CDATA[Orange]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.yellow]]></Key>
+      <Value><![CDATA[Yellow]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.message.new]]></Key>
+      <Value><![CDATA[<strong>New Icon Box</strong>, please edit the content.]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Headline]]></Key>
+      <Value><![CDATA[Überschrift]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Headline.help]]></Key>
+      <Value><![CDATA[Die Überschrift der Box.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Icon]]></Key>
+      <Value><![CDATA[Icon]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Icon.help]]></Key>
+      <Value><![CDATA[Das Icon, das unterhalb der Überschrift angezeigt wird.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Text.help]]></Key>
+      <Value><![CDATA[Der Teaser Text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Link.help]]></Key>
+      <Value><![CDATA[Ein optionaler Link, externe Links müssen mit <strong>http://</strong> beginnen.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Color]]></Key>
+      <Value><![CDATA[Farbe]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.Color.help]]></Key>
+      <Value><![CDATA[Die Hintergrundfarbe der Icon Box.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyIconBox.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel der Icon Box für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.default.Headline]]></Key>
+      <Value><![CDATA[Neue Icon Box]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.default.Text]]></Key>
+      <Value><![CDATA[Geben Sie einen Text ein.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.default]]></Key>
+      <Value><![CDATA[Standard]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.red]]></Key>
+      <Value><![CDATA[Rot]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.sea]]></Key>
+      <Value><![CDATA[Meer]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.grey]]></Key>
+      <Value><![CDATA[Grau]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.green]]></Key>
+      <Value><![CDATA[Grün]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.blue]]></Key>
+      <Value><![CDATA[Blau]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.orange]]></Key>
+      <Value><![CDATA[Orange]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.color.yellow]]></Key>
+      <Value><![CDATA[Gelb]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.iconbox.message.new]]></Key>
+      <Value><![CDATA[<strong>Neue Icon Box</strong>, bitte bearbeiten Sie den Inhalt.]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

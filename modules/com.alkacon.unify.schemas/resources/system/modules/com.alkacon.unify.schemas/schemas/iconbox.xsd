@@ -1,0 +1,46 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="UnifyIconBoxs" type="OpenCmsUnifyIconBoxs"/>
+	
+	<xsd:complexType name="OpenCmsUnifyIconBoxs">
+		<xsd:sequence>
+			<xsd:element name="UnifyIconBox" type="OpenCmsUnifyIconBox" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsUnifyIconBox">
+		<xsd:sequence>
+			<xsd:element name="Headline" type="OpenCmsString" />
+			<xsd:element name="Icon" type="OpenCmsString" />
+			<xsd:element name="Text" type="OpenCmsString" />
+			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />
+      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.unify.schemas.iconbox"/>
+			<layouts>
+				<layout element="Icon" widget="ComboWidget" configuration="Bell|Bookmark|Bullhorn|Comments|Comments-AltEnvelope|Envelope-Alt|Exclamation|Globe|Heart|Key|Lightbulb|Mobile|Phone|Smile|Star|Thumbs-Up|Time|Unlock|EUR|USD" />
+				<layout element="Text" widget="TextareaWidget" configuration="3"/>
+			</layouts>
+			  <mappings>
+				  <mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
+				  <mapping element="GalleryTitle" mapto="urlName" useDefault="true" />
+			  </mappings>
+			  <defaults>
+				  <default element="Headline" value="%(key.unify.iconbox.default.Headline)" />
+				  <default element="Text" value="%(key.unify.iconbox.default.Text)" />
+				  <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Headline)" resolveMacros="false" />
+			  </defaults>
+			  <searchsettings containerPageOnly="true"/>
+			  <visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>

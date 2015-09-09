@@ -234,6 +234,33 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/.content/iconboxes</destination>
+			<type>folder</type>
+			<uuidstructure>7e50493a-5702-11e5-8281-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 09 Sep 2015 14:53:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00001.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00001.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>7e5e04dc-5702-11e5-8281-0242ac11002b</uuidstructure>
+			<uuidresource>7e5e04dd-5702-11e5-8281-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 14:53:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Demo: Test Icon Box]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/modelgroup</destination>
 			<type>folder</type>
 			<uuidstructure>5fea2add-5637-11e5-bfd9-0242ac11002b</uuidstructure>

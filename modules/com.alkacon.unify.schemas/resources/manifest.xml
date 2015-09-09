@@ -37,6 +37,8 @@
 			<resource uri="/system/workplace/resources/filetypes/u-slider_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-tabs.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-tabs_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-iconbox.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-iconbox_big.png"/>
 		</resources>
 		<excluderesources/>
 		<parameters/>
@@ -58,6 +60,9 @@
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-tabs" id="455">
 				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/tabs.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-iconbox" id="456">
+				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/iconbox.xsd</param>
 			</type>
 		</resourcetypes>
 		<explorertypes>
@@ -81,6 +86,9 @@
 			</explorertype>
 			<explorertype name="u-tabs" key="fileicon.u-tabs" icon="u-tabs.png" bigicon="u-tabs_big.png" reference="xmlcontent">
 				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-tabs" order="40" autosetnavigation="false" autosettitle="false" info="desc.u-tabs" key="title.u-tabs"/>
+			</explorertype>
+			<explorertype name="u-iconbox" key="fileicon.u-iconbox" icon="u-iconbox.png" bigicon="u-iconbox_big.png" reference="xmlcontent">
+				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-iconbox" order="50" autosetnavigation="false" autosettitle="false" info="desc.u-iconbox" key="title.u-iconbox"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -207,6 +215,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.iconbox</source>
+			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.iconbox</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>d1d4ee75-56ff-11e5-aad7-0242ac11002b</uuidstructure>
+			<uuidresource>d1d4ee76-56ff-11e5-aad7-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 14:34:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.navigation</source>
 			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.navigation</destination>
 			<type>xmlvfsbundle</type>
@@ -248,7 +273,12 @@
 			<uuidresource>b4f8b325-56cd-11e5-bfd9-0242ac11002b</uuidresource>
 			<datecreated>Wed, 09 Sep 2015 08:35:20 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -260,7 +290,12 @@
 			<uuidresource>1739d8ed-56e3-11e5-946f-0242ac11002b</uuidresource>
 			<datecreated>Wed, 09 Sep 2015 11:08:25 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -320,6 +355,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[XSD for a flexible element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/iconbox.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/iconbox.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>c55d2040-56fc-11e5-aad7-0242ac11002b</uuidstructure>
+			<uuidresource>c55d2041-56fc-11e5-aad7-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 14:12:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for an iconbox]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -556,6 +608,40 @@
 			<uuidstructure>9c8a9796-560d-11e5-b868-0242ac11002b</uuidstructure>
 			<uuidresource>c98925bd-560d-11e5-b868-0242ac11002b</uuidresource>
 			<datecreated>Tue, 08 Sep 2015 09:41:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-iconbox.png</source>
+			<destination>system/workplace/resources/filetypes/u-iconbox.png</destination>
+			<type>image</type>
+			<uuidstructure>c5731943-56fc-11e5-aad7-0242ac11002b</uuidstructure>
+			<uuidresource>7ec273a7-56ff-11e5-aad7-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 14:31:44 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-iconbox_big.png</source>
+			<destination>system/workplace/resources/filetypes/u-iconbox_big.png</destination>
+			<type>image</type>
+			<uuidstructure>c5784967-56fc-11e5-aad7-0242ac11002b</uuidstructure>
+			<uuidresource>aa2c09cc-56ff-11e5-aad7-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 14:32:57 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/iconbox.xsd">
+  <UnifyIconBox language="en">
+    <Headline><![CDATA[Test Icon Box]]></Headline>
+    <Icon><![CDATA[Comments]]></Icon>
+    <Text><![CDATA[Enter a text for the box.]]></Text>
+  </UnifyIconBox>
+</UnifyIconBoxs>
