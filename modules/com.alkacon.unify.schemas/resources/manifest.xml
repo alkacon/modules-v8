@@ -39,6 +39,10 @@
 			<resource uri="/system/workplace/resources/filetypes/u-tabs_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-iconbox.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-iconbox_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-carousel.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-carousel_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-imagegalleryshow.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-imagegalleryshow_big.png"/>
 		</resources>
 		<excluderesources/>
 		<parameters/>
@@ -63,6 +67,12 @@
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-iconbox" id="456">
 				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/iconbox.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-carousel" id="457">
+				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/carousel.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-imagegalleryshow" id="458">
+				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/imagegalleryshow.xsd</param>
 			</type>
 		</resourcetypes>
 		<explorertypes>
@@ -89,6 +99,12 @@
 			</explorertype>
 			<explorertype name="u-iconbox" key="fileicon.u-iconbox" icon="u-iconbox.png" bigicon="u-iconbox_big.png" reference="xmlcontent">
 				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-iconbox" order="50" autosetnavigation="false" autosettitle="false" info="desc.u-iconbox" key="title.u-iconbox"/>
+			</explorertype>
+			<explorertype name="u-carousel" key="fileicon.u-carousel" icon="u-carousel.png" bigicon="u-carousel_big.png" reference="xmlcontent">
+				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-carousel" order="60" autosetnavigation="false" autosettitle="false" info="desc.u-carousel" key="title.u-carousel"/>
+			</explorertype>
+			<explorertype name="u-imagegalleryshow" key="fileicon.u-imagegalleryshow" icon="u-imagegalleryshow.png" bigicon="u-imagegalleryshow_big.png" reference="xmlcontent">
+				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-imagegalleryshow" order="70" autosetnavigation="false" autosettitle="false" info="desc.u-imagegalleryshow" key="title.u-imagegalleryshow"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -198,6 +214,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.carousel</source>
+			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.carousel</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>53cdded4-57a1-11e5-8281-0242ac11002b</uuidstructure>
+			<uuidresource>53cdded5-57a1-11e5-8281-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 09:50:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.flexible</source>
 			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.flexible</destination>
 			<type>xmlvfsbundle</type>
@@ -221,6 +254,23 @@
 			<uuidstructure>d1d4ee75-56ff-11e5-aad7-0242ac11002b</uuidstructure>
 			<uuidresource>d1d4ee76-56ff-11e5-aad7-0242ac11002b</uuidresource>
 			<datecreated>Wed, 09 Sep 2015 14:34:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.imagegalleryshow</source>
+			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.imagegalleryshow</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>49573dde-57a6-11e5-bca2-0242ac11002b</uuidstructure>
+			<uuidresource>49573ddf-57a6-11e5-bca2-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 10:25:41 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -344,6 +394,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/carousel.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/carousel.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>2a6a03a0-57a1-11e5-8281-0242ac11002b</uuidstructure>
+			<uuidresource>2a6a03a1-57a1-11e5-8281-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 09:49:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a carousel]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.schemas/schemas/flexible.xsd</source>
 			<destination>system/modules/com.alkacon.unify.schemas/schemas/flexible.xsd</destination>
 			<type>plain</type>
@@ -372,6 +439,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[XSD for an iconbox]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/imagegalleryshow.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/imagegalleryshow.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>734092d9-57a5-11e5-bca2-0242ac11002b</uuidstructure>
+			<uuidresource>734092da-57a5-11e5-bca2-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 10:19:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for an image gallery show]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -469,6 +553,23 @@
 			<datecreated>Thu, 03 Sep 2015 13:28:31 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/nested/carouselitem.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/nested/carouselitem.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>329c98f7-57a2-11e5-8281-0242ac11002b</uuidstructure>
+			<uuidresource>329c98f8-57a2-11e5-8281-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 09:56:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for a carousel item]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -585,6 +686,40 @@
 			<properties/>
 		</file>
 		<file>
+			<source>system/workplace/resources/filetypes/u-carousel.png</source>
+			<destination>system/workplace/resources/filetypes/u-carousel.png</destination>
+			<type>image</type>
+			<uuidstructure>2a7bb6e3-57a1-11e5-8281-0242ac11002b</uuidstructure>
+			<uuidresource>972cba29-57a1-11e5-8281-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 09:52:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-carousel_big.png</source>
+			<destination>system/workplace/resources/filetypes/u-carousel_big.png</destination>
+			<type>image</type>
+			<uuidstructure>2a7fd597-57a1-11e5-8281-0242ac11002b</uuidstructure>
+			<uuidresource>9ee66b3e-57a1-11e5-8281-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 09:52:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/workplace/resources/filetypes/u-flexible.png</source>
 			<destination>system/workplace/resources/filetypes/u-flexible.png</destination>
 			<type>image</type>
@@ -642,6 +777,40 @@
 			<uuidstructure>c5784967-56fc-11e5-aad7-0242ac11002b</uuidstructure>
 			<uuidresource>aa2c09cc-56ff-11e5-aad7-0242ac11002b</uuidresource>
 			<datecreated>Wed, 09 Sep 2015 14:32:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-imagegalleryshow.png</source>
+			<destination>system/workplace/resources/filetypes/u-imagegalleryshow.png</destination>
+			<type>image</type>
+			<uuidstructure>7362249c-57a5-11e5-bca2-0242ac11002b</uuidstructure>
+			<uuidresource>9ef980a0-57a5-11e5-bca2-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 10:20:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-imagegalleryshow_big.png</source>
+			<destination>system/workplace/resources/filetypes/u-imagegalleryshow_big.png</destination>
+			<type>image</type>
+			<uuidstructure>73688c40-57a5-11e5-bca2-0242ac11002b</uuidstructure>
+			<uuidresource>a7539065-57a5-11e5-bca2-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 10:21:09 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">

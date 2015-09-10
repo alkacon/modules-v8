@@ -98,5 +98,29 @@
       <Key><![CDATA[fileicon.u-iconbox]]></Key>
       <Value><![CDATA[Icon Box]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[desc.u-carousel]]></Key>
+      <Value><![CDATA[This cycles through images like a carousel.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.u-carousel]]></Key>
+      <Value><![CDATA[Carousel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.u-carousel]]></Key>
+      <Value><![CDATA[New Carousel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.u-imagegalleryshow]]></Key>
+      <Value><![CDATA[Shows thumbnails of all images of a specific folder.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.u-imagegalleryshow]]></Key>
+      <Value><![CDATA[Image Gallery Show]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.u-imagegalleryshow]]></Key>
+      <Value><![CDATA[New Image Gallery Show]]></Value>
+    </Message>
   </Bundle>
 </XmlVfsBundles>

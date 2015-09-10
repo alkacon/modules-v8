@@ -1,0 +1,31 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="UnifyCarouselItems" type="OpenCmsUnifyCarouselItems"/>
+	
+	<xsd:complexType name="OpenCmsUnifyCarouselItems">
+		<xsd:sequence>
+			<xsd:element name="UnifyCarouselItem" type="OpenCmsUnifyCarouselItem" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsUnifyCarouselItem">
+		<xsd:sequence>
+			<xsd:element name="Image" type="OpenCmsVfsFile" />
+			<xsd:element name="Headline" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="Text" type="OpenCmsString" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.unify.schemas.carousel"/>
+			<layouts>
+				<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat: true}" />
+				<layout element="Text" widget="TextareaWidget" configuration="2"/>
+			</layouts>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>

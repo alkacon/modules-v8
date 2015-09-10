@@ -862,6 +862,135 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/img/overlay-icon.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/img/overlay-icon.png</destination>
+			<type>image</type>
+			<uuidstructure>5abe2bc8-57a9-11e5-8e67-0242ac11002b</uuidstructure>
+			<uuidresource>5abe2bc9-57a9-11e5-8e67-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 10:47:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/resources/img/fancybox</destination>
+			<type>folder</type>
+			<uuidstructure>d6d5fc0f-57ab-11e5-8e67-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 10 Sep 2015 11:05:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/img/fancybox/blank.gif</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/img/fancybox/blank.gif</destination>
+			<type>image</type>
+			<uuidstructure>f84f792a-57ab-11e5-8e67-0242ac11002b</uuidstructure>
+			<uuidresource>f84f792b-57ab-11e5-8e67-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 11:06:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1,h:1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/img/fancybox/fancybox_loading.gif</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/img/fancybox/fancybox_loading.gif</destination>
+			<type>image</type>
+			<uuidstructure>f863765d-57ab-11e5-8e67-0242ac11002b</uuidstructure>
+			<uuidresource>f863765e-57ab-11e5-8e67-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 11:06:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/img/fancybox/fancybox_loading2x.gif</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/img/fancybox/fancybox_loading2x.gif</destination>
+			<type>image</type>
+			<uuidstructure>f8774c80-57ab-11e5-8e67-0242ac11002b</uuidstructure>
+			<uuidresource>f8774c81-57ab-11e5-8e67-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 11:06:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:48,h:48]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/img/fancybox/fancybox_overlay.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/img/fancybox/fancybox_overlay.png</destination>
+			<type>image</type>
+			<uuidstructure>f81d4594-57ab-11e5-8e67-0242ac11002b</uuidstructure>
+			<uuidresource>f81d4595-57ab-11e5-8e67-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 11:06:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:10,h:10]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/img/fancybox/fancybox_sprite.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/img/fancybox/fancybox_sprite.png</destination>
+			<type>image</type>
+			<uuidstructure>f7f8f4b1-57ab-11e5-8e67-0242ac11002b</uuidstructure>
+			<uuidresource>f7f8f4b2-57ab-11e5-8e67-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 11:06:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:44,h:152]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/resources/img/fancybox/fancybox_sprite2x.png</source>
+			<destination>system/modules/com.alkacon.unify.basics/resources/img/fancybox/fancybox_sprite2x.png</destination>
+			<type>image</type>
+			<uuidstructure>f8303157-57ab-11e5-8e67-0242ac11002b</uuidstructure>
+			<uuidresource>f8303158-57ab-11e5-8e67-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 11:06:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:88,h:304]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.unify.basics/resources/img/icons</destination>
 			<type>folder</type>
 			<uuidstructure>0bf4f42c-5159-11e5-abeb-0242ac11002b</uuidstructure>

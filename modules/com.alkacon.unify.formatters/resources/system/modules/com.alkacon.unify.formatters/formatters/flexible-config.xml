@@ -2,7 +2,7 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
-    <NiceName><![CDATA[ Flexible Content formatter]]></NiceName>
+    <NiceName><![CDATA[Flexible Content formatter]]></NiceName>
     <Type><![CDATA[u-flexible]]></Type>
     <Jsp>
       <link type="WEAK">
