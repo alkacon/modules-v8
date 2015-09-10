@@ -93,6 +93,20 @@
 	background-color: $nav-left-sub-bg;
 }
 
+/* Red boxes, buttons should always use "OpenCms red".
+----------------------------------------------------------------------------- */
+
+.btn-u-red {
+   background: $alkacon-red !important;
+}
+.btn-u-red:hover {
+   background: lighten($alkacon-red, 30%) !important;
+}
+
+.service-block-red, i.icon-bg-red {
+    background-color: $alkacon-red;
+}
+
 /* Footer colors.
 ----------------------------------------------------------------------------- */
 
@@ -139,36 +153,43 @@
 ----------------------------------------------------------------------------- */
 
 .tp-caption.mediumthickblackbg, .tp-caption.mediumthickgreybg,  .tp-caption.mediumthickwhitebg {
-font-size:36px;
-line-height:36px;
-font-weight:800;
-font-family:"Open Sans";
-text-decoration:none;
-text-shadow:none;
-border-width:0px;
-border-color:rgb(255, 255, 255);
-border-style:none;
-padding: 0 4px;
+	font-size:36px;
+	line-height:36px;
+	font-weight:800;
+	font-family:"Open Sans";
+	text-decoration:none;
+	text-shadow:none;
+	border-width:0px;
+	border-color:rgb(255, 255, 255);
+	border-style:none;
+	padding: 0 4px;
 }
 
 .tp-caption.mediumthickblackbg {
-color:rgb(255, 255, 255);
-background-color:rgb(0, 0, 0);
+	color:rgb(255, 255, 255);
+	background-color:rgb(0, 0, 0);
 }
 
 .tp-caption.mediumthickgreybg {
-color:rgb(255, 255, 255);
-background-color:rgb(128, 128, 128);
+	color:rgb(255, 255, 255);
+	background-color:rgb(128, 128, 128);
 }
 
 .tp-caption.blackbgtransparent {
-background-color:rgb(0, 0, 0);
-/* RGBa with 0.6 opacity */
-background-color: rgba(0, 0, 0, 0.5);
-padding:7px;
+	background-color:rgb(0, 0, 0);
+	/* RGBa with 0.6 opacity */
+	background-color: rgba(0, 0, 0, 0.5);
+	padding:7px;
 }
 
 .tp-caption.mediumthickwhitebg {
-color:rgb(0, 0, 0);
-background-color:rgb(255, 255, 255);
+	color:rgb(0, 0, 0);
+	background-color:rgb(255, 255, 255);
+}
+
+/* Social icons.
+----------------------------------------------------------------------------- */
+
+.social_slideshare {
+    background: url("../img/icons/social/slideshare.png") no-repeat;
 }

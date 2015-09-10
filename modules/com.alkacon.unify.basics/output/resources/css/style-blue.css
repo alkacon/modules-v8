@@ -3387,24 +3387,38 @@ i.icon-bg-u {
 .sidebar-nav-v1 li ul, .sidebar-nav-v1 li.active ul a {
   background-color: #f5f5f5; }
 
-/* Footer colors.
+/* Red boxes, buttons should always use "OpenCms red".
 ----------------------------------------------------------------------------- */
 /* line 99, ../../../components/scss/modifications.scss */
+.btn-u-red {
+  background: #b31b34 !important; }
+
+/* line 102, ../../../components/scss/modifications.scss */
+.btn-u-red:hover {
+  background: #eb7c8e !important; }
+
+/* line 106, ../../../components/scss/modifications.scss */
+.service-block-red, i.icon-bg-red {
+  background-color: #b31b34; }
+
+/* Footer colors.
+----------------------------------------------------------------------------- */
+/* line 113, ../../../components/scss/modifications.scss */
 .footer-default .copyright {
   background-color: #dddddd; }
 
-/* line 103, ../../../components/scss/modifications.scss */
+/* line 117, ../../../components/scss/modifications.scss */
 .footer-default .copyright p {
   color: #333333; }
 
 /* Fancybox additions for zoom effect.
 ----------------------------------------------------------------------------- */
-/* line 110, ../../../components/scss/modifications.scss */
+/* line 124, ../../../components/scss/modifications.scss */
 .zoomer:hover .overlay-zoom .zoom-icon {
   opacity: 0.4;
   transform: scale(1); }
 
-/* line 114, ../../../components/scss/modifications.scss */
+/* line 128, ../../../components/scss/modifications.scss */
 .overlay-zoom {
   cursor: pointer;
   display: block;
@@ -3414,7 +3428,7 @@ i.icon-bg-u {
   width: 100%;
   z-index: 90; }
 
-/* line 123, ../../../components/scss/modifications.scss */
+/* line 137, ../../../components/scss/modifications.scss */
 .overlay-zoom .zoom-icon {
   background-color: #000;
   background-image: url("../img/overlay-icon.png");
@@ -3431,7 +3445,7 @@ i.icon-bg-u {
 
 /* Slider additional styles.
 ----------------------------------------------------------------------------- */
-/* line 141, ../../../components/scss/modifications.scss */
+/* line 155, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickblackbg, .tp-caption.mediumthickgreybg, .tp-caption.mediumthickwhitebg {
   font-size: 36px;
   line-height: 36px;
@@ -3444,26 +3458,32 @@ i.icon-bg-u {
   border-style: none;
   padding: 0 4px; }
 
-/* line 154, ../../../components/scss/modifications.scss */
+/* line 168, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickblackbg {
   color: white;
   background-color: black; }
 
-/* line 159, ../../../components/scss/modifications.scss */
+/* line 173, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickgreybg {
   color: white;
   background-color: gray; }
 
-/* line 164, ../../../components/scss/modifications.scss */
+/* line 178, ../../../components/scss/modifications.scss */
 .tp-caption.blackbgtransparent {
   background-color: black;
   /* RGBa with 0.6 opacity */
   background-color: rgba(0, 0, 0, 0.5);
   padding: 7px; }
 
-/* line 171, ../../../components/scss/modifications.scss */
+/* line 185, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickwhitebg {
   color: black;
   background-color: white; }
+
+/* Social icons.
+----------------------------------------------------------------------------- */
+/* line 193, ../../../components/scss/modifications.scss */
+.social_slideshare {
+  background: url("../img/icons/social/slideshare.png") no-repeat; }
 
 /*# sourceMappingURL=style-blue.css.map */
