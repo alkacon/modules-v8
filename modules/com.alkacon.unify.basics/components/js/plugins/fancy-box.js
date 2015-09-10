@@ -29,6 +29,18 @@ var FancyBox = function () {
                 closeEffect : 'fade',
                 openEffect  : 'elastic'
             });
+            
+            jQuery(".fancybox-gallery").fancybox({
+                groupAttr: 'data-rel',
+                prevEffect: 'none',
+                nextEffect: 'none',
+                closeBtn: true,
+                helpers: {
+                    title: {
+                        type: 'inside'
+                        }
+                    }
+            });
         }
 
     };

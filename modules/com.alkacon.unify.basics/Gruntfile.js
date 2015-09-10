@@ -76,6 +76,7 @@ module.exports = function(grunt) {
 				'components/plugins/animate.css',
 	    		'components/plugins/line-icons/line-icons.css',
 	    		'components/plugins/font-awesome/css/font-awesome.min.css',
+	    		'components/plugins/fancybox/source/jquery.fancybox.css',
 	   			'components/plugins/parallax-slider/css/parallax-slider.css',
 	    		'components/plugins/owl-carousel/owl-carousel/owl.carousel.css',
 				'!output/resources/css/*.min.css'
@@ -97,6 +98,8 @@ module.exports = function(grunt) {
 				'components/plugins/bootstrap-paginator/bootstrap-paginator.min.js',
 				'components/plugins/back-to-top.js',
 				'components/plugins/smoothScroll.js',
+				'components/plugins/fancybox/source/jquery.fancybox.js',
+				'components/js/plugins/fancy-box.js',
 				'components/plugins/parallax-slider/js/modernizr.js',
 				'components/plugins/parallax-slider/js/jquery.cslider.js',
 				'components/plugins/owl-carousel/owl-carousel/owl.carousel.js',
