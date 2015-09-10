@@ -190,6 +190,16 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/.content/blogentries</destination>
+			<type>folder</type>
+			<uuidstructure>4e46c146-57cd-11e5-b803-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 10 Sep 2015 15:04:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/flexiblecontents</destination>
 			<type>folder</type>
 			<uuidstructure>f316855b-562b-11e5-bfd9-0242ac11002b</uuidstructure>
