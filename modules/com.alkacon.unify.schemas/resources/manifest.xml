@@ -45,6 +45,8 @@
 			<resource uri="/system/workplace/resources/filetypes/u-imagegalleryshow_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-blog.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-blog_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-list.png"/>
+			<resource uri="/system/workplace/resources/filetypes/u-list_big.png"/>
 		</resources>
 		<excluderesources/>
 		<parameters/>
@@ -78,6 +80,9 @@
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-blog" id="459">
 				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/blog.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-list" id="460">
+				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/list.xsd</param>
 			</type>
 		</resourcetypes>
 		<explorertypes>
@@ -113,6 +118,9 @@
 			</explorertype>
 			<explorertype name="u-blog" key="fileicon.u-blog" icon="u-blog.png" bigicon="u-blog_big.png" reference="xmlcontent">
 				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-blog" order="80" autosetnavigation="false" autosettitle="false" info="desc.u-blog" key="title.u-blog"/>
+			</explorertype>
+			<explorertype name="u-list" key="fileicon.u-list" icon="u-list.png" bigicon="u-list_big.png" reference="xmlcontent">
+				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-list" order="90" autosetnavigation="false" autosettitle="false" info="desc.u-list" key="title.u-list"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -198,16 +206,6 @@
 					<value><![CDATA[true]]></value>
 				</property>
 			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.unify.schemas/formatters</destination>
-			<type>folder</type>
-			<uuidstructure>9e30d415-56ce-11e5-bfd9-0242ac11002b</uuidstructure>
-			<datecreated>Wed, 09 Sep 2015 08:41:52 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -515,6 +513,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[XSD for an image gallery show]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/schemas/list.xsd</source>
+			<destination>system/modules/com.alkacon.unify.schemas/schemas/list.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>7c56cd3d-57d2-11e5-b803-0242ac11002b</uuidstructure>
+			<uuidresource>7c56cd3e-57d2-11e5-b803-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 15:42:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for a list]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -938,6 +953,40 @@
 			<uuidstructure>73688c40-57a5-11e5-bca2-0242ac11002b</uuidstructure>
 			<uuidresource>a7539065-57a5-11e5-bca2-0242ac11002b</uuidresource>
 			<datecreated>Thu, 10 Sep 2015 10:21:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-list.png</source>
+			<destination>system/workplace/resources/filetypes/u-list.png</destination>
+			<type>image</type>
+			<uuidstructure>7c5ebb80-57d2-11e5-b803-0242ac11002b</uuidstructure>
+			<uuidresource>1a336564-57d3-11e5-b803-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 15:46:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/u-list_big.png</source>
+			<destination>system/workplace/resources/filetypes/u-list_big.png</destination>
+			<type>image</type>
+			<uuidstructure>7c61efd4-57d2-11e5-b803-0242ac11002b</uuidstructure>
+			<uuidresource>24139ff9-57d3-11e5-b803-0242ac11002b</uuidresource>
+			<datecreated>Thu, 10 Sep 2015 15:46:45 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">

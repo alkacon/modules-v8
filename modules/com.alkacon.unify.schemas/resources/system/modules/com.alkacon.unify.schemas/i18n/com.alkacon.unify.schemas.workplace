@@ -134,5 +134,17 @@
       <Key><![CDATA[fileicon.u-blog]]></Key>
       <Value><![CDATA[Blog Entry]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[desc.u-list]]></Key>
+      <Value><![CDATA[Shows a list of collected blog entries.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.u-list]]></Key>
+      <Value><![CDATA[New Blog List]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.u-list]]></Key>
+      <Value><![CDATA[Blog List]]></Value>
+    </Message>
   </Bundle>
 </XmlVfsBundles>

@@ -107,6 +107,31 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.formatters/elements/list-singlepage.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/elements/list-singlepage.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>7db0254c-5872-11e5-b803-0242ac11002b</uuidstructure>
+			<uuidresource>7db0254d-5872-11e5-b803-0242ac11002b</uuidresource>
+			<datecreated>Fri, 11 Sep 2015 10:47:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[List AJAX element]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[params=(pageUri,__locale,itemsPerPage,collectorParam,teaserLength,currPage,buttonColor,showDate)]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.formatters/elements/model-box-end.jsp</source>
 			<destination>system/modules/com.alkacon.unify.formatters/elements/model-box-end.jsp</destination>
 			<type>jsp</type>
@@ -507,6 +532,56 @@
 				<property>
 					<name>cache</name>
 					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/list-config.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/list-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>d268a456-5871-11e5-b803-0242ac11002b</uuidstructure>
+			<uuidresource>d268a457-5871-11e5-b803-0242ac11002b</uuidresource>
+			<datecreated>Fri, 11 Sep 2015 10:42:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[List formatter for Blog Entries]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/list.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/list.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>d2619f72-5871-11e5-b803-0242ac11002b</uuidstructure>
+			<uuidresource>d2619f73-5871-11e5-b803-0242ac11002b</uuidresource>
+			<datecreated>Fri, 11 Sep 2015 10:42:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter JSP for Lists]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>

@@ -298,6 +298,33 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/.content/lists</destination>
+			<type>folder</type>
+			<uuidstructure>2a8667a4-5874-11e5-a17e-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 11 Sep 2015 10:59:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/lists/bl_00001.xml</source>
+			<destination>unify-demo/.content/lists/bl_00001.xml</destination>
+			<type>u-list</type>
+			<uuidstructure>2a8a5f46-5874-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>2a8a5f47-5874-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 11 Sep 2015 10:59:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Demo: Latest entries]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/modelgroup</destination>
 			<type>folder</type>
 			<uuidstructure>5fea2add-5637-11e5-bfd9-0242ac11002b</uuidstructure>

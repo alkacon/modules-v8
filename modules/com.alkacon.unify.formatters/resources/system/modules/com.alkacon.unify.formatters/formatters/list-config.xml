@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[List formatter for Blog Entries]]></NiceName>
+    <Type><![CDATA[u-list]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/list.jsp]]></target>
+        <uuid>d2619f72-5871-11e5-b803-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[default]]></ContainerType>
+        <ContainerType><![CDATA[blog]]></ContainerType>
+        <ContainerType><![CDATA[list]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[hidetitle]]></PropertyName>
+      <DisplayName><![CDATA[%(key.unify.setting.hidetitle)]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[showdate]]></PropertyName>
+      <DisplayName><![CDATA[%(key.unify.setting.showdate)]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[true]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[buttoncolor]]></PropertyName>
+      <DisplayName><![CDATA[%(key.unify.setting.buttoncolor)]]></DisplayName>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[red]]></Default>
+      <WidgetConfig><![CDATA[red:%(key.unify.setting.color.red)|sea:%(key.unify.setting.color.sea)|green:%(key.unify.setting.color.green)|blue:%(key.unify.setting.color.blue)|orange:%(key.unify.setting.color.orange)|yellow:%(key.unify.setting.color.yellow)]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[teaserlength]]></PropertyName>
+      <DisplayName><![CDATA[%(key.unify.setting.teaserlength)]]></DisplayName>
+      <Widget><![CDATA[string]]></Widget>
+      <Default><![CDATA[200]]></Default>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>
