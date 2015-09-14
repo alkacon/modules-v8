@@ -2,8 +2,8 @@
 
 <BootstrapIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/iconbox.xsd">
   <BootstrapIconBox language="en">
-    <Headline><![CDATA[OpenCms can do it!]]></Headline>
-    <Icon><![CDATA[Thumbs-Up]]></Icon>
-    <Text><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.]]></Text>
+    <Headline><![CDATA[Fully Responsive]]></Headline>
+    <Icon><![CDATA[Mobile]]></Icon>
+    <Text><![CDATA[Donec quam felis, ultricies nec, pellentesque eu, pretium quis, ipsum sem.]]></Text>
   </BootstrapIconBox>
 </BootstrapIconBoxs>

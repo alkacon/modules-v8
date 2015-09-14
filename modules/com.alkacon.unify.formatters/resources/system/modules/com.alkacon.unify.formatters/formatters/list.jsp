@@ -75,7 +75,7 @@
             </c:choose>
 
           <c:if test="${pages > 1}">
-             <ul id="list_large_pagination"></ul>
+             <ul id="list_pagination"></ul>
           </c:if>
 
 					<c:if test="${con.value.Link.exists}">
@@ -89,24 +89,22 @@
             var currentLargePage = 1;
             var lastLargePage = 1;
 
-  					var options = {
-  						bootstrapMajorVersion: 3,
-  						size: "normal",
-  						currentPage: 1,
-  						numberOfPages: 5,
-  						onPageClicked: function(e,originalEvent,type,page){
-  							loadLargeListPage(page);
-  						},
-  						totalPages: ${pages}
-  					}
-
-  					$("#list_large_pagination").bootstrapPaginator(options);
+			var options = {
+				bootstrapMajorVersion: 3,
+				size: "normal",
+				currentPage: 1,
+				numberOfPages: 5,
+				onPageClicked: function(e,originalEvent,type,page){
+					loadLargeListPage(page);
+				},
+				totalPages: ${pages}
+			}
 
             function loadLargeListPage(page) {
               lastLargePage = currentLargePage;
 	          currentLargePage = page;
               if (lastLargePage != currentLargePage) {
-            		if ($('#list_large_page_' + page).length == 0 ) {
+            		if ($('#list_page_' + page).length == 0 ) {
 
             			$.post("<cms:link>%(link.weak:/system/modules/com.alkacon.unify.formatters/elements/list-singlepage.jsp:7db0254c-5872-11e5-b803-0242ac11002b)</cms:link>", { 
                   	pageUri: "${cms.requestContext.uri}", 

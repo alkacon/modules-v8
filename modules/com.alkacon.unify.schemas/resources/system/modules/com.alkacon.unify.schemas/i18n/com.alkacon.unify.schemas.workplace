@@ -146,5 +146,17 @@
       <Key><![CDATA[fileicon.u-list]]></Key>
       <Value><![CDATA[Blog List]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[title.u-map]]></Key>
+      <Value><![CDATA[New Location Map]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.u-map]]></Key>
+      <Value><![CDATA[Generates a location map.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.u-map]]></Key>
+      <Value><![CDATA[Location Map]]></Value>
+    </Message>
   </Bundle>
 </XmlVfsBundles>

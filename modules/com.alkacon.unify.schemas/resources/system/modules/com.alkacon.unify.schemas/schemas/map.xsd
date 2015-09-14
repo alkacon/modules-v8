@@ -1,0 +1,58 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/nested/map-coord.xsd"/>
+
+	<xsd:element name="UnifyMaps" type="OpenCmsUnifyMaps"/>
+	
+	<xsd:complexType name="OpenCmsUnifyMaps">
+		<xsd:sequence>
+			<xsd:element name="UnifyMap" type="OpenCmsUnifyMap" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsUnifyMap">
+		<xsd:sequence>
+			<xsd:element name="Headline" type="OpenCmsString" />
+			<xsd:element name="Text" type="OpenCmsHtml" />
+			<xsd:element name="MapSize" type="OpenCmsString" />
+			<xsd:element name="MapType" type="OpenCmsString" />
+			<xsd:element name="MapZoom" type="OpenCmsString" />
+			<xsd:element name="Route" type="OpenCmsBoolean" />
+			<xsd:element name="ShowMarkers" type="OpenCmsBoolean" />
+			<xsd:element name="MapCoord" type="OpenCmsUnifyMapCoord" minOccurs="1" maxOccurs="30" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.unify.schemas.map"/>
+			<defaults>
+				<default element="MapSize" value="100%x400" />
+				<default element="ShowMarkers" value="true" />
+				<default element="MapCoord/Coord" value="lat:50.947487,lng:6.941113,zoom:14,type:'roadmap',mode:'dynamic'"/>
+			</defaults>
+			<layouts useAcacia="true">
+				<layout element="Text" widget="HtmlWidget" configuration="source,link,anchor,specialchar" />
+				<layout element="MapSize" widget="ComboWidget" configuration="150x150|200x150|300x200|400x300|500x350|600x400|100%x400|100%x500" />
+				<layout element="MapType" widget="SelectorWidget" configuration="ROADMAP:Roadmap|SATELLITE:Satellite|HYBRID:Hybrid" />
+				<layout element="MapZoom" widget="SelectorWidget" configuration="2|3|4|5|6|7|8|9|10|11|12|13|14*|15|16|17|18|19|20" />
+			</layouts>
+			<mappings>
+				<mapping element="Headline" mapto="property:Title" />
+			</mappings>
+			<tabs>
+				<tab element="Headline" name="General" collapse="false" />
+				<tab element="MapCoord" name="Points" collapse="false" />
+			</tabs>
+			<searchsettings containerPageOnly="true">
+			  	<searchsetting element="MapSize" searchcontent="false"/>
+                <searchsetting element="MapType" searchcontent="false"/>
+                <searchsetting element="MapZoom" searchcontent="false"/>
+                <searchsetting element="Route" searchcontent="false"/>
+                <searchsetting element="ShowMarkers" searchcontent="false"/>
+			</searchsettings>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>

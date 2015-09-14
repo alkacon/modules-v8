@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.UnifyMap.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.Headline.help]]></Key>
+      <Value><![CDATA[The headline for the page showing the map.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.Text]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.Text.help]]></Key>
+      <Value><![CDATA[The text is shown with the map.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.MapSize]]></Key>
+      <Value><![CDATA[Map size]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.MapSize.help]]></Key>
+      <Value><![CDATA[The size of the generated map in pixels, the format is &quot;width x height&quot;. Percent notation (%) can also be used, e.g. &quot;100%x400&quot;.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.MapType]]></Key>
+      <Value><![CDATA[Map type]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.MapType.help]]></Key>
+      <Value><![CDATA[The map type that is shown.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.MapZoom]]></Key>
+      <Value><![CDATA[Zoom]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.MapZoom.help]]></Key>
+      <Value><![CDATA[The zoom factor of the generated map.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.Route]]></Key>
+      <Value><![CDATA[Route]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.Route.help]]></Key>
+      <Value><![CDATA[If checked, the page will show a route planner to a target (first entry of coordinates).]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.ShowMarkers]]></Key>
+      <Value><![CDATA[Show Markers]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.ShowMarkers.help]]></Key>
+      <Value><![CDATA[If checked, the markers will be shown in the map immediately.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.MapCoord]]></Key>
+      <Value><![CDATA[Coordinates]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMapCoord.Caption]]></Key>
+      <Value><![CDATA[Caption]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMapCoord.Caption.help]]></Key>
+      <Value><![CDATA[The caption of the coordinates.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMapCoord.Address]]></Key>
+      <Value><![CDATA[Address]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMapCoord.Address.help]]></Key>
+      <Value><![CDATA[The optional address for the coordinates. If the address should not be calculated by Google, enter here an address to show.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMapCoord.MarkerGroup]]></Key>
+      <Value><![CDATA[Marker Group]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMapCoord.MarkerGroup.help]]></Key>
+      <Value><![CDATA[The optional group marker name of the point. Use this option to group coordinate points. Use the same group name for all group members.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMapCoord.Coord]]></Key>
+      <Value><![CDATA[Coordinates]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMapCoord.Coord.help]]></Key>
+      <Value><![CDATA[The exact coordinates of the point to show.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.General]]></Key>
+      <Value><![CDATA[Settings]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyMap.Points]]></Key>
+      <Value><![CDATA[Coordinates]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

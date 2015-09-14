@@ -44,7 +44,11 @@
 				</property>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[0.13]]></value>
+					<value><![CDATA[0.12]]></value>
+				</property>
+				<property>
+					<name>NavStartLevel</name>
+					<value><![CDATA[1]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -52,11 +56,15 @@
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Unify Demo]]></value>
+					<value><![CDATA[Demo Website]]></value>
 				</property>
 				<property>
 					<name>locale</name>
 					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.subsite</name>
+					<value><![CDATA[Unify Demo]]></value>
 				</property>
 				<property>
 					<name>template</name>
@@ -84,7 +92,12 @@
 			<uuidstructure>049a596d-5225-11e5-9495-0242ac11002b</uuidstructure>
 			<datecreated>Thu, 03 Sep 2015 10:17:44 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Website demo contents]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -200,6 +213,530 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>unify-demo/.content/blogentries/be_00001.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00001.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>cb36a982-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb36a983-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 12:38:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is intuitive]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/blogentries/be_00002.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00002.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>cb38cc65-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb38cc66-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 12:38:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is just fun]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>5ce3fc25-5535-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/transportation/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/blogentries/be_00003.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00003.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>cb3aa128-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb3aa129-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 12:38:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is the tool]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>acb97052-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/04_high/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bbef2688-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/people/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/blogentries/be_00004.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00004.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>cb3c4edb-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb3c4edc-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 12:38:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is easy]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>bab32ac8-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/02_low/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>5ce3fc25-5535-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/transportation/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/blogentries/be_00005.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00005.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>cb3ee6ee-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb3ee6ef-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 12:38:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is powerful]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>f41fca37-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/northamerica/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a2182faf-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/05_very_high/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>5ce3fc25-5535-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/transportation/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/blogentries/be_00006.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00006.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>cb41f431-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb41f432-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 12:38:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is simple to use]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>0825108d-7194-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/asia/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a2182faf-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/05_very_high/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bbef2688-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/people/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>5ce3fc25-5535-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/transportation/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/blogentries/be_00007.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00007.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>cb510f64-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb510f65-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 12:38:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is feature rich]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>01e3597a-7194-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/southamerica/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>bbef2688-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/people/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/blogentries/be_00008.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00008.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>cb533247-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb533248-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 15:46:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is awesome]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>0d18c3d0-7194-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/australia/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>b5e32c25-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/03_medium/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>52a797d2-5535-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/buildings/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>5ce3fc25-5535-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/transportation/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/blogentries/be_00009.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00009.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>cb55070a-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb55070b-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 15:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms can do it]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>a2182faf-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/05_very_high/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/blogentries/be_00010.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00010.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>cb58626d-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb58626e-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 15:55:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is right for the job]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>acb97052-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/04_high/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>06a1f766-718d-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/priority/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>52a797d2-5535-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/buildings/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/.content/blogentries/images-ugc</destination>
+			<type>imagegallery</type>
+			<uuidstructure>cb5f1937-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 23 Oct 2014 14:15:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Images uploaded for posts by UGC]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/.content/carousels</destination>
+			<type>folder</type>
+			<uuidstructure>cb609fda-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 15 Sep 2014 15:04:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/carousels/c_00002.xml</source>
+			<destination>unify-demo/.content/carousels/c_00002.xml</destination>
+			<type>u-carousel</type>
+			<uuidstructure>cb61ff6c-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb61ff6d-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 12:58:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[4 Technicals]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/carousels/c_00003.xml</source>
+			<destination>unify-demo/.content/carousels/c_00003.xml</destination>
+			<type>u-carousel</type>
+			<uuidstructure>cb64495f-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb644960-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 28 Oct 2014 17:07:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[It's just easy]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/flexiblecontents</destination>
 			<type>folder</type>
 			<uuidstructure>f316855b-562b-11e5-bfd9-0242ac11002b</uuidstructure>
@@ -264,7 +801,364 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Unify Demo: Test Icon Box]]></value>
+					<value><![CDATA[Demo Website: OpenCms can do it!]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00002.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00002.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb6c5fb6-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb6c5fb7-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 02 Oct 2014 09:20:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Powerful and feature rich CMS]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00003.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00003.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb700939-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb70093a-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 11:06:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Responsive]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00004.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00004.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb71ddfc-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb71ddfd-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 11:08:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Grid Layout]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00005.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00005.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb73d9cf-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb73d9d0-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 11:10:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Total Control]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00006.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00006.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb75ae92-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb75ae93-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 11:11:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inline Editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00007.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00007.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb775c45-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb775c46-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 07:28:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Three columns]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00008.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00008.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb78e2e8-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb78e2e9-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 07:36:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Fully Responsive]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00009.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00009.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb7ab7ab-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb7ab7ac-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 07:37:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Flexible Grid]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00010.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00010.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb7d4fbe-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb7d4fbf-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 08:12:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[What is new in OpenCms?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00011.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00011.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb7efd71-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb7efd72-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 08:13:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The features of OpenCms?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00012.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00012.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb80ab24-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb80ab25-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 08:15:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[How to migrate to OpenCms?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00014.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00014.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb8258d7-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb8258d8-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 24 Oct 2014 08:02:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms is awesome!]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00015.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00015.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb853f0a-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb853f0b-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 14:40:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms can do it!]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00016.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00016.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb8713cd-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb8713ce-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 14:41:18 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Powerful and feature rich CMS]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00017.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00017.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb88c180-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb88c181-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 14:41:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Powerful and feature rich CMS]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00018.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00018.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb8a6f33-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb8a6f34-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 14:42:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Powerful and feature rich CMS]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00019.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00019.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb8c1ce6-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb8c1ce7-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 15:07:37 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inline Editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00020.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00020.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb8dca99-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb8dca9a-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 15:08:45 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Total Control]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00021.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00021.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb8f513c-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb8f513d-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 15:08:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inline Editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00022.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00022.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb90feef-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb90fef0-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 15:09:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Grid Layout]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/iconboxes/ib_00023.xml</source>
+			<destination>unify-demo/.content/iconboxes/ib_00023.xml</destination>
+			<type>u-iconbox</type>
+			<uuidstructure>cb940c32-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb940c33-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 15:09:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Responsive Design]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -319,6 +1213,33 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Unify Demo: Latest entries]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/.content/maps</destination>
+			<type>folder</type>
+			<uuidstructure>03073309-5afc-11e5-90c1-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 14 Sep 2015 16:16:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/maps/m_00001.xml</source>
+			<destination>unify-demo/.content/maps/m_00001.xml</destination>
+			<type>u-map</type>
+			<uuidstructure>0312569b-5afc-11e5-90c1-0242ac11002b</uuidstructure>
+			<uuidresource>0312569c-5afc-11e5-90c1-0242ac11002b</uuidresource>
+			<datecreated>Mon, 14 Sep 2015 16:16:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Test Map]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -648,6 +1569,645 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Container (Fluid)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/.content/texts</destination>
+			<type>folder</type>
+			<uuidstructure>cb9592d5-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 12 Sep 2014 09:36:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00001.xml</source>
+			<destination>unify-demo/.content/texts/t_00001.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cb96f267-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb96f268-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Wed, 01 Oct 2014 15:02:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[More features than ever]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00002.xml</source>
+			<destination>unify-demo/.content/texts/t_00002.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cb99d89a-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb99d89b-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Wed, 01 Oct 2014 15:03:37 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Great responsive template]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00003.xml</source>
+			<destination>unify-demo/.content/texts/t_00003.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cb9d0ced-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cb9d0cee-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 02 Oct 2014 08:24:37 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00004.xml</source>
+			<destination>unify-demo/.content/texts/t_00004.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cba01a30-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cba01a31-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 02 Oct 2014 08:56:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms has all the features]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00005.xml</source>
+			<destination>unify-demo/.content/texts/t_00005.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cba34e83-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cba34e84-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 02 Oct 2014 09:13:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full control over the created HTML]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00006.xml</source>
+			<destination>unify-demo/.content/texts/t_00006.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cba4d526-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cba4d527-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 11:33:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Powerful yet simple]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00007.xml</source>
+			<destination>unify-demo/.content/texts/t_00007.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cba682d9-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cba682da-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 24 Oct 2014 05:58:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extreme Grid Example :)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00008.xml</source>
+			<destination>unify-demo/.content/texts/t_00008.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cba8308c-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cba8308d-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 07:40:37 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Three columns introduction]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00009.xml</source>
+			<destination>unify-demo/.content/texts/t_00009.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cba9b72f-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cba9b730-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 07:44:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Three columns short text]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00010.xml</source>
+			<destination>unify-demo/.content/texts/t_00010.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbab64e2-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbab64e3-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 08:29:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[FAQ text 1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00011.xml</source>
+			<destination>unify-demo/.content/texts/t_00011.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbad1295-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbad1296-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 08:30:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[FAQ text 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00012.xml</source>
+			<destination>unify-demo/.content/texts/t_00012.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbb1cd88-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbb1cd89-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 09:09:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[We work for you]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00013.xml</source>
+			<destination>unify-demo/.content/texts/t_00013.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbb43e8b-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbb43e8c-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 10:07:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Java Cup Inc.]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00014.xml</source>
+			<destination>unify-demo/.content/texts/t_00014.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbb5ec3e-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbb5ec3f-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 10:09:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Lucky Charm Ltd.]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00015.xml</source>
+			<destination>unify-demo/.content/texts/t_00015.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbb799f1-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbb799f2-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 10:11:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The Surprise Company]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00016.xml</source>
+			<destination>unify-demo/.content/texts/t_00016.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbb96eb4-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbb96eb5-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 10:13:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Our services]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00017.xml</source>
+			<destination>unify-demo/.content/texts/t_00017.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbbaf557-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbbaf558-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 12:50:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Text in different flavours]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00018.xml</source>
+			<destination>unify-demo/.content/texts/t_00018.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbbca30a-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbbca30b-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 15:17:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extreme Grid Example :)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00019.xml</source>
+			<destination>unify-demo/.content/texts/t_00019.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbbe50bd-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbbe50be-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 16:07:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Open Source]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00020.xml</source>
+			<destination>unify-demo/.content/texts/t_00020.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbc02580-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbc02581-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 24 Oct 2014 05:59:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Images]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00021.xml</source>
+			<destination>unify-demo/.content/texts/t_00021.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbc30bb3-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbc30bb4-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 24 Oct 2014 06:36:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Texts]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00022.xml</source>
+			<destination>unify-demo/.content/texts/t_00022.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbc4b966-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbc4b967-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Fri, 24 Oct 2014 08:00:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Icon Boxes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00023.xml</source>
+			<destination>unify-demo/.content/texts/t_00023.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbc68e29-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbc68e2a-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 14:55:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Open Source]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00024.xml</source>
+			<destination>unify-demo/.content/texts/t_00024.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbc83bdc-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbc83bdd-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Sat, 25 Oct 2014 14:55:37 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Easy to use]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00025.xml</source>
+			<destination>unify-demo/.content/texts/t_00025.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbc9e98f-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbc9e990-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Mon, 27 Oct 2014 19:42:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[English text page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00026.xml</source>
+			<destination>unify-demo/.content/texts/t_00026.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbcb9742-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbcb9743-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Mon, 27 Oct 2014 19:46:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[This box is red!]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00027.xml</source>
+			<destination>unify-demo/.content/texts/t_00027.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbcd44f5-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbcd44f6-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 28 Oct 2014 13:34:18 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meet the team]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00028.xml</source>
+			<destination>unify-demo/.content/texts/t_00028.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbcef2a8-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbcef2a9-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 28 Oct 2014 13:35:37 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Quote from the CEO]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00029.xml</source>
+			<destination>unify-demo/.content/texts/t_00029.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbd0a05b-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbd0a05c-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 28 Oct 2014 14:10:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Testimonials]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00030.xml</source>
+			<destination>unify-demo/.content/texts/t_00030.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbd226fe-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbd226ff-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 28 Oct 2014 14:19:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Top questions]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00031.xml</source>
+			<destination>unify-demo/.content/texts/t_00031.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbd4e521-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbd4e522-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 28 Oct 2014 14:51:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[FAQ text 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00032.xml</source>
+			<destination>unify-demo/.content/texts/t_00032.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbd6b9e4-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbd6b9e5-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 28 Oct 2014 16:00:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Professional support is available!]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00033.xml</source>
+			<destination>unify-demo/.content/texts/t_00033.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbd84087-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbd84088-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 28 Oct 2014 16:07:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Create a new blog post]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00034.xml</source>
+			<destination>unify-demo/.content/texts/t_00034.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbd9ee3a-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbd9ee3b-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 28 Oct 2014 17:05:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Beautiful websites with OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00035.xml</source>
+			<destination>unify-demo/.content/texts/t_00035.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbdb9bed-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbdb9bee-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 28 Oct 2014 17:09:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[It's another element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00036.xml</source>
+			<destination>unify-demo/.content/texts/t_00036.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbdd70b0-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbdd70b1-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 30 Oct 2014 07:58:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Release Notes for OpenCms X]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00037.xml</source>
+			<destination>unify-demo/.content/texts/t_00037.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>cbdf1e63-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
+			<uuidresource>cbdf1e64-5ad1-11e5-a17e-0242ac11002b</uuidresource>
+			<datecreated>Thu, 30 Oct 2014 16:00:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Special detail content]]></value>
 				</property>
 			</properties>
 			<relations/>

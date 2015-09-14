@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd">
+  <BootstrapBlog language="en">
+    <Title><![CDATA[OpenCms is simple to use]]></Title>
+    <Date>1409817600000</Date>
+    <Paragraph>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+<p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/samples/35.jpg]]></target>
+            <uuid>b6b933a4-4785-11e3-ba23-000c29d28104</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Parachute]]></Title>
+      </Image>
+    </Paragraph>
+    <Category>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/location/asia/]]></target>
+        <uuid>0825108d-7194-11e0-87bc-000c2972a6a4</uuid>
+      </link>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/priority/05_very_high/]]></target>
+        <uuid>a2182faf-7193-11e0-87bc-000c2972a6a4</uuid>
+      </link>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/topic/people/]]></target>
+        <uuid>bbef2688-5534-11e4-af67-005056b61161</uuid>
+      </link>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/topic/transportation/]]></target>
+        <uuid>5ce3fc25-5535-11e4-af67-005056b61161</uuid>
+      </link>
+    </Category>
+    <Author><![CDATA[Manny Delgado]]></Author>
+  </BootstrapBlog>
+</BootstrapBlogs>

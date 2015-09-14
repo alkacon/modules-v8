@@ -58,6 +58,9 @@
       	try {
       		createBanner();
       	} catch(e) {}
+      	try {
+      		$("#list_pagination").bootstrapPaginator(options);
+      	} catch(e) {}
     });
 </script>
 <!--[if lt IE 9]>

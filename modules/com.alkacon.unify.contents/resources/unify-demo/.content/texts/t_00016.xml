@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
+  <BootstrapText language="en">
+    <Headline><![CDATA[Our services]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Aenean vulputate eleifend tellus:</p>
+<ul>
+<li>Quisque rutrum</li>
+<li>Nam eget dui</li>
+<li>Etiam rhoncus</li>
+</ul>]]></content>
+    </Text>
+  </BootstrapText>
+</BootstrapTexts>
