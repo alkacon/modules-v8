@@ -380,6 +380,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/event-config.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/event-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>d2d5d339-5b83-11e5-ab03-0242ac11002b</uuidstructure>
+			<uuidresource>d2d5d33a-5b83-11e5-ab03-0242ac11002b</uuidresource>
+			<datecreated>Tue, 15 Sep 2015 08:29:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample formatter for Event]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/event.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/event.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>d2d07c06-5b83-11e5-ab03-0242ac11002b</uuidstructure>
+			<uuidresource>d2d07c07-5b83-11e5-ab03-0242ac11002b</uuidresource>
+			<datecreated>Tue, 15 Sep 2015 08:29:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.formatters/formatters/flexible-config.xml</source>
 			<destination>system/modules/com.alkacon.unify.formatters/formatters/flexible-config.xml</destination>
 			<type>formatter_config</type>
@@ -474,60 +520,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Formatter JSP for icon box]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[container-element;locale]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.unify.formatters/formatters/imagegalleryshow-config.xml</source>
-			<destination>system/modules/com.alkacon.unify.formatters/formatters/imagegalleryshow-config.xml</destination>
-			<type>formatter_config</type>
-			<uuidstructure>738a9337-57a5-11e5-bca2-0242ac11002b</uuidstructure>
-			<uuidresource>738a9338-57a5-11e5-bca2-0242ac11002b</uuidresource>
-			<datecreated>Thu, 10 Sep 2015 10:19:42 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Image Gallery Show formatter]]></value>
-				</property>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.unify.formatters/formatters/imagegalleryshow.jsp</source>
-			<destination>system/modules/com.alkacon.unify.formatters/formatters/imagegalleryshow.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>73816b74-57a5-11e5-bca2-0242ac11002b</uuidstructure>
-			<uuidresource>73816b75-57a5-11e5-bca2-0242ac11002b</uuidresource>
-			<datecreated>Thu, 10 Sep 2015 10:19:42 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Formatter JSP for image gallery show]]></value>
 				</property>
 				<property>
 					<name>cache</name>

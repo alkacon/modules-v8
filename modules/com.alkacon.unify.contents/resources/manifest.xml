@@ -737,6 +737,54 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/.content/events</destination>
+			<type>folder</type>
+			<uuidstructure>ae8e34f8-5b98-11e5-9eb7-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 15 Sep 2015 10:58:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00001.xml</source>
+			<destination>unify-demo/.content/events/ev_00001.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>ae938c2a-5b98-11e5-9eb7-0242ac11002b</uuidstructure>
+			<uuidresource>ae938c2b-5b98-11e5-9eb7-0242ac11002b</uuidresource>
+			<datecreated>Tue, 15 Sep 2015 10:58:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo Website: Test event]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/flexiblecontents</destination>
 			<type>folder</type>
 			<uuidstructure>f316855b-562b-11e5-bfd9-0242ac11002b</uuidstructure>
@@ -1165,33 +1213,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>unify-demo/.content/imagegalleryshows</destination>
-			<type>folder</type>
-			<uuidstructure>7332a876-57a8-11e5-8e67-0242ac11002b</uuidstructure>
-			<datecreated>Thu, 10 Sep 2015 10:41:10 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>unify-demo/.content/imagegalleryshows/igs_00001.xml</source>
-			<destination>unify-demo/.content/imagegalleryshows/igs_00001.xml</destination>
-			<type>u-imagegalleryshow</type>
-			<uuidstructure>733e8f58-57a8-11e5-8e67-0242ac11002b</uuidstructure>
-			<uuidresource>733e8f59-57a8-11e5-8e67-0242ac11002b</uuidresource>
-			<datecreated>Thu, 10 Sep 2015 10:41:10 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Unify Demo: Create your website with OpenCms]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>unify-demo/.content/lists</destination>
 			<type>folder</type>
 			<uuidstructure>2a8667a4-5874-11e5-a17e-0242ac11002b</uuidstructure>
@@ -1212,7 +1233,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Unify Demo: Latest entries]]></value>
+					<value><![CDATA[Demo Website: Latest entries]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1361,7 +1382,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Unify Demo: OpenCms 9.5 Promo Slider]]></value>
+					<value><![CDATA[Demo Website: OpenCms 9.5 Promo Slider]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1388,7 +1409,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Unify Demo: Add a new title here]]></value>
+					<value><![CDATA[Demo Website: Add a new title here]]></value>
 				</property>
 			</properties>
 			<relations/>

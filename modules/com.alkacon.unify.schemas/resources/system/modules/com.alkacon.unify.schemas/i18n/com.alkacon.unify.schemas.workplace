@@ -158,5 +158,17 @@
       <Key><![CDATA[fileicon.u-map]]></Key>
       <Value><![CDATA[Location Map]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[title.u-event]]></Key>
+      <Value><![CDATA[New Event]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.u-event]]></Key>
+      <Value><![CDATA[Within this content all the necessary information for an event can be stored.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.u-event]]></Key>
+      <Value><![CDATA[Event]]></Value>
+    </Message>
   </Bundle>
 </XmlVfsBundles>

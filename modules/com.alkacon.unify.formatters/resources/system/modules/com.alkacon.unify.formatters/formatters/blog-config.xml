@@ -32,9 +32,9 @@
     </HeadIncludeCss>
     <Setting>
       <PropertyName><![CDATA[imgalign]]></PropertyName>
-      <DisplayName><![CDATA[%(key.bootstrap.setting.imgalign)]]></DisplayName>
+      <DisplayName><![CDATA[%(key.unify.setting.imgalign)]]></DisplayName>
       <Widget><![CDATA[select]]></Widget>
-      <WidgetConfig><![CDATA[left:%(key.bootstrap.setting.image.left)|right:%(key.bootstrap.setting.image.right)]]></WidgetConfig>
+      <WidgetConfig><![CDATA[left:%(key.unify.setting.image.left)|right:%(key.unify.setting.image.right)]]></WidgetConfig>
     </Setting>
   </NewFormatter>
 </NewFormatters>

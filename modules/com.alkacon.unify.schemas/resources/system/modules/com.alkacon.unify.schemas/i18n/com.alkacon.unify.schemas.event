@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Title.help]]></Key>
+      <Value><![CDATA[The title of the event.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Date]]></Key>
+      <Value><![CDATA[Date]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Date.help]]></Key>
+      <Value><![CDATA[The date of the event.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.EndDate]]></Key>
+      <Value><![CDATA[End Date]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.EndDate.help]]></Key>
+      <Value><![CDATA[The end date of the event.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Paragraph]]></Key>
+      <Value><![CDATA[Paragraph]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Paragraph.help]]></Key>
+      <Value><![CDATA[The paragraphs of the event.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Category]]></Key>
+      <Value><![CDATA[Categories]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Category.help]]></Key>
+      <Value><![CDATA[Assigns categories to the event.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Location]]></Key>
+      <Value><![CDATA[Location]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Location.help]]></Key>
+      <Value><![CDATA[The event location.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Address]]></Key>
+      <Value><![CDATA[Address]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Address.help]]></Key>
+      <Value><![CDATA[The address of the event.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Availability]]></Key>
+      <Value><![CDATA[Availability]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Availability.help]]></Key>
+      <Value><![CDATA[The availability of the event.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.GalleryTitle]]></Key>
+      <Value><![CDATA[Gallery Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.GalleryTitle.help]]></Key>
+      <Value><![CDATA[The gallery title of the event. It is not shown on the page.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.TabGeneral]]></Key>
+      <Value><![CDATA[General]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.TabLocation]]></Key>
+      <Value><![CDATA[Location/Address]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.TabAvailability]]></Key>
+      <Value><![CDATA[Availability]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.event.default.Title]]></Key>
+      <Value><![CDATA[New event]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.event.default.Text]]></Key>
+      <Value><![CDATA[Please edit the event text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.event.message.edit]]></Key>
+      <Value><![CDATA[<strong>New event</strong>, please edit the content.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.event.message.readmore]]></Key>
+      <Value><![CDATA[read more]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Title]]></Key>
+      <Value><![CDATA[Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Title.help]]></Key>
+      <Value><![CDATA[Der Titel der Veranstaltung.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Date]]></Key>
+      <Value><![CDATA[Datum]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Date.help]]></Key>
+      <Value><![CDATA[Das Datum der Veranstaltung.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.EndDate]]></Key>
+      <Value><![CDATA[Enddatum]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.EndDate.help]]></Key>
+      <Value><![CDATA[Das Enddatum der Veranstaltung.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Paragraph]]></Key>
+      <Value><![CDATA[Absatz]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Paragraph.help]]></Key>
+      <Value><![CDATA[Die Absätze der Veranstaltung.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Category]]></Key>
+      <Value><![CDATA[Kategorien]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Category.help]]></Key>
+      <Value><![CDATA[Ordnet der Veranstaltung Kategorien zu.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Location]]></Key>
+      <Value><![CDATA[Ort]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Location.help]]></Key>
+      <Value><![CDATA[Der Veranstaltungsort, z.B. ein Raumname.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Address]]></Key>
+      <Value><![CDATA[Adresse]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Address.help]]></Key>
+      <Value><![CDATA[Die genaue Adresse der Veranstaltung.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Availability]]></Key>
+      <Value><![CDATA[Gültigkeit]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.Availability.help]]></Key>
+      <Value><![CDATA[Die Gültigkeit der Veranstaltung.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.GalleryTitle]]></Key>
+      <Value><![CDATA[Galerie Titel]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.GalleryTitle.help]]></Key>
+      <Value><![CDATA[Der Titel der Veranstaltung für die Galerie. Er wird nicht auf der Seite angezeigt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.TabGeneral]]></Key>
+      <Value><![CDATA[Allgemein]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.TabLocation]]></Key>
+      <Value><![CDATA[Ort/Adresse]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyEvent.TabAvailability]]></Key>
+      <Value><![CDATA[Gültigkeit]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.event.default.Title]]></Key>
+      <Value><![CDATA[Neue Veranstaltung]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.event.default.Text]]></Key>
+      <Value><![CDATA[Bitte bearbeiten Sie den Veranstaltungstext.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.event.message.edit]]></Key>
+      <Value><![CDATA[<strong>Neue Veranstaltung</strong>, bitte bearbeiten Sie den Inhalt.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.event.message.readmore]]></Key>
+      <Value><![CDATA[Weiter lesen]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

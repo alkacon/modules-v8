@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/event.xsd">
+  <UnifyEvent language="en">
+    <Title><![CDATA[Test event]]></Title>
+    <Date>1442311200000</Date>
+    <EndDate>1442916000000</EndDate>
+    <Teaser><![CDATA[This is a short event teaser text.]]></Teaser>
+    <Paragraph>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>This is the main event text. Lorem ipsum et cetera alea iacta est romai at domus</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/samples/11.jpg]]></target>
+            <uuid>c6d9d552-4705-11e3-8417-000c29d28104</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Wind energy]]></Title>
+      </Image>
+    </Paragraph>
+    <Category>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/location/europe/]]></target>
+        <uuid>e73ef9d1-7193-11e0-87bc-000c2972a6a4</uuid>
+      </link>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/topic/machines/]]></target>
+        <uuid>caf3e85e-5534-11e4-af67-005056b61161</uuid>
+      </link>
+    </Category>
+    <Location><![CDATA[Room 42]]></Location>
+    <Address name="Address0">
+      <links/>
+      <content><![CDATA[<p><strong>Haus des Treffens</strong><br />Weg 8<br />DE-51145 Köln</p>]]></content>
+    </Address>
+  </UnifyEvent>
+</UnifyEvents>

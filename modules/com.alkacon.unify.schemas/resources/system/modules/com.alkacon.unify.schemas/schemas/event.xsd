@@ -1,0 +1,74 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd" />
+    <xsd:include schemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/nested/paragraph.xsd" />
+    <xsd:include schemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/nested/availability.xsd" />
+
+    <xsd:element name="UnifyEvents" type="OpenCmsUnifyEvents" />
+
+    <xsd:complexType name="OpenCmsUnifyEvents">
+        <xsd:sequence>
+            <xsd:element name="UnifyEvent" type="OpenCmsUnifyEvent" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="OpenCmsUnifyEvent">
+        <xsd:sequence>
+            <xsd:element name="Title" type="OpenCmsString" />
+            <xsd:element name="Date" type="OpenCmsDateTime" />
+			<xsd:element name="EndDate" type="OpenCmsDateTime" minOccurs="0" />
+            <xsd:element name="Teaser" type="OpenCmsString" minOccurs="0" />
+            <xsd:element name="Paragraph" type="OpenCmsUnifyParagraph" maxOccurs="5" />
+            <xsd:element name="Category" type="OpenCmsCategory" minOccurs="0" />
+			<xsd:element name="Location" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="Address" type="OpenCmsHtml" minOccurs="0" />
+            <xsd:element name="Availability" type="OpenCmsUnifyAvailability" minOccurs="0" />
+            <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" />
+        </xsd:sequence>
+        <xsd:attribute name="language" type="OpenCmsLocale" use="required" />
+    </xsd:complexType>
+
+    <xsd:annotation>
+        <xsd:appinfo>
+            <resourcebundle name="com.alkacon.unify.schemas.event" />
+            <tabs>
+                <tab element="Title" collapse="false" name="TabGeneral" />
+				<tab element="Location" collapse="false" name="TabLocation" />
+                <tab element="Availability" collapse="true" name="TabAvailability" />
+            </tabs>
+            <mappings>
+                <mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
+				<mapping element="GalleryTitle" mapto="urlName" useDefault="true" />
+                <mapping element="Availability/Release" mapto="attribute:datereleased" />
+                <mapping element="Availability/Expiration" mapto="attribute:dateexpired" />
+            </mappings>
+            <defaults>
+                <default element="Title" value="%(key.unify.event.default.Title)" />
+                <default element="Paragraph/Text" value="%(key.unify.event.default.Text)" />
+                <default element="Date" value="%(currenttime)" />
+				<default element="EndDate" value="%(currenttime + 604800000)" />
+                <default element="Availability/Release" value="%(currenttime)" />
+                <default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Title)" resolveMacros="false" />
+            </defaults>
+            <layouts>
+                <layout element="Teaser" widget="TextareaWidget" configuration="4" />
+                <layout element="Category" widget="CategoryWidget" configuration="onlyleafs=false" />
+            </layouts>
+            <validationrules>
+                <rule element="Title" regex=".+" type="error" message="Title must not be empty." />
+            </validationrules>
+            <relations>
+                <relation element="Paragraph/Image/Image" invalidate="parent" />
+            </relations>
+            <searchsettings containerPageOnly="false">
+                <searchsetting element="Date" searchcontent="false">
+                    <solrfield targetfield="eventdate" sourcefield="*_dt" />
+                </searchsetting>
+            </searchsettings>
+		  	<visibilities>
+                <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
+            </visibilities>
+        </xsd:appinfo>
+    </xsd:annotation>
+
+</xsd:schema> 
