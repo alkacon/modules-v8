@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.0.3//EN" "gwt-module.dtd">
-<module rename-to="dialogs">
-	<inherits name="com.alkacon.opencms.v8.dialogs.DialogHeadless" />
-	<entry-point class="com.alkacon.opencms.v8.dialogs.client.CmsDialogEntryPoint"></entry-point>
-</module>
