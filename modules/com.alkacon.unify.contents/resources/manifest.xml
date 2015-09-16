@@ -223,7 +223,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Demo Website: OpenCms is intuitive]]></value>
+					<value><![CDATA[OpenCms is intuitive]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -762,7 +762,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Demo Website: Test event]]></value>
+					<value><![CDATA[Test event]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -1355,6 +1355,64 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>unify-demo/.content/modelgroup/modelgroup-00003.xml</source>
+			<destination>unify-demo/.content/modelgroup/modelgroup-00003.xml</destination>
+			<type>modelgroup</type>
+			<uuidstructure>4425d5fd-5c4f-11e5-9651-0242ac11002b</uuidstructure>
+			<uuidresource>4425d5fe-5c4f-11e5-9651-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 08:45:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Creates an article text with an image to the left.]]></value>
+				</property>
+				<property type="shared">
+					<name>Description</name>
+					<value><![CDATA[Creates an article text with an image to the left.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article with image left]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[Article with image left]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/modelgroup/modelgroup-00004.xml</source>
+			<destination>unify-demo/.content/modelgroup/modelgroup-00004.xml</destination>
+			<type>modelgroup</type>
+			<uuidstructure>d3617817-5c4f-11e5-9651-0242ac11002b</uuidstructure>
+			<uuidresource>d3617818-5c4f-11e5-9651-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 08:49:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Creates an article text with an image to the right.]]></value>
+				</property>
+				<property type="shared">
+					<name>Description</name>
+					<value><![CDATA[Creates an article text with an image to the right.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article with image right]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[Article with image right]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/navigations</destination>
 			<type>folder</type>
 			<uuidstructure>fe480c7d-5638-11e5-bfd9-0242ac11002b</uuidstructure>
@@ -1616,6 +1674,40 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>unify-demo/.content/templaterows/tr_00011.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00011.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>500099f0-5c4a-11e5-9651-0242ac11002b</uuidstructure>
+			<uuidresource>500099f1-5c4a-11e5-9651-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 08:09:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article with image left]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00012.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00012.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>a331a753-5c4f-11e5-9651-0242ac11002b</uuidstructure>
+			<uuidresource>a331a754-5c4f-11e5-9651-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 08:48:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article with image right]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/texts</destination>
 			<type>folder</type>
 			<uuidstructure>cb9592d5-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
@@ -1687,7 +1779,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms has all the features]]></value>
+					<value><![CDATA[Demo Website: OpenCms has all the features]]></value>
 				</property>
 			</properties>
 			<relations/>

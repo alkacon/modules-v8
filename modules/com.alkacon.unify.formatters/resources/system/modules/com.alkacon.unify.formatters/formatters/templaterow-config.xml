@@ -44,5 +44,13 @@
       <Description><![CDATA[Optional CSS classes, usually for child elements.]]></Description>
       <Widget><![CDATA[string]]></Widget>
     </Setting>
+    <Setting>
+      <PropertyName><![CDATA[detail]]></PropertyName>
+      <DisplayName><![CDATA[Detail page settings]]></DisplayName>
+      <Description><![CDATA[Set the use of the container(s) on detail pages.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[none]]></Default>
+      <WidgetConfig><![CDATA[none:No special detail page settings (Default)|view:Use first container as detail view|only:Show container(s) only on detail pages]]></WidgetConfig>
+    </Setting>
   </NewFormatter>
 </NewFormatters>
