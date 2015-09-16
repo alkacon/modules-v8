@@ -7,7 +7,7 @@
 <fmt:setLocale value="${cms.locale}" />
 <cms:bundle basename="com.alkacon.unify.schemas.iconbox">
 <cms:formatter var="content" val="value" rdfa="rdfa">
-	<div class="service-block ${cms.element.setting.wrapperclass.isSet ? cms.element.setting.wrapperclass : "" }" ${rdfa.Link}>
+	<div class="service-block ${cms.element.setting.rounded} service-block-${cms.element.setting.color} ${cms.element.setting.wrapperclass.isSet ? cms.element.setting.wrapperclass : "" }" ${rdfa.Link}>
     <c:choose>
     	<c:when test="${cms.element.inMemoryOnly}">
     		<p><fmt:message key="unify.iconbox.message.new" /></p>

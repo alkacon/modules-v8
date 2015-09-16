@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Enlargement XML image formatter]]></NiceName>
+    <Type><![CDATA[xmlimage]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/xmlimage-enlarge.jsp]]></target>
+        <uuid>ce88186c-5bb2-11e5-8f8e-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[4000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[default]]></ContainerType>
+        <ContainerType><![CDATA[image]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>false</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[cssClass]]></PropertyName>
+      <DisplayName><![CDATA[CSS class]]></DisplayName>
+      <Widget><![CDATA[string]]></Widget>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[cssShape]]></PropertyName>
+      <DisplayName><![CDATA[Image CSS class]]></DisplayName>
+      <Widget><![CDATA[string]]></Widget>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

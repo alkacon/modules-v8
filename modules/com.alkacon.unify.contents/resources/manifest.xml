@@ -223,7 +223,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms is intuitive]]></value>
+					<value><![CDATA[Demo Website: OpenCms is intuitive]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -698,7 +698,12 @@
 			<uuidstructure>cb609fda-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 15 Sep 2014 15:04:06 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -790,7 +795,12 @@
 			<uuidstructure>f316855b-562b-11e5-bfd9-0242ac11002b</uuidstructure>
 			<datecreated>Tue, 08 Sep 2015 13:17:26 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -834,7 +844,12 @@
 			<uuidstructure>7e50493a-5702-11e5-8281-0242ac11002b</uuidstructure>
 			<datecreated>Wed, 09 Sep 2015 14:53:12 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1218,7 +1233,12 @@
 			<uuidstructure>2a8667a4-5874-11e5-a17e-0242ac11002b</uuidstructure>
 			<datecreated>Fri, 11 Sep 2015 10:59:25 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -2229,6 +2249,33 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Special detail content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/.content/xmlimage</destination>
+			<type>folder</type>
+			<uuidstructure>8129ec87-5bb3-11e5-8f8e-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 15 Sep 2015 14:10:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00001.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00001.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>812e0b39-5bb3-11e5-8f8e-0242ac11002b</uuidstructure>
+			<uuidresource>812e0b3a-5bb3-11e5-8f8e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 15 Sep 2015 14:10:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo Website: Turbine]]></value>
 				</property>
 			</properties>
 			<relations/>

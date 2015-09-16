@@ -39,7 +39,7 @@
     <Setting>
       <PropertyName><![CDATA[anchor]]></PropertyName>
       <DisplayName><![CDATA[Anchor ID]]></DisplayName>
-      <Description><![CDATA[Anchor to place befor the element.]]></Description>
+      <Description><![CDATA[Anchor to place before the element.]]></Description>
       <Widget><![CDATA[string]]></Widget>
     </Setting>
   </NewFormatter>

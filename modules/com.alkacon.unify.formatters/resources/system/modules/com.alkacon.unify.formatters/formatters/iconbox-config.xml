@@ -23,6 +23,22 @@
     <Detail>false</Detail>
     <NestedContainers>false</NestedContainers>
     <Setting>
+      <PropertyName><![CDATA[color]]></PropertyName>
+      <DisplayName><![CDATA[Color]]></DisplayName>
+      <Description><![CDATA[The background color of the box.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[default]]></Default>
+      <WidgetConfig><![CDATA[default:Light gray (Default)|grey:Medium grey|dark:Dark grey|red:Red|purple:Purple|blue:Blue|dark-blue:Dark blue|aqua:Aqua|sea:Turquoise|green:Green|light-green:Light green|yellow:Yellow|orange:Orange|brown:Brown]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[rounded]]></PropertyName>
+      <DisplayName><![CDATA[Rounded corners]]></DisplayName>
+      <Description><![CDATA[Select this for rounded corners.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[x]]></Default>
+      <WidgetConfig><![CDATA[x:None|rounded:4px|rounded-2x:10px|rounded-3x:15px|rounded-4x:20px|rounded-x:50%]]></WidgetConfig>
+    </Setting>
+    <Setting>
       <PropertyName><![CDATA[wrapperclass]]></PropertyName>
       <DisplayName><![CDATA[Wrapper CSS class]]></DisplayName>
       <Description><![CDATA[Optional CSS class name for the outer <div> element, e.g. 'service-block-red' sets the background color.]]></Description>
