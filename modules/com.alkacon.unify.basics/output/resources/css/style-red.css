@@ -10,7 +10,7 @@
  */
 /* Empty container markers.
 ----------------------------------------------------------------------------- */
-/* line 28, ../../../components/scss/general.scss */
+/* line 29, ../../../components/scss/general.scss */
 .oc-container-jsp, .oc-container-template, .oc-container-layout, .oc-container-detailonly {
   padding: 10px;
   margin-top: 10px;
@@ -19,18 +19,18 @@
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px; }
-  /* line 37, ../../../components/scss/general.scss */
+  /* line 38, ../../../components/scss/general.scss */
   .oc-container-jsp h1, .oc-container-template h1, .oc-container-layout h1, .oc-container-detailonly h1 {
     font-size: 22px;
     font-weight: 400;
     margin: 5px; }
-  /* line 42, ../../../components/scss/general.scss */
+  /* line 43, ../../../components/scss/general.scss */
   .oc-container-jsp p, .oc-container-template p, .oc-container-layout p, .oc-container-detailonly p {
     margin: 5px;
     font-size: 14px; }
 
-/* line 48, ../../../components/scss/general.scss */
-.oc-label-developer, .oc-label-editor, .oc-label-author, .oc-label-detail, .oc-label-special {
+/* line 49, ../../../components/scss/general.scss */
+.oc-label-developer, .oc-label-editor, .oc-label-author, .oc-label-detail, .oc-label-detailonly, .oc-label-special {
   display: inline;
   font-size: 12px;
   font-weight: 400;
@@ -43,1656 +43,1660 @@
   border-radius: 5px;
   color: #fff; }
 
-/* line 63, ../../../components/scss/general.scss */
+/* line 64, ../../../components/scss/general.scss */
 .oc-container-jsp {
   background-color: rgba(255, 227, 231, 0.75); }
 
-/* line 63, ../../../components/scss/general.scss */
+/* line 64, ../../../components/scss/general.scss */
 .oc-container-template {
   background-color: rgba(255, 229, 191, 0.75); }
 
-/* line 63, ../../../components/scss/general.scss */
+/* line 64, ../../../components/scss/general.scss */
 .oc-container-layout {
   background-color: rgba(226, 227, 230, 0.75); }
 
-/* line 63, ../../../components/scss/general.scss */
+/* line 64, ../../../components/scss/general.scss */
 .oc-container-detailonly {
   background-color: rgba(217, 237, 249, 0.75); }
 
-/* line 70, ../../../components/scss/general.scss */
+/* line 71, ../../../components/scss/general.scss */
 .oc-label-developer {
   background-color: #b31b34; }
 
-/* line 70, ../../../components/scss/general.scss */
+/* line 71, ../../../components/scss/general.scss */
 .oc-label-editor {
   background-color: #ffa826; }
 
-/* line 70, ../../../components/scss/general.scss */
+/* line 71, ../../../components/scss/general.scss */
 .oc-label-author {
   background-color: #144382; }
 
-/* line 70, ../../../components/scss/general.scss */
+/* line 71, ../../../components/scss/general.scss */
 .oc-label-detail {
   background-color: #1bb39a; }
 
-/* line 70, ../../../components/scss/general.scss */
+/* line 71, ../../../components/scss/general.scss */
+.oc-label-detailonly {
+  background-color: #8dae60; }
+
+/* line 71, ../../../components/scss/general.scss */
 .oc-label-special {
   background-color: #ff264a; }
 
-/* line 76, ../../../components/scss/general.scss */
+/* line 77, ../../../components/scss/general.scss */
 .oc-modelinfo {
   border: 2px solid #a8adb4;
   padding: 4px;
   margin-bottom: 10px; }
 
-/* line 82, ../../../components/scss/general.scss */
+/* line 83, ../../../components/scss/general.scss */
 .oc-modelinfo .alert {
   margin: 0 0 10px 0; }
 
 /* Generic helpers.
 ----------------------------------------------------------------------------- */
-/* line 99, ../../../components/scss/general.scss */
+/* line 100, ../../../components/scss/general.scss */
 .border-radius-2 {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px; }
 
-/* line 99, ../../../components/scss/general.scss */
+/* line 100, ../../../components/scss/general.scss */
 .border-radius-5 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px; }
 
-/* line 99, ../../../components/scss/general.scss */
+/* line 100, ../../../components/scss/general.scss */
 .border-radius-10 {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px; }
 
-/* line 107, ../../../components/scss/general.scss */
+/* line 108, ../../../components/scss/general.scss */
 .border-radius-2 {
   border: 0 solid; }
 
-/* line 107, ../../../components/scss/general.scss */
+/* line 108, ../../../components/scss/general.scss */
 .border-radius-5 {
   border: 0 solid; }
 
-/* line 107, ../../../components/scss/general.scss */
+/* line 108, ../../../components/scss/general.scss */
 .border-radius-10 {
   border: 0 solid; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-0 {
   padding-left: 0px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-0 {
   padding-right: 0px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-0 {
   padding-top: 0px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-0 {
   padding-bottom: 0px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-0 {
   margin-top: 0px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-0 {
   margin-bottom: 0px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-0 {
   margin-right: 0px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-0 {
   margin-left: 0px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-0 {
   margin-top: 0px;
   margin-bottom: 0px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-0 {
   padding-top: 0px;
   padding-bottom: 0px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-0 {
   margin-left: 0px;
   margin-right: 0px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-0 {
   padding-left: 0px;
   padding-right: 0px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-0 {
   padding: 0px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-0 {
   margin: 0px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-1 {
   padding-left: 1px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-1 {
   padding-right: 1px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-1 {
   padding-top: 1px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-1 {
   padding-bottom: 1px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-1 {
   margin-top: 1px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-1 {
   margin-bottom: 1px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-1 {
   margin-right: 1px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-1 {
   margin-left: 1px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-1 {
   margin-top: 1px;
   margin-bottom: 1px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-1 {
   padding-top: 1px;
   padding-bottom: 1px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-1 {
   margin-left: 1px;
   margin-right: 1px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-1 {
   padding-left: 1px;
   padding-right: 1px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-1 {
   padding: 1px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-1 {
   margin: 1px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-2 {
   padding-left: 2px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-2 {
   padding-right: 2px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-2 {
   padding-top: 2px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-2 {
   padding-bottom: 2px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-2 {
   margin-top: 2px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-2 {
   margin-bottom: 2px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-2 {
   margin-right: 2px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-2 {
   margin-left: 2px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-2 {
   margin-top: 2px;
   margin-bottom: 2px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-2 {
   padding-top: 2px;
   padding-bottom: 2px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-2 {
   margin-left: 2px;
   margin-right: 2px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-2 {
   padding-left: 2px;
   padding-right: 2px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-2 {
   padding: 2px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-2 {
   margin: 2px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-3 {
   padding-left: 3px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-3 {
   padding-right: 3px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-3 {
   padding-top: 3px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-3 {
   padding-bottom: 3px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-3 {
   margin-top: 3px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-3 {
   margin-bottom: 3px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-3 {
   margin-right: 3px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-3 {
   margin-left: 3px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-3 {
   margin-top: 3px;
   margin-bottom: 3px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-3 {
   padding-top: 3px;
   padding-bottom: 3px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-3 {
   margin-left: 3px;
   margin-right: 3px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-3 {
   padding-left: 3px;
   padding-right: 3px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-3 {
   padding: 3px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-3 {
   margin: 3px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-4 {
   padding-left: 4px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-4 {
   padding-right: 4px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-4 {
   padding-top: 4px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-4 {
   padding-bottom: 4px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-4 {
   margin-top: 4px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-4 {
   margin-bottom: 4px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-4 {
   margin-right: 4px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-4 {
   margin-left: 4px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-4 {
   margin-top: 4px;
   margin-bottom: 4px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-4 {
   padding-top: 4px;
   padding-bottom: 4px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-4 {
   margin-left: 4px;
   margin-right: 4px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-4 {
   padding-left: 4px;
   padding-right: 4px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-4 {
   padding: 4px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-4 {
   margin: 4px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-5 {
   padding-left: 5px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-5 {
   padding-right: 5px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-5 {
   padding-top: 5px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-5 {
   padding-bottom: 5px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-5 {
   margin-top: 5px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-5 {
   margin-bottom: 5px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-5 {
   margin-right: 5px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-5 {
   margin-left: 5px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-5 {
   margin-top: 5px;
   margin-bottom: 5px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-5 {
   padding-top: 5px;
   padding-bottom: 5px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-5 {
   margin-left: 5px;
   margin-right: 5px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-5 {
   padding-left: 5px;
   padding-right: 5px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-5 {
   padding: 5px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-5 {
   margin: 5px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-10 {
   padding-left: 10px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-10 {
   padding-right: 10px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-10 {
   padding-top: 10px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-10 {
   padding-bottom: 10px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-10 {
   margin-top: 10px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-10 {
   margin-bottom: 10px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-10 {
   margin-right: 10px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-10 {
   margin-left: 10px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-10 {
   margin-top: 10px;
   margin-bottom: 10px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-10 {
   padding-top: 10px;
   padding-bottom: 10px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-10 {
   margin-left: 10px;
   margin-right: 10px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-10 {
   padding-left: 10px;
   padding-right: 10px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-10 {
   padding: 10px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-10 {
   margin: 10px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-15 {
   padding-left: 15px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-15 {
   padding-right: 15px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-15 {
   padding-top: 15px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-15 {
   padding-bottom: 15px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-15 {
   margin-top: 15px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-15 {
   margin-bottom: 15px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-15 {
   margin-right: 15px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-15 {
   margin-left: 15px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-15 {
   margin-top: 15px;
   margin-bottom: 15px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-15 {
   padding-top: 15px;
   padding-bottom: 15px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-15 {
   margin-left: 15px;
   margin-right: 15px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-15 {
   padding-left: 15px;
   padding-right: 15px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-15 {
   padding: 15px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-15 {
   margin: 15px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-20 {
   padding-left: 20px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-20 {
   padding-right: 20px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-20 {
   padding-top: 20px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-20 {
   padding-bottom: 20px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-20 {
   margin-top: 20px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-20 {
   margin-bottom: 20px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-20 {
   margin-right: 20px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-20 {
   margin-left: 20px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-20 {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-20 {
   padding-top: 20px;
   padding-bottom: 20px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-20 {
   margin-left: 20px;
   margin-right: 20px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-20 {
   padding-left: 20px;
   padding-right: 20px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-20 {
   padding: 20px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-20 {
   margin: 20px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-25 {
   padding-left: 25px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-25 {
   padding-right: 25px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-25 {
   padding-top: 25px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-25 {
   padding-bottom: 25px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-25 {
   margin-top: 25px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-25 {
   margin-bottom: 25px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-25 {
   margin-right: 25px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-25 {
   margin-left: 25px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-25 {
   margin-top: 25px;
   margin-bottom: 25px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-25 {
   padding-top: 25px;
   padding-bottom: 25px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-25 {
   margin-left: 25px;
   margin-right: 25px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-25 {
   padding-left: 25px;
   padding-right: 25px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-25 {
   padding: 25px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-25 {
   margin: 25px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-30 {
   padding-left: 30px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-30 {
   padding-right: 30px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-30 {
   padding-top: 30px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-30 {
   padding-bottom: 30px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-30 {
   margin-top: 30px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-30 {
   margin-bottom: 30px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-30 {
   margin-right: 30px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-30 {
   margin-left: 30px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-30 {
   margin-top: 30px;
   margin-bottom: 30px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-30 {
   padding-top: 30px;
   padding-bottom: 30px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-30 {
   margin-left: 30px;
   margin-right: 30px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-30 {
   padding-left: 30px;
   padding-right: 30px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-30 {
   padding: 30px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-30 {
   margin: 30px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-35 {
   padding-left: 35px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-35 {
   padding-right: 35px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-35 {
   padding-top: 35px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-35 {
   padding-bottom: 35px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-35 {
   margin-top: 35px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-35 {
   margin-bottom: 35px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-35 {
   margin-right: 35px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-35 {
   margin-left: 35px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-35 {
   margin-top: 35px;
   margin-bottom: 35px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-35 {
   padding-top: 35px;
   padding-bottom: 35px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-35 {
   margin-left: 35px;
   margin-right: 35px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-35 {
   padding-left: 35px;
   padding-right: 35px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-35 {
   padding: 35px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-35 {
   margin: 35px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-40 {
   padding-left: 40px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-40 {
   padding-right: 40px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-40 {
   padding-top: 40px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-40 {
   padding-bottom: 40px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-40 {
   margin-top: 40px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-40 {
   margin-bottom: 40px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-40 {
   margin-right: 40px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-40 {
   margin-left: 40px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-40 {
   margin-top: 40px;
   margin-bottom: 40px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-40 {
   padding-top: 40px;
   padding-bottom: 40px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-40 {
   margin-left: 40px;
   margin-right: 40px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-40 {
   padding-left: 40px;
   padding-right: 40px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-40 {
   padding: 40px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-40 {
   margin: 40px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-45 {
   padding-left: 45px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-45 {
   padding-right: 45px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-45 {
   padding-top: 45px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-45 {
   padding-bottom: 45px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-45 {
   margin-top: 45px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-45 {
   margin-bottom: 45px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-45 {
   margin-right: 45px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-45 {
   margin-left: 45px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-45 {
   margin-top: 45px;
   margin-bottom: 45px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-45 {
   padding-top: 45px;
   padding-bottom: 45px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-45 {
   margin-left: 45px;
   margin-right: 45px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-45 {
   padding-left: 45px;
   padding-right: 45px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-45 {
   padding: 45px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-45 {
   margin: 45px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-50 {
   padding-left: 50px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-50 {
   padding-right: 50px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-50 {
   padding-top: 50px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-50 {
   padding-bottom: 50px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-50 {
   margin-top: 50px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-50 {
   margin-bottom: 50px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-50 {
   margin-right: 50px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-50 {
   margin-left: 50px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-50 {
   margin-top: 50px;
   margin-bottom: 50px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-50 {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-50 {
   margin-left: 50px;
   margin-right: 50px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-50 {
   padding-left: 50px;
   padding-right: 50px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-50 {
   padding: 50px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-50 {
   margin: 50px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-60 {
   padding-left: 60px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-60 {
   padding-right: 60px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-60 {
   padding-top: 60px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-60 {
   padding-bottom: 60px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-60 {
   margin-top: 60px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-60 {
   margin-bottom: 60px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-60 {
   margin-right: 60px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-60 {
   margin-left: 60px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-60 {
   margin-top: 60px;
   margin-bottom: 60px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-60 {
   padding-top: 60px;
   padding-bottom: 60px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-60 {
   margin-left: 60px;
   margin-right: 60px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-60 {
   padding-left: 60px;
   padding-right: 60px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-60 {
   padding: 60px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-60 {
   margin: 60px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-70 {
   padding-left: 70px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-70 {
   padding-right: 70px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-70 {
   padding-top: 70px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-70 {
   padding-bottom: 70px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-70 {
   margin-top: 70px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-70 {
   margin-bottom: 70px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-70 {
   margin-right: 70px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-70 {
   margin-left: 70px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-70 {
   margin-top: 70px;
   margin-bottom: 70px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-70 {
   padding-top: 70px;
   padding-bottom: 70px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-70 {
   margin-left: 70px;
   margin-right: 70px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-70 {
   padding-left: 70px;
   padding-right: 70px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-70 {
   padding: 70px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-70 {
   margin: 70px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-80 {
   padding-left: 80px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-80 {
   padding-right: 80px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-80 {
   padding-top: 80px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-80 {
   padding-bottom: 80px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-80 {
   margin-top: 80px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-80 {
   margin-bottom: 80px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-80 {
   margin-right: 80px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-80 {
   margin-left: 80px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-80 {
   margin-top: 80px;
   margin-bottom: 80px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-80 {
   padding-top: 80px;
   padding-bottom: 80px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-80 {
   margin-left: 80px;
   margin-right: 80px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-80 {
   padding-left: 80px;
   padding-right: 80px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-80 {
   padding: 80px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-80 {
   margin: 80px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-90 {
   padding-left: 90px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-90 {
   padding-right: 90px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-90 {
   padding-top: 90px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-90 {
   padding-bottom: 90px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-90 {
   margin-top: 90px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-90 {
   margin-bottom: 90px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-90 {
   margin-right: 90px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-90 {
   margin-left: 90px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-90 {
   margin-top: 90px;
   margin-bottom: 90px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-90 {
   padding-top: 90px;
   padding-bottom: 90px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-90 {
   margin-left: 90px;
   margin-right: 90px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-90 {
   padding-left: 90px;
   padding-right: 90px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-90 {
   padding: 90px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-90 {
   margin: 90px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-100 {
   padding-left: 100px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-100 {
   padding-right: 100px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-100 {
   padding-top: 100px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-100 {
   padding-bottom: 100px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-100 {
   margin-top: 100px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-100 {
   margin-bottom: 100px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-100 {
   margin-right: 100px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-100 {
   margin-left: 100px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-100 {
   margin-top: 100px;
   margin-bottom: 100px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-100 {
   padding-top: 100px;
   padding-bottom: 100px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-100 {
   margin-left: 100px;
   margin-right: 100px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-100 {
   padding-left: 100px;
   padding-right: 100px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-100 {
   padding: 100px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-100 {
   margin: 100px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-500 {
   padding-left: 500px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-500 {
   padding-right: 500px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-500 {
   padding-top: 500px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-500 {
   padding-bottom: 500px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-500 {
   margin-top: 500px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-500 {
   margin-bottom: 500px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-500 {
   margin-right: 500px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-500 {
   margin-left: 500px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-500 {
   margin-top: 500px;
   margin-bottom: 500px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-500 {
   padding-top: 500px;
   padding-bottom: 500px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-500 {
   margin-left: 500px;
   margin-right: 500px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-500 {
   padding-left: 500px;
   padding-right: 500px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-500 {
   padding: 500px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-500 {
   margin: 500px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-1000 {
   padding-left: 1000px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-1000 {
   padding-right: 1000px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-1000 {
   padding-top: 1000px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-1000 {
   padding-bottom: 1000px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-1000 {
   margin-top: 1000px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-1000 {
   margin-bottom: 1000px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-1000 {
   margin-right: 1000px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-1000 {
   margin-left: 1000px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-1000 {
   margin-top: 1000px;
   margin-bottom: 1000px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-1000 {
   padding-top: 1000px;
   padding-bottom: 1000px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-1000 {
   margin-left: 1000px;
   margin-right: 1000px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-1000 {
   padding-left: 1000px;
   padding-right: 1000px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-1000 {
   padding: 1000px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-1000 {
   margin: 1000px; }
 
-/* line 118, ../../../components/scss/general.scss */
+/* line 119, ../../../components/scss/general.scss */
 .pl-2000 {
   padding-left: 2000px; }
 
-/* line 121, ../../../components/scss/general.scss */
+/* line 122, ../../../components/scss/general.scss */
 .pr-2000 {
   padding-right: 2000px; }
 
-/* line 124, ../../../components/scss/general.scss */
+/* line 125, ../../../components/scss/general.scss */
 .pt-2000 {
   padding-top: 2000px; }
 
-/* line 127, ../../../components/scss/general.scss */
+/* line 128, ../../../components/scss/general.scss */
 .pb-2000 {
   padding-bottom: 2000px; }
 
-/* line 130, ../../../components/scss/general.scss */
+/* line 131, ../../../components/scss/general.scss */
 .mt-2000 {
   margin-top: 2000px; }
 
-/* line 133, ../../../components/scss/general.scss */
+/* line 134, ../../../components/scss/general.scss */
 .mb-2000 {
   margin-bottom: 2000px; }
 
-/* line 136, ../../../components/scss/general.scss */
+/* line 137, ../../../components/scss/general.scss */
 .mr-2000 {
   margin-right: 2000px; }
 
-/* line 139, ../../../components/scss/general.scss */
+/* line 140, ../../../components/scss/general.scss */
 .ml-2000 {
   margin-left: 2000px; }
 
-/* line 142, ../../../components/scss/general.scss */
+/* line 143, ../../../components/scss/general.scss */
 .mv-2000 {
   margin-top: 2000px;
   margin-bottom: 2000px; }
 
-/* line 146, ../../../components/scss/general.scss */
+/* line 147, ../../../components/scss/general.scss */
 .pv-2000 {
   padding-top: 2000px;
   padding-bottom: 2000px; }
 
-/* line 150, ../../../components/scss/general.scss */
+/* line 151, ../../../components/scss/general.scss */
 .mh-2000 {
   margin-left: 2000px;
   margin-right: 2000px; }
 
-/* line 154, ../../../components/scss/general.scss */
+/* line 155, ../../../components/scss/general.scss */
 .ph-2000 {
   padding-left: 2000px;
   padding-right: 2000px; }
 
-/* line 158, ../../../components/scss/general.scss */
+/* line 159, ../../../components/scss/general.scss */
 .p-2000 {
   padding: 2000px; }
 
-/* line 161, ../../../components/scss/general.scss */
+/* line 162, ../../../components/scss/general.scss */
 .m-2000 {
   margin: 2000px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-6 {
   font-size: 6px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-7 {
   font-size: 7px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-8 {
   font-size: 8px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-9 {
   font-size: 9px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-10 {
   font-size: 10px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-11 {
   font-size: 11px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-12 {
   font-size: 12px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-13 {
   font-size: 13px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-14 {
   font-size: 14px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-15 {
   font-size: 15px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-16 {
   font-size: 16px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-18 {
   font-size: 18px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-20 {
   font-size: 20px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-22 {
   font-size: 22px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-24 {
   font-size: 24px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-26 {
   font-size: 26px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-28 {
   font-size: 28px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-30 {
   font-size: 30px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-36 {
   font-size: 36px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-48 {
   font-size: 48px; }
 
-/* line 170, ../../../components/scss/general.scss */
+/* line 171, ../../../components/scss/general.scss */
 .fs-72 {
   font-size: 72px; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-10 {
   line-height: 1; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-11 {
   line-height: 1.1; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-12 {
   line-height: 1.2; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-13 {
   line-height: 1.3; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-14 {
   line-height: 1.4; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-15 {
   line-height: 1.5; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-16 {
   line-height: 1.6; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-17 {
   line-height: 1.7; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-18 {
   line-height: 1.8; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-19 {
   line-height: 1.9; }
 
-/* line 179, ../../../components/scss/general.scss */
+/* line 180, ../../../components/scss/general.scss */
 .lh-20 {
   line-height: 2; }
 
 /* Social color helpers.
 ----------------------------------------------------------------------------- */
-/* line 214, ../../../components/scss/general.scss */
+/* line 215, ../../../components/scss/general.scss */
 .social-links li a {
   color: #d6d6d6;
   background-color: transparent;
   border-color: #737373; }
 
-/* line 219, ../../../components/scss/general.scss */
+/* line 220, ../../../components/scss/general.scss */
 .social-links li a:hover {
   color: #ffffff;
   background-color: #737373;
   border-color: #737373; }
 
-/* line 226, ../../../components/scss/general.scss */
+/* line 227, ../../../components/scss/general.scss */
 .social-links li.facebook a:hover,
 .colored.social-links li.facebook a {
   background-color: #3b5998;
   border-color: #3b5998;
   color: #ffffff; }
 
-/* line 226, ../../../components/scss/general.scss */
+/* line 227, ../../../components/scss/general.scss */
 .social-links li.googleplus a:hover,
 .colored.social-links li.googleplus a {
   background-color: #dd4b39;
   border-color: #dd4b39;
   color: #ffffff; }
 
-/* line 226, ../../../components/scss/general.scss */
+/* line 227, ../../../components/scss/general.scss */
 .social-links li.youtube a:hover,
 .colored.social-links li.youtube a {
   background-color: #b31217;
   border-color: #b31217;
   color: #ffffff; }
 
-/* line 226, ../../../components/scss/general.scss */
+/* line 227, ../../../components/scss/general.scss */
 .social-links li.twitter a:hover,
 .colored.social-links li.twitter a {
   background-color: #55acee;
   border-color: #55acee;
   color: #ffffff; }
 
-/* line 226, ../../../components/scss/general.scss */
+/* line 227, ../../../components/scss/general.scss */
 .social-links li.github a:hover,
 .colored.social-links li.github a {
   background-color: #777777;
   border-color: #777777;
   color: #ffffff; }
 
-/* line 226, ../../../components/scss/general.scss */
+/* line 227, ../../../components/scss/general.scss */
 .social-links li.xing a:hover,
 .colored.social-links li.xing a {
   background-color: #126567;
   border-color: #126567;
   color: #ffffff; }
 
-/* line 226, ../../../components/scss/general.scss */
+/* line 227, ../../../components/scss/general.scss */
 .social-links li.rss a:hover,
 .colored.social-links li.rss a {
   background-color: #ee802f;
   border-color: #ee802f;
   color: #ffffff; }
 
-/* line 226, ../../../components/scss/general.scss */
+/* line 227, ../../../components/scss/general.scss */
 .social-links li.slideshare a:hover,
 .colored.social-links li.slideshare a {
   background-color: #e98325;
@@ -1744,12 +1748,12 @@ a.read-more:hover {
 
 /* line 38, ../../../components/scss/theme.scss */
 .header .navbar-nav > li:hover > a {
-  color: #f2a8b4; }
+  color: #ff264a; }
 
 /* line 41, ../../../components/scss/theme.scss */
 .header .nav > li > .search:hover {
-  border-bottom-color: #f2a8b4;
-  color: #f2a8b4; }
+  border-bottom-color: #ff264a;
+  color: #ff264a; }
 
 /* line 45, ../../../components/scss/theme.scss */
 .header .navbar-nav > li > a:hover,
@@ -1758,7 +1762,7 @@ a.read-more:hover {
 
 /* line 49, ../../../components/scss/theme.scss */
 .header .navbar-toggle {
-  border-color: #f2a8b4; }
+  border-color: #ff264a; }
 
 /* line 52, ../../../components/scss/theme.scss */
 .header .navbar-toggle,
@@ -1768,7 +1772,7 @@ a.read-more:hover {
 
 /* line 57, ../../../components/scss/theme.scss */
 .header .navbar-toggle:hover {
-  background: #f2a8b4 !important; }
+  background: #ff264a !important; }
 
 /* line 60, ../../../components/scss/theme.scss */
 .header .navbar-nav > .open > a,
@@ -1818,7 +1822,7 @@ a.read-more:hover {
 
 /* line 101, ../../../components/scss/theme.scss */
 .header-v1 .navbar-default .navbar-toggle {
-  border-color: #f2a8b4; }
+  border-color: #ff264a; }
 
 /* line 104, ../../../components/scss/theme.scss */
 .header-v1 .navbar-toggle,
@@ -1828,7 +1832,7 @@ a.read-more:hover {
 
 /* line 109, ../../../components/scss/theme.scss */
 .header-v1 .navbar-toggle:hover {
-  background: #f2a8b4 !important; }
+  background: #ff264a !important; }
 
 /* Design for max-width: 991px */
 @media (max-width: 991px) {
@@ -1857,7 +1861,7 @@ a.read-more:hover {
 
 /* line 136, ../../../components/scss/theme.scss */
 .header-v2 .navbar-default .navbar-toggle {
-  border-color: #f2a8b4; }
+  border-color: #ff264a; }
 
 /* line 139, ../../../components/scss/theme.scss */
 .header-v2 .navbar-toggle,
@@ -1867,7 +1871,7 @@ a.read-more:hover {
 
 /* line 144, ../../../components/scss/theme.scss */
 .header-v2 .navbar-toggle:hover {
-  background: #f2a8b4 !important; }
+  background: #ff264a !important; }
 
 /* Design for max-width: 991px */
 @media (max-width: 991px) {
@@ -1889,7 +1893,7 @@ a.read-more:hover {
 
 /* line 166, ../../../components/scss/theme.scss */
 .header-v3 .navbar-default .navbar-nav > li:hover > a {
-  color: #f2a8b4; }
+  color: #ff264a; }
 
 /* line 169, ../../../components/scss/theme.scss */
 .header-v3 .dropdown-menu {
@@ -1897,7 +1901,7 @@ a.read-more:hover {
 
 /* line 172, ../../../components/scss/theme.scss */
 .header-v3 .navbar-default .navbar-toggle {
-  border-color: #f2a8b4; }
+  border-color: #ff264a; }
 
 /* line 175, ../../../components/scss/theme.scss */
 .header-v3 .navbar-toggle,
@@ -1907,7 +1911,7 @@ a.read-more:hover {
 
 /* line 180, ../../../components/scss/theme.scss */
 .header-v3 .navbar-toggle:hover {
-  background: #f2a8b4 !important; }
+  background: #ff264a !important; }
 
 /* line 183, ../../../components/scss/theme.scss */
 .header-v3 .navbar .nav > li > .search:hover {
@@ -1944,7 +1948,7 @@ a.read-more:hover {
 /* line 214, ../../../components/scss/theme.scss */
 .header-v4 .navbar-default .navbar-nav > li:hover > a {
   border-color: #b31b34;
-  color: #f2a8b4; }
+  color: #ff264a; }
 
 /* line 218, ../../../components/scss/theme.scss */
 .header-v4 .navbar .nav > li > .search:hover {
@@ -2180,12 +2184,12 @@ a.read-more:hover {
 /* Sequence Parallax Sldier */
 /* line 429, ../../../components/scss/theme.scss */
 .sequence-inner {
-  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(white));
-  background: -webkit-linear-gradient(#fff, white);
-  background: -moz-linear-gradient(#fff, white);
-  background: -ms-linear-gradient(#fff, white);
-  background: -o-linear-gradient(#fff, white);
-  background: linear-gradient(#fff, white); }
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#ffe3e7));
+  background: -webkit-linear-gradient(#fff, #ffe3e7);
+  background: -moz-linear-gradient(#fff, #ffe3e7);
+  background: -ms-linear-gradient(#fff, #ffe3e7);
+  background: -o-linear-gradient(#fff, #ffe3e7);
+  background: linear-gradient(#fff, #ffe3e7); }
 
 /* line 437, ../../../components/scss/theme.scss */
 #sequence-theme h2 {
@@ -2207,13 +2211,13 @@ a.read-more:hover {
 .btn-u:active,
 .btn-u.active,
 .open .dropdown-toggle.btn-u {
-  background: #f2a8b4;
+  background: #ff264a;
   color: #fff; }
 
 /* Buttons Color */
 /* line 459, ../../../components/scss/theme.scss */
 .btn-u-split.dropdown-toggle {
-  border-left: solid 1px #f2a8b4; }
+  border-left: solid 1px #ff264a; }
 
 /* Bordered Buttons */
 /* line 464, ../../../components/scss/theme.scss */
@@ -2222,12 +2226,12 @@ a.read-more:hover {
 
 /* line 467, ../../../components/scss/theme.scss */
 .btn-u.btn-brd:hover {
-  color: #f2a8b4;
-  border-color: #f2a8b4; }
+  color: #ff264a;
+  border-color: #ff264a; }
 
 /* line 471, ../../../components/scss/theme.scss */
 .btn-u.btn-brd.btn-brd-hover:hover {
-  background: #f2a8b4; }
+  background: #ff264a; }
 
 /* Service
 ------------------------------------*/
@@ -2252,7 +2256,7 @@ a.read-more:hover {
 
 /* line 494, ../../../components/scss/theme.scss */
 .thumbnail-style a.btn-more:hover {
-  box-shadow: 0 0 0 2px #f2a8b4; }
+  box-shadow: 0 0 0 2px #ff264a; }
 
 /* Typography
 ------------------------------------*/
@@ -2278,7 +2282,7 @@ blockquote.hero.hero-default {
 
 /* line 517, ../../../components/scss/theme.scss */
 blockquote.hero.hero-default:hover {
-  background: #f2a8b4; }
+  background: #ff264a; }
 
 /* Carousel
 ------------------------------------*/
@@ -2346,7 +2350,7 @@ blockquote.hero.hero-default:hover {
 .tab-v3 .nav-pills li a:hover,
 .tab-v3 .nav-pills li.active a {
   background: #b31b34;
-  border: solid 1px #f2a8b4; }
+  border: solid 1px #ff264a; }
 
 /* Accardion
 ------------------------------------*/
@@ -2571,15 +2575,15 @@ ul.blog-tags a:hover {
 
 /* line 797, ../../../components/scss/theme.scss */
 .pagination li a:hover {
-  background: #f2a8b4;
-  border-color: #f2a8b4; }
+  background: #ff264a;
+  border-color: #ff264a; }
 
 /* Pager */
 /* line 803, ../../../components/scss/theme.scss */
 .pager li > a:hover,
 .pager li > a:focus {
-  background: #f2a8b4;
-  border-color: #f2a8b4; }
+  background: #ff264a;
+  border-color: #ff264a; }
 
 /* line 808, ../../../components/scss/theme.scss */
 .pager.pager-v2 li > a:hover,
@@ -2736,7 +2740,7 @@ blockquote.text-right:hover {
 
 /* line 949, ../../../components/scss/theme.scss */
 .testimonials.testimonials-bg-default .carousel-arrow i:hover {
-  background: #f2a8b4; }
+  background: #ff264a; }
 
 /* Promo Page
 ------------------------------------*/
@@ -2886,18 +2890,18 @@ i.icon-bg-u {
 /* line 1088, ../../../components/scss/theme.scss */
 .pricing-head h3 {
   background: #b31b34;
-  text-shadow: 0 1px 0 #f2a8b4; }
+  text-shadow: 0 1px 0 #ff264a; }
 
 /* line 1092, ../../../components/scss/theme.scss */
 .pricing-head h4 {
   color: #999;
   background: #fcfcfc;
-  border-bottom: solid 1px white; }
+  border-bottom: solid 1px #ffe3e7; }
 
 /* Pricing Content */
 /* line 1099, ../../../components/scss/theme.scss */
 .pricing-content li {
-  border-bottom: solid 1px white; }
+  border-bottom: solid 1px #ffe3e7; }
 
 /* line 1102, ../../../components/scss/theme.scss */
 .pricing-content li i {
@@ -2912,7 +2916,7 @@ i.icon-bg-u {
 /* line 1112, ../../../components/scss/theme.scss */
 .pricing-footer a:hover,
 .pricing-footer button:hover {
-  background: #f2a8b4; }
+  background: #ff264a; }
 
 /* Pricing Active */
 /* line 1118, ../../../components/scss/theme.scss */
@@ -2930,7 +2934,7 @@ i.icon-bg-u {
 .pricing-mega-v1 .pricing-head h3,
 .pricing-mega-v2 .pricing-head h3,
 .pricing-mega-v3 .pricing-head h3 {
-  text-shadow: 0 1px 0 #f2a8b4; }
+  text-shadow: 0 1px 0 #ff264a; }
 
 /* Pricing Table Mega v1 Version
 ------------------------------------*/
@@ -2958,7 +2962,7 @@ i.icon-bg-u {
 
 /* line 1154, ../../../components/scss/theme.scss */
 .pricing-bg-colored .pricing-head p {
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid #ffe3e7; }
 
 /* Pricing Table Mega v2 
 ------------------------------------*/
@@ -2984,7 +2988,7 @@ i.icon-bg-u {
 /* line 1178, ../../../components/scss/theme.scss */
 .pricing-mega-v1 .btn-group .dropdown-menu li a:hover,
 .pricing-mega-v3 .btn-group .dropdown-menu li a:hover {
-  background: #f2a8b4; }
+  background: #ff264a; }
 
 /* Grid Block v2 
 ------------------------------------*/
@@ -3189,7 +3193,7 @@ i.icon-bg-u {
 
 /* line 1378, ../../../components/scss/theme.scss */
 .footer-default .footer a:hover {
-  color: #f2a8b4; }
+  color: #ff264a; }
 
 /* line 1381, ../../../components/scss/theme.scss */
 .footer-default .copyright a {
@@ -3197,7 +3201,7 @@ i.icon-bg-u {
 
 /* line 1384, ../../../components/scss/theme.scss */
 .footer-default .copyright a:hover {
-  color: #f2a8b4; }
+  color: #ff264a; }
 
 /* Footer v4
 ------------------------------------*/
@@ -3306,119 +3310,648 @@ i.icon-bg-u {
 .blog-trending h3 a:hover {
   color: #b31b34 !important; }
 
-/* Navigation colors.
+/* Buttons that are red should always use "OpenCms red".
 ----------------------------------------------------------------------------- */
-/* line 12, ../../../components/scss/modifications.scss */
-.header .navbar-nav > .active > a, .header .navbar-nav > .active > a:hover {
-  border-bottom-color: #b31b34;
-  color: #b31b34; }
-
-/* line 17, ../../../components/scss/modifications.scss */
-.header .navbar-nav > li > a:hover {
-  border-bottom-color: #b31b34;
-  color: #b31b34; }
-
-/* line 22, ../../../components/scss/modifications.scss */
-.header .navbar-nav > li:hover > a {
-  color: #b31b34; }
-
-/* line 28, ../../../components/scss/modifications.scss */
-.header .dropdown-menu {
-  border-bottom: solid 2px #b31b34;
-  border-bottom-color: #b31b34;
-  border-top: solid 2px #b31b34;
-  border-top-color: #b31b34; }
-
-/* line 35, ../../../components/scss/modifications.scss */
-.header .navbar-nav .mega-menu-fullwidth ul.dropdown-menu,
-.header .navbar-nav .dropdown-menu li a {
-  background-color: #b31b34;
-  color: #FFF; }
-
-/* line 41, ../../../components/scss/modifications.scss */
-.header .navbar-nav .dropdown-menu li a:hover {
-  background-color: #f2a8b4 !important;
-  color: #b31b34; }
-
-/* line 46, ../../../components/scss/modifications.scss */
-.header .navbar-nav .dropdown-menu li.active a {
-  background-color: #f2a8b4 !important;
-  color: #b31b34; }
-
-/* line 54, ../../../components/scss/modifications.scss */
-.sidebar-nav-v1 li {
-  background-color: #f2a8b4; }
-
-/* line 58, ../../../components/scss/modifications.scss */
-.sidebar-nav-v1 li a,
-.sidebar-nav-v1 .list-toggle:after {
-  color: #b31b34; }
-
-/* line 63, ../../../components/scss/modifications.scss */
-.sidebar-nav-v1 li:hover {
-  background-color: #b31b34; }
-
-/* line 67, ../../../components/scss/modifications.scss */
-.sidebar-nav-v1 li:hover a {
-  color: #FFF; }
-
-/* line 71, ../../../components/scss/modifications.scss */
-.sidebar-nav-v1 > li.active, .sidebar-nav-v1 > li.active:hover {
-  background-color: #FFF; }
-
-/* line 75, ../../../components/scss/modifications.scss */
-.sidebar-nav-v1 > li.active a, .sidebar-nav-v1 > li.active:hover a,
-.sidebar-nav-v1 .list-toggle.active:after {
-  color: #b31b34; }
-
-/* line 80, ../../../components/scss/modifications.scss */
-.sidebar-nav-v1 > li.active li.active a, .sidebar-nav-v1 > li.active:hover li.active a {
-  color: #b31b34; }
-
-/* line 84, ../../../components/scss/modifications.scss */
-.sidebar-nav-v1 > li.active li a, .sidebar-nav-v1 > li.active:hover li a {
-  color: #b31b34; }
-
-/* line 88, ../../../components/scss/modifications.scss */
-.sidebar-nav-v1 > li.active li:hover a {
-  color: #b31b34; }
-
-/* line 92, ../../../components/scss/modifications.scss */
-.sidebar-nav-v1 li ul, .sidebar-nav-v1 li.active ul a {
-  background-color: #f5f5f5; }
-
-/* Red boxes, buttons should always use "OpenCms red".
------------------------------------------------------------------------------ */
-/* line 99, ../../../components/scss/modifications.scss */
+/* line 10, ../../../components/scss/modifications.scss */
 .btn-u-red {
   background: #b31b34 !important; }
 
-/* line 102, ../../../components/scss/modifications.scss */
+/* line 13, ../../../components/scss/modifications.scss */
 .btn-u-red:hover {
   background: #eb7c8e !important; }
 
-/* line 106, ../../../components/scss/modifications.scss */
+/* line 17, ../../../components/scss/modifications.scss */
 .service-block-red, i.icon-bg-red {
   background-color: #b31b34; }
 
-/* Footer colors.
+/* Carousel caption color.
 ----------------------------------------------------------------------------- */
-/* line 113, ../../../components/scss/modifications.scss */
-.footer-default .copyright {
-  background-color: #dddddd; }
+/* line 24, ../../../components/scss/modifications.scss */
+.carousel-caption h3 {
+  color: #fff; }
 
-/* line 117, ../../../components/scss/modifications.scss */
-.footer-default .copyright p {
-  color: #333333; }
+/* Colored boxes.
+----------------------------------------------------------------------------- */
+/* line 50, ../../../components/scss/modifications.scss */
+.colored-box {
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: 20px; }
+
+/* line 56, ../../../components/scss/modifications.scss */
+.colored-box-light {
+  color: #4e545b; }
+
+/* line 60, ../../../components/scss/modifications.scss */
+.colored-box p,
+.colored-box li,
+.colored-box h1,
+.colored-box h2,
+.colored-box h3,
+.colored-box h4,
+.colored-box h5,
+.colored-box h6 {
+  color: #fff; }
+
+/* line 71, ../../../components/scss/modifications.scss */
+.colored-box a {
+  color: #ff264a; }
+
+/* line 75, ../../../components/scss/modifications.scss */
+.colored-box-light a {
+  color: #b31b34; }
+
+/* line 79, ../../../components/scss/modifications.scss */
+.colored-box a.btn-u,
+.colored-box-light a.btn-u {
+  color: #fff; }
+
+/* line 84, ../../../components/scss/modifications.scss */
+.colored-box-light p,
+.colored-box-light li,
+.colored-box-light h1,
+.colored-box-light h2,
+.colored-box-light h3,
+.colored-box-light h4,
+.colored-box-light h5,
+.colored-box-light h6 {
+  color: #4e545b; }
+
+/* Background color */
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.white, colored-box-light.white {
+  background-color: #fff; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.lightgrey, colored-box-light.lightgrey {
+  background-color: #fafafb; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.mediumgrey, colored-box-light.mediumgrey {
+  background-color: #e2e3e6; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.dark, colored-box-light.dark {
+  background-color: #4e545b; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.red, colored-box-light.red {
+  background-color: #b31b34; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.blue, colored-box-light.blue {
+  background-color: #144382; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.green, colored-box-light.green {
+  background-color: #8dae60; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.sea, colored-box-light.sea {
+  background-color: #1abc9c; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.orange, colored-box-light.orange {
+  background-color: #ffa826; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.yellow, colored-box-light.yellow {
+  background-color: #f1c40f; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.purple, colored-box-light.purple {
+  background-color: #642f5b; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.aqua, colored-box-light.aqua {
+  background-color: #187b8e; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.brown, colored-box-light.brown {
+  background-color: #8a7654; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.dark-blue, colored-box-light.dark-blue {
+  background-color: #0d2c56; }
+
+/* line 98, ../../../components/scss/modifications.scss */
+.colored-box.light-green, colored-box-light.light-green {
+  background-color: #bdd0a4; }
+
+/* Border style */
+/* line 114, ../../../components/scss/modifications.scss */
+.colored-box.border-style-none, .colored-box-light.border-style-none {
+  border-style: none;
+  border-width: 0;
+  border-color: none; }
+
+/* line 114, ../../../components/scss/modifications.scss */
+.colored-box.border-style-dotted, .colored-box-light.border-style-dotted {
+  border-style: dotted;
+  border-width: 1px;
+  border-color: #e2e3e6; }
+
+/* line 114, ../../../components/scss/modifications.scss */
+.colored-box.border-style-dashed, .colored-box-light.border-style-dashed {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #e2e3e6; }
+
+/* line 114, ../../../components/scss/modifications.scss */
+.colored-box.border-style-solid, .colored-box-light.border-style-solid {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e2e3e6; }
+
+/* Line position and color */
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-white, .colored-box-light.line-top-color-white {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #fff; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-white, .colored-box-light.line-bottom-color-white {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #fff; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-white, .colored-box-light.line-left-color-white {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #fff; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-white, .colored-box-light.line-right-color-white {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #fff; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-white, .colored-box-light.line-box-color-white {
+  border: 2px solid #fff; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-white, .colored-box-light.line-none-color-white {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-lightgrey, .colored-box-light.line-top-color-lightgrey {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #fafafb; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-lightgrey, .colored-box-light.line-bottom-color-lightgrey {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #fafafb; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-lightgrey, .colored-box-light.line-left-color-lightgrey {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #fafafb; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-lightgrey, .colored-box-light.line-right-color-lightgrey {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #fafafb; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-lightgrey, .colored-box-light.line-box-color-lightgrey {
+  border: 2px solid #fafafb; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-lightgrey, .colored-box-light.line-none-color-lightgrey {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-mediumgrey, .colored-box-light.line-top-color-mediumgrey {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-mediumgrey, .colored-box-light.line-bottom-color-mediumgrey {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-mediumgrey, .colored-box-light.line-left-color-mediumgrey {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-mediumgrey, .colored-box-light.line-right-color-mediumgrey {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #e2e3e6; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-mediumgrey, .colored-box-light.line-box-color-mediumgrey {
+  border: 2px solid #e2e3e6; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-mediumgrey, .colored-box-light.line-none-color-mediumgrey {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-dark, .colored-box-light.line-top-color-dark {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #4e545b; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-dark, .colored-box-light.line-bottom-color-dark {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #4e545b; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-dark, .colored-box-light.line-left-color-dark {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #4e545b; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-dark, .colored-box-light.line-right-color-dark {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #4e545b; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-dark, .colored-box-light.line-box-color-dark {
+  border: 2px solid #4e545b; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-dark, .colored-box-light.line-none-color-dark {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-red, .colored-box-light.line-top-color-red {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #b31b34; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-red, .colored-box-light.line-bottom-color-red {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #b31b34; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-red, .colored-box-light.line-left-color-red {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #b31b34; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-red, .colored-box-light.line-right-color-red {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #b31b34; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-red, .colored-box-light.line-box-color-red {
+  border: 2px solid #b31b34; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-red, .colored-box-light.line-none-color-red {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-blue, .colored-box-light.line-top-color-blue {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #144382; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-blue, .colored-box-light.line-bottom-color-blue {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #144382; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-blue, .colored-box-light.line-left-color-blue {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #144382; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-blue, .colored-box-light.line-right-color-blue {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #144382; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-blue, .colored-box-light.line-box-color-blue {
+  border: 2px solid #144382; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-blue, .colored-box-light.line-none-color-blue {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-green, .colored-box-light.line-top-color-green {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #8dae60; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-green, .colored-box-light.line-bottom-color-green {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #8dae60; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-green, .colored-box-light.line-left-color-green {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #8dae60; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-green, .colored-box-light.line-right-color-green {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #8dae60; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-green, .colored-box-light.line-box-color-green {
+  border: 2px solid #8dae60; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-green, .colored-box-light.line-none-color-green {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-sea, .colored-box-light.line-top-color-sea {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #1abc9c; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-sea, .colored-box-light.line-bottom-color-sea {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #1abc9c; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-sea, .colored-box-light.line-left-color-sea {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #1abc9c; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-sea, .colored-box-light.line-right-color-sea {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #1abc9c; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-sea, .colored-box-light.line-box-color-sea {
+  border: 2px solid #1abc9c; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-sea, .colored-box-light.line-none-color-sea {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-orange, .colored-box-light.line-top-color-orange {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #ffa826; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-orange, .colored-box-light.line-bottom-color-orange {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #ffa826; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-orange, .colored-box-light.line-left-color-orange {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #ffa826; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-orange, .colored-box-light.line-right-color-orange {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #ffa826; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-orange, .colored-box-light.line-box-color-orange {
+  border: 2px solid #ffa826; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-orange, .colored-box-light.line-none-color-orange {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-yellow, .colored-box-light.line-top-color-yellow {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f1c40f; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-yellow, .colored-box-light.line-bottom-color-yellow {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #f1c40f; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-yellow, .colored-box-light.line-left-color-yellow {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #f1c40f; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-yellow, .colored-box-light.line-right-color-yellow {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #f1c40f; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-yellow, .colored-box-light.line-box-color-yellow {
+  border: 2px solid #f1c40f; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-yellow, .colored-box-light.line-none-color-yellow {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-purple, .colored-box-light.line-top-color-purple {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #642f5b; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-purple, .colored-box-light.line-bottom-color-purple {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #642f5b; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-purple, .colored-box-light.line-left-color-purple {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #642f5b; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-purple, .colored-box-light.line-right-color-purple {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #642f5b; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-purple, .colored-box-light.line-box-color-purple {
+  border: 2px solid #642f5b; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-purple, .colored-box-light.line-none-color-purple {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-aqua, .colored-box-light.line-top-color-aqua {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #187b8e; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-aqua, .colored-box-light.line-bottom-color-aqua {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #187b8e; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-aqua, .colored-box-light.line-left-color-aqua {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #187b8e; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-aqua, .colored-box-light.line-right-color-aqua {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #187b8e; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-aqua, .colored-box-light.line-box-color-aqua {
+  border: 2px solid #187b8e; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-aqua, .colored-box-light.line-none-color-aqua {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-brown, .colored-box-light.line-top-color-brown {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #8a7654; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-brown, .colored-box-light.line-bottom-color-brown {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #8a7654; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-brown, .colored-box-light.line-left-color-brown {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #8a7654; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-brown, .colored-box-light.line-right-color-brown {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #8a7654; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-brown, .colored-box-light.line-box-color-brown {
+  border: 2px solid #8a7654; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-brown, .colored-box-light.line-none-color-brown {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-dark-blue, .colored-box-light.line-top-color-dark-blue {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #0d2c56; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-dark-blue, .colored-box-light.line-bottom-color-dark-blue {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0d2c56; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-dark-blue, .colored-box-light.line-left-color-dark-blue {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #0d2c56; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-dark-blue, .colored-box-light.line-right-color-dark-blue {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #0d2c56; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-dark-blue, .colored-box-light.line-box-color-dark-blue {
+  border: 2px solid #0d2c56; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-dark-blue, .colored-box-light.line-none-color-dark-blue {
+  border-color: #e2e3e6; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-top-color-light-green, .colored-box-light.line-top-color-light-green {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #bdd0a4; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-bottom-color-light-green, .colored-box-light.line-bottom-color-light-green {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #bdd0a4; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-left-color-light-green, .colored-box-light.line-left-color-light-green {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #bdd0a4; }
+
+/* line 131, ../../../components/scss/modifications.scss */
+.colored-box.line-right-color-light-green, .colored-box-light.line-right-color-light-green {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #bdd0a4; }
+
+/* line 137, ../../../components/scss/modifications.scss */
+.colored-box.line-box-color-light-green, .colored-box-light.line-box-color-light-green {
+  border: 2px solid #bdd0a4; }
+
+/* line 140, ../../../components/scss/modifications.scss */
+.colored-box.line-none-color-light-green, .colored-box-light.line-none-color-light-green {
+  border-color: #e2e3e6; }
 
 /* Fancybox additions for zoom effect.
 ----------------------------------------------------------------------------- */
-/* line 124, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .zoomer:hover .overlay-zoom .zoom-icon {
   opacity: 0.4;
   transform: scale(1); }
 
-/* line 128, ../../../components/scss/modifications.scss */
+/* line 152, ../../../components/scss/modifications.scss */
 .overlay-zoom {
   cursor: pointer;
   display: block;
@@ -3428,7 +3961,7 @@ i.icon-bg-u {
   width: 100%;
   z-index: 90; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 161, ../../../components/scss/modifications.scss */
 .overlay-zoom .zoom-icon {
   background-color: #000;
   background-image: url("../img/overlay-icon.png");
@@ -3443,9 +3976,100 @@ i.icon-bg-u {
   width: inherit;
   z-index: 100; }
 
+/* Footer colors.
+----------------------------------------------------------------------------- */
+/* line 179, ../../../components/scss/modifications.scss */
+.footer-default .copyright {
+  background-color: #dddddd; }
+
+/* line 183, ../../../components/scss/modifications.scss */
+.footer-default .copyright p {
+  color: #333333; }
+
+/* Navigation colors.
+----------------------------------------------------------------------------- */
+/* line 192, ../../../components/scss/modifications.scss */
+.header .navbar-nav > .active > a, .header .navbar-nav > .active > a:hover {
+  border-bottom-color: #b31b34;
+  color: #b31b34; }
+
+/* line 197, ../../../components/scss/modifications.scss */
+.header .navbar-nav > li > a:hover {
+  border-bottom-color: #b31b34;
+  color: #b31b34; }
+
+/* line 202, ../../../components/scss/modifications.scss */
+.header .navbar-nav > li:hover > a {
+  color: #b31b34; }
+
+/* line 208, ../../../components/scss/modifications.scss */
+.header .dropdown-menu {
+  border-bottom: solid 2px #b31b34;
+  border-bottom-color: #b31b34;
+  border-top: solid 2px #b31b34;
+  border-top-color: #b31b34; }
+
+/* line 215, ../../../components/scss/modifications.scss */
+.header .navbar-nav .mega-menu-fullwidth ul.dropdown-menu,
+.header .navbar-nav .dropdown-menu li a {
+  background-color: #b31b34;
+  color: #fff; }
+
+/* line 221, ../../../components/scss/modifications.scss */
+.header .navbar-nav .dropdown-menu li a:hover {
+  background-color: #ff264a !important;
+  color: #fff; }
+
+/* line 226, ../../../components/scss/modifications.scss */
+.header .navbar-nav .dropdown-menu li.active a {
+  background-color: #ffe3e7 !important;
+  color: #b31b34; }
+
+/* line 234, ../../../components/scss/modifications.scss */
+.sidebar-nav-v1 li {
+  background-color: #b31b34; }
+
+/* line 238, ../../../components/scss/modifications.scss */
+.sidebar-nav-v1 li a,
+.sidebar-nav-v1 .list-toggle:after {
+  color: #fff; }
+
+/* line 243, ../../../components/scss/modifications.scss */
+.sidebar-nav-v1 li:hover {
+  background-color: #ff264a; }
+
+/* line 247, ../../../components/scss/modifications.scss */
+.sidebar-nav-v1 li:hover a {
+  color: #fff; }
+
+/* line 251, ../../../components/scss/modifications.scss */
+.sidebar-nav-v1 > li.active, .sidebar-nav-v1 > li.active:hover {
+  background-color: #fff; }
+
+/* line 255, ../../../components/scss/modifications.scss */
+.sidebar-nav-v1 > li.active a, .sidebar-nav-v1 > li.active:hover a,
+.sidebar-nav-v1 .list-toggle.active:after {
+  color: #b31b34; }
+
+/* line 260, ../../../components/scss/modifications.scss */
+.sidebar-nav-v1 > li.active li.active a, .sidebar-nav-v1 > li.active:hover li.active a {
+  color: #b31b34; }
+
+/* line 264, ../../../components/scss/modifications.scss */
+.sidebar-nav-v1 > li.active li a, .sidebar-nav-v1 > li.active:hover li a {
+  color: #b31b34; }
+
+/* line 268, ../../../components/scss/modifications.scss */
+.sidebar-nav-v1 > li.active li:hover a {
+  color: #b31b34; }
+
+/* line 272, ../../../components/scss/modifications.scss */
+.sidebar-nav-v1 li ul, .sidebar-nav-v1 li.active ul a {
+  background-color: #f5f5f5; }
+
 /* Slider additional styles.
 ----------------------------------------------------------------------------- */
-/* line 155, ../../../components/scss/modifications.scss */
+/* line 279, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickblackbg, .tp-caption.mediumthickgreybg, .tp-caption.mediumthickwhitebg {
   font-size: 36px;
   line-height: 36px;
@@ -3458,31 +4082,31 @@ i.icon-bg-u {
   border-style: none;
   padding: 0 4px; }
 
-/* line 168, ../../../components/scss/modifications.scss */
+/* line 292, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickblackbg {
   color: white;
   background-color: black; }
 
-/* line 173, ../../../components/scss/modifications.scss */
+/* line 297, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickgreybg {
   color: white;
   background-color: gray; }
 
-/* line 178, ../../../components/scss/modifications.scss */
+/* line 302, ../../../components/scss/modifications.scss */
 .tp-caption.blackbgtransparent {
   background-color: black;
   /* RGBa with 0.6 opacity */
   background-color: rgba(0, 0, 0, 0.5);
   padding: 7px; }
 
-/* line 185, ../../../components/scss/modifications.scss */
+/* line 309, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickwhitebg {
   color: black;
   background-color: white; }
 
 /* Social icons.
 ----------------------------------------------------------------------------- */
-/* line 193, ../../../components/scss/modifications.scss */
+/* line 317, ../../../components/scss/modifications.scss */
 .social_slideshare {
   background: url("../img/icons/social/slideshare.png") no-repeat; }
 

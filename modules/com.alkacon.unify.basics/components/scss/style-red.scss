@@ -19,13 +19,13 @@
 @import 'defaultcolors'; 
 
 // Color values
-$theme-primary: $alkacon-red;
-$theme-primary-light: lighten($theme-primary, 40%);
-$theme-primary-lighter: lighten($theme-primary, 60%);
+$theme-primary: $red;
+$theme-primary-light: $red-light;
+$theme-primary-lighter: $red-lighter;
 
-$theme-secondary: $alkacon-red;
-$theme-secondary-light: lighten($theme-secondary, 40%);
-$theme-secondary-lighter: lighten($theme-secondary, 60%);
+$theme-secondary: $red;
+$theme-secondary-light: $red-light;
+$theme-secondary-lighter: $red-lighter;
 
 // Main theme colors
 $main-theme: $theme-primary;
@@ -36,24 +36,24 @@ $main-theme-additional: $theme-primary-lighter;
 // Navigation colors
 $nav-main-bg: #FFF;
 $nav-main-color: $theme-primary;
-$nav-main-bg-hover: #FFF;
+$nav-main-bg-hover: $white;
 $nav-main-color-hover: $theme-secondary;
-$nav-main-bg-active: #FFF;
+$nav-main-bg-active: $white;
 $nav-main-color-active: $theme-secondary;
 
 $nav-sub-divider: #FFF;
 $nav-sub-bg: $theme-secondary;
-$nav-sub-color: #FFF;
+$nav-sub-color: $white;
 $nav-sub-bg-hover: $theme-secondary-light;
-$nav-sub-color-hover: $theme-secondary;
-$nav-sub-bg-active: $theme-secondary-light;
+$nav-sub-color-hover: $white;
+$nav-sub-bg-active: $theme-secondary-lighter;
 $nav-sub-color-active: $theme-primary;
 
-$nav-left-bg: $theme-secondary-light;
-$nav-left-color: $theme-primary;
-$nav-left-bg-hover: $theme-secondary;
-$nav-left-color-hover:#FFF;
-$nav-left-bg-active: #FFF;
+$nav-left-bg: $theme-secondary;
+$nav-left-color: $white;
+$nav-left-bg-hover: $theme-secondary-light;
+$nav-left-color-hover:$white;
+$nav-left-bg-active: $white;
 $nav-left-color-active: $theme-secondary;
 
 $nav-left-sub-color: $theme-secondary;

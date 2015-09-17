@@ -19,13 +19,13 @@
 @import 'defaultcolors'; 
 
 // Color values
-$theme-primary: $alkacon-blue;
-$theme-primary-light: lighten($theme-primary, 40%);
-$theme-primary-lighter: lighten($theme-primary, 60%);
+$theme-primary: $blue;
+$theme-primary-light: $blue-light;
+$theme-primary-lighter: $blue-lighter;
 
-$theme-secondary: $alkacon-blue;
-$theme-secondary-light: lighten($theme-secondary, 40%);
-$theme-secondary-lighter: lighten($theme-secondary, 60%);
+$theme-secondary: $blue;
+$theme-secondary-light: $blue-light;
+$theme-secondary-lighter: $blue-lighter;
 
 // Main theme colors
 $main-theme: $theme-primary;

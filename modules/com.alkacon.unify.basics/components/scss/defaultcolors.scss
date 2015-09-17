@@ -34,6 +34,8 @@ $gray-lighter:      lighten($gray, 30%);
 $gray-light:        lighten($gray, 21%);  
 $gray-dark:         darken($gray, 15%);
 $gray-darker:       darken($gray, 35%);
+$sea:				#1abc9c;
+$yellow:			#f1c40f;
 
 $blue-cyan:         mix($blue, $cyan);
 $violet:            mix($blue, $red);
@@ -41,7 +43,7 @@ $brown:             mix($blue, $orange);
 $red-orange:        mix($red, $orange);
 $red-cyan:          mix($red, $cyan);
 $green:             mix($orange, $cyan);
-
+$green-light:		lighten($green, 20%);
 
 // Text colors 
 $text-light: #fff;

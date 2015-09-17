@@ -4,6 +4,186 @@
 // Modifications and additions to the common styles. 
 //
 
+/* Buttons that are red should always use "OpenCms red".
+----------------------------------------------------------------------------- */
+
+.btn-u-red {
+   background: $alkacon-red !important;
+}
+.btn-u-red:hover {
+   background: lighten($alkacon-red, 30%) !important;
+}
+
+.service-block-red, i.icon-bg-red {
+    background-color: $alkacon-red;
+}
+
+/* Carousel caption color.
+----------------------------------------------------------------------------- */
+
+.carousel-caption h3 {
+    color: $white;
+}
+
+/* Colored boxes.
+----------------------------------------------------------------------------- */
+
+$colored-box-variants:
+(
+ (white, $white),         
+ (lightgrey, $gray-lighter),         
+ (mediumgrey, $gray-light),         
+ (dark, $gray-darker),
+ (red, $red),         
+ (blue, $blue),         
+ (green, $green),
+ (sea, $sea),
+ (orange, $orange),
+ (yellow, $yellow),
+ (purple, $violet),
+ (aqua, $blue-cyan),
+ (brown, $brown),
+ (dark-blue, $blue-dark),
+ (light-green, $green-light)
+);
+
+.colored-box {
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.colored-box-light {
+    color: $gray-darker;
+}
+
+.colored-box p, 
+.colored-box li, 
+.colored-box h1, 
+.colored-box h2, 
+.colored-box h3, 
+.colored-box h4,  
+.colored-box h5, 
+.colored-box h6 {
+    color: $white;
+}
+
+.colored-box a {
+    color: $red-light;
+}
+
+.colored-box-light a {
+    color: $red;
+}
+
+.colored-box  a.btn-u,
+.colored-box-light  a.btn-u  {
+    color: $white;
+}
+
+.colored-box-light p, 
+.colored-box-light li, 
+.colored-box-light h1, 
+.colored-box-light h2, 
+.colored-box-light h3, 
+.colored-box-light h4,  
+.colored-box-light h5, 
+.colored-box-light h6 {
+    color: $gray-darker;
+}
+
+/* Background color */
+
+@each $type-name, $bg-color in $colored-box-variants {
+    .colored-box.#{""+$type-name}, colored-box-light.#{""+$type-name} {      
+        background-color: $bg-color;      
+    }
+}
+
+/* Border style */
+
+$colored-box-borderstyles:
+(
+ (none, 0, none),         
+ (dotted, 1px, $gray-light),         
+ (dashed, 1px, $gray-light),         
+ (solid, 1px, $gray-light)
+);
+
+@each $style-name, $width, $bg-color in $colored-box-borderstyles {
+    .colored-box.border-style-#{""+$style-name}, .colored-box-light.border-style-#{""+$style-name} {
+	    border-style: #{""+$style-name};
+	    border-width: $width;
+	    border-color: $bg-color;
+	}
+}
+
+/* Line position and color */
+
+$colored-box-positions:
+(
+ top, bottom, left, right
+);
+
+@each $type-name, $bg-color in $colored-box-variants {
+
+    @each $position in $colored-box-positions {
+	    .colored-box.line-#{""+$position}-color-#{""+$type-name}, .colored-box-light.line-#{""+$position}-color-#{""+$type-name} {
+	    	border-#{""+$position}-style: solid;
+	    	border-#{""+$position}-width: 2px;
+	    	border-#{""+$position}-color: $bg-color;
+		}
+	}
+	.colored-box.line-box-color-#{""+$type-name}, .colored-box-light.line-box-color-#{""+$type-name} {
+	    border: 2px solid $bg-color;
+	}
+	.colored-box.line-none-color-#{""+$type-name}, .colored-box-light.line-none-color-#{""+$type-name} {
+	    border-color: $gray-light;
+	}
+}
+
+/* Fancybox additions for zoom effect.
+----------------------------------------------------------------------------- */
+
+.zoomer:hover .overlay-zoom .zoom-icon {
+    opacity: 0.4;
+    transform: scale(1);
+}
+.overlay-zoom {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    position: relative;
+    transition: all 0.1s ease-in-out 0s;
+    width: 100%;
+    z-index: 90;
+}
+.overlay-zoom .zoom-icon {
+    background-color: #000;
+    background-image: url("../img/overlay-icon.png");
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    height: inherit;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(0);
+    transition: all 0.4s ease-in-out 0s;
+    width: inherit;
+    z-index: 100;
+}
+
+/* Footer colors.
+----------------------------------------------------------------------------- */
+
+.footer-default .copyright {
+    background-color: #dddddd; //$gray;
+}
+
+.footer-default .copyright p {
+    color: #333333; //$text-dark;
+}
+
 /* Navigation colors.
 ----------------------------------------------------------------------------- */
 
@@ -91,62 +271,6 @@
 
 .sidebar-nav-v1 li ul, .sidebar-nav-v1 li.active ul a {
 	background-color: $nav-left-sub-bg;
-}
-
-/* Red boxes, buttons should always use "OpenCms red".
------------------------------------------------------------------------------ */
-
-.btn-u-red {
-   background: $alkacon-red !important;
-}
-.btn-u-red:hover {
-   background: lighten($alkacon-red, 30%) !important;
-}
-
-.service-block-red, i.icon-bg-red {
-    background-color: $alkacon-red;
-}
-
-/* Footer colors.
------------------------------------------------------------------------------ */
-
-.footer-default .copyright {
-    background-color: #dddddd; //$gray;
-}
-
-.footer-default .copyright p {
-    color: #333333; //$text-dark;
-}
-
-/* Fancybox additions for zoom effect.
------------------------------------------------------------------------------ */
-
-.zoomer:hover .overlay-zoom .zoom-icon {
-    opacity: 0.4;
-    transform: scale(1);
-}
-.overlay-zoom {
-    cursor: pointer;
-    display: block;
-    height: 100%;
-    position: relative;
-    transition: all 0.1s ease-in-out 0s;
-    width: 100%;
-    z-index: 90;
-}
-.overlay-zoom .zoom-icon {
-    background-color: #000;
-    background-image: url("../img/overlay-icon.png");
-    background-position: 50% center;
-    background-repeat: no-repeat;
-    height: inherit;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    transform: scale(0);
-    transition: all 0.4s ease-in-out 0s;
-    width: inherit;
-    z-index: 100;
 }
 
 /* Slider additional styles.
