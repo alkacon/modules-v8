@@ -34,7 +34,9 @@
 			<layouts/>
 			<validationrules/>
 			<relations/>
-			<searchsettings containerPageOnly="true"/>
+			<searchsettings containerPageOnly="true">
+				<searchsetting element="GalleryTitle" searchcontent="false" />
+			</searchsettings>
 			<headincludes/>
 		  	<visibilities>
                 <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />

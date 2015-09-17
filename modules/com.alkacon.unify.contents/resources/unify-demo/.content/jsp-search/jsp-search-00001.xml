@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JspSearchConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.jsp.search/schemas/jsp-search.xsd">
+  <JspSearchConfig language="en">
+    <Title><![CDATA[OpenCms Demo Search Configuration]]></Title>
+    <SearchForEmptyQuery>true</SearchForEmptyQuery>
+    <QueryModifier><![CDATA[content_en:%(query) OR content_de:%(query) OR spell:%(query) OR Title_prop:%(query)]]></QueryModifier>
+    <EscapeQueryCharacters>true</EscapeQueryCharacters>
+    <ExtraSolrParams><![CDATA[fq=parent-folders:"/sites/default/"]]></ExtraSolrParams>
+    <PageSize><![CDATA[10]]></PageSize>
+    <PageNavLength><![CDATA[5]]></PageNavLength>
+    <SortOption>
+      <SolrValue><![CDATA[score desc]]></SolrValue>
+      <ParamValue><![CDATA[score desc]]></ParamValue>
+      <Label><![CDATA[Sort by: Relevance]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[lastmodified desc]]></SolrValue>
+      <ParamValue><![CDATA[lastmodified desc]]></ParamValue>
+      <Label><![CDATA[Sort by: Modified desc]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[lastmodified asc]]></SolrValue>
+      <ParamValue><![CDATA[lastmodified asc]]></ParamValue>
+      <Label><![CDATA[Sort by: Modified asc]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[created desc]]></SolrValue>
+      <ParamValue><![CDATA[created desc]]></ParamValue>
+      <Label><![CDATA[Sort by: Created desc]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[created asc]]></SolrValue>
+      <ParamValue><![CDATA[created asc]]></ParamValue>
+      <Label><![CDATA[Sort by: Created asc]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[Title_exact asc]]></SolrValue>
+      <ParamValue><![CDATA[Title_exact asc]]></ParamValue>
+      <Label><![CDATA[Sort by: Title asc]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[Title_exact desc]]></SolrValue>
+      <ParamValue><![CDATA[Title_exact desc]]></ParamValue>
+      <Label><![CDATA[Sort by: Title desc]]></Label>
+    </SortOption>
+    <FieldFacet>
+      <Field><![CDATA[search.subsite_exact]]></Field>
+      <Label><![CDATA[Subsite]]></Label>
+      <MinCount><![CDATA[1]]></MinCount>
+      <Limit><![CDATA[5]]></Limit>
+      <Order><![CDATA[index]]></Order>
+    </FieldFacet>
+    <FieldFacet>
+      <Field><![CDATA[type]]></Field>
+      <Label><![CDATA[Type]]></Label>
+      <MinCount><![CDATA[1]]></MinCount>
+      <Limit><![CDATA[5]]></Limit>
+    </FieldFacet>
+    <FieldFacet>
+      <Field><![CDATA[category_exact]]></Field>
+      <Label><![CDATA[Category]]></Label>
+      <MinCount><![CDATA[1]]></MinCount>
+      <Limit><![CDATA[5]]></Limit>
+      <Order><![CDATA[index]]></Order>
+    </FieldFacet>
+    <Highlighting>
+      <Field><![CDATA[content_en]]></Field>
+      <FragSize><![CDATA[250]]></FragSize>
+      <AlternateField><![CDATA[content]]></AlternateField>
+      <MaxAlternateFieldLength><![CDATA[250]]></MaxAlternateFieldLength>
+      <SimplePre><![CDATA[<strong>]]></SimplePre>
+      <SimplePost><![CDATA[</strong>]]></SimplePost>
+      <UseFastVectorHighlighting>true</UseFastVectorHighlighting>
+    </Highlighting>
+    <DidYouMean>
+      <Collate>false</Collate>
+      <Count><![CDATA[5]]></Count>
+    </DidYouMean>
+  </JspSearchConfig>
+  <JspSearchConfig language="de">
+    <Title><![CDATA[OpenCms Demo Suchkonfiguration]]></Title>
+    <SearchForEmptyQuery>true</SearchForEmptyQuery>
+    <QueryModifier><![CDATA[content_en:%(query) OR content_de:%(query) OR spell:%(query) OR Title_prop:%(query)]]></QueryModifier>
+    <EscapeQueryCharacters>true</EscapeQueryCharacters>
+    <ExtraSolrParams><![CDATA[fq=parent-folders:"/sites/default/"]]></ExtraSolrParams>
+    <PageSize><![CDATA[10]]></PageSize>
+    <PageNavLength><![CDATA[5]]></PageNavLength>
+    <SortOption>
+      <SolrValue><![CDATA[score desc]]></SolrValue>
+      <ParamValue><![CDATA[score desc]]></ParamValue>
+      <Label><![CDATA[Sort by: Relevance]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[lastmodified desc]]></SolrValue>
+      <ParamValue><![CDATA[lastmodified desc]]></ParamValue>
+      <Label><![CDATA[Sort by: Modified desc]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[lastmodified asc]]></SolrValue>
+      <ParamValue><![CDATA[lastmodified asc]]></ParamValue>
+      <Label><![CDATA[Sort by: Modified asc]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[created desc]]></SolrValue>
+      <ParamValue><![CDATA[created desc]]></ParamValue>
+      <Label><![CDATA[Sort by: Created desc]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[created asc]]></SolrValue>
+      <ParamValue><![CDATA[created asc]]></ParamValue>
+      <Label><![CDATA[Sort by: Created asc]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[Title_exact asc]]></SolrValue>
+      <ParamValue><![CDATA[Title_exact asc]]></ParamValue>
+      <Label><![CDATA[Sort by: Title asc]]></Label>
+    </SortOption>
+    <SortOption>
+      <SolrValue><![CDATA[Title_exact desc]]></SolrValue>
+      <ParamValue><![CDATA[Title_exact desc]]></ParamValue>
+      <Label><![CDATA[Sort by: Title desc]]></Label>
+    </SortOption>
+    <FieldFacet>
+      <Field><![CDATA[search.subsite_exact]]></Field>
+      <Label><![CDATA[Unterseite]]></Label>
+      <MinCount><![CDATA[1]]></MinCount>
+      <Limit><![CDATA[5]]></Limit>
+      <Order><![CDATA[index]]></Order>
+    </FieldFacet>
+    <FieldFacet>
+      <Field><![CDATA[type]]></Field>
+      <Label><![CDATA[Typ]]></Label>
+      <MinCount><![CDATA[1]]></MinCount>
+      <Limit><![CDATA[5]]></Limit>
+    </FieldFacet>
+    <FieldFacet>
+      <Field><![CDATA[category_exact]]></Field>
+      <Label><![CDATA[Kategorie]]></Label>
+      <MinCount><![CDATA[1]]></MinCount>
+      <Limit><![CDATA[5]]></Limit>
+      <Order><![CDATA[index]]></Order>
+    </FieldFacet>
+    <Highlighting>
+      <Field><![CDATA[content_de content_en]]></Field>
+      <FragSize><![CDATA[250]]></FragSize>
+      <AlternateField><![CDATA[content]]></AlternateField>
+      <MaxAlternateFieldLength><![CDATA[250]]></MaxAlternateFieldLength>
+      <SimplePre><![CDATA[<strong>]]></SimplePre>
+      <SimplePost><![CDATA[</strong>]]></SimplePost>
+      <UseFastVectorHighlighting>true</UseFastVectorHighlighting>
+    </Highlighting>
+    <DidYouMean>
+      <Collate>false</Collate>
+      <Count><![CDATA[5]]></Count>
+    </DidYouMean>
+  </JspSearchConfig>
+</JspSearchConfigs>

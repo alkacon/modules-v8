@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyCarousels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/carousel.xsd">
+  <UnifyCarousel language="en">
+    <Headline><![CDATA[Test Carousel]]></Headline>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/36.jpg]]></target>
+          <uuid>b70f1bd7-4785-11e3-ba23-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Headline><![CDATA[Space]]></Headline>
+      <Text><![CDATA[The final frontier]]></Text>
+    </Item>
+    <Item>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/.galleries/samples/19.jpg]]></target>
+          <uuid>cadff45a-4705-11e3-8417-000c29d28104</uuid>
+        </link>
+      </Image>
+      <Headline><![CDATA[Buildings]]></Headline>
+      <Text><![CDATA[Nice buildings]]></Text>
+    </Item>
+  </UnifyCarousel>
+</UnifyCarousels>

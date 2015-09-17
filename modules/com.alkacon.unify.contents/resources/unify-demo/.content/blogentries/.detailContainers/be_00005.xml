@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconContainerPages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/container_page.xsd">
+  <AlkaconContainerPage language="en">
+    <Containers>
+      <Name><![CDATA[63b0f7cf-5c71-11e5-96ab-0242ac11002b-c1]]></Name>
+      <Type><![CDATA[default,container]]></Type>
+      <ParentInstanceId><![CDATA[63b0f7cf-5c71-11e5-96ab-0242ac11002b]]></ParentInstanceId>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/unify-demo/.content/texts/t_00037.xml]]></target>
+            <uuid>cbdf1e63-5ad1-11e5-a17e-0242ac11002b</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/text.jsp]]></target>
+            <uuid>77ab762d-5578-11e5-8d6b-0242ac11002b</uuid>
+          </link>
+        </Formatter>
+        <CreateNew>true</CreateNew>
+        <Properties>
+          <Name><![CDATA[formatterSettings#63b0f7cf-5c71-11e5-96ab-0242ac11002b-c1]]></Name>
+          <Value>
+            <String><![CDATA[77afe200-5578-11e5-8d6b-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[element_instance_id]]></Name>
+          <Value>
+            <String><![CDATA[cb85679a-5c73-11e5-96ab-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+      </Elements>
+    </Containers>
+  </AlkaconContainerPage>
+</AlkaconContainerPages>

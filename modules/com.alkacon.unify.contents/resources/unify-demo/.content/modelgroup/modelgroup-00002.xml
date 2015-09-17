@@ -8,7 +8,7 @@
       <Elements>
         <Uri>
           <link type="STRONG">
-            <target><![CDATA[/sites/default/unify-demo/.content/templaterows/tr_00004.xml]]></target>
+            <target><![CDATA[/sites/default/unify-demo/.content/templaterows/tr_00005.xml]]></target>
             <uuid>78b6a0d1-5638-11e5-bfd9-0242ac11002b</uuid>
           </link>
         </Uri>
@@ -19,27 +19,27 @@
           </link>
         </Formatter>
         <Properties>
-          <Name><![CDATA[model_group_title]]></Name>
-          <Value>
-            <String><![CDATA[Unify Demo Header]]></String>
-          </Value>
-        </Properties>
-        <Properties>
           <Name><![CDATA[formatterSettings#page-complete]]></Name>
           <Value>
             <String><![CDATA[d65670f0-523d-11e5-9495-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>
-          <Name><![CDATA[templateContexts]]></Name>
+          <Name><![CDATA[model_group_title]]></Name>
           <Value>
-            <String><![CDATA[desktop|tablet|mobile]]></String>
+            <String><![CDATA[Unify Demo Header]]></String>
           </Value>
         </Properties>
         <Properties>
           <Name><![CDATA[use_as_copy_model]]></Name>
           <Value>
             <String><![CDATA[false]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|tablet|mobile]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -94,7 +94,7 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[abb2a9c4-5c50-11e5-9651-0242ac11002b]]></String>
+            <String><![CDATA[c846ced2-5d18-11e5-96ab-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>

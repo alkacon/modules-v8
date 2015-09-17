@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/list.xsd">
+  <UnifyList language="en">
+    <Headline><![CDATA[Events]]></Headline>
+    <TypesToCollect><![CDATA[event]]></TypesToCollect>
+    <FilterQueries/>
+    <SortOrder><![CDATA[asc]]></SortOrder>
+    <ItemsPerPage><![CDATA[4]]></ItemsPerPage>
+  </UnifyList>
+</UnifyLists>

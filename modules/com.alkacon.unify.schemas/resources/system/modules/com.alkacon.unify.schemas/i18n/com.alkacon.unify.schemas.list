@@ -15,12 +15,20 @@
       <Value><![CDATA[Derzeit sind keine Einträge vorhanden.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.UnifyList.Title]]></Key>
-      <Value><![CDATA[Titel]]></Value>
+      <Key><![CDATA[label.UnifyList.Headline]]></Key>
+      <Value><![CDATA[Überschrift]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.UnifyList.Title.help]]></Key>
-      <Value><![CDATA[Der Titel für diese Liste, kann mittels Element Setting ausgeblended werden.]]></Value>
+      <Key><![CDATA[label.UnifyList.Headline.help]]></Key>
+      <Value><![CDATA[Die Überschrift für diese Liste, kann mittels Element Setting ausgeblended werden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyList.TypesToCollect]]></Key>
+      <Value><![CDATA[Zu sammelnde Einträge]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyList.TypesToCollect.help]]></Key>
+      <Value><![CDATA[Wählen Sie die Art der Einträge, welche in der Liste angezeigt werden.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.UnifyList.FilterQueries]]></Key>
@@ -111,6 +119,18 @@
       <Value><![CDATA[absteigend]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[unify.list.value.type.blog]]></Key>
+      <Value><![CDATA[Blogeinträge]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.value.type.event]]></Key>
+      <Value><![CDATA[Veranstaltungen]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.value.type.both]]></Key>
+      <Value><![CDATA[Blogeinträge und Veranstaltungen]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[unify.list.message.readmore]]></Key>
       <Value><![CDATA[Weiterlesen]]></Value>
     </Message>
@@ -129,8 +149,20 @@
       <Value><![CDATA[Currently there are no entries available.]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.UnifyList.Title.help]]></Key>
-      <Value><![CDATA[The title of the list, can be hidden by using an element setting, optionally.]]></Value>
+      <Key><![CDATA[label.UnifyList.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyList.Headline.help]]></Key>
+      <Value><![CDATA[The headline of the list, can be hidden by using an element setting.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyList.TypesToCollect]]></Key>
+      <Value><![CDATA[Entries to collect]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.UnifyList.TypesToCollect.help]]></Key>
+      <Value><![CDATA[Select which kind of entries should be shown in the list.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.UnifyList.FilterQueries]]></Key>
@@ -219,6 +251,18 @@
     <Message>
       <Key><![CDATA[unify.list.value.desc]]></Key>
       <Value><![CDATA[Descending]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.value.type.blog]]></Key>
+      <Value><![CDATA[Blog entries]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.value.type.event]]></Key>
+      <Value><![CDATA[Events]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.value.type.both]]></Key>
+      <Value><![CDATA[Blog entries and events]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[unify.list.message.readmore]]></Key>

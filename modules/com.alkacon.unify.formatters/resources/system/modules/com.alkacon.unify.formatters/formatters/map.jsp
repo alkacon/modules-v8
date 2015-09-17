@@ -5,7 +5,7 @@
 
 <c:set var="locale" value="${cms:vfs(pageContext).context.locale}" />
 
-<div class="googlemap-wrapper">
+<div class="googlemap-wrapper ${cms.element.setting.wrapperclass.isSet ? cms.element.setting.wrapperclass : "" }">
 <cms:formatter var="map" val="value" rdfa="rdfa">
 	<c:choose>
 	<c:when test="${cms.element.inMemoryOnly}">
@@ -244,7 +244,7 @@
 	<c:if test="${cms.element.settings.hidetitle ne 'true'}"><div class="headline"><h1 ${rdfa.Headline}>${value.Headline}</h1></div></c:if>
 	<c:if test="${value.Text.isSet}"><div class="googlemaptext" ${rdfa.Text}>${value.Text}</div></c:if>
 
-	<div id="googlemap${cms.element.id}" class="map mb-20" style="${mapw}${maph}"></div>
+	<div id="googlemap${cms.element.id}" class="map ${cms.element.setting.wrapperclass.isSet ? "" : "mb-20" }" style="${mapw}${maph}"></div>
 	<c:if test="${not empty usedMarkers || (value.ShowMarkers.exists && value.ShowMarkers != 'true')}">
 		<div class="googlemapmarkerbuttons">
 			<c:choose>

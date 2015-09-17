@@ -59,6 +59,10 @@
 					<value><![CDATA[Demo Website]]></value>
 				</property>
 				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+				<property>
 					<name>locale</name>
 					<value><![CDATA[en]]></value>
 				</property>
@@ -77,12 +81,29 @@
 		<file>
 			<source>unify-demo/index.html</source>
 			<destination>unify-demo/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>0d563845-5225-11e5-9495-0242ac11002b</uuidstructure>
-			<uuidresource>0d563846-5225-11e5-9495-0242ac11002b</uuidresource>
-			<datecreated>Thu, 03 Sep 2015 10:17:59 GMT</datecreated>
+			<type>htmlredirect</type>
+			<uuidstructure>13fe4743-5c62-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>13fe4744-5c62-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 11:00:01 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Redirect for navigation level]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -678,6 +699,33 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/.content/blogentries/.detailContainers</destination>
+			<type>folder</type>
+			<uuidstructure>cc5efebb-5c73-11e5-96ab-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 16 Sep 2015 13:06:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/blogentries/.detailContainers/be_00005.xml</source>
+			<destination>unify-demo/.content/blogentries/.detailContainers/be_00005.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>cc625a1e-5c73-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>cc625a1f-5c73-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 13:06:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/blogentries/images-ugc</destination>
 			<type>imagegallery</type>
 			<uuidstructure>cb5f1937-5ad1-11e5-a17e-0242ac11002b</uuidstructure>
@@ -702,6 +750,23 @@
 				<property>
 					<name>search.exclude</name>
 					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/carousels/c_00001.xml</source>
+			<destination>unify-demo/.content/carousels/c_00001.xml</destination>
+			<type>u-carousel</type>
+			<uuidstructure>b7c1a3d5-5d17-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>b7c1a3d6-5d17-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Thu, 17 Sep 2015 08:40:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: Test Carousel]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -736,6 +801,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[It's just easy]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/carousels/c_00004.xml</source>
+			<destination>unify-demo/.content/carousels/c_00004.xml</destination>
+			<type>u-carousel</type>
+			<uuidstructure>a8e517c3-5d24-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>a8e517c4-5d24-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Thu, 17 Sep 2015 10:12:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Test Carousel]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -844,12 +926,7 @@
 			<uuidstructure>7e50493a-5702-11e5-8281-0242ac11002b</uuidstructure>
 			<datecreated>Wed, 09 Sep 2015 14:53:12 GMT</datecreated>
 			<flags>0</flags>
-			<properties>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -864,7 +941,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Demo Website: OpenCms can do it!]]></value>
+					<value><![CDATA[Home: OpenCms can do it!]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1228,17 +1305,39 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/.content/jsp-search</destination>
+			<type>folder</type>
+			<uuidstructure>bed36e89-4fcf-11e5-a67e-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 31 Aug 2015 11:02:18 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/jsp-search/jsp-search-00001.xml</source>
+			<destination>unify-demo/.content/jsp-search/jsp-search-00001.xml</destination>
+			<type>jsp-search</type>
+			<uuidstructure>bed7180b-4fcf-11e5-a67e-0242ac11002b</uuidstructure>
+			<uuidresource>bed7180c-4fcf-11e5-a67e-0242ac11002b</uuidresource>
+			<datecreated>Mon, 31 Aug 2015 11:02:18 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Demo Search Configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/lists</destination>
 			<type>folder</type>
 			<uuidstructure>2a8667a4-5874-11e5-a17e-0242ac11002b</uuidstructure>
 			<datecreated>Fri, 11 Sep 2015 10:59:25 GMT</datecreated>
 			<flags>0</flags>
-			<properties>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1253,7 +1352,24 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Demo Website: Latest entries]]></value>
+					<value><![CDATA[Blog List: Latest entries]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/lists/bl_00002.xml</source>
+			<destination>unify-demo/.content/lists/bl_00002.xml</destination>
+			<type>u-list</type>
+			<uuidstructure>f6384725-5d23-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>f6384726-5d23-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Thu, 17 Sep 2015 10:07:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Events: Events]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1276,6 +1392,23 @@
 			<uuidstructure>0312569b-5afc-11e5-90c1-0242ac11002b</uuidstructure>
 			<uuidresource>0312569c-5afc-11e5-90c1-0242ac11002b</uuidresource>
 			<datecreated>Mon, 14 Sep 2015 16:16:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Test Map]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/maps/m_00002.xml</source>
+			<destination>unify-demo/.content/maps/m_00002.xml</destination>
+			<type>u-map</type>
+			<uuidstructure>a8ed5526-5d24-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>a8ed5527-5d24-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Thu, 17 Sep 2015 10:12:53 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1358,9 +1491,9 @@
 			<source>unify-demo/.content/modelgroup/modelgroup-00003.xml</source>
 			<destination>unify-demo/.content/modelgroup/modelgroup-00003.xml</destination>
 			<type>modelgroup</type>
-			<uuidstructure>4425d5fd-5c4f-11e5-9651-0242ac11002b</uuidstructure>
-			<uuidresource>4425d5fe-5c4f-11e5-9651-0242ac11002b</uuidresource>
-			<datecreated>Wed, 16 Sep 2015 08:45:22 GMT</datecreated>
+			<uuidstructure>da145e55-5c5d-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>da145e56-5c5d-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 10:29:46 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1387,9 +1520,9 @@
 			<source>unify-demo/.content/modelgroup/modelgroup-00004.xml</source>
 			<destination>unify-demo/.content/modelgroup/modelgroup-00004.xml</destination>
 			<type>modelgroup</type>
-			<uuidstructure>d3617817-5c4f-11e5-9651-0242ac11002b</uuidstructure>
-			<uuidresource>d3617818-5c4f-11e5-9651-0242ac11002b</uuidresource>
-			<datecreated>Wed, 16 Sep 2015 08:49:22 GMT</datecreated>
+			<uuidstructure>f04d9bb0-5c5d-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>f04d9bb1-5c5d-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 10:30:23 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1407,6 +1540,64 @@
 				<property type="shared">
 					<name>Title</name>
 					<value><![CDATA[Article with image right]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/modelgroup/modelgroup-00005.xml</source>
+			<destination>unify-demo/.content/modelgroup/modelgroup-00005.xml</destination>
+			<type>modelgroup</type>
+			<uuidstructure>f5b70817-5d09-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>f5b70818-5d09-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Thu, 17 Sep 2015 07:01:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[An article text with headline above and image to the left.]]></value>
+				</property>
+				<property type="shared">
+					<name>Description</name>
+					<value><![CDATA[An article text with headline above and image to the left.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article with headline, image left]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[Article with headline, image left]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/modelgroup/modelgroup-00006.xml</source>
+			<destination>unify-demo/.content/modelgroup/modelgroup-00006.xml</destination>
+			<type>modelgroup</type>
+			<uuidstructure>0fbc7e1e-5d0c-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>0fbc7e1f-5d0c-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Thu, 17 Sep 2015 07:16:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[An article text with headline above and image to the right.]]></value>
+				</property>
+				<property type="shared">
+					<name>Description</name>
+					<value><![CDATA[An article text with headline above and image to the right.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article with headline, image right]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[Article with headline, image right]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1434,6 +1625,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Unify Demo main navigation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/navigations/nv_00002.xml</source>
+			<destination>unify-demo/.content/navigations/nv_00002.xml</destination>
+			<type>u-navigation</type>
+			<uuidstructure>860bc28c-5c73-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>860bc28d-5c73-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 13:04:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify demo side navigation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1541,6 +1749,23 @@
 			<source>unify-demo/.content/templaterows/tr_00003.xml</source>
 			<destination>unify-demo/.content/templaterows/tr_00003.xml</destination>
 			<type>u-templaterow</type>
+			<uuidstructure>65d0d0e0-56d3-11e5-946f-0242ac11002b</uuidstructure>
+			<uuidresource>65d0d0e1-56d3-11e5-946f-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 09:16:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Container (Fluid)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00004.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00004.xml</destination>
+			<type>u-templaterow</type>
 			<uuidstructure>13f27815-562e-11e5-bfd9-0242ac11002b</uuidstructure>
 			<uuidresource>13f27816-562e-11e5-bfd9-0242ac11002b</uuidresource>
 			<datecreated>Tue, 08 Sep 2015 13:32:40 GMT</datecreated>
@@ -1555,8 +1780,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>unify-demo/.content/templaterows/tr_00004.xml</source>
-			<destination>unify-demo/.content/templaterows/tr_00004.xml</destination>
+			<source>unify-demo/.content/templaterows/tr_00005.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00005.xml</destination>
 			<type>u-templaterow</type>
 			<uuidstructure>78b6a0d1-5638-11e5-bfd9-0242ac11002b</uuidstructure>
 			<uuidresource>78b6a0d2-5638-11e5-bfd9-0242ac11002b</uuidresource>
@@ -1572,8 +1797,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>unify-demo/.content/templaterows/tr_00005.xml</source>
-			<destination>unify-demo/.content/templaterows/tr_00005.xml</destination>
+			<source>unify-demo/.content/templaterows/tr_00006.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00006.xml</destination>
 			<type>u-templaterow</type>
 			<uuidstructure>5f667d20-56cb-11e5-bfd9-0242ac11002b</uuidstructure>
 			<uuidresource>5f667d21-56cb-11e5-bfd9-0242ac11002b</uuidresource>
@@ -1589,8 +1814,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>unify-demo/.content/templaterows/tr_00006.xml</source>
-			<destination>unify-demo/.content/templaterows/tr_00006.xml</destination>
+			<source>unify-demo/.content/templaterows/tr_00007.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00007.xml</destination>
 			<type>u-templaterow</type>
 			<uuidstructure>99a73563-56cb-11e5-bfd9-0242ac11002b</uuidstructure>
 			<uuidresource>99a73564-56cb-11e5-bfd9-0242ac11002b</uuidresource>
@@ -1606,8 +1831,25 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>unify-demo/.content/templaterows/tr_00007.xml</source>
-			<destination>unify-demo/.content/templaterows/tr_00007.xml</destination>
+			<source>unify-demo/.content/templaterows/tr_00008.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00008.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>118910bc-5c5c-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>118910bd-5c5c-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 10:17:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[2 Columns Row (8 - 4)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00009.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00009.xml</destination>
 			<type>u-templaterow</type>
 			<uuidstructure>bc400526-56cb-11e5-bfd9-0242ac11002b</uuidstructure>
 			<uuidresource>bc400527-56cb-11e5-bfd9-0242ac11002b</uuidresource>
@@ -1623,8 +1865,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>unify-demo/.content/templaterows/tr_00008.xml</source>
-			<destination>unify-demo/.content/templaterows/tr_00008.xml</destination>
+			<source>unify-demo/.content/templaterows/tr_00010.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00010.xml</destination>
 			<type>u-templaterow</type>
 			<uuidstructure>222a42b9-56cc-11e5-bfd9-0242ac11002b</uuidstructure>
 			<uuidresource>222a42ba-56cc-11e5-bfd9-0242ac11002b</uuidresource>
@@ -1640,8 +1882,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>unify-demo/.content/templaterows/tr_00009.xml</source>
-			<destination>unify-demo/.content/templaterows/tr_00009.xml</destination>
+			<source>unify-demo/.content/templaterows/tr_00011.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00011.xml</destination>
 			<type>u-templaterow</type>
 			<uuidstructure>4fe6063c-56cc-11e5-bfd9-0242ac11002b</uuidstructure>
 			<uuidresource>4fe6063d-56cc-11e5-bfd9-0242ac11002b</uuidresource>
@@ -1651,57 +1893,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[3 Columns Row (3 - 3 - 6)]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>unify-demo/.content/templaterows/tr_00010.xml</source>
-			<destination>unify-demo/.content/templaterows/tr_00010.xml</destination>
-			<type>u-templaterow</type>
-			<uuidstructure>65d0d0e0-56d3-11e5-946f-0242ac11002b</uuidstructure>
-			<uuidresource>65d0d0e1-56d3-11e5-946f-0242ac11002b</uuidresource>
-			<datecreated>Wed, 09 Sep 2015 09:16:05 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Container (Fluid)]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>unify-demo/.content/templaterows/tr_00011.xml</source>
-			<destination>unify-demo/.content/templaterows/tr_00011.xml</destination>
-			<type>u-templaterow</type>
-			<uuidstructure>500099f0-5c4a-11e5-9651-0242ac11002b</uuidstructure>
-			<uuidresource>500099f1-5c4a-11e5-9651-0242ac11002b</uuidresource>
-			<datecreated>Wed, 16 Sep 2015 08:09:54 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Article with image left]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>unify-demo/.content/templaterows/tr_00012.xml</source>
-			<destination>unify-demo/.content/templaterows/tr_00012.xml</destination>
-			<type>u-templaterow</type>
-			<uuidstructure>a331a753-5c4f-11e5-9651-0242ac11002b</uuidstructure>
-			<uuidresource>a331a754-5c4f-11e5-9651-0242ac11002b</uuidresource>
-			<datecreated>Wed, 16 Sep 2015 08:48:01 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Article with image right]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2340,7 +2531,41 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Special detail content]]></value>
+					<value><![CDATA[Website demo contents: Special detail content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00038.xml</source>
+			<destination>unify-demo/.content/texts/t_00038.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>3c98f51f-5c59-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>3c98f520-5c59-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 09:56:44 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Default placeholder text]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00039.xml</source>
+			<destination>unify-demo/.content/texts/t_00039.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>a8f34899-5d24-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>a8f3489a-5d24-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Thu, 17 Sep 2015 10:12:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms has all the features]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2367,7 +2592,240 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Demo Website: Turbine]]></value>
+					<value><![CDATA[Demo Website: Default placeholder image]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00002.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00002.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>73ab3c73-5c7c-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>73ab3c74-5c7c-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 14:08:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Events: Test image]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/blog</destination>
+			<type>folder</type>
+			<uuidstructure>db14d973-5c6f-11e5-96ab-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 16 Sep 2015 12:38:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[500.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Blog]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blog]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/blog/index.html</source>
+			<destination>unify-demo/blog/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>db194649-5c6f-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>db19464a-5c6f-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 12:38:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/blog/blog-entries</destination>
+			<type>folder</type>
+			<uuidstructure>a22b306a-5c70-11e5-96ab-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 16 Sep 2015 12:44:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Blog List]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blog List]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/blog/blog-entries/index.html</source>
+			<destination>unify-demo/blog/blog-entries/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>a2314aef-5c70-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>a2314af0-5c70-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 12:44:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blog List]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/events</destination>
+			<type>folder</type>
+			<uuidstructure>6d5ed3a4-5c78-11e5-96ab-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 16 Sep 2015 13:40:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[750.25]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Events]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Events]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/events/index.html</source>
+			<destination>unify-demo/events/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>6d642ad9-5c78-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>6d642ada-5c78-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 13:40:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Events]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/home</destination>
+			<type>folder</type>
+			<uuidstructure>d53f32c1-5c61-11e5-96ab-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 16 Sep 2015 10:58:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Home]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/home/index.html</source>
+			<destination>unify-demo/home/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>d5474916-5c61-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>d5474917-5c61-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 10:58:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/search</destination>
+			<type>folder</type>
+			<uuidstructure>4eef4bfc-5c5c-11e5-96ab-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 16 Sep 2015 10:18:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1000]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Search]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/search/index.html</source>
+			<destination>unify-demo/search/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>4ef629d1-5c5c-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>4ef629d2-5c5c-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 10:18:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search]]></value>
 				</property>
 			</properties>
 			<relations/>

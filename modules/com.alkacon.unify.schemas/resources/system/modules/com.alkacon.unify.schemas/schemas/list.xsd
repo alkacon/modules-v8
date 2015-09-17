@@ -14,13 +14,12 @@
 	<xsd:complexType name="OpenCmsUnifyList">
 		<xsd:sequence>
 			<xsd:element name="Headline" type="OpenCmsString" />
+			<xsd:element name="TypesToCollect" type="OpenCmsString" />
 			<xsd:element name="FilterQueries" type="OpenCmsString" />
 			<xsd:element name="SortOrder" type="OpenCmsString" />
-			<xsd:element name="RowCount" type="OpenCmsString" />
 			<xsd:element name="ItemsPerPage" type="OpenCmsString" minOccurs="0" />
-			<xsd:element name="CreatePath" type="OpenCmsString" />
 			<xsd:element name="Link" type="OpenCmsUnifyLink" minOccurs="0" />
-      <xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" /> 
+      		<xsd:element name="GalleryTitle" type="OpenCmsString" minOccurs="0" /> 
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -34,14 +33,21 @@
 			</mappings>
 			<defaults>
 				<default element="Headline" value="%(key.unify.list.default.Headline)" />
+				<default element="TypesToCollect" value="both" />
         		<default element="ItemsPerPage" value="5" />
 				<default element="GalleryTitle" value="%(page_title)%(no_prefix:: )%(value:Headline)" resolveMacros="false" />
 			</defaults>
 			<layouts>
 				<layout element="SortOrder" widget="SelectorWidget" configuration="asc:%(key.unify.list.value.asc)|desc:%(key.unify.list.value.desc)"/>
+				<layout element="TypesToCollect" widget="SelectorWidget" configuration="blog:%(key.unify.list.value.type.blog)|event:%(key.unify.list.value.type.event)|both:%(key.unify.list.value.type.both)"/>
 			</layouts>
 			<validationrules/>
-			<searchsettings containerPageOnly="true"/>
+			<searchsettings containerPageOnly="true">
+				<searchsetting element="FilterQueries" searchcontent="false" />
+				<searchsetting element="TypesToCollect" searchcontent="false" />
+				<searchsetting element="SortOrder" searchcontent="false" />
+				<searchsetting element="ItemsPerPage" searchcontent="false" />
+			</searchsettings>
 		  	<visibilities>
                 <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />
             </visibilities>

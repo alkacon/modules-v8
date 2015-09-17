@@ -2,14 +2,14 @@
 
 <UnifyTemplateRows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/templaterow.xsd">
   <UnifyTemplateRow language="en">
-    <Title><![CDATA[Header]]></Title>
-    <PreMarkup><![CDATA[<div class="header">]]></PreMarkup>
+    <Title><![CDATA[Footer (Default)]]></Title>
+    <PreMarkup><![CDATA[<div id="footer-default" class="footer-default">]]></PreMarkup>
     <PostMarkup><![CDATA[</div>]]></PostMarkup>
     <Container><![CDATA[page]]></Container>
     <Column>
       <Name><![CDATA[c1]]></Name>
-      <Type><![CDATA[headsection]]></Type>
-      <Count><![CDATA[5]]></Count>
+      <Type><![CDATA[footsection]]></Type>
+      <Count><![CDATA[50]]></Count>
       <Editors><![CDATA[ROLE.DEVELOPER]]></Editors>
     </Column>
   </UnifyTemplateRow>

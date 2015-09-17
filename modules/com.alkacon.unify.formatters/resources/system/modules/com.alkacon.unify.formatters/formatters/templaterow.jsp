@@ -42,13 +42,13 @@
 
 			<c:if test="${showDetailOnly}">
 		        <div class="${column.value.Grid.isSet ? column.value.Grid : (content.value.Defaults.isSet ? content.value.Defaults.value.Grid : '')}">
-		            <div class="service-block rounded-3x service-block-light">
-		                <h2 class="heading-md">
+		            <div class="oc-container-detailonly">
+		                <h1>
 		                    Detail container 
-		                    <span class="label rounded label-danger">Blocked</span>
+		                    <span class="oc-label-special">Blocked</span>
 		                    <span> </span>
-		                    <span class="label rounded label-success">Only for detail pages</span>
-		                </h2>                
+		                    <span class="oc-label-detailonly">Only for detail pages</span>
+		                </h1>                
 		            </div>
 		        </div>
 		    </c:if>

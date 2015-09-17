@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Animation XML image formatter]]></NiceName>
+    <Type><![CDATA[xmlimage]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/xmlimage-animation.jsp]]></target>
+        <uuid>cb40276e-5c7b-11e5-96ab-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[800]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[default]]></ContainerType>
+        <ContainerType><![CDATA[image]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[showheadline]]></PropertyName>
+      <DisplayName><![CDATA[Headline display]]></DisplayName>
+      <Description><![CDATA[Select how the headline will be shown.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[false]]></Default>
+      <WidgetConfig><![CDATA[false:Don't show the headline|top:Headline above the image, left aligned|bottom:Headline below, left aligned]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[showtext]]></PropertyName>
+      <DisplayName><![CDATA[Text display]]></DisplayName>
+      <Description><![CDATA[Select how text will be shown.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[false]]></Default>
+      <WidgetConfig><![CDATA[false:Don't show the text|true:Text below, left aligned]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[showlink]]></PropertyName>
+      <DisplayName><![CDATA[Link display]]></DisplayName>
+      <Description><![CDATA[Select how the link will be shown.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[false]]></Default>
+      <WidgetConfig><![CDATA[false:Don't show the link|image:Show the link button as image overlay|button:Show a link button below the image|headline:Use the headline as link]]></WidgetConfig>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

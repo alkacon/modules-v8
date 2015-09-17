@@ -3,10 +3,9 @@
 <UnifyLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/list.xsd">
   <UnifyList language="en">
     <Headline><![CDATA[Latest entries]]></Headline>
+    <TypesToCollect><![CDATA[blog]]></TypesToCollect>
     <FilterQueries/>
     <SortOrder><![CDATA[desc]]></SortOrder>
-    <RowCount><![CDATA[1000]]></RowCount>
     <ItemsPerPage><![CDATA[4]]></ItemsPerPage>
-    <CreatePath><![CDATA[/sites/default/unify-demo/.content/blogentries/be_%(number:5).xml]]></CreatePath>
   </UnifyList>
 </UnifyLists>

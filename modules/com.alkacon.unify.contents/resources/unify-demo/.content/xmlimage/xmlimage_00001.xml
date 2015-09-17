@@ -2,13 +2,12 @@
 
 <XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
   <XmlImage language="en">
-    <Headline><![CDATA[Turbine]]></Headline>
+    <Headline><![CDATA[Default placeholder image]]></Headline>
     <Image>
       <link type="WEAK">
-        <target><![CDATA[/sites/default/.galleries/samples/01.jpg]]></target>
-        <uuid>c05c4da4-4705-11e3-8417-000c29d28104</uuid>
+        <target><![CDATA[/sites/default/.galleries/cliparts/default.png]]></target>
+        <uuid>3efc64a5-5c52-11e5-9651-0242ac11002b</uuid>
       </link>
     </Image>
-    <Copyright><![CDATA[pixabay.com]]></Copyright>
   </XmlImage>
 </XmlImages>

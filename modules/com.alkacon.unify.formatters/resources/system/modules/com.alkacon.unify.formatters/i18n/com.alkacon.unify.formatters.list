@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[pagination.first]]></Key>
+      <Value><![CDATA[<<]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.previous]]></Key>
+      <Value><![CDATA[<]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.next]]></Key>
+      <Value><![CDATA[>]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.last]]></Key>
+      <Value><![CDATA[>>]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.first.title]]></Key>
+      <Value><![CDATA[First page]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.previous.title]]></Key>
+      <Value><![CDATA[Previous page]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.next.title]]></Key>
+      <Value><![CDATA[Next page]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.last.title]]></Key>
+      <Value><![CDATA[Last page]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.message.readmore]]></Key>
+      <Value><![CDATA[read more]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.message.new]]></Key>
+      <Value><![CDATA[<strong>New list</strong>, please edit the content!]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.message.empty]]></Key>
+      <Value><![CDATA[Currently there are no entries available.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.message.edit]]></Key>
+      <Value><![CDATA[The list configuration has changed. Page will be reloaded.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[sort.options.label]]></Key>
+      <Value><![CDATA[Sort by date:]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[sortorder.asc]]></Key>
+      <Value><![CDATA[Ascending]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[sortorder.desc]]></Key>
+      <Value><![CDATA[Descending]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[facet.category.label]]></Key>
+      <Value><![CDATA[Filter by category:]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[facet.category.none]]></Key>
+      <Value><![CDATA[All categories]]></Value>
+    </Message>
+  </Bundle>
+  <Bundle language="de">
+    <Message>
+      <Key><![CDATA[pagination.first]]></Key>
+      <Value><![CDATA[<<]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.previous]]></Key>
+      <Value><![CDATA[<]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.next]]></Key>
+      <Value><![CDATA[>]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.last]]></Key>
+      <Value><![CDATA[>>]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.message.readmore]]></Key>
+      <Value><![CDATA[Weiterlesen]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.first.title]]></Key>
+      <Value><![CDATA[Erste Seite]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.previous.title]]></Key>
+      <Value><![CDATA[Vorherige Seite]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.next.title]]></Key>
+      <Value><![CDATA[Nächste Seite]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[pagination.last.title]]></Key>
+      <Value><![CDATA[Letzte Seite]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.message.new]]></Key>
+      <Value><![CDATA[<strong>Neue Liste</strong>, bitte bearbeiten Sie den Inhalt!]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.message.empty]]></Key>
+      <Value><![CDATA[Derzeit sind keine Einträge vorhanden.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.list.message.edit]]></Key>
+      <Value><![CDATA[Die Listenkonfiguration wurde bearbeitet. Seite wird neu geladen.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[sort.options.label]]></Key>
+      <Value><![CDATA[Sortierung nach Datum:]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[sortorder.asc]]></Key>
+      <Value><![CDATA[Aufsteigend]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[sortorder.desc]]></Key>
+      <Value><![CDATA[Absteigend]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[facet.category.label]]></Key>
+      <Value><![CDATA[Kategorie-Filter:]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[facet.category.none]]></Key>
+      <Value><![CDATA[Alle Kategorien]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

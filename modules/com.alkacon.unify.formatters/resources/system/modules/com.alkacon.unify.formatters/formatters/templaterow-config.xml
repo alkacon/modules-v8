@@ -22,7 +22,7 @@
       </Types>
     </Match>
     <Preview>true</Preview>
-    <SearchContent>true</SearchContent>
+    <SearchContent>false</SearchContent>
     <AutoEnabled>true</AutoEnabled>
     <Detail>false</Detail>
     <NestedContainers>true</NestedContainers>

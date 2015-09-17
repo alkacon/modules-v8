@@ -223,6 +223,10 @@
       <Value><![CDATA[English]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[unify.image.frontend.readmore]]></Key>
+      <Value><![CDATA[read more +]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[unify.page.headline.emptycontainer]]></Key>
       <Value><![CDATA[Empty Page Container]]></Value>
     </Message>
@@ -335,6 +339,10 @@
     <Message>
       <Key><![CDATA[unify.setting.showbreadcrumb]]></Key>
       <Value><![CDATA[Zeige Brotkrumennavigation]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.image.frontend.readmore]]></Key>
+      <Value><![CDATA[mehr lesen +]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[unify.page.headline.emptycontainer]]></Key>

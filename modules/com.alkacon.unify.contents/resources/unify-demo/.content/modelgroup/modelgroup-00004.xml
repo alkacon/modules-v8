@@ -8,8 +8,8 @@
       <Elements>
         <Uri>
           <link type="STRONG">
-            <target><![CDATA[/sites/default/unify-demo/.content/templaterows/tr_00012.xml]]></target>
-            <uuid>a331a753-5c4f-11e5-9651-0242ac11002b</uuid>
+            <target><![CDATA[/sites/default/unify-demo/.content/templaterows/tr_00008.xml]]></target>
+            <uuid>118910bc-5c5c-11e5-96ab-0242ac11002b</uuid>
           </link>
         </Uri>
         <Formatter>
@@ -37,27 +37,27 @@
           </Value>
         </Properties>
         <Properties>
-          <Name><![CDATA[use_as_copy_model]]></Name>
-          <Value>
-            <String><![CDATA[false]]></String>
-          </Value>
-        </Properties>
-        <Properties>
           <Name><![CDATA[templateContexts]]></Name>
           <Value>
             <String><![CDATA[desktop|tablet|mobile]]></String>
           </Value>
         </Properties>
         <Properties>
+          <Name><![CDATA[use_as_copy_model]]></Name>
+          <Value>
+            <String><![CDATA[true]]></String>
+          </Value>
+        </Properties>
+        <Properties>
           <Name><![CDATA[model_group_id]]></Name>
           <Value>
-            <String><![CDATA[d3617817-5c4f-11e5-9651-0242ac11002b]]></String>
+            <String><![CDATA[f04d9bb0-5c5d-11e5-96ab-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[114c6906-5c4f-11e5-9651-0242ac11002b]]></String>
+            <String><![CDATA[e10f2c3b-5c5d-11e5-96ab-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -75,14 +75,86 @@
       </Elements>
     </Containers>
     <Containers>
-      <Name><![CDATA[114c6906-5c4f-11e5-9651-0242ac11002b-c1]]></Name>
-      <Type><![CDATA[text,default]]></Type>
-      <ParentInstanceId><![CDATA[114c6906-5c4f-11e5-9651-0242ac11002b]]></ParentInstanceId>
+      <Name><![CDATA[e10f2c3b-5c5d-11e5-96ab-0242ac11002b-c1]]></Name>
+      <Type><![CDATA[container,default]]></Type>
+      <ParentInstanceId><![CDATA[e10f2c3b-5c5d-11e5-96ab-0242ac11002b]]></ParentInstanceId>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/unify-demo/.content/texts/t_00038.xml]]></target>
+            <uuid>3c98f51f-5c59-11e5-96ab-0242ac11002b</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/text.jsp]]></target>
+            <uuid>77ab762d-5578-11e5-8d6b-0242ac11002b</uuid>
+          </link>
+        </Formatter>
+        <CreateNew>true</CreateNew>
+        <Properties>
+          <Name><![CDATA[formatterSettings#e10f2c3b-5c5d-11e5-96ab-0242ac11002b-c1]]></Name>
+          <Value>
+            <String><![CDATA[77afe200-5578-11e5-8d6b-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|tablet|mobile]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[element_instance_id]]></Name>
+          <Value>
+            <String><![CDATA[c8471cf7-5d18-11e5-96ab-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[showelements]]></Name>
+          <Value>
+            <String><![CDATA[all]]></String>
+          </Value>
+        </Properties>
+      </Elements>
     </Containers>
     <Containers>
-      <Name><![CDATA[114c6906-5c4f-11e5-9651-0242ac11002b-c2]]></Name>
-      <Type><![CDATA[image]]></Type>
-      <ParentInstanceId><![CDATA[114c6906-5c4f-11e5-9651-0242ac11002b]]></ParentInstanceId>
+      <Name><![CDATA[e10f2c3b-5c5d-11e5-96ab-0242ac11002b-c2]]></Name>
+      <Type><![CDATA[default]]></Type>
+      <ParentInstanceId><![CDATA[e10f2c3b-5c5d-11e5-96ab-0242ac11002b]]></ParentInstanceId>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/unify-demo/.content/xmlimage/xmlimage_00001.xml]]></target>
+            <uuid>812e0b39-5bb3-11e5-8f8e-0242ac11002b</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/xmlimage-new.jsp]]></target>
+            <uuid>1106ba5f-5bc0-11e5-8f8e-0242ac11002b</uuid>
+          </link>
+        </Formatter>
+        <CreateNew>true</CreateNew>
+        <Properties>
+          <Name><![CDATA[formatterSettings#e10f2c3b-5c5d-11e5-96ab-0242ac11002b-c2]]></Name>
+          <Value>
+            <String><![CDATA[3677fe84-5bc0-11e5-8f8e-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|tablet|mobile]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[element_instance_id]]></Name>
+          <Value>
+            <String><![CDATA[c8471cf8-5d18-11e5-96ab-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+      </Elements>
     </Containers>
   </AlkaconContainerPage>
 </AlkaconContainerPages>

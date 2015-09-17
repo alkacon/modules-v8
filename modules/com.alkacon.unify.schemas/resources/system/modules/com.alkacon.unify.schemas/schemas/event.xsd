@@ -62,7 +62,7 @@
             </relations>
             <searchsettings containerPageOnly="false">
                 <searchsetting element="Date" searchcontent="false">
-                    <solrfield targetfield="eventdate" sourcefield="*_dt" />
+                    <solrfield targetfield="newsdate" sourcefield="*_dt" />
                 </searchsetting>
             </searchsettings>
 		  	<visibilities>

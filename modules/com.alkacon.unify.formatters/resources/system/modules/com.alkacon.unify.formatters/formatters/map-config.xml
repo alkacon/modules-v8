@@ -27,5 +27,11 @@
       <DisplayName><![CDATA[Hide title]]></DisplayName>
       <Widget><![CDATA[checkbox]]></Widget>
     </Setting>
+    <Setting>
+      <PropertyName><![CDATA[wrapperclass]]></PropertyName>
+      <DisplayName><![CDATA[Wrapper CSS class]]></DisplayName>
+      <Description><![CDATA[Optional CSS class name for the outer <div> element.]]></Description>
+      <Widget><![CDATA[string]]></Widget>
+    </Setting>
   </NewFormatter>
 </NewFormatters>

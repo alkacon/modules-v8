@@ -2,15 +2,30 @@
 
 <UnifyTemplateRows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/templaterow.xsd">
   <UnifyTemplateRow language="en">
-    <Title><![CDATA[Container (Fluid)]]></Title>
-    <PreMarkup><![CDATA[<div class="container-fluid p-0 $(param)">]]></PreMarkup>
+    <Title><![CDATA[3 Columns Row (4 - 4 - 4)]]></Title>
+    <PreMarkup><![CDATA[<div class="row $(param)">]]></PreMarkup>
     <PostMarkup><![CDATA[</div>]]></PostMarkup>
-    <Container><![CDATA[mainsection]]></Container>
+    <Container><![CDATA[container]]></Container>
     <Column>
       <Name><![CDATA[c1]]></Name>
-      <Type><![CDATA[container]]></Type>
+      <Type><![CDATA[default]]></Type>
       <Count><![CDATA[50]]></Count>
       <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <Grid><![CDATA[col-md-4]]></Grid>
+    </Column>
+    <Column>
+      <Name><![CDATA[c2]]></Name>
+      <Type><![CDATA[default]]></Type>
+      <Count><![CDATA[50]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <Grid><![CDATA[col-md-4]]></Grid>
+    </Column>
+    <Column>
+      <Name><![CDATA[c3]]></Name>
+      <Type><![CDATA[default]]></Type>
+      <Count><![CDATA[50]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <Grid><![CDATA[col-md-4]]></Grid>
     </Column>
   </UnifyTemplateRow>
 </UnifyTemplateRows>

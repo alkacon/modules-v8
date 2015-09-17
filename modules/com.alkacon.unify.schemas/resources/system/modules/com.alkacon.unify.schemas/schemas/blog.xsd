@@ -65,7 +65,9 @@
             <searchsettings containerPageOnly="false">
                 <searchsetting element="Date" searchcontent="false">
                     <solrfield targetfield="newsdate" sourcefield="*_dt" />
-                </searchsetting>
+                </searchsetting>               
+				<searchsetting element="Category" searchcontent="false" />
+				<searchsetting element="GalleryTitle" searchcontent="false" />
             </searchsettings>
 		  	<visibilities>
                 <visibility element="GalleryTitle" params="ROLE.GALLERY_EDITOR" />

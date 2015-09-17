@@ -107,22 +107,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.unify.formatters/elements/list-singlepage.jsp</source>
-			<destination>system/modules/com.alkacon.unify.formatters/elements/list-singlepage.jsp</destination>
+			<source>system/modules/com.alkacon.unify.formatters/elements/list-inner.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/elements/list-inner.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>7db0254c-5872-11e5-b803-0242ac11002b</uuidstructure>
-			<uuidresource>7db0254d-5872-11e5-b803-0242ac11002b</uuidresource>
-			<datecreated>Fri, 11 Sep 2015 10:47:26 GMT</datecreated>
+			<uuidstructure>5ca5be42-5cff-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>5ca5be43-5cff-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Thu, 17 Sep 2015 05:45:54 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[List AJAX element]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[params=(pageUri,__locale,itemsPerPage,collectorParam,teaserLength,currPage,buttonColor,showDate)]]></value>
-				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -1120,6 +1112,60 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/xmlimage-animation-config.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/xmlimage-animation-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>cb455793-5c7b-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>cb455794-5c7b-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 14:04:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Animation XML image formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/xmlimage-animation.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/xmlimage-animation.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>cb40276e-5c7b-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>cb40276f-5c7b-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 14:04:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Animation formatter JSP for xmlimage]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.formatters/formatters/xmlimage-enlarge-config.xml</source>
 			<destination>system/modules/com.alkacon.unify.formatters/formatters/xmlimage-enlarge-config.xml</destination>
 			<type>formatter_config</type>
@@ -1259,6 +1305,27 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Message bundle used in the default formatter for the search form.]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/i18n/com.alkacon.unify.formatters.list</source>
+			<destination>system/modules/com.alkacon.unify.formatters/i18n/com.alkacon.unify.formatters.list</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>bf88905f-5c82-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>bf889060-5c82-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 14:53:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Message keys used in the list formatter]]></value>
 				</property>
 				<property>
 					<name>search.exclude</name>

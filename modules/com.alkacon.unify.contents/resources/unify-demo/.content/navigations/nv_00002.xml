@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyNavigations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/navigation.xsd">
+  <UnifyNavigation language="en">
+    <Title><![CDATA[Unify demo side navigation]]></Title>
+    <NavStartLevel><![CDATA[1]]></NavStartLevel>
+    <LogoLink>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/]]></target>
+        <uuid>3a5315c1-5c54-11e5-9ec2-0242ac11002b</uuid>
+      </link>
+    </LogoLink>
+    <Header name="Header0">
+      <links/>
+      <content/>
+    </Header>
+  </UnifyNavigation>
+</UnifyNavigations>

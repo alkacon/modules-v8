@@ -13,8 +13,8 @@
     <Header name="Header0">
       <links>
         <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/grid-demo/search-demo/]]></target>
-          <uuid>d5244004-5ac4-11e4-955d-005056b61161</uuid>
+          <target><![CDATA[/sites/default/unify-demo/search/]]></target>
+          <uuid>4eef4bfc-5c5c-11e5-96ab-0242ac11002b</uuid>
         </link>
         <link name="link1" internal="true" type="A">
           <target><![CDATA[/sites/default/login/]]></target>

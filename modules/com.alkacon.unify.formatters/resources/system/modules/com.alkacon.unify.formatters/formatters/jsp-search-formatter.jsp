@@ -62,7 +62,7 @@
 					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 						<div class="input-group">
 							<!-- Display select box with sort options where the currently chosen option is selected -->
-							<select name="${sort.config.sortParam}" class="form-control">
+							<select name="${sort.config.sortParam}" class="form-control" onchange="submitSearchForm()">
 								<c:forEach var="option" items="${sort.config.sortOptions}">
 									<option value="${option.paramValue}"
 										${sort.state.checkSelected[option]?"selected":""}>${option.label}</option>
@@ -145,13 +145,14 @@
 											</div>
 										</c:forEach>
 										<%-- Show option to show more facet entries --%>
-										<c:if test="${not empty facetController.config.limit}">
+										<c:if test="${not empty facetController.config.limit && cms:getListSize(facet.values) ge facetController.config.limit}">
 											<c:choose>
 											<c:when test="${facetController.state.useLimit}">
 												<a href="<cms:link>${cms.requestContext.uri}?${search.stateParameters.addIgnoreFacetLimit[facet.name]}</cms:link>">Show more</a>
 											</c:when>
 											<c:otherwise>
 												<a href="<cms:link>${cms.requestContext.uri}?${search.stateParameters.removeIgnoreFacetLimit[facet.name]}</cms:link>">Show less</a>
+												<input type="hidden" name="${facetController.config.ignoreMaxParamKey}" />
 											</c:otherwise>
 											</c:choose>
 										</c:if>
@@ -165,19 +166,29 @@
 				<c:set var="colWidthResults" value="${hasFacets?8:12}" />
 				<div class="col-lg-${colWidthResults} col-md-${colWidthResults} col-sm-${colWidthResults} col-xs-12">
 					<c:choose>
-						<c:when test="${empty search.searchResults}">
-							<h3>
+						<c:when test="${not empty search.exception}">
+							<h3><fmt:message key="search.failed_0" /></h3>
+							<p>
+								<fmt:message key="query.compare_2">
+									<fmt:param>${common.state.query}</fmt:param>
+									<fmt:param>${search.finalQuery.query}</fmt:param>
+								</fmt:message>
+							</p>
+						</c:when>
+						<c:when test="${empty search.searchResults && empty search.exception}">
 							<c:choose>
 							<c:when test="${not empty controllers.didYouMean.config}" >
 								<c:set var="suggestion" value="${search.didYouMeanSuggestion}" />
 								<c:choose>
-								<c:when test="${controllers.didYouMean.config.collate}">
-									<fmt:message key="results.didyoumean_1">
-										<fmt:param><a href='<cms:link>${cms.requestContext.uri}?${search.stateParameters.newQuery[search.didYouMeanCollated]}</cms:link>'>${search.didYouMeanCollated}</a></fmt:param>
-									</fmt:message>
+								<c:when test="${controllers.didYouMean.config.collate && not empty search.didYouMeanCollated}">
+									<h3>
+										<fmt:message key="results.didyoumean_1">
+											<fmt:param><a href='<cms:link>${cms.requestContext.uri}?${search.stateParameters.newQuery[search.didYouMeanCollated]}</cms:link>'>${search.didYouMeanCollated}</a></fmt:param>
+										</fmt:message>
+									</h3>
 								</c:when>
-								<c:when test="${not empty suggestion.alternatives and cms:getListSize(suggestion.alternatives) > 0}">
-									<fmt:message key="results.didyoumean_0" />
+								<c:when test="${not controllers.didYouMean.config.collate and not empty suggestion.alternatives and cms:getListSize(suggestion.alternatives) > 0}">
+									<h3><fmt:message key="results.didyoumean_0" /></h3>
 									<ul>
 									<c:forEach var="alternative" items="${suggestion.alternatives}" varStatus="status">
 									<li>
@@ -185,18 +196,16 @@
 									</li>
 									</c:forEach>
 									</ul>
-									?
 								</c:when>
 								<c:otherwise>
-									<fmt:message key="results.noResult" />														
+									<h3><fmt:message key="results.noResult" /></h3>
 								</c:otherwise>
 								</c:choose>
 							</c:when>
 							<c:otherwise>
-								<fmt:message key="results.noResult" />														
+								<h3><fmt:message key="results.noResult" /></h3>														
 							</c:otherwise>
 							</c:choose>
-							</h3>
 						</c:when>
 						<c:otherwise>
 							<h3>

@@ -7,7 +7,7 @@
 <cms:formatter var="content" val="value" rdfa="rdfa">
 <c:set var="showelements">${cms.element.settings.showelements}</c:set>
 
-<div class="${cms.element.setting.wrapperclass.isSet ? cms.element.setting.wrapperclass : "" }">
+<div class="${cms.element.setting.wrapperclass.isSet ? cms.element.setting.wrapperclass : "mb-20" }">
 
     <c:if test="${cms.element.setting.anchor.isSet}">
         <a id="${cms.element.setting.anchor}" class="anchor"></a>
