@@ -19,7 +19,9 @@
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies/>
-		<exportpoints/>
+		<exportpoints>
+			<exportpoint uri="/system/modules/com.alkacon.unify.basics/git-scripts/module-checkin.conf" destination="WEB-INF/git-scripts/module-checkin.conf"/>
+		</exportpoints>
 		<resources>
 			<resource uri="/system/modules/com.alkacon.unify.basics/"/>
 		</resources>
@@ -44,6 +46,33 @@
 			<datecreated>Wed, 02 Sep 2015 08:35:39 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.unify.basics/git-scripts</destination>
+			<type>folder</type>
+			<uuidstructure>dc83c608-5d6d-11e5-96ab-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 17 Sep 2015 18:56:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.basics/git-scripts/module-checkin.conf</source>
+			<destination>system/modules/com.alkacon.unify.basics/git-scripts/module-checkin.conf</destination>
+			<type>plain</type>
+			<uuidstructure>1a9dc0da-5d6e-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>1a9dc0db-5d6e-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Thu, 17 Sep 2015 18:58:37 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo config for the module check in]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
