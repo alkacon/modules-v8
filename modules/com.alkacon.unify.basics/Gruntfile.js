@@ -48,6 +48,7 @@ module.exports = function(grunt) {
 
 	cssmin: {
 	  options: {
+		banner: '/*! Alkacon Unify Demo Template for OpenCms | GNU Lesser General Public License */\n',
 		shorthandCompacting: true,
 		roundingPrecision: -1
 	  },
@@ -88,6 +89,13 @@ module.exports = function(grunt) {
 	},
 
 	uglify: {
+		options: {
+			banner: '/*! Alkacon Unify Demo Template for OpenCms | GNU Lesser General Public License */\n',
+			mangle: {
+				except: ['jQuery', 'fancybox', 'bootstrapPaginator', 'revolution']
+		    },
+		    mangleProperties: false
+		},
 		my_target: {
 		  files: {
 		    'output/resources/js/scripts-all.min.js': [
