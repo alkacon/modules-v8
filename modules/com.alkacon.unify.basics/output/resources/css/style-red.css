@@ -4011,51 +4011,51 @@ i.icon-bg-u {
 /* line 215, ../../../components/scss/modifications.scss */
 .header .dropdown-menu {
   border-bottom: solid 2px #b31b34;
-  border-bottom-color: #b31b34;
+  border-bottom-color: #687074;
   border-top: solid 2px #b31b34;
   border-top-color: #b31b34; }
 
 /* line 222, ../../../components/scss/modifications.scss */
 .header .navbar-nav .mega-menu-fullwidth ul.dropdown-menu,
 .header .navbar-nav .dropdown-menu li a {
-  background-color: #b31b34;
-  color: #fff; }
+  background-color: #fff;
+  color: #687074; }
 
 /* line 228, ../../../components/scss/modifications.scss */
 .header .navbar-nav .dropdown-menu li a:hover {
-  background-color: #ff264a !important;
-  color: #fff; }
+  background-color: #EEE !important;
+  color: #687074; }
 
 /* line 233, ../../../components/scss/modifications.scss */
 .header .navbar-nav .dropdown-menu li.active a {
-  background-color: #ffe3e7 !important;
-  color: #b31b34; }
+  background-color: #EEE !important;
+  color: #687074; }
 
 /* line 241, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 li {
-  background-color: #b31b34; }
+  background-color: #fff; }
 
 /* line 245, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 li a,
 .sidebar-nav-v1 .list-toggle:after {
-  color: #fff; }
+  color: #687074; }
 
 /* line 250, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 li:hover {
-  background-color: #ff264a; }
+  background-color: #fff; }
 
 /* line 254, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 li:hover a {
-  color: #fff; }
+  color: #b31b34; }
 
 /* line 258, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 > li.active, .sidebar-nav-v1 > li.active:hover {
-  background-color: #fff; }
+  background-color: #687074; }
 
 /* line 262, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 > li.active a, .sidebar-nav-v1 > li.active:hover a,
 .sidebar-nav-v1 .list-toggle.active:after {
-  color: #b31b34; }
+  color: #fff; }
 
 /* line 267, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 > li.active li.active a, .sidebar-nav-v1 > li.active:hover li.active a {
@@ -4063,7 +4063,7 @@ i.icon-bg-u {
 
 /* line 271, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 > li.active li a, .sidebar-nav-v1 > li.active:hover li a {
-  color: #b31b34; }
+  color: #687074; }
 
 /* line 275, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 > li.active li:hover a {
@@ -4071,7 +4071,7 @@ i.icon-bg-u {
 
 /* line 279, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 li ul, .sidebar-nav-v1 li.active ul a {
-  background-color: #f5f5f5; }
+  background-color: #EEE; }
 
 /* Slider additional styles.
 ----------------------------------------------------------------------------- */

@@ -14,52 +14,43 @@
  * http://www.alkacon.com
  * http://www.opencms.org
  */
- 
+
 // Import default colors
 @import 'defaultcolors'; 
 
-// Color values
-$theme-primary: $red;
-$theme-primary-light: $red-light;
-$theme-primary-lighter: $red-lighter;
-
-$theme-secondary: $red;
-$theme-secondary-light: $red-light;
-$theme-secondary-lighter: $red-lighter;
 
 // Main theme colors
-$main-theme: $theme-primary;
-$main-theme-hover: $theme-primary-light;
-$main-theme-additional: $theme-primary-lighter;
-
+$main-theme: $red;
+$main-theme-hover: $red-light;
+$main-theme-additional: $red-lighter;
 
 // Navigation colors
-$nav-main-bg: #FFF;
-$nav-main-color: $theme-primary;
+$nav-main-bg: $white;
+$nav-main-color: $navigation-text;
 $nav-main-bg-hover: $white;
-$nav-main-color-hover: $theme-secondary;
+$nav-main-color-hover: $main-theme;
 $nav-main-bg-active: $white;
-$nav-main-color-active: $theme-secondary;
+$nav-main-color-active: $main-theme;
 
-$nav-sub-divider: #FFF;
-$nav-sub-bg: $theme-secondary;
-$nav-sub-color: $white;
-$nav-sub-bg-hover: $theme-secondary-light;
-$nav-sub-color-hover: $white;
-$nav-sub-bg-active: $theme-secondary-lighter;
-$nav-sub-color-active: $theme-primary;
+$nav-sub-divider: $white;
+$nav-sub-bg: $white;
+$nav-sub-color: $navigation-text;
+$nav-sub-bg-hover: $navigation-bg;
+$nav-sub-color-hover: $navigation-text;
+$nav-sub-bg-active: $navigation-bg;
+$nav-sub-color-active: $navigation-text;
 
-$nav-left-bg: $theme-secondary;
-$nav-left-color: $white;
-$nav-left-bg-hover: $theme-secondary-light;
-$nav-left-color-hover:$white;
-$nav-left-bg-active: $white;
-$nav-left-color-active: $theme-secondary;
+$nav-left-bg: $white;
+$nav-left-color: $navigation-text;
+$nav-left-bg-hover: $white;
+$nav-left-color-hover:$main-theme;
+$nav-left-bg-active: $navigation-text;
+$nav-left-color-active: $white;
 
-$nav-left-sub-color: $theme-secondary;
-$nav-left-sub-color-active: $theme-primary;
-$nav-left-sub-color-hover: $theme-primary;
-$nav-left-sub-bg: #f5f5f5;
+$nav-left-sub-color: $navigation-text;
+$nav-left-sub-color-active: $main-theme;
+$nav-left-sub-color-hover: $main-theme;
+$nav-left-sub-bg: $navigation-bg;
 
 // Import the other files
 @import 'imports';

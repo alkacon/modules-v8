@@ -80,6 +80,8 @@ module.exports = function(grunt) {
 	    		'components/plugins/fancybox/source/jquery.fancybox.css',
 	   			'components/plugins/parallax-slider/css/parallax-slider.css',
 	    		'components/plugins/owl-carousel/owl-carousel/owl.carousel.css',
+	    		'components/plugins/sky-forms-pro/skyforms/css/sky-forms.css',
+	    		'components/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css',
 				'!output/resources/css/*.min.css'
 			  ]
 		}
