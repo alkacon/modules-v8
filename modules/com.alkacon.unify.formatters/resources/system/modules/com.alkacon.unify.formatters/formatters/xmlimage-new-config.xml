@@ -24,13 +24,16 @@
     <NestedContainers>false</NestedContainers>
     <Setting>
       <PropertyName><![CDATA[cssClass]]></PropertyName>
-      <DisplayName><![CDATA[CSS class]]></DisplayName>
-      <Widget><![CDATA[string]]></Widget>
+      <DisplayName><![CDATA[Wrapper CSS class]]></DisplayName>
+      <Description><![CDATA[Optional CSS class name for the outer <div> element.]]></Description>
+      <Widget><![CDATA[combo]]></Widget>
+      <WidgetConfig><![CDATA[mb-20 box-shadow shadow-effect-1:Shadow box for image|box-shadow shadow-effect-2 rounded-2x:Rounded shadow box for image]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[cssShape]]></PropertyName>
       <DisplayName><![CDATA[Image CSS class]]></DisplayName>
-      <Widget><![CDATA[string]]></Widget>
+      <Widget><![CDATA[combo]]></Widget>
+      <WidgetConfig><![CDATA[img-bordered:Bordered image|rounded-2x:Rounded image|img-bordered rounded-x:Bordered round image]]></WidgetConfig>
     </Setting>
   </NewFormatter>
 </NewFormatters>

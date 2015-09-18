@@ -179,6 +179,41 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>system/modules/com.alkacon.unify.schemas/configuration</destination>
+			<type>folder</type>
+			<uuidstructure>869bdbb5-5dd0-11e5-96ab-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 18 Sep 2015 06:43:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.schemas/configuration/master</source>
+			<destination>system/modules/com.alkacon.unify.schemas/configuration/master</destination>
+			<type>sitemap_master_config</type>
+			<uuidstructure>9884d829-5dd8-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>9884d82a-5dd8-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Fri, 18 Sep 2015 07:40:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.unify.schemas/elementviews</destination>
 			<type>folder</type>
 			<uuidstructure>26ab994a-5241-11e5-9495-0242ac11002b</uuidstructure>

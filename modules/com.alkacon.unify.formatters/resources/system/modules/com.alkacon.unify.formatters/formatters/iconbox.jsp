@@ -7,7 +7,7 @@
 <fmt:setLocale value="${cms.locale}" />
 <cms:bundle basename="com.alkacon.unify.schemas.iconbox">
 <cms:formatter var="content" val="value" rdfa="rdfa">
-	<div class="service-block ${cms.element.setting.rounded} service-block-${cms.element.setting.color} ${cms.element.setting.wrapperclass.isSet ? cms.element.setting.wrapperclass : "" }" ${rdfa.Link}>
+	<div class="${cms.element.setting.wrapperclass.isSet ? cms.element.setting.wrapperclass : "service-block service-block-default" }" ${rdfa.Link}>
     <c:choose>
     	<c:when test="${cms.element.inMemoryOnly}">
     		<p><fmt:message key="unify.iconbox.message.new" /></p>
@@ -15,7 +15,7 @@
         <c:otherwise>
             <c:if test="${value.Link.isSet}"><a href="<cms:link>${value.Link}</cms:link>"></c:if>
   			<h2 class="heading-md" ${rdfa.Headline}>${value.Headline}</h2>
-  			<div><i class="icon-lg icon-bg-${cms.element.setting.color} fa fa-${fn:toLowerCase(value.Icon.stringValue)}<c:if test="${fn:endsWith(fn:toLowerCase(value.Icon.stringValue), 'lightbulb')}">-o</c:if>"></i></div>
+  			<div><i class="${cms.element.setting.iconclass.isSet ? cms.element.setting.iconclass : "icon-lg icon-bg-default fa fa-lightbulb-o" }"></i></div>
   			<p ${rdfa.Text}>${value.Text}</p>
   			<c:if test="${value.Link.isSet}"></a></c:if>
         </c:otherwise>

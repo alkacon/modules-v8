@@ -72,7 +72,7 @@
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.unify.formatters/templates/unify-page.jsp]]></value>
+					<value><![CDATA[/system/modules/com.alkacon.unify.formatters/templates/unify-page.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -129,6 +129,35 @@
 			<uuidstructure>049cca6f-5225-11e5-9495-0242ac11002b</uuidstructure>
 			<uuidresource>049cca70-5225-11e5-9495-0242ac11002b</uuidresource>
 			<datecreated>Thu, 03 Sep 2015 10:17:44 GMT</datecreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sitemap configuration file]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/config.bak</source>
+			<destination>unify-demo/.content/config.bak</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>e201af77-5dd0-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>e201af78-5dd0-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Fri, 18 Sep 2015 06:45:43 GMT</datecreated>
 			<flags>512</flags>
 			<properties>
 				<property>
@@ -898,23 +927,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Desktop Footer]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>unify-demo/.content/flexiblecontents/fc_00002.xml</source>
-			<destination>unify-demo/.content/flexiblecontents/fc_00002.xml</destination>
-			<type>u-flexible</type>
-			<uuidstructure>5f7bd980-562c-11e5-bfd9-0242ac11002b</uuidstructure>
-			<uuidresource>5f7bd981-562c-11e5-bfd9-0242ac11002b</uuidresource>
-			<datecreated>Tue, 08 Sep 2015 13:20:28 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Mobile Footer]]></value>
 				</property>
 			</properties>
 			<relations/>

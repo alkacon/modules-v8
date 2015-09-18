@@ -34,7 +34,8 @@
       <PropertyName><![CDATA[wrapperclass]]></PropertyName>
       <DisplayName><![CDATA[Wrapper CSS class]]></DisplayName>
       <Description><![CDATA[Optional CSS class name for the outer <div> element.]]></Description>
-      <Widget><![CDATA[string]]></Widget>
+      <Widget><![CDATA[combo]]></Widget>
+      <WidgetConfig><![CDATA[colored-box yellow line-top-color-red:Yellow box with red top line|colored-box blue line-box-color-orange:Blue box with orange line around|colored-box orange border-style-dotted:Orange box with dotted border]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[anchor]]></PropertyName>

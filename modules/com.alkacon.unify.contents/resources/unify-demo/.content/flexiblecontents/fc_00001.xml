@@ -57,7 +57,7 @@
 </dl>
 			</div><!--/span4-->	
 			
-			<div class="col-md-4 md-margin-bottom-40">
+			<div class="hidden-xs hidden-sm col-md-4 md-margin-bottom-40">
 <!-- Mailing List -->
 <div class="headline"><h3>The OpenCms Mailing List</h3></div>
 <p>The opencms-dev mailing list is the place for all questions, comments and suggestions for OpenCms and the main forum of the OpenCms community. Subscribe to the list by filling out the following form.</p>

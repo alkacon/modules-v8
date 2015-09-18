@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SitemapMasterConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/sitemap_master_config.xsd">
+  <SitemapMasterConfiguration language="en">
+    <DiscardTypes>true</DiscardTypes>
+    <ResourceType>
+      <TypeName><![CDATA[u-templaterow]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-text]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-blog]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-event]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-list]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-iconbox]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-tabs]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-map]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-flexible]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-carousel]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-slider]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[xmlimage]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[u-navigation]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[modelgroup]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[jsp-search]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+  </SitemapMasterConfiguration>
+</SitemapMasterConfigurations>

@@ -31,7 +31,8 @@
       <PropertyName><![CDATA[wrapperclass]]></PropertyName>
       <DisplayName><![CDATA[Wrapper CSS class]]></DisplayName>
       <Description><![CDATA[Optional CSS class name for the outer <div> element.]]></Description>
-      <Widget><![CDATA[string]]></Widget>
+      <Widget><![CDATA[combo]]></Widget>
+      <WidgetConfig><![CDATA[colored-box green border-style-dotted:Green box with dotted border|colored-box red border-style-none: Red box without border]]></WidgetConfig>
     </Setting>
   </NewFormatter>
 </NewFormatters>
