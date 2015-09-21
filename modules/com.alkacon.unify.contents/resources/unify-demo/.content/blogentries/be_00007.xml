@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BootstrapBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd">
-  <BootstrapBlog language="en">
+<UnifyBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/blog.xsd">
+  <UnifyBlog language="en">
     <Title><![CDATA[OpenCms is feature rich]]></Title>
     <Date>1408132800000</Date>
     <Paragraph>
@@ -40,5 +40,5 @@
       </link>
     </Category>
     <Author><![CDATA[Luke Dunphy]]></Author>
-  </BootstrapBlog>
-</BootstrapBlogs>
+  </UnifyBlog>
+</UnifyBlogs>

@@ -132,6 +132,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.formatters/elements/login.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/elements/login.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>2e7c3a29-6063-11e5-9199-0242ac11002b</uuidstructure>
+			<uuidresource>2e7c3a2a-6063-11e5-9199-0242ac11002b</uuidresource>
+			<datecreated>Mon, 21 Sep 2015 13:18:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login element]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.formatters/elements/model-box-end.jsp</source>
 			<destination>system/modules/com.alkacon.unify.formatters/elements/model-box-end.jsp</destination>
 			<type>jsp</type>
@@ -214,6 +235,31 @@
 				<property>
 					<name>cache</name>
 					<value><![CDATA[uri;user;params=(startlevel)]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/elements/opencms-info.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/elements/opencms-info.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>4a9ba033-6063-11e5-9199-0242ac11002b</uuidstructure>
+			<uuidresource>4a9ba034-6063-11e5-9199-0242ac11002b</uuidresource>
+			<datecreated>Mon, 21 Sep 2015 13:18:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Information element]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;user]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -466,60 +512,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Formatter for Flexible content]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[container-element;locale]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.unify.formatters/formatters/iconbox-config.xml</source>
-			<destination>system/modules/com.alkacon.unify.formatters/formatters/iconbox-config.xml</destination>
-			<type>formatter_config</type>
-			<uuidstructure>c58c6dae-56fc-11e5-aad7-0242ac11002b</uuidstructure>
-			<uuidresource>c58c6daf-56fc-11e5-aad7-0242ac11002b</uuidresource>
-			<datecreated>Wed, 09 Sep 2015 14:12:15 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Icon Box formatter]]></value>
-				</property>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.unify.formatters/formatters/iconbox.jsp</source>
-			<destination>system/modules/com.alkacon.unify.formatters/formatters/iconbox.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>c5862c1b-56fc-11e5-aad7-0242ac11002b</uuidstructure>
-			<uuidresource>c5862c1c-56fc-11e5-aad7-0242ac11002b</uuidresource>
-			<datecreated>Wed, 09 Sep 2015 14:12:15 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Formatter JSP for icon box]]></value>
 				</property>
 				<property>
 					<name>cache</name>
@@ -1041,6 +1033,60 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/text-iconbox-config.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/text-iconbox-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>c58c6dae-56fc-11e5-aad7-0242ac11002b</uuidstructure>
+			<uuidresource>c58c6daf-56fc-11e5-aad7-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 14:12:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Text as Icon Box formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/text-iconbox.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/text-iconbox.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>c5862c1b-56fc-11e5-aad7-0242ac11002b</uuidstructure>
+			<uuidresource>c5862c1c-56fc-11e5-aad7-0242ac11002b</uuidresource>
+			<datecreated>Wed, 09 Sep 2015 14:12:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter JSP for texts as icon box]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;locale]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.formatters/formatters/text-jumbotron-config.xml</source>
 			<destination>system/modules/com.alkacon.unify.formatters/formatters/text-jumbotron-config.xml</destination>
 			<type>formatter_config</type>
@@ -1288,6 +1334,48 @@
 			<datecreated>Wed, 02 Sep 2015 10:37:09 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/functions/login.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/functions/login.xml</destination>
+			<type>function</type>
+			<uuidstructure>38741b6d-6063-11e5-9199-0242ac11002b</uuidstructure>
+			<uuidresource>38741b6e-6063-11e5-9199-0242ac11002b</uuidresource>
+			<datecreated>Mon, 21 Sep 2015 13:18:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Provides a login form functionality.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login form]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/functions/opencms-info.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/functions/opencms-info.xml</destination>
+			<type>function</type>
+			<uuidstructure>40dbbec1-6063-11e5-9199-0242ac11002b</uuidstructure>
+			<uuidresource>40dbbec2-6063-11e5-9199-0242ac11002b</uuidresource>
+			<datecreated>Mon, 21 Sep 2015 13:18:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Provides information about the OpenCms version and the login URL.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Info]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>

@@ -37,15 +37,15 @@
           </Value>
         </Properties>
         <Properties>
-          <Name><![CDATA[use_as_copy_model]]></Name>
-          <Value>
-            <String><![CDATA[true]]></String>
-          </Value>
-        </Properties>
-        <Properties>
           <Name><![CDATA[templateContexts]]></Name>
           <Value>
             <String><![CDATA[desktop|tablet|mobile]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[use_as_copy_model]]></Name>
+          <Value>
+            <String><![CDATA[true]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -107,7 +107,7 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[02eac0b2-5dde-11e5-96ab-0242ac11002b]]></String>
+            <String><![CDATA[660d3f55-605c-11e5-9199-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -151,7 +151,7 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[02eac0b3-5dde-11e5-96ab-0242ac11002b]]></String>
+            <String><![CDATA[660d3f56-605c-11e5-9199-0242ac11002b]]></String>
           </Value>
         </Properties>
       </Elements>

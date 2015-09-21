@@ -23,7 +23,7 @@
 
 	<xsd:annotation>
 		<xsd:appinfo>
-			<resourcebundle name="org.opencms.website.schemas.text"/>
+			<resourcebundle name="com.alkacon.unify.schemas.text"/>
 			<mappings>
 				<mapping element="GalleryTitle" mapto="property:Title" useDefault="true" />
 				<mapping element="GalleryTitle" mapto="urlName" useDefault="true" />

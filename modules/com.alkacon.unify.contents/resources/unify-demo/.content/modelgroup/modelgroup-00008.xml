@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconContainerPages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/container_page.xsd">
+  <AlkaconContainerPage language="en">
+    <Containers>
+      <Name><![CDATA[base_container]]></Name>
+      <Type><![CDATA[base_container]]></Type>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/unify-demo/.content/templaterows/tr_00005.xml]]></target>
+            <uuid>78b6a0d1-5638-11e5-bfd9-0242ac11002b</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/templaterow.jsp]]></target>
+            <uuid>d652a05d-523d-11e5-9495-0242ac11002b</uuid>
+          </link>
+        </Formatter>
+        <Properties>
+          <Name><![CDATA[detail]]></Name>
+          <Value>
+            <String><![CDATA[none]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[model_group_title]]></Name>
+          <Value>
+            <String><![CDATA[Unify Release Notes Header]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[formatterSettings#page-complete]]></Name>
+          <Value>
+            <String><![CDATA[d65670f0-523d-11e5-9495-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[use_as_copy_model]]></Name>
+          <Value>
+            <String><![CDATA[false]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[model_group_id]]></Name>
+          <Value>
+            <String><![CDATA[91809980-605c-11e5-9199-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[element_instance_id]]></Name>
+          <Value>
+            <String><![CDATA[79d0739f-605c-11e5-9199-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[model_group_description]]></Name>
+          <Value>
+            <String><![CDATA[Generates the release notes header.]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[model_group_state]]></Name>
+          <Value>
+            <String><![CDATA[isModelGroup]]></String>
+          </Value>
+        </Properties>
+      </Elements>
+    </Containers>
+    <Containers>
+      <Name><![CDATA[79d0739f-605c-11e5-9199-0242ac11002b-c1]]></Name>
+      <Type><![CDATA[headsection]]></Type>
+      <ParentInstanceId><![CDATA[79d0739f-605c-11e5-9199-0242ac11002b]]></ParentInstanceId>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/unify-demo/.content/navigations/nv_00001.xml]]></target>
+            <uuid>fe51343f-5638-11e5-bfd9-0242ac11002b</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/navigation-main.jsp]]></target>
+            <uuid>bff6dd61-5605-11e5-b868-0242ac11002b</uuid>
+          </link>
+        </Formatter>
+        <Properties>
+          <Name><![CDATA[element_instance_id]]></Name>
+          <Value>
+            <String><![CDATA[a078d837-605c-11e5-9199-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[showbreadcrumb]]></Name>
+          <Value>
+            <String><![CDATA[false]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[formatterSettings#79d0739f-605c-11e5-9199-0242ac11002b-c1]]></Name>
+          <Value>
+            <String><![CDATA[c0086996-5605-11e5-b868-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+      </Elements>
+    </Containers>
+  </AlkaconContainerPage>
+</AlkaconContainerPages>

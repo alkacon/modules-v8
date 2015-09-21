@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
-  <BootstrapText language="en">
-    <Headline><![CDATA[Powerful yet simple]]></Headline>
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[Total Control]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>With more features than ever, this latest OpenCms version is powerful, yet easy to use.<br /><br />Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
-<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>]]></content>
+      <content><![CDATA[<p>Decide who is allowed to edit parts of a page.</p>]]></content>
     </Text>
-  </BootstrapText>
-</BootstrapTexts>
+  </UnifyText>
+</UnifyTexts>

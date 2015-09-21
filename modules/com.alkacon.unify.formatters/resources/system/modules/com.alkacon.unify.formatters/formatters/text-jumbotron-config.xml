@@ -14,6 +14,7 @@
     <Match>
       <Types>
         <ContainerType><![CDATA[default]]></ContainerType>
+        <ContainerType><![CDATA[text]]></ContainerType>
         <ContainerType><![CDATA[text-jumbotron]]></ContainerType>
       </Types>
     </Match>

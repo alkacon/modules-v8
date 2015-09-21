@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
+  <DynamicFunction language="en">
+    <Title><![CDATA[OpenCms Info]]></Title>
+    <Description><![CDATA[Provides information about the OpenCms version and the login URL.]]></Description>
+    <FunctionProvider>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.unify.formatters/elements/opencms-info.jsp]]></target>
+        <uuid>4a9ba033-6063-11e5-9199-0242ac11002b</uuid>
+      </link>
+    </FunctionProvider>
+    <ContainerSettings>
+      <Type><![CDATA[default]]></Type>
+      <MinWidth/>
+    </ContainerSettings>
+  </DynamicFunction>
+</DynamicFunctions>

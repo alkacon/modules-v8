@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
-  <BootstrapText language="en">
-    <Headline><![CDATA[Extreme Grid Example :)]]></Headline>
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[Powerful and feature rich CMS]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>This page demonstrate a flexible grid layout. It contains a lot of containers, all of them empty. To see the containers, you need to log in first.</p>]]></content>
+      <content><![CDATA[<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>]]></content>
     </Text>
-    <Link>
-      <Text><![CDATA[To the login page...]]></Text>
-      <URI>
-        <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/login/]]></target>
-          <uuid>d87f4764-58f1-11e4-903d-005056b61161</uuid>
-        </link>
-      </URI>
-    </Link>
-  </BootstrapText>
-</BootstrapTexts>
+  </UnifyText>
+</UnifyTexts>

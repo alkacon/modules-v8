@@ -42,6 +42,10 @@
       <Key><![CDATA[unify.text.default.Text]]></Key>
       <Value><![CDATA[Please edit this text.]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[unify.text.message.new]]></Key>
+      <Value><![CDATA[New text element, please edit it.]]></Value>
+    </Message>
   </Bundle>
   <Bundle language="de">
     <Message>
@@ -83,6 +87,10 @@
     <Message>
       <Key><![CDATA[unify.text.default.Text]]></Key>
       <Value><![CDATA[Bitte bearbeiten Sie diesen Text.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[unify.text.message.new]]></Key>
+      <Value><![CDATA[Neues Text Element, bitte bearbeiten Sie es.]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

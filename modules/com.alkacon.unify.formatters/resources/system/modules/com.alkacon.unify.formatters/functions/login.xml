@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
+  <DynamicFunction language="en">
+    <Title><![CDATA[Login form]]></Title>
+    <Description><![CDATA[Provides a login form functionality.]]></Description>
+    <FunctionProvider>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.unify.formatters/elements/login.jsp]]></target>
+        <uuid>2e7c3a29-6063-11e5-9199-0242ac11002b</uuid>
+      </link>
+    </FunctionProvider>
+    <ContainerSettings>
+      <Type><![CDATA[default]]></Type>
+      <MinWidth/>
+    </ContainerSettings>
+  </DynamicFunction>
+</DynamicFunctions>

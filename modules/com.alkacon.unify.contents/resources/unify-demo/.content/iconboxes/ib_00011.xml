@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<BootstrapIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/iconbox.xsd">
-  <BootstrapIconBox language="en">
-    <Headline><![CDATA[The features of OpenCms?]]></Headline>
-    <Text><![CDATA[Vivamus elementum semper nisi. Aenean vulputate eleifend sit amet tellus.]]></Text>
-  </BootstrapIconBox>
-</BootstrapIconBoxs>

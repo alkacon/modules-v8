@@ -32,7 +32,7 @@
 <div class="wrapper">
 <c:if test="${cms.isEditMode}">
 	<!--=== Placeholder for OpenCms toolbar in edit mode ===-->
-	<div style="background: lightgray; height: 50px;">&nbsp;</div>
+	<div style="background: lightgray; height: 52px;">&nbsp;</div>
 </c:if>
 
 <cms:container name="page-complete" type="page" width="1200" maxElements="15" editableby="ROLE.DEVELOPER">

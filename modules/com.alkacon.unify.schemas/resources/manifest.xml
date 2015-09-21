@@ -37,8 +37,6 @@
 			<resource uri="/system/workplace/resources/filetypes/u-slider_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-tabs.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-tabs_big.png"/>
-			<resource uri="/system/workplace/resources/filetypes/u-iconbox.png"/>
-			<resource uri="/system/workplace/resources/filetypes/u-iconbox_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-carousel.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-carousel_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/u-blog.png"/>
@@ -70,9 +68,6 @@
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-tabs" id="455">
 				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/tabs.xsd</param>
-			</type>
-			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-iconbox" id="456">
-				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/iconbox.xsd</param>
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="u-carousel" id="457">
 				<param name="schema">/system/modules/com.alkacon.unify.schemas/schemas/carousel.xsd</param>
@@ -111,9 +106,6 @@
 			</explorertype>
 			<explorertype name="u-tabs" key="fileicon.u-tabs" icon="u-tabs.png" bigicon="u-tabs_big.png" reference="xmlcontent">
 				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-tabs" order="40" autosetnavigation="false" autosettitle="false" info="desc.u-tabs" key="title.u-tabs"/>
-			</explorertype>
-			<explorertype name="u-iconbox" key="fileicon.u-iconbox" icon="u-iconbox.png" bigicon="u-iconbox_big.png" reference="xmlcontent">
-				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-iconbox" order="50" autosetnavigation="false" autosettitle="false" info="desc.u-iconbox" key="title.u-iconbox"/>
 			</explorertype>
 			<explorertype name="u-carousel" key="fileicon.u-carousel" icon="u-carousel.png" bigicon="u-carousel_big.png" reference="xmlcontent">
 				<newresource page="u-menu" uri="newresource_xmlcontent.jsp?newresourcetype=u-carousel" order="60" autosetnavigation="false" autosettitle="false" info="desc.u-carousel" key="title.u-carousel"/>
@@ -253,16 +245,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>system/modules/com.alkacon.unify.schemas/formatters</destination>
-			<type>folder</type>
-			<uuidstructure>3054c117-5ad6-11e5-a17e-0242ac11002b</uuidstructure>
-			<datecreated>Mon, 14 Sep 2015 11:46:08 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>system/modules/com.alkacon.unify.schemas/i18n</destination>
 			<type>folder</type>
 			<uuidstructure>d644e4b6-523d-11e5-9495-0242ac11002b</uuidstructure>
@@ -330,23 +312,6 @@
 			<uuidstructure>50bb5d35-5610-11e5-b868-0242ac11002b</uuidstructure>
 			<uuidresource>50bb5d36-5610-11e5-b868-0242ac11002b</uuidresource>
 			<datecreated>Tue, 08 Sep 2015 09:59:37 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.iconbox</source>
-			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.iconbox</destination>
-			<type>xmlvfsbundle</type>
-			<uuidstructure>d1d4ee75-56ff-11e5-aad7-0242ac11002b</uuidstructure>
-			<uuidresource>d1d4ee76-56ff-11e5-aad7-0242ac11002b</uuidresource>
-			<datecreated>Wed, 09 Sep 2015 14:34:04 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1023,40 +988,6 @@
 			<uuidstructure>9c8a9796-560d-11e5-b868-0242ac11002b</uuidstructure>
 			<uuidresource>c98925bd-560d-11e5-b868-0242ac11002b</uuidresource>
 			<datecreated>Tue, 08 Sep 2015 09:41:32 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:24,h:24]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/workplace/resources/filetypes/u-iconbox.png</source>
-			<destination>system/workplace/resources/filetypes/u-iconbox.png</destination>
-			<type>image</type>
-			<uuidstructure>c5731943-56fc-11e5-aad7-0242ac11002b</uuidstructure>
-			<uuidresource>7ec273a7-56ff-11e5-aad7-0242ac11002b</uuidresource>
-			<datecreated>Wed, 09 Sep 2015 14:31:44 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>image.size</name>
-					<value><![CDATA[w:16,h:16]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/workplace/resources/filetypes/u-iconbox_big.png</source>
-			<destination>system/workplace/resources/filetypes/u-iconbox_big.png</destination>
-			<type>image</type>
-			<uuidstructure>c5784967-56fc-11e5-aad7-0242ac11002b</uuidstructure>
-			<uuidresource>aa2c09cc-56ff-11e5-aad7-0242ac11002b</uuidresource>
-			<datecreated>Wed, 09 Sep 2015 14:32:57 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">

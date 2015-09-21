@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyFlexibleElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/flexible.xsd">
+  <UnifyFlexibleElement language="en">
+    <Title><![CDATA[Reduced footer for tutorial / release notes]]></Title>
+    <Choice>
+      <Code name="Code0">
+        <links>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[http://www.alkacon.com]]></target>
+          </link>
+          <link name="link3" internal="true" type="IMG">
+            <target><![CDATA[/sites/default/tutorial/.galleries/tutorial-images/alkacon_logo.png]]></target>
+            <uuid>5bea2a93-47e6-11e3-8474-000c29d28104</uuid>
+            <query><![CDATA[__scale=w:120,h:39,c:transparent]]></query>
+          </link>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://www.opencms.org]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://www.alkacon.com]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<div class="footer-default">
+<!--=== Copyright ===-->
+<div class="copyright">
+<div class="container">
+<div class="row">
+
+<div class="col-sm-9">
+<p>Built with <a href="%(link0)">OpenCms - The Open Source CMS</a> from <a href="%(link1)">Alkacon Software - The OpenCms Experts</a><br>
+Alkacon and the OpenCms logo are registered trademarks owned by Alkacon Software.</p>
+</div>
+
+<div class="col-sm-3">
+<a href="%(link2)">
+<img id="logo-footer" src="%(link3)" class="pull-right" alt="Alkacon Software GmbH" />
+</a>
+</div>
+
+</div>
+</div>
+</div>
+<!--=== End Copyright ===-->
+</div>]]></content>
+      </Code>
+    </Choice>
+  </UnifyFlexibleElement>
+</UnifyFlexibleElements>

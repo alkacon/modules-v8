@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[Release Notes for OpenCms 8.5.2]]></Headline>
+    <Text name="Text0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://bugzilla.opencms.org/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>July 10, 2013: OpenCms 8.5.2 is an important update that fixes several issues that persisted in the 8.5.1 release. This version also contains security improvements against XSS attacks .</p>
+<h2>Main improvements in OpenCms 8.5.2</h2>
+<ul>
+<li>Improved IE10 compatibility.</li>
+<li>Improved lock behavior for group editor.</li>
+<li>Improved offline indexing to index content changes immediately.</li>
+<li>Improved PDF extraction with new library version.</li>
+<li>Improved module import by pausing offline indexing while importing or deleting modules.</li>
+<li>Improved purging of container pages after publish.</li>
+<li>Updated CodeMirror source code editor to version 3.14.</li>
+<li>Updated commons DBCP library.</li>
+</ul>
+<h2>Fixed issues in OpenCms 8.5.2</h2>
+<ul>
+<li>Fixed issue #50 with encoding links in pointer resources.</li>
+<li>Fixed issue #114 with locale handling on embedded message bundles in schemas.</li>
+<li>Fixed issue #152 where the layout of the VfsImageWidget was broken.</li>
+<li>Fixed issue #155 where error messages where not displayed correctly.</li>
+<li>Fixed issue #156 where newly created container pages from model pages did not have the right template property.</li>
+<li>Fixed issue #159 where another resource was locked when creating a new one.</li>
+<li>Fixed issue #167 where editing expired resources from direct edit caused errors.</li>
+<li>Fixed issue #169 where SOLR rebuild doesn't update unmodified resources.</li>
+<li>Fixed issue #170 where folders without default files did deliver a blank page instead of the 404 error code.</li>
+<li>Fixed issue #173 where XSS was possible.</li>
+<li>Fixed issue #175 where depending on the current date certain dates could not be set.</li>
+<li>Fixed issue with possible XSS exploit using the CmsRequestUtil.</li>
+<li>Fixed issue with element language select.</li>
+<li>Fixed issue with in-line editing of choice attributes.</li>
+<li>Fixed issue when saving a container page that contained inconsistent links.</li>
+<li>Fixed issue where expired resources were not availably using the gallery select dialogs.</li>
+<li>Fixed issue where head includes for elements did not work, if the element was part of an inheritance group.</li>
+<li>Fixed issue with history view for no longer existing historic resource versions.</li>
+<li>Fixed issue with publishing moved resources with categories.</li>
+<li>Fixed issue with selecting "Undo changes" in the context menu for a JSP.</li>
+<li>Fixed issue with context menu for expired resources.</li>
+<li>Fixed issue with determining the content CSS in the XML content editor.</li>
+<li>Fixed issue with memory leak related to GWT RPC services.</li>
+<li>Fixed issue with memory leaks using SOLR.</li>
+</ul>
+<h2>Features of OpenCms in general</h2>
+<ul>
+<li>The page editor allows to create and arrange content on web pages by drag &amp; drop.</li>
+<li>The sitemap editor allows to create new pages and re-arrange the navigation tree by drag &amp; drop.</li>
+<li>Support for creation of content for mobile devices with the &lt;cms:mobile&gt; tag.</li>
+<li>Structured contents can be defined using a simple XML schema.</li>
+<li>Editors with WYSIWYG and syntax highlighting functionality.</li>
+<li>Easy to use "Online / Offline" workflow, changes must be approved before they become visible.</li>
+<li>Link management for all internal resources with broken link detection.</li>
+<li>Integrated image scaling and cropping.</li>
+<li>Full featured internal user management that supports the concept of "Organizational Units" (OUs).</li>
+<li>Allows management of multiple websites within one installation.</li>
+<li>Contents can be served dynamically or exported to static HTML files.</li>
+<li>Extensions can be added through a flexible module system.</li>
+<li>Full text search for web pages, but also in PDF, MS Office documents etc.</li>
+<li>The "time warp" feature allows to view resources which are expired or not yet released.</li>
+<li>JSP integration for dynamic functionality in templates, dynamic forms etc.</li>
+<li>... and many more</li>
+</ul>
+<h2>Backward compatibility</h2>
+<p>We recommend everyone who uses OpenCms to update to this 8.5.2 release.</p>
+<p>OpenCms 8.5.2 is fully backward compatible to all prior 8.x and 7.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 8.5.2.</p>
+<p><strong>Notice for users of Alkacon OCEE:</strong> OpenCms version 8.5.2 requires Alkacon OCEE version 3.5.2 or later. In case you want to update your OpenCms installation to 8.5.2, please make sure you update Alkacon OCEE to 3.5.2 or later first!</p>
+<h2>Compatibility with Java versions, Servlet containers and Databases</h2>
+<p>OpenCms 8.5.2 has been written and tested for Java 6 and 7. We have tested only with ORACLEs version of the JDK. OpenCms should run with all compliant JVMs.</p>
+<p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>
+<p>On the database side, we have tested with MySQL, Oracle, PostgreSQL, MS SQL Server, DB2 and HSQLDB. The automatic update wizard for OpenCms 8 supports MySQL, Oracle and PostgreSQL.</p>
+<h2>Regarding version numbers and build tags</h2>
+<p>In case you want to check out OpenCms from Git, please keep the following in mind: The tag numbers for all OpenCms 8.5 final releases are "build_8_5_x", so the 8.5.2 release is tagged "build_8_5_2".</p>
+<p>The main OpenCms Git repository is available on Github at <a href="%(link0)">github.com/alkacon/opencms-core</a>.</p>
+<h2>How you can help</h2>
+<p>Contributions to the OpenCms core development are most welcome. Please send us your pull requests directly on GitHub.</p>
+<p>Please use our Bugzilla to report bugs in this release: <a href="%(link1)">http://bugzilla.opencms.org/</a></p>
+<p> </p>
+<p>Thank you for using OpenCms and have fun with OpenCms 8.5 :-)</p>]]></content>
+    </Text>
+  </UnifyText>
+</UnifyTexts>

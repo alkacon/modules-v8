@@ -24,10 +24,6 @@
       <Disabled><![CDATA[false]]></Disabled>
     </ResourceType>
     <ResourceType>
-      <TypeName><![CDATA[u-iconbox]]></TypeName>
-      <Disabled><![CDATA[false]]></Disabled>
-    </ResourceType>
-    <ResourceType>
       <TypeName><![CDATA[u-tabs]]></TypeName>
       <Disabled><![CDATA[false]]></Disabled>
     </ResourceType>
