@@ -47,7 +47,7 @@ $colored-box-variants:
  (light-green, $green-light)
 );
 
-.colored-box {
+.colored-box, .colored-box-light {
   overflow: hidden;
   padding: 20px;
   margin-bottom: 20px;
@@ -95,7 +95,7 @@ $colored-box-variants:
 /* Background color */
 
 @each $type-name, $bg-color in $colored-box-variants {
-    .colored-box.#{""+$type-name}, colored-box-light.#{""+$type-name} {      
+    .colored-box.#{""+$type-name}, .colored-box-light.#{""+$type-name} {      
         background-color: $bg-color;      
     }
 }
@@ -189,6 +189,32 @@ $colored-box-positions:
 
 .jumbotron h1, .jumbotron .h1 {
   line-height: 1.0;
+}
+
+/* Login element.
+----------------------------------------------------------------------------- */
+
+.reg-page {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid $gray-lighter;
+    box-shadow: 0 0 3px $gray-lighter;
+    color: $gray-darker;
+	margin: 0 auto;
+    padding: 30px;
+	width: auto;
+}
+.reg-header {
+    border-bottom: 1px solid #EEEEEE;
+    color: $gray-darker;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.reg-header h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.reg-page label {
+    color: $gray;
 }
 
 /* Navigation colors.
@@ -323,4 +349,13 @@ $colored-box-positions:
 
 .social_slideshare {
     background: url("../img/icons/social/slideshare.png") no-repeat;
+}
+
+/* Superscript for user name in nav.
+----------------------------------------------------------------------------- */
+
+.superscript {
+    top: -9px; 
+    left: 4px; 
+    position: relative
 }
