@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BootstrapIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/iconbox.xsd">
+<BootstrapIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/iconbox.xsd">
   <BootstrapIconBox language="en">
     <Headline><![CDATA[How to migrate to OpenCms?]]></Headline>
-    <Icon><![CDATA[Question]]></Icon>
     <Text><![CDATA[Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi laoreet. Nam eget dui.]]></Text>
   </BootstrapIconBox>
 </BootstrapIconBoxs>

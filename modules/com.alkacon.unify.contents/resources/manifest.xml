@@ -152,35 +152,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>unify-demo/.content/config.bak</source>
-			<destination>unify-demo/.content/config.bak</destination>
-			<type>sitemap_config</type>
-			<uuidstructure>e201af77-5dd0-11e5-96ab-0242ac11002b</uuidstructure>
-			<uuidresource>e201af78-5dd0-11e5-96ab-0242ac11002b</uuidresource>
-			<datecreated>Fri, 18 Sep 2015 06:45:43 GMT</datecreated>
-			<flags>512</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Sitemap configuration file]]></value>
-				</property>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>unify-demo/.content/.modelgroups</destination>
 			<type>folder</type>
 			<uuidstructure>c2827481-562b-11e5-bfd9-0242ac11002b</uuidstructure>
@@ -1982,7 +1953,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Demo Website: OpenCms has all the features]]></value>
+					<value><![CDATA[Home: OpenCms has all the features]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2118,7 +2089,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[We work for you]]></value>
+					<value><![CDATA[Home: We work for you]]></value>
 				</property>
 			</properties>
 			<relations/>
