@@ -3185,6 +3185,27 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>.galleries/slider/slider_logo_10.png</source>
+			<destination>.galleries/slider/slider_logo_10.png</destination>
+			<type>image</type>
+			<uuidstructure>8ef4b7fe-602f-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>8ef4b7ff-602f-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Mon, 21 Sep 2015 07:08:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Slider logo OpenCms 10]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:500,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>grid-demo</destination>
 			<type>subsitemap</type>
 			<uuidstructure>0d82626d-276b-11e4-96d6-005056b61161</uuidstructure>
@@ -5262,33 +5283,6 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>grid-demo/.content/jsp-search</destination>
-			<type>folder</type>
-			<uuidstructure>bed36e89-4fcf-11e5-a67e-0242ac11002b</uuidstructure>
-			<datecreated>Mon, 31 Aug 2015 11:02:18 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>grid-demo/.content/jsp-search/jsp-search-00001.xml</source>
-			<destination>grid-demo/.content/jsp-search/jsp-search-00001.xml</destination>
-			<type>jsp-search</type>
-			<uuidstructure>bed7180b-4fcf-11e5-a67e-0242ac11002b</uuidstructure>
-			<uuidresource>bed7180c-4fcf-11e5-a67e-0242ac11002b</uuidresource>
-			<datecreated>Mon, 31 Aug 2015 11:02:18 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[OpenCms Demo Search Configuration]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>grid-demo/.content/lists</destination>
 			<type>folder</type>
 			<uuidstructure>b84c0556-48a9-11e4-9866-005056b61161</uuidstructure>
@@ -5380,7 +5374,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms 9.5 Promo Slider]]></value>
+					<value><![CDATA[OpenCms 10 Promo Slider]]></value>
 				</property>
 			</properties>
 			<relations/>

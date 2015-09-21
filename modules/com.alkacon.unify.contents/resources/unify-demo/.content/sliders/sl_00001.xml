@@ -2,7 +2,7 @@
 
 <UnifySliders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/slider.xsd">
   <UnifySlider language="en">
-    <Title><![CDATA[OpenCms 9.5 Promo Slider]]></Title>
+    <Title><![CDATA[OpenCms 10 Promo Slider]]></Title>
     <Duration><![CDATA[6000]]></Duration>
     <Width><![CDATA[900]]></Width>
     <Height><![CDATA[500]]></Height>
@@ -17,7 +17,21 @@
       <Slots><![CDATA[12]]></Slots>
       <Delay><![CDATA[600]]></Delay>
       <Caption>
-        <Text><![CDATA[OPENCMS 9.5]]></Text>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/.galleries/slider/slider_logo_10.png]]></target>
+            <uuid>8ef4b7fe-602f-11e5-96ab-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Class><![CDATA[caption lfl]]></Class>
+        <PosX><![CDATA[350]]></PosX>
+        <PosY><![CDATA[10]]></PosY>
+        <Start><![CDATA[1800]]></Start>
+        <Speed><![CDATA[1500]]></Speed>
+        <Easing><![CDATA[easeOutCubic]]></Easing>
+      </Caption>
+      <Caption>
+        <Text><![CDATA[OPENCMS 10]]></Text>
         <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb]]></Class>
         <PosX><![CDATA[180]]></PosX>
         <PosY><![CDATA[200]]></PosY>
@@ -66,7 +80,7 @@
             <uuid>570ddf2c-5867-11e4-a786-005056b61161</uuid>
           </link>
         </Image>
-        <Class><![CDATA[caption lfl]]></Class>
+        <Class><![CDATA[caption lfr]]></Class>
         <PosX><![CDATA[-180]]></PosX>
         <PosY><![CDATA[200]]></PosY>
         <Start><![CDATA[500]]></Start>
@@ -74,19 +88,19 @@
         <Easing><![CDATA[easeInOutBounce]]></Easing>
       </Caption>
       <Caption>
-        <Text><![CDATA[NEW IN 9.5:]]></Text>
+        <Text><![CDATA[GRID BASED, RESPONSIVE TEMPLATE GENERATOR]]></Text>
         <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb]]></Class>
         <PosX><![CDATA[10]]></PosX>
-        <PosY><![CDATA[40]]></PosY>
+        <PosY><![CDATA[100]]></PosY>
         <Start><![CDATA[600]]></Start>
         <Speed><![CDATA[600]]></Speed>
         <Easing><![CDATA[easeOutExpo]]></Easing>
       </Caption>
       <Caption>
-        <Text><![CDATA[GRID BASED, RESPONSIVE TEMPLATE GENERATOR]]></Text>
-        <Class><![CDATA[caption mediumthickblackbg blackbgtransparent sfb]]></Class>
+        <Text><![CDATA[BUILD YOUR TEMPLATES WITHOUT CODING]]></Text>
+        <Class><![CDATA[caption sft mediumthickwhitebg]]></Class>
         <PosX><![CDATA[10]]></PosX>
-        <PosY><![CDATA[100]]></PosY>
+        <PosY><![CDATA[160]]></PosY>
         <Start><![CDATA[900]]></Start>
         <Speed><![CDATA[600]]></Speed>
         <Easing><![CDATA[easeOutExpo]]></Easing>
@@ -100,7 +114,7 @@
         </Image>
         <Class><![CDATA[caption randomrotate]]></Class>
         <PosX><![CDATA[10]]></PosX>
-        <PosY><![CDATA[180]]></PosY>
+        <PosY><![CDATA[210]]></PosY>
         <Start><![CDATA[1200]]></Start>
         <Speed><![CDATA[900]]></Speed>
         <Easing><![CDATA[easeOutExpo]]></Easing>

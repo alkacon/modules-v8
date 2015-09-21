@@ -1651,7 +1651,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Demo Website: OpenCms 9.5 Promo Slider]]></value>
+					<value><![CDATA[Home: OpenCms 10 Promo Slider]]></value>
 				</property>
 			</properties>
 			<relations/>
