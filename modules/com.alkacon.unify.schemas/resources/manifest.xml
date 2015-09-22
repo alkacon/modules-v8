@@ -340,6 +340,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.login</source>
+			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.login</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>16f9526a-6134-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>16f9526b-6134-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 14:13:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.map</source>
 			<destination>system/modules/com.alkacon.unify.schemas/i18n/com.alkacon.unify.schemas.map</destination>
 			<type>xmlvfsbundle</type>

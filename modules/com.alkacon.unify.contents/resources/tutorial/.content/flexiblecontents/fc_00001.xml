@@ -7,8 +7,8 @@
       <Code name="Code0">
         <links>
           <link name="link4" internal="true" type="IMG">
-            <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/logo/logo_opencms_png24.png]]></target>
-            <uuid>aa1519ad-1abc-11e3-9246-000c29f9a2ec</uuid>
+            <target><![CDATA[/system/modules/com.alkacon.unify.basics/resources/img/logo/logo_opencms_png24.png]]></target>
+            <uuid>0c407c7c-5159-11e5-abeb-0242ac11002b</uuid>
             <query><![CDATA[__scale=w:165,h:40,t:2,c:transparent]]></query>
           </link>
           <link name="link2" internal="true" type="A">
@@ -17,11 +17,11 @@
           </link>
           <link name="link3" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>f905b2af-606d-11e5-9d32-0242ac11002b</uuid>
+            <uuid>8c725414-6132-11e5-bff3-0242ac11002b</uuid>
           </link>
           <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/]]></target>
-            <uuid>f905b2af-606d-11e5-9d32-0242ac11002b</uuid>
+            <uuid>8c725414-6132-11e5-bff3-0242ac11002b</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/default/unify-demo/]]></target>

@@ -7,7 +7,7 @@
 <cms:secureparams />
 
 <fmt:setLocale value="${cms.locale}" />
-<cms:bundle basename="com.alkacon.bootstrap.schemas.login">
+<cms:bundle basename="com.alkacon.unify.schemas.login">
 
 <jsp:useBean id="login" class="org.opencms.jsp.CmsJspLoginBean" scope="page">
         <%
@@ -42,36 +42,36 @@
 <c:choose>
 	<c:when test="${! login.loggedIn}">
 		<div class="reg-header">		
-			<h3><fmt:message key="bootstrap.login.title.loggedoff" /></h3>
-			<p><fmt:message key="bootstrap.login.message.loggedoff" /></p>
+			<h3><fmt:message key="unify.login.title.loggedoff" /></h3>
+			<p><fmt:message key="unify.login.message.loggedoff" /></p>
 		</div>
 
 		<div class="input-group margin-bottom-20">
 			<span class="input-group-addon"><i class="icon-user"></i></span>
-			<input class="form-control" type="text" name="name" placeholder="<fmt:message key="bootstrap.login.label.username" />"/>
+			<input class="form-control" type="text" name="name" placeholder="<fmt:message key="unify.login.label.username" />"/>
 		</div>
 		<div class="input-group margin-bottom-20">
 			<span class="input-group-addon"><i class="icon-lock"></i></span>
-			<input class="form-control" type="password" name="password" placeholder="<fmt:message key="bootstrap.login.label.password" />">
+			<input class="form-control" type="password" name="password" placeholder="<fmt:message key="unify.login.label.password" />">
 		</div>
 		<div class="controls form-inline">
-			<button class="btn-u" type="submit" name="action" value="login" ><fmt:message key="bootstrap.login.label.login" /></button>
+			<button class="btn-u" type="submit" name="action" value="login" ><fmt:message key="unify.login.label.login" /></button>
 		</div>   
 	</c:when>
 	<c:otherwise>
 		<div class="reg-header contex-bg">
-			<h3><fmt:message key="bootstrap.login.title.loggedin" /></h3>
+			<h3><fmt:message key="unify.login.title.loggedin" /></h3>
 		</div>
-		<div class="tag-box tag-box-v3"><fmt:message key="bootstrap.login.message.loggedin" />: <span class="badge badge-dark-blue rounded">${cms.requestContext.currentUser.name}</span></div>
+		<div class="tag-box tag-box-v3"><fmt:message key="unify.login.message.loggedin" />: <span class="badge badge-dark-blue rounded">${cms.requestContext.currentUser.name}</span></div>
 		<div class="controls form-inline">
-			<button class="btn-u btn-u-orange" type="submit" name="action" value="logoff" ><fmt:message key="bootstrap.login.label.logoff" /></button>
+			<button class="btn-u btn-u-orange" type="submit" name="action" value="logoff" ><fmt:message key="unify.login.label.logoff" /></button>
 		</div>   
 	</c:otherwise>
 </c:choose>
 
 <c:if test="${!login.loginSuccess}">
 	<div class="alert alert-error">
-		<strong><fmt:message key="bootstrap.login.message.failed" /></strong>:<br />
+		<strong><fmt:message key="unify.login.message.failed" /></strong>:<br />
 		${login.loginException.localizedMessage}
 	</div>
 </c:if>

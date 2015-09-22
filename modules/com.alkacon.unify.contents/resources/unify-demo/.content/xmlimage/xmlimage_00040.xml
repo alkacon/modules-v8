@@ -11,11 +11,5 @@
       </link>
     </Image>
     <Copyright><![CDATA[pixabay.com]]></Copyright>
-    <Link>
-      <link internal="true" type="WEAK">
-        <target><![CDATA[/sites/default/grid-demo/element-pages/image-elements/]]></target>
-        <uuid>cbea659f-5b43-11e4-955d-005056b61161</uuid>
-      </link>
-    </Link>
   </XmlImage>
 </XmlImages>
