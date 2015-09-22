@@ -5,11 +5,5 @@
     <Headline><![CDATA[Release Notes]]></Headline>
     <Icon><![CDATA[Bullhorn]]></Icon>
     <Text><![CDATA[Detailed information about new features and improvements in this OpenCms release.]]></Text>
-    <Link>
-      <link internal="true" type="WEAK">
-        <target><![CDATA[/sites/default/release/]]></target>
-        <uuid>b1768d9a-600f-11e4-b7a7-005056b61161</uuid>
-      </link>
-    </Link>
   </BootstrapIconBox>
 </BootstrapIconBoxs>

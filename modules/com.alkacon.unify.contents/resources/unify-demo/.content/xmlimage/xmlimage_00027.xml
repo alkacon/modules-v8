@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[It's safe to update!]]></Headline>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/people/15.jpg]]></target>
+        <uuid>f67db0b0-55f8-11e4-8db5-005056b61161</uuid>
+        <query><![CDATA[__scale=h:400,w:400,cx:8,cy:83,ch:751,cw:752]]></query>
+      </link>
+    </Image>
+  </XmlImage>
+</XmlImages>

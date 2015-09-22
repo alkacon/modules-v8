@@ -53,19 +53,26 @@
 		        </div>
 		    </c:if>
 
-			<cms:container 
-				name="${column.value.Name}" 
-				type="${typeName}" 
-				tagClass="${column.value.Grid.isSet ? column.value.Grid : (content.value.Defaults.isSet ? content.value.Defaults.value.Grid : '')}" 
-				maxElements="${column.value.Count.isSet ? column.value.Count : (content.value.Defaults.isSet ? content.value.Defaults.value.Count : '50')}" 
-				detailview="${detailView}" 
-                detailonly="${detailOnly}"
-				editableby="${role}"
-				param="${role}">
-
-				<%@include file="%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/container-box.jsp:49d1a304-5243-11e5-9495-0242ac11002b)" %>
-
-			</cms:container>
+			<c:choose>
+				<c:when test="${column.value.Count.stringValue == '0'}">
+					<div class="${column.value.Grid.isSet ? column.value.Grid : (content.value.Defaults.isSet ? content.value.Defaults.value.Grid : '')}"></div>
+				</c:when>
+				<c:otherwise>
+					<cms:container 
+						name="${column.value.Name}" 
+						type="${typeName}" 
+						tagClass="${column.value.Grid.isSet ? column.value.Grid : (content.value.Defaults.isSet ? content.value.Defaults.value.Grid : '')}" 
+						maxElements="${column.value.Count.isSet ? column.value.Count : (content.value.Defaults.isSet ? content.value.Defaults.value.Count : '50')}" 
+						detailview="${detailView}" 
+						detailonly="${detailOnly}"
+						editableby="${role}"
+						param="${role}">
+		
+						<%@include file="%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/container-box.jsp:49d1a304-5243-11e5-9495-0242ac11002b)" %>
+		
+					</cms:container>
+				</c:otherwise>
+			</c:choose>
 
 			<c:if test="${column.value.PostMarkup.isSet}">${column.value.PostMarkup}</c:if>
 

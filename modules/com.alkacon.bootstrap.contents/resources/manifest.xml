@@ -6962,6 +6962,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 					<name>Title</name>
 					<value><![CDATA[Login]]></value>
 				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-grid-page.jsp]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
@@ -7061,6 +7065,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>search.subsite</name>
 					<value><![CDATA[Tutorial]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-grid-page.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>

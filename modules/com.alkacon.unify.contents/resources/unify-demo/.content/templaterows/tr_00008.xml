@@ -15,7 +15,7 @@
     </Column>
     <Column>
       <Name><![CDATA[c2]]></Name>
-      <Type><![CDATA[default]]></Type>
+      <Type><![CDATA[container,default]]></Type>
       <Count><![CDATA[50]]></Count>
       <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
       <Grid><![CDATA[col-md-4]]></Grid>

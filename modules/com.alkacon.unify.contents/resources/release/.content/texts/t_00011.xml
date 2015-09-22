@@ -7,7 +7,7 @@
       <links>
         <link name="link0" internal="true" type="A">
           <target><![CDATA[/sites/default/release/mailing-list/index.html]]></target>
-          <uuid>cabeff65-6012-11e4-b7a7-005056b61161</uuid>
+          <uuid>26651f1b-6066-11e5-9199-0242ac11002b</uuid>
         </link>
         <link name="link1" internal="false" type="A">
           <target><![CDATA[http://bugzilla.opencms.org/]]></target>

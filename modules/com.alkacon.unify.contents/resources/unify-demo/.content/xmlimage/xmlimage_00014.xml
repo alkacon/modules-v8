@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[Team Manager]]></Headline>
+    <Text><![CDATA[Manuel Delgado]]></Text>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/people/09.jpg]]></target>
+        <uuid>b6b6f931-4705-11e3-8417-000c29d28104</uuid>
+      </link>
+    </Image>
+    <Copyright><![CDATA[imagebase.net]]></Copyright>
+  </XmlImage>
+</XmlImages>

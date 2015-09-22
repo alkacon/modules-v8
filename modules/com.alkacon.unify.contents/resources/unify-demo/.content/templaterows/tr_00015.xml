@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTemplateRows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/templaterow.xsd">
+  <UnifyTemplateRow language="en">
+    <Title><![CDATA[2 narrow Columns Row (4 push - 4 pull)]]></Title>
+    <PreMarkup><![CDATA[<div class="row $(param)">]]></PreMarkup>
+    <PostMarkup><![CDATA[</div>]]></PostMarkup>
+    <Container><![CDATA[container]]></Container>
+    <Column>
+      <Name><![CDATA[h1]]></Name>
+      <Count><![CDATA[0]]></Count>
+      <Editors><![CDATA[ROLE.DEVELOPER]]></Editors>
+      <Grid><![CDATA[hidden-xs col-sm-1 col-md-2]]></Grid>
+    </Column>
+    <Column>
+      <Name><![CDATA[c1]]></Name>
+      <Type><![CDATA[default]]></Type>
+      <Count><![CDATA[50]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <Grid><![CDATA[col-xs-12 col-sm-5 col-md-4 col-sm-push-5 col-md-push-4]]></Grid>
+    </Column>
+    <Column>
+      <Name><![CDATA[c2]]></Name>
+      <Type><![CDATA[container,default]]></Type>
+      <Count><![CDATA[50]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <Grid><![CDATA[col-xs-12 col-sm-5 col-md-4 col-sm-pull-5 col-md-pull-4]]></Grid>
+    </Column>
+    <Column>
+      <Name><![CDATA[h2]]></Name>
+      <Count><![CDATA[0]]></Count>
+      <Editors><![CDATA[ROLE.DEVELOPER]]></Editors>
+      <Grid><![CDATA[hidden-xs col-sm-1 col-md-2]]></Grid>
+    </Column>
+  </UnifyTemplateRow>
+</UnifyTemplateRows>

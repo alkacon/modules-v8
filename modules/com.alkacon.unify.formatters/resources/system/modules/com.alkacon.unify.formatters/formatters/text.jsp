@@ -14,7 +14,7 @@
     </c:if>
     
 	<c:if test="${(showelements == 'all' or showelements == 'headline') and value.Headline.isSet}">
-		<div class="headline"><h1 ${rdfa.Headline}>${value.Headline}</h1></div>
+		<div class="headline"><h2 ${rdfa.Headline}>${value.Headline}</h2></div>
 	</c:if>
 	
 	<div <c:if test="${not value.Link.exists}">${rdfa.Link}</c:if>>

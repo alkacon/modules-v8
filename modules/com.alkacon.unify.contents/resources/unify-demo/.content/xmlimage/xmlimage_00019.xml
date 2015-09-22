@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[Lucky Charm Ltd.]]></Headline>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/cliparts/04.png]]></target>
+        <uuid>f0634fa8-55fb-11e4-8db5-005056b61161</uuid>
+      </link>
+    </Image>
+    <Copyright><![CDATA[openclipart.org]]></Copyright>
+  </XmlImage>
+</XmlImages>
