@@ -3343,6 +3343,17 @@ i.icon-bg-u {
   color: #4e545b; }
 
 /* line 60, ../../../components/scss/modifications.scss */
+.colored-box .headline, .colored-box-light .headline {
+  border-bottom: none;
+  margin: 0; }
+
+/* line 65, ../../../components/scss/modifications.scss */
+.colored-box .headline h2, .colored-box-light .headline h2 {
+  border-bottom: none;
+  margin-top: 5px;
+  margin-bottom: 10px; }
+
+/* line 71, ../../../components/scss/modifications.scss */
 .colored-box p,
 .colored-box li,
 .colored-box h1,
@@ -3353,20 +3364,20 @@ i.icon-bg-u {
 .colored-box h6 {
   color: #fff; }
 
-/* line 71, ../../../components/scss/modifications.scss */
+/* line 82, ../../../components/scss/modifications.scss */
 .colored-box a {
   color: #ff264a; }
 
-/* line 75, ../../../components/scss/modifications.scss */
+/* line 86, ../../../components/scss/modifications.scss */
 .colored-box-light a {
   color: #b31b34; }
 
-/* line 79, ../../../components/scss/modifications.scss */
+/* line 90, ../../../components/scss/modifications.scss */
 .colored-box a.btn-u,
 .colored-box-light a.btn-u {
   color: #fff; }
 
-/* line 84, ../../../components/scss/modifications.scss */
+/* line 95, ../../../components/scss/modifications.scss */
 .colored-box-light p,
 .colored-box-light li,
 .colored-box-light h1,
@@ -3378,580 +3389,580 @@ i.icon-bg-u {
   color: #4e545b; }
 
 /* Background color */
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.white, .colored-box-light.white {
   background-color: #fff; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.lightgrey, .colored-box-light.lightgrey {
   background-color: #fafafb; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.mediumgrey, .colored-box-light.mediumgrey {
   background-color: #e2e3e6; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.dark, .colored-box-light.dark {
   background-color: #4e545b; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.red, .colored-box-light.red {
   background-color: #b31b34; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.blue, .colored-box-light.blue {
   background-color: #144382; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.green, .colored-box-light.green {
   background-color: #8dae60; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.sea, .colored-box-light.sea {
   background-color: #1abc9c; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.orange, .colored-box-light.orange {
   background-color: #ffa826; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.yellow, .colored-box-light.yellow {
   background-color: #f1c40f; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.purple, .colored-box-light.purple {
   background-color: #642f5b; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.aqua, .colored-box-light.aqua {
   background-color: #187b8e; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.brown, .colored-box-light.brown {
   background-color: #8a7654; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.dark-blue, .colored-box-light.dark-blue {
   background-color: #0d2c56; }
 
-/* line 98, ../../../components/scss/modifications.scss */
+/* line 109, ../../../components/scss/modifications.scss */
 .colored-box.light-green, .colored-box-light.light-green {
   background-color: #bdd0a4; }
 
 /* Border style */
-/* line 114, ../../../components/scss/modifications.scss */
+/* line 125, ../../../components/scss/modifications.scss */
 .colored-box.border-style-none, .colored-box-light.border-style-none {
   border-style: none;
   border-width: 0;
   border-color: none; }
 
-/* line 114, ../../../components/scss/modifications.scss */
+/* line 125, ../../../components/scss/modifications.scss */
 .colored-box.border-style-dotted, .colored-box-light.border-style-dotted {
   border-style: dotted;
   border-width: 1px;
   border-color: #e2e3e6; }
 
-/* line 114, ../../../components/scss/modifications.scss */
+/* line 125, ../../../components/scss/modifications.scss */
 .colored-box.border-style-dashed, .colored-box-light.border-style-dashed {
   border-style: dashed;
   border-width: 1px;
   border-color: #e2e3e6; }
 
-/* line 114, ../../../components/scss/modifications.scss */
+/* line 125, ../../../components/scss/modifications.scss */
 .colored-box.border-style-solid, .colored-box-light.border-style-solid {
   border-style: solid;
   border-width: 1px;
   border-color: #e2e3e6; }
 
 /* Line position and color */
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-white, .colored-box-light.line-top-color-white {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #fff; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-white, .colored-box-light.line-bottom-color-white {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #fff; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-white, .colored-box-light.line-left-color-white {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #fff; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-white, .colored-box-light.line-right-color-white {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #fff; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-white, .colored-box-light.line-box-color-white {
   border: 2px solid #fff; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-white, .colored-box-light.line-none-color-white {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-lightgrey, .colored-box-light.line-top-color-lightgrey {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #fafafb; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-lightgrey, .colored-box-light.line-bottom-color-lightgrey {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #fafafb; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-lightgrey, .colored-box-light.line-left-color-lightgrey {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #fafafb; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-lightgrey, .colored-box-light.line-right-color-lightgrey {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #fafafb; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-lightgrey, .colored-box-light.line-box-color-lightgrey {
   border: 2px solid #fafafb; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-lightgrey, .colored-box-light.line-none-color-lightgrey {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-mediumgrey, .colored-box-light.line-top-color-mediumgrey {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-mediumgrey, .colored-box-light.line-bottom-color-mediumgrey {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-mediumgrey, .colored-box-light.line-left-color-mediumgrey {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-mediumgrey, .colored-box-light.line-right-color-mediumgrey {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #e2e3e6; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-mediumgrey, .colored-box-light.line-box-color-mediumgrey {
   border: 2px solid #e2e3e6; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-mediumgrey, .colored-box-light.line-none-color-mediumgrey {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-dark, .colored-box-light.line-top-color-dark {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #4e545b; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-dark, .colored-box-light.line-bottom-color-dark {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #4e545b; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-dark, .colored-box-light.line-left-color-dark {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #4e545b; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-dark, .colored-box-light.line-right-color-dark {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #4e545b; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-dark, .colored-box-light.line-box-color-dark {
   border: 2px solid #4e545b; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-dark, .colored-box-light.line-none-color-dark {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-red, .colored-box-light.line-top-color-red {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #b31b34; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-red, .colored-box-light.line-bottom-color-red {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #b31b34; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-red, .colored-box-light.line-left-color-red {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #b31b34; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-red, .colored-box-light.line-right-color-red {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #b31b34; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-red, .colored-box-light.line-box-color-red {
   border: 2px solid #b31b34; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-red, .colored-box-light.line-none-color-red {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-blue, .colored-box-light.line-top-color-blue {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #144382; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-blue, .colored-box-light.line-bottom-color-blue {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #144382; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-blue, .colored-box-light.line-left-color-blue {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #144382; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-blue, .colored-box-light.line-right-color-blue {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #144382; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-blue, .colored-box-light.line-box-color-blue {
   border: 2px solid #144382; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-blue, .colored-box-light.line-none-color-blue {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-green, .colored-box-light.line-top-color-green {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #8dae60; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-green, .colored-box-light.line-bottom-color-green {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #8dae60; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-green, .colored-box-light.line-left-color-green {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #8dae60; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-green, .colored-box-light.line-right-color-green {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #8dae60; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-green, .colored-box-light.line-box-color-green {
   border: 2px solid #8dae60; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-green, .colored-box-light.line-none-color-green {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-sea, .colored-box-light.line-top-color-sea {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #1abc9c; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-sea, .colored-box-light.line-bottom-color-sea {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #1abc9c; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-sea, .colored-box-light.line-left-color-sea {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #1abc9c; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-sea, .colored-box-light.line-right-color-sea {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #1abc9c; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-sea, .colored-box-light.line-box-color-sea {
   border: 2px solid #1abc9c; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-sea, .colored-box-light.line-none-color-sea {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-orange, .colored-box-light.line-top-color-orange {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #ffa826; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-orange, .colored-box-light.line-bottom-color-orange {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #ffa826; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-orange, .colored-box-light.line-left-color-orange {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #ffa826; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-orange, .colored-box-light.line-right-color-orange {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #ffa826; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-orange, .colored-box-light.line-box-color-orange {
   border: 2px solid #ffa826; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-orange, .colored-box-light.line-none-color-orange {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-yellow, .colored-box-light.line-top-color-yellow {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #f1c40f; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-yellow, .colored-box-light.line-bottom-color-yellow {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #f1c40f; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-yellow, .colored-box-light.line-left-color-yellow {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #f1c40f; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-yellow, .colored-box-light.line-right-color-yellow {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #f1c40f; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-yellow, .colored-box-light.line-box-color-yellow {
   border: 2px solid #f1c40f; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-yellow, .colored-box-light.line-none-color-yellow {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-purple, .colored-box-light.line-top-color-purple {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #642f5b; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-purple, .colored-box-light.line-bottom-color-purple {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #642f5b; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-purple, .colored-box-light.line-left-color-purple {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #642f5b; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-purple, .colored-box-light.line-right-color-purple {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #642f5b; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-purple, .colored-box-light.line-box-color-purple {
   border: 2px solid #642f5b; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-purple, .colored-box-light.line-none-color-purple {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-aqua, .colored-box-light.line-top-color-aqua {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #187b8e; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-aqua, .colored-box-light.line-bottom-color-aqua {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #187b8e; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-aqua, .colored-box-light.line-left-color-aqua {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #187b8e; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-aqua, .colored-box-light.line-right-color-aqua {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #187b8e; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-aqua, .colored-box-light.line-box-color-aqua {
   border: 2px solid #187b8e; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-aqua, .colored-box-light.line-none-color-aqua {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-brown, .colored-box-light.line-top-color-brown {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #8a7654; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-brown, .colored-box-light.line-bottom-color-brown {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #8a7654; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-brown, .colored-box-light.line-left-color-brown {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #8a7654; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-brown, .colored-box-light.line-right-color-brown {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #8a7654; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-brown, .colored-box-light.line-box-color-brown {
   border: 2px solid #8a7654; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-brown, .colored-box-light.line-none-color-brown {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-dark-blue, .colored-box-light.line-top-color-dark-blue {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #0d2c56; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-dark-blue, .colored-box-light.line-bottom-color-dark-blue {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #0d2c56; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-dark-blue, .colored-box-light.line-left-color-dark-blue {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #0d2c56; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-dark-blue, .colored-box-light.line-right-color-dark-blue {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #0d2c56; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-dark-blue, .colored-box-light.line-box-color-dark-blue {
   border: 2px solid #0d2c56; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-dark-blue, .colored-box-light.line-none-color-dark-blue {
   border-color: #e2e3e6; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-top-color-light-green, .colored-box-light.line-top-color-light-green {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #bdd0a4; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-bottom-color-light-green, .colored-box-light.line-bottom-color-light-green {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #bdd0a4; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-left-color-light-green, .colored-box-light.line-left-color-light-green {
   border-left-style: solid;
   border-left-width: 2px;
   border-left-color: #bdd0a4; }
 
-/* line 131, ../../../components/scss/modifications.scss */
+/* line 142, ../../../components/scss/modifications.scss */
 .colored-box.line-right-color-light-green, .colored-box-light.line-right-color-light-green {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #bdd0a4; }
 
-/* line 137, ../../../components/scss/modifications.scss */
+/* line 148, ../../../components/scss/modifications.scss */
 .colored-box.line-box-color-light-green, .colored-box-light.line-box-color-light-green {
   border: 2px solid #bdd0a4; }
 
-/* line 140, ../../../components/scss/modifications.scss */
+/* line 151, ../../../components/scss/modifications.scss */
 .colored-box.line-none-color-light-green, .colored-box-light.line-none-color-light-green {
   border-color: #e2e3e6; }
 
 /* Fancybox additions for zoom effect.
 ----------------------------------------------------------------------------- */
-/* line 148, ../../../components/scss/modifications.scss */
+/* line 159, ../../../components/scss/modifications.scss */
 .zoomer:hover .overlay-zoom .zoom-icon {
   opacity: 0.4;
   transform: scale(1); }
 
-/* line 152, ../../../components/scss/modifications.scss */
+/* line 163, ../../../components/scss/modifications.scss */
 .overlay-zoom {
   cursor: pointer;
   display: block;
@@ -3961,7 +3972,7 @@ i.icon-bg-u {
   width: 100%;
   z-index: 90; }
 
-/* line 161, ../../../components/scss/modifications.scss */
+/* line 172, ../../../components/scss/modifications.scss */
 .overlay-zoom .zoom-icon {
   background-color: #000;
   background-image: url("../img/overlay-icon.png");
@@ -3978,30 +3989,30 @@ i.icon-bg-u {
 
 /* Footer colors.
 ----------------------------------------------------------------------------- */
-/* line 179, ../../../components/scss/modifications.scss */
+/* line 190, ../../../components/scss/modifications.scss */
 .footer-default .copyright {
   background-color: #dddddd;
   border-top: 1px solid #777; }
 
-/* line 184, ../../../components/scss/modifications.scss */
+/* line 195, ../../../components/scss/modifications.scss */
 .footer-default .copyright p {
   color: #333333; }
 
-/* line 188, ../../../components/scss/modifications.scss */
+/* line 199, ../../../components/scss/modifications.scss */
 .footer-default .header {
   border: none; }
 
 /* Jumbotron headline.
 ----------------------------------------------------------------------------- */
-/* line 195, ../../../components/scss/modifications.scss */
+/* line 206, ../../../components/scss/modifications.scss */
 .jumbotron h1, .jumbotron .h1 {
   line-height: 1.0; }
 
 /* Login element.
 ----------------------------------------------------------------------------- */
-/* line 202, ../../../components/scss/modifications.scss */
+/* line 213, ../../../components/scss/modifications.scss */
 .reg-page {
-  background: none repeat scroll 0 0 #FEFEFE;
+  background: none repeat scroll 0 0 #fafafb;
   border: 1px solid #e2e3e6;
   box-shadow: 0 0 3px #e2e3e6;
   color: #4e545b;
@@ -4009,133 +4020,133 @@ i.icon-bg-u {
   padding: 30px;
   width: auto; }
 
-/* line 211, ../../../components/scss/modifications.scss */
+/* line 222, ../../../components/scss/modifications.scss */
 .reg-header {
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #e2e3e6;
   color: #4e545b;
   margin-bottom: 35px;
   text-align: center; }
 
-/* line 217, ../../../components/scss/modifications.scss */
+/* line 228, ../../../components/scss/modifications.scss */
 .reg-header h2 {
   font-size: 24px;
   margin-bottom: 15px; }
 
-/* line 221, ../../../components/scss/modifications.scss */
+/* line 232, ../../../components/scss/modifications.scss */
 .reg-page label {
   color: #a8adb4; }
 
 /* Navigation colors.
 ----------------------------------------------------------------------------- */
-/* line 230, ../../../components/scss/modifications.scss */
+/* line 241, ../../../components/scss/modifications.scss */
 .header .navbar-nav > .active > a, .header .navbar-nav > .active > a:hover {
   border-bottom-color: #144382;
   color: #144382; }
 
-/* line 235, ../../../components/scss/modifications.scss */
+/* line 246, ../../../components/scss/modifications.scss */
 .header .navbar-nav > li > a:hover {
   border-bottom-color: #144382;
   color: #144382; }
 
-/* line 240, ../../../components/scss/modifications.scss */
+/* line 251, ../../../components/scss/modifications.scss */
 .header .navbar-nav > li:hover > a {
   color: #144382; }
 
-/* line 246, ../../../components/scss/modifications.scss */
+/* line 257, ../../../components/scss/modifications.scss */
 .header .dropdown-menu {
   border-bottom: solid 2px #144382;
   border-bottom-color: #687074;
   border-top: solid 2px #144382;
   border-top-color: #144382; }
 
-/* line 253, ../../../components/scss/modifications.scss */
+/* line 264, ../../../components/scss/modifications.scss */
 .header .navbar-nav .mega-menu-fullwidth ul.dropdown-menu,
 .header .navbar-nav .dropdown-menu li a {
   background-color: #fff;
   color: #687074; }
 
-/* line 259, ../../../components/scss/modifications.scss */
+/* line 270, ../../../components/scss/modifications.scss */
 .header .navbar-nav .dropdown-menu li a:hover {
   background-color: #EEE !important;
   color: #687074; }
 
-/* line 264, ../../../components/scss/modifications.scss */
+/* line 275, ../../../components/scss/modifications.scss */
 .header .navbar-nav .dropdown-menu li.active a {
   background-color: #EEE !important;
   color: #687074; }
 
-/* line 272, ../../../components/scss/modifications.scss */
+/* line 283, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 li {
   background-color: #fff; }
 
-/* line 276, ../../../components/scss/modifications.scss */
+/* line 287, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 li a,
 .sidebar-nav-v1 .list-toggle:after {
   color: #687074; }
 
-/* line 281, ../../../components/scss/modifications.scss */
+/* line 292, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 li:hover {
   background-color: #fff; }
 
-/* line 285, ../../../components/scss/modifications.scss */
+/* line 296, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 li:hover a {
   color: #144382; }
 
-/* line 289, ../../../components/scss/modifications.scss */
+/* line 300, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 > li.active, .sidebar-nav-v1 > li.active:hover {
   background-color: #687074; }
 
-/* line 293, ../../../components/scss/modifications.scss */
+/* line 304, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 > li.active a, .sidebar-nav-v1 > li.active:hover a,
 .sidebar-nav-v1 .list-toggle.active:after {
   color: #fff; }
 
-/* line 298, ../../../components/scss/modifications.scss */
+/* line 309, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 > li.active li.active a, .sidebar-nav-v1 > li.active:hover li.active a {
   color: #144382; }
 
-/* line 302, ../../../components/scss/modifications.scss */
+/* line 313, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 > li.active li a, .sidebar-nav-v1 > li.active:hover li a {
   color: #687074; }
 
-/* line 306, ../../../components/scss/modifications.scss */
+/* line 317, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 > li.active li:hover a {
   color: #144382; }
 
-/* line 310, ../../../components/scss/modifications.scss */
+/* line 321, ../../../components/scss/modifications.scss */
 .sidebar-nav-v1 li ul, .sidebar-nav-v1 li.active ul a {
   background-color: #EEE; }
 
 /* Service Boxes.
 ----------------------------------------------------------------------------- */
-/* line 317, ../../../components/scss/modifications.scss */
+/* line 328, ../../../components/scss/modifications.scss */
 .service-block a:hover, .service-block-in a:hover {
   text-decoration: none; }
 
-/* line 321, ../../../components/scss/modifications.scss */
+/* line 332, ../../../components/scss/modifications.scss */
 .service-block-colored {
   transition: all 0.3s ease-in-out 0s; }
 
-/* line 325, ../../../components/scss/modifications.scss */
+/* line 336, ../../../components/scss/modifications.scss */
 .service-block-colored:hover {
   opacity: 0.8; }
 
-/* line 329, ../../../components/scss/modifications.scss */
+/* line 340, ../../../components/scss/modifications.scss */
 .service-block-colored.service-block-default:hover {
   box-shadow: 0 0 8px #DDDDDD; }
 
-/* line 333, ../../../components/scss/modifications.scss */
+/* line 344, ../../../components/scss/modifications.scss */
 .service-block-colored.service-block-default:hover h2, .service-block-colored.service-block-default:hover i {
   color: #72c02c; }
 
 /* Paragraphs in service blocks should use default margins */
-/* line 338, ../../../components/scss/modifications.scss */
+/* line 349, ../../../components/scss/modifications.scss */
 .tag-box p {
   margin: 0 0 10px; }
 
 /* Slider additional styles.
 ----------------------------------------------------------------------------- */
-/* line 345, ../../../components/scss/modifications.scss */
+/* line 356, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickblackbg, .tp-caption.mediumthickgreybg, .tp-caption.mediumthickwhitebg {
   font-size: 36px;
   line-height: 36px;
@@ -4148,37 +4159,37 @@ i.icon-bg-u {
   border-style: none;
   padding: 0 4px; }
 
-/* line 358, ../../../components/scss/modifications.scss */
+/* line 369, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickblackbg {
   color: white;
   background-color: black; }
 
-/* line 363, ../../../components/scss/modifications.scss */
+/* line 374, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickgreybg {
   color: white;
   background-color: gray; }
 
-/* line 368, ../../../components/scss/modifications.scss */
+/* line 379, ../../../components/scss/modifications.scss */
 .tp-caption.blackbgtransparent {
   background-color: black;
   /* RGBa with 0.6 opacity */
   background-color: rgba(0, 0, 0, 0.5);
   padding: 7px; }
 
-/* line 375, ../../../components/scss/modifications.scss */
+/* line 386, ../../../components/scss/modifications.scss */
 .tp-caption.mediumthickwhitebg {
   color: black;
   background-color: white; }
 
 /* Social icons.
 ----------------------------------------------------------------------------- */
-/* line 383, ../../../components/scss/modifications.scss */
+/* line 394, ../../../components/scss/modifications.scss */
 .social_slideshare {
   background: url("../img/icons/social/slideshare.png") no-repeat; }
 
 /* Superscript for user name in nav.
 ----------------------------------------------------------------------------- */
-/* line 390, ../../../components/scss/modifications.scss */
+/* line 401, ../../../components/scss/modifications.scss */
 .superscript {
   top: -9px;
   left: 4px;

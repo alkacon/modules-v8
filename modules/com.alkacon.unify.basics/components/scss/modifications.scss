@@ -57,6 +57,17 @@ $colored-box-variants:
     color: $gray-darker;
 }
 
+.colored-box .headline, .colored-box-light .headline {
+	border-bottom: none;
+	margin: 0;
+}
+
+.colored-box .headline h2, .colored-box-light .headline h2 {
+	border-bottom: none;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
 .colored-box p, 
 .colored-box li, 
 .colored-box h1, 
@@ -200,7 +211,7 @@ $colored-box-positions:
 ----------------------------------------------------------------------------- */
 
 .reg-page {
-    background: none repeat scroll 0 0 #FEFEFE;
+    background: none repeat scroll 0 0 $gray-lighter;
     border: 1px solid $gray-light;
     box-shadow: 0 0 3px $gray-light;
     color: $gray-darker;
@@ -209,7 +220,7 @@ $colored-box-positions:
 	width: auto;
 }
 .reg-header {
-    border-bottom: 1px solid #EEEEEE;
+    border-bottom: 1px solid $gray-light;
     color: $gray-darker;
     margin-bottom: 35px;
     text-align: center;
