@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UserGeneratedContentFormConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ugc/schemas/ugc_config.xsd">
+  <UserGeneratedContentFormConfiguration language="en">
+    <Title><![CDATA[Blog UGC form configuration]]></Title>
+    <ContentType><![CDATA[u-blog]]></ContentType>
+    <ContentPath>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/unify-demo/.content/blogentries/]]></target>
+        <uuid>4e46c146-57cd-11e5-b803-0242ac11002b</uuid>
+      </link>
+    </ContentPath>
+    <NamePattern><![CDATA[be_%(number).xml]]></NamePattern>
+    <Locale><![CDATA[en]]></Locale>
+    <AutoPublish>true</AutoPublish>
+    <UserForGuest><![CDATA[Admin]]></UserForGuest>
+    <ProjectGroup><![CDATA[Administrators]]></ProjectGroup>
+    <UploadPath>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/unify-demo/.content/blogentries/images-ugc/]]></target>
+        <uuid>cb5f1937-5ad1-11e5-a17e-0242ac11002b</uuid>
+      </link>
+    </UploadPath>
+    <ValidExtensions><![CDATA[.png;.jpg;.jpeg;.gif]]></ValidExtensions>
+  </UserGeneratedContentFormConfiguration>
+</UserGeneratedContentFormConfigurations>

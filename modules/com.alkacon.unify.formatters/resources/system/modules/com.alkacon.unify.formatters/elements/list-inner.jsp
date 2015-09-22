@@ -11,6 +11,7 @@
 <% CmsObject cmsObject = (CmsObject) pageContext.getAttribute("cmsObject"); %>
 
 <%--c:set var="additionalParams">typesToCollect=${param.typesToCollect}&extraQueries=<%=CmsEncoder.encode(request.getParameter("extraQueries"))%>&pathes=${param.pathes}&itemsPerPage=${itemsPerPage}&teaserLength=${param.teaserLength}&sortOrder=${param.sortOrder}&__locale=${cms.locale}&pageUri=${param.pageUri}</c:set --%>
+<c:set var="teaserLength">${param.teaserLength}</c:set>
 <c:set var="solrParamType">fq=type:${(param.typesToCollect eq "both") ? "u-blog OR u-event" : ((param.typesToCollect eq "event") ? "u-event" : "u-blog")}</c:set>
 <c:set var="solrParamDirs">&fq=parent-folders:${param.pathes}</c:set>
 <c:set var="solrFilterQue">${param.extraQueries}</c:set>

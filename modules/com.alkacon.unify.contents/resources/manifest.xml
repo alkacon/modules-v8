@@ -5948,6 +5948,18 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>unify-demo/.content/blogentries/be_00011.xml</source>
+			<destination>unify-demo/.content/blogentries/be_00011.xml</destination>
+			<type>u-blog</type>
+			<uuidstructure>516d9917-613b-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>516d9918-613b-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 15:05:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/blogentries/.detailContainers</destination>
 			<type>folder</type>
 			<uuidstructure>cc5efebb-5c73-11e5-96ab-0242ac11002b</uuidstructure>
@@ -7779,6 +7791,41 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/.content/ugc_config</destination>
+			<type>folder</type>
+			<uuidstructure>13fd4cbb-613b-11e5-bcba-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 15:03:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/ugc_config/ugc_config-00001.xml</source>
+			<destination>unify-demo/.content/ugc_config/ugc_config-00001.xml</destination>
+			<type>ugc_config</type>
+			<uuidstructure>13ff488d-613b-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>13ff488e-613b-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 15:03:27 GMT</datecreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Blog UGC form configuration]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/xmlimage</destination>
 			<type>folder</type>
 			<uuidstructure>8129ec87-5bb3-11e5-8f8e-0242ac11002b</uuidstructure>
@@ -7800,23 +7847,6 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Default placeholder image]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>unify-demo/.content/xmlimage/xmlimage_00002.xml</source>
-			<destination>unify-demo/.content/xmlimage/xmlimage_00002.xml</destination>
-			<type>xmlimage</type>
-			<uuidstructure>73ab3c73-5c7c-11e5-96ab-0242ac11002b</uuidstructure>
-			<uuidresource>73ab3c74-5c7c-11e5-96ab-0242ac11002b</uuidresource>
-			<datecreated>Wed, 16 Sep 2015 14:08:49 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Events: Test image]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8616,6 +8646,46 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Blog List]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/blog/post-a-new-blog-entry</destination>
+			<type>folder</type>
+			<uuidstructure>d06279cd-613a-11e5-bcba-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 15:01:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Post a new blog entry]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Post a new blog entry]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/blog/post-a-new-blog-entry/index.html</source>
+			<destination>unify-demo/blog/post-a-new-blog-entry/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>d068bb62-613a-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>d068bb63-613a-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 15:01:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Post a new blog entry]]></value>
 				</property>
 			</properties>
 			<relations/>

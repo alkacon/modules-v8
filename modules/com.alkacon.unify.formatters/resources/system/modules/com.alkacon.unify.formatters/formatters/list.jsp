@@ -29,6 +29,7 @@
 					<div class="headline headline-md"><h2 ${rdfa.Headline}><c:out value="${con.value.Headline}" escapeXml="false" /></h2></div>
 				</c:if>			
 	
+				<c:set var="teaserLength">${cms.element.settings.teaserlength}</c:set>
 				<c:set var="innerPageDivId">${cms.element.id}-inner</c:set>
 				<c:set var="linkInnerPage"><cms:link>%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/list-inner.jsp:5ca5be42-5cff-11e5-96ab-0242ac11002b)</cms:link></c:set>
 				<c:set var="additionalFilterQueries">${con.value.FilterQueries}</c:set>
