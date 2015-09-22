@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[More features than ever]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #555555; border-radius: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20.8px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">With more features than ever, this latest OpenCms version is powerful, yet easy to use.<br style="box-sizing: border-box; border-radius: 0px;" /><br style="box-sizing: border-box; border-radius: 0px;" />Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: #555555; border-radius: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20.8px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>]]></content>
+    </Text>
+  </UnifyText>
+</UnifyTexts>

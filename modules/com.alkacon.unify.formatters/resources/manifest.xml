@@ -993,7 +993,7 @@
 				</property>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[container-element;locale]]></value>
+					<value><![CDATA[uri;container-element;locale]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>

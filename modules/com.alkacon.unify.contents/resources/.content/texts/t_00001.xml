@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[OpenCms Beginners Tutorial]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Click here for a guided tour that explains&nbsp;in 5 simple steps how to edit content, create pages and work with OpenCms. Also contains information about how to login. This is a good introduction if&nbsp;you are new to OpenCms.</p>]]></content>
+    </Text>
+    <Link>
+      <Text><![CDATA[Tutorial]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/tutorial/]]></target>
+          <uuid>e839825e-5ade-11e4-955d-005056b61161</uuid>
+        </link>
+      </URI>
+    </Link>
+    <GalleryTitle><![CDATA[%(page_title)%(no_prefix:: )%(value:Headline)]]></GalleryTitle>
+  </UnifyText>
+</UnifyTexts>

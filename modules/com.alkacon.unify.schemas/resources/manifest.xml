@@ -226,7 +226,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Unify Template]]></value>
+					<value><![CDATA[Template]]></value>
 				</property>
 				<property>
 					<name>locale</name>

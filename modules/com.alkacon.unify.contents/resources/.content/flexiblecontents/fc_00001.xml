@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyFlexibleElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/flexible.xsd">
+  <UnifyFlexibleElement language="en">
+    <Title><![CDATA[Footer for welcome page]]></Title>
+    <Choice>
+      <Code name="Code0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://www.alkacon.com]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://www.opencms.org]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<div class="header">
+    <div class="topbar">
+      <div class="container">
+        <ul class="loginbar pull-left pl-0">
+            <li><a href="%(link0)">&copy; Alkacon Software GmbH - The OpenCms experts</a></li>
+        </ul>
+        <ul class="loginbar pull-right">
+            <li><a href="%(link1)">Built with OpenCms 10</a></li>
+     </ul>
+     </div>
+</div>
+</div><!--/top-->]]></content>
+      </Code>
+    </Choice>
+  </UnifyFlexibleElement>
+</UnifyFlexibleElements>

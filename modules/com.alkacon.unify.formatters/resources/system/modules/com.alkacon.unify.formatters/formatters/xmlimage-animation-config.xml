@@ -28,7 +28,7 @@
       <Description><![CDATA[Select how the headline will be shown.]]></Description>
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[false]]></Default>
-      <WidgetConfig><![CDATA[false:Don't show the headline|top:Headline above the image, left aligned|bottom:Headline below, left aligned]]></WidgetConfig>
+      <WidgetConfig><![CDATA[false:Don't show the headline|top:Headline above the image, left aligned|bottom:Headline below, left aligned|bottomcenter:Small Headline below, centered]]></WidgetConfig>
     </Setting>
     <Setting>
       <PropertyName><![CDATA[showtext]]></PropertyName>
@@ -45,6 +45,13 @@
       <Widget><![CDATA[select]]></Widget>
       <Default><![CDATA[false]]></Default>
       <WidgetConfig><![CDATA[false:Don't show the link|image:Show the link button as image overlay|button:Show a link button below the image|headline:Use the headline as link]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[cssClass]]></PropertyName>
+      <DisplayName><![CDATA[Wrapper CSS class]]></DisplayName>
+      <Description><![CDATA[Optional CSS class name for the outer <div> element.]]></Description>
+      <Widget><![CDATA[combo]]></Widget>
+      <WidgetConfig><![CDATA[mb-20 box-shadow shadow-effect-1:Shadow box for image|box-shadow shadow-effect-2 rounded-2x:Rounded shadow box for image]]></WidgetConfig>
     </Setting>
   </NewFormatter>
 </NewFormatters>

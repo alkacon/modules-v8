@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[Link to Step 5]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>OpenCms features a device preview that allows you to easily see how the page will look e.g. in a tablet&nbsp;or smartphone. Just click on the <em><strong>Show menu</strong></em> icon on the toolbar, and there select for example <em><strong>Show in device &gt; Mobile &gt; iPhone 6 (landscape)</strong></em>. A preview is shown for the selected device.</p>
+<p>To close the preview, just click anywhere outside the highlighted area.</p>]]></content>
+    </Text>
+    <Link>
+      <Text><![CDATA[Continue with step 5: Publish your changes]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/tutorial/step-5-publish-your-changes/]]></target>
+          <uuid>f3d66111-6127-11e5-9eef-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </Link>
+  </UnifyText>
+</UnifyTexts>

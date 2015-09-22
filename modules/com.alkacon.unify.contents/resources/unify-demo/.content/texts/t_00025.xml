@@ -5,8 +5,7 @@
     <Headline><![CDATA[Top questions]]></Headline>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<h2>Top questions</h2>
-<ul>
+      <content><![CDATA[<ul>
 <li>Is OpenCms open source or open sauce?</li>
 <li>How comes software this great is free?</li>
 <li>Why is OpenCms so awesome?</li>

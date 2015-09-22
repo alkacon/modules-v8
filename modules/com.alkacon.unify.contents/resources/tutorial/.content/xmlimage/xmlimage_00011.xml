@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[Click to edit the image]]></Headline>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/people/04.jpg]]></target>
+        <uuid>b34d8f62-4705-11e3-8417-000c29d28104</uuid>
+        <query><![CDATA[__scale=h:400,w:400,cx:217,cy:0,ch:766,cw:766]]></query>
+      </link>
+    </Image>
+    <Copyright><![CDATA[openclipart.org]]></Copyright>
+  </XmlImage>
+</XmlImages>

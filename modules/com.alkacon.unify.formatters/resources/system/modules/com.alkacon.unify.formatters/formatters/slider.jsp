@@ -22,7 +22,7 @@
 	</c:when>
 	<c:otherwise>
 
-<div class="fullwidthbanner-container mb-20" style="height: ${content.value.Height}px; overflow: hidden;"><!--=== Slider ===-->
+<div class="fullwidthbanner-container" style="height: ${content.value.Height}px; overflow: hidden;"><!--=== Slider ===-->
 
 	<div class="fullwidthbanner">
 		<ul>

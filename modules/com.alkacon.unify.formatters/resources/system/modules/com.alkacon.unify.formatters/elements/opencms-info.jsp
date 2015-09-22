@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
-<div class="colored-box-light lightgrey margin-bottom-10">
+<div class="colored-box-light mediumgrey margin-bottom-10">
    
     <div class="float-row">
         <div class="float-col">

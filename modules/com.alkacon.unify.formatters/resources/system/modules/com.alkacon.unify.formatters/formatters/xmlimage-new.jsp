@@ -41,7 +41,9 @@
             <c:if test="${value.Link.isSet}">
                 </a>
             </c:if>
-
+			<c:if test="${value.Text.isSet and cms.element.setting.showtext.value == 'true'}">
+			     <p class="margin-top-10" ${rdfa.Text}>${value.Text}</p>
+            </c:if>  
             </div>               
 		</c:otherwise>
 	</c:choose>

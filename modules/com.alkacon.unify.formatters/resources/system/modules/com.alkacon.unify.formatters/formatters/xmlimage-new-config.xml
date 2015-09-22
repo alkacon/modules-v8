@@ -35,5 +35,13 @@
       <Widget><![CDATA[combo]]></Widget>
       <WidgetConfig><![CDATA[img-bordered:Bordered image|rounded-2x:Rounded image|img-bordered rounded-x:Bordered round image]]></WidgetConfig>
     </Setting>
+    <Setting>
+      <PropertyName><![CDATA[showtext]]></PropertyName>
+      <DisplayName><![CDATA[Text display]]></DisplayName>
+      <Description><![CDATA[Select how text will be shown.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[false]]></Default>
+      <WidgetConfig><![CDATA[false:Don't show the text|true:Text below, left aligned]]></WidgetConfig>
+    </Setting>
   </NewFormatter>
 </NewFormatters>

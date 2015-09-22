@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[Egg holders (Streched)]]></Headline>
+    <Text><![CDATA[Egg holders (Streched)]]></Text>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/samples/10.jpg]]></target>
+        <uuid>c64906ff-4705-11e3-8417-000c29d28104</uuid>
+        <query><![CDATA[__scale=h:307,w:1013,cx:6,cy:213,ch:307,cw:1013]]></query>
+      </link>
+    </Image>
+    <Copyright><![CDATA[pixabay.com]]></Copyright>
+  </XmlImage>
+</XmlImages>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[Intuitive]]></Headline>
+    <Text><![CDATA[With it's drag &amp; drop user interface OpenCms is intuitive to use.]]></Text>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/people/16.jpg]]></target>
+        <uuid>f6ce55a0-590a-11e4-903d-005056b61161</uuid>
+        <query><![CDATA[__scale=h:600,w:600,cx:14,cy:48,ch:748,cw:748]]></query>
+      </link>
+    </Image>
+  </XmlImage>
+  <XmlImage language="de">
+    <Headline><![CDATA[Intuitiv]]></Headline>
+    <Text><![CDATA[Die Funktionen von OpenCms sind einfach und intuitiv zu bedienen.]]></Text>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/people/16.jpg]]></target>
+        <uuid>f6ce55a0-590a-11e4-903d-005056b61161</uuid>
+        <query><![CDATA[__scale=h:600,w:600,cx:14,cy:48,ch:748,cw:748]]></query>
+      </link>
+    </Image>
+  </XmlImage>
+</XmlImages>

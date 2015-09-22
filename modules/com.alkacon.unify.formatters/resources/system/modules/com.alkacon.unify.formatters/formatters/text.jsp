@@ -21,7 +21,7 @@
 		<c:if test="${showelements == 'all' or showelements == 'text'}">
 			<div ${rdfa.Text}>${value.Text}</div>		
 			<c:if test="${value.Link.exists}">
-				<p ${rdfa.Link}><a class="btn btn-sm btn-default" href="<cms:link>${value.Link.value.URI}</cms:link>">${value.Link.value.Text}</a></p>
+				<p ${rdfa.Link}><a class="btn btn-u u-small" href="<cms:link>${value.Link.value.URI}</cms:link>">${value.Link.value.Text}</a></p>
 			</c:if>
 		</c:if>
 	</div>	

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[Great]]></Headline>
+    <Text><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, at accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor.]]></Text>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/samples/34.jpg]]></target>
+        <uuid>d5ae01bb-4785-11e3-ba23-000c29d28104</uuid>
+      </link>
+    </Image>
+    <Copyright><![CDATA[pixabay.com]]></Copyright>
+  </XmlImage>
+</XmlImages>

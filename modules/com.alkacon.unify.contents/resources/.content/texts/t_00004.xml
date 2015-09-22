@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[Login]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Takes you to the login page. Please remember to disable the demo accounts&nbsp;later.</p>]]></content>
+    </Text>
+    <Link>
+      <Text><![CDATA[Login]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/login/]]></target>
+          <uuid>d87f4764-58f1-11e4-903d-005056b61161</uuid>
+        </link>
+      </URI>
+    </Link>
+  </UnifyText>
+</UnifyTexts>

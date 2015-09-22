@@ -35,5 +35,13 @@
       <Widget><![CDATA[combo]]></Widget>
       <WidgetConfig><![CDATA[img-bordered:Bordered image|rounded-2x:Rounded image|img-bordered rounded-x:Bordered round image]]></WidgetConfig>
     </Setting>
+    <Setting>
+      <PropertyName><![CDATA[showheadline]]></PropertyName>
+      <DisplayName><![CDATA[Headline display]]></DisplayName>
+      <Description><![CDATA[Select how the headline will be shown.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[false]]></Default>
+      <WidgetConfig><![CDATA[false:Don't show the headline|bottomcenter:Small Headline below, centered]]></WidgetConfig>
+    </Setting>
   </NewFormatter>
 </NewFormatters>

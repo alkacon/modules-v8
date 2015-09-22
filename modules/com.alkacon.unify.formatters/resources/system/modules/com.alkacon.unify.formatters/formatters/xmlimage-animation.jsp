@@ -33,12 +33,17 @@
   				</c:choose>
   			</div>
         </c:if>
+        
+        <c:set var="cssClass">${cms.element.parent.setting.cssHints.isSet ? cms.element.parent.setting.cssHints : ''}</c:set>
+        <c:if test="${cms.element.setting.cssClass.isSet}">
+            <c:set var="cssClass" value="${cms.element.setting.cssClass.value}" />
+        </c:if>
 
-        <c:if test="${value.Image.isSet}"><div <c:if test="${showTextBelow}">class="thumbnail-img"</c:if> ${rdfa.Image} ${content.imageDnd['Image']}>
+        <c:if test="${value.Image.isSet}"><div <c:choose><c:when test="${showTextBelow}">class="thumbnail-img ${cssClass}"</c:when><c:otherwise>class="${cssClass}"</c:otherwise></c:choose> ${rdfa.Image} ${content.imageDnd['Image']}>
             <div class="overflow-hidden">
                 <img 
                     src="<cms:link>${value.Image}</cms:link>" 
-                    class="img-responsive"  
+                    class="img-responsive ${cms.element.setting.cssShape}"  
                     alt="${value.Headline}" 
                     title="<c:out value='${value.Headline} ${copyright}' escapeXml='false' />" />
             </div>
@@ -48,11 +53,14 @@
 
         <c:if test="${showTextBelow}">
             <div class="caption">
-				<c:if test="${value.Headline.isSet and cms.element.setting.showheadline.value == 'bottom'}">
+				<c:if test="${value.Headline.isSet and fn:startsWith(cms.element.setting.showheadline.value,'bottom')}">
       				<c:choose>
       					<c:when test="${value.Link.isSet and cms.element.setting.showlink.value == 'headline'}">
       						<h2><a class="hover-effect" href="<cms:link>${value.Link}</cms:link>" ${rdfa.Headline}>${value.Headline}</a></h2>
       					</c:when>
+      					<c:when test="${cms.element.setting.showheadline.value == 'bottomcenter'}">
+                   			<div class="center"><div class="margin-bottom-20"></div><p><strong ${rdfa.Headline}>${value.Headline}</strong></p></div>
+                		</c:when>
       					<c:otherwise>
       						<h2 ${rdfa.Headline}>${value.Headline}</h2>
       					</c:otherwise>

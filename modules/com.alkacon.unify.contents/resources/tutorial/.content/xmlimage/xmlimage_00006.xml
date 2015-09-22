@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[The element menu]]></Headline>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/tutorial/.galleries/tutorial-images/tut-06.png]]></target>
+        <uuid>370e6600-6101-11e5-9eef-0242ac11002b</uuid>
+        <query><![CDATA[__scale=h:300,w:300]]></query>
+      </link>
+    </Image>
+  </XmlImage>
+</XmlImages>

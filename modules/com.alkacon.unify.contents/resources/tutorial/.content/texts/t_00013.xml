@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[Publishing changes]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>OpenCms features an integrated staging mechanism. This means changes made to the content are not immediately visible to the public. They need to be published first.</p>]]></content>
+    </Text>
+  </UnifyText>
+</UnifyTexts>

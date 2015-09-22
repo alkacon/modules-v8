@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyFlexibleElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/flexible.xsd">
+  <UnifyFlexibleElement language="en">
+    <Title><![CDATA[Header for tutorial]]></Title>
+    <Choice>
+      <Code name="Code0">
+        <links>
+          <link name="link4" internal="true" type="IMG">
+            <target><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/logo/logo_opencms_png24.png]]></target>
+            <uuid>aa1519ad-1abc-11e3-9246-000c29f9a2ec</uuid>
+            <query><![CDATA[__scale=w:165,h:40,t:2,c:transparent]]></query>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/default/unify-demo/search/]]></target>
+            <uuid>4eef4bfc-5c5c-11e5-96ab-0242ac11002b</uuid>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/default/]]></target>
+            <uuid>f905b2af-606d-11e5-9d32-0242ac11002b</uuid>
+          </link>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/]]></target>
+            <uuid>f905b2af-606d-11e5-9d32-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/default/unify-demo/]]></target>
+            <uuid>acb43685-5224-11e5-9495-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<div class="header">
+ <div class="container">
+<!--=== Top ===-->
+<div class="topbar margin-bottom-20">
+  <ul class="loginbar pull-right">
+            <li><a href="%(link0)">Overview</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="%(link1)">Demo</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="%(link2)">Search</a></li>
+</ul></div><!--/top-->
+<!--=== End Top ===-->
+</div>
+</div>
+
+
+<div class="row margin-top-20">
+<div class="container">
+<div class="col-sm-3"><a href="%(link3)"> <img id="logo-header" src="%(link4)" alt="Logo" width="165" height="40" /></a></div>
+<div class="col-sm-9">
+<div class="headline">
+<h1>Beginners tutorial</h1>
+</div>
+</div>
+</div>
+</div>]]></content>
+      </Code>
+    </Choice>
+  </UnifyFlexibleElement>
+</UnifyFlexibleElements>

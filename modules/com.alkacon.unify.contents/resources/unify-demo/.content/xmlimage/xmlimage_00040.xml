@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[Egg holders]]></Headline>
+    <Text><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr.]]></Text>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/samples/10.jpg]]></target>
+        <uuid>c64906ff-4705-11e3-8417-000c29d28104</uuid>
+      </link>
+    </Image>
+    <Copyright><![CDATA[pixabay.com]]></Copyright>
+    <Link>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/grid-demo/element-pages/image-elements/]]></target>
+        <uuid>cbea659f-5b43-11e4-955d-005056b61161</uuid>
+      </link>
+    </Link>
+  </XmlImage>
+</XmlImages>

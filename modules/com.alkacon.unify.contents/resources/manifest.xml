@@ -10,6 +10,27 @@
 		<nicename><![CDATA[Unify Template Contents]]></nicename>
 		<group>Unify Template</group>
 		<class/>
+		<import-script>writeProperty '/' 'Title' 'Demo Content'
+writeProperty '/' 'Description' 'The OpenCms demo, brought to you by Alkacon Software.'
+writeProperty '/' 'NavText' 'Overview'
+writeProperty '/' 'template' '/system/modules/com.alkacon.unify.formatters/templates/unify-page.jsp'
+
+createUser 'Author' 'password' 'Sample author user'
+addUserToGroup 'Author' 'Users'
+addUserToRole 'Author' 'ELEMENT_AUTHOR'
+
+createUser 'Editor' 'password' 'Sample editor user'
+addUserToGroup 'Editor' 'Users'
+addUserToRole 'Editor' 'EDITOR'
+
+createUser 'Gallator' 'password' 'Sample user who can edit categories and galleries'
+addUserToGroup 'Gallator' 'Users'
+addUserToRole 'Gallator' 'CATEGORY_EDITOR'
+addUserToRole 'Gallator' 'GALLERY_EDITOR'
+
+createUser 'Templator' 'password' 'Sample user with template development permissions'
+addUserToGroup 'Templator' 'Users'
+addUserToRole 'Templator' 'DEVELOPER'</import-script>
 		<import-site>/sites/default/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The OpenCms 10 Unify template demo contents.]]></description>
@@ -25,13 +46,2766 @@
 		</dependencies>
 		<exportpoints/>
 		<resources>
-			<resource uri="/unify-demo/"/>
+			<resource uri="/.categories/"/>
+			<resource uri="/.content/"/>
+			<resource uri="/.galleries/"/>
+			<resource uri="/login/"/>
+			<resource uri="/overview/"/>
 			<resource uri="/release/"/>
+			<resource uri="/tutorial/"/>
+			<resource uri="/unify-demo/"/>
+			<resource uri="/index.html"/>
 		</resources>
 		<excluderesources/>
 		<parameters/>
 	</module>
 	<files>
+		<file>
+			<destination>.categories</destination>
+			<type>folder</type>
+			<uuidstructure>85aa1109-718c-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 11:41:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Site categories]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/location</destination>
+			<type>folder</type>
+			<uuidstructure>da3592ce-7193-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:34:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Location]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/location/africa</destination>
+			<type>folder</type>
+			<uuidstructure>ee07bb34-7193-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:34:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Africa]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/location/antarctica</destination>
+			<type>folder</type>
+			<uuidstructure>2c8273b3-7194-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:36:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Antarctica]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/location/asia</destination>
+			<type>folder</type>
+			<uuidstructure>0825108d-7194-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:35:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Asia]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/location/australia</destination>
+			<type>folder</type>
+			<uuidstructure>0d18c3d0-7194-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:35:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Australia]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/location/europe</destination>
+			<type>folder</type>
+			<uuidstructure>e73ef9d1-7193-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:34:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Europe]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/location/northamerica</destination>
+			<type>folder</type>
+			<uuidstructure>f41fca37-7193-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:35:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Northamerica]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/location/southamerica</destination>
+			<type>folder</type>
+			<uuidstructure>01e3597a-7194-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:35:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Southamerica]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/priority</destination>
+			<type>folder</type>
+			<uuidstructure>06a1f766-718d-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 11:45:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Priority / Importance]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/priority/01_very_low</destination>
+			<type>folder</type>
+			<uuidstructure>c8b3ea1b-7193-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:33:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Very Low]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/priority/02_low</destination>
+			<type>folder</type>
+			<uuidstructure>bab32ac8-7193-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:33:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Low]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/priority/03_medium</destination>
+			<type>folder</type>
+			<uuidstructure>b5e32c25-7193-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:33:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Medium]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/priority/04_high</destination>
+			<type>folder</type>
+			<uuidstructure>acb97052-7193-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:33:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[High]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/priority/05_very_high</destination>
+			<type>folder</type>
+			<uuidstructure>a2182faf-7193-11e0-87bc-000c2972a6a4</uuidstructure>
+			<datecreated>Thu, 28 Jun 2012 12:32:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Very High]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/topic</destination>
+			<type>folder</type>
+			<uuidstructure>a37520f5-5534-11e4-af67-005056b61161</uuidstructure>
+			<datecreated>Thu, 16 Oct 2014 13:02:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Topic]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/topic/buildings</destination>
+			<type>folder</type>
+			<uuidstructure>52a797d2-5535-11e4-af67-005056b61161</uuidstructure>
+			<datecreated>Thu, 16 Oct 2014 13:07:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Buildings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/topic/machines</destination>
+			<type>folder</type>
+			<uuidstructure>caf3e85e-5534-11e4-af67-005056b61161</uuidstructure>
+			<datecreated>Thu, 16 Oct 2014 13:03:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Machines]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/topic/nature</destination>
+			<type>folder</type>
+			<uuidstructure>c3025e6b-5534-11e4-af67-005056b61161</uuidstructure>
+			<datecreated>Thu, 16 Oct 2014 13:03:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nature]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/topic/people</destination>
+			<type>folder</type>
+			<uuidstructure>bbef2688-5534-11e4-af67-005056b61161</uuidstructure>
+			<datecreated>Thu, 16 Oct 2014 13:02:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[People]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.categories/topic/transportation</destination>
+			<type>folder</type>
+			<uuidstructure>5ce3fc25-5535-11e4-af67-005056b61161</uuidstructure>
+			<datecreated>Thu, 16 Oct 2014 13:07:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Transportation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>92eb66a7-60f6-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 06:53:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Site contents]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/.config</source>
+			<destination>.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>92ecc639-60f6-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>92ecc63a-60f6-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 06:53:04 GMT</datecreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sitemap configuration file]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.content/flexiblecontents</destination>
+			<type>folder</type>
+			<uuidstructure>35114bc1-60f8-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 07:04:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/flexiblecontents/fc_00001.xml</source>
+			<destination>.content/flexiblecontents/fc_00001.xml</destination>
+			<type>u-flexible</type>
+			<uuidstructure>3512d263-60f8-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>3512d264-60f8-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 07:04:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview: Footer for welcome page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.content/texts</destination>
+			<type>folder</type>
+			<uuidstructure>e2b9f8d0-60f9-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 07:16:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/texts/t_00001.xml</source>
+			<destination>.content/texts/t_00001.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>e2bbcd92-60f9-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>e2bbcd93-60f9-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 07:16:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview: OpenCms Beginners Tutorial]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/texts/t_00002.xml</source>
+			<destination>.content/texts/t_00002.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>45db5266-60fa-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>45db5267-60fa-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 07:19:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview: Documentation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/texts/t_00003.xml</source>
+			<destination>.content/texts/t_00003.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>7bf6d5c3-60fb-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>7bf6d5c4-60fb-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 07:28:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview: Demo Website]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/texts/t_00004.xml</source>
+			<destination>.content/texts/t_00004.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>9154a73b-60fb-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>9154a73c-60fb-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 07:28:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview: Login]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/texts/t_00005.xml</source>
+			<destination>.content/texts/t_00005.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>a11b597f-60fb-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>a11b5980-60fb-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 07:29:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview: Release Notes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/texts/t_00006.xml</source>
+			<destination>.content/texts/t_00006.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>4f3b8b3c-60fe-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>4f3b8b3d-60fe-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 07:48:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login: Administrator login info]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.content/xmlimage</destination>
+			<type>folder</type>
+			<uuidstructure>78af7673-60ff-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 07:56:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/xmlimage/xmlimage_00001.xml</source>
+			<destination>.content/xmlimage/xmlimage_00001.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>78b1e775-60ff-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>78b1e776-60ff-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 07:56:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login: Login image]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.galleries</destination>
+			<type>folder</type>
+			<uuidstructure>138a0084-46db-11e3-ae58-000c29d28104</uuidstructure>
+			<datecreated>Wed, 06 Nov 2013 12:00:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Site galleries]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.galleries/cliparts</destination>
+			<type>imagegallery</type>
+			<uuidstructure>d3f812a8-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<datecreated>Fri, 17 Oct 2014 12:48:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo: Cliparts]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/01.png</source>
+			<destination>.galleries/cliparts/01.png</destination>
+			<type>image</type>
+			<uuidstructure>f047ff6c-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f047ff6d-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/02.png</source>
+			<destination>.galleries/cliparts/02.png</destination>
+			<type>image</type>
+			<uuidstructure>f050b200-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f050b201-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/03.png</source>
+			<destination>.galleries/cliparts/03.png</destination>
+			<type>image</type>
+			<uuidstructure>f05a7604-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f05a7605-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/04.png</source>
+			<destination>.galleries/cliparts/04.png</destination>
+			<type>image</type>
+			<uuidstructure>f0634fa8-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0634fa9-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/05.png</source>
+			<destination>.galleries/cliparts/05.png</destination>
+			<type>image</type>
+			<uuidstructure>f06d13ac-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f06d13ad-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/06.png</source>
+			<destination>.galleries/cliparts/06.png</destination>
+			<type>image</type>
+			<uuidstructure>f07725d0-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f07725d1-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/07.png</source>
+			<destination>.galleries/cliparts/07.png</destination>
+			<type>image</type>
+			<uuidstructure>f07e51c4-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f07e51c5-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/08.png</source>
+			<destination>.galleries/cliparts/08.png</destination>
+			<type>image</type>
+			<uuidstructure>f08556a8-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f08556a9-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/09.png</source>
+			<destination>.galleries/cliparts/09.png</destination>
+			<type>image</type>
+			<uuidstructure>f08e575c-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f08e575d-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/10.png</source>
+			<destination>.galleries/cliparts/10.png</destination>
+			<type>image</type>
+			<uuidstructure>f0975810-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0975811-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/11.png</source>
+			<destination>.galleries/cliparts/11.png</destination>
+			<type>image</type>
+			<uuidstructure>f0a0f504-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0a0f505-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/12.png</source>
+			<destination>.galleries/cliparts/12.png</destination>
+			<type>image</type>
+			<uuidstructure>f0a95978-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0a95979-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/13.png</source>
+			<destination>.galleries/cliparts/13.png</destination>
+			<type>image</type>
+			<uuidstructure>f0b392ac-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0b392ad-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/14.png</source>
+			<destination>.galleries/cliparts/14.png</destination>
+			<type>image</type>
+			<uuidstructure>f0ba7080-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0ba7081-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/15.png</source>
+			<destination>.galleries/cliparts/15.png</destination>
+			<type>image</type>
+			<uuidstructure>f0c238b4-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0c238b5-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/16.png</source>
+			<destination>.galleries/cliparts/16.png</destination>
+			<type>image</type>
+			<uuidstructure>f0ca27f8-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0ca27f9-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/17.png</source>
+			<destination>.galleries/cliparts/17.png</destination>
+			<type>image</type>
+			<uuidstructure>f0d0698c-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0d0698d-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/18.png</source>
+			<destination>.galleries/cliparts/18.png</destination>
+			<type>image</type>
+			<uuidstructure>f0d79580-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0d79581-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/19.png</source>
+			<destination>.galleries/cliparts/19.png</destination>
+			<type>image</type>
+			<uuidstructure>f0dee884-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0dee885-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/20.png</source>
+			<destination>.galleries/cliparts/20.png</destination>
+			<type>image</type>
+			<uuidstructure>f0e48dd8-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0e48dd9-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/21.png</source>
+			<destination>.galleries/cliparts/21.png</destination>
+			<type>image</type>
+			<uuidstructure>f0eca42c-55fb-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f0eca42d-55fb-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:48:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[openclipart.org]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:800]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/cliparts/default.png</source>
+			<destination>.galleries/cliparts/default.png</destination>
+			<type>image</type>
+			<uuidstructure>3efc64a5-5c52-11e5-9651-0242ac11002b</uuidstructure>
+			<uuidresource>3efc64a6-5c52-11e5-9651-0242ac11002b</uuidresource>
+			<datecreated>Wed, 16 Sep 2015 09:06:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Default placeholder image]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:640,h:480]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.galleries/people</destination>
+			<type>imagegallery</type>
+			<uuidstructure>71ae8c67-4705-11e3-8417-000c29d28104</uuidstructure>
+			<datecreated>Wed, 06 Nov 2013 17:04:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo: People images]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/01.jpg</source>
+			<destination>.galleries/people/01.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b13e3759-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>b13e375a-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/02.jpg</source>
+			<destination>.galleries/people/02.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b1ccbbbc-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>b1ccbbbd-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[imagebase.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/03.jpg</source>
+			<destination>.galleries/people/03.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b2e1871f-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>b2e18720-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/04.jpg</source>
+			<destination>.galleries/people/04.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b34d8f62-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>b34d8f63-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/05.jpg</source>
+			<destination>.galleries/people/05.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b3d8df75-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>b3d8df76-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/06.jpg</source>
+			<destination>.galleries/people/06.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b4407ae8-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>b4407ae9-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[imagebase.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/07.jpg</source>
+			<destination>.galleries/people/07.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b509492b-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>b509492c-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[imagebase.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/08.jpg</source>
+			<destination>.galleries/people/08.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b5c4f80e-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>b5c4f80f-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[imagebase.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/09.jpg</source>
+			<destination>.galleries/people/09.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b6b6f931-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>b6b6f932-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[imagebase.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/10.jpg</source>
+			<destination>.galleries/people/10.jpg</destination>
+			<type>image</type>
+			<uuidstructure>aed0448d-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>aed0448e-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[publicdomainpictures.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/11.jpg</source>
+			<destination>.galleries/people/11.jpg</destination>
+			<type>image</type>
+			<uuidstructure>af315050-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>af315051-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/12.jpg</source>
+			<destination>.galleries/people/12.jpg</destination>
+			<type>image</type>
+			<uuidstructure>af827d93-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>af827d94-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/13.jpg</source>
+			<destination>.galleries/people/13.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b064a036-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>b064a037-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:05:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[imagebase.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/14.jpg</source>
+			<destination>.galleries/people/14.jpg</destination>
+			<type>image</type>
+			<uuidstructure>f676369c-55f8-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f676369d-55f8-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:27:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[publicdomainpictures.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/15.jpg</source>
+			<destination>.galleries/people/15.jpg</destination>
+			<type>image</type>
+			<uuidstructure>f67db0b0-55f8-11e4-8db5-005056b61161</uuidstructure>
+			<uuidresource>f67db0b1-55f8-11e4-8db5-005056b61161</uuidresource>
+			<datecreated>Fri, 17 Oct 2014 12:27:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[publicdomainpictures.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/16.jpg</source>
+			<destination>.galleries/people/16.jpg</destination>
+			<type>image</type>
+			<uuidstructure>f6ce55a0-590a-11e4-903d-005056b61161</uuidstructure>
+			<uuidresource>f6ce55a1-590a-11e4-903d-005056b61161</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 10:13:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/17.jpg</source>
+			<destination>.galleries/people/17.jpg</destination>
+			<type>image</type>
+			<uuidstructure>1b88f3f3-590b-11e4-903d-005056b61161</uuidstructure>
+			<uuidresource>1b88f3f4-590b-11e4-903d-005056b61161</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 10:14:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/18.jpg</source>
+			<destination>.galleries/people/18.jpg</destination>
+			<type>image</type>
+			<uuidstructure>241ab586-590b-11e4-903d-005056b61161</uuidstructure>
+			<uuidresource>241ab587-590b-11e4-903d-005056b61161</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 10:15:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[publicdomainpictures.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/19.jpg</source>
+			<destination>.galleries/people/19.jpg</destination>
+			<type>image</type>
+			<uuidstructure>2b1b9de9-590b-11e4-903d-005056b61161</uuidstructure>
+			<uuidresource>2b1b9dea-590b-11e4-903d-005056b61161</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 10:15:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[publicdomainpictures.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/20.jpg</source>
+			<destination>.galleries/people/20.jpg</destination>
+			<type>image</type>
+			<uuidstructure>34d7aeac-590b-11e4-903d-005056b61161</uuidstructure>
+			<uuidresource>34d7aead-590b-11e4-903d-005056b61161</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 10:15:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/21.jpg</source>
+			<destination>.galleries/people/21.jpg</destination>
+			<type>image</type>
+			<uuidstructure>6f858449-590f-11e4-a97a-005056b61161</uuidstructure>
+			<uuidresource>6f85844a-590f-11e4-a97a-005056b61161</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 10:45:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/22.jpg</source>
+			<destination>.galleries/people/22.jpg</destination>
+			<type>image</type>
+			<uuidstructure>5ac0b945-5921-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>5ac0b946-5921-11e4-9013-005056b61161</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 12:54:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.galleries/samples</destination>
+			<type>imagegallery</type>
+			<uuidstructure>959d764a-4705-11e3-8417-000c29d28104</uuidstructure>
+			<datecreated>Wed, 06 Nov 2013 17:05:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo: Sample images - buildings, machines, things]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/01.jpg</source>
+			<destination>.galleries/samples/01.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c05c4da4-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c05c4da5-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/02.jpg</source>
+			<destination>.galleries/samples/02.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c0ac6977-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c0ac6978-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:18 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/03.jpg</source>
+			<destination>.galleries/samples/03.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c132d78a-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c132d78b-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/04.jpg</source>
+			<destination>.galleries/samples/04.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c18da1bd-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c18da1be-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/05.jpg</source>
+			<destination>.galleries/samples/05.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c2581db0-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c2581db1-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/06.jpg</source>
+			<destination>.galleries/samples/06.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c33e8613-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c33e8614-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/07.jpg</source>
+			<destination>.galleries/samples/07.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c3d288b6-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c3d288b7-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/08.jpg</source>
+			<destination>.galleries/samples/08.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c4a06009-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c4a0600a-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/09.jpg</source>
+			<destination>.galleries/samples/09.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c56a66cc-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c56a66cd-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/10.jpg</source>
+			<destination>.galleries/samples/10.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c64906ff-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c6490700-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/11.jpg</source>
+			<destination>.galleries/samples/11.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c6d9d552-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c6d9d553-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/12.jpg</source>
+			<destination>.galleries/samples/12.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c76d14a5-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c76d14a6-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/13.jpg</source>
+			<destination>.galleries/samples/13.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c7ee2b88-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c7ee2b89-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/14.jpg</source>
+			<destination>.galleries/samples/14.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c851cf5b-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c851cf5c-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/15.jpg</source>
+			<destination>.galleries/samples/15.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c8d186ae-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c8d186af-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/16.jpg</source>
+			<destination>.galleries/samples/16.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c9486461-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>c9486462-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/17.jpg</source>
+			<destination>.galleries/samples/17.jpg</destination>
+			<type>image</type>
+			<uuidstructure>ca344b04-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>ca344b05-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/18.jpg</source>
+			<destination>.galleries/samples/18.jpg</destination>
+			<type>image</type>
+			<uuidstructure>ca7dd727-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>ca7dd728-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/19.jpg</source>
+			<destination>.galleries/samples/19.jpg</destination>
+			<type>image</type>
+			<uuidstructure>cadff45a-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>cadff45b-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/20.jpg</source>
+			<destination>.galleries/samples/20.jpg</destination>
+			<type>image</type>
+			<uuidstructure>cb7ecc6d-4705-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>cb7ecc6e-4705-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:06:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/21.jpg</source>
+			<destination>.galleries/samples/21.jpg</destination>
+			<type>image</type>
+			<uuidstructure>cb71a5ed-4708-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>cb71a5ee-4708-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:28:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/22.jpg</source>
+			<destination>.galleries/samples/22.jpg</destination>
+			<type>image</type>
+			<uuidstructure>cbc236f0-4708-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>cbc236f1-4708-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:28:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/23.jpg</source>
+			<destination>.galleries/samples/23.jpg</destination>
+			<type>image</type>
+			<uuidstructure>ca1ff891-4708-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>ca1ff892-4708-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:28:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/24.jpg</source>
+			<destination>.galleries/samples/24.jpg</destination>
+			<type>image</type>
+			<uuidstructure>ca79d864-4708-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>ca79d865-4708-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:28:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/25.jpg</source>
+			<destination>.galleries/samples/25.jpg</destination>
+			<type>image</type>
+			<uuidstructure>cacfc097-4708-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>cacfc098-4708-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:28:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/26.jpg</source>
+			<destination>.galleries/samples/26.jpg</destination>
+			<type>image</type>
+			<uuidstructure>cb24493a-4708-11e3-8417-000c29d28104</uuidstructure>
+			<uuidresource>cb24493b-4708-11e3-8417-000c29d28104</uuidresource>
+			<datecreated>Wed, 06 Nov 2013 17:28:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/27.jpg</source>
+			<destination>.galleries/samples/27.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b345dfb7-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b345dfb8-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/28.jpg</source>
+			<destination>.galleries/samples/28.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b3c71dad-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b3c71dae-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/29.jpg</source>
+			<destination>.galleries/samples/29.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b43c9bd3-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b43c9bd4-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/30.jpg</source>
+			<destination>.galleries/samples/30.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b4b2b636-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b4b2b637-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/31.jpg</source>
+			<destination>.galleries/samples/31.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b571e789-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b571e78a-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/32.jpg</source>
+			<destination>.galleries/samples/32.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b5ab1ffc-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b5ab1ffd-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/33.jpg</source>
+			<destination>.galleries/samples/33.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b623844f-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b6238450-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/34.jpg</source>
+			<destination>.galleries/samples/34.jpg</destination>
+			<type>image</type>
+			<uuidstructure>d5ae01bb-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>d5ae01bc-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:23:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/35.jpg</source>
+			<destination>.galleries/samples/35.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b6b933a4-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b6b933a5-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/36.jpg</source>
+			<destination>.galleries/samples/36.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b70f1bd7-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b70f1bd8-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/37.jpg</source>
+			<destination>.galleries/samples/37.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b3850b9a-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b3850b9b-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/38.jpg</source>
+			<destination>.galleries/samples/38.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b3ffe0f0-4785-11e3-ba23-000c29d28104</uuidstructure>
+			<uuidresource>b3ffe0f1-4785-11e3-ba23-000c29d28104</uuidresource>
+			<datecreated>Thu, 07 Nov 2013 08:22:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>.galleries/slider</destination>
+			<type>imagegallery</type>
+			<uuidstructure>2a35cbd9-2457-11e3-adc8-000c297c001d</uuidstructure>
+			<datecreated>Mon, 23 Sep 2013 13:50:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo: Slider images]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/bg_sl_01.jpg</source>
+			<destination>.galleries/slider/bg_sl_01.jpg</destination>
+			<type>image</type>
+			<uuidstructure>275f340b-24e8-11e3-9bbf-000c29d28104</uuidstructure>
+			<uuidresource>275f340c-24e8-11e3-9bbf-000c29d28104</uuidresource>
+			<datecreated>Tue, 24 Sep 2013 07:08:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH - CC BY-NC-SA]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1920,h:500]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/bg_sl_02.jpg</source>
+			<destination>.galleries/slider/bg_sl_02.jpg</destination>
+			<type>image</type>
+			<uuidstructure>278e816f-24e8-11e3-9bbf-000c29d28104</uuidstructure>
+			<uuidresource>278e8170-24e8-11e3-9bbf-000c29d28104</uuidresource>
+			<datecreated>Tue, 24 Sep 2013 07:08:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH - CC BY-NC-SA]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1920,h:500]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/bg_sl_03.jpg</source>
+			<destination>.galleries/slider/bg_sl_03.jpg</destination>
+			<type>image</type>
+			<uuidstructure>7e882c04-24e9-11e3-9bbf-000c29d28104</uuidstructure>
+			<uuidresource>7e882c05-24e9-11e3-9bbf-000c29d28104</uuidresource>
+			<datecreated>Tue, 24 Sep 2013 07:18:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH - CC BY-NC-SA]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1920,h:500]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/bg_sl_04.jpg</source>
+			<destination>.galleries/slider/bg_sl_04.jpg</destination>
+			<type>image</type>
+			<uuidstructure>9a39c079-24ea-11e3-9bbf-000c29d28104</uuidstructure>
+			<uuidresource>9a39c07a-24ea-11e3-9bbf-000c29d28104</uuidresource>
+			<datecreated>Tue, 24 Sep 2013 07:26:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH - CC BY-NC-SA]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1920,h:500]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/bg_sl_05.jpg</source>
+			<destination>.galleries/slider/bg_sl_05.jpg</destination>
+			<type>image</type>
+			<uuidstructure>d520dc78-5861-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>d520dc79-5861-11e4-a786-005056b61161</uuidresource>
+			<datecreated>Mon, 20 Oct 2014 14:03:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH - CC BY-NC-SA]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1920,h:500]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/bg_sl_06.jpg</source>
+			<destination>.galleries/slider/bg_sl_06.jpg</destination>
+			<type>image</type>
+			<uuidstructure>00610d7a-586c-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>00610d7b-586c-11e4-a786-005056b61161</uuidresource>
+			<datecreated>Mon, 20 Oct 2014 15:16:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH - CC BY-NC-SA]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1920,h:500]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/opencms_logo.png</source>
+			<destination>.galleries/slider/opencms_logo.png</destination>
+			<type>image</type>
+			<uuidstructure>90db6440-2508-11e3-91e8-000c29d28104</uuidstructure>
+			<uuidresource>90db6441-2508-11e3-91e8-000c29d28104</uuidresource>
+			<datecreated>Tue, 24 Sep 2013 11:00:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH - International registered trade mark]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:400,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/osi_logo.png</source>
+			<destination>.galleries/slider/osi_logo.png</destination>
+			<type>image</type>
+			<uuidstructure>393462f4-2507-11e3-9bbf-000c29d28104</uuidstructure>
+			<uuidresource>393462f5-2507-11e3-9bbf-000c29d28104</uuidresource>
+			<datecreated>Tue, 24 Sep 2013 10:51:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[The OSI logo is a trademark of Open Source Initiative - http://opensource.org/]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:200,h:235]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/p1.jpg</source>
+			<destination>.galleries/slider/p1.jpg</destination>
+			<type>image</type>
+			<uuidstructure>44c8777d-2457-11e3-adc8-000c297c001d</uuidstructure>
+			<uuidresource>44c8777e-2457-11e3-adc8-000c297c001d</uuidresource>
+			<datecreated>Mon, 23 Sep 2013 13:51:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[imagebase.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:140,h:140]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/p2.jpg</source>
+			<destination>.galleries/slider/p2.jpg</destination>
+			<type>image</type>
+			<uuidstructure>44e85ba5-2457-11e3-adc8-000c297c001d</uuidstructure>
+			<uuidresource>44e85ba6-2457-11e3-adc8-000c297c001d</uuidresource>
+			<datecreated>Mon, 23 Sep 2013 13:51:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[imagebase.net]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:140,h:140]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/p3.jpg</source>
+			<destination>.galleries/slider/p3.jpg</destination>
+			<type>image</type>
+			<uuidstructure>44cdf5c1-2457-11e3-adc8-000c297c001d</uuidstructure>
+			<uuidresource>44cdf5c2-2457-11e3-adc8-000c297c001d</uuidresource>
+			<datecreated>Mon, 23 Sep 2013 13:51:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:140,h:140]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/p4.jpg</source>
+			<destination>.galleries/slider/p4.jpg</destination>
+			<type>image</type>
+			<uuidstructure>44d325e5-2457-11e3-adc8-000c297c001d</uuidstructure>
+			<uuidresource>44d325e6-2457-11e3-adc8-000c297c001d</uuidresource>
+			<datecreated>Mon, 23 Sep 2013 13:51:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:140,h:140]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/p5.jpg</source>
+			<destination>.galleries/slider/p5.jpg</destination>
+			<type>image</type>
+			<uuidstructure>44edb2d9-2457-11e3-adc8-000c297c001d</uuidstructure>
+			<uuidresource>44edb2da-2457-11e3-adc8-000c297c001d</uuidresource>
+			<datecreated>Mon, 23 Sep 2013 13:51:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:140,h:140]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/p6.jpg</source>
+			<destination>.galleries/slider/p6.jpg</destination>
+			<type>image</type>
+			<uuidstructure>1552ecde-58f7-11e4-903d-005056b61161</uuidstructure>
+			<uuidresource>1552ecdf-58f7-11e4-903d-005056b61161</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 07:51:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:140,h:140]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/shapes.png</source>
+			<destination>.galleries/slider/shapes.png</destination>
+			<type>image</type>
+			<uuidstructure>570ddf2c-5867-11e4-a786-005056b61161</uuidstructure>
+			<uuidresource>570ddf2d-5867-11e4-a786-005056b61161</uuidresource>
+			<datecreated>Mon, 20 Oct 2014 14:42:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH - CC BY-NC-SA]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1000,h:563]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/slider/slider_logo_10.png</source>
+			<destination>.galleries/slider/slider_logo_10.png</destination>
+			<type>image</type>
+			<uuidstructure>8ef4b7fe-602f-11e5-96ab-0242ac11002b</uuidstructure>
+			<uuidresource>8ef4b7ff-602f-11e5-96ab-0242ac11002b</uuidresource>
+			<datecreated>Mon, 21 Sep 2015 07:08:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Slider logo OpenCms 10]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:500,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>login</destination>
+			<type>folder</type>
+			<uuidstructure>d87f4764-58f1-11e4-903d-005056b61161</uuidstructure>
+			<datecreated>Tue, 21 Oct 2014 07:14:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavInfo</name>
+					<value><![CDATA[ignoreInDefaultNav]]></value>
+				</property>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.08875]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Login]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>login/index.html</source>
+			<destination>login/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>d8905e69-58f1-11e4-903d-005056b61161</uuidstructure>
+			<uuidresource>d8905e6a-58f1-11e4-903d-005056b61161</uuidresource>
+			<datecreated>Tue, 21 Oct 2014 07:14:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>overview</destination>
+			<type>folder</type>
+			<uuidstructure>c4709ed4-5845-11e4-a786-005056b61161</uuidstructure>
+			<datecreated>Mon, 20 Oct 2014 10:42:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavInfo</name>
+					<value><![CDATA[ignoreInDefaultNav]]></value>
+				</property>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.057499997]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Overview]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>overview/index.html</source>
+			<destination>overview/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>53522877-60f7-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>53522878-60f7-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 06:58:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
 		<file>
 			<destination>release</destination>
 			<type>subsitemap</type>
@@ -967,6 +3741,1525 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>tutorial</destination>
+			<type>subsitemap</type>
+			<uuidstructure>e46f947b-6100-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 08:06:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[The OpenCms introduction tutorial, brought to you by Alkacon Software.]]></value>
+				</property>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.3725]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Tutorial]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Tutorial]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+				<property>
+					<name>search.subsite</name>
+					<value><![CDATA[Tutorial]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/index.html</source>
+			<destination>tutorial/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>373cc82d-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>373cc82e-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Redirect for navigation level]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>8c4d0ec7-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 08:11:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/.config</source>
+			<destination>tutorial/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>8c4e9569-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>8c4e956a-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:11:38 GMT</datecreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sitemap configuration file]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/.content/.templates</destination>
+			<type>folder</type>
+			<uuidstructure>647cfdb7-6102-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 08:17:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/.templates/templatemodel_0001.html</source>
+			<destination>tutorial/.content/.templates/templatemodel_0001.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>647f47aa-6102-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>647f47ab-6102-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:17:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Classic left and center column layout with simple head and foot]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify template. Tutorial page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/.content/flexiblecontents</destination>
+			<type>folder</type>
+			<uuidstructure>3e41c85d-6104-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 08:30:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/flexiblecontents/fc_00001.xml</source>
+			<destination>tutorial/.content/flexiblecontents/fc_00001.xml</destination>
+			<type>u-flexible</type>
+			<uuidstructure>3e43760f-6104-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>3e437610-6104-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:30:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify template. Tutorial page: Header for tutorial]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/.content/texts</destination>
+			<type>folder</type>
+			<uuidstructure>bc6a2318-6123-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 12:16:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00001.xml</source>
+			<destination>tutorial/.content/texts/t_00001.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>bc7a9dda-6123-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>bc7a9ddb-6123-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:16:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login to OpenCms: Welcome to the OpenCms 9.5 tutorial]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00002.xml</source>
+			<destination>tutorial/.content/texts/t_00002.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>1bb021d7-6125-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>1bb021d8-6125-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:26:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login to OpenCms: Default login info]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00003.xml</source>
+			<destination>tutorial/.content/texts/t_00003.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>69db456c-6125-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>69db456d-6125-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:28:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login to OpenCms: Further login options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00004.xml</source>
+			<destination>tutorial/.content/texts/t_00004.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>1d38a131-6126-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>1d38a132-6126-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:33:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 1: Modify a page : Activate the OpenCms Toolbar]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00005.xml</source>
+			<destination>tutorial/.content/texts/t_00005.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>8013386c-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>8013386d-6127-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:43:18 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 1: Modify a page : More modification options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00006.xml</source>
+			<destination>tutorial/.content/texts/t_00006.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>70080cf1-6128-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>70080cf2-6128-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:50:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 2: Edit content : Using the form based editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00007.xml</source>
+			<destination>tutorial/.content/texts/t_00007.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>767b5b54-6128-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>767b5b55-6128-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:50:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 2: Edit content : Edit content inline - directly on the page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00008.xml</source>
+			<destination>tutorial/.content/texts/t_00008.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>20eb7d3e-612b-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>20eb7d3f-612b-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:09:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 2: Edit content : Inline editing of optional or special content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00009.xml</source>
+			<destination>tutorial/.content/texts/t_00009.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>963594f7-612b-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>963594f8-612b-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:12:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 3: Work with the sitemap : Working with the sitemap]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00010.xml</source>
+			<destination>tutorial/.content/texts/t_00010.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>a179a54b-612b-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>a179a54c-612b-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:12:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 3: Work with the sitemap : Link to Step 4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00011.xml</source>
+			<destination>tutorial/.content/texts/t_00011.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>25147121-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>25147122-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:16:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 4: Preview in a device : Preview a page in different devices]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00012.xml</source>
+			<destination>tutorial/.content/texts/t_00012.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>2e70aea5-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>2e70aea6-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:16:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 4: Preview in a device : Link to Step 5]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00013.xml</source>
+			<destination>tutorial/.content/texts/t_00013.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>9f922b56-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>9f922b57-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:19:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 5: Publish your changes : Publishing changes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00014.xml</source>
+			<destination>tutorial/.content/texts/t_00014.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>a9ff8aba-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>a9ff8abb-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:20:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 5: Publish your changes : Link to summary]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00015.xml</source>
+			<destination>tutorial/.content/texts/t_00015.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>381dd5fb-612d-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>381dd5fc-612d-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:24:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Start exploring OpenCms: Start exploring OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/texts/t_00016.xml</source>
+			<destination>tutorial/.content/texts/t_00016.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>5b8e8f31-612d-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>5b8e8f32-612d-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:25:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Start exploring OpenCms: There is a lot more to discover]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/.content/xmlimage</destination>
+			<type>folder</type>
+			<uuidstructure>2f816a75-6126-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 12:33:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00001.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00001.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>2f882137-6126-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>2f882138-6126-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:33:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 1: Modify a page : Activate the toolbar]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00002.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00002.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>1cd1105c-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>1cd1105d-6127-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:40:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 1: Modify a page : Click 'Add content']]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00003.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00003.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>2db2f6a0-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>2db2f6a1-6127-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:41:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 1: Modify a page : Click on 'Text']]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00004.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00004.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>54d85364-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>54d85365-6127-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:42:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 1: Modify a page : Select 'Move to page']]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00005.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00005.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>66dd83f8-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>66dd83f9-6127-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:42:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 1: Modify a page : Drag and drop the element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00006.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00006.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>c1daa9e1-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>c1daa9e2-6127-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:45:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 1: Modify a page : The element menu]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00007.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00007.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>ab9c837e-612a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>ab9c837f-612a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:06:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00004: Inline editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00008.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00008.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>c0595a02-612a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>c0595a03-612a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:06:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00004: Adding optional links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00009.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00009.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>ee1f2fa6-612a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>ee1f2fa7-612a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:07:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00004: Image galleries]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00010.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00010.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>0637662a-612b-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>0637662b-612b-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:08:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00004: Form based editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00011.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00011.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>38cf0f32-612b-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>38cf0f33-612b-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:09:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00004: Click to edit the image]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00012.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00012.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>c783ce11-612b-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>c783ce12-612b-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:13:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00003: Open the sitemap]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00013.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00013.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>db16f1a5-612b-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>db16f1a6-612b-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:14:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00003: Select 'Add pages']]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00014.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00014.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>edb777d9-612b-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>edb777da-612b-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:15:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00003: Create a new page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00015.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00015.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>04eb8fed-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>04eb8fee-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:15:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00003: Edit the page title]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00016.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00016.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>52d341ea-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>52d341eb-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:17:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00002: Click on 'Show menu']]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00017.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00017.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>6a22831e-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>6a22831f-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:18:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00002: Select 'Show in device']]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00018.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00018.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>81244092-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>81244093-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:19:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00002: The device preview appears]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00019.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00019.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>ca99562f-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>ca995630-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:21:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00001: Click on 'Publish' in the toolbar]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00020.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00020.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>e7526503-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>e7526504-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:21:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00001: Select 'My changes']]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.content/xmlimage/xmlimage_00021.xml</source>
+			<destination>tutorial/.content/xmlimage/xmlimage_00021.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>fccf0917-612c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>fccf0918-612c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 13:22:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page-00001: Confirm by clicking 'Publish']]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/.galleries</destination>
+			<type>folder</type>
+			<uuidstructure>36f2a085-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 08:09:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Tutorial galleries]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/.galleries/tutorial-images</destination>
+			<type>imagegallery</type>
+			<uuidstructure>36f5fbe8-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 08:09:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Tutorial screenshots]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/alkacon_logo.png</source>
+			<destination>tutorial/.galleries/tutorial-images/alkacon_logo.png</destination>
+			<type>image</type>
+			<uuidstructure>36f7f7bb-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>36f7f7bc-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1000,h:325]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/opencms_logo.png</source>
+			<destination>tutorial/.galleries/tutorial-images/opencms_logo.png</destination>
+			<type>image</type>
+			<uuidstructure>36fbc84e-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>36fbc84f-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:400,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-01.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-01.png</destination>
+			<type>image</type>
+			<uuidstructure>36fe1241-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>36fe1242-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:50,h:50]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-02.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-02.png</destination>
+			<type>image</type>
+			<uuidstructure>37003524-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>37003525-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-03.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-03.png</destination>
+			<type>image</type>
+			<uuidstructure>3703dea7-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>3703dea8-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-04.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-04.png</destination>
+			<type>image</type>
+			<uuidstructure>3708c0aa-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>3708c0ab-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-05.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-05.png</destination>
+			<type>image</type>
+			<uuidstructure>370ba6dd-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>370ba6de-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-06.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-06.png</destination>
+			<type>image</type>
+			<uuidstructure>370e6600-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>370e6601-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:200,h:200]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-07.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-07.png</destination>
+			<type>image</type>
+			<uuidstructure>371088e3-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>371088e4-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-08.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-08.png</destination>
+			<type>image</type>
+			<uuidstructure>37134806-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>37134807-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-09.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-09.png</destination>
+			<type>image</type>
+			<uuidstructure>371766b9-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>371766ba-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-10.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-10.png</destination>
+			<type>image</type>
+			<uuidstructure>371ac21c-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>371ac21d-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-11.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-11.png</destination>
+			<type>image</type>
+			<uuidstructure>371df66f-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>371df670-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-12.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-12.png</destination>
+			<type>image</type>
+			<uuidstructure>37206772-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>37206773-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-13.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-13.png</destination>
+			<type>image</type>
+			<uuidstructure>3724d445-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>3724fb56-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-14.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-14.png</destination>
+			<type>image</type>
+			<uuidstructure>3727e188-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>3727e189-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-15.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-15.png</destination>
+			<type>image</type>
+			<uuidstructure>372aa0ab-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>372aa0ac-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-16.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-16.png</destination>
+			<type>image</type>
+			<uuidstructure>372dd4fe-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>372dd4ff-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:600]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-17.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-17.png</destination>
+			<type>image</type>
+			<uuidstructure>37306c11-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>37306c12-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-18.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-18.png</destination>
+			<type>image</type>
+			<uuidstructure>3733a064-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>3733a065-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-19.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-19.png</destination>
+			<type>image</type>
+			<uuidstructure>3736fbc7-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>3736fbc8-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/.galleries/tutorial-images/tut-20.png</source>
+			<destination>tutorial/.galleries/tutorial-images/tut-20.png</destination>
+			<type>image</type>
+			<uuidstructure>373a301a-6101-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>373a301b-6101-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:09:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:789,h:577]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/login-to-opencms</destination>
+			<type>folder</type>
+			<uuidstructure>745ef95a-6105-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 08:39:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Login to OpenCms]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login to OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/login-to-opencms/index.html</source>
+			<destination>tutorial/login-to-opencms/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>7462a2df-6105-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>7462a2e0-6105-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:39:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Login to OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/start-exploring-opencms</destination>
+			<type>folder</type>
+			<uuidstructure>f0e47136-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 12:46:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[7.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Start exploring OpenCms]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Start exploring OpenCms]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/start-exploring-opencms/index.html</source>
+			<destination>tutorial/start-exploring-opencms/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>f0f1698c-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>f0f1698d-6127-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:46:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Start exploring OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/step-1-modify-a-page-</destination>
+			<type>folder</type>
+			<uuidstructure>5ceb673f-6105-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 08:38:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Step 1: Modify a page ]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 1: Modify a page ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/step-1-modify-a-page-/index.html</source>
+			<destination>tutorial/step-1-modify-a-page-/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>5cefd414-6105-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>5cefd415-6105-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:38:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 1: Modify a page ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/step-2-edit-content</destination>
+			<type>folder</type>
+			<uuidstructure>0040a202-6128-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 12:46:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[3.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Step 2: Edit content]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 2: Edit content]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/step-2-edit-content/index.html</source>
+			<destination>tutorial/step-2-edit-content/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>0048b858-6128-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>0048b859-6128-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:46:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 2: edit content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/step-3-work-with-the-sitemap</destination>
+			<type>folder</type>
+			<uuidstructure>fb838f17-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 12:46:45 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[4.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Step 3: Work with the sitemap]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 3: Work with the sitemap]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/step-3-work-with-the-sitemap/index.html</source>
+			<destination>tutorial/step-3-work-with-the-sitemap/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>fb88711d-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>fb88711e-6127-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:46:45 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 3: Work with the sitemap]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/step-4-preview-in-a-device</destination>
+			<type>folder</type>
+			<uuidstructure>f8fe1cac-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 12:46:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[5.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Step 4: Preview in a device]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 4: Preview in a device]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/step-4-preview-in-a-device/index.html</source>
+			<destination>tutorial/step-4-preview-in-a-device/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>f908cb12-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>f908cb13-6127-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:46:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 4: Preview in a device]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>tutorial/step-5-publish-your-changes</destination>
+			<type>folder</type>
+			<uuidstructure>f3d66111-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 12:46:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[6.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Step 5: Publish your changes]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 5: Publish your changes]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>tutorial/step-5-publish-your-changes/index.html</source>
+			<destination>tutorial/step-5-publish-your-changes/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>f3e30b47-6127-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>f3e30b48-6127-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:46:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Step 5: Publish your changes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo</destination>
 			<type>subsitemap</type>
 			<uuidstructure>acb43685-5224-11e5-9495-0242ac11002b</uuidstructure>
@@ -987,7 +5280,7 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Unify Demo]]></value>
+					<value><![CDATA[Demo Website]]></value>
 				</property>
 				<property>
 					<name>Title</name>
@@ -2398,7 +6691,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Footer (Default)]]></value>
+					<value><![CDATA[Footer]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2586,6 +6879,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[2 narrow Columns Row (4 push - 4 pull)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00016.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00016.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>c2538b92-6124-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>c2538b93-6124-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 12:23:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[2 Columns Row (9 - 3)]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2850,7 +7160,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Our clients: Our services]]></value>
+					<value><![CDATA[A selection of clients: Our services]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3140,6 +7450,329 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Two columns: Powerful and Easy to use OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00033.xml</source>
+			<destination>unify-demo/.content/texts/t_00033.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>65b2a6a3-60fc-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>65b2a6a4-60fc-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 07:34:45 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction to the team: Meet the team]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00034.xml</source>
+			<destination>unify-demo/.content/texts/t_00034.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>44b69d62-6104-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>44b69d63-6104-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:31:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Three columns: Three columns]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00035.xml</source>
+			<destination>unify-demo/.content/texts/t_00035.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>7348eac7-6104-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>7348eac8-6104-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:32:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Three columns: Fully Responsive]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00036.xml</source>
+			<destination>unify-demo/.content/texts/t_00036.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>bd9378cb-6104-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>bd9378cc-6104-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:34:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Three columns: Flexible Grid]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00037.xml</source>
+			<destination>unify-demo/.content/texts/t_00037.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>efe7b02f-6104-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>efe7b030-6104-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:35:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Three columns: Three columns introduction]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00038.xml</source>
+			<destination>unify-demo/.content/texts/t_00038.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>2aa6721a-6105-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>2aa6721b-6105-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:37:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Three columns: Three columns short text]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00039.xml</source>
+			<destination>unify-demo/.content/texts/t_00039.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>fcd77f6d-6105-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>fcd77f6e-6105-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:43:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Three columns: Beautiful websites with OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00040.xml</source>
+			<destination>unify-demo/.content/texts/t_00040.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>9f9d928a-6106-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>9f9d928b-6106-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:47:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Three columns: It's another element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00041.xml</source>
+			<destination>unify-demo/.content/texts/t_00041.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>4ae2ac30-6108-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>4ae2ac31-6108-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:59:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extreme Grid: Extreme Grid Example :)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00042.xml</source>
+			<destination>unify-demo/.content/texts/t_00042.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>3b72bad8-610a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>3b72bad9-610a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:13:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: Powerful yet simple]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00043.xml</source>
+			<destination>unify-demo/.content/texts/t_00043.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>53ba17b8-610a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>53ba17b9-610a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:14:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: More features than ever]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00044.xml</source>
+			<destination>unify-demo/.content/texts/t_00044.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>6968a13f-610a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>6968a140-610a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:15:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: Great responsive template]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00045.xml</source>
+			<destination>unify-demo/.content/texts/t_00045.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>84f034f4-610a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>84f034f5-610a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:15:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[English page: English text page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00046.xml</source>
+			<destination>unify-demo/.content/texts/t_00046.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>9f05c21b-610a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>9f05c21c-610a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:16:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[English page: This box is red!]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00047.xml</source>
+			<destination>unify-demo/.content/texts/t_00047.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>85e10bca-610f-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>85e10bcb-610f-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:51:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Text elements: Text in different flavours]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00048.xml</source>
+			<destination>unify-demo/.content/texts/t_00048.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>96ad4988-6113-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>96ad4989-6113-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 10:20:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Text elements: Texts]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00049.xml</source>
+			<destination>unify-demo/.content/texts/t_00049.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>6f9564f1-6114-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>6f9564f2-6114-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 10:26:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image elements: Images]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00050.xml</source>
+			<destination>unify-demo/.content/texts/t_00050.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>586c3b02-611a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>586c3b03-611a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 11:09:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Icon elements: OpenCms is awesome!]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00051.xml</source>
+			<destination>unify-demo/.content/texts/t_00051.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>70bb1524-611e-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>70bb1525-611e-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 11:38:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Icon elements: Icon Boxes]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3632,6 +8265,227 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00029.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00029.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>5e93354c-6103-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>5e93354d-6103-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:24:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Two columns: Powerful]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00030.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00030.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>72e1e0b0-6103-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>72e1e0b1-6103-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:25:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Two columns: Great]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00031.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00031.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>86d9b984-6103-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>86d9b985-6103-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:25:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Two columns: Super]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00032.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00032.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>9760ae89-6103-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>9760ae8a-6103-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:26:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Two columns: Awesome]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00033.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00033.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>7bfee371-6109-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>7bfee372-6109-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:08:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: Powerful yet simple]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00034.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00034.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>a1987018-6109-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>a1987019-6109-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:09:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: More features than ever]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00035.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00035.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>c7625b90-6109-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>c7625b91-6109-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:10:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Home: Great responsive template]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00036.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00036.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>c7d67314-610c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>c7d67315-610c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:32:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[English page: Powerful]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00037.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00037.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>fcd04f08-610c-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>fcd04f09-610c-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:33:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[English page: Intuitive]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00038.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00038.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>25da233c-610d-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>25da233d-610d-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:34:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[English page: Responsive]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00039.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00039.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>44e1b5f2-610d-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>44e1b5f3-610d-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:35:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[English page: Fun]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00040.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00040.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>8e1e9fe5-6114-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>8e1e9fe6-6114-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 10:27:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image elements: Egg holders]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00041.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00041.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>f1b99649-6114-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>f1b9964a-6114-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 10:30:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image elements: Egg holders (Streched)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/about</destination>
 			<type>folder</type>
 			<uuidstructure>2ecd1050-6071-11e5-9eef-0242ac11002b</uuidstructure>
@@ -3768,6 +8622,194 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/element-pages</destination>
+			<type>folder</type>
+			<uuidstructure>fbf6580e-610e-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 09:47:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[664.39844]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Element pages]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Element pages]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/element-pages/index.html</source>
+			<destination>unify-demo/element-pages/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>fbfb3a14-610e-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>fbfb3a15-610e-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:47:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/element-pages/icon-elements</destination>
+			<type>folder</type>
+			<uuidstructure>e2840e80-6119-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 11:05:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[3.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Icon elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Icon elements]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/element-pages/icon-elements/index.html</source>
+			<destination>unify-demo/element-pages/icon-elements/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>e287df16-6119-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>e287df17-6119-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 11:05:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Icon elements]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/element-pages/image-elements</destination>
+			<type>folder</type>
+			<uuidstructure>cce34efd-6113-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 10:22:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Image elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image elements]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/element-pages/image-elements/index.html</source>
+			<destination>unify-demo/element-pages/image-elements/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>cce9b7a3-6113-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>cce9b7a4-6113-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 10:22:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image elements]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/element-pages/text-elements</destination>
+			<type>folder</type>
+			<uuidstructure>110cc04c-610f-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 09:48:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Text elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Text elements]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/element-pages/text-elements/index.html</source>
+			<destination>unify-demo/element-pages/text-elements/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>111069d2-610f-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>111069d3-610f-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:48:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Text elements]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/events</destination>
 			<type>folder</type>
 			<uuidstructure>6d5ed3a4-5c78-11e5-96ab-0242ac11002b</uuidstructure>
@@ -3776,7 +8818,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[750.25]]></value>
+					<value><![CDATA[703.4219]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -3848,6 +8890,46 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>unify-demo/grid-example</destination>
+			<type>folder</type>
+			<uuidstructure>f70ce256-6107-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 08:57:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[736.5918]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Extreme Grid]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extreme Grid]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/grid-example/index.html</source>
+			<destination>unify-demo/grid-example/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>f711eb6b-6107-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>f711eb6c-6107-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 08:57:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extreme Grid]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/home</destination>
 			<type>folder</type>
 			<uuidstructure>d53f32c1-5c61-11e5-96ab-0242ac11002b</uuidstructure>
@@ -3882,6 +8964,153 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Home]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/multi-language</destination>
+			<type>folder</type>
+			<uuidstructure>2b9d899b-610a-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 09:13:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[738.54297]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Multi language]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Multi language]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/multi-language/index.html</source>
+			<destination>unify-demo/multi-language/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>2ba15a31-610a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>2ba15a32-610a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:13:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/multi-language/english</destination>
+			<type>folder</type>
+			<uuidstructure>4a1d75ce-610a-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 09:14:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[English page]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[English page]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/multi-language/english/index.html</source>
+			<destination>unify-demo/multi-language/english/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>4a21bb94-610a-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>4a21bb95-610a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:14:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[English page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/multi-language/german</destination>
+			<type>folder</type>
+			<uuidstructure>989cccc5-610d-11e5-9eef-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 22 Sep 2015 09:37:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Deutsche Seite]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Deutsche Seite]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[de]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/multi-language/german/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>98a187bb-610d-11e5-9eef-0242ac11002b</uuidstructure>
+			<uuidresource>4a21bb95-610a-11e5-9eef-0242ac11002b</uuidresource>
+			<datecreated>Tue, 22 Sep 2015 09:14:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Deutsche Seite]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -4082,6 +9311,47 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Two columns]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>index.html</source>
+			<destination>index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>37a44795-5ab9-11e4-955d-005056b61161</uuidstructure>
+			<uuidresource>37a44796-5ab9-11e4-955d-005056b61161</uuidresource>
+			<datecreated>Thu, 23 Oct 2014 13:33:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavInfo</name>
+					<value><![CDATA[ignoreInDefaultNav]]></value>
+				</property>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.026249997]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Redirect to overview page]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Redirect to overview page]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>

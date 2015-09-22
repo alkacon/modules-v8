@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[More features than ever]]></Headline>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/people/17.jpg]]></target>
+        <uuid>1b88f3f3-590b-11e4-903d-005056b61161</uuid>
+        <query><![CDATA[__scale=h:600,w:600,cx:13,cy:69,ch:740,cw:741]]></query>
+      </link>
+    </Image>
+    <Copyright><![CDATA[pixabay.com]]></Copyright>
+  </XmlImage>
+</XmlImages>

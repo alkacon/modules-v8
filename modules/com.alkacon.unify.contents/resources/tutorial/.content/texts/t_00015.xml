@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[Start exploring OpenCms]]></Headline>
+    <Text name="Text0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/unify-demo/]]></target>
+          <uuid>acb43685-5224-11e5-9495-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<h4>Congratulations!</h4>
+<p>Now you know&nbsp;how&nbsp;to manage contents in OpenCms. Of course, there are many more possibilities. OpenCms is a full featured website CMS that allows creation of the most demanding websites.</p>
+<h4>Click on any of the boxes below to continue exploring</h4>
+<p>The <strong><em>Release Notes</em></strong> contain information about what is new in this OpenCms release. Our&nbsp;<em><strong>Documentation</strong></em>&nbsp;contains in depth information&nbsp;about how to manage and develop websites with OpenCms.</p>
+<p>We recommend you start with the <a href="%(link0)"><em><strong>OpenCms Demo Website</strong></em></a>, which provides a full featured, nice looking example.</p>]]></content>
+    </Text>
+  </UnifyText>
+</UnifyTexts>

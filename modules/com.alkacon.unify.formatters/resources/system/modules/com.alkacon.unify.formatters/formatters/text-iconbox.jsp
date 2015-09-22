@@ -16,7 +16,7 @@
             <c:if test="${value.Link.exists}"><a href="<cms:link>${value.Link.value.URI}</cms:link>"<c:if test="${value.Link.value.Text.isSet}"> title="${value.Link.value.Text}"</c:if>></c:if>
   			<h2 class="heading-md" ${rdfa.Headline}>${value.Headline}</h2>
   			<div><i class="${cms.element.setting.iconclass.isSet ? cms.element.setting.iconclass : "icon-lg icon-bg-default fa fa-lightbulb-o" }"></i></div>
-  			<p ${rdfa.Text}>${value.Text}</p>
+  			<div ${rdfa.Text}>${value.Text}</div>
   			<c:if test="${value.Link.exists}"></a></c:if>
         </c:otherwise>
     </c:choose>

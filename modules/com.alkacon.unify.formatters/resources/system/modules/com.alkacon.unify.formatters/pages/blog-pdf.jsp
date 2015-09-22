@@ -5,8 +5,8 @@
 <cms:contentaccess var="content" />
 <head>
 <title>${content.value.Title}</title>
-<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.basics/resources/bootstrap/css/bootstrap.min.css</cms:link>" type="text/css" />
-<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.bootstrap.formatters/resources/css/page.css</cms:link>" type="text/css" />		 	
+<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.unify.basics/resources/css/styles-main.min.css</cms:link>" type="text/css" />
+<link rel="stylesheet" href="<cms:link>/system/modules/com.alkacon.unify.basics/resources/css/style-red.min.css</cms:link>" type="text/css" />		 	
 </head>
 <body>
 <div class="blog-page">

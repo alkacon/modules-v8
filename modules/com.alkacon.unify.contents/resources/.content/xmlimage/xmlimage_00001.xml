@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[Login image]]></Headline>
+    <Text><![CDATA[OpenCms Login]]></Text>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/slider/bg_sl_05.jpg]]></target>
+        <uuid>d520dc78-5861-11e4-a786-005056b61161</uuid>
+        <query><![CDATA[__scale=h:245,w:1496,cx:195,cy:7,ch:245,cw:1496]]></query>
+      </link>
+    </Image>
+  </XmlImage>
+</XmlImages>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[Demo Website]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Example responsive website using a grid layout template based on Bootstrap.</p>]]></content>
+    </Text>
+    <Link>
+      <Text><![CDATA[Demo Website]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/unify-demo/]]></target>
+          <uuid>acb43685-5224-11e5-9495-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </Link>
+  </UnifyText>
+</UnifyTexts>
