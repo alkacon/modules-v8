@@ -178,10 +178,15 @@ $colored-box-positions:
 
 .footer-default .copyright {
     background-color: #dddddd; //$gray;
+    border-top: 1px solid #777;
 }
 
 .footer-default .copyright p {
     color: #333333; //$text-dark;
+}
+
+.footer-default .header {
+	border: none;
 }
 
 /* Jumbotron headline.
@@ -196,8 +201,8 @@ $colored-box-positions:
 
 .reg-page {
     background: none repeat scroll 0 0 #FEFEFE;
-    border: 1px solid $gray-lighter;
-    box-shadow: 0 0 3px $gray-lighter;
+    border: 1px solid $gray-light;
+    box-shadow: 0 0 3px $gray-light;
     color: $gray-darker;
 	margin: 0 auto;
     padding: 30px;
@@ -304,6 +309,34 @@ $colored-box-positions:
 
 .sidebar-nav-v1 li ul, .sidebar-nav-v1 li.active ul a {
 	background-color: $nav-left-sub-bg;
+}
+
+/* Service Boxes.
+----------------------------------------------------------------------------- */
+
+.service-block a:hover, .service-block-in a:hover {
+	text-decoration: none;
+}
+
+.service-block-colored {
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.service-block-colored:hover {
+  opacity: 0.8;
+}
+
+.service-block-colored.service-block-default:hover {
+  box-shadow: 0 0 8px #DDDDDD;
+}
+
+.service-block-colored.service-block-default:hover h2, .service-block-colored.service-block-default:hover i {
+  color:    #72c02c;
+}
+
+/* Paragraphs in service blocks should use default margins */
+.tag-box p {
+  margin: 0 0 10px;
 }
 
 /* Slider additional styles.
