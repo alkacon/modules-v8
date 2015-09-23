@@ -6,6 +6,6 @@
     <TypesToCollect><![CDATA[event]]></TypesToCollect>
     <FilterQueries/>
     <SortOrder><![CDATA[asc]]></SortOrder>
-    <ItemsPerPage><![CDATA[4]]></ItemsPerPage>
+    <ItemsPerPage><![CDATA[5]]></ItemsPerPage>
   </UnifyList>
 </UnifyLists>

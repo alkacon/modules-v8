@@ -2,9 +2,9 @@
 
 <UnifyEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/event.xsd">
   <UnifyEvent language="en">
-    <Title><![CDATA[Annual Autumn Assembly]]></Title>
-    <Date>1477814400000</Date>
-    <EndDate>1478016000000</EndDate>
+    <Title><![CDATA[Core Developer Convention]]></Title>
+    <Date>1469862000000</Date>
+    <EndDate>1548604800000</EndDate>
     <Teaser><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></Teaser>
     <Paragraph>
       <Text name="Text0">
@@ -14,8 +14,8 @@
       <Image>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.galleries/samples/42.jpg]]></target>
-            <uuid>5df10820-61f4-11e5-bcba-0242ac11002b</uuid>
+            <target><![CDATA[/sites/default/.galleries/samples/41.jpg]]></target>
+            <uuid>626949db-61f4-11e5-bcba-0242ac11002b</uuid>
           </link>
         </Image>
         <Title/>
@@ -31,10 +31,10 @@
         <uuid>caf3e85e-5534-11e4-af67-005056b61161</uuid>
       </link>
     </Category>
-    <Location><![CDATA[MediaPark, Cologne]]></Location>
+    <Location><![CDATA[Haus der Kulturen der Welt, Berlin]]></Location>
     <Address name="Address0">
       <links/>
-      <content><![CDATA[<p>Im Mediapark<br />50670 Köln<br />Germany</p>]]></content>
+      <content><![CDATA[<div class="cards-text-truncate-and-wrap">John-Foster-Dulles-Allee 10<br />10557 Berlin<br />Germany</div>]]></content>
     </Address>
   </UnifyEvent>
 </UnifyEvents>

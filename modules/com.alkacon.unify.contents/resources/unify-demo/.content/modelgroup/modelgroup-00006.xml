@@ -37,15 +37,15 @@
           </Value>
         </Properties>
         <Properties>
-          <Name><![CDATA[templateContexts]]></Name>
-          <Value>
-            <String><![CDATA[desktop|tablet|mobile]]></String>
-          </Value>
-        </Properties>
-        <Properties>
           <Name><![CDATA[use_as_copy_model]]></Name>
           <Value>
             <String><![CDATA[true]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|tablet|mobile]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -107,7 +107,7 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[660d666b-605c-11e5-9199-0242ac11002b]]></String>
+            <String><![CDATA[8fa362dd-61c1-11e5-bcba-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -151,15 +151,15 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[660d666c-605c-11e5-9199-0242ac11002b]]></String>
+            <String><![CDATA[8fa389ee-61c1-11e5-bcba-0242ac11002b]]></String>
           </Value>
         </Properties>
       </Elements>
     </Containers>
     <Containers>
-      <Name><![CDATA[660d666c-605c-11e5-9199-0242ac11002b-c1]]></Name>
+      <Name><![CDATA[8fa389ee-61c1-11e5-bcba-0242ac11002b-c1]]></Name>
       <Type><![CDATA[container,default]]></Type>
-      <ParentInstanceId><![CDATA[660d666c-605c-11e5-9199-0242ac11002b]]></ParentInstanceId>
+      <ParentInstanceId><![CDATA[8fa389ee-61c1-11e5-bcba-0242ac11002b]]></ParentInstanceId>
       <Elements>
         <Uri>
           <link type="STRONG">
@@ -181,7 +181,19 @@
           </Value>
         </Properties>
         <Properties>
+          <Name><![CDATA[formatterSettings#3aa71964-61c1-11e5-bcba-0242ac11002b-c1]]></Name>
+          <Value>
+            <String><![CDATA[77afe200-5578-11e5-8d6b-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
           <Name><![CDATA[formatterSettings#3c8c3f4d-605c-11e5-9199-0242ac11002b-c1]]></Name>
+          <Value>
+            <String><![CDATA[77afe200-5578-11e5-8d6b-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[formatterSettings#8fa389ee-61c1-11e5-bcba-0242ac11002b-c1]]></Name>
           <Value>
             <String><![CDATA[77afe200-5578-11e5-8d6b-0242ac11002b]]></String>
           </Value>
@@ -213,7 +225,7 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[660d666d-605c-11e5-9199-0242ac11002b]]></String>
+            <String><![CDATA[8fa389ef-61c1-11e5-bcba-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -231,9 +243,9 @@
       </Elements>
     </Containers>
     <Containers>
-      <Name><![CDATA[660d666c-605c-11e5-9199-0242ac11002b-c2]]></Name>
-      <Type><![CDATA[default]]></Type>
-      <ParentInstanceId><![CDATA[660d666c-605c-11e5-9199-0242ac11002b]]></ParentInstanceId>
+      <Name><![CDATA[8fa389ee-61c1-11e5-bcba-0242ac11002b-c2]]></Name>
+      <Type><![CDATA[container,default]]></Type>
+      <ParentInstanceId><![CDATA[8fa389ee-61c1-11e5-bcba-0242ac11002b]]></ParentInstanceId>
       <Elements>
         <Uri>
           <link type="STRONG">
@@ -261,6 +273,18 @@
           </Value>
         </Properties>
         <Properties>
+          <Name><![CDATA[formatterSettings#3aa71964-61c1-11e5-bcba-0242ac11002b-c2]]></Name>
+          <Value>
+            <String><![CDATA[3677fe84-5bc0-11e5-8f8e-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[formatterSettings#8fa389ee-61c1-11e5-bcba-0242ac11002b-c2]]></Name>
+          <Value>
+            <String><![CDATA[3677fe84-5bc0-11e5-8f8e-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
           <Name><![CDATA[formatterSettings#660d666c-605c-11e5-9199-0242ac11002b-c2]]></Name>
           <Value>
             <String><![CDATA[3677fe84-5bc0-11e5-8f8e-0242ac11002b]]></String>
@@ -281,7 +305,7 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[660d666e-605c-11e5-9199-0242ac11002b]]></String>
+            <String><![CDATA[8fa389f0-61c1-11e5-bcba-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>

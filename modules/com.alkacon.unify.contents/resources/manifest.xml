@@ -420,6 +420,84 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>.content/.templates</destination>
+			<type>folder</type>
+			<uuidstructure>57959d3b-61d1-11e5-bcba-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 23 Sep 2015 08:59:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/.templates/templatemodel_0001.html</source>
+			<destination>.content/.templates/templatemodel_0001.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>8b62b902-61d1-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>8b62b903-61d1-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 09:00:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Classic left and center column layout]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Template: Left column page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/.templates/templatemodel_0002.html</source>
+			<destination>.content/.templates/templatemodel_0002.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>33cedf69-61d2-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>33cedf6a-61d2-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 09:05:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Classic right and center column layout]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Template: Right column page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/.templates/templatemodel_0003.html</source>
+			<destination>.content/.templates/templatemodel_0003.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>dd905ca1-61d2-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>dd905ca2-61d2-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 09:09:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Classic left sidebar with navigation layout]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Unify Template: Left sidebar with navigation page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>.content/flexiblecontents</destination>
 			<type>folder</type>
 			<uuidstructure>35114bc1-60f8-11e5-9eef-0242ac11002b</uuidstructure>
@@ -2358,6 +2436,111 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Copyright</name>
 					<value><![CDATA[pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/39.jpg</source>
+			<destination>.galleries/samples/39.jpg</destination>
+			<type>image</type>
+			<uuidstructure>615b0e25-61f4-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>615b0e26-61f4-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 13:09:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[(c) Roland Fischer, Zürich (Switzerland) – Mail notification to: roland_zh(at)hispeed(dot)ch / Wikimedia Commons, via Wikimedia Commons]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/40.jpg</source>
+			<destination>.galleries/samples/40.jpg</destination>
+			<type>image</type>
+			<uuidstructure>61eb6748-61f4-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>61eb6749-61f4-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 13:09:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[By Namedina. Cropped by Oleg Alexandrov (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY 2.5 (http://creativecommons.org/licenses/by/2.5)], via Wikimedia Commons]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/41.jpg</source>
+			<destination>.galleries/samples/41.jpg</destination>
+			<type>image</type>
+			<uuidstructure>626949db-61f4-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>626949dc-61f4-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 13:09:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[By Farbkontrast (Own work) [CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/42.jpg</source>
+			<destination>.galleries/samples/42.jpg</destination>
+			<type>image</type>
+			<uuidstructure>5df10820-61f4-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>5df10821-61f4-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 13:09:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[(c) Raimond Spekking, via Wikimedia Commons]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/43.jpg</source>
+			<destination>.galleries/samples/43.jpg</destination>
+			<type>image</type>
+			<uuidstructure>60d31972-61f4-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>60d31973-61f4-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 13:09:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Public Domain, via Wikimedia Commons]]></value>
 				</property>
 				<property type="shared">
 					<name>image.size</name>
@@ -5405,11 +5588,32 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[Contains all default page models]]></value>
+					<value><![CDATA[Contains all reusable page models]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Default page models]]></value>
+					<value><![CDATA[Reusable page models]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/.modelgroups/modelgroup_0002.html</source>
+			<destination>unify-demo/.content/.modelgroups/modelgroup_0002.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>325c99f3-61c1-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>325c99f4-61c1-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 07:03:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Contains all page models that are copied]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Copy page models]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -5948,18 +6152,6 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>unify-demo/.content/blogentries/be_00011.xml</source>
-			<destination>unify-demo/.content/blogentries/be_00011.xml</destination>
-			<type>u-blog</type>
-			<uuidstructure>516d9917-613b-11e5-bcba-0242ac11002b</uuidstructure>
-			<uuidresource>516d9918-613b-11e5-bcba-0242ac11002b</uuidresource>
-			<datecreated>Tue, 22 Sep 2015 15:05:10 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>unify-demo/.content/blogentries/.detailContainers</destination>
 			<type>folder</type>
 			<uuidstructure>cc5efebb-5c73-11e5-96ab-0242ac11002b</uuidstructure>
@@ -6100,7 +6292,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Test event]]></value>
+					<value><![CDATA[Annual Autumn Assembly]]></value>
 				</property>
 			</properties>
 			<relations>
@@ -6125,6 +6317,425 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 					<type>CATEGORY</type>
 				</relation>
 			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00002.xml</source>
+			<destination>unify-demo/.content/events/ev_00002.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>55421367-61fa-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>55421368-61fa-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 13:52:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Presentation of One More Thing]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>f41fca37-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/northamerica/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00003.xml</source>
+			<destination>unify-demo/.content/events/ev_00003.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>37a43820-61fc-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>37a43821-61fc-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:05:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Pre-Release Poster Party]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00004.xml</source>
+			<destination>unify-demo/.content/events/ev_00004.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>a03db738-61fc-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>a03db739-61fc-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:08:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Summer Jam]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00005.xml</source>
+			<destination>unify-demo/.content/events/ev_00005.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>1a994365-61fd-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>1a994366-61fd-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:12:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Core Developer Convention]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00006.xml</source>
+			<destination>unify-demo/.content/events/ev_00006.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>8513906d-61fd-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>8513906e-61fd-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:15:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Gathering of Advice Experts]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00007.xml</source>
+			<destination>unify-demo/.content/events/ev_00007.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>ace42155-61fd-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>ace42156-61fd-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:16:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Mindful Members Mingling]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>f41fca37-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/northamerica/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00008.xml</source>
+			<destination>unify-demo/.content/events/ev_00008.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>0b40c6f1-61fe-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>0b40c6f2-61fe-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:19:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sane Security Conference]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00009.xml</source>
+			<destination>unify-demo/.content/events/ev_00009.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>73435d3d-61fe-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>73435d3e-61fe-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:21:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Mixed Meeting of Important People]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00010.xml</source>
+			<destination>unify-demo/.content/events/ev_00010.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>f483be4e-61fe-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>f483be4f-61fe-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:25:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Christmas Tree Convention]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>e73ef9d1-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/europe/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/ev_00011.xml</source>
+			<destination>unify-demo/.content/events/ev_00011.xml</destination>
+			<type>u-event</type>
+			<uuidstructure>160ca3b6-61ff-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>160ca3b7-61ff-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:26:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Happy Hacking Days]]></value>
+				</property>
+			</properties>
+			<relations>
+				<relation>
+					<id>da3592ce-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>f41fca37-7193-11e0-87bc-000c2972a6a4</id>
+					<path>/.categories/location/northamerica/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>a37520f5-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/</path>
+					<type>CATEGORY</type>
+				</relation>
+				<relation>
+					<id>caf3e85e-5534-11e4-af67-005056b61161</id>
+					<path>/.categories/topic/machines/</path>
+					<type>CATEGORY</type>
+				</relation>
+			</relations>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/.content/events/.detailContainers</destination>
+			<type>folder</type>
+			<uuidstructure>7efcb664-61f9-11e5-bcba-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 23 Sep 2015 13:46:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00001.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00001.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>7eff0057-61f9-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>7eff0058-61f9-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 13:46:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00002.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00002.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>a2d01736-61fb-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>a2d01737-61fb-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:01:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
@@ -6292,6 +6903,57 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>unify-demo/.content/maps/m_00003.xml</source>
+			<destination>unify-demo/.content/maps/m_00003.xml</destination>
+			<type>u-map</type>
+			<uuidstructure>d98c332e-61ef-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>d98c332f-61ef-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 12:37:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Company Location]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/maps/m_00004.xml</source>
+			<destination>unify-demo/.content/maps/m_00004.xml</destination>
+			<type>u-map</type>
+			<uuidstructure>8b82205a-61f9-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>8b82205b-61f9-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 13:46:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[MediaPark]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/maps/m_00005.xml</source>
+			<destination>unify-demo/.content/maps/m_00005.xml</destination>
+			<type>u-map</type>
+			<uuidstructure>ab76c059-61fb-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>ab76c05a-61fb-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 14:02:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Lawrence Hall of Science, San Francisco]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/modelgroup</destination>
 			<type>folder</type>
 			<uuidstructure>5fea2add-5637-11e5-bfd9-0242ac11002b</uuidstructure>
@@ -6384,6 +7046,14 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 					<name>Title</name>
 					<value><![CDATA[Article with image left]]></value>
 				</property>
+				<property>
+					<name>template-elements</name>
+					<value><![CDATA[use_as_copy_model]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[use_as_copy_model]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
@@ -6412,6 +7082,14 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property type="shared">
 					<name>Title</name>
 					<value><![CDATA[Article with image right]]></value>
+				</property>
+				<property>
+					<name>template-elements</name>
+					<value><![CDATA[use_as_copy_model]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[use_as_copy_model]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6442,6 +7120,14 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 					<name>Title</name>
 					<value><![CDATA[Article with headline, image left]]></value>
 				</property>
+				<property>
+					<name>template-elements</name>
+					<value><![CDATA[use_as_copy_model]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[use_as_copy_model]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
@@ -6470,6 +7156,14 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property type="shared">
 					<name>Title</name>
 					<value><![CDATA[Article with headline, image right]]></value>
+				</property>
+				<property>
+					<name>template-elements</name>
+					<value><![CDATA[use_as_copy_model]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[use_as_copy_model]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -7791,6 +8485,40 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>unify-demo/.content/texts/t_00052.xml</source>
+			<destination>unify-demo/.content/texts/t_00052.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>55d2c676-61f0-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>55d2c677-61f0-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 12:40:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Location: Meet us!]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00053.xml</source>
+			<destination>unify-demo/.content/texts/t_00053.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>821959c8-61f1-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>821959c9-61f1-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 12:49:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Location: Company Address]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/ugc_config</destination>
 			<type>folder</type>
 			<uuidstructure>13fd4cbb-613b-11e5-bcba-0242ac11002b</uuidstructure>
@@ -8516,6 +9244,40 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00042.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00042.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>8a041f0a-61ec-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>8a041f0b-61ec-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 12:13:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Location: Building]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00043.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00043.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>b073320c-61f1-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>b073320d-61f1-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 12:50:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Location: Company Building]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/about</destination>
 			<type>folder</type>
 			<uuidstructure>2ecd1050-6071-11e5-9eef-0242ac11002b</uuidstructure>
@@ -8700,7 +9462,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[664.39844]]></value>
+					<value><![CDATA[735.6162]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -9034,6 +9796,46 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Home]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>unify-demo/location</destination>
+			<type>folder</type>
+			<uuidstructure>3e52d506-61ec-11e5-bcba-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 23 Sep 2015 12:11:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[660.4961]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Location]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Location]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/location/index.html</source>
+			<destination>unify-demo/location/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>3e59169b-61ec-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>3e59169c-61ec-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 12:11:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Location]]></value>
 				</property>
 			</properties>
 			<relations/>

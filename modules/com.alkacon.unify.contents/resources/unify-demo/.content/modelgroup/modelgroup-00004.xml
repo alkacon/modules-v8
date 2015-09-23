@@ -37,15 +37,15 @@
           </Value>
         </Properties>
         <Properties>
-          <Name><![CDATA[templateContexts]]></Name>
-          <Value>
-            <String><![CDATA[desktop|tablet|mobile]]></String>
-          </Value>
-        </Properties>
-        <Properties>
           <Name><![CDATA[use_as_copy_model]]></Name>
           <Value>
             <String><![CDATA[true]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[templateContexts]]></Name>
+          <Value>
+            <String><![CDATA[desktop|tablet|mobile]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -107,7 +107,7 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[660d3f55-605c-11e5-9199-0242ac11002b]]></String>
+            <String><![CDATA[8fa33bc7-61c1-11e5-bcba-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -120,7 +120,7 @@
     </Containers>
     <Containers>
       <Name><![CDATA[e10f2c3b-5c5d-11e5-96ab-0242ac11002b-c2]]></Name>
-      <Type><![CDATA[default]]></Type>
+      <Type><![CDATA[container,default]]></Type>
       <ParentInstanceId><![CDATA[e10f2c3b-5c5d-11e5-96ab-0242ac11002b]]></ParentInstanceId>
       <Elements>
         <Uri>
@@ -151,7 +151,7 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[660d3f56-605c-11e5-9199-0242ac11002b]]></String>
+            <String><![CDATA[8fa33bc8-61c1-11e5-bcba-0242ac11002b]]></String>
           </Value>
         </Properties>
       </Elements>

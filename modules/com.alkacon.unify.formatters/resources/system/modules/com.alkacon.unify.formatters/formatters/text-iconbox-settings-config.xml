@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Text as Icon Box formatter (Settings)]]></NiceName>
+    <Type><![CDATA[u-text]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/text-iconbox-settings.jsp]]></target>
+        <uuid>3c563088-61e3-11e5-bcba-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[500]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[default]]></ContainerType>
+        <ContainerType><![CDATA[text]]></ContainerType>
+        <ContainerType><![CDATA[iconbox]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[color]]></PropertyName>
+      <DisplayName><![CDATA[Color]]></DisplayName>
+      <Description><![CDATA[The background color of the box.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[red]]></Default>
+      <WidgetConfig><![CDATA[red:Red|purple:Purple|blue:Blue|green:Green|yellow:Yellow|orange:Orange|brown:Brown]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[rounded]]></PropertyName>
+      <DisplayName><![CDATA[Rounded corners]]></DisplayName>
+      <Description><![CDATA[Select this for rounded corners.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[x]]></Default>
+      <WidgetConfig><![CDATA[x:None|rounded:4px|rounded-2x:10px|rounded-4x:20px|rounded-x:50%]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[icon]]></PropertyName>
+      <DisplayName><![CDATA[Icon]]></DisplayName>
+      <Description><![CDATA[Select the displayed icon.]]></Description>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[star]]></Default>
+      <WidgetConfig><![CDATA[bookmark:Bookmark|key:Key|lightbulb-o:Lightbulb|star:Star|thumbs-up:Thumbs-Up|]]></WidgetConfig>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

@@ -2,9 +2,9 @@
 
 <UnifyEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/event.xsd">
   <UnifyEvent language="en">
-    <Title><![CDATA[Annual Autumn Assembly]]></Title>
-    <Date>1477814400000</Date>
-    <EndDate>1478016000000</EndDate>
+    <Title><![CDATA[Mindful Members Mingling]]></Title>
+    <Date>1459494000000</Date>
+    <EndDate>1459522800000</EndDate>
     <Teaser><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></Teaser>
     <Paragraph>
       <Text name="Text0">
@@ -14,8 +14,8 @@
       <Image>
         <Image>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/.galleries/samples/42.jpg]]></target>
-            <uuid>5df10820-61f4-11e5-bcba-0242ac11002b</uuid>
+            <target><![CDATA[/sites/default/.galleries/samples/40.jpg]]></target>
+            <uuid>61eb6748-61f4-11e5-bcba-0242ac11002b</uuid>
           </link>
         </Image>
         <Title/>
@@ -23,18 +23,18 @@
     </Paragraph>
     <Category>
       <link type="WEAK">
-        <target><![CDATA[/sites/default/.categories/location/europe/]]></target>
-        <uuid>e73ef9d1-7193-11e0-87bc-000c2972a6a4</uuid>
+        <target><![CDATA[/sites/default/.categories/location/northamerica/]]></target>
+        <uuid>f41fca37-7193-11e0-87bc-000c2972a6a4</uuid>
       </link>
       <link type="WEAK">
         <target><![CDATA[/sites/default/.categories/topic/machines/]]></target>
         <uuid>caf3e85e-5534-11e4-af67-005056b61161</uuid>
       </link>
     </Category>
-    <Location><![CDATA[MediaPark, Cologne]]></Location>
+    <Location><![CDATA[Lawrence Hall of Science, San Francisco]]></Location>
     <Address name="Address0">
       <links/>
-      <content><![CDATA[<p>Im Mediapark<br />50670 Köln<br />Germany</p>]]></content>
+      <content><![CDATA[<p>1 Centennial Drive<br />Berkeley, CA 94720-5200<br />510-642-5132</p>]]></content>
     </Address>
   </UnifyEvent>
 </UnifyEvents>

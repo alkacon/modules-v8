@@ -1043,7 +1043,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Text as Icon Box formatter]]></value>
+					<value><![CDATA[Text as Icon Box formatter (CSS)]]></value>
 				</property>
 				<property>
 					<name>locale</name>
@@ -1056,6 +1056,40 @@
 				<property>
 					<name>search.exclude</name>
 					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/text-iconbox-settings-config.xml</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/text-iconbox-settings-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>35691e46-61e3-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>35691e47-61e3-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 11:06:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Text as Icon Box formatter (Settings)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.unify.formatters/formatters/text-iconbox-settings.jsp</source>
+			<destination>system/modules/com.alkacon.unify.formatters/formatters/text-iconbox-settings.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>3c563088-61e3-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>3c563089-61e3-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 11:07:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
 				</property>
 			</properties>
 			<relations/>

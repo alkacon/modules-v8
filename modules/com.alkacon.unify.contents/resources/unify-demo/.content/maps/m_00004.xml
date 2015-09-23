@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/map.xsd">
+  <UnifyMap language="en">
+    <Headline><![CDATA[MediaPark]]></Headline>
+    <Text name="Text0">
+      <links/>
+      <content/>
+    </Text>
+    <MapSize><![CDATA[100%x400]]></MapSize>
+    <MapType><![CDATA[ROADMAP]]></MapType>
+    <MapZoom><![CDATA[14]]></MapZoom>
+    <Route>true</Route>
+    <ShowMarkers>true</ShowMarkers>
+    <MapCoord>
+      <Caption/>
+      <Coord><![CDATA[{"lat":50.9478274,"lng":6.943844899999931,"zoom":14,"type":"roadmap","mode":"dynamic","address":"Im Mediapark, 50670 Köln, Germany"}]]></Coord>
+    </MapCoord>
+  </UnifyMap>
+</UnifyMaps>

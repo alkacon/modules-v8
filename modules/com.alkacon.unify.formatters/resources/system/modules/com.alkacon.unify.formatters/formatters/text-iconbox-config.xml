@@ -2,7 +2,7 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
-    <NiceName><![CDATA[Text as Icon Box formatter]]></NiceName>
+    <NiceName><![CDATA[Text as Icon Box formatter (CSS)]]></NiceName>
     <Type><![CDATA[u-text]]></Type>
     <Jsp>
       <link type="WEAK">
