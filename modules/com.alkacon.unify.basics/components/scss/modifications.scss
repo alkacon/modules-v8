@@ -245,6 +245,11 @@ $colored-box-positions:
 
 // Main menu
 
+/* Workaround for too thick border above slider */
+.header {
+	margin-bottom: -2px;
+}
+
 .header .navbar-nav>.active>a, .header .navbar-nav>.active>a:hover {
   border-bottom-color: $nav-main-color-active;
   color: $nav-main-color-active;
