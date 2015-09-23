@@ -157,7 +157,6 @@ module.exports = function(grunt) {
 
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-compile-handlebars');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -166,5 +165,4 @@ module.exports = function(grunt) {
   // Default task.
   // By default, lint and run all tests.
   grunt.registerTask('default', ['sass', 'cssmin', 'uglify']);
-
 };

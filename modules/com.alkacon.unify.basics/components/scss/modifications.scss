@@ -11,6 +11,15 @@
     text-align: center;
 }
 
+/* Animated image -----------------------------------------------------------------------------*/
+
+.thumbnail-style{
+	&:hover{
+		box-shadow: none;
+	}
+}
+
+
 /* Buttons that are red should always use "OpenCms red".
 ----------------------------------------------------------------------------- */
 
@@ -190,6 +199,7 @@ $colored-box-positions:
     width: inherit;
     z-index: 100;
 }
+
 
 /* Footer colors.
 ----------------------------------------------------------------------------- */
