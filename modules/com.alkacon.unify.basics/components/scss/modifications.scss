@@ -149,6 +149,37 @@ $colored-box-borderstyles:
 	}
 }
 
+
+/* Dropdown color */
+
+@each $type-name, $bg-color in $colored-box-variants {
+
+	.btn-u.btn-u-#{""+$type-name},  .open .dropdown-toggle.btn-u.btn-u-#{""+$type-name}{
+		background-color: $bg-color; 
+		&:hover, &:focus, &:active{
+    		background: lighten($bg-color,10) !important;
+    	}   
+	}
+
+    .dropdown-#{""+$type-name}{ 
+    	  	   
+        .active a{
+        	background: lighten($bg-color,10);     
+        	&:hover{
+        		background: $bg-color; 
+        	}
+	        @if (lightness($bg-color) > 90) {
+	    		color: #000000; 
+			} @else {
+				color: #ffffff; 
+	  		}  		
+  		}
+    }
+}
+
+
+
+
 /* Line position and color */
 
 $colored-box-positions:
