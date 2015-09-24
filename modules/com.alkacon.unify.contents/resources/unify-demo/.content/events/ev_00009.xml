@@ -23,6 +23,10 @@
     </Paragraph>
     <Category>
       <link type="WEAK">
+        <target><![CDATA[/sites/default/.categories/location/africa/]]></target>
+        <uuid>ee07bb34-7193-11e0-87bc-000c2972a6a4</uuid>
+      </link>
+      <link type="WEAK">
         <target><![CDATA[/sites/default/.categories/location/europe/]]></target>
         <uuid>e73ef9d1-7193-11e0-87bc-000c2972a6a4</uuid>
       </link>

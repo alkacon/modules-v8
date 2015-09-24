@@ -29,13 +29,13 @@
 		  "pagesize" : ${param.itemsPerPage},
 		  "sortoptions" : [
 		  	<c:choose>
-			<c:when test='${param.sortOrder eq "asc"}'>			
-		  		${sortOptionAsc},	  		
-		  		${sortOptionDesc}
-		  	</c:when>
-			<c:otherwise>	  		
+			<c:when test='${param.sortOrder eq "asc"}'>	
 		  		${sortOptionDesc},
 		  		${sortOptionAsc}
+		  	</c:when>
+			<c:otherwise>
+		  		${sortOptionAsc},	  		
+		  		${sortOptionDesc}
 		  	</c:otherwise>
 		</c:choose>
 		  ],
@@ -53,108 +53,92 @@
 		<c:choose>
 			<c:when test="${search.numFound > 0}">
 				<div id="list_large_pages">
-					<form class="sky-form mb-20 mt-20">
-						<fieldset>
-							<section>
-								<div class="row">
-									<section class="col col-8">
-										<%-- Category filter --%>
-										<c:set var="facetController"
-											value="${search.controller.fieldFacets.fieldFacetController[categoryFacetField]}" />
-										<c:set var="facetResult"
-											value="${search.fieldFacet[categoryFacetField]}" />
-										<c:if
-											test="${not empty facetResult and cms:getListSize(facetResult.values) > 0}">
-											<label class="label" for="filterByCategory"><fmt:message
-													key="${facetController.config.label}" /></label>
-											<label class="select"> <select
-												name="filterByCategory"
-												onchange="reloadInnerList(this.value)" style="width: 99.9%">
-													<option
-														value="${search.stateParameters.resetFacetState[categoryFacetField]}"><fmt:message
-															key="facet.category.none" /></option>
-													<c:forEach var="value" items="${facetResult.values}">
-														<c:set var="selected">${facetController.state.isChecked[value.name] ? ' selected="selected"' : ""}</c:set>
-														<%-- BEGIN: Calculate category label --%>
-														<c:set var="itemName">${value.name}</c:set>
-														<c:set var="basePath"><%=org.opencms.relations.CmsCategoryService.getInstance().readCategory(
+					<div class="mb-20" style="float: right;">
+						<%-- Category filter --%>
+						<c:set var="facetController"
+							value="${search.controller.fieldFacets.fieldFacetController[categoryFacetField]}" />
+						<c:set var="facetResult"
+							value="${search.fieldFacet[categoryFacetField]}" />
+						<c:if
+							test="${not empty facetResult and cms:getListSize(facetResult.values) > 0}">
+
+							<div class="dropdown" style="float:left; ">
+								<button type="button" class="btn btn-default dropdown-toggle"
+									data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false" id="dropdownMenu1" aria-expanded="true">
+									<fmt:message key="${facetController.config.label}" />&nbsp;
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a
+										onclick="reloadInnerList('${search.stateParameters.resetFacetState[categoryFacetField]}')"><fmt:message
+												key="facet.category.none" /></a></li>
+									<li role="separator" class="divider"></li>
+
+									<c:forEach var="value" items="${facetResult.values}">
+										<c:set var="selected">${facetController.state.isChecked[value.name] ? ' class="active"' : ""}</c:set>
+										<%-- BEGIN: Calculate category label --%>
+										<c:set var="itemName">${value.name}</c:set>
+										<c:set var="basePath"><%=org.opencms.relations.CmsCategoryService.getInstance().readCategory(
                                             cmsObject,
                                             (String)pageContext.getAttribute("itemName"),
                                             request.getParameter("pageUri")).getBasePath()%></c:set>
-														<c:set var="basePath">${fn:substring(basePath,0,fn:length(basePath)-1)}</c:set>
-														<c:set var="folders" value='${fn:split(itemName,"/")}' />
-														<c:set var="label"></c:set>
-														<c:forEach begin="0" end="${fn:length(folders)-1}"
-															varStatus="loop">
-															<c:set var="basePath">${basePath}/${folders[loop.index]}</c:set>
-															<c:set var="label">${label} / <%=org.opencms.relations.CmsCategoryService.getInstance().getCategory(
+										<c:set var="basePath">${fn:substring(basePath,0,fn:length(basePath)-1)}</c:set>
+										<c:set var="folders" value='${fn:split(itemName,"/")}' />
+										<c:set var="label"></c:set>
+										<c:forEach begin="0" end="${fn:length(folders)-1}"
+											varStatus="loop">
+											<c:set var="basePath">${basePath}/${folders[loop.index]}</c:set>
+											<c:set var="label">${label} / <%=org.opencms.relations.CmsCategoryService.getInstance().getCategory(
                                                 cmsObject,
                                                 (String)pageContext.getAttribute("basePath")).getTitle()%></c:set>
-														</c:forEach>
-														<c:set var="label">${fn:substring(label,2,-1)}</c:set>
-														<%-- END: Calculate category label --%>
-														<option
-															value="${search.stateParameters.resetFacetState[categoryFacetField].checkFacetItem[categoryFacetField][value.name]}"
-															${selected}>${label}(${value.count})</option>
-													</c:forEach>
-											</select> <i></i>
-											</label>
-										</c:if>
-									</section>
-									<section class="col col-4">
-										<%-- Sort options --%>
-										<c:set var="sortController"
-											value="${search.controller.sorting}" />
-										<c:if
-											test="${not empty sortController and not empty sortController.config.sortOptions}">
-											<label class="label" for="sortOptions"><fmt:message
-													key="sort.options.label" /></label>
-										<%-- 	<div class="btn-group" role="group">
-												<button type="button"
-													class="btn btn-default dropdown-toggle"
-													data-toggle="dropdown" aria-haspopup="true"
-													aria-expanded="false">
-													Action <span class="caret"></span>
-												</button>
-												<ul class="dropdown-menu">
-													<li><a href="#">Action</a></li>
-													<li><a href="#">Another action</a></li>
-													<li><a href="#">Something else here</a></li>
-													<li role="separator" class="divider"></li>
-													<li><a href="#">Separated link</a></li>
-												</ul>
-											
+										</c:forEach>
+										<c:set var="label">${fn:substring(label,2,-1)}</c:set>
+										<%-- END: Calculate category label --%>
+										<li ${selected}><a
+											onclick="reloadInnerList('${search.stateParameters.resetFacetState[categoryFacetField].checkFacetItem[categoryFacetField][value.name]}')">${label}
+												(${value.count})</a>
+									</c:forEach>
+								</ul>
+							</div>
 
-												<c:set var="sortOption"
-													value="${sortController.config.sortOptions[0]}"></c:set>
-												<button type="button" class="btn btn-default"
-													onclick="reloadInnerList(this.value)"
-													value="${search.stateParameters.setSortOption[sortController.config.sortOptions[1].paramValue]}">
-													<fmt:message key="sort.options.label" />
-													<span
-														class="icon-lg fa fa-sort-${fn:endsWith(sortOption.label, 'asc')?'up':'desc'}"></span>
-												</button>
+						</c:if>
+
+						<%-- Sort options --%>
+						<c:set var="sortController" value="${search.controller.sorting}" />
+						<c:if
+							test="${not empty sortController and not empty sortController.config.sortOptions}">
+							<c:set var="sortOption"
+								value="${sortController.config.sortOptions[0]}"></c:set>
+							<c:set var="sortIndex" value="1" />
+							<c:if
+								test="${sortController.state.checkSelected[sortOption] != true}">
+								<c:set var="sortOption"
+									value="${sortController.config.sortOptions[1]}"></c:set>
+								<c:set var="sortIndex" value="0" />
+							</c:if>
 
 
-											</div> --%>
-											<label class="select"> <select name="sortOptions"
-												onchange="reloadInnerList(this.value)">
-													<c:forEach var="sortOption"
-														items="${sortController.config.sortOptions}">
-														<c:set var="selected">${sortController.state.checkSelected[sortOption] ? ' selected="selected"' : ""}</c:set>
-														<option
-															value="${search.stateParameters.setSortOption[sortOption.paramValue]}"
-															${selected}><fmt:message
-																key="${sortOption.label}" /></option>
-													</c:forEach>
-											</select> <i></i>
-											</label>
-										</c:if>
-									</section>
-								</div>
-							</section>
-						</fieldset>
-					</form>
+							<div class="dropdown" style="float:left; ">
+								<button type="button" class="btn btn-default dropdown-toggle"
+									data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false" id="dropdownMenu2" aria-expanded="true">
+									<fmt:message key="sort.options.label" />&nbsp;
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+									<c:forEach var="sortOption"
+										items="${sortController.config.sortOptions}">
+										<c:set var="selected">${sortController.state.checkSelected[sortOption] ? ' class="active"' : ""}</c:set>
+										<li ${selected}><a
+											onclick="reloadInnerList('${search.stateParameters.setSortOption[sortOption.paramValue]}')"><fmt:message
+													key="${sortOption.label}" /></a></li>
+									</c:forEach>
+								</ul>
+							</div>
+						</c:if>
+					</div>
+
 
 					<div id="list_large_page_1">
 						<c:forEach var="result" items="${search.searchResults}">
