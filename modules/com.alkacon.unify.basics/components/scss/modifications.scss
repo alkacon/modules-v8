@@ -14,6 +14,7 @@
 /* Animated image -----------------------------------------------------------------------------*/
 
 .thumbnail-style{
+	padding: 0;
 	&:hover{
 		box-shadow: none;
 	}
@@ -95,13 +96,16 @@ $colored-box-variants:
     color: $white;
 }
 
-.colored-box a {
-    color: $red-light;
+.colored-box{
+	a {
+    	color: $gray-lighter;
+    }
+    &-light a {
+    	color: $red;
+	}
 }
 
-.colored-box-light a {
-    color: $red;
-}
+
 
 .colored-box  a.btn-u,
 .colored-box-light  a.btn-u  {
