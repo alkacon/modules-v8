@@ -8,7 +8,7 @@
       <link type="WEAK">
         <target><![CDATA[/sites/default/.galleries/slider/bg_sl_06.jpg]]></target>
         <uuid>00610d7a-586c-11e4-a786-005056b61161</uuid>
-        <query><![CDATA[__scale=h:280,w:1500,cx:137,cy:108,ch:295,cw:1577]]></query>
+        <query><![CDATA[__scale=h:280,w:1500,cx:0,cy:9,ch:360,cw:1920]]></query>
       </link>
     </Image>
   </XmlImage>

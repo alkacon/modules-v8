@@ -2,11 +2,16 @@
 
 <UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
   <UnifyText language="en">
-    <Headline><![CDATA[Company Address]]></Headline>
+    <Headline><![CDATA[Contact Address]]></Headline>
     <Text name="Text0">
-      <links/>
-      <content><![CDATA[<p>Domkloster 4</p>
-<p>50667 Köln</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://alkacon.com]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<h4>Alkacon Software GmbH</h4>
+<p><strong>An der Wachsfabrik 13<br />50996 Köln (Cologne)<br /></strong><strong>Germany</strong></p>
+<p><a href="%(link0)">http://alkacon.com</a></p>]]></content>
     </Text>
   </UnifyText>
 </UnifyTexts>

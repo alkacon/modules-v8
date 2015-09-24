@@ -30,16 +30,18 @@
 				</c:if>			
 	
 				<c:set var="teaserLength">${cms.element.settings.teaserlength}</c:set>
+				<c:set var="buttonColor">${cms.element.settings.buttoncolor}</c:set>
 				<c:set var="innerPageDivId">${cms.element.id}-inner</c:set>
 				<c:set var="linkInnerPage"><cms:link>%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/list-inner.jsp:5ca5be42-5cff-11e5-96ab-0242ac11002b)</cms:link></c:set>
 				<c:set var="additionalFilterQueries">${con.value.FilterQueries}</c:set>
 				<c:set var="linkInnerPage">${linkInnerPage}?typesToCollect=${con.value.TypesToCollect}&pathes=\"/sites/default${cms.subSitePath}\"&itemsPerPage=${itemsPerPage}&teaserLength=${teaserLength}</c:set>
-				<c:set var="linkInnerPage">${linkInnerPage}&extraQueries=<%=CmsEncoder.encode((String) pageContext.getAttribute("additionalFilterQueries"))%>&__locale=${cms.locale}&sortOrder=${con.value.SortOrder}&pageUri=${cms.requestContext.uri}</c:set>
+				<c:set var="linkInnerPage">${linkInnerPage}&extraQueries=<%=CmsEncoder.encode((String) pageContext.getAttribute("additionalFilterQueries"))%>&__locale=${cms.locale}&sortOrder=${con.value.SortOrder}&pageUri=${cms.requestContext.uri}&buttonColor=${buttonColor}&teaserLength=${teaserLength}</c:set>
 				<div id="${innerPageDivId}" class="posts lists blog-item">
 					<cms:include file="%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/list-inner.jsp:5ca5be42-5cff-11e5-96ab-0242ac11002b)">
 						<cms:param name="typesToCollect">${con.value.TypesToCollect}</cms:param>
 						<cms:param name="pathes">"/sites/default${cms.subSitePath}"</cms:param>
 						<cms:param name="itemsPerPage">${itemsPerPage}</cms:param>
+						<cms:param name="buttonColor">${buttonColor}</cms:param>
 						<cms:param name="teaserLength">${teaserLength}</cms:param>
 						<cms:param name="extraQueries">${con.value.FilterQueries}</cms:param>
 						<cms:param name="__locale">${cms.locale}</cms:param>

@@ -23,7 +23,7 @@
     <form 
         id="ugcForm" 
         ugc-id="${ugcId}" 
-        back-link="${cms.typeDetailPage['bs-blog']}"
+        back-link="${cms.typeDetailPage['u-blog']}"
         method="post" 
         role="form">
         

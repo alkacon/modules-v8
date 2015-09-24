@@ -3,7 +3,7 @@
 <UnifyBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/blog.xsd">
   <UnifyBlog language="en">
     <Title><![CDATA[OpenCms is simple to use]]></Title>
-    <Date>1409817600000</Date>
+    <Date>1439817600000</Date>
     <Paragraph>
       <Text name="Text0">
         <links/>

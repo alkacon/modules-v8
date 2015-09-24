@@ -25,15 +25,15 @@
           </Value>
         </Properties>
         <Properties>
-          <Name><![CDATA[formatterSettings#page-complete]]></Name>
-          <Value>
-            <String><![CDATA[d65670f0-523d-11e5-9495-0242ac11002b]]></String>
-          </Value>
-        </Properties>
-        <Properties>
           <Name><![CDATA[model_group_title]]></Name>
           <Value>
             <String><![CDATA[Unify Release Notes Header]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[formatterSettings#page-complete]]></Name>
+          <Value>
+            <String><![CDATA[d65670f0-523d-11e5-9495-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -88,7 +88,7 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[8fa314b2-61c1-11e5-bcba-0242ac11002b]]></String>
+            <String><![CDATA[7c11f525-622d-11e5-bcba-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>

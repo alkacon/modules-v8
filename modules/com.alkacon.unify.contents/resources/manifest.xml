@@ -3364,6 +3364,40 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>release/.content/texts/t_00015.xml</source>
+			<destination>release/.content/texts/t_00015.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>10a990c5-6297-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>10a990c6-6297-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:34:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 9.5.2: Release Notes for OpenCms 9.5.2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>release/.content/texts/t_00016.xml</source>
+			<destination>release/.content/texts/t_00016.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>fea6eab6-6291-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>fea6eab7-6291-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 07:58:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 10.0.0 Alpha 1: Release Notes for OpenCms 10.0.0 Alpha 1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>release/installation</destination>
 			<type>folder</type>
 			<uuidstructure>71be36f1-6066-11e5-9199-0242ac11002b</uuidstructure>
@@ -3438,6 +3472,46 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Mailing list]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>release/opencms-10.0.0-alpha-1-notes</destination>
+			<type>folder</type>
+			<uuidstructure>4074955a-6217-11e5-bcba-0242ac11002b</uuidstructure>
+			<datecreated>Wed, 23 Sep 2015 17:19:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[50.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[OpenCms 10.0.0 Alpha 1]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 10.0.0 Alpha 1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>release/opencms-10.0.0-alpha-1-notes/index.html</source>
+			<destination>release/opencms-10.0.0-alpha-1-notes/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>4078b40f-6217-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>4078b410-6217-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 17:19:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 10.0.0 Alpha 1]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3918,6 +3992,46 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[OpenCms 9.5.1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>release/opencms-9.5.2-notes</destination>
+			<type>folder</type>
+			<uuidstructure>d06256a9-6296-11e5-bcba-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 24 Sep 2015 08:32:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[55.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[OpenCms 9.5.2]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 9.5.2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>release/opencms-9.5.2-notes/index.html</source>
+			<destination>release/opencms-9.5.2-notes/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>d070124e-6296-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>d070124f-6296-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:32:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 9.5.2]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6739,6 +6853,114 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00003.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00003.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>ba43429c-6294-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>ba43429d-6294-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:17:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00004.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00004.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>bb0a46dd-6295-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>bb0a46de-6295-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:24:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00005.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00005.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>583c80bb-6294-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>583c80bc-6294-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:14:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00006.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00006.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>09466144-6293-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>09466145-6293-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:05:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00007.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00007.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>a5aaeafa-6291-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>a5aaeafb-6291-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 07:55:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00008.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00008.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>304c3d92-6295-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>304c3d93-6295-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:21:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00009.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00009.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>6121fce9-6293-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>6121fcea-6293-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:08:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00010.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00010.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>89397040-6295-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>89397041-6295-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:23:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/events/.detailContainers/ev_00011.xml</source>
+			<destination>unify-demo/.content/events/.detailContainers/ev_00011.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>fa50773c-6293-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>fa50773d-6293-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:12:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>unify-demo/.content/flexiblecontents</destination>
 			<type>folder</type>
 			<uuidstructure>f316855b-562b-11e5-bfd9-0242ac11002b</uuidstructure>
@@ -6947,7 +7169,58 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Lawrence Hall of Science, San Francisco]]></value>
+					<value><![CDATA[Lawrence Hall of Science]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/maps/m_00006.xml</source>
+			<destination>unify-demo/.content/maps/m_00006.xml</destination>
+			<type>u-map</type>
+			<uuidstructure>7123e36c-6293-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>7123e36d-6293-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:08:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Olympia Grand Hall]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/maps/m_00007.xml</source>
+			<destination>unify-demo/.content/maps/m_00007.xml</destination>
+			<type>u-map</type>
+			<uuidstructure>6f3e171f-6294-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>6f3e1720-6294-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:15:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Haus der Kulturen der Welt]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/maps/m_00008.xml</source>
+			<destination>unify-demo/.content/maps/m_00008.xml</destination>
+			<type>u-map</type>
+			<uuidstructure>c54fa11f-6294-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>c54fa120-6294-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:18:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[ETH]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -7602,6 +7875,23 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[2 Columns Row (9 - 3)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/templaterows/tr_00017.xml</source>
+			<destination>unify-demo/.content/templaterows/tr_00017.xml</destination>
+			<type>u-templaterow</type>
+			<uuidstructure>fbc08570-621d-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>fbc08571-621d-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 18:07:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[2 Columns Row (6 - 6, also on XS)]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8512,7 +8802,24 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Location: Company Address]]></value>
+					<value><![CDATA[Location: Contact Address]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>unify-demo/.content/texts/t_00054.xml</source>
+			<destination>unify-demo/.content/texts/t_00054.xml</destination>
+			<type>u-text</type>
+			<uuidstructure>74cb5ce5-6292-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>74cb5ce6-6292-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Thu, 24 Sep 2015 08:01:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Website demo contents: Get your ticket]]></value>
 				</property>
 			</properties>
 			<relations/>

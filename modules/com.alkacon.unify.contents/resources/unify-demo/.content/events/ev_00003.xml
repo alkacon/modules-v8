@@ -34,7 +34,7 @@
     <Location><![CDATA[ETH Zürich]]></Location>
     <Address name="Address0">
       <links/>
-      <content><![CDATA[<p>Rämistrasse 101<br />8092 Zürich<br />Schweiz</p>]]></content>
+      <content><![CDATA[<p>Rämistrasse 101<br />8092 Zürich<br />Switzerland</p>]]></content>
     </Address>
   </UnifyEvent>
 </UnifyEvents>

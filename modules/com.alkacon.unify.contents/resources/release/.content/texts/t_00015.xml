@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UnifyTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.unify.schemas/schemas/text.xsd">
+  <UnifyText language="en">
+    <Headline><![CDATA[Release Notes for OpenCms 9.5.2]]></Headline>
+    <Text name="Text0">
+      <links>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/pulls]]></target>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/issues]]></target>
+          <query><![CDATA[state=open]]></query>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com/contact/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>June 22, 2015: OpenCms 9.5.2 fixes a number of issues that persisted in the 9.5.1 release. This version also contains important security improvements against XSS attacks.</p>
+<h2>New&nbsp;in OpenCms 9.5.2</h2>
+<ul>
+<li><span class="label label-warning">#</span>&nbsp;Added Japanese localization (provided by Yuta Aoki).</li>
+<li><span class="label label-warning">#</span>&nbsp;Added Czech localization (provided by Filip Kratochvil).</li>
+<li>Added additional search settings in XSD for mapping of Solr fields to container pages.</li>
+<li>Improved loading times for VfsFileWidget (and other widgets based on the gallery dialog).</li>
+<li>Changed HtmlWidget to list styles from the content CSS in the style select box.</li>
+<li>Demo template updated to Bootstrap 3.3.5.</li>
+</ul>
+<p>Items marked with <span class="label label-warning">#</span> are considered important improvements in this version.</p>
+<h2>Improved in&nbsp;OpenCms 9.5.2</h2>
+<ul>
+<li>Updated Spanish localization (provided by Sergio Raposo Vargas).</li>
+<li>Updated Russian localization (provided by Iliya Makarov).</li>
+<li>Add use pages to Javadocs (provided by Alberto Gallardo).</li>
+<li>Improved 'This page' option in publish dialog to show changed contents of detail containers.</li>
+<li>Improved availability handling in conjunction with the sitemap editor and navigation builder.</li>
+<li>Fixed issue #236 with wrong localization of "Direct Edit" in the workplace's preferences (provided by rohtake).</li>
+<li>Fixed issue #278 with mangled javadocs when compiling with JDK 8.</li>
+<li>Fixed issue #304 to resolve some XSS vulnerabilities.</li>
+<li>Fixed issue #312 with modified MySQL create tables to support innodb (provided by Enrico Marongiu).</li>
+<li>Fixed issue #313 with the demo pages tabs formatter not working online.</li>
+<li>Fixed issue #314 regarding setup with JPA supported DBMSs (provided by Smyatkin Maxim).</li>
+<li>Fixed issue #315 with workplace search not working when selecting a specific site.</li>
+<li>Fixed issue #320 with the demo pages tabs (duplicate of #313).</li>
+<li>Fixed a number of XSS issues in the workplace.</li>
+<li>Fixed issue where the types in the container page editor's 'Add' menu were not updated after changes to nested containers.</li>
+<li>Fixed issue where the information for locked images was copied to the title attribute in the WYSIWYG editor.</li>
+<li>Fixed issue with the toolbar being blocked by an overlay when using the model selection dialog in the page editor.</li>
+<li>Fixed issue in the publish dialog where sometimes publishing resources in the root folder caused an error.</li>
+<li>Fixed stack overflow error caused by incomplete preference configuration after running the updater.</li>
+<li>Fixed issue with message bundle caching where sometimes XML message bundles were not found.</li>
+<li>Fixed issue with secure server links on error pages.</li>
+<li>Fixed issue with workplace search not working for indexes other than the Gallery index.</li>
+<li>Fixed issue where detail container pages failed to be unlocked after editing.</li>
+<li>Fixed issue with Lucene index for container pages where content for locales other than "en" was not indexed.</li>
+<li>Fixed issue where registering change listeners in custom content editor widgets could cause a stack overflow.</li>
+<li>Fixed doctype for workplace dialogs to avoid compatibility mode in IE.</li>
+<li>Fixed corrupted images in updater.</li>
+<li>Fixed issue where the resource info dialog crashed when reading a relation whose source did not exist anymore.</li>
+<li>Fixed issue where the category folder name configured on /system/categories was ignored by the sitemap editor.</li>
+<li>Fixed IE browser mode issue which sometimes caused problems with the upload dialog.</li>
+<li>Fixed issue with legacy direct edit text button provider not showing localized messages.</li>
+</ul>
+<h2>General OpenCms features</h2>
+<ul>
+<li>The page editor allows WYSIWYG&nbsp;inline editing of web pages&nbsp;and arrangement of content by drag &amp; drop.</li>
+<li>The form based editor allows editing of structured content in a well defined form mask.</li>
+<li>The sitemap editor allows to create new pages and re-arrange the navigation tree by drag &amp; drop.</li>
+<li>Responsive demo&nbsp;template based on Bootstrap 3.</li>
+<li>Content creation for mobile devices with preview and device specific content control.</li>
+<li>Structured contents can be defined using a simple XML schema.</li>
+<li>Easy to use "Online / Offline" workflow, changes must be approved before they become visible.</li>
+<li>Link management for all internal resources with broken link detection.</li>
+<li>Integrated image scaling and cropping.</li>
+<li>SEO features with automatic sitemap.xml generation and page alias support.</li>
+<li>Full featured user management that supports the concept of "Organizational Units" (OUs).</li>
+<li>Allows management of multiple websites within one installation.</li>
+<li>Contents can be served dynamically or exported to static HTML files.</li>
+<li>Direct access to the OpenCms content repository over a shared network drive.</li>
+<li>CMIS and WebDAV access to the OpenCms content repository.</li>
+<li>Integrates Apache SOLR for powerful content searching and noSQL like queries.</li>
+<li>Full text search for web pages as well as in office documents like PDF, MS Office and Open Office.</li>
+<li>Extensions can be added through a flexible module system.</li>
+<li>The "time warp" feature allows to view resources which are expired or not yet released.</li>
+<li>JSP integration for dynamic functionality in templates, dynamic forms etc.</li>
+<li>... and many more</li>
+</ul>
+<h3>Backward compatibility</h3>
+<p>OpenCms 9.5.2 is fully backward compatible with all 8.x and 9.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 9.5.2.</p>
+<p><span class="label label-danger">Notice for users of Alkacon OCEE</span>&nbsp;OpenCms 9.5.2 requires a new version of Alkacon OCEE. The&nbsp;update is free for Alkacon customers with a valid OCEE update subscription. <a href="%(link0)" target="_blank">Please contact Alkacon </a>to receive the new version.&nbsp;</p>
+<h3>Compatibility with Java versions, servlet containers and databases</h3>
+<p>OpenCms 9.5.2 has been written and tested for Java 6 and 7. We have tested with ORACLEs JDK as well as OpenJDK. OpenCms should run with all compliant JVMs. Regarding Java 8, we have problems finding Java 8 compliant versions of all used external components. We hope to offer full support for Java 8 in the next major release.</p>
+<p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>
+<p>On the database side, we have tested with MySQL, Oracle, PostgreSQL, MS SQL Server, DB2 and HSQLDB.</p>
+<h3>Regarding version numbers and build tags</h3>
+<p>The main OpenCms Git repository is available on Github at&nbsp;<a href="%(link1)" target="_blank">github.com/alkacon/opencms-core</a>.</p>
+<p>In case you want to get the most current OpenCms&nbsp;9.5.2 sources from Git, please check out <span class="label label-info">branch_9_5_x</span>. The&nbsp;9.5.2 release is tagged <span class="label label-info">build_9_5_2</span>.</p>
+<h3>How you can help</h3>
+<p>Contributions to the OpenCms core development are most welcome. <a href="%(link2)" target="_blank">Please send us your pull requests directly on GitHub.</a></p>
+<p>Please report issues found in OpenCms using&nbsp;<a href="%(link3)" target="_blank">our GitHub issue tracker</a>.</p>
+<p>Thank you for using OpenCms and have fun with OpenCms&nbsp;9.5.2 :-)</p>]]></content>
+    </Text>
+  </UnifyText>
+</UnifyTexts>

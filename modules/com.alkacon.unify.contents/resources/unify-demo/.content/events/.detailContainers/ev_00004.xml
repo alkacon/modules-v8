@@ -28,15 +28,15 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[7e3d0fe3-61f9-11e5-bcba-0242ac11002b]]></String>
+            <String><![CDATA[ba5834ec-6295-11e5-bcba-0242ac11002b]]></String>
           </Value>
         </Properties>
       </Elements>
     </Containers>
     <Containers>
-      <Name><![CDATA[7e3d0fe3-61f9-11e5-bcba-0242ac11002b-c1]]></Name>
+      <Name><![CDATA[ba5834ec-6295-11e5-bcba-0242ac11002b-c1]]></Name>
       <Type><![CDATA[default]]></Type>
-      <ParentInstanceId><![CDATA[7e3d0fe3-61f9-11e5-bcba-0242ac11002b]]></ParentInstanceId>
+      <ParentInstanceId><![CDATA[ba5834ec-6295-11e5-bcba-0242ac11002b]]></ParentInstanceId>
       <Elements>
         <Uri>
           <link type="STRONG">
@@ -52,15 +52,15 @@
         </Formatter>
         <CreateNew>true</CreateNew>
         <Properties>
-          <Name><![CDATA[formatterSettings#7e3d0fe3-61f9-11e5-bcba-0242ac11002b-c1]]></Name>
-          <Value>
-            <String><![CDATA[c58c6dae-56fc-11e5-aad7-0242ac11002b]]></String>
-          </Value>
-        </Properties>
-        <Properties>
           <Name><![CDATA[iconclass]]></Name>
           <Value>
             <String><![CDATA[fa fa-ticket icon-lg icon-bg-blue]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[formatterSettings#ba5834ec-6295-11e5-bcba-0242ac11002b-c1]]></Name>
+          <Value>
+            <String><![CDATA[c58c6dae-56fc-11e5-aad7-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -72,20 +72,20 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[1455945c-6295-11e5-bcba-0242ac11002b]]></String>
+            <String><![CDATA[ee248d66-6295-11e5-bcba-0242ac11002b]]></String>
           </Value>
         </Properties>
       </Elements>
     </Containers>
     <Containers>
-      <Name><![CDATA[7e3d0fe3-61f9-11e5-bcba-0242ac11002b-c2]]></Name>
+      <Name><![CDATA[ba5834ec-6295-11e5-bcba-0242ac11002b-c2]]></Name>
       <Type><![CDATA[container,default]]></Type>
-      <ParentInstanceId><![CDATA[7e3d0fe3-61f9-11e5-bcba-0242ac11002b]]></ParentInstanceId>
+      <ParentInstanceId><![CDATA[ba5834ec-6295-11e5-bcba-0242ac11002b]]></ParentInstanceId>
       <Elements>
         <Uri>
           <link type="STRONG">
-            <target><![CDATA[/sites/default/unify-demo/.content/maps/m_00004.xml]]></target>
-            <uuid>8b82205a-61f9-11e5-bcba-0242ac11002b</uuid>
+            <target><![CDATA[/sites/default/unify-demo/.content/maps/m_00006.xml]]></target>
+            <uuid>7123e36c-6293-11e5-bcba-0242ac11002b</uuid>
           </link>
         </Uri>
         <Formatter>
@@ -94,9 +94,8 @@
             <uuid>305620a9-5ad6-11e5-a17e-0242ac11002b</uuid>
           </link>
         </Formatter>
-        <CreateNew>true</CreateNew>
         <Properties>
-          <Name><![CDATA[formatterSettings#7e3d0fe3-61f9-11e5-bcba-0242ac11002b-c2]]></Name>
+          <Name><![CDATA[formatterSettings#ba5834ec-6295-11e5-bcba-0242ac11002b-c2]]></Name>
           <Value>
             <String><![CDATA[305b02ac-5ad6-11e5-a17e-0242ac11002b]]></String>
           </Value>
@@ -104,7 +103,7 @@
         <Properties>
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
-            <String><![CDATA[85cb4429-61f9-11e5-bcba-0242ac11002b]]></String>
+            <String><![CDATA[c2ed2acf-6295-11e5-bcba-0242ac11002b]]></String>
           </Value>
         </Properties>
         <Properties>

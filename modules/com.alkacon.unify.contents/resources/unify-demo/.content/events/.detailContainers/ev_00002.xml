@@ -37,6 +37,45 @@
       <Name><![CDATA[a1e06005-61fb-11e5-bcba-0242ac11002b-c1]]></Name>
       <Type><![CDATA[default]]></Type>
       <ParentInstanceId><![CDATA[a1e06005-61fb-11e5-bcba-0242ac11002b]]></ParentInstanceId>
+      <Elements>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/default/unify-demo/.content/texts/t_00054.xml]]></target>
+            <uuid>74cb5ce5-6292-11e5-bcba-0242ac11002b</uuid>
+          </link>
+        </Uri>
+        <Formatter>
+          <link type="STRONG">
+            <target><![CDATA[/system/modules/com.alkacon.unify.formatters/formatters/text-iconbox.jsp]]></target>
+            <uuid>c5862c1b-56fc-11e5-aad7-0242ac11002b</uuid>
+          </link>
+        </Formatter>
+        <CreateNew>true</CreateNew>
+        <Properties>
+          <Name><![CDATA[iconclass]]></Name>
+          <Value>
+            <String><![CDATA[fa fa-ticket icon-lg icon-bg-blue]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[wrapperclass]]></Name>
+          <Value>
+            <String><![CDATA[service-block service-block-blue]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[element_instance_id]]></Name>
+          <Value>
+            <String><![CDATA[148ba33b-6296-11e5-bcba-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[formatterSettings#a1e06005-61fb-11e5-bcba-0242ac11002b-c1]]></Name>
+          <Value>
+            <String><![CDATA[c58c6dae-56fc-11e5-aad7-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+      </Elements>
     </Containers>
     <Containers>
       <Name><![CDATA[a1e06005-61fb-11e5-bcba-0242ac11002b-c2]]></Name>
@@ -60,6 +99,12 @@
           <Name><![CDATA[element_instance_id]]></Name>
           <Value>
             <String><![CDATA[a7f0cde8-61fb-11e5-bcba-0242ac11002b]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[hidetitle]]></Name>
+          <Value>
+            <String><![CDATA[true]]></String>
           </Value>
         </Properties>
         <Properties>
