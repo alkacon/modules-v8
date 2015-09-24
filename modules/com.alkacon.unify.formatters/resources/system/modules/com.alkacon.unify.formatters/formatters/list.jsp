@@ -9,12 +9,6 @@
 
 <cms:formatter var="con" rdfa="rdfa">
 
-	<c:set var="solrParamType">fq=type:${(con.value.TypesToCollect eq "both") ? "u-blog OR u-event" : ((con.value.TypesToCollect eq "event") ? "u-event" : "u-blog")}</c:set>
-	<c:set var="solrParamDirs">&fq=parent-folders:\"/sites/default${cms.subSitePath}\"</c:set>
-	<c:set var="solrFilterQue">${con.value.FilterQueries}</c:set>
-	<c:set var="sortOptionAsc">{ "label" : %(key.sortorder.asc), "paramvalue" : "asc", "solrvalue" : "newsdate_${cms.locale}_dt asc" }</c:set>
-	<c:set var="sortOptionDesc">{ "label" : %(key.sortorder.desc), "paramvalue" : "desc", "solrvalue" : "newsdate_${cms.locale}_dt desc" }</c:set>
-    <c:set var="itemsPerPage"><c:out value="${con.value.ItemsPerPage}" default="100"/></c:set>
 	<div>
 		${cms.reloadMarker}
 	<c:choose>
@@ -31,11 +25,9 @@
 	
 				<c:set var="teaserLength">${cms.element.settings.teaserlength}</c:set>
 				<c:set var="buttonColor">${cms.element.settings.buttoncolor}</c:set>
-				<c:set var="innerPageDivId">${cms.element.id}-inner</c:set>
-				<c:set var="linkInnerPage"><cms:link>%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/list-inner.jsp:5ca5be42-5cff-11e5-96ab-0242ac11002b)</cms:link></c:set>
+				<c:set var="itemsPerPage"><c:out value="${con.value.ItemsPerPage}" default="100"/></c:set>
 				<c:set var="additionalFilterQueries">${con.value.FilterQueries}</c:set>
-				<c:set var="linkInnerPage">${linkInnerPage}?typesToCollect=${con.value.TypesToCollect}&pathes=\"/sites/default${cms.subSitePath}\"&itemsPerPage=${itemsPerPage}&teaserLength=${teaserLength}</c:set>
-				<c:set var="linkInnerPage">${linkInnerPage}&extraQueries=<%=CmsEncoder.encode((String) pageContext.getAttribute("additionalFilterQueries"))%>&__locale=${cms.locale}&sortOrder=${con.value.SortOrder}&pageUri=${cms.requestContext.uri}&buttonColor=${buttonColor}&teaserLength=${teaserLength}</c:set>
+				<c:set var="innerPageDivId">${cms.element.id}-inner</c:set>
 				<div id="${innerPageDivId}" class="posts lists blog-item">
 					<cms:include file="%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/list-inner.jsp:5ca5be42-5cff-11e5-96ab-0242ac11002b)">
 						<cms:param name="typesToCollect">${con.value.TypesToCollect}</cms:param>
@@ -49,6 +41,9 @@
 						<cms:param name="pageUri">${cms.requestContext.uri}</cms:param>
 					</cms:include>
 				</div>
+				<c:set var="linkInnerPage"><cms:link>%(link.strong:/system/modules/com.alkacon.unify.formatters/elements/list-inner.jsp:5ca5be42-5cff-11e5-96ab-0242ac11002b)</cms:link></c:set>
+				<c:set var="linkInnerPage">${linkInnerPage}?typesToCollect=${con.value.TypesToCollect}&pathes=\"/sites/default${cms.subSitePath}\"&itemsPerPage=${itemsPerPage}&teaserLength=${teaserLength}</c:set>
+				<c:set var="linkInnerPage">${linkInnerPage}&extraQueries=<%=CmsEncoder.encode((String) pageContext.getAttribute("additionalFilterQueries"))%>&__locale=${cms.locale}&sortOrder=${con.value.SortOrder}&pageUri=${cms.requestContext.uri}&buttonColor=${buttonColor}&teaserLength=${teaserLength}</c:set>
 				<script type="text/javascript">
 					function reloadInnerList(searchStateParameters) {
 						$.get("${linkInnerPage}&".concat(searchStateParameters), function(resultList) {

@@ -6266,18 +6266,6 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>unify-demo/.content/blogentries/be_00011.xml</source>
-			<destination>unify-demo/.content/blogentries/be_00011.xml</destination>
-			<type>u-blog</type>
-			<uuidstructure>9a8c5b6a-62aa-11e5-bcba-0242ac11002b</uuidstructure>
-			<uuidresource>9a8c5b6b-62aa-11e5-bcba-0242ac11002b</uuidresource>
-			<datecreated>Thu, 24 Sep 2015 10:54:18 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>unify-demo/.content/blogentries/.detailContainers</destination>
 			<type>folder</type>
 			<uuidstructure>cc5efebb-5c73-11e5-96ab-0242ac11002b</uuidstructure>
@@ -8836,7 +8824,7 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Website demo contents: Get your ticket]]></value>
+					<value><![CDATA[Get your ticket]]></value>
 				</property>
 			</properties>
 			<relations/>

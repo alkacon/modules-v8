@@ -30,12 +30,12 @@
 		  "sortoptions" : [
 		  	<c:choose>
 			<c:when test='${param.sortOrder eq "asc"}'>	
-		  		${sortOptionDesc},
-		  		${sortOptionAsc}
-		  	</c:when>
-			<c:otherwise>
 		  		${sortOptionAsc},	  		
 		  		${sortOptionDesc}
+		  	</c:when>
+			<c:otherwise>
+				${sortOptionDesc},
+		  		${sortOptionAsc}
 		  	</c:otherwise>
 		</c:choose>
 		  ],
@@ -46,7 +46,6 @@
 		 }
 </c:set>
 	<div>
-
 		<cms:search configString="${searchConfig}" var="search"
 			addContentInfo="true" />
 
@@ -62,15 +61,17 @@
 						<c:if
 							test="${not empty facetResult and cms:getListSize(facetResult.values) > 0}">
 
-							<div class="dropdown" style="float:left; ">
-								<button type="button" class="btn btn-default dropdown-toggle"
+							<div class="dropdown" style="float: left;">
+								<button type="button" class="dropdown-toggle btn-u btn-u-<c:out value="${buttonColor}" default="red" />"
 									data-toggle="dropdown" aria-haspopup="true"
 									aria-expanded="false" id="dropdownMenu1" aria-expanded="true">
-									<fmt:message key="${facetController.config.label}" />&nbsp;
-									<span class="caret"></span>
+									<fmt:message key="${facetController.config.label}" />
+									&nbsp; <span class="caret"></span>
 								</button>
-								<ul class="dropdown-menu">
-									<li><a
+								
+								
+								<ul class="dropdown-menu dropdown-<c:out value="${buttonColor}" default="red" />">
+									<li ${cms:getListSize(facetController.state.checkedEntries) == 0?'class="active"' : ""}><a  href="#"
 										onclick="reloadInnerList('${search.stateParameters.resetFacetState[categoryFacetField]}')"><fmt:message
 												key="facet.category.none" /></a></li>
 									<li role="separator" class="divider"></li>
@@ -95,7 +96,7 @@
 										</c:forEach>
 										<c:set var="label">${fn:substring(label,2,-1)}</c:set>
 										<%-- END: Calculate category label --%>
-										<li ${selected}><a
+										<li ${selected}><a href="#"
 											onclick="reloadInnerList('${search.stateParameters.resetFacetState[categoryFacetField].checkFacetItem[categoryFacetField][value.name]}')">${label}
 												(${value.count})</a>
 									</c:forEach>
@@ -119,18 +120,18 @@
 							</c:if>
 
 
-							<div class="dropdown" style="float:left; ">
-								<button type="button" class="btn btn-default dropdown-toggle"
+							<div class="dropdown" style="float: left;">
+								<button type="button" class="btn-u btn-u-<c:out value="${buttonColor}" default="red" /> dropdown-toggle"
 									data-toggle="dropdown" aria-haspopup="true"
 									aria-expanded="false" id="dropdownMenu2" aria-expanded="true">
-									<fmt:message key="sort.options.label" />&nbsp;
-									<span class="caret"></span>
+									<fmt:message key="sort.options.label" />
+									&nbsp; <span class="caret"></span>
 								</button>
-								<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+								<ul class="dropdown-menu dropdown-<c:out value="${buttonColor}" default="red" />" aria-labelledby="dropdownMenu2">
 									<c:forEach var="sortOption"
 										items="${sortController.config.sortOptions}">
 										<c:set var="selected">${sortController.state.checkSelected[sortOption] ? ' class="active"' : ""}</c:set>
-										<li ${selected}><a
+										<li ${selected}><a href="#"
 											onclick="reloadInnerList('${search.stateParameters.setSortOption[sortOption.paramValue]}')"><fmt:message
 													key="${sortOption.label}" /></a></li>
 									</c:forEach>
@@ -202,8 +203,7 @@
 					<ul class="pagination">
 						<li ${pagination.state.currentPage > 1 ? "" : "class='disabled'"}>
 							<a href="javascript:void(0)"
-							onclick='reloadInnerList("${search.stateParameters.setPage['
-							1']}")'
+							onclick='reloadInnerList("${search.stateParameters.setPage['1']}")'
 						   aria-label='<fmt:message key="pagination.first.title"/>'>
 								<span aria-hidden="true"><fmt:message
 										key="pagination.first" /></span>
