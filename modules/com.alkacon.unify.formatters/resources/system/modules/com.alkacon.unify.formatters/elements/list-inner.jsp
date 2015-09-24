@@ -52,7 +52,7 @@
 		<c:choose>
 			<c:when test="${search.numFound > 0}">
 				<div id="list_large_pages">
-					<div class="mb-20" style="float: right;">
+					<div class="row mb-20" style="float: right;">
 						<%-- Category filter --%>
 						<c:set var="facetController"
 							value="${search.controller.fieldFacets.fieldFacetController[categoryFacetField]}" />
@@ -67,11 +67,9 @@
 									aria-expanded="false" id="dropdownMenu1" aria-expanded="true">
 									<fmt:message key="${facetController.config.label}" />
 									&nbsp; <span class="caret"></span>
-								</button>
-								
-								
+								</button>															
 								<ul class="dropdown-menu dropdown-<c:out value="${buttonColor}" default="red" />">
-									<li ${cms:getListSize(facetController.state.checkedEntries) == 0?'class="active"' : ""}><a  href="#"
+									<li ${cms:getListSize(facetController.state.checkedEntries) == 0?'class="active"' : ""}><a  href="javascript:void(0)"
 										onclick="reloadInnerList('${search.stateParameters.resetFacetState[categoryFacetField]}')"><fmt:message
 												key="facet.category.none" /></a></li>
 									<li role="separator" class="divider"></li>
@@ -96,13 +94,12 @@
 										</c:forEach>
 										<c:set var="label">${fn:substring(label,2,-1)}</c:set>
 										<%-- END: Calculate category label --%>
-										<li ${selected}><a href="#"
+										<li ${selected}><a href="javascript:void(0)"
 											onclick="reloadInnerList('${search.stateParameters.resetFacetState[categoryFacetField].checkFacetItem[categoryFacetField][value.name]}')">${label}
 												(${value.count})</a>
 									</c:forEach>
 								</ul>
 							</div>
-
 						</c:if>
 
 						<%-- Sort options --%>
@@ -131,7 +128,7 @@
 									<c:forEach var="sortOption"
 										items="${sortController.config.sortOptions}">
 										<c:set var="selected">${sortController.state.checkSelected[sortOption] ? ' class="active"' : ""}</c:set>
-										<li ${selected}><a href="#"
+										<li ${selected}><a href="javascript:void(0)"
 											onclick="reloadInnerList('${search.stateParameters.setSortOption[sortOption.paramValue]}')"><fmt:message
 													key="${sortOption.label}" /></a></li>
 									</c:forEach>

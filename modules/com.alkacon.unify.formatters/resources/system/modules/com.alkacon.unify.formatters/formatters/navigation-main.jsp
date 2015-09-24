@@ -8,7 +8,7 @@
     <div class="container">
 
       <a class="logo" href="<cms:link>${value.LogoLink}</cms:link>">
-          <cms:img scaleType="2" scaleColor="transparent" height="40" id="logo-header" src="%(link.weak:/system/modules/com.alkacon.unify.basics/resources/img/logo/logo_opencms_png24.png:0c407c7c-5159-11e5-abeb-0242ac11002b)" alt="Logo"/>
+          <span class="opencms-logo mv-15"></span>
       </a>
 
       <c:if test="${not value.Header.isEmpty}">

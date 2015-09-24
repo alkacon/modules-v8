@@ -6,11 +6,6 @@
     <Choice>
       <Code name="Code0">
         <links>
-          <link name="link4" internal="true" type="IMG">
-            <target><![CDATA[/system/modules/com.alkacon.unify.basics/resources/img/logo/logo_opencms_png24.png]]></target>
-            <uuid>0c407c7c-5159-11e5-abeb-0242ac11002b</uuid>
-            <query><![CDATA[__scale=w:165,h:40,t:2,c:transparent]]></query>
-          </link>
           <link name="link2" internal="true" type="A">
             <target><![CDATA[/sites/default/unify-demo/search/]]></target>
             <uuid>4eef4bfc-5c5c-11e5-96ab-0242ac11002b</uuid>
@@ -46,7 +41,7 @@
 
 <div class="row margin-top-20">
 <div class="container">
-<div class="col-sm-3"><a href="%(link3)"> <img id="logo-header" src="%(link4)" alt="Logo" width="165" height="40" /></a></div>
+<div class="col-sm-3"><a href="%(link3)"> <span class="opencms-logo"></span></a></div>
 <div class="col-sm-9">
 <div class="headline">
 <h1>Beginners tutorial</h1>
