@@ -151,6 +151,8 @@ $colored-box-borderstyles:
 }
 
 
+
+
 /* Dropdown color */
 
 @each $type-name, $bg-color in $colored-box-variants {
@@ -178,8 +180,38 @@ $colored-box-borderstyles:
     }
 }
 
+/* Event dates */
+@each $type-name, $bg-color in $colored-box-variants {
 
-
+	.date-#{""+$type-name}{
+		border: 1px solid $gray-light;
+		box-shadow:  8px 8px 6px -6px $gray;
+		text-align: center; 
+		backhround: #eee;
+		.day, .monthYear{
+			padding: 10px;		
+		}
+		a &{
+			color: #555;
+			transform: scale(1) rotate(0);
+			transition: 1s all;
+			&:hover{
+				transform: scale(0.97) rotate(-1deg);
+				transition: 1s all;
+			}
+		}
+		h3{
+			font-weight: bolder;
+		}
+		&:before{
+			display: block;
+			content: '';
+			border-top: 20px solid #ddd;
+		}
+		
+		
+	}
+}
 
 /* Line position and color */
 
@@ -236,7 +268,6 @@ $colored-box-positions:
     z-index: 100;
 }
 
-
 /* Footer colors.
 ----------------------------------------------------------------------------- */
 
@@ -291,10 +322,11 @@ $colored-box-positions:
 
 // Main menu
 
-/* Workaround for too thick border above slider */
+/* Workaround for too thick border above slider 
 .header {
 	margin-bottom: -2px;
 }
+*/
 
 .header .navbar-nav>.active>a, .header .navbar-nav>.active>a:hover {
   border-bottom-color: $nav-main-color-active;
@@ -390,6 +422,7 @@ $colored-box-positions:
     overflow: hidden;
     width: 170px;
 }
+
 
 /* Service Boxes.
 ----------------------------------------------------------------------------- */
