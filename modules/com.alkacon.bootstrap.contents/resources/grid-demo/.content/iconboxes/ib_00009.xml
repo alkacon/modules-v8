@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<BootstrapIconBoxs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/iconbox.xsd">
-  <BootstrapIconBox language="en">
-    <Headline><![CDATA[Flexible Grid]]></Headline>
-    <Icon><![CDATA[Table]]></Icon>
-    <Text><![CDATA[Donec pede justo, fringilla vel, aliquet nec, vulputate dolor sit eget, arcu.]]></Text>
-  </BootstrapIconBox>
-</BootstrapIconBoxs>
