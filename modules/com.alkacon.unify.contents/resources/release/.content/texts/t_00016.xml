@@ -16,12 +16,28 @@
           <target><![CDATA[https://github.com/alkacon/opencms-core/pulls]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>September 28, 2015: OpenCms 10.0.0 Alpha 1 is here! Check out the forthcoming new features of OpenCms 10 in this first Alpha release.</p>
-<p><span class="label label-danger">Please note</span> We do not recommend to use OpenCms&nbsp;10.0.0 Alpha 1 in productive OpenCms environments. Please wait for the final release of OpenCms 10.</p>
-<h2>New in OpenCms 10.0.0 Alpha 1</h2>
+      <content><![CDATA[<p>September 28, 2015: OpenCms 10.0.0 Alpha 1 is here! Try&nbsp;out the forthcoming new features of OpenCms 10 with&nbsp;this alpha release.</p>
+<p><span class="label label-danger">Please note</span>&nbsp;This alpha&nbsp;version&nbsp;is not feature complete! Some important functionalities are missing, these will be added in later alpha or beta release. We do not recommend to use this version&nbsp;in productive OpenCms environments.</p>
+<h2>New in OpenCms 10</h2>
 <ul>
-<li><span class="label label-warning">#</span> Added .</li>
-<li>Added .</li>
+<li><span class="label label-warning">#</span>&nbsp;Modernized the look &amp; feel of the&nbsp;overall&nbsp;user interface&nbsp;</li>
+<li><span class="label label-warning">#</span>&nbsp;Introduced the&nbsp;Launchpad as&nbsp;the central starting place for the user</li>
+<li><span class="label label-warning">#</span>&nbsp;New&nbsp;file explorer with support for column sorting, filtering and large folders</li>
+<li><span class="label label-warning">#</span>&nbsp;Developers can now export and import modules through a SMB network share</li>
+<li><span class="label label-warning">#</span>&nbsp;New Git App allows committing of module content directly from the workplace</li>
+<li><span class="label label-warning">#</span>&nbsp;New &lt;cms:search&gt; tag combines SOLR based&nbsp;resource collection and full text searches</li>
+<li><span class="label label-warning">#</span>&nbsp;Drag and Drop of images directly in the page editor</li>
+<li><span class="label label-warning">#</span>&nbsp;Copy groups allow creation of boiler plate layouts with text /&nbsp;images</li>
+<li><span class="label label-warning">#</span>&nbsp;Reuse groups allow reusing nested&nbsp;container structures&nbsp;on several pages&nbsp;</li>
+<li>Users are identified with an identicon in the toolbar</li>
+<li>Improved the template editor with support for&nbsp;inherited and disabled templates</li>
+<li>New &lt;cms:edit&gt; tag allows editing of arbitary resources based on UID</li>
+<li>Added a reset password option to the login dialog</li>
+<li>Nested container structures can now be copied using the clipboard</li>
+<li>Support for local configuration change sets based on XSLT&nbsp;</li>
+<li>Modules can be exported with a reduced manifest.xml to avoid merge conflicts</li>
+<li>Optimized resources types, formatters and views in the demo template application</li>
+<li>Updated the responsive demo template based on Bootstrap</li>
 </ul>
 <p>Items marked with <span class="label label-warning">#</span> are considered important improvements in this version.</p>
 <h2>Improved in OpenCms 10.0.0 Alpha 1</h2>
@@ -61,10 +77,10 @@
 <li>... and many more</li>
 </ul>
 <h3>Backward compatibility</h3>
-<p>OpenCms 10.0.0 Alpha 1 is fully backward compatible with all 8.x and 9.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 10.0.0 Alpha 1.</p>
-<p><span class="label label-danger">Notice for users of Alkacon OCEE</span>&nbsp;OpenCms&nbsp;10.0.0 Alpha 1 will not work with current versions of Alkacon OCEE. There will be an update for the final release of OpenCms 10. The&nbsp;update will be free for Alkacon customers with a valid OCEE update subscription.</p>
+<p>OpenCms 10.0.0 Alpha 1 is fully backward compatible with all 9.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 10.0.0 Alpha 1.</p>
+<p><span class="label label-danger">Notice for users of Alkacon OCEE</span>&nbsp;OpenCms&nbsp;10.0.0 Alpha 1 will not work with current versions of Alkacon OCEE. There will be an updated OCEE available for the final release of OpenCms 10. The&nbsp;update will be free for Alkacon customers with a valid OCEE update subscription.</p>
 <h3>Compatibility with Java versions, servlet containers and databases</h3>
-<p>OpenCms&nbsp;10.0.0 Alpha 1 has been written and tested for Java 7. We have tested with ORACLEs JDK as well as OpenJDK. OpenCms should run with all compliant JVMs.</p>
+<p>OpenCms&nbsp;10.0.0 Alpha 1 has been written and tested for Java 8&nbsp;and Java 7. We have tested with ORACLEs JDK as well as OpenJDK. OpenCms should run with all compliant JVMs.</p>
 <p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>
 <p>On the database side, we have tested with MySQL, Oracle, PostgreSQL, MS SQL Server, DB2 and HSQLDB.</p>
 <h3>Regarding version numbers and build tags</h3>

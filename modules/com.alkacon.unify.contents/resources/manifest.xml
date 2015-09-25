@@ -6080,11 +6080,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[Contains all reusable page models]]></value>
+					<value><![CDATA[Contains reuse groups for header & footer]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Reusable page models]]></value>
+					<value><![CDATA[Reuse groups for header & footer]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6101,11 +6101,11 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[Contains all page models that are copied]]></value>
+					<value><![CDATA[Contains boiler plate text block templates]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Copy page models]]></value>
+					<value><![CDATA[Copy groups for article text blocks]]></value>
 				</property>
 			</properties>
 			<relations/>
