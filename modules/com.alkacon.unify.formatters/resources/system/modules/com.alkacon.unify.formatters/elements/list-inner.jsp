@@ -53,7 +53,7 @@
 			<c:when test="${search.numFound > 0}">
 				<div id="list_large_pages">
 					<div class="row mb-20 pull-right">
-						<section class="btn-group  btn-group-responsive">
+						<section id="listOptions" class="btn-group  btn-group-responsive">
 							<%-- Category filter --%>
 							<c:set var="facetController"
 								value="${search.controller.fieldFacets.fieldFacetController[categoryFacetField]}" />
@@ -236,8 +236,7 @@
 					<ul class="pagination">
 						<li ${pagination.state.currentPage > 1 ? "" : "class='disabled'"}>
 							<a href="javascript:void(0)"
-							onclick='reloadInnerList("${search.stateParameters.setPage['
-							1']}")'
+							onclick='reloadInnerList("${search.stateParameters.setPage['1']}")'
 						   aria-label='<fmt:message key="pagination.first.title"/>'>
 								<span aria-hidden="true"><fmt:message
 										key="pagination.first" /></span>

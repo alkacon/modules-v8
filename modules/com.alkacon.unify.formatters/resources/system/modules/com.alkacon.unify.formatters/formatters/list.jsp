@@ -48,6 +48,9 @@
 					function reloadInnerList(searchStateParameters) {
 						$.get("${linkInnerPage}&".concat(searchStateParameters), function(resultList) {
 							$("#${innerPageDivId}").html( resultList );
+							$('html, body').animate({
+						        scrollTop: $("#listOptions").offset().top - 100
+						    }, 1000);
 						});
 					}
 				</script>
