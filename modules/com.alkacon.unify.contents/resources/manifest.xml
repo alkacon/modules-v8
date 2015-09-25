@@ -1633,6 +1633,108 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>.galleries/people/23.jpg</source>
+			<destination>.galleries/people/23.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c778a8d3-635d-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>c778a8d4-635d-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:16:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/24.jpg</source>
+			<destination>.galleries/people/24.jpg</destination>
+			<type>image</type>
+			<uuidstructure>f528ac8c-635d-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>f528ac8d-635d-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:18:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/25.jpg</source>
+			<destination>.galleries/people/25.jpg</destination>
+			<type>image</type>
+			<uuidstructure>44e71a53-635e-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>44e71a54-635e-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:20:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/26.jpg</source>
+			<destination>.galleries/people/26.jpg</destination>
+			<type>image</type>
+			<uuidstructure>8fb1fbec-635e-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>8fb1fbed-635e-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:22:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/27.jpg</source>
+			<destination>.galleries/people/27.jpg</destination>
+			<type>image</type>
+			<uuidstructure>adc7dba3-635e-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>adc7dba4-635e-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:23:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/28.jpg</source>
+			<destination>.galleries/people/28.jpg</destination>
+			<type>image</type>
+			<uuidstructure>d51a14ca-635e-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>d51a14cb-635e-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:24:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>.galleries/samples</destination>
 			<type>imagegallery</type>
 			<uuidstructure>959d764a-4705-11e3-8417-000c29d28104</uuidstructure>
@@ -8893,6 +8995,23 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>unify-demo/.content/xmlimage/xmlimage_00002.xml</source>
+			<destination>unify-demo/.content/xmlimage/xmlimage_00002.xml</destination>
+			<type>xmlimage</type>
+			<uuidstructure>b073320c-61f1-11e5-bcba-0242ac11002b</uuidstructure>
+			<uuidresource>b073320d-61f1-11e5-bcba-0242ac11002b</uuidresource>
+			<datecreated>Wed, 23 Sep 2015 12:50:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Location: Company Building]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>unify-demo/.content/xmlimage/xmlimage_00003.xml</source>
 			<destination>unify-demo/.content/xmlimage/xmlimage_00003.xml</destination>
 			<type>xmlimage</type>
@@ -9567,23 +9686,6 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Location: Building]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>unify-demo/.content/xmlimage/xmlimage_00043.xml</source>
-			<destination>unify-demo/.content/xmlimage/xmlimage_00043.xml</destination>
-			<type>xmlimage</type>
-			<uuidstructure>b073320c-61f1-11e5-bcba-0242ac11002b</uuidstructure>
-			<uuidresource>b073320d-61f1-11e5-bcba-0242ac11002b</uuidresource>
-			<datecreated>Wed, 23 Sep 2015 12:50:38 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Location: Company Building]]></value>
 				</property>
 			</properties>
 			<relations/>
