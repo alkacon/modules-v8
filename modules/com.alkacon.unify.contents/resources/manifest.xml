@@ -10,7 +10,7 @@
 		<nicename><![CDATA[Unify Template Contents]]></nicename>
 		<group>Unify Template</group>
 		<class/>
-		<import-script>writeProperty '/' 'Title' 'Demo Content'
+		<import-script>writeProperty '/' 'Title' 'Demo Site'
 writeProperty '/' 'Description' 'The OpenCms demo, brought to you by Alkacon Software.'
 writeProperty '/' 'NavText' 'Overview'
 writeProperty '/' 'template' '/system/modules/com.alkacon.unify.formatters/templates/unify-page.jsp'

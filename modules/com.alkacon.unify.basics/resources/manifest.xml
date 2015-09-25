@@ -18,7 +18,9 @@
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
-		<dependencies/>
+		<dependencies>
+			<dependency name="org.opencms.ade.config" version="10.0.0"/>
+		</dependencies>
 		<exportpoints>
 			<exportpoint uri="/system/modules/com.alkacon.unify.basics/git-scripts/module-checkin.conf" destination="WEB-INF/git-scripts/module-checkin.conf"/>
 		</exportpoints>
