@@ -59,10 +59,10 @@
                       <div ${paragraph.rdfa.Text}>${paragraph.value.Text}</div>
                       <c:if test="${status.last and (value.Location.isSet or value.Address.isSet)}">
                               	<div class="row">
-                              		<div class="hidden-xs col-sm-1">
+                              		<div class="hidden-xs col-sm-2 col-lg-1">
                               			<i class="icon-custom icon-sm icon-color-u fa fa-map-marker"></i>
                               		</div>
-                              		<div class="col-xs-12 col-sm-11">
+                              		<div class="col-xs-12 col-sm-10 col-lg-11">
 	                              		<c:if test="${value.Location.isSet}">
 	                              			<h5 ${rdfa.Location}>${value.Location}</h5>
 	                              		</c:if>

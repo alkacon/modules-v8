@@ -5,11 +5,11 @@
     <Headline><![CDATA[Great responsive template]]></Headline>
     <Image>
       <link type="WEAK">
-        <target><![CDATA[/sites/default/.galleries/people/18.jpg]]></target>
-        <uuid>241ab586-590b-11e4-903d-005056b61161</uuid>
-        <query><![CDATA[__scale=h:600,w:600,cx:13,cy:29,ch:751,cw:752]]></query>
+        <target><![CDATA[/sites/default/.galleries/people/26.jpg]]></target>
+        <uuid>8fb1fbec-635e-11e5-81df-0242ac11002b</uuid>
+        <query><![CDATA[__scale=h:600,w:600,cx:140,cy:10,ch:745,cw:745]]></query>
       </link>
     </Image>
-    <Copyright><![CDATA[publicdomainpictures.net]]></Copyright>
+    <Copyright><![CDATA[CC0 Public Domain / Pixabay.com]]></Copyright>
   </XmlImage>
 </XmlImages>

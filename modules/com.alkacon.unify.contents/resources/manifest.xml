@@ -1641,6 +1641,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<datecreated>Fri, 25 Sep 2015 08:16:53 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1024,h:768]]></value>
@@ -1658,6 +1662,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<datecreated>Fri, 25 Sep 2015 08:18:10 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1024,h:768]]></value>
@@ -1675,6 +1683,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<datecreated>Fri, 25 Sep 2015 08:20:23 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1024,h:768]]></value>
@@ -1692,6 +1704,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<datecreated>Fri, 25 Sep 2015 08:22:29 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1024,h:768]]></value>
@@ -1709,6 +1725,10 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<datecreated>Fri, 25 Sep 2015 08:23:19 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1024,h:768]]></value>
@@ -1726,6 +1746,115 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<datecreated>Fri, 25 Sep 2015 08:24:25 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/29.jpg</source>
+			<destination>.galleries/people/29.jpg</destination>
+			<type>image</type>
+			<uuidstructure>4c93cf54-6365-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>4c93cf55-6365-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 09:10:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/30.jpg</source>
+			<destination>.galleries/people/30.jpg</destination>
+			<type>image</type>
+			<uuidstructure>8bbffd7d-6365-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>8bbffd7e-6365-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 09:12:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/31.jpg</source>
+			<destination>.galleries/people/31.jpg</destination>
+			<type>image</type>
+			<uuidstructure>a2aea824-6365-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>a2aea825-6365-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 09:13:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/32.jpg</source>
+			<destination>.galleries/people/32.jpg</destination>
+			<type>image</type>
+			<uuidstructure>c390791b-6365-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>c390791c-6365-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 09:14:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/people/33.jpg</source>
+			<destination>.galleries/people/33.jpg</destination>
+			<type>image</type>
+			<uuidstructure>f6805442-6365-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>f6805443-6365-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 09:15:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1024,h:768]]></value>
@@ -2643,6 +2772,153 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Copyright</name>
 					<value><![CDATA[Public Domain, via Wikimedia Commons]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/44.jpg</source>
+			<destination>.galleries/samples/44.jpg</destination>
+			<type>image</type>
+			<uuidstructure>0528a1f1-635f-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>0528a1f2-635f-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:25:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/45.jpg</source>
+			<destination>.galleries/samples/45.jpg</destination>
+			<type>image</type>
+			<uuidstructure>1d7778d8-635f-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>1d7778d9-635f-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:26:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/46.jpg</source>
+			<destination>.galleries/samples/46.jpg</destination>
+			<type>image</type>
+			<uuidstructure>523bc5df-635f-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>523bc5e0-635f-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:27:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:768,h:1024]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/47.jpg</source>
+			<destination>.galleries/samples/47.jpg</destination>
+			<type>image</type>
+			<uuidstructure>6e5adea6-635f-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>6e5adea7-635f-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/48.jpg</source>
+			<destination>.galleries/samples/48.jpg</destination>
+			<type>image</type>
+			<uuidstructure>8ac494fd-635f-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>8ac494fe-635f-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:29:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/49.jpg</source>
+			<destination>.galleries/samples/49.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b1169c34-635f-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>b1169c35-635f-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:30:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:768]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.galleries/samples/50.jpg</source>
+			<destination>.galleries/samples/50.jpg</destination>
+			<type>image</type>
+			<uuidstructure>d400722d-635f-11e5-81df-0242ac11002b</uuidstructure>
+			<uuidresource>d400722e-635f-11e5-81df-0242ac11002b</uuidresource>
+			<datecreated>Fri, 25 Sep 2015 08:31:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 Public Domain / Pixabay.com]]></value>
 				</property>
 				<property type="shared">
 					<name>image.size</name>

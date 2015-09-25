@@ -26,7 +26,15 @@
 <p>Items marked with <span class="label label-warning">#</span> are considered important improvements in this version.</p>
 <h2>Improved in OpenCms 10.0.0 Alpha 1</h2>
 <ul>
-<li>Fixed issue # with .</li>
+<li>Extended lookup of login-form property to also work with detail pages.</li>
+<li>Made pointers/htmlredirects work for internationalized domain names.</li>
+<li>Improved synchronization in SQL manager and content type definitions.</li>
+<li>Fixed issue #323 with missing manifest entries for Russian localization.</li>
+<li>Fixed script tag generation in action elements for better IE compatibility.</li>
+<li>Fixed issue where import failed due to missing principals.</li>
+<li>Fixed issue with null pointers during inline editing.</li>
+<li>Fixed issue with null pointers when reading search document dependencies.</li>
+<li>Fixed issue where validation messages were not displayed in the workplace locale.</li>
 </ul>
 <h2>General OpenCms features</h2>
 <ul>

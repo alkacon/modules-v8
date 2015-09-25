@@ -53,7 +53,7 @@
 			<c:when test="${search.numFound > 0}">
 				<div id="list_large_pages">
 					<div class="row mb-20 pull-right">
-						<section class="btn-group">
+						<section class="btn-group  btn-group-responsive">
 							<%-- Category filter --%>
 							<c:set var="facetController"
 								value="${search.controller.fieldFacets.fieldFacetController[categoryFacetField]}" />
@@ -62,7 +62,7 @@
 							<c:if
 								test="${not empty facetResult and cms:getListSize(facetResult.values) > 0}">
 
-								<div class="btn-group ">
+								<div class="btn-group">
 									<button type="button"
 										class="dropdown-toggle btn-u btn-u-<c:out value="${buttonColor}" default="red" />"
 										data-toggle="dropdown" aria-haspopup="true"
@@ -155,39 +155,41 @@
 							<cms:edit uuid='${result.fields["id"]}' create="true"
 								delete="true">
 								<div class="row margin-bottom-20">
-									<c:choose>
-										<c:when test="${param.typesToCollect == 'event'}">
-											<div
-												class="date-dark col-sm-2 hidden-xs">
-												<div class="day">
-													<fmt:formatDate
-														value="${cms:convertDate(content.value.Date)}" pattern="E"
-														type="date" />
+									<a
+										href="<cms:link baseUri="${param.pageUri}">${content.filename}</cms:link>">
+										<c:choose>
+											<c:when test="${param.typesToCollect == 'event'}">
+												<div class="date-dark col-sm-2 hidden-xs">
+													<div class="day">
+														<fmt:formatDate
+															value="${cms:convertDate(content.value.Date)}"
+															pattern="EEEE" type="date" />
+													</div>
+													<h3>
+														<fmt:formatDate
+															value="${cms:convertDate(content.value.Date)}"
+															pattern="dd" type="date" />
+													</h3>
+													<div class="monthYear">
+														<fmt:formatDate
+															value="${cms:convertDate(content.value.Date)}"
+															pattern="MMM yyyy" type="date" />
+													</div>
 												</div>
-												<h3>
-													<fmt:formatDate
-														value="${cms:convertDate(content.value.Date)}"
-														pattern="dd" type="date" />
-												</h3>
-												<div class="monthYear">
-													<fmt:formatDate
-														value="${cms:convertDate(content.value.Date)}"
-														pattern="MMM yyyy" type="date" />
-												</div>
-											</div>
-										</c:when>
-										<c:otherwise>
-											<c:if test="${paragraph.value.Image.exists}">
-												<div class="col-md-4 search-img">
-													<cms:img src="${paragraph.value.Image.value.Image}"
-														width="800" cssclass="img-responsive"
-														scaleColor="transparent" scaleType="0" noDim="true"
-														alt="${paragraph.value.Image.value.Title}"
-														title="${paragraph.value.Image.value.Title}" />
-												</div>
-											</c:if>
-										</c:otherwise>
-									</c:choose>
+											</c:when>
+											<c:otherwise>
+												<c:if test="${paragraph.value.Image.exists}">
+													<div class="col-md-4 search-img">
+														<cms:img src="${paragraph.value.Image.value.Image}"
+															width="800" cssclass="img-responsive"
+															scaleColor="transparent" scaleType="0" noDim="true"
+															alt="${paragraph.value.Image.value.Title}"
+															title="${paragraph.value.Image.value.Title}" />
+													</div>
+												</c:if>
+											</c:otherwise>
+										</c:choose>
+									</a>
 									<div
 										class="col-${(param.typesToCollect == 'event')?'sm-10':'md-8'}">
 										<h2>
