@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>9.5.2</opencms_version>
-		<createdate>Fri, 19 Jun 2015 07:49:58 GMT</createdate>
+		<opencms_version>9.5.3</opencms_version>
+		<createdate>Wed, 06 Jan 2016 09:28:12 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>Bootstrap Template</group>
 		<class/>
 		<description><![CDATA[Contains raw Bootstrap 3 as well as jQuery and jQuery UI.]]></description>
-		<version>9.5.2</version>
+		<version>9.5.3</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail/>
 		<datecreated/>
@@ -31,10 +31,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>ae97a6b8-1502-11e5-b1d2-000c2943a707</uuidstructure>
-			<datelastmodified>Wed, 17 Jun 2015 15:08:16 GMT</datelastmodified>
+			<uuidstructure>65ba1735-b2e4-11e5-8ac1-000c2943a707</uuidstructure>
+			<datelastmodified>Mon, 04 Jan 2016 13:09:33 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 17 Jun 2015 15:08:16 GMT</datecreated>
+			<datecreated>Mon, 04 Jan 2016 13:09:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -53,10 +53,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>b2144994-1502-11e5-b1d2-000c2943a707</uuidstructure>
-			<datelastmodified>Wed, 17 Jun 2015 15:08:22 GMT</datelastmodified>
+			<uuidstructure>689c00b1-b2e4-11e5-8ac1-000c2943a707</uuidstructure>
+			<datelastmodified>Mon, 04 Jan 2016 13:09:38 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 17 Jun 2015 15:08:22 GMT</datecreated>
+			<datecreated>Mon, 04 Jan 2016 13:09:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -163,7 +163,7 @@
 			<type>plain</type>
 			<uuidstructure>a3698d94-8833-11e3-8675-3b52e9337fb8</uuidstructure>
 			<uuidresource>a3698d95-8833-11e3-8675-3b52e9337fb8</uuidresource>
-			<datelastmodified>Fri, 19 Jun 2015 07:44:07 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Jan 2016 07:41:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 28 Jan 2014 15:48:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -178,7 +178,7 @@
 			<type>plain</type>
 			<uuidstructure>44101660-8d72-11e3-ac70-3b52e9337fb8</uuidstructure>
 			<uuidresource>44101661-8d72-11e3-ac70-3b52e9337fb8</uuidresource>
-			<datelastmodified>Fri, 19 Jun 2015 07:44:08 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Jan 2016 07:41:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 04 Feb 2014 07:59:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -193,7 +193,7 @@
 			<type>plain</type>
 			<uuidstructure>a3732a86-8833-11e3-8675-3b52e9337fb8</uuidstructure>
 			<uuidresource>a3732a87-8833-11e3-8675-3b52e9337fb8</uuidresource>
-			<datelastmodified>Fri, 19 Jun 2015 07:44:08 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Jan 2016 07:41:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 28 Jan 2014 15:48:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -208,7 +208,7 @@
 			<type>plain</type>
 			<uuidstructure>a37af2b8-8833-11e3-8675-3b52e9337fb8</uuidstructure>
 			<uuidresource>a37af2b9-8833-11e3-8675-3b52e9337fb8</uuidresource>
-			<datelastmodified>Fri, 19 Jun 2015 07:44:08 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Jan 2016 07:41:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 28 Jan 2014 15:48:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -223,7 +223,7 @@
 			<type>plain</type>
 			<uuidstructure>43e3d73e-8d72-11e3-ac70-3b52e9337fb8</uuidstructure>
 			<uuidresource>43e3d73f-8d72-11e3-ac70-3b52e9337fb8</uuidresource>
-			<datelastmodified>Fri, 19 Jun 2015 07:44:08 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Jan 2016 07:41:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 04 Feb 2014 07:59:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -238,7 +238,7 @@
 			<type>plain</type>
 			<uuidstructure>a383301a-8833-11e3-8675-3b52e9337fb8</uuidstructure>
 			<uuidresource>a383301b-8833-11e3-8675-3b52e9337fb8</uuidresource>
-			<datelastmodified>Fri, 19 Jun 2015 07:44:09 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Jan 2016 07:41:21 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 28 Jan 2014 15:48:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -354,7 +354,7 @@
 			<type>plain</type>
 			<uuidstructure>a350ae5e-8833-11e3-8675-3b52e9337fb8</uuidstructure>
 			<uuidresource>a350ae5f-8833-11e3-8675-3b52e9337fb8</uuidresource>
-			<datelastmodified>Fri, 19 Jun 2015 07:44:37 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Jan 2016 07:40:29 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 28 Jan 2014 15:48:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -369,7 +369,7 @@
 			<type>plain</type>
 			<uuidstructure>a35b35b0-8833-11e3-8675-3b52e9337fb8</uuidstructure>
 			<uuidresource>a35b35b1-8833-11e3-8675-3b52e9337fb8</uuidresource>
-			<datelastmodified>Fri, 19 Jun 2015 07:44:38 GMT</datelastmodified>
+			<datelastmodified>Wed, 06 Jan 2016 07:40:30 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 28 Jan 2014 15:48:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -392,14 +392,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/jquery-ui/jquery-ui-1.11.1.js</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/jquery-ui/jquery-ui-1.11.1.js</destination>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/jquery-ui/jquery-ui-1.11.4.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/jquery-ui/jquery-ui-1.11.4.js</destination>
 			<type>plain</type>
-			<uuidstructure>43a75658-27a3-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>43a75659-27a3-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Tue, 19 Aug 2014 13:18:09 GMT</datelastmodified>
+			<uuidstructure>8f426d0a-b44b-11e5-ae9a-000c2943a707</uuidstructure>
+			<uuidresource>8f426d0b-b44b-11e5-ae9a-000c2943a707</uuidresource>
+			<datelastmodified>Wed, 06 Jan 2016 08:00:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 19 Aug 2014 13:18:09 GMT</datecreated>
+			<datecreated>Wed, 06 Jan 2016 08:00:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -407,14 +407,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/jquery-ui/jquery-ui-1.11.1.min.js</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/jquery-ui/jquery-ui-1.11.1.min.js</destination>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/jquery-ui/jquery-ui-1.11.4.min.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/jquery-ui/jquery-ui-1.11.4.min.js</destination>
 			<type>plain</type>
-			<uuidstructure>43ba692a-27a3-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>43ba692b-27a3-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Tue, 19 Aug 2014 13:18:09 GMT</datelastmodified>
+			<uuidstructure>8f6892ac-b44b-11e5-ae9a-000c2943a707</uuidstructure>
+			<uuidresource>8f6892ad-b44b-11e5-ae9a-000c2943a707</uuidresource>
+			<datelastmodified>Wed, 06 Jan 2016 08:00:32 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 19 Aug 2014 13:18:09 GMT</datecreated>
+			<datecreated>Wed, 06 Jan 2016 08:00:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -435,14 +435,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.11.1.js</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.11.1.js</destination>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.11.3.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.11.3.js</destination>
 			<type>plain</type>
-			<uuidstructure>2c641884-27a2-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>2c641885-27a2-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Tue, 19 Aug 2014 13:10:21 GMT</datelastmodified>
+			<uuidstructure>4bc88fa6-b44b-11e5-ae9a-000c2943a707</uuidstructure>
+			<uuidresource>4bc88fa7-b44b-11e5-ae9a-000c2943a707</uuidresource>
+			<datelastmodified>Wed, 06 Jan 2016 07:58:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 19 Aug 2014 13:10:21 GMT</datecreated>
+			<datecreated>Wed, 06 Jan 2016 07:58:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -450,14 +450,14 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.11.1.min.js</source>
-			<destination>system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.11.1.min.js</destination>
+			<source>system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.11.3.min.js</source>
+			<destination>system/modules/com.alkacon.bootstrap.basics/resources/jquery/jquery-1.11.3.min.js</destination>
 			<type>plain</type>
-			<uuidstructure>2c702676-27a2-11e4-96d6-005056b61161</uuidstructure>
-			<uuidresource>2c702677-27a2-11e4-96d6-005056b61161</uuidresource>
-			<datelastmodified>Tue, 19 Aug 2014 13:10:21 GMT</datelastmodified>
+			<uuidstructure>4c03eaf8-b44b-11e5-ae9a-000c2943a707</uuidstructure>
+			<uuidresource>4c03eaf9-b44b-11e5-ae9a-000c2943a707</uuidresource>
+			<datelastmodified>Wed, 06 Jan 2016 07:58:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 19 Aug 2014 13:10:21 GMT</datecreated>
+			<datecreated>Wed, 06 Jan 2016 07:58:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

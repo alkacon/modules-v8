@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>andreas</creator>
-		<opencms_version>9.5.2</opencms_version>
-		<createdate>Wed, 17 Jun 2015 14:42:01 GMT</createdate>
+		<creator>Admin</creator>
+		<opencms_version>9.5.3</opencms_version>
+		<createdate>Wed, 06 Jan 2016 09:28:22 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -35,15 +35,15 @@ createUser 'Templator' 'password' 'Sample user with template development permiss
 addUserToGroup 'Templator' 'Users'
 addUserToRole 'Templator' 'DEVELOPER'</import-script>
 		<description><![CDATA[The OpenCms 9 bootstrap template demo contents.]]></description>
-		<version>9.5.2</version>
+		<version>9.5.3</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail/>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="com.alkacon.bootstrap.schemas" version="9.5.1"/>
-			<dependency name="com.alkacon.bootstrap.formatters" version="9.5.1"/>
+			<dependency name="com.alkacon.bootstrap.schemas" version="9.5.3"/>
+			<dependency name="com.alkacon.bootstrap.formatters" version="9.5.3"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
@@ -8542,6 +8542,26 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>release/.content/texts/t_00016.xml</source>
+			<destination>release/.content/texts/t_00016.xml</destination>
+			<type>bs-text</type>
+			<uuidstructure>f158d795-b451-11e5-ae9a-000c2943a707</uuidstructure>
+			<uuidresource>f158d796-b451-11e5-ae9a-000c2943a707</uuidresource>
+			<datelastmodified>Wed, 06 Jan 2016 09:20:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Jan 2016 08:46:13 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 9.5.3: Release Notes for OpenCms 9.5.3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>release/8.0.0-release-notes</destination>
 			<type>folder</type>
 			<uuidstructure>b417bde3-6012-11e4-b7a7-005056b61161</uuidstructure>
@@ -9138,6 +9158,52 @@ addUserToRole 'Templator' 'DEVELOPER'</import-script>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[OpenCms 9.5.2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>release/9.5.3-release-notes</destination>
+			<type>folder</type>
+			<uuidstructure>f1271930-b451-11e5-ae9a-000c2943a707</uuidstructure>
+			<datelastmodified>Wed, 06 Jan 2016 08:46:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Jan 2016 08:46:13 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[70.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[OpenCms 9.5.3]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 9.5.3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>release/9.5.3-release-notes/index.html</source>
+			<destination>release/9.5.3-release-notes/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>f1751228-b451-11e5-ae9a-000c2943a707</uuidstructure>
+			<uuidresource>f1751229-b451-11e5-ae9a-000c2943a707</uuidresource>
+			<datelastmodified>Wed, 06 Jan 2016 08:46:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Jan 2016 08:46:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms 9.5.3]]></value>
 				</property>
 			</properties>
 			<relations/>
