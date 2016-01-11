@@ -2,9 +2,15 @@
 
 <BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
   <BootstrapText language="en">
-    <Headline><![CDATA[Release Notes for OpenCms 9.5.3]]></Headline>
+    <Headline><![CDATA[Release Notes for OpenCms 9.5.3]]></Headline>
     <Text name="Text0">
       <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com/contact/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
+        </link>
         <link name="link2" internal="false" type="A">
           <target><![CDATA[https://github.com/alkacon/opencms-core/pulls]]></target>
         </link>
@@ -12,33 +18,74 @@
           <target><![CDATA[https://github.com/alkacon/opencms-core/issues]]></target>
           <query><![CDATA[state=open]]></query>
         </link>
-        <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://www.alkacon.com/contact/]]></target>
-        </link>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[https://github.com/alkacon/opencms-core]]></target>
-        </link>
       </links>
-      <content><![CDATA[<p>January 16, 2016:&nbsp;OpenCms 9.5.3 is an important update that fixes several issues that persisted in the 9.5.2 release. This version also contains security improvements against XSS attacks.</p>
-<h2>New&nbsp;in OpenCms&nbsp;9.5.3</h2>
+      <content><![CDATA[<p>January 13, 2016: OpenCms 9.5.3 is a maintenance update that fixes several issues that persisted in the 9.5.2 release. Adding a limited number of new features, this version&nbsp;focuses on security&nbsp;and&nbsp;stability.&nbsp;</p>
+<h2>New in OpenCms 9.5.3</h2>
 <ul>
-<li><span class="label label-warning">#</span>&nbsp;Very important new feature</li>
-<li>The WYSIWYG component now uses CodeMirror for&nbsp;source code editing.</li>
-<li>Demo template updated to Bootstrap 3.3.6 and jQuery 1.11.3.&nbsp;</li>
+<li><span class="label label-warning">#</span> Added Java 8 support.</li>
+<li><span class="label label-warning">#</span> Improved the source code editor in WYSIWYG fields.</li>
+<li>Gallery dialog now&nbsp;memorizes the last search result sort order.</li>
+<li>Demo template updated to Bootstrap 3.3.6 and jQuery 1.11.3.</li>
 </ul>
 <p>Items marked with <span class="label label-warning">#</span> are considered important improvements in this version.</p>
-<h2>Improved in&nbsp;OpenCms&nbsp;9.5.3</h2>
+<h2>Improved in OpenCms 9.5.3</h2>
 <ul>
-<li>Updated to latest version of CodeMirror.</li>
-<li>Updated to latest version of TinyMCE.</li>
-<li>New feature 2</li>
+<li>Fixed issue #279 related to Java 8 support.</li>
+<li>Fixed issue #282 with MySQLSyntaxErrorException for DROP DATABASE in setup.sh (pr #346 by gallardo).</li>
+<li>Fixed issue #296 with wrong order of choice elements after XSD change or saving in control code editor (fix by mwxwidmann).</li>
+<li>Fixed issue #321 where download galleries would not show any images.</li>
+<li>Fixed issue #331 where permalinks to resources beneath /shared/ where not generated properly.</li>
+<li>Fixed issue #333 where non VFS documents in Solr indices where not considered in the result size calculation (fix by kartobi).</li>
+<li>Fixed issue #339 where "stylesformat" setting would not always work for TinyMCE widget.</li>
+<li>Fixed issue #340 where the log file viewer failed due to spaces in the web application path.</li>
+<li>Fixed issue #344 where malformed HTML was inserted in direct edit mode.</li>
+<li>Fixed issue #350 where direct editing of collector list content would fail in Firefox&nbsp;41.</li>
+<li>Fixed issue #353 by improving login cookie generation.</li>
+<li>Fixed issue #357 by improving default file name generation.</li>
+<li>Fixed issue #359 where some context menu entries did have the wrong visibility settings.</li>
+<li>Fixed issue #360 where quick search within the category widget failed.</li>
+<li>Fixed issue #365 where link excludes were not considered during link generation.</li>
+<li>Fixed issue #369 where sort by title did not work for images in gallery dialog.</li>
+<li>Pull request #188 adds support for specifying a custom charset for notification mails (pr by t-nasu).</li>
+<li>Pull request #338 fixes issue with sourceSets in Gradle scripts (pr by gallardo).</li>
+<li>Pull request #351 adds support for JPA enhancement of Java 8 classes (pr by gallardo).</li>
+<li>Pull request #354 fixes an issue with NPE in log during shutdown when Solr is disabled (pr by gallardo).</li>
+<li>Pull request #356 fixes another issue with NPE in log during shutdown (pr by gallardo).</li>
+<li>Updated the source code editor to latest version of CodeMirror (5.10).</li>
+<li>Updated the WYSIWYG editor to latest version of TinyMCE (4.3.2).</li>
+<li>Security: Fixed advisory SYSS-2015-063 regarding XSS vulnerabilities in workplace login (reported by SySS GmbH).</li>
+<li>Security: Updated "Commons Collections" dependency to avoid deserialization&nbsp;security issue.</li>
+<li>Security: Fixed several XSS issues, mostly in the demo content.</li>
+<li>Security: Added stronger role checks when users access an editor.</li>
+<li>Solr: Added "decodeUrl" option to Solr collector.</li>
+<li>Solr: Added field-to-containerpage mapping in Solr indexer.</li>
+<li>Solr: Improved Solr shutdown to avoid memory leaks.</li>
+<li>Solr: Fixed URL decoding issue in content collector.</li>
+<li>Solr: Fixed&nbsp;NPE&nbsp;when reading document dependencies while indexing.</li>
+<li>Solr: renamed field/type _cs to _comma to avoid conflict with Czech locale.</li>
+<li>Fixed issue with the login-form property not working correctly for&nbsp;detail pages.</li>
+<li>Fixed issue with editor change handlers not being able to change values of invisible fields.</li>
+<li>Fixed issue where links were invalidated in the content editor and thus became uneditable.</li>
+<li>Fixed issue with&nbsp;pointers&nbsp;/&nbsp;htmlredirects not working for internationalized domain names.</li>
+<li>Fixed issue with type name replacement in module clone dialog.</li>
+<li>Fixed issue where toolbar buttons would become enabled for non editable resources.</li>
+<li>Fixed issue&nbsp;with content editor fields becoming unselectable&nbsp;in IE11.</li>
+<li>Fixed issue with limited Lucene date range queries.</li>
+<li>Fixed issue with widget for selection of organizational units.</li>
+<li>Fixed issue with NPE during formatter selection.</li>
+<li>Fixed issue with&nbsp;NPE&nbsp;during inline editing.</li>
+<li>Fixed issue where users could not be added to a virtual group if&nbsp;already member of a related role.</li>
+<li>Fixed issue&nbsp;with selecting multiple&nbsp;formatters defined in schema.</li>
+<li>Fixed issue with caching of formatter configurations defined in schema.</li>
+<li>Fixed issue with language detection&nbsp;for&nbsp;locales having the same language like en_GB and en_US.</li>
+<li>Fixed issue where import failed due to missing principals.</li>
 </ul>
 <h2>General OpenCms features</h2>
 <ul>
-<li>The page editor allows WYSIWYG&nbsp;inline editing of web pages&nbsp;and arrangement of content by drag &amp; drop.</li>
+<li>The page editor allows WYSIWYG inline editing of web pages and arrangement of content by drag &amp; drop.</li>
 <li>The form based editor allows editing of structured content in a well defined form mask.</li>
 <li>The sitemap editor allows to create new pages and re-arrange the navigation tree by drag &amp; drop.</li>
-<li>Responsive demo&nbsp;template based on Bootstrap 3.</li>
+<li>Responsive demo template based on Bootstrap 3.</li>
 <li>Content creation for mobile devices with preview and device specific content control.</li>
 <li>Structured contents can be defined using a simple XML schema.</li>
 <li>Easy to use "Online / Offline" workflow, changes must be approved before they become visible.</li>
@@ -58,19 +105,19 @@
 <li>... and many more</li>
 </ul>
 <h3>Backward compatibility</h3>
-<p>OpenCms 9.5.3&nbsp;is fully backward compatible with all 8.x&nbsp;and 9.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 9.5.3.</p>
-<p><span class="label label-danger">Notice for users of Alkacon OCEE</span>&nbsp;OpenCms 9.5.3&nbsp;requires a new version of Alkacon OCEE. The&nbsp;update is free for Alkacon customers with a valid OCEE update subscription. <a href="%(link0)" target="_blank">Please contact Alkacon</a>&nbsp;to receive the new version.&nbsp;</p>
+<p>OpenCms 9.5.3 is fully backward compatible with all 8.x and 9.x versions. Templates and other OpenCms developed code from these versions should work "out of the box" with version 9.5.3.</p>
+<p><span class="label label-danger">Notice for users of Alkacon OCEE</span> OpenCms 9.5.3 requires a new version of Alkacon OCEE. The update is free for Alkacon customers with a valid OCEE update subscription. <a href="%(link0)" target="_blank">Please contact Alkacon</a> to receive the new version.</p>
 <h3>Compatibility with Java versions, servlet containers and databases</h3>
-<p>OpenCms 9.5.3&nbsp;has been written and tested for Java 6, 7 and 8. We have tested with ORACLEs JDK as well as OpenJDK. OpenCms should run with all compliant JVMs.</p>
-<p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin Professional.</p>
-<p>On the database side, we have tested with MySQL, Oracle, PostgreSQL, MS SQL Server, DB2 and HSQLDB.</p>
+<p>OpenCms 9.5.3 has been written and tested for Java 6, 7 and 8. We have tested with ORACLEs JDK as well as OpenJDK. OpenCms should run with all compliant JVMs.</p>
+<p>We have tested this release on the Tomcat servlet engine. OpenCms works "out of the box" with Tomcat 7 and 8, which we recommend. Others have reported deploying OpenCms successfully on other servlet containers like JBoss, BEA, Websphere, Glassfish and Resin.</p>
+<p>On the database side, we have tested with MySQL, MariaDB, Oracle, PostgreSQL, MS SQL Server, DB2 and HSQLDB.</p>
 <h3>Regarding version numbers and build tags</h3>
-<p>The main OpenCms Git repository is available on Github at&nbsp;<a href="%(link1)" target="_blank">github.com/alkacon/opencms-core</a>.</p>
-<p>In case you want to get the most current OpenCms 9.5.3&nbsp;sources from Git, please check out <span class="label label-info">branch_9_5_x</span>. The 9.5.3&nbsp;release is tagged <span class="label label-info">build_9_5_3</span>.</p>
+<p>The main OpenCms Git repository is available on Github at <a href="%(link1)" target="_blank">github.com/alkacon/opencms-core</a>.</p>
+<p>In case you want to get the most current OpenCms 9.5 sources from Git, please check out <span class="label label-info">branch_9_5_x</span>. The 9.5.3 release is tagged <span class="label label-info">build_9_5_3</span>.</p>
 <h3>How you can help</h3>
 <p>Contributions to the OpenCms core development are most welcome. <a href="%(link2)" target="_blank">Please send us your pull requests directly on GitHub.</a></p>
-<p>Please report issues found in OpenCms using&nbsp;<a href="%(link3)" target="_blank">our GitHub issue tracker</a>.</p>
-<p>Thank you for using OpenCms and have fun with OpenCms 9.5.3&nbsp;:-)</p>]]></content>
+<p>Please report issues found in OpenCms using <a href="%(link3)" target="_blank">our GitHub issue tracker</a>.</p>
+<p>Thank you for using OpenCms and have fun with OpenCms 9.5.3 :-)</p>]]></content>
     </Text>
   </BootstrapText>
 </BootstrapTexts>
