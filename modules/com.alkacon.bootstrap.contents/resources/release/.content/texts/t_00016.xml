@@ -31,7 +31,7 @@
 <h2>Improved in OpenCms 9.5.3</h2>
 <ul>
 <li>Fixed issue #231 where lower case SQL statements failed on MSSQL DBs.</li>
-<li>Fixed issue #240/#307 where invalid dates where not handled properly by the content editor.</li>
+<li>Fixed issue #240/#307 where invalid dates were not handled properly by the content editor.</li>
 <li>Fixed issue #279 related to Java 8 support.</li>
 <li>Fixed issue #282 with MySQLSyntaxErrorException for DROP DATABASE in setup.sh (pr #346 by gallardo).</li>
 <li>Fixed issue #296 with wrong order of choice elements after XSD change or saving in control code editor (fix by mwxwidmann).</li>
