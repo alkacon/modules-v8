@@ -23,7 +23,7 @@
  *
  * For further information about OpenCms, please see the
  * project website: http://www.opencms.org
- * 
+ *
  * You should have received a copy of the GNU Lesser General Public
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
@@ -81,14 +81,14 @@ import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.SuggestOracle;
 import com.google.gwt.user.client.ui.SuggestOracle.Suggestion;
 
-/** 
+/**
  * Search controller containing the client side search logic.<p>
  */
 public class CmsSearchController {
 
     /**
      * A map comparator.<p>
-     * 
+     *
      * This comparator imposes orderings that are inconsistent with equals.<p>
      */
     protected class ValueComparator implements Comparator<String> {
@@ -98,7 +98,7 @@ public class CmsSearchController {
 
         /**
          * Constructor.<p>
-         * 
+         *
          * @param base the map base
          */
         public ValueComparator(Map<String, Integer> base) {
@@ -108,7 +108,7 @@ public class CmsSearchController {
 
         /**
          * Note: this comparator imposes orderings that are inconsistent with equals.
-         * 
+         *
          * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
          */
         public int compare(String a, String b) {
@@ -137,7 +137,7 @@ public class CmsSearchController {
 
         /**
          * Public constructor with parameters.<p>
-         * 
+         *
          * @param config the Search configuration
          * @param context the Search context
          */
@@ -152,13 +152,15 @@ public class CmsSearchController {
          */
         public void onValueChange(ValueChangeEvent<String> event) {
 
-            if (event.getValue().equals(m_lastQuery) || event.getValue().equals(m_forwardQuery)) {
-                CmsSearchQueryData data = createSearchData(m_searchConfig, m_searchContext, event.getValue());
-                if (data.hasSelection()) {
-                    m_forwardQuery = CmsSearchQueryData.shortQuery(m_searchData.createQueryString(isTitle()));
-                    doSearch(data, false);
-                }
-            }
+            // excluded this code, because it could cause infinite reloading loops in firefox when searching for words with umlauts.
+            
+            //            if (event.getValue().equals(m_lastQuery) || event.getValue().equals(m_forwardQuery)) {
+            //                CmsSearchQueryData data = createSearchData(m_searchConfig, m_searchContext, event.getValue());
+            //                if (data.hasSelection()) {
+            //                    m_forwardQuery = CmsSearchQueryData.shortQuery(m_searchData.createQueryString(isTitle()));
+            //                    doSearch(data, false);
+            //                }
+            //            }
         }
     }
 
@@ -206,7 +208,7 @@ public class CmsSearchController {
 
     /**
      * Creates a controller.<p>
-     * 
+     *
      * @param config the configuration
      * @param context the context
      */
@@ -230,11 +232,11 @@ public class CmsSearchController {
 
     /**
      * Creates a search data object.<p>
-     * 
+     *
      * @param config the configuration
      * @param context the context
      * @param queryString the optional query
-     * 
+     *
      * @return the search data object
      */
     protected static CmsSearchQueryData createSearchData(
@@ -292,7 +294,7 @@ public class CmsSearchController {
 
     /**
      * Executes the Search search for auto completion.<p>
-     * 
+     *
      * @param widgetToUpdate the name of the widget to update
       */
     public void doAutoComplete(final String widgetToUpdate) {
@@ -314,7 +316,7 @@ public class CmsSearchController {
 
     /**
      * Caller method.<p>
-     * 
+     *
      * @param clearParams <code>true</code> if params should be cleared
      */
     public void doSearch(boolean clearParams) {
@@ -324,8 +326,8 @@ public class CmsSearchController {
 
     /**
      * Calls the Search server to do the search.<p>
-     * 
-     * @param data a optinal data object 
+     *
+     * @param data a optinal data object
      * @param clearParameters flag to clear all additional search parameters and facet filters
      */
     public void doSearch(CmsSearchQueryData data, boolean clearParameters) {
@@ -371,9 +373,9 @@ public class CmsSearchController {
 
     /**
      * Caller method.<p>
-     * 
+     *
      * @param textq the textual query
-     * @param delay the delay in ms 
+     * @param delay the delay in ms
      */
     public void doSearch(final String textq, int delay) {
 
@@ -401,7 +403,7 @@ public class CmsSearchController {
 
     /**
      * Executes the Search search for auto completion.<p>
-     * 
+     *
      * @param request the suggestion request
      * @param callback the suggestion callback to execute
      * @param widget a widget to update
@@ -442,7 +444,7 @@ public class CmsSearchController {
 
     /**
      * Returns the context.<p>
-     * 
+     *
      * @return the context
      */
     public CmsSearchContext getContext() {
@@ -452,7 +454,7 @@ public class CmsSearchController {
 
     /**
      * Generates the link that can be shared.<p>
-     * 
+     *
      * @return the share link
      */
     public String getLinkToShare() {
@@ -487,7 +489,7 @@ public class CmsSearchController {
 
     /**
      * The last suggestions.<p>
-     * 
+     *
      * @return the last suggestions
      */
     public TreeMap<String, Integer> getSuggestions() {
@@ -507,9 +509,9 @@ public class CmsSearchController {
 
     /**
      * Returns the widget configuration for the given type.<p>
-     * 
+     *
      * @param type the type to get the configuration for
-     * 
+     *
      * @return the configuration for the given widget type
      */
     public CmsWidgetConfig getWidgetConfig(WIDGET_TYPES type) {
@@ -573,7 +575,7 @@ public class CmsSearchController {
 
     /**
      * Registers a search widget.<p>
-     * 
+     *
      * @param name the name for the widget
      * @param widget the widget
      */
@@ -584,7 +586,7 @@ public class CmsSearchController {
 
     /**
      * Shows the loading animation.<p>
-     * 
+     *
      * @param delay the delay
      */
     public void showLoading(int delay) {
@@ -610,7 +612,7 @@ public class CmsSearchController {
 
     /**
      * Executes the auto completion.<p>
-     * 
+     *
      * @param widgetToUpdate the widget to update
      */
     protected void executeAutoCompletion(final String widgetToUpdate) {
@@ -632,7 +634,7 @@ public class CmsSearchController {
 
     /**
      * Executes the auto completion.<p>
-     * 
+     *
      * @param request the suggestion request
      * @param callback the suggestion callback to execute
      * @param widget a widget to update
@@ -684,7 +686,7 @@ public class CmsSearchController {
 
     /**
      * Returns true if a title search has been executed.<p>
-     * 
+     *
      * @return true if a title search has been executed
      */
     protected boolean isTitle() {
@@ -716,7 +718,7 @@ public class CmsSearchController {
 
     /**
      * Processes the JSON result.<p>
-     * 
+     *
      * @param request the suggestion request
      * @param callback the suggestion callback to execute
      * @param object the JSON object to parse
@@ -827,8 +829,8 @@ public class CmsSearchController {
      * Processes the received JSON Object to create a list of result objects.<p>
      *
      * @param jsonSearchResult result received
-     * 
-     * @return CmsSearchDocumentList 
+     *
+     * @return CmsSearchDocumentList
      */
     protected CmsSearchDocumentList processSearch(JSONObject jsonSearchResult) {
 
@@ -1050,9 +1052,9 @@ public class CmsSearchController {
 
     /**
      * Converts the given JSON object to facet beans.<p>
-     * 
+     *
      * @param joFacetFields the JSON
-     * 
+     *
      * @return facet beans
      */
     protected Map<String, List<CmsSearchFacet>> toFacetBeans(JSONObject joFacetFields) {
@@ -1158,8 +1160,8 @@ public class CmsSearchController {
     /**
      * Calls the given url as JSONP request and executes the given callback
      * with the resulting Json Object as parameter.<p>
-     * 
-     * @param requestUrl the URL to use for auto completion 
+     *
+     * @param requestUrl the URL to use for auto completion
      * @param callback the callback to execute on success
      */
     private void sendJsonpRequest(final String requestUrl, final I_CmsSearchJsonCommand callback) {
@@ -1181,8 +1183,8 @@ public class CmsSearchController {
     /**
      * Calls the given url as JSON request and executes the given callback
      * with the resulting JSON Object as parameter.<p>
-     * 
-     * @param requestUrl the URL to use for auto completion 
+     *
+     * @param requestUrl the URL to use for auto completion
      * @param callback the callback to execute on success
      */
     private void sendJsonRequest(final String requestUrl, final I_CmsSearchJsonCommand callback) {
@@ -1219,7 +1221,7 @@ public class CmsSearchController {
 
     /**
      * Sends a asynchronous JSON request.<p>
-     * 
+     *
      * @param url the url to request
      * @param callback the callback executed on success
      */
